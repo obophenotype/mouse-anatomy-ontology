@@ -1,6 +1,3 @@
+## Welcome to emapa
 
-Welcome to emapa
-
-For more details see:
-
-See http://code.google.com/p/emapa-ontology/
+This repository is still in transition - check back later!
