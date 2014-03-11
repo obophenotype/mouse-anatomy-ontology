@@ -48,6 +48,7 @@ comment: order=33 for EMAPA:25765
 relationship: ends_at TS03 ! TS03
 relationship: part_of EMAPA:25765 ! mouse
 relationship: starts_at TS01 ! TS01
+is_obsolete: true
 
 [Term]
 id: EMAPA:16036
@@ -167,6 +168,7 @@ comment: order=17 for EMAPA:16042
 relationship: ends_at TS04 ! TS04
 relationship: part_of EMAPA:16042 ! extraembryonic component
 relationship: starts_at TS04 ! TS04
+is_obsolete: true
 
 [Term]
 id: EMAPA:16050
