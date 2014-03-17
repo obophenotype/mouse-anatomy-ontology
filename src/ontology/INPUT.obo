@@ -51563,8 +51563,6 @@ relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16103 ! organ system
 relationship: part_of EMAPA:25765 ! mouse
 relationship: starts_at TS17 ! TS17
-created_by: terryh
-creation_date: 2014-03-17T10:52:27Z
 
 [Term]
 id: group_term
