@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 17:03:2014 12:41
-saved-by: Mike Wicks
-auto-generated-by: Main4ExtractAndWriteOBOFromExistingDatabase.java
+date: 17:03:2014 10:56
+saved-by: terryh
+auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
 remark: Version 011
 
@@ -7886,8 +7886,10 @@ id: EMAPA:16894
 name: brain
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16470.
+is_a: EMAPA:35100 ! organ
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16470 ! central nervous system
+relationship: part_of EMAPA:31858 ! head
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -51554,6 +51556,17 @@ relationship: part_of EMAPA:17950 ! ureter
 relationship: starts_at TS26 ! TS26
 
 [Term]
+id: EMAPA:35100
+name: organ
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16103 ! organ system
+relationship: part_of EMAPA:25765 ! mouse
+relationship: starts_at TS17 ! TS17
+created_by: terryh
+creation_date: 2014-03-17T10:52:27Z
+
+[Term]
 id: group_term
 name: Group term
 
@@ -51734,7 +51747,6 @@ id: TS:0
 name: Theiler stage
 namespace: theiler_stage
 
-
 [Typedef]
 id: attached_to
 name: attached_to
@@ -51774,3 +51786,4 @@ is_transitive: true
 [Typedef]
 id: starts_at
 name: starts_at
+
