@@ -51556,13 +51556,13 @@ relationship: part_of EMAPA:17950 ! ureter
 relationship: starts_at TS26 ! TS26
 
 [Term]
-id: EMAPA:35100
+id: EMAPA:35949
 name: organ
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16103 ! organ system
 relationship: part_of EMAPA:25765 ! mouse
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS11 ! TS11
 
 [Term]
 id: group_term
