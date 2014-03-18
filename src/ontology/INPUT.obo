@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 18:03:2014 13:30
+date: 18:03:2014 14:41
 saved-by: jarm
 auto-generated-by: OBO-Edit 2.3-beta5
 default-namespace: mouse_ontology
@@ -45644,6 +45644,7 @@ id: EMAPA:30873
 name: urothelium of primitive bladder
 namespace: anatomical_structure
 comment: order=1 for EMAPA:30870.
+synonym: "epithelium of primitive bladder" RELATED []
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:30870 ! primitive bladder
 relationship: starts_at TS20 ! TS20
