@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 18:03:2014 14:41
+date: 18:03:2014 14:56
 saved-by: jarm
 auto-generated-by: OBO-Edit 2.3-beta5
 default-namespace: mouse_ontology
@@ -12209,7 +12209,7 @@ id: EMAPA:17379
 name: urogenital sinus
 namespace: anatomical_structure
 comment: order=26 for EMAPA:17366.
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS19 ! TS19
 
