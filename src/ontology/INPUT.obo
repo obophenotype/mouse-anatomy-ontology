@@ -7886,7 +7886,7 @@ id: EMAPA:16894
 name: brain
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16470.
-is_a: EMAPA:35100 ! organ
+is_a: EMAPA:35949 ! organ
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16470 ! central nervous system
 relationship: part_of EMAPA:31858 ! head
