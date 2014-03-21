@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 17:03:2014 12:41
-saved-by: Mike Wicks
-auto-generated-by: Main4ExtractAndWriteOBOFromExistingDatabase.java
+date: 21:03:2014 09:16
+saved-by: mwicks
+auto-generated-by: OBO-Edit 2.3
 default-namespace: mouse_ontology
 remark: Version 011
 
@@ -51734,7 +51734,6 @@ id: TS:0
 name: Theiler stage
 namespace: theiler_stage
 
-
 [Typedef]
 id: attached_to
 name: attached_to
@@ -51774,3 +51773,4 @@ is_transitive: true
 [Typedef]
 id: starts_at
 name: starts_at
+
