@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 20:03:2014 15:13
-saved-by: jarm
-auto-generated-by: OBO-Edit 2.3-beta5
+date: 17:03:2014 12:41
+saved-by: Mike Wicks
+auto-generated-by: Main4ExtractAndWriteOBOFromExistingDatabase.java
 default-namespace: mouse_ontology
 remark: Version 011
 
@@ -7886,10 +7886,8 @@ id: EMAPA:16894
 name: brain
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16470.
-is_a: EMAPA:35949 ! organ
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16470 ! central nervous system
-relationship: part_of EMAPA:31858 ! head
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -12209,7 +12207,7 @@ id: EMAPA:17379
 name: urogenital sinus
 namespace: anatomical_structure
 comment: order=26 for EMAPA:17366.
-relationship: ends_at TS21 ! TS21
+relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS19 ! TS19
 
@@ -45634,7 +45632,6 @@ id: EMAPA:30870
 name: primitive bladder
 namespace: anatomical_structure
 comment: order=4 for EMAPA:17379.
-synonym: "bladder" RELATED []
 synonym: "cranial urogenital sinus" RELATED []
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17379 ! urogenital sinus
@@ -45642,10 +45639,9 @@ relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:30873
-name: urothelium of primitive bladder
+name: epithelial layer of primitive bladder
 namespace: anatomical_structure
 comment: order=1 for EMAPA:30870.
-synonym: "epithelium of primitive bladder" RELATED []
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:30870 ! primitive bladder
 relationship: starts_at TS20 ! TS20
@@ -51558,15 +51554,6 @@ relationship: part_of EMAPA:17950 ! ureter
 relationship: starts_at TS26 ! TS26
 
 [Term]
-id: EMAPA:35949
-name: organ
-namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16103 ! organ system
-relationship: part_of EMAPA:25765 ! mouse
-relationship: starts_at TS11 ! TS11
-
-[Term]
 id: group_term
 name: Group term
 
@@ -51747,6 +51734,7 @@ id: TS:0
 name: Theiler stage
 namespace: theiler_stage
 
+
 [Typedef]
 id: attached_to
 name: attached_to
@@ -51786,4 +51774,3 @@ is_transitive: true
 [Typedef]
 id: starts_at
 name: starts_at
-
