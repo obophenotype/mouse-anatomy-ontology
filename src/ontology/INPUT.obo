@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 03:04:2014 10:18
-saved-by: Mike Wicks
-auto-generated-by: Main4ExtractAndWriteOBOFromExistingDatabase.java
+date: 09:04:2014 10:43
+saved-by: terryh
+auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
 remark: Version 012
 
@@ -622,8 +622,7 @@ id: EMAPA:16098
 name: head mesenchyme
 namespace: anatomical_structure
 comment: order=6 for EMAPA:31858.
-is_a: EMAPA:35961 ! embryo mesenchyme
-relationship: ends_at TS28 ! TS28
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:31858 ! head
 relationship: starts_at TS11 ! TS11
 
@@ -25477,7 +25476,7 @@ id: EMAPA:18839
 name: pharynx skeleton
 namespace: anatomical_structure
 comment: order=8 for EMAPA:18838.
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18838 ! pharynx
 relationship: starts_at TS24 ! TS24
 
@@ -28946,6 +28945,7 @@ id: EMAPA:19269
 name: pharynx pretracheal muscle
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18963.
+is_a: EMAPA:25142 ! pre-tracheal muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18963 ! pharynx skeletal muscle
 relationship: starts_at TS26 ! TS26
@@ -28983,9 +28983,7 @@ name: thyrohyoid
 namespace: anatomical_structure
 alt_id: EMAPA:25143
 comment: order=10 for EMAPA:18171.\norder=3 for EMAPA:19269.
-is_a: EMAPA:25142 ! pre-tracheal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18171 ! cranial musculature
 relationship: part_of EMAPA:19269 ! pharynx pretracheal muscle
 relationship: starts_at TS26 ! TS26
 
@@ -51560,7 +51558,7 @@ comment: order=2 for EMAPA:17213.
 is_a: EMAPA:35949 ! organ
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17213 ! skeleton
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:32783
@@ -53574,7 +53572,7 @@ comment: order=0 for EMAPA:35251.
 synonym: "fat" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35251 ! connective tissue
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35113
@@ -54762,7 +54760,7 @@ comment: order=7 for EMAPA:17681.
 is_a: EMAPA:35996 ! head bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17681 ! chondrocranium
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35239
@@ -55590,7 +55588,7 @@ comment: order=1 for EMAPA:35329.
 is_a: EMAPA:18425 ! gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35329 ! exocrine system
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35328
@@ -55609,7 +55607,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:16103.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16103 ! organ system
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35330
@@ -61863,7 +61861,7 @@ comment: order=5 for EMAPA:31858.
 is_a: EMAPA:32782 ! bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31858 ! head
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35997
@@ -62299,7 +62297,6 @@ id: TS:0
 name: Theiler stage
 namespace: theiler_stage
 
-
 [Typedef]
 id: attached_to
 name: attached_to
@@ -62339,3 +62336,4 @@ is_transitive: true
 [Typedef]
 id: starts_at
 name: starts_at
+
