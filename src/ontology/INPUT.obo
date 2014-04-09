@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 09:04:2014 10:43
+date: 09:04:2014 16:23
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
@@ -11529,31 +11529,32 @@ relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:17242
-name: arm
+name: future arm
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16406.
+synonym: "proximal part of forelimb bud" RELATED []
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16406 ! forelimb bud
 relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:17243
-name: arm ectoderm
+name: future arm ectoderm
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16407.\norder=0 for EMAPA:17242.
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16407 ! forelimb bud ectoderm
-relationship: part_of EMAPA:17242 ! arm
+relationship: part_of EMAPA:17242 ! future arm
 relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:17244
-name: arm mesenchyme
+name: future arm mesenchyme
 namespace: anatomical_structure
 comment: order=1 for EMAPA:17242.
 is_a: EMAPA:16408 ! forelimb bud mesenchyme
 relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:17242 ! arm
+relationship: part_of EMAPA:17242 ! future arm
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -11561,6 +11562,7 @@ id: EMAPA:17245
 name: handplate
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16406.
+synonym: "distal part of forelimb bud" RELATED []
 synonym: "hand plate" RELATED []
 is_a: EMAPA:32722 ! autopod
 relationship: ends_at TS19 ! TS19
@@ -11602,6 +11604,7 @@ id: EMAPA:17249
 name: footplate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16779.
+synonym: "distal part of hindlimb bud" RELATED []
 synonym: "foot plate" RELATED []
 is_a: EMAPA:32722 ! autopod
 relationship: ends_at TS19 ! TS19
@@ -11639,31 +11642,32 @@ relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:17253
-name: leg
+name: future leg
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16779.
+synonym: "proximal part of hindlimb bud" RELATED []
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16779 ! hindlimb bud
 relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:17254
-name: leg ectoderm
+name: future leg ectoderm
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16780.\norder=0 for EMAPA:17253.
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16780 ! hindlimb bud ectoderm
-relationship: part_of EMAPA:17253 ! leg
+relationship: part_of EMAPA:17253 ! future leg
 relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:17255
-name: leg mesenchyme
+name: future leg mesenchyme
 namespace: anatomical_structure
 comment: order=1 for EMAPA:17253.
 is_a: EMAPA:16781 ! hindlimb bud mesenchyme
 relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:17253 ! leg
+relationship: part_of EMAPA:17253 ! future leg
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -62115,6 +62119,14 @@ comment: order=1 for EMAPA:36021.
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:36021 ! vitelline vein
 relationship: starts_at TS13 ! TS13
+
+[Term]
+id: EMAPA:36024
+name: future telencephalon
+namespace: anatomical_structure
+relationship: ends_at TS14 ! TS14
+relationship: part_of EMAPA:16512 ! prosencephalon
+relationship: starts_at TS14 ! TS14
 
 [Term]
 id: group_term
