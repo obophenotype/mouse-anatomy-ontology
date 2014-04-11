@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 09:04:2014 16:23
-saved-by: terryh
-auto-generated-by: OBO-Edit 2.2
+date: 11:04:2014 16:36
+saved-by: jarm
+auto-generated-by: OBO-Edit 2.3-beta5
 default-namespace: mouse_ontology
 remark: Version 012
 
@@ -29057,15 +29057,6 @@ relationship: part_of EMAPA:28491 ! mature nephron
 relationship: starts_at TS25 ! TS25
 
 [Term]
-id: EMAPA:19284
-name: primary follicle
-namespace: anatomical_structure
-comment: order=6 for EMAPA:17962.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17962 ! ovary
-relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:19285
 name: male accessory gland
 namespace: anatomical_structure
@@ -44293,7 +44284,7 @@ name: primary oocyte of primary follicle
 namespace: anatomical_structure
 comment: order=0 for EMAPA:19284.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19284 ! primary follicle
+relationship: part_of EMAPA:35631 ! ovary primary follicle
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -44303,7 +44294,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:19284.
 synonym: "granulosa cell of primary follicle" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19284 ! primary follicle
+relationship: part_of EMAPA:35631 ! ovary primary follicle
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -45553,22 +45544,12 @@ relationship: part_of EMAPA:18988 ! glans penis
 relationship: starts_at TS28 ! TS28
 
 [Term]
-id: EMAPA:29862
-name: secondary follicle
-namespace: anatomical_structure
-comment: order=7 for EMAPA:17962.
-synonym: "antral follicle" RELATED []
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17962 ! ovary
-relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:29864
 name: oocyte of secondary follicle
 namespace: anatomical_structure
 comment: order=0 for EMAPA:29862.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:29862 ! secondary follicle
+relationship: part_of EMAPA:35632 ! ovary secondary follicle
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -45578,7 +45559,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:29862.
 synonym: "granulosa cell of secondary follicle" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:29862 ! secondary follicle
+relationship: part_of EMAPA:35632 ! ovary secondary follicle
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -45605,7 +45586,7 @@ name: theca of secondary follicle
 namespace: anatomical_structure
 comment: order=2 for EMAPA:29862.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:29862 ! secondary follicle
+relationship: part_of EMAPA:35632 ! ovary secondary follicle
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -45614,6 +45595,7 @@ name: atretic follicle
 namespace: anatomical_structure
 comment: order=12 for EMAPA:17962.
 relationship: ends_at TS28 ! TS28
+relationship: is_a EMAPA:35627 ! ovary follicle
 relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS28 ! TS28
 
@@ -45638,11 +45620,12 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:29880
-name: ruptured follicle
+name: ovary ruptured follicle
 namespace: anatomical_structure
 comment: order=10 for EMAPA:17962.
 synonym: "ovulated follicle" RELATED []
 relationship: ends_at TS28 ! TS28
+relationship: is_a EMAPA:35627 ! ovary follicle
 relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS28 ! TS28
 
@@ -45652,7 +45635,7 @@ name: theca of ruptured follicle
 namespace: anatomical_structure
 comment: order=2 for EMAPA:29880.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:29880 ! ruptured follicle
+relationship: part_of EMAPA:29880 ! ovary ruptured follicle
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -45662,7 +45645,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:29880.
 synonym: "granulosa" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:29880 ! ruptured follicle
+relationship: part_of EMAPA:29880 ! ovary ruptured follicle
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -46853,10 +46836,11 @@ relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:30755
-name: primordial follicle
+name: ovary primordial follicle
 namespace: anatomical_structure
 comment: order=5 for EMAPA:17962.
 relationship: ends_at TS28 ! TS28
+relationship: is_a EMAPA:35627 ! ovary follicle
 relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS27 ! TS27
 
@@ -46866,16 +46850,17 @@ name: oocyte of primordial follicle
 namespace: anatomical_structure
 comment: order=0 for EMAPA:30755.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:30755 ! primordial follicle
+relationship: part_of EMAPA:30755 ! ovary primordial follicle
 relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:30763
-name: tertiary follicle
+name: ovary tertiary follicle
 namespace: anatomical_structure
 comment: order=8 for EMAPA:17962.
 synonym: "antral follicle" RELATED []
 relationship: ends_at TS28 ! TS28
+relationship: is_a EMAPA:35627 ! ovary follicle
 relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS28 ! TS28
 
@@ -46885,7 +46870,7 @@ name: oocyte of tertiary follicle
 namespace: anatomical_structure
 comment: order=0 for EMAPA:30763.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:30763 ! tertiary follicle
+relationship: part_of EMAPA:30763 ! ovary tertiary follicle
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -46895,7 +46880,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:30763.
 synonym: "granulosa cell of tertiary follicle" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:30763 ! tertiary follicle
+relationship: part_of EMAPA:30763 ! ovary tertiary follicle
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -46904,7 +46889,7 @@ name: theca of tertiary follicle
 namespace: anatomical_structure
 comment: order=3 for EMAPA:30763.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:30763 ! tertiary follicle
+relationship: part_of EMAPA:30763 ! ovary tertiary follicle
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -46913,7 +46898,7 @@ name: antrum of tertiary follicle
 namespace: anatomical_structure
 comment: order=2 for EMAPA:30763.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:30763 ! tertiary follicle
+relationship: part_of EMAPA:30763 ! ovary tertiary follicle
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -46941,6 +46926,7 @@ namespace: anatomical_structure
 comment: order=9 for EMAPA:17962.
 synonym: "pre-ovulatory follicle" RELATED []
 relationship: ends_at TS28 ! TS28
+relationship: is_a EMAPA:35627 ! ovary follicle
 relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS28 ! TS28
 
@@ -47867,7 +47853,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:30755.
 synonym: "granulosa cell" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:30755 ! primordial follicle
+relationship: part_of EMAPA:30755 ! ovary primordial follicle
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -47894,7 +47880,7 @@ name: granulosa of ruptured follicle
 namespace: anatomical_structure
 comment: order=1 for EMAPA:29880.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:29880 ! ruptured follicle
+relationship: part_of EMAPA:29880 ! ovary ruptured follicle
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -58379,7 +58365,8 @@ name: ovary antral follicle
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35627.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35627 ! ovary follicle
+relationship: is_a EMAPA:35627 ! ovary follicle
+relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -58399,7 +58386,7 @@ comment: order=20 for EMAPA:17962.
 synonym: "ovarian follicle" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17962 ! ovary
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35628
@@ -58407,7 +58394,7 @@ name: ovary growing follicle
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35627.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35627 ! ovary follicle
+relationship: is_a EMAPA:35627 ! ovary follicle
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -58416,7 +58403,8 @@ name: ovary mature follicle
 namespace: anatomical_structure
 comment: order=2 for EMAPA:35627.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35627 ! ovary follicle
+relationship: is_a EMAPA:35627 ! ovary follicle
+relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -58425,25 +58413,33 @@ name: ovary preantral follicle
 namespace: anatomical_structure
 comment: order=3 for EMAPA:35627.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35627 ! ovary follicle
+relationship: is_a EMAPA:35627 ! ovary follicle
+relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:35631
 name: ovary primary follicle
 namespace: anatomical_structure
-comment: order=4 for EMAPA:35627.
+alt_id: EMAPA:19284
+comment: MERGED COMMENT:\nTARGET COMMENT: order=4 for EMAPA:35627.\n--------------------\nSOURCE COMMENT: order=6 for EMAPA:17962.
+synonym: "primary follicle" EXACT []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35627 ! ovary follicle
+relationship: is_a EMAPA:35627 ! ovary follicle
+relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:35632
 name: ovary secondary follicle
 namespace: anatomical_structure
-comment: order=5 for EMAPA:35627.
+alt_id: EMAPA:29862
+comment: MERGED COMMENT:\nTARGET COMMENT: order=5 for EMAPA:35627.\n--------------------\nSOURCE COMMENT: order=7 for EMAPA:17962.
+synonym: "antral follicle" RELATED []
+synonym: "secondary follicle" EXACT []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35627 ! ovary follicle
+relationship: is_a EMAPA:35627 ! ovary follicle
+relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -58452,7 +58448,7 @@ name: ovary stratum granulosum
 namespace: anatomical_structure
 comment: order=6 for EMAPA:35627.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35627 ! ovary follicle
+relationship: is_a EMAPA:35627 ! ovary follicle
 relationship: starts_at TS28 ! TS28
 
 [Term]
