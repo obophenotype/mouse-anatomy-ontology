@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 11:04:2014 16:36
-saved-by: jarm
-auto-generated-by: OBO-Edit 2.3-beta5
+date: 16:04:2014 16:19
+saved-by: terryh
+auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
 remark: Version 012
 
@@ -17159,7 +17159,8 @@ id: EMAPA:17844
 name: eye skeletal muscle
 namespace: anatomical_structure
 comment: order=12 for EMAPA:16198.
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:35335 ! eye muscle
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
 relationship: starts_at TS21 ! TS21
 
@@ -20531,8 +20532,10 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18234
 name: extrinsic ocular muscle
 namespace: anatomical_structure
+alt_id: EMAPA:35333
 comment: order=0 for EMAPA:17844.
-relationship: ends_at TS26 ! TS26
+synonym: "extraocular skeletal muscle" EXACT []
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17844 ! eye skeletal muscle
 relationship: starts_at TS22 ! TS22
 
@@ -25178,6 +25181,7 @@ name: eye smooth muscle
 namespace: anatomical_structure
 comment: order=13 for EMAPA:16198.
 is_a: EMAPA:32717 ! smooth muscle tissue
+is_a: EMAPA:35335 ! eye muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
 relationship: starts_at TS25 ! TS25
@@ -25188,7 +25192,7 @@ name: intrinsic ocular muscle
 namespace: anatomical_structure
 comment: order=19 for EMAPA:16198.
 is_a: EMAPA:18807 ! eye smooth muscle
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
 relationship: starts_at TS25 ! TS25
 
@@ -45594,8 +45598,8 @@ id: EMAPA:29874
 name: atretic follicle
 namespace: anatomical_structure
 comment: order=12 for EMAPA:17962.
+is_a: EMAPA:35627 ! ovary follicle
 relationship: ends_at TS28 ! TS28
-relationship: is_a EMAPA:35627 ! ovary follicle
 relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS28 ! TS28
 
@@ -45624,8 +45628,8 @@ name: ovary ruptured follicle
 namespace: anatomical_structure
 comment: order=10 for EMAPA:17962.
 synonym: "ovulated follicle" RELATED []
+is_a: EMAPA:35627 ! ovary follicle
 relationship: ends_at TS28 ! TS28
-relationship: is_a EMAPA:35627 ! ovary follicle
 relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS28 ! TS28
 
@@ -46839,8 +46843,8 @@ id: EMAPA:30755
 name: ovary primordial follicle
 namespace: anatomical_structure
 comment: order=5 for EMAPA:17962.
+is_a: EMAPA:35627 ! ovary follicle
 relationship: ends_at TS28 ! TS28
-relationship: is_a EMAPA:35627 ! ovary follicle
 relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS27 ! TS27
 
@@ -46859,8 +46863,8 @@ name: ovary tertiary follicle
 namespace: anatomical_structure
 comment: order=8 for EMAPA:17962.
 synonym: "antral follicle" RELATED []
+is_a: EMAPA:35627 ! ovary follicle
 relationship: ends_at TS28 ! TS28
-relationship: is_a EMAPA:35627 ! ovary follicle
 relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS28 ! TS28
 
@@ -46925,8 +46929,8 @@ name: Graafian follicle
 namespace: anatomical_structure
 comment: order=9 for EMAPA:17962.
 synonym: "pre-ovulatory follicle" RELATED []
+is_a: EMAPA:35627 ! ovary follicle
 relationship: ends_at TS28 ! TS28
-relationship: is_a EMAPA:35627 ! ovary follicle
 relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS28 ! TS28
 
@@ -50642,9 +50646,10 @@ namespace: anatomical_structure
 comment: order=8 for EMAPA:16105.\norder=0 for EMAPA:32715.
 synonym: "heart muscle" RELATED []
 synonym: "myocardium" RELATED []
+is_a: EMAPA:32715 ! muscle tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16105 ! heart
-relationship: part_of EMAPA:32715 ! muscle tissue
+relationship: part_of EMAPA:35577 ! muscle
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -50912,8 +50917,8 @@ id: EMAPA:32716
 name: skeletal muscle tissue
 namespace: anatomical_structure
 comment: order=1 for EMAPA:32715.\norder=0 for EMAPA:35988.
+is_a: EMAPA:32715 ! muscle tissue
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32715 ! muscle tissue
 relationship: part_of EMAPA:35988 ! skeletal muscle
 relationship: starts_at TS20 ! TS20
 
@@ -50922,8 +50927,9 @@ id: EMAPA:32717
 name: smooth muscle tissue
 namespace: anatomical_structure
 comment: order=2 for EMAPA:32715.
+is_a: EMAPA:32715 ! muscle tissue
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32715 ! muscle tissue
+relationship: part_of EMAPA:35577 ! muscle
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -54767,7 +54773,7 @@ id: EMAPA:35240
 name: ciliary muscle
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16198.
-is_a: EMAPA:18807 ! eye smooth muscle
+is_a: EMAPA:18808 ! intrinsic ocular muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
 relationship: starts_at TS28 ! TS28
@@ -55628,15 +55634,6 @@ relationship: part_of EMAPA:35800 ! spiral sulcus
 relationship: starts_at TS28 ! TS28
 
 [Term]
-id: EMAPA:35333
-name: extraocular skeletal muscle
-namespace: anatomical_structure
-comment: order=0 for EMAPA:35335.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35335 ! eye muscle
-relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:35334
 name: eye gland
 namespace: anatomical_structure
@@ -55653,7 +55650,7 @@ namespace: anatomical_structure
 comment: order=10 for EMAPA:16198.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35336
@@ -56703,7 +56700,10 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35448
 name: iris muscle
 namespace: anatomical_structure
+alt_id: EMAPA:35450
 comment: order=1 for EMAPA:19154.
+synonym: "iris smooth muscle" EXACT []
+is_a: EMAPA:18808 ! intrinsic ocular muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19154 ! iris
 relationship: starts_at TS28 ! TS28
@@ -56713,16 +56713,6 @@ id: EMAPA:35449
 name: iris nerve
 namespace: anatomical_structure
 comment: order=2 for EMAPA:19154.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19154 ! iris
-relationship: starts_at TS28 ! TS28
-
-[Term]
-id: EMAPA:35450
-name: iris smooth muscle
-namespace: anatomical_structure
-comment: order=3 for EMAPA:19154.
-is_a: EMAPA:18807 ! eye smooth muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19154 ! iris
 relationship: starts_at TS28 ! TS28
@@ -57916,8 +57906,8 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35577
 name: muscle
 namespace: anatomical_structure
-is_a: EMAPA:35949 ! organ
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16103 ! organ system
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -58364,8 +58354,8 @@ id: EMAPA:35625
 name: ovary antral follicle
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35627.
+is_a: EMAPA:35627 ! ovary follicle
 relationship: ends_at TS28 ! TS28
-relationship: is_a EMAPA:35627 ! ovary follicle
 relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS28 ! TS28
 
@@ -58393,8 +58383,8 @@ id: EMAPA:35628
 name: ovary growing follicle
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35627.
+is_a: EMAPA:35627 ! ovary follicle
 relationship: ends_at TS28 ! TS28
-relationship: is_a EMAPA:35627 ! ovary follicle
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -58402,8 +58392,8 @@ id: EMAPA:35629
 name: ovary mature follicle
 namespace: anatomical_structure
 comment: order=2 for EMAPA:35627.
+is_a: EMAPA:35627 ! ovary follicle
 relationship: ends_at TS28 ! TS28
-relationship: is_a EMAPA:35627 ! ovary follicle
 relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS28 ! TS28
 
@@ -58412,8 +58402,8 @@ id: EMAPA:35630
 name: ovary preantral follicle
 namespace: anatomical_structure
 comment: order=3 for EMAPA:35627.
+is_a: EMAPA:35627 ! ovary follicle
 relationship: ends_at TS28 ! TS28
-relationship: is_a EMAPA:35627 ! ovary follicle
 relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS28 ! TS28
 
@@ -58424,8 +58414,8 @@ namespace: anatomical_structure
 alt_id: EMAPA:19284
 comment: MERGED COMMENT:\nTARGET COMMENT: order=4 for EMAPA:35627.\n--------------------\nSOURCE COMMENT: order=6 for EMAPA:17962.
 synonym: "primary follicle" EXACT []
+is_a: EMAPA:35627 ! ovary follicle
 relationship: ends_at TS28 ! TS28
-relationship: is_a EMAPA:35627 ! ovary follicle
 relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS28 ! TS28
 
@@ -58437,8 +58427,8 @@ alt_id: EMAPA:29862
 comment: MERGED COMMENT:\nTARGET COMMENT: order=5 for EMAPA:35627.\n--------------------\nSOURCE COMMENT: order=7 for EMAPA:17962.
 synonym: "antral follicle" RELATED []
 synonym: "secondary follicle" EXACT []
+is_a: EMAPA:35627 ! ovary follicle
 relationship: ends_at TS28 ! TS28
-relationship: is_a EMAPA:35627 ! ovary follicle
 relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS28 ! TS28
 
@@ -58447,8 +58437,8 @@ id: EMAPA:35633
 name: ovary stratum granulosum
 namespace: anatomical_structure
 comment: order=6 for EMAPA:35627.
+is_a: EMAPA:35627 ! ovary follicle
 relationship: ends_at TS28 ! TS28
-relationship: is_a EMAPA:35627 ! ovary follicle
 relationship: starts_at TS28 ! TS28
 
 [Term]
