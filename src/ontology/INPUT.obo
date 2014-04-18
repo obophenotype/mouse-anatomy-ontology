@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 16:04:2014 16:19
+date: 18:04:2014 12:43
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
@@ -62112,6 +62112,15 @@ name: future telencephalon
 namespace: anatomical_structure
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16512 ! prosencephalon
+relationship: starts_at TS14 ! TS14
+
+[Term]
+id: EMAPA:36025
+name: proepicardium
+namespace: anatomical_structure
+synonym: "proepicardial organ" RELATED []
+relationship: ends_at TS17 ! TS17
+relationship: part_of EMAPA:16177 ! trunk mesenchyme
 relationship: starts_at TS14 ! TS14
 
 [Term]
