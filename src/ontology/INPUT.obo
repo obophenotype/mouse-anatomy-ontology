@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 18:04:2014 12:43
+date: 23:04:2014 15:36
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
@@ -20308,6 +20308,7 @@ id: EMAPA:18207
 name: caudate nucleus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:17549.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17549 ! corpus striatum
 relationship: starts_at TS22 ! TS22
@@ -20317,6 +20318,7 @@ id: EMAPA:18208
 name: lentiform nucleus
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17549.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17549 ! corpus striatum
 relationship: starts_at TS22 ! TS22
@@ -23242,6 +23244,7 @@ id: EMAPA:18547
 name: head of caudate nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18207.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18207 ! caudate nucleus
 relationship: starts_at TS23 ! TS23
@@ -23251,6 +23254,7 @@ id: EMAPA:18548
 name: tail of caudate nucleus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18207.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18207 ! caudate nucleus
 relationship: starts_at TS23 ! TS23
@@ -27884,6 +27888,7 @@ id: EMAPA:19147
 name: lenticular nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17537.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17537 ! hypothalamus mantle layer
 relationship: starts_at TS25 ! TS25
@@ -28698,6 +28703,7 @@ name: inferior olivary nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18786.
 synonym: "inferior olive" RELATED []
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18786 ! medulla oblongata rest of basal plate
 relationship: starts_at TS26 ! TS26
@@ -51615,6 +51621,7 @@ id: EMAPA:32789
 name: accumbens nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17549.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17549 ! corpus striatum
 relationship: starts_at TS26 ! TS26
@@ -51625,6 +51632,7 @@ name: brainstem nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:32678.
 synonym: "brain stem nucleus" RELATED []
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32678 ! brainstem
 relationship: starts_at TS26 ! TS26
@@ -53502,6 +53510,7 @@ name: abducens VI nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17563.
 synonym: "abducens nucleus" RELATED []
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17563 ! pons
 relationship: starts_at TS28 ! TS28
@@ -53718,6 +53727,7 @@ id: EMAPA:35128
 name: anterior cortical amygdaloid nucleus
 namespace: anatomical_structure
 comment: order=3 for EMAPA:32672.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32672 ! amygdala
 relationship: starts_at TS28 ! TS28
@@ -53745,6 +53755,7 @@ id: EMAPA:35131
 name: anterior olfactory nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17779.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17779 ! olfactory cortex
 relationship: starts_at TS28 ! TS28
@@ -53754,6 +53765,7 @@ id: EMAPA:35132
 name: anterior thalamic group
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35295.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35295 ! dorsal thalamus
 relationship: starts_at TS28 ! TS28
@@ -53848,6 +53860,7 @@ id: EMAPA:35142
 name: arcuate nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35421.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35421 ! hypothalamus periventricular zone
 relationship: starts_at TS28 ! TS28
@@ -54066,6 +54079,7 @@ id: EMAPA:35165
 name: basal ventral medial thalamic nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35296.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35296 ! dorsal thalamus medial thalamic group
 relationship: starts_at TS28 ! TS28
@@ -54084,6 +54098,7 @@ id: EMAPA:35167
 name: basolateral amygdaloid nucleus
 namespace: anatomical_structure
 comment: order=4 for EMAPA:32672.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32672 ! amygdala
 relationship: starts_at TS28 ! TS28
@@ -54093,6 +54108,7 @@ id: EMAPA:35168
 name: basomedial amygdaloid nucleus
 namespace: anatomical_structure
 comment: order=5 for EMAPA:32672.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32672 ! amygdala
 relationship: starts_at TS28 ! TS28
@@ -54242,7 +54258,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:16894.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16894 ! brain
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35185
@@ -54251,7 +54267,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35184.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35184 ! brain grey matter
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35186
@@ -54436,6 +54452,7 @@ id: EMAPA:35204
 name: central amygdaloid nucleus
 namespace: anatomical_structure
 comment: order=6 for EMAPA:32672.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32672 ! amygdala
 relationship: starts_at TS28 ! TS28
@@ -54445,6 +54462,7 @@ id: EMAPA:35205
 name: central lateral nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35445.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35445 ! intralaminar thalamic group
 relationship: starts_at TS28 ! TS28
@@ -54454,6 +54472,7 @@ id: EMAPA:35206
 name: central medial thalamic nucleus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35296.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35296 ! dorsal thalamus medial thalamic group
 relationship: starts_at TS28 ! TS28
@@ -54491,6 +54510,7 @@ id: EMAPA:35210
 name: central thalamic nucleus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35445.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35445 ! intralaminar thalamic group
 relationship: starts_at TS28 ! TS28
@@ -54849,6 +54869,7 @@ name: cochlear VIII nucleus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:17563.
 synonym: "cochlear nucleus" RELATED []
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17563 ! pons
 relationship: starts_at TS28 ! TS28
@@ -54905,6 +54926,7 @@ id: EMAPA:35254
 name: cortical amygdaloid nucleus
 namespace: anatomical_structure
 comment: order=7 for EMAPA:32672.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32672 ! amygdala
 relationship: starts_at TS28 ! TS28
@@ -55034,6 +55056,7 @@ id: EMAPA:35268
 name: cuneate nucleus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:17550.
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17550 ! medulla oblongata
 relationship: starts_at TS28 ! TS28
@@ -55072,6 +55095,7 @@ id: EMAPA:35272
 name: deep cerebellar nucleus
 namespace: anatomical_structure
 comment: order=10 for EMAPA:17787.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17787 ! cerebellum
 relationship: starts_at TS28 ! TS28
@@ -55228,6 +55252,7 @@ id: EMAPA:35289
 name: dorsal cochlear nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35248.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35248 ! cochlear VIII nucleus
 relationship: starts_at TS28 ! TS28
@@ -55237,6 +55262,7 @@ id: EMAPA:35290
 name: dorsal lateral geniculate nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35478.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35478 ! lateral geniculate nucleus
 relationship: starts_at TS28 ! TS28
@@ -55247,6 +55273,7 @@ name: dorsal motor nucleus of vagus X nerve
 namespace: anatomical_structure
 comment: order=2 for EMAPA:17550.
 synonym: "dorsal motor nucleus of vagus nerve" RELATED []
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17550 ! medulla oblongata
 relationship: starts_at TS28 ! TS28
@@ -55266,6 +55293,7 @@ id: EMAPA:35293
 name: dorsal raphe nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18215.
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18215 ! tegmentum
 relationship: starts_at TS28 ! TS28
@@ -55275,6 +55303,7 @@ id: EMAPA:35294
 name: dorsal tegmental nucleus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18215.
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18215 ! tegmentum
 relationship: starts_at TS28 ! TS28
@@ -55302,6 +55331,7 @@ id: EMAPA:35297
 name: dorsomedial hypothalamic nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35419.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35419 ! hypothalamus medial zone
 relationship: starts_at TS28 ! TS28
@@ -55347,6 +55377,7 @@ id: EMAPA:35302
 name: edinger-westphal nucleus
 namespace: anatomical_structure
 comment: order=2 for EMAPA:18215.
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18215 ! tegmentum
 relationship: starts_at TS28 ! TS28
@@ -55430,6 +55461,7 @@ id: EMAPA:35311
 name: endopiriform nucleus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:17779.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17779 ! olfactory cortex
 relationship: starts_at TS28 ! TS28
@@ -55677,6 +55709,7 @@ name: facial VII nucleus
 namespace: anatomical_structure
 comment: order=2 for EMAPA:17563.
 synonym: "facial nucleus" RELATED []
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17563 ! pons
 relationship: starts_at TS28 ! TS28
@@ -56051,6 +56084,7 @@ id: EMAPA:35378
 name: gigantocellular reticular nucleus
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17550.
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17550 ! medulla oblongata
 relationship: starts_at TS28 ! TS28
@@ -56399,6 +56433,7 @@ name: hypoglossal XII nucleus
 namespace: anatomical_structure
 comment: order=4 for EMAPA:17550.
 synonym: "hypoglossal nucleus" RELATED []
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17550 ! medulla oblongata
 relationship: starts_at TS28 ! TS28
@@ -56408,6 +56443,7 @@ id: EMAPA:35417
 name: hypothalamic nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17536.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17536 ! hypothalamus
 relationship: starts_at TS28 ! TS28
@@ -56567,6 +56603,7 @@ id: EMAPA:35434
 name: intercalated amygdaloid nucleus
 namespace: anatomical_structure
 comment: order=8 for EMAPA:32672.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32672 ! amygdala
 relationship: starts_at TS28 ! TS28
@@ -56613,6 +56650,7 @@ id: EMAPA:35439
 name: interpeduncular nucleus
 namespace: anatomical_structure
 comment: order=3 for EMAPA:18215.
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18215 ! tegmentum
 relationship: starts_at TS28 ! TS28
@@ -56967,6 +57005,7 @@ id: EMAPA:35476
 name: lateral amygdaloid nucleus
 namespace: anatomical_structure
 comment: order=9 for EMAPA:32672.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32672 ! amygdala
 relationship: starts_at TS28 ! TS28
@@ -56985,6 +57024,7 @@ id: EMAPA:35478
 name: lateral geniculate nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35376.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35376 ! geniculate thalamic group
 relationship: starts_at TS28 ! TS28
@@ -56994,6 +57034,7 @@ id: EMAPA:35479
 name: lateral habenular nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35386.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35386 ! habenula
 relationship: starts_at TS28 ! TS28
@@ -57012,6 +57053,7 @@ id: EMAPA:35481
 name: lateral mammillary nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35542.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35542 ! mammillary body
 relationship: starts_at TS28 ! TS28
@@ -57039,6 +57081,7 @@ id: EMAPA:35484
 name: lateral reticular nucleus
 namespace: anatomical_structure
 comment: order=5 for EMAPA:17550.
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17550 ! medulla oblongata
 relationship: starts_at TS28 ! TS28
@@ -57057,6 +57100,7 @@ id: EMAPA:35486
 name: lateral septal nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35485.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35485 ! lateral septal complex
 relationship: starts_at TS28 ! TS28
@@ -57093,6 +57137,7 @@ id: EMAPA:35490
 name: laterodorsal tegmental nucleus
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17563.
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17563 ! pons
 relationship: starts_at TS28 ! TS28
@@ -57211,6 +57256,7 @@ id: EMAPA:35502
 name: locus coeruleus
 namespace: anatomical_structure
 comment: order=4 for EMAPA:17563.
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17563 ! pons
 relationship: starts_at TS28 ! TS28
@@ -57590,6 +57636,7 @@ id: EMAPA:35543
 name: medial amygdaloid nucleus
 namespace: anatomical_structure
 comment: order=10 for EMAPA:32672.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32672 ! amygdala
 relationship: starts_at TS28 ! TS28
@@ -57599,6 +57646,7 @@ id: EMAPA:35544
 name: medial dorsal thalamic nucleus
 namespace: anatomical_structure
 comment: order=5 for EMAPA:35295.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35295 ! dorsal thalamus
 relationship: starts_at TS28 ! TS28
@@ -57617,6 +57665,7 @@ id: EMAPA:35546
 name: medial geniculate nucleus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35376.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35376 ! geniculate thalamic group
 relationship: starts_at TS28 ! TS28
@@ -57626,6 +57675,7 @@ id: EMAPA:35547
 name: medial habenular nucleus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35386.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35386 ! habenula
 relationship: starts_at TS28 ! TS28
@@ -57635,6 +57685,7 @@ id: EMAPA:35548
 name: medial mammillary nucleus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35542.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35542 ! mammillary body
 relationship: starts_at TS28 ! TS28
@@ -57644,6 +57695,7 @@ id: EMAPA:35549
 name: medial preoptic nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35550.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35550 ! medial preoptic region
 relationship: starts_at TS28 ! TS28
@@ -57662,6 +57714,7 @@ id: EMAPA:35551
 name: medial raphe nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35693.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35693 ! pontine reticular formation
 relationship: starts_at TS28 ! TS28
@@ -57680,6 +57733,7 @@ id: EMAPA:35553
 name: medial septal nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35552.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35552 ! medial septal complex
 relationship: starts_at TS28 ! TS28
@@ -57689,6 +57743,7 @@ id: EMAPA:35554
 name: medial vestibular nucleus
 namespace: anatomical_structure
 comment: order=6 for EMAPA:17550.
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17550 ! medulla oblongata
 relationship: starts_at TS28 ! TS28
@@ -58085,6 +58140,7 @@ id: EMAPA:35596
 name: nucleus ambiguus
 namespace: anatomical_structure
 comment: order=10 for EMAPA:17550.
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17550 ! medulla oblongata
 relationship: starts_at TS28 ! TS28
@@ -58094,6 +58150,7 @@ id: EMAPA:35597
 name: nucleus of darkschewitsch
 namespace: anatomical_structure
 comment: order=4 for EMAPA:18215.
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18215 ! tegmentum
 relationship: starts_at TS28 ! TS28
@@ -58121,6 +58178,7 @@ id: EMAPA:35600
 name: nucleus of trapezoid body
 namespace: anatomical_structure
 comment: order=5 for EMAPA:17563.
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17563 ! pons
 relationship: starts_at TS28 ! TS28
@@ -58169,6 +58227,7 @@ name: oculomotor III nucleus
 namespace: anatomical_structure
 comment: order=6 for EMAPA:18215.
 synonym: "oculomotor nucleus" RELATED []
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18215 ! tegmentum
 relationship: starts_at TS28 ! TS28
@@ -58645,6 +58704,7 @@ id: EMAPA:35656
 name: parabigeminal nucleus
 namespace: anatomical_structure
 comment: order=7 for EMAPA:18215.
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18215 ! tegmentum
 relationship: starts_at TS28 ! TS28
@@ -58654,6 +58714,7 @@ id: EMAPA:35657
 name: parabrachial nucleus
 namespace: anatomical_structure
 comment: order=6 for EMAPA:17563.
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17563 ! pons
 relationship: starts_at TS28 ! TS28
@@ -58663,6 +58724,7 @@ id: EMAPA:35658
 name: paracentral nucleus
 namespace: anatomical_structure
 comment: order=2 for EMAPA:35445.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35445 ! intralaminar thalamic group
 relationship: starts_at TS28 ! TS28
@@ -58672,6 +58734,7 @@ id: EMAPA:35659
 name: parafascicular nucleus
 namespace: anatomical_structure
 comment: order=3 for EMAPA:35445.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35445 ! intralaminar thalamic group
 relationship: starts_at TS28 ! TS28
@@ -58728,6 +58791,7 @@ id: EMAPA:35665
 name: paraventricular hypothalamic nucleus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35421.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35421 ! hypothalamus periventricular zone
 relationship: starts_at TS28 ! TS28
@@ -58737,6 +58801,7 @@ id: EMAPA:35666
 name: paraventricular thalamic nucleus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35573.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35573 ! midline thalamic group
 relationship: starts_at TS28 ! TS28
@@ -58796,6 +58861,7 @@ id: EMAPA:35672
 name: peduncular pontine nucleus
 namespace: anatomical_structure
 comment: order=7 for EMAPA:17563.
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17563 ! pons
 relationship: starts_at TS28 ! TS28
@@ -58870,6 +58936,7 @@ id: EMAPA:35680
 name: periolivary nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35840.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35840 ! superior olivary nucleus
 relationship: starts_at TS28 ! TS28
@@ -58979,6 +59046,8 @@ id: EMAPA:35692
 name: pontine nucleus
 namespace: anatomical_structure
 comment: order=11 for EMAPA:17563.
+is_a: EMAPA:32790 ! brainstem nucleus
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17563 ! pons
 relationship: starts_at TS28 ! TS28
@@ -58997,6 +59066,7 @@ id: EMAPA:35694
 name: posterior amygdaloid nucleus
 namespace: anatomical_structure
 comment: order=11 for EMAPA:32672.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32672 ! amygdala
 relationship: starts_at TS28 ! TS28
@@ -59033,6 +59103,7 @@ id: EMAPA:35698
 name: posterior thalamic nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35697.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35697 ! posterior thalamic group
 relationship: starts_at TS28 ! TS28
@@ -59042,6 +59113,7 @@ id: EMAPA:35699
 name: posterolateral cortical amygdaloid nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35254.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35254 ! cortical amygdaloid nucleus
 relationship: starts_at TS28 ! TS28
@@ -59051,6 +59123,7 @@ id: EMAPA:35700
 name: posteromedial cortical amygdaloid nucleus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35254.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35254 ! cortical amygdaloid nucleus
 relationship: starts_at TS28 ! TS28
@@ -59238,6 +59311,7 @@ id: EMAPA:35720
 name: raphe magnus nucleus
 namespace: anatomical_structure
 comment: order=11 for EMAPA:17550.
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17550 ! medulla oblongata
 relationship: starts_at TS28 ! TS28
@@ -59256,6 +59330,7 @@ id: EMAPA:35722
 name: raphe pallidus nucleus
 namespace: anatomical_structure
 comment: order=12 for EMAPA:17550.
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17550 ! medulla oblongata
 relationship: starts_at TS28 ! TS28
@@ -59275,6 +59350,7 @@ id: EMAPA:35724
 name: red nucleus
 namespace: anatomical_structure
 comment: order=12 for EMAPA:17563.
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17563 ! pons
 relationship: starts_at TS28 ! TS28
@@ -59389,6 +59465,7 @@ id: EMAPA:35736
 name: reticular tegmental nucleus
 namespace: anatomical_structure
 comment: order=8 for EMAPA:18215.
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18215 ! tegmentum
 relationship: starts_at TS28 ! TS28
@@ -59398,6 +59475,7 @@ id: EMAPA:35737
 name: reticular thalamic nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35915.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35915 ! ventral thalamus
 relationship: starts_at TS28 ! TS28
@@ -59861,6 +59939,7 @@ id: EMAPA:35787
 name: solitary tract nucleus
 namespace: anatomical_structure
 comment: order=13 for EMAPA:17550.
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17550 ! medulla oblongata
 relationship: starts_at TS28 ! TS28
@@ -59952,6 +60031,7 @@ id: EMAPA:35797
 name: spinal vestibular nucleus
 namespace: anatomical_structure
 comment: order=14 for EMAPA:17550.
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17550 ! medulla oblongata
 relationship: starts_at TS28 ! TS28
@@ -60338,6 +60418,7 @@ id: EMAPA:35839
 name: subthalamic nucleus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35915.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35915 ! ventral thalamus
 relationship: starts_at TS28 ! TS28
@@ -60347,6 +60428,7 @@ id: EMAPA:35840
 name: superior olivary nucleus
 namespace: anatomical_structure
 comment: order=13 for EMAPA:17563.
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17563 ! pons
 relationship: starts_at TS28 ! TS28
@@ -60356,6 +60438,7 @@ id: EMAPA:35841
 name: suprachiasmatic nucleus
 namespace: anatomical_structure
 comment: order=3 for EMAPA:35419.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35419 ! hypothalamus medial zone
 relationship: starts_at TS28 ! TS28
@@ -60365,6 +60448,7 @@ id: EMAPA:35842
 name: supramammillary nucleus
 namespace: anatomical_structure
 comment: order=2 for EMAPA:35542.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35542 ! mammillary body
 relationship: starts_at TS28 ! TS28
@@ -60374,6 +60458,7 @@ id: EMAPA:35843
 name: supraoptic nucleus
 namespace: anatomical_structure
 comment: order=2 for EMAPA:35421.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35421 ! hypothalamus periventricular zone
 relationship: starts_at TS28 ! TS28
@@ -60527,6 +60612,7 @@ id: EMAPA:35859
 name: thalamic nucleus
 namespace: anatomical_structure
 comment: order=2 for EMAPA:17540.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17540 ! thalamus
 relationship: starts_at TS28 ! TS28
@@ -60755,6 +60841,7 @@ name: trigeminal V nucleus
 namespace: anatomical_structure
 comment: order=14 for EMAPA:17563.
 synonym: "trigeminal nucleus" RELATED []
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17563 ! pons
 relationship: starts_at TS28 ! TS28
@@ -60785,6 +60872,7 @@ name: trochlear IV nucleus
 namespace: anatomical_structure
 comment: order=9 for EMAPA:18215.
 synonym: "trochlear nucleus" RELATED []
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18215 ! tegmentum
 relationship: starts_at TS28 ! TS28
@@ -60813,6 +60901,7 @@ id: EMAPA:35889
 name: tuberomammillary nucleus
 namespace: anatomical_structure
 comment: order=3 for EMAPA:35542.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35542 ! mammillary body
 relationship: starts_at TS28 ! TS28
@@ -60992,6 +61081,7 @@ id: EMAPA:35908
 name: ventral lateral geniculate nucleus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35478.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35478 ! lateral geniculate nucleus
 relationship: starts_at TS28 ! TS28
@@ -61011,6 +61101,7 @@ id: EMAPA:35910
 name: ventral posterior lateral thalamic nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35912.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35912 ! ventral posterior thalamic group
 relationship: starts_at TS28 ! TS28
@@ -61020,6 +61111,7 @@ id: EMAPA:35911
 name: ventral posterior medial thalamic nucleus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35912.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35912 ! ventral posterior thalamic group
 relationship: starts_at TS28 ! TS28
@@ -61047,6 +61139,7 @@ id: EMAPA:35914
 name: ventral tegmental nucleus
 namespace: anatomical_structure
 comment: order=15 for EMAPA:17563.
+is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17563 ! pons
 relationship: starts_at TS28 ! TS28
@@ -61065,6 +61158,7 @@ id: EMAPA:35916
 name: ventromedial hypothalamic nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35420.
+is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35420 ! hypothalamus medial zone tuberal area
 relationship: starts_at TS28 ! TS28
