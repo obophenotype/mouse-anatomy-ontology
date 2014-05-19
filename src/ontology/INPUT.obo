@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 02:05:2014 12:44
+date: 19:05:2014 15:45
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
@@ -14942,6 +14942,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:17605.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17605 ! nasal cavity epithelium
+relationship: part_of EMAPA:36026 ! nasal cavity mucosa
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -62201,6 +62202,56 @@ synonym: "proepicardial organ" RELATED []
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16177 ! trunk mesenchyme
 relationship: starts_at TS14 ! TS14
+
+[Term]
+id: EMAPA:36026
+name: nasal cavity mucosa
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17604 ! nasal cavity
+relationship: starts_at TS20 ! TS20
+created_by: terryh
+creation_date: 2014-05-19T11:51:15Z
+
+[Term]
+id: EMAPA:36027
+name: nasal cavity lamina propria
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36026 ! nasal cavity mucosa
+relationship: starts_at TS21 ! TS21
+created_by: terryh
+creation_date: 2014-05-19T11:51:58Z
+
+[Term]
+id: EMAPA:36028
+name: nasal septum mucosa
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17608 ! nasal septum
+relationship: starts_at TS23 ! TS23
+created_by: terryh
+creation_date: 2014-05-19T11:58:07Z
+
+[Term]
+id: EMAPA:36029
+name: nasal septum lamina propria
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36028 ! nasal septum mucosa
+relationship: starts_at TS23 ! TS23
+created_by: terryh
+creation_date: 2014-05-19T11:58:53Z
+
+[Term]
+id: EMAPA:36030
+name: ultimobranchial body
+namespace: anatomical_structure
+relationship: ends_at TS21 ! TS21
+relationship: part_of EMAPA:17068 ! thyroid gland
+relationship: starts_at TS20 ! TS20
+created_by: terryh
+creation_date: 2014-05-19T12:32:00Z
 
 [Term]
 id: group_term
