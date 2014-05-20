@@ -1,9 +1,10 @@
 format-version: 1.2
-date: 19:05:2014 15:45
+date: 20:05:2014 15:53
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
 remark: Version 012
+1`format-version: 1.2
 
 [Term]
 id: EMAPA:0
@@ -622,6 +623,7 @@ id: EMAPA:16098
 name: head mesenchyme
 namespace: anatomical_structure
 comment: order=6 for EMAPA:31858.
+is_a: EMAPA:35961 ! embryo mesenchyme
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:31858 ! head
 relationship: starts_at TS11 ! TS11
@@ -51142,7 +51144,6 @@ namespace: anatomical_structure
 comment: order=9 for EMAPA:16039.\norder=16 for EMAPA:25765.
 is_a: EMAPA:35868 ! tissue
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16039 ! embryo
 relationship: part_of EMAPA:25765 ! mouse
 relationship: starts_at TS12 ! TS12
 
@@ -58299,7 +58300,7 @@ namespace: anatomical_structure
 comment: order=7 for EMAPA:32809.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32809 ! olfactory bulb
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35615
@@ -62210,8 +62211,6 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17604 ! nasal cavity
 relationship: starts_at TS20 ! TS20
-created_by: terryh
-creation_date: 2014-05-19T11:51:15Z
 
 [Term]
 id: EMAPA:36027
@@ -62220,8 +62219,6 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36026 ! nasal cavity mucosa
 relationship: starts_at TS21 ! TS21
-created_by: terryh
-creation_date: 2014-05-19T11:51:58Z
 
 [Term]
 id: EMAPA:36028
@@ -62230,8 +62227,6 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17608 ! nasal septum
 relationship: starts_at TS23 ! TS23
-created_by: terryh
-creation_date: 2014-05-19T11:58:07Z
 
 [Term]
 id: EMAPA:36029
@@ -62240,8 +62235,6 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36028 ! nasal septum mucosa
 relationship: starts_at TS23 ! TS23
-created_by: terryh
-creation_date: 2014-05-19T11:58:53Z
 
 [Term]
 id: EMAPA:36030
@@ -62250,8 +62243,6 @@ namespace: anatomical_structure
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17068 ! thyroid gland
 relationship: starts_at TS20 ! TS20
-created_by: terryh
-creation_date: 2014-05-19T12:32:00Z
 
 [Term]
 id: group_term
