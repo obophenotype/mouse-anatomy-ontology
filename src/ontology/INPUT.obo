@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 03:06:2014 12:44
+date: 03:06:2014 15:56
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
@@ -7776,6 +7776,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:16738.
 synonym: "primary bronchus" RELATED []
 synonym: "principal bronchus" RELATED []
+is_a: EMAPA:32689 ! bronchus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16738 ! lower respiratory tract
 relationship: starts_at TS16 ! TS16
@@ -19482,6 +19483,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:18108.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18108 ! hindlimb digit 1 skin
+relationship: part_of EMAPA:32943 ! hindlimb digit dermis
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -19491,6 +19493,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:18108.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18108 ! hindlimb digit 1 skin
+relationship: part_of EMAPA:32944 ! hindlimb digit epidermis
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -19530,6 +19533,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:18113.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18113 ! hindlimb digit 2 skin
+relationship: part_of EMAPA:32943 ! hindlimb digit dermis
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -19539,6 +19543,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:18113.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18113 ! hindlimb digit 2 skin
+relationship: part_of EMAPA:32944 ! hindlimb digit epidermis
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -19578,6 +19583,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:18118.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18118 ! hindlimb digit 3 skin
+relationship: part_of EMAPA:32943 ! hindlimb digit dermis
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -19587,6 +19593,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:18118.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18118 ! hindlimb digit 3 skin
+relationship: part_of EMAPA:32944 ! hindlimb digit epidermis
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -19626,6 +19633,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:18123.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18123 ! hindlimb digit 4 skin
+relationship: part_of EMAPA:32943 ! hindlimb digit dermis
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -19635,6 +19643,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:18123.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18123 ! hindlimb digit 4 skin
+relationship: part_of EMAPA:32944 ! hindlimb digit epidermis
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -19674,6 +19683,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:18128.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18128 ! hindlimb digit 5 skin
+relationship: part_of EMAPA:32943 ! hindlimb digit dermis
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -19683,6 +19693,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:18128.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18128 ! hindlimb digit 5 skin
+relationship: part_of EMAPA:32944 ! hindlimb digit epidermis
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -19841,6 +19852,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:18145.
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:18145 ! foot rest of skin
+relationship: part_of EMAPA:18505 ! foot dermis
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -19850,6 +19862,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:18145.
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:18145 ! foot rest of skin
+relationship: part_of EMAPA:18506 ! foot epidermis
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -19869,6 +19882,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:18148.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18148 ! hip skin
+relationship: part_of EMAPA:32619 ! hindlimb dermis
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -19878,6 +19892,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:18148.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18148 ! hip skin
+relationship: part_of EMAPA:32636 ! hindlimb epidermis
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -19897,6 +19912,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:18151.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18151 ! knee skin
+relationship: part_of EMAPA:32619 ! hindlimb dermis
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -19906,6 +19922,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:18151.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18151 ! knee skin
+relationship: part_of EMAPA:32636 ! hindlimb epidermis
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -19946,6 +19963,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:18156.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18156 ! lower leg skin
+relationship: part_of EMAPA:32619 ! hindlimb dermis
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -19955,6 +19973,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:18156.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18156 ! lower leg skin
+relationship: part_of EMAPA:32636 ! hindlimb epidermis
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -19974,6 +19993,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:18159.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18159 ! upper leg skin
+relationship: part_of EMAPA:32619 ! hindlimb dermis
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -19983,6 +20003,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:18159.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18159 ! upper leg skin
+relationship: part_of EMAPA:32636 ! hindlimb epidermis
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -22081,6 +22102,7 @@ name: physiological umbilical hernia dermis
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18404.
 relationship: ends_at TS24 ! TS24
+relationship: part_of EMAPA:17527 ! dermis
 relationship: part_of EMAPA:18404 ! physiological umbilical hernia
 relationship: starts_at TS20 ! TS20
 
@@ -22090,6 +22112,7 @@ name: physiological umbilical hernia epidermis
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18404.
 relationship: ends_at TS24 ! TS24
+relationship: part_of EMAPA:17528 ! epidermis
 relationship: part_of EMAPA:18404 ! physiological umbilical hernia
 relationship: starts_at TS20 ! TS20
 
@@ -22947,6 +22970,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:18504.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18504 ! foot skin
+relationship: part_of EMAPA:32619 ! hindlimb dermis
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -22956,6 +22980,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:18504.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18504 ! foot skin
+relationship: part_of EMAPA:32636 ! hindlimb epidermis
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -27347,6 +27372,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:16849.
 synonym: "primary bronchus cartilage" RELATED []
 synonym: "principal bronchus cartilage" RELATED []
+is_a: EMAPA:35192 ! bronchus cartilage
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16849 ! main bronchus
 relationship: starts_at TS23 ! TS23
@@ -32545,6 +32571,7 @@ id: EMAPA:19666
 name: Tl17 annulus fibrosus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:19664.
+is_a: EMAPA:32670 ! annulus fibrosus
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:19664 ! Tl17 intervertebral disc
 relationship: starts_at TS26 ! TS26
@@ -50715,6 +50742,7 @@ id: EMAPA:32696
 name: lobar bronchus
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16728.
+is_a: EMAPA:32689 ! bronchus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16728 ! lung
 relationship: starts_at TS19 ! TS19
@@ -53098,6 +53126,7 @@ name: hindlimb digit dermis
 namespace: anatomical_structure
 comment: order=5 for EMAPA:32942.
 relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:18505 ! foot dermis
 relationship: part_of EMAPA:32942 ! hindlimb digit skin
 relationship: starts_at TS22 ! TS22
 
@@ -53107,6 +53136,7 @@ name: hindlimb digit epidermis
 namespace: anatomical_structure
 comment: order=6 for EMAPA:32942.
 relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:18506 ! foot epidermis
 relationship: part_of EMAPA:32942 ! hindlimb digit skin
 relationship: starts_at TS22 ! TS22
 
@@ -54214,6 +54244,7 @@ id: EMAPA:35182
 name: brain blood vessel
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16894.
+is_a: EMAPA:32743 ! blood vessel
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16894 ! brain
 relationship: starts_at TS28 ! TS28
@@ -56210,6 +56241,7 @@ name: heart blood vessel
 namespace: anatomical_structure
 comment: order=18 for EMAPA:16105.
 synonym: "cardiac blood vessel" RELATED []
+is_a: EMAPA:32743 ! blood vessel
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16105 ! heart
 relationship: starts_at TS28 ! TS28
@@ -56511,6 +56543,7 @@ id: EMAPA:35429
 name: incisor dental pulp
 namespace: anatomical_structure
 comment: order=0 for EMAPA:32889.
+is_a: EMAPA:35274 ! dental pulp
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32889 ! incisor
 relationship: starts_at TS28 ! TS28
@@ -57171,6 +57204,7 @@ name: liver blood vessel
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16846.
 synonym: "hepatic blood vessel" RELATED []
+is_a: EMAPA:32743 ! blood vessel
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16846 ! liver
 relationship: starts_at TS28 ! TS28
@@ -57908,6 +57942,7 @@ id: EMAPA:35576
 name: molar dental pulp
 namespace: anatomical_structure
 comment: order=0 for EMAPA:32897.
+is_a: EMAPA:35274 ! dental pulp
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32897 ! molar
 relationship: starts_at TS28 ! TS28
@@ -59365,7 +59400,7 @@ id: EMAPA:35730
 name: respiratory bronchiole epithelium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35729.
-is_a: EMAPA:32826 ! respiratory system epithelium
+is_a: EMAPA:32693 ! bronchiole epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35729 ! respiratory bronchiole
 relationship: starts_at TS28 ! TS28
@@ -59375,6 +59410,7 @@ id: EMAPA:35731
 name: respiratory system blood vessel
 namespace: anatomical_structure
 comment: order=7 for EMAPA:16727.
+is_a: EMAPA:32743 ! blood vessel
 is_a: EMAPA:35995 ! respiratory system vascular element
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16727 ! respiratory system
@@ -60713,6 +60749,7 @@ id: EMAPA:35874
 name: trachea blood vessel
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16853.
+is_a: EMAPA:35731 ! respiratory system blood vessel
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16853 ! trachea
 relationship: starts_at TS28 ! TS28
@@ -61348,6 +61385,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:32610.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:32610 ! limb interdigital region skin
+relationship: part_of EMAPA:32727 ! limb dermis
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -62041,8 +62079,9 @@ id: EMAPA:36011
 name: rib costal cartilage
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18010.
+is_a: EMAPA:35262 ! costal cartilage
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18010 ! rib
+relationship: part_of EMAPA:36036 ! rib cartilage
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -62051,7 +62090,7 @@ name: rib head cartilage
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18010.
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18010 ! rib
+relationship: part_of EMAPA:36036 ! rib cartilage
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -62060,7 +62099,7 @@ name: rib neck cartilage
 namespace: anatomical_structure
 comment: order=2 for EMAPA:18010.
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18010 ! rib
+relationship: part_of EMAPA:36036 ! rib cartilage
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -62251,6 +62290,17 @@ xref: XX:<new xref>
 relationship: ends_at TS05 ! TS05
 relationship: part_of EMAPA:36032 ! early embryo
 relationship: starts_at TS04 ! TS04
+
+[Term]
+id: EMAPA:36036
+name: rib cartilage
+namespace: anatomical_structure
+is_a: EMAPA:32730 ! cartilage
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18010 ! rib
+relationship: starts_at TS26 ! TS26
+created_by: terryh
+creation_date: 2014-06-03T15:13:43Z
 
 [Term]
 id: group_term
