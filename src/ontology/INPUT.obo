@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 21:05:2014 14:52
+date: 03:06:2014 12:44
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
@@ -114,13 +114,11 @@ relationship: starts_at TS04 ! TS04
 
 [Term]
 id: EMAPA:16043
-name: extraembryonic cavities and their linings
+name: extraembryonic cavity
 namespace: anatomical_structure
-alt_id: EMAPA:16054
 comment: order=3 for EMAPA:16042.
-synonym: "extraembryonic component cavities" RELATED []
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16042 ! extraembryonic component
+relationship: ends_at TS06 ! TS06
+relationship: part_of EMAPA:25765 ! mouse
 relationship: starts_at TS04 ! TS04
 
 [Term]
@@ -130,7 +128,8 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:16043.
 synonym: "blastocelic cavity" RELATED []
 relationship: ends_at TS06 ! TS06
-relationship: part_of EMAPA:16043 ! extraembryonic cavities and their linings
+relationship: part_of EMAPA:16043 ! extraembryonic cavity
+relationship: part_of EMAPA:36035 ! blastocyst
 relationship: starts_at TS04 ! TS04
 
 [Term]
@@ -140,6 +139,7 @@ namespace: anatomical_structure
 comment: order=13 for EMAPA:16042.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16042 ! extraembryonic component
+relationship: part_of EMAPA:36035 ! blastocyst
 relationship: starts_at TS04 ! TS04
 
 [Term]
@@ -202,12 +202,21 @@ relationship: part_of EMAPA:16052 ! extraembryonic endoderm
 relationship: starts_at TS06 ! TS06
 
 [Term]
+id: EMAPA:16054
+name: extraembryonic component cavity
+namespace: anatomical_structure
+comment: order=6 for EMAPA:16042.
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16042 ! extraembryonic component
+relationship: starts_at TS07 ! TS07
+
+[Term]
 id: EMAPA:16055
 name: yolk sac cavity
 namespace: anatomical_structure
 comment: order=5 for EMAPA:16054.
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16043 ! extraembryonic cavities and their linings
+relationship: part_of EMAPA:16054 ! extraembryonic component cavity
 relationship: starts_at TS07 ! TS07
 
 [Term]
@@ -248,7 +257,7 @@ relationship: starts_at TS07 ! TS07
 
 [Term]
 id: EMAPA:16060
-name: cavities and their linings
+name: body cavity or lining
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16039.\norder=6 for EMAPA:25765.
 relationship: ends_at TS28 ! TS28
@@ -262,7 +271,7 @@ name: embryonic component of the proamniotic cavity
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16060.
 relationship: ends_at TS10 ! TS10
-relationship: part_of EMAPA:16060 ! cavities and their linings
+relationship: part_of EMAPA:16060 ! body cavity or lining
 relationship: starts_at TS08 ! TS08
 
 [Term]
@@ -295,7 +304,7 @@ name: proamniotic cavity extraembryonic part
 namespace: anatomical_structure
 comment: order=4 for EMAPA:16054.
 relationship: ends_at TS10 ! TS10
-relationship: part_of EMAPA:16043 ! extraembryonic cavities and their linings
+relationship: part_of EMAPA:16054 ! extraembryonic component cavity
 relationship: starts_at TS08 ! TS08
 
 [Term]
@@ -438,7 +447,7 @@ name: amniotic cavity
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16054.
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16043 ! extraembryonic cavities and their linings
+relationship: part_of EMAPA:16054 ! extraembryonic component cavity
 relationship: starts_at TS10 ! TS10
 
 [Term]
@@ -447,7 +456,7 @@ name: ectoplacental cavity
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16054.
 relationship: ends_at TS11 ! TS11
-relationship: part_of EMAPA:16043 ! extraembryonic cavities and their linings
+relationship: part_of EMAPA:16054 ! extraembryonic component cavity
 relationship: starts_at TS10 ! TS10
 
 [Term]
@@ -456,7 +465,7 @@ name: exocoelomic cavity
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16054.
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16043 ! extraembryonic cavities and their linings
+relationship: part_of EMAPA:16054 ! extraembryonic component cavity
 relationship: starts_at TS10 ! TS10
 
 [Term]
@@ -465,7 +474,7 @@ name: cavity within amniotic fold
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16054.
 relationship: ends_at TS10 ! TS10
-relationship: part_of EMAPA:16043 ! extraembryonic cavities and their linings
+relationship: part_of EMAPA:16054 ! extraembryonic component cavity
 relationship: starts_at TS10 ! TS10
 
 [Term]
@@ -503,7 +512,7 @@ name: intraembryonic coelom
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16060.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16060 ! cavities and their linings
+relationship: part_of EMAPA:16060 ! body cavity or lining
 relationship: starts_at TS11 ! TS11
 
 [Term]
@@ -38985,7 +38994,7 @@ name: cavity of physiological umbilical hernia
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16060.
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16060 ! cavities and their linings
+relationship: part_of EMAPA:16060 ! body cavity or lining
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -52238,7 +52247,7 @@ name: mesothelium
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16060.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16060 ! cavities and their linings
+relationship: part_of EMAPA:16060 ! body cavity or lining
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -61786,7 +61795,7 @@ namespace: anatomical_structure
 comment: order=9 for EMAPA:25765.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:36033 ! germ layer
-relationship: starts_at TS04 ! TS04
+relationship: starts_at TS06 ! TS06
 
 [Term]
 id: EMAPA:35986
@@ -62224,7 +62233,7 @@ name: germ layer
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25765 ! mouse
-relationship: starts_at TS04 ! TS04
+relationship: starts_at TS06 ! TS06
 
 [Term]
 id: EMAPA:36034
