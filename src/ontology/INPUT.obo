@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 03:06:2014 15:56
+date: 05:06:2014 16:33
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
@@ -19,6 +19,7 @@ comment: order=18 for EMAPA:25765.
 synonym: "1st polar body" RELATED []
 relationship: ends_at TS01 ! TS01
 relationship: part_of EMAPA:31859 ! polar body
+relationship: part_of EMAPA:36041 ! 1-cell stage conceptus
 relationship: starts_at TS01 ! TS01
 
 [Term]
@@ -30,7 +31,8 @@ synonym: "1-cell embryo" RELATED []
 synonym: "fertilized egg" RELATED []
 synonym: "one-cell embryo" RELATED []
 relationship: ends_at TS01 ! TS01
-relationship: part_of EMAPA:36032 ! early embryo
+relationship: part_of EMAPA:36032 ! preimplantation embryo
+relationship: part_of EMAPA:36041 ! 1-cell stage conceptus
 relationship: starts_at TS01 ! TS01
 
 [Term]
@@ -42,6 +44,12 @@ comment: order=37 for EMAPA:25765.
 synonym: "2nd polar body" RELATED []
 relationship: ends_at TS04 ! TS04
 relationship: part_of EMAPA:31859 ! polar body
+relationship: part_of EMAPA:36041 ! 1-cell stage conceptus
+relationship: part_of EMAPA:36042 ! 2-cell stage conceptus
+relationship: part_of EMAPA:36043 ! 4-cell stage conceptus
+relationship: part_of EMAPA:36044 ! 8-cell stage conceptus
+relationship: part_of EMAPA:36045 ! morula-stage conceptus
+relationship: part_of EMAPA:36046 ! blastocyst-stage conceptus
 relationship: starts_at TS01 ! TS01
 
 [Term]
@@ -52,6 +60,12 @@ alt_id: EMAPA:16049
 comment: order=45 for EMAPA:25765.
 relationship: ends_at TS04 ! TS04
 relationship: part_of EMAPA:25765 ! mouse
+relationship: part_of EMAPA:36041 ! 1-cell stage conceptus
+relationship: part_of EMAPA:36042 ! 2-cell stage conceptus
+relationship: part_of EMAPA:36043 ! 4-cell stage conceptus
+relationship: part_of EMAPA:36044 ! 8-cell stage conceptus
+relationship: part_of EMAPA:36045 ! morula-stage conceptus
+relationship: part_of EMAPA:36046 ! blastocyst-stage conceptus
 relationship: starts_at TS01 ! TS01
 
 [Term]
@@ -62,7 +76,8 @@ comment: order=1 for EMAPA:25765.
 synonym: "2-cell embryo" RELATED []
 synonym: "two-cell embryo" RELATED []
 relationship: ends_at TS02 ! TS02
-relationship: part_of EMAPA:36032 ! early embryo
+relationship: part_of EMAPA:36032 ! preimplantation embryo
+relationship: part_of EMAPA:36042 ! 2-cell stage conceptus
 relationship: starts_at TS02 ! TS02
 
 [Term]
@@ -73,7 +88,7 @@ comment: order=2 for EMAPA:25765.
 synonym: "4-8 cell embryo" RELATED []
 synonym: "four-to-eight cell embryo" RELATED []
 relationship: ends_at TS03 ! TS03
-relationship: part_of EMAPA:36032 ! early embryo
+relationship: part_of EMAPA:36032 ! preimplantation embryo
 relationship: starts_at TS03 ! TS03
 
 [Term]
@@ -91,7 +106,8 @@ name: compacted morula
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16039.\norder=7 for EMAPA:25765.
 relationship: ends_at TS04 ! TS04
-relationship: part_of EMAPA:36032 ! early embryo
+relationship: part_of EMAPA:36032 ! preimplantation embryo
+relationship: part_of EMAPA:36045 ! morula-stage conceptus
 relationship: starts_at TS03 ! TS03
 
 [Term]
@@ -118,7 +134,7 @@ name: extraembryonic cavity
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16042.
 relationship: ends_at TS06 ! TS06
-relationship: part_of EMAPA:25765 ! mouse
+relationship: part_of EMAPA:36037 ! cavity or lining
 relationship: starts_at TS04 ! TS04
 
 [Term]
@@ -140,6 +156,7 @@ comment: order=13 for EMAPA:16042.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16042 ! extraembryonic component
 relationship: part_of EMAPA:36035 ! blastocyst
+relationship: part_of EMAPA:36039 ! egg cylinder
 relationship: starts_at TS04 ! TS04
 
 [Term]
@@ -167,6 +184,7 @@ namespace: anatomical_structure
 comment: order=8 for EMAPA:16039.\norder=15 for EMAPA:25765.
 relationship: ends_at TS08 ! TS08
 relationship: part_of EMAPA:16039 ! embryo
+relationship: part_of EMAPA:36039 ! egg cylinder
 relationship: starts_at TS06 ! TS06
 
 [Term]
@@ -178,8 +196,9 @@ synonym: "hypoblast" RELATED []
 synonym: "primary endoderm" RELATED []
 synonym: "proximal endoderm" RELATED []
 synonym: "visceral endoderm" RELATED []
+is_a: EMAPA:35986 ! endoderm
 relationship: ends_at TS07 ! TS07
-relationship: part_of EMAPA:35986 ! endoderm
+relationship: part_of EMAPA:36039 ! egg cylinder
 relationship: starts_at TS06 ! TS06
 
 [Term]
@@ -190,6 +209,7 @@ comment: order=8 for EMAPA:16042.
 is_a: EMAPA:35986 ! endoderm
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16042 ! extraembryonic component
+relationship: part_of EMAPA:36039 ! egg cylinder
 relationship: starts_at TS06 ! TS06
 
 [Term]
@@ -208,6 +228,7 @@ namespace: anatomical_structure
 comment: order=6 for EMAPA:16042.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16042 ! extraembryonic component
+relationship: part_of EMAPA:36037 ! cavity or lining
 relationship: starts_at TS07 ! TS07
 
 [Term]
@@ -262,16 +283,17 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:16039.\norder=6 for EMAPA:25765.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16039 ! embryo
-relationship: part_of EMAPA:25765 ! mouse
+relationship: part_of EMAPA:36037 ! cavity or lining
 relationship: starts_at TS08 ! TS08
 
 [Term]
 id: EMAPA:16061
-name: embryonic component of the proamniotic cavity
+name: proamniotic cavity embryonic part
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16060.
 relationship: ends_at TS10 ! TS10
 relationship: part_of EMAPA:16060 ! body cavity or lining
+relationship: part_of EMAPA:36038 ! proamniotic cavity
 relationship: starts_at TS08 ! TS08
 
 [Term]
@@ -305,6 +327,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:16054.
 relationship: ends_at TS10 ! TS10
 relationship: part_of EMAPA:16054 ! extraembryonic component cavity
+relationship: part_of EMAPA:36038 ! proamniotic cavity
 relationship: starts_at TS08 ! TS08
 
 [Term]
@@ -315,6 +338,7 @@ comment: order=7 for EMAPA:16042.
 is_a: EMAPA:35985 ! ectoderm
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16042 ! extraembryonic component
+relationship: part_of EMAPA:36039 ! egg cylinder
 relationship: starts_at TS07 ! TS07
 
 [Term]
@@ -49223,8 +49247,9 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:16037.
 synonym: "4-cell embryo" RELATED []
 synonym: "four-cell embryo" RELATED []
+is_a: EMAPA:16037 ! 4-8 cell stage embryo
 relationship: ends_at TS03 ! TS03
-relationship: part_of EMAPA:16037 ! 4-8 cell stage embryo
+relationship: part_of EMAPA:36043 ! 4-cell stage conceptus
 relationship: starts_at TS03 ! TS03
 
 [Term]
@@ -49234,8 +49259,9 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:16037.
 synonym: "8-cell embryo" RELATED []
 synonym: "eight-cell embryo" RELATED []
+is_a: EMAPA:16037 ! 4-8 cell stage embryo
 relationship: ends_at TS03 ! TS03
-relationship: part_of EMAPA:16037 ! 4-8 cell stage embryo
+relationship: part_of EMAPA:36044 ! 8-cell stage conceptus
 relationship: starts_at TS03 ! TS03
 
 [Term]
@@ -62260,7 +62286,7 @@ relationship: starts_at TS11 ! TS11
 
 [Term]
 id: EMAPA:36032
-name: early embryo
+name: preimplantation embryo
 namespace: anatomical_structure
 relationship: ends_at TS05 ! TS05
 relationship: part_of EMAPA:25765 ! mouse
@@ -62288,7 +62314,8 @@ name: blastocyst
 namespace: anatomical_structure
 xref: XX:<new xref>
 relationship: ends_at TS05 ! TS05
-relationship: part_of EMAPA:36032 ! early embryo
+relationship: part_of EMAPA:36032 ! preimplantation embryo
+relationship: part_of EMAPA:36046 ! blastocyst-stage conceptus
 relationship: starts_at TS04 ! TS04
 
 [Term]
@@ -62299,8 +62326,83 @@ is_a: EMAPA:32730 ! cartilage
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18010 ! rib
 relationship: starts_at TS26 ! TS26
-created_by: terryh
-creation_date: 2014-06-03T15:13:43Z
+
+[Term]
+id: EMAPA:36037
+name: cavity or lining
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:25765 ! mouse
+relationship: starts_at TS04 ! TS04
+
+[Term]
+id: EMAPA:36038
+name: proamniotic cavity
+namespace: anatomical_structure
+relationship: ends_at TS10 ! TS10
+relationship: part_of EMAPA:36037 ! cavity or lining
+relationship: starts_at TS08 ! TS08
+
+[Term]
+id: EMAPA:36039
+name: egg cylinder
+namespace: anatomical_structure
+relationship: part_of EMAPA:25765 ! mouse
+
+[Term]
+id: EMAPA:36040
+name: preimplantation stage conceptus
+namespace: anatomical_structure
+relationship: part_of EMAPA:25765 ! mouse
+relationship: starts_at TS01 ! TS01
+
+[Term]
+id: EMAPA:36041
+name: 1-cell stage conceptus
+namespace: anatomical_structure
+relationship: ends_at TS01 ! TS01
+relationship: part_of EMAPA:36040 ! preimplantation stage conceptus
+relationship: starts_at TS01 ! TS01
+
+[Term]
+id: EMAPA:36042
+name: 2-cell stage conceptus
+namespace: anatomical_structure
+relationship: ends_at TS02 ! TS02
+relationship: part_of EMAPA:36040 ! preimplantation stage conceptus
+relationship: starts_at TS02 ! TS02
+
+[Term]
+id: EMAPA:36043
+name: 4-cell stage conceptus
+namespace: anatomical_structure
+relationship: ends_at TS03 ! TS03
+relationship: part_of EMAPA:36040 ! preimplantation stage conceptus
+relationship: starts_at TS03 ! TS03
+
+[Term]
+id: EMAPA:36044
+name: 8-cell stage conceptus
+namespace: anatomical_structure
+relationship: ends_at TS03 ! TS03
+relationship: part_of EMAPA:36040 ! preimplantation stage conceptus
+relationship: starts_at TS03 ! TS03
+
+[Term]
+id: EMAPA:36045
+name: morula-stage conceptus
+namespace: anatomical_structure
+relationship: ends_at TS04 ! TS04
+relationship: part_of EMAPA:36040 ! preimplantation stage conceptus
+relationship: starts_at TS03 ! TS03
+
+[Term]
+id: EMAPA:36046
+name: blastocyst-stage conceptus
+namespace: anatomical_structure
+relationship: ends_at TS05 ! TS05
+relationship: part_of EMAPA:36040 ! preimplantation stage conceptus
+relationship: starts_at TS04 ! TS04
 
 [Term]
 id: group_term
