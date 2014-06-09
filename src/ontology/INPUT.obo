@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 09:06:2014 11:15
+date: 09:06:2014 14:35
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
@@ -181,11 +181,12 @@ namespace: anatomical_structure
 comment: order=8 for EMAPA:16039.\norder=15 for EMAPA:25765.
 relationship: ends_at TS08 ! TS08
 relationship: part_of EMAPA:16039 ! embryo
+relationship: part_of EMAPA:36053 ! implanting blastocyst
 relationship: starts_at TS06 ! TS06
 
 [Term]
 id: EMAPA:16051
-name: primitive endoderm
+name: early primitive endoderm
 namespace: anatomical_structure
 comment: order=35 for EMAPA:25765.
 synonym: "hypoblast" RELATED []
@@ -194,6 +195,7 @@ synonym: "proximal endoderm" RELATED []
 synonym: "visceral endoderm" RELATED []
 is_a: EMAPA:35986 ! endoderm
 relationship: ends_at TS07 ! TS07
+relationship: part_of EMAPA:36053 ! implanting blastocyst
 relationship: starts_at TS06 ! TS06
 
 [Term]
@@ -61287,6 +61289,7 @@ name: yolk sac parietal endoderm
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16086.
 relationship: ends_at TS21 ! TS21
+relationship: part_of EMAPA:16053 ! parietal endoderm
 relationship: part_of EMAPA:16086 ! yolk sac endoderm
 relationship: starts_at TS17 ! TS17
 
@@ -62308,6 +62311,7 @@ namespace: anatomical_structure
 relationship: ends_at TS05 ! TS05
 relationship: part_of EMAPA:36032 ! preimplantation embryo
 relationship: part_of EMAPA:36046 ! preimplantation blastocyst-stage conceptus
+relationship: part_of EMAPA:36051 ! blastocyst
 relationship: starts_at TS04 ! TS04
 
 [Term]
@@ -62434,6 +62438,75 @@ is_a: EMAPA:16044 ! blastocoelic cavity
 relationship: ends_at TS05 ! TS05
 relationship: part_of EMAPA:36035 ! preimplantation blastocyst
 relationship: starts_at TS04 ! TS04
+
+[Term]
+id: EMAPA:36051
+name: blastocyst
+namespace: anatomical_structure
+relationship: ends_at TS06 ! TS06
+relationship: part_of EMAPA:25765 ! mouse
+relationship: starts_at TS04 ! TS04
+
+[Term]
+id: EMAPA:36052
+name: late blastocoelic cavity
+namespace: anatomical_structure
+is_a: EMAPA:16044 ! blastocoelic cavity
+relationship: ends_at TS06 ! TS06
+relationship: part_of EMAPA:36053 ! implanting blastocyst
+relationship: starts_at TS06 ! TS06
+
+[Term]
+id: EMAPA:36053
+name: implanting blastocyst
+namespace: anatomical_structure
+relationship: ends_at TS06 ! TS06
+relationship: part_of EMAPA:36051 ! blastocyst
+relationship: starts_at TS06 ! TS06
+
+[Term]
+id: EMAPA:36054
+name: implanting blastocyst-stage trophectoderm
+namespace: anatomical_structure
+is_a: EMAPA:16046 ! trophectoderm
+relationship: ends_at TS06 ! TS06
+relationship: part_of EMAPA:36053 ! implanting blastocyst
+relationship: starts_at TS06 ! TS06
+
+[Term]
+id: EMAPA:36055
+name: implanting blastocyst-stage mural trophectoderm
+namespace: anatomical_structure
+is_a: EMAPA:16047 ! mural trophectoderm
+relationship: ends_at TS06 ! TS06
+relationship: part_of EMAPA:36054 ! implanting blastocyst-stage trophectoderm
+relationship: starts_at TS06 ! TS06
+
+[Term]
+id: EMAPA:36056
+name: implanting blastocyst-stage polar trophectoderm
+namespace: anatomical_structure
+is_a: EMAPA:16048 ! polar trophectoderm
+relationship: ends_at TS06 ! TS06
+relationship: part_of EMAPA:36054 ! implanting blastocyst-stage trophectoderm
+relationship: starts_at TS06 ! TS06
+
+[Term]
+id: EMAPA:36057
+name: early extraembryonic endoderm
+namespace: anatomical_structure
+relationship: ends_at TS06 ! TS06
+relationship: part_of EMAPA:16052 ! extraembryonic endoderm
+relationship: starts_at TS06 ! TS06
+
+[Term]
+id: EMAPA:36058
+name: early parietal endoderm
+namespace: anatomical_structure
+is_a: EMAPA:36057 ! early extraembryonic endoderm
+relationship: ends_at TS06 ! TS06
+relationship: part_of EMAPA:16053 ! parietal endoderm
+relationship: starts_at TS06 ! TS06
 
 [Term]
 id: group_term
