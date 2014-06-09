@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 09:06:2014 14:35
+date: 09:06:2014 14:43
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
@@ -62497,6 +62497,7 @@ name: early extraembryonic endoderm
 namespace: anatomical_structure
 relationship: ends_at TS06 ! TS06
 relationship: part_of EMAPA:16052 ! extraembryonic endoderm
+relationship: part_of EMAPA:36053 ! implanting blastocyst
 relationship: starts_at TS06 ! TS06
 
 [Term]
