@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 05:06:2014 16:33
+date: 09:06:2014 11:15
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
@@ -49,7 +49,7 @@ relationship: part_of EMAPA:36042 ! 2-cell stage conceptus
 relationship: part_of EMAPA:36043 ! 4-cell stage conceptus
 relationship: part_of EMAPA:36044 ! 8-cell stage conceptus
 relationship: part_of EMAPA:36045 ! morula-stage conceptus
-relationship: part_of EMAPA:36046 ! blastocyst-stage conceptus
+relationship: part_of EMAPA:36046 ! preimplantation blastocyst-stage conceptus
 relationship: starts_at TS01 ! TS01
 
 [Term]
@@ -65,7 +65,7 @@ relationship: part_of EMAPA:36042 ! 2-cell stage conceptus
 relationship: part_of EMAPA:36043 ! 4-cell stage conceptus
 relationship: part_of EMAPA:36044 ! 8-cell stage conceptus
 relationship: part_of EMAPA:36045 ! morula-stage conceptus
-relationship: part_of EMAPA:36046 ! blastocyst-stage conceptus
+relationship: part_of EMAPA:36046 ! preimplantation blastocyst-stage conceptus
 relationship: starts_at TS01 ! TS01
 
 [Term]
@@ -116,7 +116,7 @@ name: inner cell mass
 namespace: anatomical_structure
 comment: order=11 for EMAPA:16039.\norder=20 for EMAPA:25765.
 relationship: ends_at TS05 ! TS05
-relationship: part_of EMAPA:36035 ! blastocyst
+relationship: part_of EMAPA:36035 ! preimplantation blastocyst
 relationship: starts_at TS04 ! TS04
 
 [Term]
@@ -145,7 +145,6 @@ comment: order=0 for EMAPA:16043.
 synonym: "blastocelic cavity" RELATED []
 relationship: ends_at TS06 ! TS06
 relationship: part_of EMAPA:16043 ! extraembryonic cavity
-relationship: part_of EMAPA:36035 ! blastocyst
 relationship: starts_at TS04 ! TS04
 
 [Term]
@@ -155,8 +154,6 @@ namespace: anatomical_structure
 comment: order=13 for EMAPA:16042.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16042 ! extraembryonic component
-relationship: part_of EMAPA:36035 ! blastocyst
-relationship: part_of EMAPA:36039 ! egg cylinder
 relationship: starts_at TS04 ! TS04
 
 [Term]
@@ -184,7 +181,6 @@ namespace: anatomical_structure
 comment: order=8 for EMAPA:16039.\norder=15 for EMAPA:25765.
 relationship: ends_at TS08 ! TS08
 relationship: part_of EMAPA:16039 ! embryo
-relationship: part_of EMAPA:36039 ! egg cylinder
 relationship: starts_at TS06 ! TS06
 
 [Term]
@@ -198,7 +194,6 @@ synonym: "proximal endoderm" RELATED []
 synonym: "visceral endoderm" RELATED []
 is_a: EMAPA:35986 ! endoderm
 relationship: ends_at TS07 ! TS07
-relationship: part_of EMAPA:36039 ! egg cylinder
 relationship: starts_at TS06 ! TS06
 
 [Term]
@@ -209,7 +204,6 @@ comment: order=8 for EMAPA:16042.
 is_a: EMAPA:35986 ! endoderm
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16042 ! extraembryonic component
-relationship: part_of EMAPA:36039 ! egg cylinder
 relationship: starts_at TS06 ! TS06
 
 [Term]
@@ -338,7 +332,6 @@ comment: order=7 for EMAPA:16042.
 is_a: EMAPA:35985 ! ectoderm
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16042 ! extraembryonic component
-relationship: part_of EMAPA:36039 ! egg cylinder
 relationship: starts_at TS07 ! TS07
 
 [Term]
@@ -55024,7 +55017,7 @@ comment: order=0 for EMAPA:17396.
 is_a: EMAPA:32730 ! cartilage
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17396 ! axial skeleton thoracic region
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35263
@@ -62310,12 +62303,11 @@ relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:36035
-name: blastocyst
+name: preimplantation blastocyst
 namespace: anatomical_structure
-xref: XX:<new xref>
 relationship: ends_at TS05 ! TS05
 relationship: part_of EMAPA:36032 ! preimplantation embryo
-relationship: part_of EMAPA:36046 ! blastocyst-stage conceptus
+relationship: part_of EMAPA:36046 ! preimplantation blastocyst-stage conceptus
 relationship: starts_at TS04 ! TS04
 
 [Term]
@@ -62345,14 +62337,17 @@ relationship: starts_at TS08 ! TS08
 
 [Term]
 id: EMAPA:36039
-name: egg cylinder
+name: primary yolk sac cavity
 namespace: anatomical_structure
-relationship: part_of EMAPA:25765 ! mouse
+relationship: ends_at TS08 ! TS08
+relationship: part_of EMAPA:16055 ! yolk sac cavity
+relationship: starts_at TS07 ! TS07
 
 [Term]
 id: EMAPA:36040
 name: preimplantation stage conceptus
 namespace: anatomical_structure
+relationship: ends_at TS05 ! TS05
 relationship: part_of EMAPA:25765 ! mouse
 relationship: starts_at TS01 ! TS01
 
@@ -62398,10 +62393,46 @@ relationship: starts_at TS03 ! TS03
 
 [Term]
 id: EMAPA:36046
-name: blastocyst-stage conceptus
+name: preimplantation blastocyst-stage conceptus
 namespace: anatomical_structure
 relationship: ends_at TS05 ! TS05
 relationship: part_of EMAPA:36040 ! preimplantation stage conceptus
+relationship: starts_at TS04 ! TS04
+
+[Term]
+id: EMAPA:36047
+name: preimplantation blastocyst-stage trophectoderm
+namespace: anatomical_structure
+is_a: EMAPA:16046 ! trophectoderm
+relationship: ends_at TS05 ! TS05
+relationship: part_of EMAPA:36035 ! preimplantation blastocyst
+relationship: starts_at TS04 ! TS04
+
+[Term]
+id: EMAPA:36048
+name: preimplantation blastocyst-stage mural trophectoderm
+namespace: anatomical_structure
+is_a: EMAPA:16047 ! mural trophectoderm
+relationship: ends_at TS05 ! TS05
+relationship: part_of EMAPA:36047 ! preimplantation blastocyst-stage trophectoderm
+relationship: starts_at TS04 ! TS04
+
+[Term]
+id: EMAPA:36049
+name: preimplantation blastocyst-stage polar trophectoderm
+namespace: anatomical_structure
+is_a: EMAPA:16048 ! polar trophectoderm
+relationship: ends_at TS05 ! TS05
+relationship: part_of EMAPA:36047 ! preimplantation blastocyst-stage trophectoderm
+relationship: starts_at TS04 ! TS04
+
+[Term]
+id: EMAPA:36050
+name: early blastocoelic cavity
+namespace: anatomical_structure
+is_a: EMAPA:16044 ! blastocoelic cavity
+relationship: ends_at TS05 ! TS05
+relationship: part_of EMAPA:36035 ! preimplantation blastocyst
 relationship: starts_at TS04 ! TS04
 
 [Term]
