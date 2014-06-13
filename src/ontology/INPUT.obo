@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:06:2014 16:54
+date: 13:06:2014 17:09
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
@@ -116,7 +116,7 @@ name: inner cell mass
 namespace: anatomical_structure
 comment: order=11 for EMAPA:16039.\norder=20 for EMAPA:25765.
 relationship: ends_at TS05 ! TS05
-relationship: part_of EMAPA:36035 !  blastocyst
+relationship: part_of EMAPA:36035 ! blastocyst
 relationship: starts_at TS04 ! TS04
 
 [Term]
@@ -145,7 +145,7 @@ comment: order=0 for EMAPA:16043.
 synonym: "blastocelic cavity" RELATED []
 relationship: ends_at TS06 ! TS06
 relationship: part_of EMAPA:16043 ! extraembryonic cavity
-relationship: part_of EMAPA:36035 !  blastocyst
+relationship: part_of EMAPA:36035 ! blastocyst
 relationship: starts_at TS04 ! TS04
 
 [Term]
@@ -155,7 +155,7 @@ namespace: anatomical_structure
 comment: order=13 for EMAPA:16042.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16042 ! extraembryonic component
-relationship: part_of EMAPA:36035 !  blastocyst
+relationship: part_of EMAPA:36035 ! blastocyst
 relationship: starts_at TS04 ! TS04
 
 [Term]
@@ -183,7 +183,7 @@ namespace: anatomical_structure
 comment: order=8 for EMAPA:16039.\norder=15 for EMAPA:25765.
 relationship: ends_at TS08 ! TS08
 relationship: part_of EMAPA:16039 ! embryo
-relationship: part_of EMAPA:36035 !  blastocyst
+relationship: part_of EMAPA:36035 ! blastocyst
 relationship: starts_at TS06 ! TS06
 
 [Term]
@@ -196,7 +196,7 @@ synonym: "primary endoderm" RELATED []
 synonym: "primitive endoderm" RELATED []
 is_a: EMAPA:35986 ! endoderm
 relationship: ends_at TS07 ! TS07
-relationship: part_of EMAPA:36035 !  blastocyst
+relationship: part_of EMAPA:36035 ! blastocyst
 relationship: starts_at TS06 ! TS06
 
 [Term]
@@ -216,7 +216,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:16052.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16052 ! extraembryonic endoderm
-relationship: part_of EMAPA:36035 !  blastocyst
+relationship: part_of EMAPA:36035 ! blastocyst
 relationship: starts_at TS06 ! TS06
 
 [Term]
@@ -1677,6 +1677,7 @@ id: EMAPA:16210
 name: early primitive heart tube endocardial tube
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16208.
+is_a: EMAPA:32685 ! endocardial tube
 relationship: ends_at TS12 ! TS12
 relationship: part_of EMAPA:16208 ! early primitive heart tube
 relationship: starts_at TS12 ! TS12
@@ -1762,6 +1763,7 @@ id: EMAPA:16219
 name: early bulbus cordis caudal half endocardial tube
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16217.
+is_a: EMAPA:32685 ! endocardial tube
 relationship: ends_at TS12 ! TS12
 relationship: part_of EMAPA:16217 ! early bulbus cordis caudal half
 relationship: starts_at TS12 ! TS12
@@ -1800,6 +1802,7 @@ id: EMAPA:16223
 name: early bulbus cordis rostral half endocardial tube
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16221.
+is_a: EMAPA:32685 ! endocardial tube
 relationship: ends_at TS12 ! TS12
 relationship: part_of EMAPA:16221 ! early bulbus cordis rostral half
 relationship: starts_at TS12 ! TS12
@@ -1838,6 +1841,7 @@ id: EMAPA:16227
 name: early common atrial chamber endocardial tube
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16225.
+is_a: EMAPA:32685 ! endocardial tube
 relationship: ends_at TS12 ! TS12
 relationship: part_of EMAPA:16225 ! early common atrial chamber
 relationship: starts_at TS12 ! TS12
@@ -1876,6 +1880,7 @@ id: EMAPA:16231
 name: early outflow tract endocardial tube
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16229.
+is_a: EMAPA:32685 ! endocardial tube
 relationship: ends_at TS12 ! TS12
 relationship: part_of EMAPA:16229 ! early outflow tract
 relationship: starts_at TS12 ! TS12
@@ -1914,6 +1919,7 @@ id: EMAPA:16235
 name: early primitive ventricle endocardial tube
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16233.
+is_a: EMAPA:32685 ! endocardial tube
 relationship: ends_at TS12 ! TS12
 relationship: part_of EMAPA:16233 ! early primitive ventricle
 relationship: starts_at TS12 ! TS12
@@ -1999,6 +2005,7 @@ id: EMAPA:16244
 name: vitelline vein embryonic part
 namespace: anatomical_structure
 comment: order=56 for EMAPA:16240.\norder=2 for EMAPA:36021.
+is_a: EMAPA:35906 ! vein
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16240 ! venous system
 relationship: part_of EMAPA:36021 ! vitelline vein
@@ -2728,6 +2735,7 @@ id: EMAPA:16323
 name: optic eminence ectoderm
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16322.
+is_a: EMAPA:16069 ! embryo ectoderm
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16322 ! optic eminence
 relationship: starts_at TS13 ! TS13
@@ -2803,6 +2811,7 @@ id: EMAPA:16331
 name: umbilical artery embryonic part
 namespace: anatomical_structure
 comment: order=56 for EMAPA:16201.\norder=0 for EMAPA:36017.
+is_a: EMAPA:35147 ! artery
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16201 ! arterial system
 relationship: part_of EMAPA:36017 ! umbilical artery
@@ -2850,6 +2859,7 @@ id: EMAPA:16336
 name: bulbus cordis caudal half endocardial tube
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16334.
+is_a: EMAPA:32685 ! endocardial tube
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16334 ! bulbus cordis caudal half
 relationship: starts_at TS13 ! TS13
@@ -2889,6 +2899,7 @@ id: EMAPA:16340
 name: bulbus cordis rostral half endocardial tube
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16338.
+is_a: EMAPA:32685 ! endocardial tube
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16338 ! bulbus cordis rostral half
 relationship: starts_at TS13 ! TS13
@@ -2927,6 +2938,7 @@ id: EMAPA:16344
 name: common atrial chamber endocardial tube
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16342.
+is_a: EMAPA:32685 ! endocardial tube
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16342 ! common atrial chamber
 relationship: starts_at TS13 ! TS13
@@ -3003,6 +3015,7 @@ id: EMAPA:16352
 name: primitive ventricle endocardial tube
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16350.
+is_a: EMAPA:32685 ! endocardial tube
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16350 ! primitive ventricle
 relationship: starts_at TS13 ! TS13
@@ -3081,6 +3094,7 @@ id: EMAPA:16360
 name: foregut diverticulum gland
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16248.
+is_a: EMAPA:18815 ! gut gland
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16248 ! foregut diverticulum
 relationship: starts_at TS13 ! TS13
@@ -4181,6 +4195,7 @@ id: EMAPA:16473
 name: early midbrain floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16472.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16472 ! early midbrain
 relationship: starts_at TS14 ! TS14
@@ -4258,6 +4273,7 @@ id: EMAPA:16481
 name: rhombomere 01 floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16480.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16480 ! rhombomere 01
 relationship: starts_at TS14 ! TS14
@@ -4295,6 +4311,7 @@ id: EMAPA:16485
 name: rhombomere 02 floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16484.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16484 ! rhombomere 02
 relationship: starts_at TS14 ! TS14
@@ -4332,6 +4349,7 @@ id: EMAPA:16489
 name: rhombomere 03 floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16488.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16488 ! rhombomere 03
 relationship: starts_at TS14 ! TS14
@@ -4369,6 +4387,7 @@ id: EMAPA:16493
 name: rhombomere 04 floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16492.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16492 ! rhombomere 04
 relationship: starts_at TS14 ! TS14
@@ -4406,6 +4425,7 @@ id: EMAPA:16497
 name: rhombomere 05 floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16496.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16496 ! rhombomere 05
 relationship: starts_at TS14 ! TS14
@@ -4443,6 +4463,7 @@ id: EMAPA:16501
 name: rhombomere 06 floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16500.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16500 ! rhombomere 06
 relationship: starts_at TS14 ! TS14
@@ -4480,6 +4501,7 @@ id: EMAPA:16505
 name: rhombomere 07 floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16504.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16504 ! rhombomere 07
 relationship: starts_at TS14 ! TS14
@@ -4517,6 +4539,7 @@ id: EMAPA:16509
 name: rhombomere 08 floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16508.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16508 ! rhombomere 08
 relationship: starts_at TS14 ! TS14
@@ -4553,6 +4576,7 @@ id: EMAPA:16513
 name: prosencephalon floor plate
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16512.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16512 ! prosencephalon
 relationship: starts_at TS14 ! TS14
@@ -4718,6 +4742,7 @@ id: EMAPA:16531
 name: neural tube floor plate
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16530.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16530 ! neural tube
 relationship: starts_at TS14 ! TS14
@@ -4966,6 +4991,7 @@ id: EMAPA:16557
 name: foregut gland
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16548.
+is_a: EMAPA:18815 ! gut gland
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:16548 ! foregut
 relationship: starts_at TS14 ! TS14
@@ -5091,6 +5117,7 @@ id: EMAPA:16572
 name: stomatodeum gland
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16263.
+is_a: EMAPA:18425 ! gland
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16263 ! stomatodeum
 relationship: starts_at TS14 ! TS14
@@ -5807,6 +5834,7 @@ id: EMAPA:16645
 name: early diencephalon floor plate
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16641.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16641 ! early diencephalon
 relationship: starts_at TS15 ! TS15
@@ -5816,6 +5844,7 @@ id: EMAPA:16646
 name: early diencephalon gland
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16641.
+is_a: EMAPA:18425 ! gland
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16641 ! early diencephalon
 relationship: starts_at TS15 ! TS15
@@ -5900,6 +5929,7 @@ id: EMAPA:16655
 name: early telencephalon floor plate
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16652.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16652 ! early telencephalon
 relationship: starts_at TS15 ! TS15
@@ -6015,6 +6045,7 @@ name: spinal ganglion
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16666.
 is_a: EMAPA:32814 ! peripheral nervous system ganglion
+is_a: EMAPA:35796 ! spinal ganglion or nerve
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16666 ! spinal component of peripheral nervous system
 relationship: starts_at TS15 ! TS15
@@ -6452,6 +6483,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:16553.
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16553 ! rest of foregut
+relationship: part_of EMAPA:32911 ! gut mesentery
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -6461,6 +6493,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:16710.
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16710 ! rest of foregut mesentery
+relationship: part_of EMAPA:32910 ! gut dorsal mesentery
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -6526,6 +6559,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:16715.
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16715 ! hindgut
+relationship: part_of EMAPA:32911 ! gut mesentery
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -6537,6 +6571,7 @@ synonym: "dorsal mesocolon" RELATED []
 synonym: "dorsal mesorectum" RELATED []
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16718 ! hindgut mesentery
+relationship: part_of EMAPA:32910 ! gut dorsal mesentery
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -6556,6 +6591,7 @@ namespace: anatomical_structure
 comment: order=7 for EMAPA:16255.
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16255 ! midgut
+relationship: part_of EMAPA:32911 ! gut mesentery
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -6565,6 +6601,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:16721.
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16721 ! midgut mesentery
+relationship: part_of EMAPA:32910 ! gut dorsal mesentery
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -7758,6 +7795,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:16843.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16843 ! hepatic duct
+relationship: part_of EMAPA:16846 ! liver
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -8332,6 +8370,7 @@ id: EMAPA:16903
 name: diencephalon floor plate
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16896.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16896 ! diencephalon
 relationship: starts_at TS17 ! TS17
@@ -8484,6 +8523,7 @@ id: EMAPA:16919
 name: rhombomere 01 floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16918.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16918 ! rhombomere 01
 relationship: starts_at TS17 ! TS17
@@ -8549,6 +8589,7 @@ id: EMAPA:16926
 name: rhombomere 02 floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16925.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16925 ! rhombomere 02
 relationship: starts_at TS17 ! TS17
@@ -8614,6 +8655,7 @@ id: EMAPA:16933
 name: rhombomere 03 floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16932.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16932 ! rhombomere 03
 relationship: starts_at TS17 ! TS17
@@ -8679,6 +8721,7 @@ id: EMAPA:16940
 name: rhombomere 04 floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16939.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16939 ! rhombomere 04
 relationship: starts_at TS17 ! TS17
@@ -8744,6 +8787,7 @@ id: EMAPA:16947
 name: rhombomere 05 floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16946.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16946 ! rhombomere 05
 relationship: starts_at TS17 ! TS17
@@ -8809,6 +8853,7 @@ id: EMAPA:16954
 name: rhombomere 06 floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16953.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16953 ! rhombomere 06
 relationship: starts_at TS17 ! TS17
@@ -8874,6 +8919,7 @@ id: EMAPA:16961
 name: rhombomere 07 floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16960.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16960 ! rhombomere 07
 relationship: starts_at TS17 ! TS17
@@ -8939,6 +8985,7 @@ id: EMAPA:16968
 name: rhombomere 08 floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16967.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16967 ! rhombomere 08
 relationship: starts_at TS17 ! TS17
@@ -9004,6 +9051,7 @@ id: EMAPA:16975
 name: midbrain floor plate
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16974.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16974 ! midbrain
 relationship: starts_at TS17 ! TS17
@@ -9137,6 +9185,7 @@ name: spinal nerve
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16666.
 is_a: EMAPA:32808 ! nerve
+is_a: EMAPA:35796 ! spinal ganglion or nerve
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16666 ! spinal component of peripheral nervous system
 relationship: starts_at TS17 ! TS17
@@ -9867,6 +9916,7 @@ id: EMAPA:17065
 name: foregut-midgut junction gland
 namespace: anatomical_structure
 comment: order=5 for EMAPA:16363.
+is_a: EMAPA:18815 ! gut gland
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:16363 ! foregut-midgut junction
 relationship: starts_at TS18 ! TS18
@@ -10127,6 +10177,7 @@ id: EMAPA:17093
 name: rhombomere 01 floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17092.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:17092 ! rhombomere 01
 relationship: starts_at TS18 ! TS18
@@ -10192,6 +10243,7 @@ id: EMAPA:17100
 name: rhombomere 02 floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17099.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:17099 ! rhombomere 02
 relationship: starts_at TS18 ! TS18
@@ -10257,6 +10309,7 @@ id: EMAPA:17107
 name: rhombomere 03 floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17106.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:17106 ! rhombomere 03
 relationship: starts_at TS18 ! TS18
@@ -10322,6 +10375,7 @@ id: EMAPA:17114
 name: rhombomere 04 floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17113.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:17113 ! rhombomere 04
 relationship: starts_at TS18 ! TS18
@@ -10387,6 +10441,7 @@ id: EMAPA:17121
 name: rhombomere 05 floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17120.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:17120 ! rhombomere 05
 relationship: starts_at TS18 ! TS18
@@ -10452,6 +10507,7 @@ id: EMAPA:17128
 name: rhombomere 06 floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17127.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:17127 ! rhombomere 06
 relationship: starts_at TS18 ! TS18
@@ -10517,6 +10573,7 @@ id: EMAPA:17135
 name: rhombomere 07 floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17134.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:17134 ! rhombomere 07
 relationship: starts_at TS18 ! TS18
@@ -10582,6 +10639,7 @@ id: EMAPA:17142
 name: rhombomere 08 floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17141.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:17141 ! rhombomere 08
 relationship: starts_at TS18 ! TS18
@@ -11616,6 +11674,7 @@ name: footplate ectoderm
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17249.
 relationship: ends_at TS19 ! TS19
+relationship: part_of EMAPA:16780 ! hindlimb bud ectoderm
 relationship: part_of EMAPA:17249 ! footplate
 relationship: starts_at TS19 ! TS19
 
@@ -11693,6 +11752,7 @@ id: EMAPA:17258
 name: metencephalon floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17071.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17071 ! metencephalon
 relationship: starts_at TS19 ! TS19
@@ -11711,6 +11771,7 @@ id: EMAPA:17260
 name: myelencephalon floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17082.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:17082 ! myelencephalon
 relationship: starts_at TS19 ! TS19
@@ -14420,6 +14481,7 @@ id: EMAPA:17551
 name: medulla oblongata floor plate
 namespace: anatomical_structure
 comment: order=7 for EMAPA:17550.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17550 ! medulla oblongata
 relationship: starts_at TS20 ! TS20
@@ -14675,6 +14737,7 @@ id: EMAPA:17578
 name: spinal cord floor plate
 namespace: anatomical_structure
 comment: order=4 for EMAPA:17577.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17577 ! spinal cord
 relationship: starts_at TS20 ! TS20
@@ -16247,7 +16310,8 @@ name: anterior abdominal wall musculature
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17743.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17743 ! vertebral axis musculature
+relationship: part_of EMAPA:35103 ! abdomen musculature
+relationship: part_of EMAPA:35888 ! trunk musculature
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -17741,6 +17805,7 @@ id: EMAPA:17910
 name: lower jaw skeleton
 namespace: anatomical_structure
 comment: order=5 for EMAPA:17906.
+is_a: EMAPA:35455 ! jaw skeleton
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17906 ! lower jaw
 relationship: starts_at TS21 ! TS21
@@ -17872,6 +17937,7 @@ id: EMAPA:17927
 name: upper jaw skeleton
 namespace: anatomical_structure
 comment: order=7 for EMAPA:17924.
+is_a: EMAPA:35455 ! jaw skeleton
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17924 ! upper jaw
 relationship: starts_at TS21 ! TS21
@@ -20083,6 +20149,7 @@ id: EMAPA:18167
 name: axial muscle
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18166.
+is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18166 ! axial musculature
 relationship: starts_at TS22 ! TS22
@@ -20166,6 +20233,7 @@ name: pectoralis major
 namespace: anatomical_structure
 comment: order=6 for EMAPA:17747.
 is_a: EMAPA:17748 ! pectoral girdle and thoracic body wall muscle
+is_a: EMAPA:35670 ! pectoralis
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17747 ! pectoral girdle and thoracic body wall musculature
@@ -20177,6 +20245,7 @@ name: pectoralis minor
 namespace: anatomical_structure
 comment: order=7 for EMAPA:17747.
 is_a: EMAPA:17748 ! pectoral girdle and thoracic body wall muscle
+is_a: EMAPA:35670 ! pectoralis
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17747 ! pectoral girdle and thoracic body wall musculature
@@ -20436,6 +20505,7 @@ id: EMAPA:18221
 name: autonomic ganglion
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16984.
+is_a: EMAPA:32814 ! peripheral nervous system ganglion
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16984 ! autonomic nervous system
 relationship: starts_at TS18 ! TS18
@@ -21820,6 +21890,7 @@ id: EMAPA:18371
 name: tail ganglion
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18370.
+is_a: EMAPA:32846 ! ganglion
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18370 ! tail peripheral nervous system
 relationship: starts_at TS22 ! TS22
@@ -21829,6 +21900,7 @@ id: EMAPA:18372
 name: tail dorsal root ganglion
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18371.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18371 ! tail ganglion
 relationship: starts_at TS22 ! TS22
@@ -21866,8 +21938,9 @@ id: EMAPA:18377
 name: midgut lumen
 namespace: anatomical_structure
 comment: order=6 for EMAPA:16255.
-relationship: ends_at TS16 ! TS16
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:16255 ! midgut
+relationship: part_of EMAPA:32908 ! gut lumen
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -21977,6 +22050,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:17900.
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17900 ! rest of hindgut
+relationship: part_of EMAPA:18396 ! hindgut lumen
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -22004,6 +22078,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:17042.
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17042 ! rest of midgut
+relationship: part_of EMAPA:18377 ! midgut lumen
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -22038,8 +22113,9 @@ id: EMAPA:18396
 name: hindgut lumen
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16715.
-relationship: ends_at TS20 ! TS20
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:16715 ! hindgut
+relationship: part_of EMAPA:32908 ! gut lumen
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -22076,6 +22152,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:16553.
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16553 ! rest of foregut
+relationship: part_of EMAPA:32908 ! gut lumen
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -23912,6 +23989,7 @@ id: EMAPA:18627
 name: aortic valve leaflet
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17870.
+is_a: EMAPA:35903 ! valve leaflet
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17870 ! aortic valve
 relationship: starts_at TS23 ! TS23
@@ -23921,6 +23999,7 @@ id: EMAPA:18628
 name: mitral valve leaflet
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17871.
+is_a: EMAPA:35903 ! valve leaflet
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17871 ! mitral valve
 relationship: starts_at TS23 ! TS23
@@ -23930,6 +24009,7 @@ id: EMAPA:18629
 name: pulmonary valve leaflet
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17872.
+is_a: EMAPA:35903 ! valve leaflet
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17872 ! pulmonary valve
 relationship: starts_at TS23 ! TS23
@@ -23939,6 +24019,7 @@ id: EMAPA:18630
 name: tricuspid valve leaflet
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17873.
+is_a: EMAPA:35903 ! valve leaflet
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17873 ! tricuspid valve
 relationship: starts_at TS23 ! TS23
@@ -24312,6 +24393,7 @@ id: EMAPA:18672
 name: liver left lobe hepatic duct
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18307.
+is_a: EMAPA:16845 ! hepatic duct intrahepatic part
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18307 ! liver left lobe
 relationship: starts_at TS23 ! TS23
@@ -25001,7 +25083,7 @@ name: hair follicle
 namespace: anatomical_structure
 comment: order=5 for EMAPA:18769.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18769 ! hair
+relationship: part_of EMAPA:17525 ! skin
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -25018,6 +25100,7 @@ id: EMAPA:18778
 name: pineal gland
 namespace: anatomical_structure
 comment: order=5 for EMAPA:17532.
+is_a: EMAPA:18425 ! gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17532 ! epithalamus
 relationship: starts_at TS24 ! TS24
@@ -25296,7 +25379,7 @@ comment: order=9 for EMAPA:16247.
 is_a: EMAPA:18425 ! gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16247 ! gut
-relationship: starts_at TS14 ! TS14
+relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:18816
@@ -26385,6 +26468,7 @@ id: EMAPA:18954
 name: hard palate mesenchyme
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18952.
+is_a: EMAPA:32811 ! palate mesenchyme
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18952 ! hard palate
 relationship: starts_at TS24 ! TS24
@@ -26815,6 +26899,7 @@ id: EMAPA:19020
 name: costo-vertebral joint
 namespace: anatomical_structure
 comment: order=3 for EMAPA:18025.
+is_a: EMAPA:35456 ! joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18025 ! pectoral girdle and thoracic body wall skeleton
 relationship: starts_at TS24 ! TS24
@@ -27468,7 +27553,7 @@ id: EMAPA:19102
 name: elbow joint
 namespace: anatomical_structure
 comment: order=1 for EMAPA:17414.
-is_a: EMAPA:35456 ! joint
+is_a: EMAPA:19204 ! forelimb joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17414 ! elbow
 relationship: starts_at TS24 ! TS24
@@ -27500,6 +27585,7 @@ id: EMAPA:19105
 name: shoulder joint
 namespace: anatomical_structure
 comment: order=1 for EMAPA:17421.
+is_a: EMAPA:19204 ! forelimb joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17421 ! shoulder
 relationship: starts_at TS24 ! TS24
@@ -27953,6 +28039,7 @@ id: EMAPA:19152
 name: orbital fat pad
 namespace: anatomical_structure
 comment: order=33 for EMAPA:16198.
+is_a: EMAPA:35340 ! fat pad
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16198 ! eye
 relationship: starts_at TS25 ! TS25
@@ -28072,6 +28159,7 @@ id: EMAPA:19166
 name: adductor muscle
 namespace: anatomical_structure
 comment: order=0 for EMAPA:19144.
+is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19144 ! upper leg skeletal muscle
 relationship: starts_at TS25 ! TS25
@@ -28343,6 +28431,7 @@ id: EMAPA:19196
 name: temporo-mandibular joint
 namespace: anatomical_structure
 comment: order=1 for EMAPA:17682.
+is_a: EMAPA:35456 ! joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17682 ! temporal bone
 relationship: starts_at TS25 ! TS25
@@ -28407,6 +28496,7 @@ id: EMAPA:19203
 name: sterno-clavicular joint
 namespace: anatomical_structure
 comment: order=3 for EMAPA:18344.
+is_a: EMAPA:35456 ! joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18344 ! sternum
 relationship: starts_at TS25 ! TS25
@@ -28416,6 +28506,7 @@ id: EMAPA:19204
 name: forelimb joint
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17412.
+is_a: EMAPA:35456 ! joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17412 ! forelimb
 relationship: starts_at TS24 ! TS24
@@ -28452,6 +28543,7 @@ id: EMAPA:19208
 name: costo-vertebral joint
 namespace: anatomical_structure
 comment: order=1 for EMAPA:17396.
+is_a: EMAPA:35456 ! joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17396 ! axial skeleton thoracic region
 relationship: starts_at TS25 ! TS25
@@ -28881,6 +28973,7 @@ name: midgut derived large intestine epithelium
 namespace: anatomical_structure
 comment: order=1 for EMAPA:19253.
 is_a: EMAPA:16569 ! midgut epithelium
+is_a: EMAPA:35466 ! large intestine epithelium
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:19253 ! midgut derived large intestine
 relationship: starts_at TS26 ! TS26
@@ -28928,6 +29021,7 @@ name: hindgut derived large intestine epithelium
 namespace: anatomical_structure
 comment: order=1 for EMAPA:19254.
 is_a: EMAPA:16717 ! hindgut epithelium
+is_a: EMAPA:35466 ! large intestine epithelium
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:19254 ! hindgut derived large intestine
 relationship: starts_at TS26 ! TS26
@@ -29198,6 +29292,7 @@ id: EMAPA:19300
 name: sacro-iliac joint
 namespace: anatomical_structure
 comment: order=12 for EMAPA:18028.
+is_a: EMAPA:35456 ! joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18028 ! pelvic girdle skeleton
 relationship: starts_at TS26 ! TS26
@@ -29207,8 +29302,9 @@ id: EMAPA:19302
 name: metacarpo-phalangeal joint
 namespace: anatomical_structure
 comment: order=0 for EMAPA:19204.
+is_a: EMAPA:32641 ! hand joint
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19204 ! forelimb joint
+relationship: part_of EMAPA:17428 ! hand
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -32581,6 +32677,7 @@ id: EMAPA:19665
 name: Tl17 nucleus pulposus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:19664.
+is_a: EMAPA:18008 ! nucleus pulposus
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:19664 ! Tl17 intervertebral disc
 relationship: starts_at TS26 ! TS26
@@ -32965,6 +33062,7 @@ id: EMAPA:25057
 name: forelimb digit 1 metacarpo-phalangeal joint
 namespace: anatomical_structure
 comment: order=5 for EMAPA:17429.
+is_a: EMAPA:19302 ! metacarpo-phalangeal joint
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17429 ! forelimb digit 1
 relationship: starts_at TS22 ! TS22
@@ -32974,6 +33072,7 @@ id: EMAPA:25058
 name: forelimb digit 1 inter-phalangeal joint
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17429.
+is_a: EMAPA:32641 ! hand joint
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17429 ! forelimb digit 1
 relationship: starts_at TS22 ! TS22
@@ -32992,6 +33091,7 @@ id: EMAPA:25060
 name: forelimb digit 2 metacarpo-phalangeal joint
 namespace: anatomical_structure
 comment: order=5 for EMAPA:17432.
+is_a: EMAPA:19302 ! metacarpo-phalangeal joint
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17432 ! forelimb digit 2
 relationship: starts_at TS22 ! TS22
@@ -33001,6 +33101,7 @@ id: EMAPA:25061
 name: forelimb digit 2 inter-phalangeal joint
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17432.
+is_a: EMAPA:32641 ! hand joint
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17432 ! forelimb digit 2
 relationship: starts_at TS20 ! TS20
@@ -33019,6 +33120,7 @@ id: EMAPA:25063
 name: forelimb digit 3 metacarpo-phalangeal joint
 namespace: anatomical_structure
 comment: order=5 for EMAPA:17435.
+is_a: EMAPA:19302 ! metacarpo-phalangeal joint
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17435 ! forelimb digit 3
 relationship: starts_at TS22 ! TS22
@@ -33028,6 +33130,7 @@ id: EMAPA:25064
 name: forelimb digit 3 inter-phalangeal joint
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17435.
+is_a: EMAPA:32641 ! hand joint
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17435 ! forelimb digit 3
 relationship: starts_at TS22 ! TS22
@@ -33046,6 +33149,7 @@ id: EMAPA:25066
 name: forelimb digit 4 metacarpo-phalangeal joint
 namespace: anatomical_structure
 comment: order=5 for EMAPA:17438.
+is_a: EMAPA:19302 ! metacarpo-phalangeal joint
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17438 ! forelimb digit 4
 relationship: starts_at TS22 ! TS22
@@ -33055,6 +33159,7 @@ id: EMAPA:25067
 name: forelimb digit 4 inter-phalangeal joint
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17438.
+is_a: EMAPA:32641 ! hand joint
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17438 ! forelimb digit 4
 relationship: starts_at TS22 ! TS22
@@ -33073,6 +33178,7 @@ id: EMAPA:25069
 name: forelimb digit 5 metacarpo-phalangeal joint
 namespace: anatomical_structure
 comment: order=5 for EMAPA:17441.
+is_a: EMAPA:19302 ! metacarpo-phalangeal joint
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17441 ! forelimb digit 5
 relationship: starts_at TS22 ! TS22
@@ -33082,6 +33188,7 @@ id: EMAPA:25070
 name: forelimb digit 5 inter-phalangeal joint
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17441.
+is_a: EMAPA:32641 ! hand joint
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17441 ! forelimb digit 5
 relationship: starts_at TS22 ! TS22
@@ -33695,6 +33802,7 @@ id: EMAPA:25148
 name: tail nerve
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18370.
+is_a: EMAPA:32815 ! peripheral nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18370 ! tail peripheral nervous system
 relationship: starts_at TS22 ! TS22
@@ -35505,9 +35613,10 @@ relationship: starts_at TS11 ! TS11
 
 [Term]
 id: EMAPA:25357
-name: thyrold primordium endoderm
+name: early thyrold primordium endoderm
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16361.
+is_a: EMAPA:32930 ! gut endoderm
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16361 ! thyroid primordium
 relationship: starts_at TS13 ! TS13
@@ -38887,9 +38996,10 @@ relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:25968
-name: coronary artery
+name: early coronary artery
 namespace: anatomical_structure
 comment: order=0 for EMAPA:25959.
+is_a: EMAPA:35147 ! artery
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:25959 ! ascending aorta
 relationship: starts_at TS21 ! TS21
@@ -38992,6 +39102,7 @@ id: EMAPA:26097
 name: physiological umbilical hernia mesothelium
 namespace: anatomical_structure
 comment: order=3 for EMAPA:18404.
+is_a: EMAPA:32856 ! mesothelium
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:18404 ! physiological umbilical hernia
 relationship: starts_at TS20 ! TS20
@@ -39070,6 +39181,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:17460.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17460 ! hindlimb digit 1
+relationship: part_of EMAPA:32949 ! foot joint
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -39079,6 +39191,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:17460.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17460 ! hindlimb digit 1
+relationship: part_of EMAPA:32949 ! foot joint
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -39088,6 +39201,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:17463.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17463 ! hindlimb digit 2
+relationship: part_of EMAPA:32949 ! foot joint
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -39097,6 +39211,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:17463.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17463 ! hindlimb digit 2
+relationship: part_of EMAPA:32949 ! foot joint
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -39106,6 +39221,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:17466.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17466 ! hindlimb digit 3
+relationship: part_of EMAPA:32949 ! foot joint
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -39115,6 +39231,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:17466.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17466 ! hindlimb digit 3
+relationship: part_of EMAPA:32949 ! foot joint
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -39124,6 +39241,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:17469.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17469 ! hindlimb digit 4
+relationship: part_of EMAPA:32949 ! foot joint
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -39133,6 +39251,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:17469.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17469 ! hindlimb digit 4
+relationship: part_of EMAPA:32949 ! foot joint
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -39142,6 +39261,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:17472.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17472 ! hindlimb digit 5
+relationship: part_of EMAPA:32949 ! foot joint
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -39151,6 +39271,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:17472.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17472 ! hindlimb digit 5
+relationship: part_of EMAPA:32949 ! foot joint
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -39906,6 +40027,7 @@ id: EMAPA:26747
 name: sinus hair
 namespace: anatomical_structure
 comment: order=9 for EMAPA:17525.
+is_a: EMAPA:18769 ! hair
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17525 ! skin
 relationship: starts_at TS22 ! TS22
@@ -39925,7 +40047,7 @@ name: sinus hair follicle
 namespace: anatomical_structure
 comment: order=2 for EMAPA:26747.
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:26747 ! sinus hair
+relationship: part_of EMAPA:18771 ! hair follicle
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -40471,6 +40593,7 @@ namespace: anatomical_structure
 comment: order=5 for EMAPA:17900.
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17900 ! rest of hindgut
+relationship: part_of EMAPA:35385 ! gut muscularis
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -40781,6 +40904,7 @@ namespace: anatomical_structure
 comment: order=5 for EMAPA:17042.
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17042 ! rest of midgut
+relationship: part_of EMAPA:35385 ! gut muscularis
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -44320,6 +44444,7 @@ id: EMAPA:29065
 name: primary oocyte of primary follicle
 namespace: anatomical_structure
 comment: order=0 for EMAPA:19284.
+is_a: EMAPA:35705 ! primary oocyte
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35631 ! ovary primary follicle
 relationship: starts_at TS28 ! TS28
@@ -46972,6 +47097,7 @@ id: EMAPA:30779
 name: primary oocyte of mature follicle
 namespace: anatomical_structure
 comment: order=0 for EMAPA:30777.
+is_a: EMAPA:35705 ! primary oocyte
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30777 ! Graafian follicle
 relationship: starts_at TS28 ! TS28
@@ -49918,6 +50044,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:32618.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:32618 ! limb interdigital region
+relationship: part_of EMAPA:32723 ! autopod skin
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -49955,8 +50082,9 @@ id: EMAPA:32614
 name: phalanx
 namespace: anatomical_structure
 comment: order=0 for EMAPA:32719.
+is_a: EMAPA:35494 ! limb bone
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32719 ! digit mesenchyme
+relationship: part_of EMAPA:32725 ! limb digit
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -49965,6 +50093,7 @@ name: digit skin
 namespace: anatomical_structure
 comment: order=2 for EMAPA:32725.
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32723 ! autopod skin
 relationship: part_of EMAPA:32725 ! limb digit
 relationship: starts_at TS22 ! TS22
 
@@ -49980,9 +50109,10 @@ relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:32617
-name: limb interdigital region epithelium
+name: interdigital region epithelium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:32618.
+is_a: EMAPA:32724 ! limb epithelium
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:32618 ! limb interdigital region
 relationship: starts_at TS20 ! TS20
@@ -50223,6 +50353,8 @@ namespace: anatomical_structure
 alt_id: EMAPA:35394
 comment: order=11 for EMAPA:17428.
 synonym: "hand joint primordium" RELATED []
+is_a: EMAPA:19204 ! forelimb joint
+is_a: EMAPA:35160 ! autopod joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17428 ! hand
 relationship: starts_at TS21 ! TS21
@@ -50264,6 +50396,7 @@ name: forelimb digit mesenchyme
 namespace: anatomical_structure
 comment: order=2 for EMAPA:32642.
 is_a: EMAPA:17457 ! hand mesenchyme
+is_a: EMAPA:32719 ! digit mesenchyme
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32642 ! forelimb digit
 relationship: starts_at TS20 ! TS20
@@ -50294,6 +50427,7 @@ id: EMAPA:32648
 name: forelimb digit skin
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18486.\norder=3 for EMAPA:32642.
+is_a: EMAPA:32615 ! digit skin
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18486 ! hand skin
 relationship: part_of EMAPA:32642 ! forelimb digit
@@ -50315,6 +50449,7 @@ id: EMAPA:32650
 name: forelimb phalanx
 namespace: anatomical_structure
 comment: order=4 for EMAPA:32642.
+is_a: EMAPA:32614 ! phalanx
 is_a: EMAPA:35350 ! forelimb long bone
 is_a: EMAPA:35391 ! hand bone
 relationship: ends_at TS28 ! TS28
@@ -50347,6 +50482,7 @@ name: forelimb interdigital region mesenchyme
 namespace: anatomical_structure
 comment: order=1 for EMAPA:32651.
 is_a: EMAPA:17457 ! hand mesenchyme
+is_a: EMAPA:32609 ! limb interdigital region mesenchyme
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:32651 ! forelimb interdigital region
 relationship: starts_at TS20 ! TS20
@@ -50566,6 +50702,7 @@ id: EMAPA:32676
 name: brain floor plate
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16894.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16894 ! brain
 relationship: starts_at TS17 ! TS17
@@ -50575,6 +50712,7 @@ id: EMAPA:32677
 name: early brain floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16471.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16471 ! early brain
 relationship: starts_at TS14 ! TS14
@@ -50824,6 +50962,7 @@ namespace: anatomical_structure
 comment: order=13 for EMAPA:16405.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16405 ! limb
+relationship: part_of EMAPA:32729 ! appendicular skeleton
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -51928,6 +52067,7 @@ id: EMAPA:32818
 name: hindbrain rhombomere floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:32821.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:32821 ! hindbrain rhombomere
 relationship: starts_at TS17 ! TS17
@@ -52843,7 +52983,7 @@ namespace: anatomical_structure
 comment: order=12 for EMAPA:16247.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16247 ! gut
-relationship: starts_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:32912
@@ -52859,6 +52999,7 @@ id: EMAPA:32913
 name: hindbrain floor plate
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16916.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16916 ! hindbrain
 relationship: starts_at TS17 ! TS17
@@ -52914,6 +53055,7 @@ id: EMAPA:32919
 name: early forebrain floor plate
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16640.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16640 ! early forebrain
 relationship: starts_at TS15 ! TS15
@@ -53056,6 +53198,7 @@ id: EMAPA:32934
 name: early hindbrain rhombomere floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:32933.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:32933 ! early hindbrain rhombomere
 relationship: starts_at TS14 ! TS14
@@ -53124,6 +53267,7 @@ id: EMAPA:32941
 name: hindlimb phalanx
 namespace: anatomical_structure
 comment: order=1 for EMAPA:32633.\norder=3 for EMAPA:32649.
+is_a: EMAPA:32614 ! phalanx
 is_a: EMAPA:35354 ! foot bone
 is_a: EMAPA:35403 ! hindlimb long bone
 relationship: ends_at TS28 ! TS28
@@ -53136,6 +53280,7 @@ id: EMAPA:32942
 name: hindlimb digit skin
 namespace: anatomical_structure
 comment: order=3 for EMAPA:18504.\norder=2 for EMAPA:32649.
+is_a: EMAPA:32615 ! digit skin
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18504 ! foot skin
 relationship: part_of EMAPA:32649 ! hindlimb digit
@@ -53188,6 +53333,7 @@ name: hindlimb digit mesenchyme
 namespace: anatomical_structure
 comment: order=1 for EMAPA:32649.
 is_a: EMAPA:17488 ! foot mesenchyme
+is_a: EMAPA:32719 ! digit mesenchyme
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32649 ! hindlimb digit
 relationship: starts_at TS20 ! TS20
@@ -53269,6 +53415,7 @@ name: hindlimb interdigital region mesenchyme
 namespace: anatomical_structure
 comment: order=1 for EMAPA:32945.
 is_a: EMAPA:17488 ! foot mesenchyme
+is_a: EMAPA:32609 ! limb interdigital region mesenchyme
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:32945 ! hindlimb interdigital region
 relationship: starts_at TS20 ! TS20
@@ -53514,12 +53661,13 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:35103
-name: abdomen muscle
+name: abdomen musculature
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35102.
+is_a: EMAPA:35578 ! skeletal musculature
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35102 ! abdomen
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35104
@@ -53764,6 +53912,7 @@ id: EMAPA:35129
 name: anterior dorsal thalamic nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35132.
+is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35132 ! anterior thalamic group
 relationship: starts_at TS28 ! TS28
@@ -53802,6 +53951,7 @@ id: EMAPA:35133
 name: anterior ventral thalamic nucleus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35132.
+is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35132 ! anterior thalamic group
 relationship: starts_at TS28 ! TS28
@@ -54107,6 +54257,7 @@ name: basal ventral medial thalamic nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35296.
 is_a: EMAPA:35185 ! brain nucleus
+is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35296 ! dorsal thalamus medial thalamic group
 relationship: starts_at TS28 ! TS28
@@ -54312,6 +54463,7 @@ id: EMAPA:35187
 name: brain white matter
 namespace: anatomical_structure
 comment: order=11 for EMAPA:16894.
+is_a: EMAPA:35927 ! white matter
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16894 ! brain
 relationship: starts_at TS28 ! TS28
@@ -54334,6 +54486,7 @@ comment: order=2 for EMAPA:32678.
 synonym: "brain stem white matter" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32678 ! brainstem
+relationship: part_of EMAPA:35187 ! brain white matter
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -54491,6 +54644,7 @@ name: central medial thalamic nucleus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35296.
 is_a: EMAPA:35185 ! brain nucleus
+is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35296 ! dorsal thalamus medial thalamic group
 relationship: starts_at TS28 ! TS28
@@ -54529,6 +54683,7 @@ name: central thalamic nucleus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35445.
 is_a: EMAPA:35185 ! brain nucleus
+is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35445 ! intralaminar thalamic group
 relationship: starts_at TS28 ! TS28
@@ -54765,6 +54920,7 @@ comment: order=9 for EMAPA:17787.
 synonym: "cerebellar white matter" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17787 ! cerebellum
+relationship: part_of EMAPA:35187 ! brain white matter
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -54784,6 +54940,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:16910.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16910 ! telencephalon
+relationship: part_of EMAPA:35187 ! brain white matter
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -54868,7 +55025,7 @@ name: coat hair follicle
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18769.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18769 ! hair
+relationship: part_of EMAPA:18771 ! hair follicle
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -55310,7 +55467,7 @@ id: EMAPA:35293
 name: dorsal raphe nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18215.
-is_a: EMAPA:32790 ! brainstem nucleus
+is_a: EMAPA:35721 ! raphe nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18215 ! tegmentum
 relationship: starts_at TS28 ! TS28
@@ -55348,7 +55505,7 @@ id: EMAPA:35297
 name: dorsomedial hypothalamic nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35419.
-is_a: EMAPA:35185 ! brain nucleus
+is_a: EMAPA:35417 ! hypothalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35419 ! hypothalamus medial zone
 relationship: starts_at TS28 ! TS28
@@ -55488,6 +55645,7 @@ id: EMAPA:35312
 name: enteric ganglion
 namespace: anatomical_structure
 comment: order=0 for EMAPA:26922.
+is_a: EMAPA:18221 ! autonomic ganglion
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:26922 ! enteric nervous system
 relationship: starts_at TS28 ! TS28
@@ -55524,6 +55682,7 @@ id: EMAPA:35316
 name: epididymal fat pad
 namespace: anatomical_structure
 comment: order=13 for EMAPA:19290.
+is_a: EMAPA:35340 ! fat pad
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19290 ! epididymis
 relationship: starts_at TS28 ! TS28
@@ -55747,7 +55906,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:35112.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35112 ! adipose tissue
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:35341
@@ -55961,6 +56120,7 @@ id: EMAPA:35363
 name: early hindbrain floor plate
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16478.
+is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16478 ! early hindbrain
 relationship: starts_at TS14 ! TS14
@@ -56231,11 +56391,12 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:35393
-name: hand distal phalanx
+name: forelimb distal phalanx
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35287.
+is_a: EMAPA:35287 ! distal phalanx
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35287 ! distal phalanx
+relationship: part_of EMAPA:32650 ! forelimb phalanx
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -56672,6 +56833,7 @@ comment: order=3 for EMAPA:32874.
 synonym: "intestinal mucosa" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32874 ! intestine
+relationship: part_of EMAPA:35444 ! intestine wall
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -56760,6 +56922,7 @@ id: EMAPA:35449
 name: iris nerve
 namespace: anatomical_structure
 comment: order=2 for EMAPA:19154.
+is_a: EMAPA:32815 ! peripheral nerve
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19154 ! iris
 relationship: starts_at TS28 ! TS28
@@ -56789,7 +56952,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:32905.
 is_a: EMAPA:35996 ! head bone
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32905 ! jaw
+relationship: part_of EMAPA:35455 ! jaw skeleton
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -56808,6 +56971,7 @@ name: jaw skeleton
 namespace: anatomical_structure
 comment: order=7 for EMAPA:32905.
 relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:17213 ! skeleton
 relationship: part_of EMAPA:32905 ! jaw
 relationship: starts_at TS21 ! TS21
 
@@ -56926,6 +57090,7 @@ name: large intestine mucosa
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35470.
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35440 ! intestine mucosa
 relationship: part_of EMAPA:35470 ! large intestine wall
 relationship: starts_at TS24 ! TS24
 
@@ -56953,6 +57118,7 @@ id: EMAPA:35470
 name: large intestine wall
 namespace: anatomical_structure
 comment: order=4 for EMAPA:19252.
+is_a: EMAPA:35444 ! intestine wall
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19252 ! large intestine
 relationship: starts_at TS24 ! TS24
@@ -57025,6 +57191,7 @@ name: lateral entorhinal cortex
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35432.
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35313 ! entorhinal cortex
 relationship: part_of EMAPA:35432 ! insular cortex
 relationship: starts_at TS28 ! TS28
 
@@ -57657,6 +57824,7 @@ name: medial dorsal thalamic nucleus
 namespace: anatomical_structure
 comment: order=5 for EMAPA:35295.
 is_a: EMAPA:35185 ! brain nucleus
+is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35295 ! dorsal thalamus
 relationship: starts_at TS28 ! TS28
@@ -57667,7 +57835,7 @@ name: medial entorhinal cortex
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35745.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35745 ! retrohippocampal cortex
+relationship: part_of EMAPA:35313 ! entorhinal cortex
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -57724,7 +57892,7 @@ id: EMAPA:35551
 name: medial raphe nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35693.
-is_a: EMAPA:35185 ! brain nucleus
+is_a: EMAPA:35721 ! raphe nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35693 ! pontine reticular formation
 relationship: starts_at TS28 ! TS28
@@ -58576,6 +58744,7 @@ id: EMAPA:35641
 name: palatal rugae mesenchyme
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35637.
+is_a: EMAPA:35618 ! oral region mesenchyme
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:35637 ! palatal rugae
 relationship: starts_at TS22 ! TS22
@@ -58804,7 +58973,7 @@ id: EMAPA:35665
 name: paraventricular hypothalamic nucleus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35421.
-is_a: EMAPA:35185 ! brain nucleus
+is_a: EMAPA:35417 ! hypothalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35421 ! hypothalamus periventricular zone
 relationship: starts_at TS28 ! TS28
@@ -58815,6 +58984,7 @@ name: paraventricular thalamic nucleus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35573.
 is_a: EMAPA:35185 ! brain nucleus
+is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35573 ! midline thalamic group
 relationship: starts_at TS28 ! TS28
@@ -58875,6 +59045,7 @@ name: peduncular pontine nucleus
 namespace: anatomical_structure
 comment: order=7 for EMAPA:17563.
 is_a: EMAPA:32790 ! brainstem nucleus
+is_a: EMAPA:35692 ! pontine nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17563 ! pons
 relationship: starts_at TS28 ! TS28
@@ -59060,7 +59231,6 @@ name: pontine nucleus
 namespace: anatomical_structure
 comment: order=11 for EMAPA:17563.
 is_a: EMAPA:32790 ! brainstem nucleus
-is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17563 ! pons
 relationship: starts_at TS28 ! TS28
@@ -59117,6 +59287,7 @@ name: posterior thalamic nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35697.
 is_a: EMAPA:35185 ! brain nucleus
+is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35697 ! posterior thalamic group
 relationship: starts_at TS28 ! TS28
@@ -59490,6 +59661,7 @@ name: reticular thalamic nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35915.
 is_a: EMAPA:35185 ! brain nucleus
+is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35915 ! ventral thalamus
 relationship: starts_at TS28 ! TS28
@@ -59889,6 +60061,7 @@ name: small intestine mucosa
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35785.
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35440 ! intestine mucosa
 relationship: part_of EMAPA:35785 ! small intestine wall
 relationship: starts_at TS24 ! TS24
 
@@ -59934,6 +60107,7 @@ id: EMAPA:35785
 name: small intestine wall
 namespace: anatomical_structure
 comment: order=3 for EMAPA:32834.
+is_a: EMAPA:35444 ! intestine wall
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32834 ! small intestine
 relationship: starts_at TS24 ! TS24
@@ -60027,6 +60201,7 @@ id: EMAPA:35795
 name: spinal cord white matter
 namespace: anatomical_structure
 comment: order=11 for EMAPA:17577.
+is_a: EMAPA:35927 ! white matter
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17577 ! spinal cord
 relationship: starts_at TS28 ! TS28
@@ -60038,7 +60213,7 @@ namespace: anatomical_structure
 comment: order=7 for EMAPA:16665.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16665 ! peripheral nervous system
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:35797
@@ -61118,6 +61293,7 @@ name: ventral posterior lateral thalamic nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35912.
 is_a: EMAPA:35185 ! brain nucleus
+is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35912 ! ventral posterior thalamic group
 relationship: starts_at TS28 ! TS28
@@ -61128,6 +61304,7 @@ name: ventral posterior medial thalamic nucleus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35912.
 is_a: EMAPA:35185 ! brain nucleus
+is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35912 ! ventral posterior thalamic group
 relationship: starts_at TS28 ! TS28
@@ -61174,7 +61351,7 @@ id: EMAPA:35916
 name: ventromedial hypothalamic nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35420.
-is_a: EMAPA:35185 ! brain nucleus
+is_a: EMAPA:35417 ! hypothalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35420 ! hypothalamus medial zone tuberal area
 relationship: starts_at TS28 ! TS28
@@ -61289,6 +61466,7 @@ name: yolk sac parietal endoderm
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16086.
 relationship: ends_at TS21 ! TS21
+relationship: part_of EMAPA:16053 ! parietal endoderm
 relationship: part_of EMAPA:16086 ! yolk sac endoderm
 relationship: starts_at TS17 ! TS17
 
@@ -61375,6 +61553,7 @@ name: hindlimb interdigital region skin
 namespace: anatomical_structure
 comment: order=1 for EMAPA:32610.\norder=2 for EMAPA:32945.
 relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:18504 ! foot skin
 relationship: part_of EMAPA:32610 ! limb interdigital region skin
 relationship: part_of EMAPA:32945 ! hindlimb interdigital region
 relationship: starts_at TS22 ! TS22
@@ -61490,8 +61669,10 @@ id: EMAPA:35949
 name: organ
 namespace: anatomical_structure
 comment: order=18 for EMAPA:16039.\norder=11 for EMAPA:16103.\norder=31 for EMAPA:25765.
+is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16039 ! embryo
+relationship: part_of EMAPA:16103 ! organ system
 relationship: part_of EMAPA:25765 ! mouse
 relationship: starts_at TS11 ! TS11
 
@@ -62052,6 +62233,7 @@ id: EMAPA:36006
 name: lobar bronchus vascular element
 namespace: anatomical_structure
 comment: order=3 for EMAPA:32696.
+is_a: EMAPA:32867 ! lung vascular element
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:32696 ! lobar bronchus
 relationship: starts_at TS20 ! TS20
@@ -62305,7 +62487,7 @@ relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:36035
-name:  blastocyst
+name: blastocyst
 namespace: anatomical_structure
 relationship: ends_at TS06 ! TS06
 relationship: part_of EMAPA:36032 ! early embryo
