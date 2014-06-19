@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 19:06:2014 09:46
+date: 19:06:2014 16:01
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
@@ -50,6 +50,7 @@ relationship: part_of EMAPA:36043 ! 4-cell stage conceptus
 relationship: part_of EMAPA:36044 ! 8-cell stage conceptus
 relationship: part_of EMAPA:36045 ! morula-stage conceptus
 relationship: part_of EMAPA:36046 ! blastocyst-stage conceptus
+relationship: part_of EMAPA:36063 ! 4-8 cell stage conceptus
 relationship: starts_at TS01 ! TS01
 
 [Term]
@@ -66,6 +67,7 @@ relationship: part_of EMAPA:36043 ! 4-cell stage conceptus
 relationship: part_of EMAPA:36044 ! 8-cell stage conceptus
 relationship: part_of EMAPA:36045 ! morula-stage conceptus
 relationship: part_of EMAPA:36046 ! blastocyst-stage conceptus
+relationship: part_of EMAPA:36063 ! 4-8 cell stage conceptus
 relationship: starts_at TS01 ! TS01
 
 [Term]
@@ -89,6 +91,7 @@ synonym: "4-8 cell embryo" RELATED []
 synonym: "four-to-eight cell embryo" RELATED []
 relationship: ends_at TS03 ! TS03
 relationship: part_of EMAPA:36032 ! early embryo
+relationship: part_of EMAPA:36063 ! 4-8 cell stage conceptus
 relationship: starts_at TS03 ! TS03
 
 [Term]
@@ -98,7 +101,8 @@ namespace: anatomical_structure
 comment: order=10 for EMAPA:25765.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25765 ! mouse
-relationship: starts_at TS06 ! TS06
+relationship: part_of EMAPA:36035 ! blastocyst
+relationship: starts_at TS04 ! TS04
 
 [Term]
 id: EMAPA:16040
@@ -116,7 +120,7 @@ name: inner cell mass
 namespace: anatomical_structure
 comment: order=11 for EMAPA:16039.\norder=20 for EMAPA:25765.
 relationship: ends_at TS05 ! TS05
-relationship: part_of EMAPA:36035 ! blastocyst
+relationship: part_of EMAPA:16039 ! embryo
 relationship: starts_at TS04 ! TS04
 
 [Term]
@@ -183,7 +187,6 @@ namespace: anatomical_structure
 comment: order=8 for EMAPA:16039.\norder=15 for EMAPA:25765.
 relationship: ends_at TS08 ! TS08
 relationship: part_of EMAPA:16039 ! embryo
-relationship: part_of EMAPA:36035 ! blastocyst
 relationship: starts_at TS06 ! TS06
 
 [Term]
@@ -62580,7 +62583,7 @@ relationship: starts_at TS11 ! TS11
 id: EMAPA:36032
 name: early embryo
 namespace: anatomical_structure
-relationship: ends_at TS05 ! TS05
+relationship: ends_at TS04 ! TS04
 relationship: part_of EMAPA:25765 ! mouse
 relationship: starts_at TS01 ! TS01
 
@@ -62605,7 +62608,7 @@ id: EMAPA:36035
 name: blastocyst
 namespace: anatomical_structure
 relationship: ends_at TS06 ! TS06
-relationship: part_of EMAPA:36032 ! early embryo
+relationship: part_of EMAPA:25765 ! mouse
 relationship: part_of EMAPA:36046 ! blastocyst-stage conceptus
 relationship: starts_at TS04 ! TS04
 
@@ -62644,7 +62647,7 @@ relationship: starts_at TS07 ! TS07
 
 [Term]
 id: EMAPA:36040
-name: early-stage conceptus
+name: early conceptus
 namespace: anatomical_structure
 relationship: ends_at TS06 ! TS06
 relationship: part_of EMAPA:25765 ! mouse
@@ -62655,7 +62658,7 @@ id: EMAPA:36041
 name: 1-cell stage conceptus
 namespace: anatomical_structure
 relationship: ends_at TS01 ! TS01
-relationship: part_of EMAPA:36040 ! early-stage conceptus
+relationship: part_of EMAPA:36040 ! early conceptus
 relationship: starts_at TS01 ! TS01
 
 [Term]
@@ -62663,23 +62666,25 @@ id: EMAPA:36042
 name: 2-cell stage conceptus
 namespace: anatomical_structure
 relationship: ends_at TS02 ! TS02
-relationship: part_of EMAPA:36040 ! early-stage conceptus
+relationship: part_of EMAPA:36040 ! early conceptus
 relationship: starts_at TS02 ! TS02
 
 [Term]
 id: EMAPA:36043
 name: 4-cell stage conceptus
 namespace: anatomical_structure
+is_a: EMAPA:36063 ! 4-8 cell stage conceptus
 relationship: ends_at TS03 ! TS03
-relationship: part_of EMAPA:36040 ! early-stage conceptus
+relationship: part_of EMAPA:36040 ! early conceptus
 relationship: starts_at TS03 ! TS03
 
 [Term]
 id: EMAPA:36044
 name: 8-cell stage conceptus
 namespace: anatomical_structure
+is_a: EMAPA:36063 ! 4-8 cell stage conceptus
 relationship: ends_at TS03 ! TS03
-relationship: part_of EMAPA:36040 ! early-stage conceptus
+relationship: part_of EMAPA:36040 ! early conceptus
 relationship: starts_at TS03 ! TS03
 
 [Term]
@@ -62687,7 +62692,7 @@ id: EMAPA:36045
 name: morula-stage conceptus
 namespace: anatomical_structure
 relationship: ends_at TS04 ! TS04
-relationship: part_of EMAPA:36040 ! early-stage conceptus
+relationship: part_of EMAPA:36040 ! early conceptus
 relationship: starts_at TS03 ! TS03
 
 [Term]
@@ -62695,7 +62700,7 @@ id: EMAPA:36046
 name: blastocyst-stage conceptus
 namespace: anatomical_structure
 relationship: ends_at TS06 ! TS06
-relationship: part_of EMAPA:36040 ! early-stage conceptus
+relationship: part_of EMAPA:36040 ! early conceptus
 relationship: starts_at TS04 ! TS04
 
 [Term]
@@ -62830,6 +62835,16 @@ namespace: anatomical_structure
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17680 ! cranium
 relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:36063
+name: 4-8 cell stage conceptus
+namespace: anatomical_structure
+relationship: ends_at TS03 ! TS03
+relationship: part_of EMAPA:36040 ! early conceptus
+relationship: starts_at TS03 ! TS03
+created_by: terryh
+creation_date: 2014-06-19T14:12:12Z
 
 [Term]
 id: group_term
