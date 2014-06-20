@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 19:06:2014 16:01
+date: 20:06:2014 14:16
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
@@ -44558,7 +44558,7 @@ comment: order=0 for EMAPA:19284.
 is_a: EMAPA:35705 ! primary oocyte
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35631 ! ovary primary follicle
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:29067
@@ -44568,7 +44568,7 @@ comment: order=1 for EMAPA:19284.
 synonym: "granulosa cell of primary follicle" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35631 ! ovary primary follicle
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:29098
@@ -45135,7 +45135,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:28310.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28310 ! outer renal medulla
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:29665
@@ -45174,7 +45174,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:28310.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28310 ! outer renal medulla
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:29679
@@ -45304,6 +45304,7 @@ id: EMAPA:29743
 name: dermal layer of scrotum sweat gland
 namespace: anatomical_structure
 comment: order=1 for EMAPA:29739.
+is_a: EMAPA:35844 ! sweat gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29739 ! dermal layer of scrotum
 relationship: starts_at TS28 ! TS28
@@ -48551,7 +48552,7 @@ namespace: anatomical_structure
 comment: order=5 for EMAPA:17972.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17972 ! testis
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:31478
@@ -48578,7 +48579,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:31476.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31476 ! seminiferous tubule
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:31484
@@ -48587,7 +48588,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:31476.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31476 ! seminiferous tubule
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:31486
@@ -52459,9 +52460,12 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:32847
 name: myenteric nerve plexus
 namespace: anatomical_structure
-comment: order=2 for EMAPA:26922.
-relationship: ends_at TS26 ! TS26
+alt_id: EMAPA:35579
+comment: MERGED COMMENT:\nTARGET COMMENT: order=2 for EMAPA:26922.\n--------------------\nSOURCE COMMENT: order=0 for EMAPA:35446.
+synonym: "myenteric nerve plexus" EXACT []
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:26922 ! enteric nervous system
+relationship: part_of EMAPA:35446 ! intrinsic nerve plexus
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -54509,7 +54513,7 @@ comment: order=1 for EMAPA:32782.
 is_a: EMAPA:35868 ! tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32782 ! bone
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35180
@@ -55117,7 +55121,7 @@ namespace: anatomical_structure
 comment: order=14 for EMAPA:16894.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16894 ! brain
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35244
@@ -55520,7 +55524,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:32614.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32614 ! phalanx
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35288
@@ -55549,7 +55553,7 @@ comment: order=0 for EMAPA:35478.
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35478 ! lateral geniculate nucleus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35291
@@ -55618,7 +55622,7 @@ comment: order=0 for EMAPA:35419.
 is_a: EMAPA:35417 ! hypothalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35419 ! hypothalamus medial zone
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35298
@@ -55673,7 +55677,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:32888.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32888 ! enamel organ
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35304
@@ -55682,7 +55686,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:35179.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35179 ! bone tissue
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35305
@@ -55692,7 +55696,7 @@ comment: order=2 for EMAPA:18816.
 is_a: EMAPA:35999 ! endocrine gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18816 ! pancreas
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35306
@@ -55748,7 +55752,7 @@ comment: order=1 for EMAPA:17779.
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17779 ! olfactory cortex
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35312
@@ -55758,7 +55762,7 @@ comment: order=0 for EMAPA:26922.
 is_a: EMAPA:18221 ! autonomic ganglion
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:26922 ! enteric nervous system
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35313
@@ -55776,7 +55780,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:17528.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17528 ! epidermis
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35315
@@ -55785,7 +55789,7 @@ namespace: anatomical_structure
 comment: order=5 for EMAPA:17528.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17528 ! epidermis
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35316
@@ -55845,7 +55849,7 @@ synonym: "esophageal basal epithelium" RELATED []
 is_a: EMAPA:32922 ! foregut epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18862 ! esophagus epithelium
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35322
@@ -55864,7 +55868,7 @@ comment: order=0 for EMAPA:26995.
 is_a: EMAPA:35117 ! alimentary system smooth muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:26995 ! esophagus muscularis
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35324
@@ -55874,7 +55878,7 @@ comment: order=1 for EMAPA:18862.
 is_a: EMAPA:32922 ! foregut epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18862 ! esophagus epithelium
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35325
@@ -55912,7 +55916,7 @@ comment: order=3 for EMAPA:18816.
 is_a: EMAPA:35327 ! exocrine gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18816 ! pancreas
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35329
@@ -55949,7 +55953,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35800.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35800 ! spiral sulcus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35334
@@ -56008,7 +56012,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35405.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35405 ! hippocampal formation
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35340
@@ -56064,7 +56068,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:32845.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32845 ! hippocampus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35346
@@ -56122,7 +56126,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:18889.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18889 ! stomach
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35352
@@ -56349,7 +56353,7 @@ comment: order=1 for EMAPA:32634.
 is_a: EMAPA:36048 ! hindlimb skeletal muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32634 ! hindlimb musculature
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35376
@@ -56358,7 +56362,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:35295.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35295 ! dorsal thalamus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35377
@@ -56396,7 +56400,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:32780.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32780 ! pallidum
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35381
@@ -56443,7 +56447,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:17532.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17532 ! epithalamus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35387
@@ -56479,7 +56483,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:18772.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18772 ! hair root sheath
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35391
@@ -56500,7 +56504,7 @@ comment: order=9 for EMAPA:17428.
 is_a: EMAPA:35251 ! connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17428 ! hand
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35393
@@ -56510,7 +56514,7 @@ comment: order=0 for EMAPA:35287.
 is_a: EMAPA:35287 ! distal phalanx
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32650 ! forelimb phalanx
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35395
@@ -56519,7 +56523,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:19305.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19305 ! thymus medullary core
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35397
@@ -56530,7 +56534,7 @@ synonym: "cardiac blood vessel" RELATED []
 is_a: EMAPA:32743 ! blood vessel
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16105 ! heart
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35398
@@ -56608,7 +56612,7 @@ namespace: anatomical_structure
 comment: order=7 for EMAPA:16910.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16910 ! telencephalon
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35406
@@ -56617,7 +56621,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35407.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35407 ! hippocampus layer
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35407
@@ -56626,7 +56630,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:32845.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32845 ! hippocampus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35408
@@ -56635,7 +56639,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:35407.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35407 ! hippocampus layer
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35409
@@ -56644,7 +56648,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:35407.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35407 ! hippocampus layer
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35410
@@ -56653,7 +56657,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:35407.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35407 ! hippocampus layer
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35411
@@ -56662,7 +56666,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:35407.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35407 ! hippocampus layer
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35412
@@ -56671,7 +56675,7 @@ namespace: anatomical_structure
 comment: order=5 for EMAPA:35407.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35407 ! hippocampus layer
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35413
@@ -56680,7 +56684,7 @@ namespace: anatomical_structure
 comment: order=6 for EMAPA:35407.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35407 ! hippocampus layer
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35414
@@ -56698,7 +56702,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35304.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35304 ! endochondral bone
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35416
@@ -56719,7 +56723,7 @@ comment: order=0 for EMAPA:17536.
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17536 ! hypothalamus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35418
@@ -56728,7 +56732,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:17536.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17536 ! hypothalamus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35419
@@ -56737,7 +56741,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:17536.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17536 ! hypothalamus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35420
@@ -56747,7 +56751,7 @@ comment: order=1 for EMAPA:35419.
 synonym: "tuber cinereum" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35419 ! hypothalamus medial zone
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35421
@@ -56841,7 +56845,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:35405.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35405 ! hippocampal formation
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35431
@@ -56870,7 +56874,7 @@ comment: order=3 for EMAPA:32692.
 synonym: "alveolar septum" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32692 ! alveolar system
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35434
@@ -56918,7 +56922,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:35800.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35800 ! spiral sulcus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35439
@@ -56990,7 +56994,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:35295.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35295 ! dorsal thalamus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35446
@@ -56999,7 +57003,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:26922.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:26922 ! enteric nervous system
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35447
@@ -57031,7 +57035,7 @@ comment: order=2 for EMAPA:19154.
 is_a: EMAPA:32815 ! peripheral nerve
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19154 ! iris
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35451
@@ -57040,7 +57044,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:19154.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19154 ! iris
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35452
@@ -57121,7 +57125,7 @@ comment: order=10 for EMAPA:19279.
 synonym: "renal medulla collecting duct" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19279 ! renal medulla
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35460
@@ -57160,7 +57164,7 @@ is_a: EMAPA:35327 ! exocrine gland
 is_a: EMAPA:35334 ! eye gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35462 ! lacrimal apparatus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35464
@@ -57311,7 +57315,7 @@ comment: order=0 for EMAPA:35376.
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35376 ! geniculate thalamic group
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35479
@@ -57321,7 +57325,7 @@ comment: order=0 for EMAPA:35386.
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35386 ! habenula
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35480
@@ -57330,7 +57334,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35418.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35418 ! hypothalamus lateral zone
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35481
@@ -57340,7 +57344,7 @@ comment: order=0 for EMAPA:35542.
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35542 ! mammillary body
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35482
@@ -57358,7 +57362,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:35418.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35418 ! hypothalamus lateral zone
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35484
@@ -57396,7 +57400,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:35295.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35295 ! dorsal thalamus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35488
@@ -57451,7 +57455,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:35251.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35251 ! connective tissue
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35494
@@ -57482,7 +57486,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:17598.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17598 ! cochlear duct
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35497
@@ -57492,7 +57496,7 @@ comment: order=0 for EMAPA:35499.
 synonym: "hepatic acinus" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35499 ! liver lobule
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35498
@@ -57513,7 +57517,7 @@ comment: order=0 for EMAPA:17203.
 synonym: "hepatic lobule" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17203 ! liver parenchyma
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35500
@@ -57523,7 +57527,7 @@ comment: order=1 for EMAPA:35499.
 synonym: "hepatic sinusoid" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35499 ! liver lobule
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35501
@@ -57572,7 +57576,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:35503.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35503 ! long bone
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35506
@@ -57599,7 +57603,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:35503.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35503 ! long bone
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35509
@@ -57617,7 +57621,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:19280.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19280 ! loop of Henle group
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35511
@@ -57636,7 +57640,7 @@ comment: order=0 for EMAPA:35510.
 synonym: "thick ascending limb" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35510 ! loop of Henle ascending limb
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35513
@@ -57723,7 +57727,7 @@ synonym: "pulmonary connective tissue" RELATED []
 is_a: EMAPA:35977 ! respiratory system connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16728 ! lung
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35522
@@ -57742,7 +57746,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:18765.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18765 ! hemolymphoid system
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35524
@@ -57760,7 +57764,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:35523.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35523 ! lymph node
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35526
@@ -57796,7 +57800,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:35523.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35523 ! lymph node
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35530
@@ -57823,7 +57827,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:18248.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18248 ! lymphatic system
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35533
@@ -57841,7 +57845,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:17290.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17290 ! saccule
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35535
@@ -57850,7 +57854,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:17293.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17293 ! utricle
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35536
@@ -57869,7 +57873,7 @@ comment: order=0 for EMAPA:17759.
 is_a: EMAPA:35251 ! connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17759 ! mammary gland
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35538
@@ -57914,7 +57918,7 @@ namespace: anatomical_structure
 comment: order=15 for EMAPA:16896.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16896 ! diencephalon
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35543
@@ -57936,7 +57940,7 @@ is_a: EMAPA:35185 ! brain nucleus
 is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35295 ! dorsal thalamus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35545
@@ -57955,7 +57959,7 @@ comment: order=1 for EMAPA:35376.
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35376 ! geniculate thalamic group
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35547
@@ -57965,7 +57969,7 @@ comment: order=1 for EMAPA:35386.
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35386 ! habenula
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35548
@@ -57975,7 +57979,7 @@ comment: order=1 for EMAPA:35542.
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35542 ! mammillary body
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35549
@@ -57985,7 +57989,7 @@ comment: order=0 for EMAPA:35550.
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35550 ! medial preoptic region
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35550
@@ -57994,7 +57998,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:35419.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35419 ! hypothalamus medial zone
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35551
@@ -58052,7 +58056,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35188.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35188 ! brainstem reticular formation
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35557
@@ -58177,7 +58181,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:32781.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32781 ! periaqueductal grey
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35570
@@ -58214,7 +58218,7 @@ namespace: anatomical_structure
 comment: order=6 for EMAPA:35295.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35295 ! dorsal thalamus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35574
@@ -58224,7 +58228,7 @@ comment: order=6 for EMAPA:16262.
 is_a: EMAPA:17751 ! salivary gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16262 ! oral region
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35575
@@ -58233,7 +58237,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35620.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35620 ! osseus cochlea
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35576
@@ -58264,22 +58268,13 @@ relationship: part_of EMAPA:35577 ! musculature
 relationship: starts_at TS20 ! TS20
 
 [Term]
-id: EMAPA:35579
-name: myenteric nerve plexus
-namespace: anatomical_structure
-comment: order=0 for EMAPA:35446.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35446 ! intrinsic nerve plexus
-relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:35580
 name: nail
 namespace: anatomical_structure
 comment: order=5 for EMAPA:17524.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17524 ! integumental system
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35581
@@ -58288,7 +58283,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35580.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35580 ! nail
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35582
@@ -58297,7 +58292,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:35580.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35580 ! nail
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35583
@@ -58306,7 +58301,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:35580.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35580 ! nail
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35584
@@ -58460,7 +58455,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:32809.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32809 ! olfactory bulb
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35600
@@ -58488,7 +58483,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35573.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35573 ! midline thalamic group
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35603
@@ -58538,7 +58533,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:32809.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32809 ! olfactory bulb
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35608
@@ -58547,7 +58542,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:32809.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32809 ! olfactory bulb
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35609
@@ -58556,7 +58551,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:32809.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32809 ! olfactory bulb
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35610
@@ -58565,7 +58560,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:32809.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32809 ! olfactory bulb
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35611
@@ -58574,7 +58569,7 @@ namespace: anatomical_structure
 comment: order=5 for EMAPA:32809.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32809 ! olfactory bulb
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35612
@@ -58620,7 +58615,7 @@ namespace: anatomical_structure
 comment: order=7 for EMAPA:17779.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17779 ! olfactory cortex
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35617
@@ -58629,7 +58624,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:17575.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17575 ! optic II nerve
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35618
@@ -58658,7 +58653,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:17597.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17597 ! cochlea
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35621
@@ -58667,7 +58662,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:35620.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35620 ! osseus cochlea
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35622
@@ -58676,7 +58671,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:35620.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35620 ! osseus cochlea
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35623
@@ -58766,7 +58761,7 @@ synonym: "primary follicle" RELATED []
 is_a: EMAPA:35627 ! ovary follicle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17962 ! ovary
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35632
@@ -58876,7 +58871,7 @@ comment: order=18 for EMAPA:16262.
 is_a: EMAPA:35574 ! minor salivary gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16262 ! oral region
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35644
@@ -58961,7 +58956,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35305.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35305 ! endocrine pancreas
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35653
@@ -58970,7 +58965,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35652.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35652 ! pancreatic islet
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35654
@@ -58979,7 +58974,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:35652.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35652 ! pancreatic islet
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35655
@@ -58988,7 +58983,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:28407.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28407 ! collecting duct
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35656
@@ -59096,7 +59091,7 @@ is_a: EMAPA:35185 ! brain nucleus
 is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35573 ! midline thalamic group
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35667
@@ -59195,7 +59190,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:35251.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35251 ! connective tissue
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35677
@@ -59287,7 +59282,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35742.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35742 ! retina layer
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35687
@@ -59332,7 +59327,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:35792.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35792 ! spinal cord grey matter
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35692
@@ -59351,7 +59346,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:35188.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35188 ! brainstem reticular formation
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35694
@@ -59525,7 +59520,7 @@ comment: order=9 for EMAPA:19287.
 is_a: EMAPA:35963 ! male reproductive system epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19287 ! prostate gland
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35712
@@ -59600,7 +59595,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:19095.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19095 ! caudate-putamen
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35720
@@ -59777,7 +59772,7 @@ is_a: EMAPA:35185 ! brain nucleus
 is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35915 ! ventral thalamus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35738
@@ -59796,7 +59791,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:35742.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35742 ! retina layer
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35740
@@ -59805,7 +59800,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:35742.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35742 ! retina layer
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35741
@@ -59814,7 +59809,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:35742.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35742 ! retina layer
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35742
@@ -59823,7 +59818,7 @@ namespace: anatomical_structure
 comment: order=8 for EMAPA:17168.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17168 ! retina
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35743
@@ -59832,7 +59827,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:35742.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35742 ! retina layer
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35744
@@ -59841,7 +59836,7 @@ namespace: anatomical_structure
 comment: order=5 for EMAPA:35742.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35742 ! retina layer
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35745
@@ -59980,7 +59975,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35243.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35243 ! circumventricular organ
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35760
@@ -59989,7 +59984,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:17869.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17869 ! heart valve
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35761
@@ -59999,7 +59994,7 @@ comment: order=6 for EMAPA:31476.
 is_a: EMAPA:35963 ! male reproductive system epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31476 ! seminiferous tubule
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35762
@@ -60027,7 +60022,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:17608.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17608 ! nasal septum
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35765
@@ -60036,7 +60031,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35764.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35764 ! septal olfactory organ
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35766
@@ -60045,7 +60040,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:35764.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35764 ! septal olfactory organ
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35767
@@ -60169,7 +60164,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:35780.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35780 ! small intestine mucosa
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35780
@@ -60189,7 +60184,7 @@ comment: order=2 for EMAPA:35780.
 is_a: EMAPA:35442 ! intestine muscularis mucosa
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35780 ! small intestine mucosa
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35782
@@ -60274,7 +60269,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35792.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35792 ! spinal cord grey matter
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35791
@@ -60292,7 +60287,7 @@ namespace: anatomical_structure
 comment: order=5 for EMAPA:17577.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17577 ! spinal cord
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35793
@@ -60311,7 +60306,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:35792.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35792 ! spinal cord grey matter
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35795
@@ -60349,7 +60344,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:17598.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17598 ! cochlear duct
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35799
@@ -60358,7 +60353,7 @@ namespace: anatomical_structure
 comment: order=5 for EMAPA:17598.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17598 ! cochlear duct
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35800
@@ -60367,7 +60362,7 @@ namespace: anatomical_structure
 comment: order=6 for EMAPA:17598.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17598 ! cochlear duct
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35801
@@ -60376,7 +60371,7 @@ namespace: anatomical_structure
 comment: order=7 for EMAPA:17598.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17598 ! cochlear duct
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35802
@@ -60412,7 +60407,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:18767.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18767 ! spleen
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35806
@@ -60421,7 +60416,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35805.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35805 ! spleen pulp
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35807
@@ -60449,7 +60444,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:35805.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35805 ! spleen pulp
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35810
@@ -60525,7 +60520,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35826.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35826 ! stomach wall
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35818
@@ -60534,7 +60529,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35817.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35817 ! stomach mucosa
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35819
@@ -60572,7 +60567,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:35826.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35826 ! stomach wall
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35823
@@ -60582,7 +60577,7 @@ comment: order=2 for EMAPA:35826.
 is_a: EMAPA:35117 ! alimentary system smooth muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35826 ! stomach wall
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35824
@@ -60600,7 +60595,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:35826.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35826 ! stomach wall
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35826
@@ -60609,7 +60604,7 @@ namespace: anatomical_structure
 comment: order=11 for EMAPA:18889.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18889 ! stomach
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35827
@@ -60618,7 +60613,7 @@ namespace: anatomical_structure
 comment: order=8 for EMAPA:17598.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17598 ! cochlear duct
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35828
@@ -60627,7 +60622,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:19051.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19051 ! tectum
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35829
@@ -60645,7 +60640,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35759.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35759 ! secretory circumventricular organ
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35831
@@ -60663,7 +60658,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:35405.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35405 ! hippocampal formation
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35833
@@ -60672,7 +60667,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:18812.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18812 ! submandibular gland
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35834
@@ -60699,7 +60694,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35835.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35835 ! substantia nigra
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35837
@@ -60708,7 +60703,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:35835.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35835 ! substantia nigra
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35838
@@ -60717,7 +60712,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:35835.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35835 ! substantia nigra
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35839
@@ -60727,7 +60722,7 @@ comment: order=1 for EMAPA:35915.
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35915 ! ventral thalamus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35840
@@ -60747,7 +60742,7 @@ comment: order=3 for EMAPA:35419.
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35419 ! hypothalamus medial zone
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35842
@@ -60757,7 +60752,7 @@ comment: order=2 for EMAPA:35542.
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35542 ! mammillary body
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35843
@@ -60778,7 +60773,7 @@ is_a: EMAPA:35327 ! exocrine gland
 is_a: EMAPA:35774 ! skin gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17525 ! skin
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35845
@@ -60788,7 +60783,7 @@ comment: order=2 for EMAPA:16985.
 is_a: EMAPA:16986 ! peripheral nerve trunk
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16985 ! sympathetic nervous system
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35846
@@ -60806,7 +60801,7 @@ namespace: anatomical_structure
 comment: order=8 for EMAPA:32809.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32809 ! olfactory bulb
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35848
@@ -60835,7 +60830,7 @@ namespace: anatomical_structure
 comment: order=8 for EMAPA:18870.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18870 ! tongue
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35851
@@ -60844,7 +60839,7 @@ namespace: anatomical_structure
 comment: order=9 for EMAPA:17598.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17598 ! cochlear duct
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35852
@@ -60873,7 +60868,7 @@ namespace: anatomical_structure
 comment: order=5 for EMAPA:35251.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35251 ! connective tissue
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35855
@@ -60959,7 +60954,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:18768.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18768 ! thymus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35864
@@ -60969,7 +60964,7 @@ comment: order=1 for EMAPA:18768.
 is_a: EMAPA:32738 ! epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18768 ! thymus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35865
@@ -61075,7 +61070,7 @@ comment: order=0 for EMAPA:35876.
 is_a: EMAPA:18694 ! respiratory system cartilage
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35876 ! trachea connective tissue
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35876
@@ -61085,7 +61080,7 @@ comment: order=3 for EMAPA:16853.
 is_a: EMAPA:35977 ! respiratory system connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16853 ! trachea
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35877
@@ -61094,7 +61089,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35878.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35878 ! trachea non-cartilage connective tissue
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35878
@@ -61103,7 +61098,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:35876.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35876 ! trachea connective tissue
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35879
@@ -61112,7 +61107,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:35878.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35878 ! trachea non-cartilage connective tissue
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35880
@@ -61212,7 +61207,7 @@ comment: order=3 for EMAPA:35542.
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35542 ! mammillary body
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35890
@@ -61393,7 +61388,7 @@ comment: order=1 for EMAPA:35478.
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35478 ! lateral geniculate nucleus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35909
@@ -61414,7 +61409,7 @@ is_a: EMAPA:35185 ! brain nucleus
 is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35912 ! ventral posterior thalamic group
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35911
@@ -61425,7 +61420,7 @@ is_a: EMAPA:35185 ! brain nucleus
 is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35912 ! ventral posterior thalamic group
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35912
@@ -61434,7 +61429,7 @@ namespace: anatomical_structure
 comment: order=8 for EMAPA:35295.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35295 ! dorsal thalamus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35913
@@ -61443,7 +61438,7 @@ namespace: anatomical_structure
 comment: order=12 for EMAPA:16974.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16974 ! midbrain
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:35914
@@ -61462,7 +61457,7 @@ namespace: anatomical_structure
 comment: order=7 for EMAPA:17540.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17540 ! thalamus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35916
@@ -61472,7 +61467,7 @@ comment: order=0 for EMAPA:35420.
 is_a: EMAPA:35417 ! hypothalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35420 ! hypothalamus medial zone tuberal area
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35917
@@ -61500,7 +61495,7 @@ namespace: anatomical_structure
 comment: order=9 for EMAPA:17214.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17214 ! axial skeleton
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35920
@@ -61519,7 +61514,7 @@ comment: order=2 for EMAPA:17815.
 is_a: EMAPA:32883 ! inner ear epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17815 ! labyrinth
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35922
@@ -61528,7 +61523,7 @@ namespace: anatomical_structure
 comment: order=10 for EMAPA:17598.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17598 ! cochlear duct
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35923
@@ -61567,7 +61562,7 @@ comment: order=3 for EMAPA:35112.
 synonym: "white adipose tissue" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35112 ! adipose tissue
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35927
@@ -61604,7 +61599,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:35915.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35915 ! ventral thalamus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35931
@@ -61613,7 +61608,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:35104.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35104 ! abdominal segment of trunk
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35932
@@ -62843,8 +62838,6 @@ namespace: anatomical_structure
 relationship: ends_at TS03 ! TS03
 relationship: part_of EMAPA:36040 ! early conceptus
 relationship: starts_at TS03 ! TS03
-created_by: terryh
-creation_date: 2014-06-19T14:12:12Z
 
 [Term]
 id: group_term
