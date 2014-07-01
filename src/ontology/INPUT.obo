@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 20:06:2014 14:16
+date: 01:07:2014 16:40
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
@@ -101,7 +101,6 @@ namespace: anatomical_structure
 comment: order=10 for EMAPA:25765.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25765 ! mouse
-relationship: part_of EMAPA:36035 ! blastocyst
 relationship: starts_at TS04 ! TS04
 
 [Term]
@@ -121,6 +120,7 @@ namespace: anatomical_structure
 comment: order=11 for EMAPA:16039.\norder=20 for EMAPA:25765.
 relationship: ends_at TS05 ! TS05
 relationship: part_of EMAPA:16039 ! embryo
+relationship: part_of EMAPA:36035 ! blastocyst
 relationship: starts_at TS04 ! TS04
 
 [Term]
@@ -187,6 +187,7 @@ namespace: anatomical_structure
 comment: order=8 for EMAPA:16039.\norder=15 for EMAPA:25765.
 relationship: ends_at TS08 ! TS08
 relationship: part_of EMAPA:16039 ! embryo
+relationship: part_of EMAPA:36035 ! blastocyst
 relationship: starts_at TS06 ! TS06
 
 [Term]
@@ -12753,7 +12754,7 @@ relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:17365
-name: hepatic sinusoids
+name: liver sinusoid
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16846.
 relationship: ends_at TS21 ! TS21
@@ -16605,6 +16606,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:17548.
 is_a: EMAPA:32741 ! choroid plexus
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16914 ! lateral ventricle
 relationship: part_of EMAPA:17548 ! choroid invagination
 relationship: starts_at TS21 ! TS21
 
@@ -20464,7 +20466,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:17549.
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17549 ! corpus striatum
+relationship: part_of EMAPA:19095 ! caudate-putamen
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -23746,7 +23748,7 @@ id: EMAPA:18593
 name: nasal meatus
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16542.
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16542 ! nose
 relationship: starts_at TS23 ! TS23
 
@@ -27092,7 +27094,7 @@ name: dentate gyrus
 namespace: anatomical_structure
 comment: order=2 for EMAPA:17549.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17549 ! corpus striatum
+relationship: part_of EMAPA:35405 ! hippocampal formation
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -27562,7 +27564,7 @@ name: caudate-putamen
 namespace: anatomical_structure
 comment: order=2 for EMAPA:18207.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18207 ! caudate nucleus
+relationship: part_of EMAPA:17549 ! corpus striatum
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -29150,10 +29152,11 @@ relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:19269
-name: pharynx pretracheal muscle
+name: infrahyoid muscle
 namespace: anatomical_structure
+alt_id: EMAPA:25142
 comment: order=1 for EMAPA:18963.
-is_a: EMAPA:25142 ! pre-tracheal muscle
+synonym: "pre-tracheal muscle" EXACT []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18963 ! pharynx skeletal muscle
 relationship: starts_at TS26 ! TS26
@@ -29164,7 +29167,7 @@ name: cricothyroid
 namespace: anatomical_structure
 comment: order=0 for EMAPA:19269.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19269 ! pharynx pretracheal muscle
+relationship: part_of EMAPA:35473 ! larynx muscle
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -29173,7 +29176,7 @@ name: sternohyoid
 namespace: anatomical_structure
 comment: order=1 for EMAPA:19269.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19269 ! pharynx pretracheal muscle
+relationship: part_of EMAPA:19269 ! infrahyoid muscle
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -29182,7 +29185,7 @@ name: sternothyroid
 namespace: anatomical_structure
 comment: order=2 for EMAPA:19269.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19269 ! pharynx pretracheal muscle
+relationship: part_of EMAPA:19269 ! infrahyoid muscle
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -29192,7 +29195,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:25143
 comment: order=10 for EMAPA:18171.\norder=3 for EMAPA:19269.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19269 ! pharynx pretracheal muscle
+relationship: part_of EMAPA:19269 ! infrahyoid muscle
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -33831,16 +33834,6 @@ comment: order=1 for EMAPA:25139.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25139 ! pterygoid
 relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:25142
-name: pre-tracheal muscle
-namespace: anatomical_structure
-comment: order=6 for EMAPA:18171.
-is_a: EMAPA:35988 ! skeletal muscle
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18171 ! cranial musculature
-relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:25144
@@ -51824,7 +51817,9 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:32781
 name: periaqueductal grey
 namespace: anatomical_structure
+alt_id: EMAPA:35569
 comment: order=8 for EMAPA:16974.
+synonym: "midbrain periaqueductal grey" EXACT []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16974 ! midbrain
 relationship: starts_at TS25 ! TS25
@@ -54828,7 +54823,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:17787.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17787 ! cerebellum
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35213
@@ -54933,7 +54928,7 @@ name: cerebellum purkinje cell layer
 namespace: anatomical_structure
 comment: order=7 for EMAPA:17787.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17787 ! cerebellum
+relationship: part_of EMAPA:35212 ! cerebellum layer
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -54950,6 +54945,7 @@ id: EMAPA:35225
 name: cerebellum vermis lobule I
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35214.
+is_a: EMAPA:35224 ! cerebellum vermis lobule
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35214 ! cerebellum vermis
 relationship: starts_at TS27 ! TS27
@@ -54959,6 +54955,7 @@ id: EMAPA:35226
 name: cerebellum vermis lobule II
 namespace: anatomical_structure
 comment: order=2 for EMAPA:35214.
+is_a: EMAPA:35224 ! cerebellum vermis lobule
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35214 ! cerebellum vermis
 relationship: starts_at TS27 ! TS27
@@ -54968,6 +54965,7 @@ id: EMAPA:35227
 name: cerebellum vermis lobule III
 namespace: anatomical_structure
 comment: order=3 for EMAPA:35214.
+is_a: EMAPA:35224 ! cerebellum vermis lobule
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35214 ! cerebellum vermis
 relationship: starts_at TS27 ! TS27
@@ -54977,6 +54975,7 @@ id: EMAPA:35228
 name: cerebellum vermis lobule IV
 namespace: anatomical_structure
 comment: order=4 for EMAPA:35214.
+is_a: EMAPA:35224 ! cerebellum vermis lobule
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35214 ! cerebellum vermis
 relationship: starts_at TS27 ! TS27
@@ -54986,6 +54985,7 @@ id: EMAPA:35229
 name: cerebellum vermis lobule IX
 namespace: anatomical_structure
 comment: order=5 for EMAPA:35214.
+is_a: EMAPA:35224 ! cerebellum vermis lobule
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35214 ! cerebellum vermis
 relationship: starts_at TS27 ! TS27
@@ -54995,6 +54995,7 @@ id: EMAPA:35230
 name: cerebellum vermis lobule V
 namespace: anatomical_structure
 comment: order=6 for EMAPA:35214.
+is_a: EMAPA:35224 ! cerebellum vermis lobule
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35214 ! cerebellum vermis
 relationship: starts_at TS27 ! TS27
@@ -55004,6 +55005,7 @@ id: EMAPA:35231
 name: cerebellum vermis lobule VI
 namespace: anatomical_structure
 comment: order=7 for EMAPA:35214.
+is_a: EMAPA:35224 ! cerebellum vermis lobule
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35214 ! cerebellum vermis
 relationship: starts_at TS27 ! TS27
@@ -55013,6 +55015,7 @@ id: EMAPA:35232
 name: cerebellum vermis lobule VII
 namespace: anatomical_structure
 comment: order=8 for EMAPA:35214.
+is_a: EMAPA:35224 ! cerebellum vermis lobule
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35214 ! cerebellum vermis
 relationship: starts_at TS27 ! TS27
@@ -55022,6 +55025,7 @@ id: EMAPA:35233
 name: cerebellum vermis lobule VIII
 namespace: anatomical_structure
 comment: order=9 for EMAPA:35214.
+is_a: EMAPA:35224 ! cerebellum vermis lobule
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35214 ! cerebellum vermis
 relationship: starts_at TS27 ! TS27
@@ -55031,6 +55035,7 @@ id: EMAPA:35234
 name: cerebellum vermis lobule X
 namespace: anatomical_structure
 comment: order=10 for EMAPA:35214.
+is_a: EMAPA:35224 ! cerebellum vermis lobule
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35214 ! cerebellum vermis
 relationship: starts_at TS27 ! TS27
@@ -55982,7 +55987,7 @@ namespace: anatomical_structure
 comment: order=14 for EMAPA:16198.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35337
@@ -56115,6 +56120,7 @@ name: forelimb long bone
 namespace: anatomical_structure
 comment: order=1 for EMAPA:32623.
 is_a: EMAPA:35495 ! limb long bone
+is_a: EMAPA:35933 ! forelimb bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32623 ! forelimb skeleton
 relationship: starts_at TS23 ! TS23
@@ -56612,7 +56618,7 @@ namespace: anatomical_structure
 comment: order=7 for EMAPA:16910.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16910 ! telencephalon
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35406
@@ -57153,7 +57159,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35336.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35336 ! eye surface
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35463
@@ -57264,7 +57270,7 @@ synonym: "laryngeal muscle" RELATED []
 is_a: EMAPA:36050 ! neck muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18333 ! larynx
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35474
@@ -57380,7 +57386,7 @@ name: lateral septal complex
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35763.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35763 ! septal nucleus
+relationship: part_of EMAPA:32837 ! telencephalon septum
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -57389,6 +57395,7 @@ name: lateral septal nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35485.
 is_a: EMAPA:35185 ! brain nucleus
+is_a: EMAPA:35763 ! septal nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35485 ! lateral septal complex
 relationship: starts_at TS27 ! TS27
@@ -58016,7 +58023,7 @@ name: medial septal complex
 namespace: anatomical_structure
 comment: order=2 for EMAPA:35763.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35763 ! septal nucleus
+relationship: part_of EMAPA:32837 ! telencephalon septum
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -58025,6 +58032,7 @@ name: medial septal nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35552.
 is_a: EMAPA:35185 ! brain nucleus
+is_a: EMAPA:35763 ! septal nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35552 ! medial septal complex
 relationship: starts_at TS27 ! TS27
@@ -58173,15 +58181,6 @@ is_a: EMAPA:17488 ! foot mesenchyme
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:32649 ! hindlimb digit
 relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:35569
-name: midbrain periaqueductal grey
-namespace: anatomical_structure
-comment: order=0 for EMAPA:32781.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32781 ! periaqueductal grey
-relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35570
@@ -58444,6 +58443,7 @@ id: EMAPA:35598
 name: nucleus of diagonal band
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35552.
+is_a: EMAPA:35763 ! septal nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35552 ! medial septal complex
 relationship: starts_at TS27 ! TS27
@@ -59374,7 +59374,7 @@ name: posterior septal complex
 namespace: anatomical_structure
 comment: order=3 for EMAPA:35763.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35763 ! septal nucleus
+relationship: part_of EMAPA:32837 ! telencephalon septum
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -60047,6 +60047,7 @@ id: EMAPA:35767
 name: septofimbrial nucleus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35696.
+is_a: EMAPA:35763 ! septal nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35696 ! posterior septal complex
 relationship: starts_at TS27 ! TS27
@@ -61782,7 +61783,6 @@ id: EMAPA:35949
 name: organ
 namespace: anatomical_structure
 comment: order=18 for EMAPA:16039.\norder=11 for EMAPA:16103.\norder=31 for EMAPA:25765.
-is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16039 ! embryo
 relationship: part_of EMAPA:16103 ! organ system
@@ -62642,9 +62642,9 @@ relationship: starts_at TS07 ! TS07
 
 [Term]
 id: EMAPA:36040
-name: early conceptus
+name: conceptus
 namespace: anatomical_structure
-relationship: ends_at TS06 ! TS06
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25765 ! mouse
 relationship: starts_at TS01 ! TS01
 
@@ -62653,7 +62653,7 @@ id: EMAPA:36041
 name: 1-cell stage conceptus
 namespace: anatomical_structure
 relationship: ends_at TS01 ! TS01
-relationship: part_of EMAPA:36040 ! early conceptus
+relationship: part_of EMAPA:36040 ! conceptus
 relationship: starts_at TS01 ! TS01
 
 [Term]
@@ -62661,7 +62661,7 @@ id: EMAPA:36042
 name: 2-cell stage conceptus
 namespace: anatomical_structure
 relationship: ends_at TS02 ! TS02
-relationship: part_of EMAPA:36040 ! early conceptus
+relationship: part_of EMAPA:36040 ! conceptus
 relationship: starts_at TS02 ! TS02
 
 [Term]
@@ -62670,7 +62670,7 @@ name: 4-cell stage conceptus
 namespace: anatomical_structure
 is_a: EMAPA:36063 ! 4-8 cell stage conceptus
 relationship: ends_at TS03 ! TS03
-relationship: part_of EMAPA:36040 ! early conceptus
+relationship: part_of EMAPA:36040 ! conceptus
 relationship: starts_at TS03 ! TS03
 
 [Term]
@@ -62679,7 +62679,7 @@ name: 8-cell stage conceptus
 namespace: anatomical_structure
 is_a: EMAPA:36063 ! 4-8 cell stage conceptus
 relationship: ends_at TS03 ! TS03
-relationship: part_of EMAPA:36040 ! early conceptus
+relationship: part_of EMAPA:36040 ! conceptus
 relationship: starts_at TS03 ! TS03
 
 [Term]
@@ -62687,7 +62687,7 @@ id: EMAPA:36045
 name: morula-stage conceptus
 namespace: anatomical_structure
 relationship: ends_at TS04 ! TS04
-relationship: part_of EMAPA:36040 ! early conceptus
+relationship: part_of EMAPA:36040 ! conceptus
 relationship: starts_at TS03 ! TS03
 
 [Term]
@@ -62695,7 +62695,7 @@ id: EMAPA:36046
 name: blastocyst-stage conceptus
 namespace: anatomical_structure
 relationship: ends_at TS06 ! TS06
-relationship: part_of EMAPA:36040 ! early conceptus
+relationship: part_of EMAPA:36040 ! conceptus
 relationship: starts_at TS04 ! TS04
 
 [Term]
@@ -62836,7 +62836,7 @@ id: EMAPA:36063
 name: 4-8 cell stage conceptus
 namespace: anatomical_structure
 relationship: ends_at TS03 ! TS03
-relationship: part_of EMAPA:36040 ! early conceptus
+relationship: part_of EMAPA:36040 ! conceptus
 relationship: starts_at TS03 ! TS03
 
 [Term]
