@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 01:07:2014 16:40
+date: 03:07:2014 17:05
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
@@ -837,6 +837,7 @@ id: EMAPA:16119
 name: 1st branchial groove
 namespace: anatomical_structure
 comment: order=5 for EMAPA:16118.
+synonym: "1st branchial cleft" RELATED []
 is_a: EMAPA:32750 ! branchial groove
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16118 ! 1st branchial arch
@@ -2418,7 +2419,7 @@ relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16287
-name: hindbrain posterior to rhombomere 05 floor plate
+name: future hindbrain posterior to rhombomere 05 floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16286.
 relationship: ends_at TS13 ! TS13
@@ -2427,7 +2428,7 @@ relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16288
-name: hindbrain posterior to rhombomere 05 neural fold
+name: future hindbrain posterior to rhombomere 05 neural fold
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16286.
 relationship: ends_at TS13 ! TS13
@@ -2437,11 +2438,11 @@ relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16289
-name: hindbrain posterior to rhombomere 05 neural crest
+name: future hindbrain posterior to rhombomere 05 neural crest
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16288.
 relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16288 ! hindbrain posterior to rhombomere 05 neural fold
+relationship: part_of EMAPA:16288 ! future hindbrain posterior to rhombomere 05 neural fold
 relationship: part_of EMAPA:32737 ! neural crest
 relationship: starts_at TS13 ! TS13
 
@@ -3474,6 +3475,7 @@ id: EMAPA:16396
 name: 2nd branchial groove
 namespace: anatomical_structure
 comment: order=4 for EMAPA:16272.
+synonym: "2nd branchial cleft" RELATED []
 is_a: EMAPA:32750 ! branchial groove
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16272 ! 2nd branchial arch
@@ -5238,6 +5240,7 @@ id: EMAPA:16581
 name: 3rd branchial groove
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16399.
+synonym: "3rd branchial cleft" RELATED []
 is_a: EMAPA:32750 ! branchial groove
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16399 ! 3rd branchial arch
@@ -6002,7 +6005,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:16658.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16658 ! central nervous system ganglion
-relationship: starts_at TS15 ! TS15
+relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:16660
@@ -6011,7 +6014,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:16659.
 synonym: "facio-acoustic preganglion complex" RELATED []
 relationship: ends_at TS15 ! TS15
-relationship: part_of EMAPA:16659 ! cranial ganglion
+relationship: part_of EMAPA:36064 ! cranial preganglion
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -6021,7 +6024,7 @@ namespace: anatomical_structure
 comment: order=6 for EMAPA:16659.
 synonym: "glossopharyngeal preganglion" RELATED []
 relationship: ends_at TS15 ! TS15
-relationship: part_of EMAPA:16659 ! cranial ganglion
+relationship: part_of EMAPA:36064 ! cranial preganglion
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -6031,7 +6034,7 @@ namespace: anatomical_structure
 comment: order=8 for EMAPA:16659.
 synonym: "glossopharyngeal-vagus preganglion complex" RELATED []
 relationship: ends_at TS15 ! TS15
-relationship: part_of EMAPA:16659 ! cranial ganglion
+relationship: part_of EMAPA:36064 ! cranial preganglion
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -6041,7 +6044,7 @@ namespace: anatomical_structure
 comment: order=10 for EMAPA:16659.
 synonym: "trigeminal preganglion" RELATED []
 relationship: ends_at TS15 ! TS15
-relationship: part_of EMAPA:16659 ! cranial ganglion
+relationship: part_of EMAPA:36064 ! cranial preganglion
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -6051,7 +6054,7 @@ namespace: anatomical_structure
 comment: order=12 for EMAPA:16659.
 synonym: "vagus preganglion" RELATED []
 relationship: ends_at TS15 ! TS15
-relationship: part_of EMAPA:16659 ! cranial ganglion
+relationship: part_of EMAPA:36064 ! cranial preganglion
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -7011,6 +7014,7 @@ id: EMAPA:16761
 name: 4th branchial groove
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16760.
+synonym: "4th branchial cleft" RELATED []
 is_a: EMAPA:32750 ! branchial groove
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16760 ! 4th branchial arch
@@ -27563,6 +27567,7 @@ id: EMAPA:19095
 name: caudate-putamen
 namespace: anatomical_structure
 comment: order=2 for EMAPA:18207.
+synonym: "caudoputamen" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17549 ! corpus striatum
 relationship: starts_at TS23 ! TS23
@@ -50922,6 +50927,7 @@ id: EMAPA:32688
 name: cardiac muscle tissue
 namespace: anatomical_structure
 comment: order=8 for EMAPA:16105.\norder=0 for EMAPA:32715.
+synonym: "cardiac muscle" RELATED []
 synonym: "heart muscle" RELATED []
 synonym: "myocardium" RELATED []
 is_a: EMAPA:32715 ! muscle tissue
@@ -52459,7 +52465,6 @@ alt_id: EMAPA:35579
 comment: MERGED COMMENT:\nTARGET COMMENT: order=2 for EMAPA:26922.\n--------------------\nSOURCE COMMENT: order=0 for EMAPA:35446.
 synonym: "myenteric nerve plexus" EXACT []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:26922 ! enteric nervous system
 relationship: part_of EMAPA:35446 ! intrinsic nerve plexus
 relationship: starts_at TS24 ! TS24
 
@@ -57009,7 +57014,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:26922.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:26922 ! enteric nervous system
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35447
@@ -59899,6 +59904,7 @@ id: EMAPA:35751
 name: scala media
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35677.
+synonym: "cochlear canal" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35677 ! perilymphatic channel
 relationship: starts_at TS28 ! TS28
@@ -62838,6 +62844,14 @@ namespace: anatomical_structure
 relationship: ends_at TS03 ! TS03
 relationship: part_of EMAPA:36040 ! conceptus
 relationship: starts_at TS03 ! TS03
+
+[Term]
+id: EMAPA:36064
+name: cranial preganglion
+namespace: anatomical_structure
+relationship: ends_at TS15 ! TS15
+relationship: part_of EMAPA:16658 ! central nervous system ganglion
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: group_term
