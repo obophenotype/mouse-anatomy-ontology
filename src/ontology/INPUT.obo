@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 08:07:2014 16:41
+date: 10:07:2014 16:49
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
@@ -619,16 +619,6 @@ name: mesenchyme derived from head mesoderm
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16098.
 relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16098 ! head mesenchyme
-relationship: starts_at TS11 ! TS11
-
-[Term]
-id: EMAPA:16100
-name: head mesenchyme derived from neural crest
-namespace: anatomical_structure
-comment: order=1 for EMAPA:16098.
-is_a: EMAPA:32735 ! mesenchyme derived from neural crest
-relationship: ends_at TS11 ! TS11
 relationship: part_of EMAPA:16098 ! head mesenchyme
 relationship: starts_at TS11 ! TS11
 
@@ -1307,11 +1297,12 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:16169
 name: head mesenchyme derived from neural crest
 namespace: anatomical_structure
+alt_id: EMAPA:16100
 comment: order=0 for EMAPA:16098.
 is_a: EMAPA:32735 ! mesenchyme derived from neural crest
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16098 ! head mesenchyme
-relationship: starts_at TS12 ! TS12
+relationship: starts_at TS11 ! TS11
 
 [Term]
 id: EMAPA:16170
@@ -1432,10 +1423,13 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:16182
 name: trunk mesenchyme derived from neural crest
 namespace: anatomical_structure
-comment: order=8 for EMAPA:16177.
+alt_id: EMAPA:16321
+alt_id: EMAPA:16413
+comment: order=10 for EMAPA:16177.
+is_a: EMAPA:32735 ! mesenchyme derived from neural crest
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16177 ! trunk mesenchyme
-relationship: starts_at TS15 ! TS15
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16183
@@ -2731,15 +2725,6 @@ relationship: part_of EMAPA:16318 ! septum transversum
 relationship: starts_at TS13 ! TS13
 
 [Term]
-id: EMAPA:16321
-name: trunk mesenchyme derived from neural crest
-namespace: anatomical_structure
-comment: order=9 for EMAPA:16177.
-relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16177 ! trunk mesenchyme
-relationship: starts_at TS12 ! TS12
-
-[Term]
 id: EMAPA:16322
 name: optic eminence
 namespace: anatomical_structure
@@ -3610,15 +3595,6 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:16409.
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16409 ! lateral mesenchyme derived from mesoderm
-relationship: starts_at TS14 ! TS14
-
-[Term]
-id: EMAPA:16413
-name: trunk mesenchyme derived from neural crest
-namespace: anatomical_structure
-comment: order=10 for EMAPA:16177.
-relationship: ends_at TS14 ! TS14
-relationship: part_of EMAPA:16177 ! trunk mesenchyme
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -6894,6 +6870,7 @@ id: EMAPA:16750
 name: tail mesenchyme derived from neural crest
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16749.
+is_a: EMAPA:32735 ! mesenchyme derived from neural crest
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:16749 ! tail mesenchyme
 relationship: starts_at TS15 ! TS15
@@ -12611,10 +12588,11 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17351
 name: hyoid pre-cartilage condensation
 namespace: anatomical_structure
+alt_id: EMAPA:17885
 comment: order=2 for EMAPA:16706.
 is_a: EMAPA:32736 ! pre-cartilage condensation
-relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16706 ! pharynx
+relationship: ends_at TS21 ! TS21
+relationship: part_of EMAPA:36065 ! hyoid cartilage primordium
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -15189,10 +15167,11 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17622
 name: hyoid cartilage condensation
 namespace: anatomical_structure
+alt_id: EMAPA:18283
 comment: order=1 for EMAPA:16706.
 is_a: EMAPA:32731 ! cartilage condensation
-relationship: ends_at TS20 ! TS20
-relationship: part_of EMAPA:16706 ! pharynx
+relationship: ends_at TS22 ! TS22
+relationship: part_of EMAPA:36065 ! hyoid cartilage primordium
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -16554,7 +16533,6 @@ id: EMAPA:17765
 name: diencephalon arachnoid mater
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17764.
-is_a: EMAPA:32661 ! brain arachnoid mater
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17764 ! diencephalon meninges
 relationship: starts_at TS21 ! TS21
@@ -17611,16 +17589,6 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:17883.
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17883 ! tongue skeletal muscle
-relationship: starts_at TS21 ! TS21
-
-[Term]
-id: EMAPA:17885
-name: hyoid pre-cartilage condensation
-namespace: anatomical_structure
-comment: order=3 for EMAPA:16706.
-is_a: EMAPA:32736 ! pre-cartilage condensation
-relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:16706 ! pharynx
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -21137,16 +21105,6 @@ relationship: part_of EMAPA:18280 ! tongue intrinsic skeletal muscle
 relationship: starts_at TS22 ! TS22
 
 [Term]
-id: EMAPA:18283
-name: hyoid cartilage condensation
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16706.
-is_a: EMAPA:32731 ! cartilage condensation
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:16706 ! pharynx
-relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:18284
 name: stomach fundus glandular mucous membrane
 namespace: anatomical_structure
@@ -24265,7 +24223,7 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:18650
-name: hyoid
+name: hyoid bone
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18649.
 is_a: EMAPA:32782 ! bone
@@ -24279,7 +24237,7 @@ name: hyoid greater horn
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18650.
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:18650 ! hyoid
+relationship: part_of EMAPA:18650 ! hyoid bone
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -24288,7 +24246,7 @@ name: hyoid lesser horn
 namespace: anatomical_structure
 comment: order=2 for EMAPA:18650.
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:18650 ! hyoid
+relationship: part_of EMAPA:18650 ! hyoid bone
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -24297,7 +24255,7 @@ name: hyoid body
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18650.
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:18650 ! hyoid
+relationship: part_of EMAPA:18650 ! hyoid bone
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -27219,6 +27177,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19053
 name: diencephalon subarachnoid space
 namespace: anatomical_structure
+alt_id: EMAPA:25079
 comment: order=3 for EMAPA:17764.
 is_a: EMAPA:32666 ! brain subarachnoid space
 relationship: ends_at TS26 ! TS26
@@ -27260,6 +27219,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19057
 name: diencephalon cisterna chiasmatica
 namespace: anatomical_structure
+alt_id: EMAPA:25081
 comment: order=0 for EMAPA:19053.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:19053 ! diencephalon subarachnoid space
@@ -27328,80 +27288,6 @@ comment: order=0 for EMAPA:17168.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17168 ! retina
 relationship: starts_at TS25 ! TS25
-
-[Term]
-id: EMAPA:19066
-name: upper arm skeletal muscle
-namespace: anatomical_structure
-comment: order=4 for EMAPA:17426.
-is_a: EMAPA:36053 ! arm skeletal muscle
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17426 ! upper arm mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:19067
-name: biceps brachii
-namespace: anatomical_structure
-comment: order=0 for EMAPA:19066.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:19066 ! upper arm skeletal muscle
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:19068
-name: brachialis
-namespace: anatomical_structure
-comment: order=1 for EMAPA:19066.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:19066 ! upper arm skeletal muscle
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:19069
-name: teres major
-namespace: anatomical_structure
-comment: order=2 for EMAPA:19066.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:19066 ! upper arm skeletal muscle
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:19070
-name: triceps
-namespace: anatomical_structure
-comment: order=3 for EMAPA:19066.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:19066 ! upper arm skeletal muscle
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:19071
-name: upper leg skeletal muscle
-namespace: anatomical_structure
-comment: order=4 for EMAPA:17501.
-is_a: EMAPA:36054 ! leg skeletal muscle
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17501 ! upper leg mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:19072
-name: hamstring
-namespace: anatomical_structure
-comment: order=0 for EMAPA:19071.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:19071 ! upper leg skeletal muscle
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:19073
-name: quadriceps
-namespace: anatomical_structure
-comment: order=1 for EMAPA:19071.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:19071 ! upper leg skeletal muscle
-relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19074
@@ -27672,47 +27558,52 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19107
 name: upper arm skeletal muscle
 namespace: anatomical_structure
-comment: order=4 for EMAPA:17424.\norder=3 for EMAPA:32624.
+alt_id: EMAPA:19066
+comment: order=4 for EMAPA:17426.
 is_a: EMAPA:36053 ! arm skeletal muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17424 ! upper arm
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19108
 name: biceps brachii
 namespace: anatomical_structure
-comment: order=0 for EMAPA:19107.
+alt_id: EMAPA:19067
+comment: order=0 for EMAPA:19066.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19107 ! upper arm skeletal muscle
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19109
 name: brachialis
 namespace: anatomical_structure
-comment: order=1 for EMAPA:19107.
+alt_id: EMAPA:19068
+comment: order=1 for EMAPA:19066.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19107 ! upper arm skeletal muscle
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19110
 name: teres major
 namespace: anatomical_structure
-comment: order=2 for EMAPA:19107.
+alt_id: EMAPA:19069
+comment: order=2 for EMAPA:19066.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19107 ! upper arm skeletal muscle
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19111
 name: triceps
 namespace: anatomical_structure
-comment: order=3 for EMAPA:19107.
+alt_id: EMAPA:19070
+comment: order=3 for EMAPA:19066.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19107 ! upper arm skeletal muscle
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19112
@@ -28038,29 +27929,32 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19144
 name: upper leg skeletal muscle
 namespace: anatomical_structure
+alt_id: EMAPA:19071
 comment: order=4 for EMAPA:17499.\norder=7 for EMAPA:32634.
 is_a: EMAPA:36054 ! leg skeletal muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17499 ! upper leg
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19145
 name: hamstring
 namespace: anatomical_structure
+alt_id: EMAPA:19072
 comment: order=1 for EMAPA:19144.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19144 ! upper leg skeletal muscle
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19146
 name: quadriceps
 namespace: anatomical_structure
+alt_id: EMAPA:19073
 comment: order=2 for EMAPA:19144.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19144 ! upper leg skeletal muscle
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19147
@@ -33287,25 +33181,6 @@ comment: order=6 for EMAPA:16240.
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16240 ! venous system
-relationship: starts_at TS26 ! TS26
-
-[Term]
-id: EMAPA:25079
-name: diencephalon subarachnoid space
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17765.
-is_a: EMAPA:32666 ! brain subarachnoid space
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:17765 ! diencephalon arachnoid mater
-relationship: starts_at TS26 ! TS26
-
-[Term]
-id: EMAPA:25081
-name: diencephalon cisterna chiasmatica
-namespace: anatomical_structure
-comment: order=0 for EMAPA:25079.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:25079 ! diencephalon subarachnoid space
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -52447,8 +52322,7 @@ id: EMAPA:32847
 name: myenteric nerve plexus
 namespace: anatomical_structure
 alt_id: EMAPA:35579
-comment: MERGED COMMENT:\nTARGET COMMENT: order=2 for EMAPA:26922.\n--------------------\nSOURCE COMMENT: order=0 for EMAPA:35446.
-synonym: "myenteric nerve plexus" EXACT []
+comment: order=2 for EMAPA:26922.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35446 ! intrinsic nerve plexus
 relationship: starts_at TS24 ! TS24
@@ -60993,7 +60867,6 @@ name: tissue
 namespace: anatomical_structure
 comment: order=40 for EMAPA:25765.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16039 ! embryo
 relationship: part_of EMAPA:25765 ! mouse
 relationship: starts_at TS11 ! TS11
 
@@ -62837,6 +62710,14 @@ namespace: anatomical_structure
 relationship: ends_at TS15 ! TS15
 relationship: part_of EMAPA:16658 ! central nervous system ganglion
 relationship: starts_at TS15 ! TS15
+
+[Term]
+id: EMAPA:36065
+name: hyoid cartilage primordium
+namespace: anatomical_structure
+relationship: ends_at TS22 ! TS22
+relationship: part_of EMAPA:16706 ! pharynx
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: group_term
