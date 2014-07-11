@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 10:07:2014 16:49
+date: 11:07:2014 16:23
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
@@ -5119,26 +5119,6 @@ relationship: part_of EMAPA:16263 ! stomatodeum
 relationship: starts_at TS14 ! TS14
 
 [Term]
-id: EMAPA:16573
-name: stomodeum pituitary
-namespace: anatomical_structure
-comment: order=2 for EMAPA:16263.\norder=3 for EMAPA:32796.
-is_a: EMAPA:16572 ! stomatodeum gland
-relationship: ends_at TS14 ! TS14
-relationship: part_of EMAPA:16263 ! stomatodeum
-relationship: part_of EMAPA:32796 ! pituitary
-relationship: starts_at TS14 ! TS14
-
-[Term]
-id: EMAPA:16574
-name: Rathke's pouch
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16573.
-relationship: ends_at TS14 ! TS14
-relationship: part_of EMAPA:16573 ! stomodeum pituitary
-relationship: starts_at TS14 ! TS14
-
-[Term]
 id: EMAPA:16575
 name: stomatodeum rest of ectoderm
 namespace: anatomical_structure
@@ -5848,13 +5828,13 @@ relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16647
-name: early diencephalon pituitary
+name: future neurohypophysis
 namespace: anatomical_structure
 comment: order=5 for EMAPA:16641.\norder=1 for EMAPA:32796.
 is_a: EMAPA:16646 ! early diencephalon gland
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16641 ! early diencephalon
-relationship: part_of EMAPA:32796 ! pituitary
+relationship: part_of EMAPA:32796 ! future pituitary
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -5863,7 +5843,7 @@ name: infundibular recess of 3rd ventricle
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16647.
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16647 ! early diencephalon pituitary
+relationship: part_of EMAPA:16647 ! future neurohypophysis
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -6613,23 +6593,26 @@ relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16724
-name: oral region-derived pituitary
+name: future adenohypophysis
 namespace: anatomical_structure
+alt_id: EMAPA:16573
 comment: order=16 for EMAPA:16262.\norder=2 for EMAPA:32796.
-is_a: EMAPA:16723 ! oral region gland
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16262 ! oral region
-relationship: part_of EMAPA:32796 ! pituitary
-relationship: starts_at TS15 ! TS15
+relationship: part_of EMAPA:16263 ! stomatodeum
+relationship: part_of EMAPA:32796 ! future pituitary
+relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16725
 name: Rathke's pouch
 namespace: anatomical_structure
+alt_id: EMAPA:16574
 comment: order=0 for EMAPA:16724.
+synonym: "Rathke's pouch" EXACT []
 relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16724 ! oral region-derived pituitary
-relationship: starts_at TS15 ! TS15
+relationship: part_of EMAPA:16724 ! future adenohypophysis
+relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16726
@@ -8323,13 +8306,13 @@ relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:16898
-name: diencephalon-derived pituitary
+name: future neurohypophysis
 namespace: anatomical_structure
 comment: order=12 for EMAPA:16896.\norder=0 for EMAPA:32796.
 is_a: EMAPA:16897 ! diencephalon gland
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16896 ! diencephalon
-relationship: part_of EMAPA:32796 ! pituitary
+relationship: part_of EMAPA:32796 ! future pituitary
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -8338,7 +8321,7 @@ name: infundibular recess of 3rd ventricle
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16898.
 relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16898 ! diencephalon-derived pituitary
+relationship: part_of EMAPA:16898 ! future neurohypophysis
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -14160,8 +14143,11 @@ id: EMAPA:17514
 name: adenohypophysis
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35998.
+synonym: "anterior lobe of pituitary" RELATED []
+synonym: "anterior pituitary" RELATED []
+synonym: "pituitary anterior lobe" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35998 ! pituitary
+relationship: part_of EMAPA:35998 ! pituitary gland
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -14169,7 +14155,6 @@ id: EMAPA:17515
 name: adenohypophysis pars anterior
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17514.
-synonym: "anterior lobe" RELATED []
 synonym: "pars distalis" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17514 ! adenohypophysis
@@ -14207,10 +14192,8 @@ id: EMAPA:17519
 name: neurohypophysis
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35998.
-synonym: "pars nervosa" RELATED []
-synonym: "posterior pituitary" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35998 ! pituitary
+relationship: part_of EMAPA:35998 ! pituitary gland
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -51822,12 +51805,11 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:32796
-name: pituitary
+name: future pituitary
 namespace: anatomical_structure
 comment: order=2 for EMAPA:35306.
-is_a: EMAPA:35999 ! endocrine gland
 relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:35306 ! endocrine system
+relationship: part_of EMAPA:31858 ! head
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -55574,7 +55556,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:16103.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16103 ! organ system
-relationship: starts_at TS14 ! TS14
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:35307
@@ -58278,6 +58260,9 @@ id: EMAPA:35595
 name: neurohypophysis pars nervosa
 namespace: anatomical_structure
 comment: order=2 for EMAPA:17519.
+synonym: "neural lobe of pituitary" RELATED []
+synonym: "pars posterior" RELATED []
+synonym: "posterior pituitary" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17519 ! neurohypophysis
 relationship: starts_at TS20 ! TS20
@@ -62132,13 +62117,12 @@ relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:35998
-name: pituitary
+name: pituitary gland
 namespace: anatomical_structure
 comment: order=16 for EMAPA:16896.\norder=3 for EMAPA:35306.
 is_a: EMAPA:35999 ! endocrine gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16896 ! diencephalon
-relationship: part_of EMAPA:35306 ! endocrine system
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -62149,7 +62133,7 @@ comment: order=1 for EMAPA:35306.
 is_a: EMAPA:18425 ! gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35306 ! endocrine system
-relationship: starts_at TS14 ! TS14
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:36000
