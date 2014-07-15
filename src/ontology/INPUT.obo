@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 11:07:2014 16:23
+date: 15:07:2014 16:37
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
@@ -393,7 +393,7 @@ namespace: anatomical_structure
 comment: order=7 for EMAPA:16039.
 synonym: "embryonic mesoderm" RELATED []
 is_a: EMAPA:35987 ! mesoderm
-relationship: ends_at TS11 ! TS11
+relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16039 ! embryo
 relationship: starts_at TS09 ! TS09
 
@@ -644,7 +644,7 @@ relationship: starts_at TS11 ! TS11
 id: EMAPA:16103
 name: organ system
 namespace: anatomical_structure
-comment: order=19 for EMAPA:16039.\norder=32 for EMAPA:25765.
+comment: order=19 for EMAPA:16039.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16039 ! embryo
 relationship: part_of EMAPA:25765 ! mouse
@@ -1388,15 +1388,19 @@ id: EMAPA:16178
 name: intermediate mesenchyme
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16177.
+synonym: "intermediate mesoderm" RELATED []
+synonym: "intermediate plate" RELATED []
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16177 ! trunk mesenchyme
 relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16179
-name: lateral plate mesenchyme
+name: lateral plate mesoderm
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16177.
+synonym: "lateral plate mesenchyme" RELATED []
+is_a: EMAPA:16071 ! embryo mesoderm
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16177 ! trunk mesenchyme
 relationship: starts_at TS12 ! TS12
@@ -1407,7 +1411,7 @@ name: somatopleure
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16179.
 relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16179 ! lateral plate mesenchyme
+relationship: part_of EMAPA:16179 ! lateral plate mesoderm
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -1416,7 +1420,7 @@ name: splanchnopleure
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16179.
 relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16179 ! lateral plate mesenchyme
+relationship: part_of EMAPA:16179 ! lateral plate mesoderm
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -3572,10 +3576,11 @@ relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16409
-name: lateral mesenchyme derived from mesoderm
+name: mesenchyme derived from lateral plate
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16177.
-relationship: ends_at TS14 ! TS14
+synonym: "lateral plate mesenchyme" RELATED []
+relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16177 ! trunk mesenchyme
 relationship: starts_at TS14 ! TS14
 
@@ -3583,18 +3588,22 @@ relationship: starts_at TS14 ! TS14
 id: EMAPA:16410
 name: mesenchyme derived from somatopleure
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16409.
-relationship: ends_at TS14 ! TS14
-relationship: part_of EMAPA:16409 ! lateral mesenchyme derived from mesoderm
+alt_id: EMAPA:16598
+comment: order=4 for EMAPA:16177.
+synonym: "somatic mesenchyme" RELATED []
+relationship: ends_at TS16 ! TS16
+relationship: part_of EMAPA:16409 ! mesenchyme derived from lateral plate
 relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16411
 name: mesenchyme derived from splanchnopleure
 namespace: anatomical_structure
-comment: order=1 for EMAPA:16409.
-relationship: ends_at TS14 ! TS14
-relationship: part_of EMAPA:16409 ! lateral mesenchyme derived from mesoderm
+alt_id: EMAPA:16599
+comment: order=5 for EMAPA:16177.
+synonym: "splanchnic mesenchyme" RELATED []
+relationship: ends_at TS16 ! TS16
+relationship: part_of EMAPA:16409 ! mesenchyme derived from lateral plate
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -4206,7 +4215,7 @@ relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16475
-name: mesencephalic vesicle
+name: early mesencephalic vesicle
 namespace: anatomical_structure
 comment: order=4 for EMAPA:16472.
 synonym: "future cerebral aqueduct" RELATED []
@@ -5340,24 +5349,6 @@ relationship: part_of EMAPA:16182 ! trunk mesenchyme derived from neural crest
 relationship: starts_at TS15 ! TS15
 
 [Term]
-id: EMAPA:16598
-name: mesenchyme derived from somatopleure
-namespace: anatomical_structure
-comment: order=4 for EMAPA:16177.
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16177 ! trunk mesenchyme
-relationship: starts_at TS15 ! TS15
-
-[Term]
-id: EMAPA:16599
-name: mesenchyme derived from splanchnopleure
-namespace: anatomical_structure
-comment: order=5 for EMAPA:16177.
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16177 ! trunk mesenchyme
-relationship: starts_at TS15 ! TS15
-
-[Term]
 id: EMAPA:16600
 name: somite 21
 namespace: anatomical_structure
@@ -5789,7 +5780,7 @@ relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16643
-name: diencephalic part of interventricular foramen
+name: early diencephalic part of interventricular foramen
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16642.
 synonym: "ependymal foramen" RELATED []
@@ -5894,7 +5885,7 @@ relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16654
-name: telencephalic part of interventricular foramen
+name: early telencephalic part of interventricular foramen
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16653.
 relationship: ends_at TS16 ! TS16
@@ -9114,16 +9105,6 @@ relationship: part_of EMAPA:16659 ! cranial ganglion
 relationship: starts_at TS17 ! TS17
 
 [Term]
-id: EMAPA:16983
-name: facial VII ganglion
-namespace: anatomical_structure
-comment: order=2 for EMAPA:16659.
-synonym: "facial ganglion" RELATED []
-relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16659 ! cranial ganglion
-relationship: starts_at TS17 ! TS17
-
-[Term]
 id: EMAPA:16984
 name: autonomic nervous system
 namespace: anatomical_structure
@@ -10789,25 +10770,6 @@ relationship: part_of EMAPA:17157 ! sympathetic ganglion
 relationship: starts_at TS18 ! TS18
 
 [Term]
-id: EMAPA:17159
-name: accessory XI nerve
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16989.
-synonym: "accessory nerve" RELATED []
-relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16989 ! spinal nerve
-relationship: starts_at TS18 ! TS18
-
-[Term]
-id: EMAPA:17160
-name: accessory XI nerve spinal component
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17159.
-relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:17159 ! accessory XI nerve
-relationship: starts_at TS18 ! TS18
-
-[Term]
 id: EMAPA:17161
 name: cornea
 namespace: anatomical_structure
@@ -11798,11 +11760,14 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:17265
 name: accessory XI nerve
 namespace: anatomical_structure
+alt_id: EMAPA:17159
 comment: order=1 for EMAPA:17264.
 synonym: "accessory nerve" RELATED []
+synonym: "accessory XI nerve" EXACT []
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16989 ! spinal nerve
 relationship: part_of EMAPA:17264 ! cranial nerve
-relationship: starts_at TS19 ! TS19
+relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:17266
@@ -11817,10 +11782,12 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17267
 name: accessory XI nerve spinal component
 namespace: anatomical_structure
+alt_id: EMAPA:17160
 comment: order=1 for EMAPA:17265.
+synonym: "accessory XI nerve spinal component" EXACT []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17265 ! accessory XI nerve
-relationship: starts_at TS19 ! TS19
+relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:17268
@@ -14647,11 +14614,13 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17569
 name: facial VII ganglion
 namespace: anatomical_structure
+alt_id: EMAPA:16983
 comment: order=1 for EMAPA:16659.
 synonym: "facial ganglion" RELATED []
+synonym: "facial VII ganglion" EXACT []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16659 ! cranial ganglion
-relationship: starts_at TS20 ! TS20
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:17570
@@ -15580,8 +15549,10 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17670
 name: nasopharynx
 namespace: anatomical_structure
+alt_id: EMAPA:25092
 comment: order=0 for EMAPA:17669.
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16542 ! nose
 relationship: part_of EMAPA:17669 ! upper respiratory tract
 relationship: starts_at TS20 ! TS20
 
@@ -33239,15 +33210,6 @@ is_a: EMAPA:35978 ! sensory organ cartilage
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17608 ! nasal septum
 relationship: starts_at TS22 ! TS22
-
-[Term]
-id: EMAPA:25092
-name: nasopharynx
-namespace: anatomical_structure
-comment: order=9 for EMAPA:16542.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16542 ! nose
-relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:25093
@@ -51214,7 +51176,7 @@ comment: order=3 for EMAPA:16148.
 is_a: EMAPA:32732 ! neural fold
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16148 ! future hindbrain
-relationship: starts_at TS12 ! TS12
+relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:32734
@@ -53176,7 +53138,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:16148.
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16148 ! future hindbrain
-relationship: starts_at TS12 ! TS12
+relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:32937
