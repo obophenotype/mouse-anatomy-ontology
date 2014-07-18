@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 15:07:2014 16:37
+date: 18:07:2014 13:36
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
@@ -2105,7 +2105,7 @@ relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16254
-name: hindgut diverticulum primordial germ cell
+name: primordial germ cell
 namespace: anatomical_structure
 comment: order=6 for EMAPA:16251.
 relationship: ends_at TS12 ! TS12
@@ -5769,7 +5769,7 @@ relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16642
-name: early diencephalon 3rd ventricle
+name: early 3rd ventricle
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16641.
 synonym: "early diencephalon third ventricle" RELATED []
@@ -5780,21 +5780,22 @@ relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16643
-name: early diencephalic part of interventricular foramen
+name: diencephalic part of early interventricular foramen
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16642.
 synonym: "ependymal foramen" RELATED []
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16642 ! early diencephalon 3rd ventricle
+relationship: part_of EMAPA:16642 ! early 3rd ventricle
+relationship: part_of EMAPA:36066 ! early interventricular foramen
 relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16644
-name: optic recess
+name: early optic recess
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16642.
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16642 ! early diencephalon 3rd ventricle
+relationship: part_of EMAPA:16642 ! early 3rd ventricle
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -5830,10 +5831,11 @@ relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16648
-name: infundibular recess of 3rd ventricle
+name: infundibular recess of early 3rd ventricle
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16647.
 relationship: ends_at TS16 ! TS16
+relationship: part_of EMAPA:16642 ! early 3rd ventricle
 relationship: part_of EMAPA:16647 ! future neurohypophysis
 relationship: starts_at TS15 ! TS15
 
@@ -5885,11 +5887,12 @@ relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16654
-name: early telencephalic part of interventricular foramen
+name: telencephalic part of early interventricular foramen
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16653.
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16653 ! early telencephalic vesicle
+relationship: part_of EMAPA:36066 ! early interventricular foramen
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -8313,6 +8316,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:16898.
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16898 ! future neurohypophysis
+relationship: part_of EMAPA:16900 ! 3rd ventricle
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -8334,6 +8338,7 @@ comment: order=1 for EMAPA:16900.
 synonym: "ependymal foramen" RELATED []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16900 ! 3rd ventricle
+relationship: part_of EMAPA:36067 ! interventricular foramen
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -8465,6 +8470,7 @@ namespace: anatomical_structure
 comment: order=8 for EMAPA:16914.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16914 ! lateral ventricle
+relationship: part_of EMAPA:36067 ! interventricular foramen
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -9380,9 +9386,10 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:17012
 name: foramen primum
 namespace: anatomical_structure
+alt_id: EMAPA:17173
 comment: order=1 for EMAPA:17011.
 synonym: "ostium primum" RELATED []
-relationship: ends_at TS17 ! TS17
+relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17011 ! interatrial septum
 relationship: starts_at TS17 ! TS17
 
@@ -9400,7 +9407,7 @@ id: EMAPA:17014
 name: ascending aorta
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16827.
-relationship: ends_at TS17 ! TS17
+relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16827 ! aortico-pulmonary spiral septum
 relationship: starts_at TS17 ! TS17
 
@@ -9409,7 +9416,7 @@ id: EMAPA:17015
 name: pulmonary trunk
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16827.
-relationship: ends_at TS17 ! TS17
+relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16827 ! aortico-pulmonary spiral septum
 relationship: starts_at TS17 ! TS17
 
@@ -10882,16 +10889,6 @@ comment: order=6 for EMAPA:17168.
 is_a: EMAPA:35738 ! retina epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17168 ! retina
-relationship: starts_at TS18 ! TS18
-
-[Term]
-id: EMAPA:17173
-name: foramen primum
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17013.
-synonym: "ostium primum" RELATED []
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17013 ! septum primum
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -20640,8 +20637,10 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18238
 name: optic disc
 namespace: anatomical_structure
-comment: order=5 for EMAPA:17168.
+alt_id: EMAPA:25088
+comment: order=5 for EMAPA:17168.\norder=0 for EMAPA:16678.
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16678 ! optic stalk
 relationship: part_of EMAPA:17168 ! retina
 relationship: starts_at TS22 ! TS22
 
@@ -20694,7 +20693,7 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:18244
-name: foramen ovale
+name: foramen ovale of interatrial septum
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17011.
 relationship: ends_at TS28 ! TS28
@@ -22437,8 +22436,10 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:18435
 name: knee rest of mesenchyme
 namespace: anatomical_structure
+alt_id: EMAPA:18511
 comment: order=1 for EMAPA:17495.
-relationship: ends_at TS22 ! TS22
+synonym: "knee rest of mesenchyme" EXACT []
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17495 ! knee mesenchyme
 relationship: starts_at TS21 ! TS21
 
@@ -22752,105 +22753,6 @@ relationship: part_of EMAPA:17426 ! upper arm mesenchyme
 relationship: starts_at TS23 ! TS23
 
 [Term]
-id: EMAPA:18475
-name: forelimb digit 1 metacarpus
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17431.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17431 ! forelimb digit 1 mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18476
-name: forelimb digit 1 phalanx
-namespace: anatomical_structure
-comment: order=3 for EMAPA:17431.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17431 ! forelimb digit 1 mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18477
-name: forelimb digit 2 metacarpus
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17434.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17434 ! forelimb digit 2 mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18478
-name: forelimb digit 2 phalanx
-namespace: anatomical_structure
-comment: order=3 for EMAPA:17434.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17434 ! forelimb digit 2 mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18479
-name: forelimb digit 3 metacarpus
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17437.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17437 ! forelimb digit 3 mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18480
-name: forelimb digit 3 phalanx
-namespace: anatomical_structure
-comment: order=3 for EMAPA:17437.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17437 ! forelimb digit 3 mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18481
-name: forelimb digit 4 metacarpus
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17440.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17440 ! forelimb digit 4 mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18482
-name: forelimb digit 4 phalanx
-namespace: anatomical_structure
-comment: order=3 for EMAPA:17440.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17440 ! forelimb digit 4 mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18483
-name: forelimb digit 5 metacarpus
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17443.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17443 ! forelimb digit 5 mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18484
-name: forelimb digit 5 phalanx
-namespace: anatomical_structure
-comment: order=3 for EMAPA:17443.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17443 ! forelimb digit 5 mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18485
-name: carpus
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17457.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17457 ! hand mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:18486
 name: hand skin
 namespace: anatomical_structure
@@ -22891,129 +22793,12 @@ relationship: part_of EMAPA:18486 ! hand skin
 relationship: starts_at TS23 ! TS23
 
 [Term]
-id: EMAPA:18490
-name: hindlimb digit 1 metatarsus
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17462.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17462 ! hindlimb digit 1 mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18491
-name: hindlimb digit 1 phalanx
-namespace: anatomical_structure
-comment: order=3 for EMAPA:17462.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17462 ! hindlimb digit 1 mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18492
-name: hindlimb digit 2 metatarsus
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17465.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17465 ! hindlimb digit 2 mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18493
-name: hindlimb digit 2 phalanx
-namespace: anatomical_structure
-comment: order=3 for EMAPA:17465.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17465 ! hindlimb digit 2 mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18494
-name: hindlimb digit 3 metatarsus
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17468.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17468 ! hindlimb digit 3 mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18495
-name: hindlimb digit 3 phalanx
-namespace: anatomical_structure
-comment: order=3 for EMAPA:17468.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17468 ! hindlimb digit 3 mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18496
-name: hindlimb digit 4 metatarsus
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17471.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17471 ! hindlimb digit 4 mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18497
-name: hindlimb digit 4 phalanx
-namespace: anatomical_structure
-comment: order=3 for EMAPA:17471.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17471 ! hindlimb digit 4 mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18498
-name: hindlimb digit 5 metatarsus
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17474.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17474 ! hindlimb digit 5 mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18499
-name: hindlimb digit 5 phalanx
-namespace: anatomical_structure
-comment: order=3 for EMAPA:17474.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17474 ! hindlimb digit 5 mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18500
-name: tarsus
-namespace: anatomical_structure
-comment: order=3 for EMAPA:17488.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17488 ! foot mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18501
-name: calcaneum
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18500.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:18500 ! tarsus
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:18502
 name: tarsus rest of mesenchyme
 namespace: anatomical_structure
 comment: order=2 for EMAPA:18500.
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:18500 ! tarsus
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18503
-name: talus
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18500.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:18500 ! tarsus
+relationship: part_of EMAPA:19133 ! tarsus
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -23083,15 +22868,6 @@ comment: order=2 for EMAPA:17740.
 is_a: EMAPA:32638 ! hindlimb pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17740 ! knee joint primordium
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18511
-name: knee rest of mesenchyme
-namespace: anatomical_structure
-comment: order=2 for EMAPA:17495.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17495 ! knee mesenchyme
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -24589,7 +24365,7 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:18711
-name: foramen ovale
+name: foramen ovale of chondrocranium
 namespace: anatomical_structure
 comment: order=16 for EMAPA:17681.
 relationship: ends_at TS26 ! TS26
@@ -26874,9 +26650,11 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19020
 name: costo-vertebral joint
 namespace: anatomical_structure
-comment: order=3 for EMAPA:18025.
+alt_id: EMAPA:19208
+comment: order=3 for EMAPA:18025.\norder=1 for EMAPA:17396.
 is_a: EMAPA:35456 ! joint
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17396 ! axial skeleton thoracic region
 relationship: part_of EMAPA:18025 ! pectoral girdle and thoracic body wall skeleton
 relationship: starts_at TS24 ! TS24
 
@@ -27563,239 +27341,265 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19112
 name: forelimb digit 1 metacarpus
 namespace: anatomical_structure
+alt_id: EMAPA:18475
 comment: order=6 for EMAPA:17429.
 is_a: EMAPA:32654 ! metacarpus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17429 ! forelimb digit 1
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19113
 name: forelimb digit 1 phalanx
 namespace: anatomical_structure
+alt_id: EMAPA:18476
 comment: order=7 for EMAPA:17429.
 is_a: EMAPA:32650 ! forelimb phalanx
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17429 ! forelimb digit 1
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19114
 name: forelimb digit 2 metacarpus
 namespace: anatomical_structure
+alt_id: EMAPA:18477
 comment: order=6 for EMAPA:17432.
 is_a: EMAPA:32654 ! metacarpus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17432 ! forelimb digit 2
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19115
 name: forelimb digit 2 phalanx
 namespace: anatomical_structure
+alt_id: EMAPA:18478
 comment: order=7 for EMAPA:17432.
 is_a: EMAPA:32650 ! forelimb phalanx
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17432 ! forelimb digit 2
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19116
 name: forelimb digit 3 metacarpus
 namespace: anatomical_structure
+alt_id: EMAPA:18479
 comment: order=6 for EMAPA:17435.
 is_a: EMAPA:32654 ! metacarpus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17435 ! forelimb digit 3
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19117
 name: forelimb digit 3 phalanx
 namespace: anatomical_structure
+alt_id: EMAPA:18480
 comment: order=7 for EMAPA:17435.
 is_a: EMAPA:32650 ! forelimb phalanx
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17435 ! forelimb digit 3
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19118
 name: forelimb digit 4 metacarpus
 namespace: anatomical_structure
+alt_id: EMAPA:18481
 comment: order=6 for EMAPA:17438.
 is_a: EMAPA:32654 ! metacarpus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17438 ! forelimb digit 4
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19119
 name: forelimb digit 4 phalanx
 namespace: anatomical_structure
+alt_id: EMAPA:18482
 comment: order=7 for EMAPA:17438.
 is_a: EMAPA:32650 ! forelimb phalanx
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17438 ! forelimb digit 4
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19120
 name: forelimb digit 5 metacarpus
 namespace: anatomical_structure
+alt_id: EMAPA:18483
 comment: order=6 for EMAPA:17441.
 is_a: EMAPA:32654 ! metacarpus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17441 ! forelimb digit 5
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19121
 name: forelimb digit 5 phalanx
 namespace: anatomical_structure
+alt_id: EMAPA:18484
 comment: order=7 for EMAPA:17441.
 is_a: EMAPA:32650 ! forelimb phalanx
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17441 ! forelimb digit 5
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19122
 name: carpus
 namespace: anatomical_structure
+alt_id: EMAPA:18485
 comment: order=0 for EMAPA:17428.
+synonym: "carpus" EXACT []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17428 ! hand
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19123
 name: hindlimb digit 1 metatarsus
 namespace: anatomical_structure
+alt_id: EMAPA:18490
 comment: order=5 for EMAPA:17460.
 is_a: EMAPA:32940 ! metatarsus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17460 ! hindlimb digit 1
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19124
 name: hindlimb digit 1 phalanx
 namespace: anatomical_structure
+alt_id: EMAPA:18491
 comment: order=6 for EMAPA:17460.
 is_a: EMAPA:32941 ! hindlimb phalanx
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17460 ! hindlimb digit 1
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19125
 name: hindlimb digit 2 metatarsus
 namespace: anatomical_structure
+alt_id: EMAPA:18492
 comment: order=5 for EMAPA:17463.
 is_a: EMAPA:32940 ! metatarsus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17463 ! hindlimb digit 2
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19126
 name: hindlimb digit 2 phalanx
 namespace: anatomical_structure
+alt_id: EMAPA:18493
 comment: order=6 for EMAPA:17463.
 is_a: EMAPA:32941 ! hindlimb phalanx
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17463 ! hindlimb digit 2
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19127
 name: hindlimb digit 3 metatarsus
 namespace: anatomical_structure
+alt_id: EMAPA:18494
 comment: order=5 for EMAPA:17466.
 is_a: EMAPA:32940 ! metatarsus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17466 ! hindlimb digit 3
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19128
 name: hindlimb digit 3 phalanx
 namespace: anatomical_structure
+alt_id: EMAPA:18495
 comment: order=6 for EMAPA:17466.
 is_a: EMAPA:32941 ! hindlimb phalanx
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17466 ! hindlimb digit 3
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19129
 name: hindlimb digit 4 metatarsus
 namespace: anatomical_structure
+alt_id: EMAPA:18496
 comment: order=5 for EMAPA:17469.
 is_a: EMAPA:32940 ! metatarsus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17469 ! hindlimb digit 4
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19130
 name: hindlimb digit 4 phalanx
 namespace: anatomical_structure
+alt_id: EMAPA:18497
 comment: order=6 for EMAPA:17469.
 is_a: EMAPA:32941 ! hindlimb phalanx
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17469 ! hindlimb digit 4
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19131
 name: hindlimb digit 5 metatarsus
 namespace: anatomical_structure
+alt_id: EMAPA:18498
 comment: order=5 for EMAPA:17472.
 is_a: EMAPA:32940 ! metatarsus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17472 ! hindlimb digit 5
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19132
 name: hindlimb digit 5 phalanx
 namespace: anatomical_structure
+alt_id: EMAPA:18499
 comment: order=6 for EMAPA:17472.
 is_a: EMAPA:32941 ! hindlimb phalanx
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17472 ! hindlimb digit 5
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19133
 name: tarsus
 namespace: anatomical_structure
+alt_id: EMAPA:18500
 comment: order=18 for EMAPA:17459.\norder=6 for EMAPA:32633.
-is_a: EMAPA:35354 ! foot bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17459 ! foot
-relationship: part_of EMAPA:32633 ! hindlimb skeleton
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19134
 name: calcaneus
 namespace: anatomical_structure
-comment: order=0 for EMAPA:25072.
+alt_id: EMAPA:18501
+comment: order=0 for EMAPA:25072.\norder=0 for EMAPA:18500.
+synonym: "calcaneum" EXACT []
+is_a: EMAPA:25072 ! tarsal bone
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:25072 ! tarsal bone
-relationship: starts_at TS24 ! TS24
+relationship: part_of EMAPA:19133 ! tarsus
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19135
 name: talus
 namespace: anatomical_structure
-comment: order=1 for EMAPA:25072.
+alt_id: EMAPA:18503
+comment: order=1 for EMAPA:25072.\norder=1 for EMAPA:18500.
+is_a: EMAPA:25072 ! tarsal bone
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:25072 ! tarsal bone
-relationship: starts_at TS24 ! TS24
+relationship: part_of EMAPA:19133 ! tarsus
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19136
@@ -28450,16 +28254,6 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:17215.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17215 ! axial skeleton cervical region
-relationship: starts_at TS25 ! TS25
-
-[Term]
-id: EMAPA:19208
-name: costo-vertebral joint
-namespace: anatomical_structure
-comment: order=1 for EMAPA:17396.
-is_a: EMAPA:35456 ! joint
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17396 ! axial skeleton thoracic region
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -33125,7 +32919,7 @@ comment: order=0 for EMAPA:19133.
 is_a: EMAPA:35354 ! foot bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19133 ! tarsus
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:25075
@@ -33181,15 +32975,6 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:16198.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16198 ! eye
-relationship: starts_at TS26 ! TS26
-
-[Term]
-id: EMAPA:25088
-name: optic disc
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16678.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16678 ! optic stalk
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -62664,6 +62449,22 @@ namespace: anatomical_structure
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:16706 ! pharynx
 relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:36066
+name: early interventricular foramen
+namespace: anatomical_structure
+relationship: ends_at TS16 ! TS16
+relationship: part_of EMAPA:16640 ! early forebrain
+relationship: starts_at TS15 ! TS15
+
+[Term]
+id: EMAPA:36067
+name: interventricular foramen
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16895 ! forebrain
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: group_term
