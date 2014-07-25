@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 18:07:2014 13:36
+date: 25:07:2014 11:48
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
@@ -430,6 +430,7 @@ id: EMAPA:16075
 name: node
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16072.
+synonym: "Henson's node" RELATED []
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16072 ! primitive streak
 relationship: starts_at TS10 ! TS10
@@ -799,6 +800,7 @@ name: 1st branchial arch
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16117.
 synonym: "first branchial arch" RELATED []
+synonym: "mandibular arch" RELATED []
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16117 ! branchial arch
 relationship: starts_at TS12 ! TS12
@@ -926,36 +928,40 @@ relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16131
-name: intraembryonic coelom pericardial component
+name: pericardial component
 namespace: anatomical_structure
+alt_id: EMAPA:18447
 comment: order=2 for EMAPA:16088.
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16088 ! intraembryonic coelom
 relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16132
-name: pericardial component cavity
+name: pericardial cavity
 namespace: anatomical_structure
+alt_id: EMAPA:18448
 comment: order=0 for EMAPA:16131.
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:16131 ! intraembryonic coelom pericardial component
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16131 ! pericardial component
 relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16133
-name: pericardial component mesothelium
+name: pericardium
 namespace: anatomical_structure
+alt_id: EMAPA:17174
+alt_id: EMAPA:18449
 comment: order=1 for EMAPA:16131.
-synonym: "pericardium" RELATED []
+synonym: "pericardial mesothelium" EXACT []
 is_a: EMAPA:32856 ! mesothelium
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:16131 ! intraembryonic coelom pericardial component
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16131 ! pericardial component
 relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16134
-name: intraembryonic coelom pericardio-peritoneal component
+name: pericardio-peritoneal component
 namespace: anatomical_structure
 comment: order=5 for EMAPA:16088.
 relationship: ends_at TS12 ! TS12
@@ -968,7 +974,7 @@ name: pericardio-peritoneal component cavity
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16134.
 relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16134 ! intraembryonic coelom pericardio-peritoneal component
+relationship: part_of EMAPA:16134 ! pericardio-peritoneal component
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -978,36 +984,37 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:16134.
 is_a: EMAPA:32856 ! mesothelium
 relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16134 ! intraembryonic coelom pericardio-peritoneal component
+relationship: part_of EMAPA:16134 ! pericardio-peritoneal component
 relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16137
-name: intraembryonic coelom peritoneal component
+name: peritoneal component
 namespace: anatomical_structure
 comment: order=7 for EMAPA:16088.
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16088 ! intraembryonic coelom
 relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16138
-name: peritoneal component cavity
+name: peritoneal cavity
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16137.
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16137 ! intraembryonic coelom peritoneal component
+relationship: part_of EMAPA:16137 ! peritoneal component
 relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16139
-name: peritoneal component mesothelium
+name: peritoneum
 namespace: anatomical_structure
+alt_id: EMAPA:18452
 comment: order=4 for EMAPA:16137.
-synonym: "peritoneum" RELATED []
+synonym: "peritoneal mesothelium" RELATED []
 is_a: EMAPA:32856 ! mesothelium
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:16137 ! intraembryonic coelom peritoneal component
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16137 ! peritoneal component
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -1712,6 +1719,7 @@ name: dorsal mesocardium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16212.
 synonym: "dorsal heart mesentery" RELATED []
+synonym: "dorsal mesentery of heart" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16212 ! heart mesentery
 relationship: starts_at TS12 ! TS12
@@ -2259,6 +2267,7 @@ id: EMAPA:16272
 name: 2nd branchial arch
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16117.
+synonym: "hyoid arch" RELATED []
 synonym: "second branchial arch" RELATED []
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16117 ! branchial arch
@@ -5258,20 +5267,27 @@ relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16588
-name: pericardial component parietal mesothelium
+name: parietal pericardium
 namespace: anatomical_structure
+alt_id: EMAPA:17175
+alt_id: EMAPA:18450
 comment: order=0 for EMAPA:16133.
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:16133 ! pericardial component mesothelium
+synonym: "pericardium parietal mesothelium" EXACT []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16133 ! pericardium
 relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16589
-name: pericardial component visceral mesothelium
+name: visceral pericardium
 namespace: anatomical_structure
+alt_id: EMAPA:17176
+alt_id: EMAPA:18451
 comment: order=1 for EMAPA:16133.
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:16133 ! pericardial component mesothelium
+synonym: "epicardium" RELATED []
+synonym: "pericardium visceral mesothelium" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16133 ! pericardium
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -5285,20 +5301,21 @@ relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16591
-name: peritoneal component parietal mesothelium
+name: parietal peritoneum
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16139.
+synonym: "peritoneal parietal mesothelium" RELATED []
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16139 ! peritoneal component mesothelium
+relationship: part_of EMAPA:16139 ! peritoneum
 relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16592
-name: peritoneal component visceral mesothelium
+name: visceral peritoneum
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16139.
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16139 ! peritoneal component mesothelium
+relationship: part_of EMAPA:16139 ! peritoneum
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -6117,7 +6134,6 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:16674.
 synonym: "future pigmented layer" RELATED []
 synonym: "future pigmented retinal epithelium" RELATED []
-synonym: "future PRE" RELATED []
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16674 ! optic cup
 relationship: starts_at TS15 ! TS15
@@ -7071,48 +7087,55 @@ relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:16773
-name: intraembryonic coelom pleural component
+name: pleural component
 namespace: anatomical_structure
+alt_id: EMAPA:18462
 comment: order=9 for EMAPA:16088.
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16088 ! intraembryonic coelom
 relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:16774
-name: pleural component cavity
+name: pleural cavity
 namespace: anatomical_structure
+alt_id: EMAPA:18731
 comment: order=0 for EMAPA:16773.
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:16773 ! intraembryonic coelom pleural component
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16773 ! pleural component
 relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:16775
-name: pleural component mesothelium
+name: pleura
 namespace: anatomical_structure
+alt_id: EMAPA:18463
 comment: order=1 for EMAPA:16773.
+synonym: "pleura" RELATED []
+synonym: "pleural mesothelium" EXACT []
 is_a: EMAPA:32856 ! mesothelium
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:16773 ! intraembryonic coelom pleural component
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16773 ! pleural component
 relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:16776
-name: pleural component parietal mesothelium
+name: parietal pleura
 namespace: anatomical_structure
+alt_id: EMAPA:18464
 comment: order=0 for EMAPA:16775.
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:16775 ! pleural component mesothelium
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16775 ! pleura
 relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:16777
-name: pleural component visceral mesothelium
+name: visceral pleura
 namespace: anatomical_structure
+alt_id: EMAPA:18465
 comment: order=1 for EMAPA:16775.
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:16775 ! pleural component mesothelium
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16775 ! pleura
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -8179,17 +8202,19 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:16885
 name: greater sac
 namespace: anatomical_structure
+alt_id: EMAPA:18453
 comment: order=0 for EMAPA:16137.
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:16137 ! intraembryonic coelom peritoneal component
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16137 ! peritoneal component
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:16886
 name: greater sac cavity
 namespace: anatomical_structure
+alt_id: EMAPA:18454
 comment: order=0 for EMAPA:16885.
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16885 ! greater sac
 relationship: starts_at TS17 ! TS17
 
@@ -8197,9 +8222,11 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:16887
 name: greater sac mesothelium
 namespace: anatomical_structure
+alt_id: EMAPA:18455
 comment: order=0 for EMAPA:16139.\norder=1 for EMAPA:16885.
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:16139 ! peritoneal component mesothelium
+is_a: EMAPA:32856 ! mesothelium
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16139 ! peritoneum
 relationship: part_of EMAPA:16885 ! greater sac
 relationship: starts_at TS17 ! TS17
 
@@ -8207,8 +8234,9 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:16888
 name: greater sac parietal mesothelium
 namespace: anatomical_structure
+alt_id: EMAPA:18456
 comment: order=0 for EMAPA:16887.
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16887 ! greater sac mesothelium
 relationship: starts_at TS17 ! TS17
 
@@ -8216,18 +8244,21 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:16889
 name: omental bursa
 namespace: anatomical_structure
+alt_id: EMAPA:18458
 comment: order=1 for EMAPA:16137.
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:16137 ! intraembryonic coelom peritoneal component
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16137 ! peritoneal component
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:16890
 name: omental bursa mesothelium
 namespace: anatomical_structure
+alt_id: EMAPA:18459
 comment: order=1 for EMAPA:16139.\norder=1 for EMAPA:16889.
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:16139 ! peritoneal component mesothelium
+is_a: EMAPA:32856 ! mesothelium
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16139 ! peritoneum
 relationship: part_of EMAPA:16889 ! omental bursa
 relationship: starts_at TS17 ! TS17
 
@@ -8235,8 +8266,9 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:16891
 name: omental bursa parietal mesothelium
 namespace: anatomical_structure
+alt_id: EMAPA:18460
 comment: order=0 for EMAPA:16890.
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16890 ! omental bursa mesothelium
 relationship: starts_at TS17 ! TS17
 
@@ -10720,7 +10752,6 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:16795.
 synonym: "glossopharyngeal inferior ganglion" RELATED []
 synonym: "glossopharyngeal IX inferior ganglion" RELATED []
-synonym: "pe" RELATED []
 synonym: "petrosal ganglion" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16795 ! glossopharyngeal IX ganglion
@@ -10889,33 +10920,6 @@ comment: order=6 for EMAPA:17168.
 is_a: EMAPA:35738 ! retina epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17168 ! retina
-relationship: starts_at TS18 ! TS18
-
-[Term]
-id: EMAPA:17174
-name: pericardium
-namespace: anatomical_structure
-comment: order=25 for EMAPA:16105.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16105 ! heart
-relationship: starts_at TS18 ! TS18
-
-[Term]
-id: EMAPA:17175
-name: parietal pericardium
-namespace: anatomical_structure
-comment: order=1 for EMAPA:17174.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17174 ! pericardium
-relationship: starts_at TS18 ! TS18
-
-[Term]
-id: EMAPA:17176
-name: visceral pericardium
-namespace: anatomical_structure
-comment: order=3 for EMAPA:17174.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17174 ! pericardium
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -15017,6 +15021,7 @@ id: EMAPA:17612
 name: vomeronasal organ
 namespace: anatomical_structure
 comment: order=14 for EMAPA:16542.
+synonym: "Jacobson's organ" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16542 ! nose
 relationship: starts_at TS20 ! TS20
@@ -15668,10 +15673,10 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17682
 name: temporal bone
 namespace: anatomical_structure
-comment: order=24 for EMAPA:17681.
-is_a: EMAPA:35238 ! chondrocranium bone
+alt_id: EMAPA:18020
+is_a: EMAPA:35996 ! head bone
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17681 ! chondrocranium
+relationship: part_of EMAPA:17680 ! cranium
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -15680,6 +15685,7 @@ name: temporal bone petrous part
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17682.
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17681 ! chondrocranium
 relationship: part_of EMAPA:17682 ! temporal bone
 relationship: starts_at TS20 ! TS20
 
@@ -17998,7 +18004,7 @@ name: upper jaw alveolar sulcus
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17924.
 is_a: EMAPA:32805 ! alveolar sulcus
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17924 ! upper jaw
 relationship: starts_at TS21 ! TS21
 
@@ -18648,22 +18654,14 @@ relationship: part_of EMAPA:18016 ! vault of skull
 relationship: starts_at TS21 ! TS21
 
 [Term]
-id: EMAPA:18020
-name: temporal bone
-namespace: anatomical_structure
-comment: order=8 for EMAPA:18016.
-is_a: EMAPA:35996 ! head bone
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18016 ! vault of skull
-relationship: starts_at TS21 ! TS21
-
-[Term]
 id: EMAPA:18021
 name: temporal bone squamous part
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18020.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18020 ! temporal bone
+is_a: EMAPA:35924 ! viscerocranium bone
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17682 ! temporal bone
+relationship: part_of EMAPA:18022 ! viscerocranium
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -18919,7 +18917,7 @@ name: left hepatic recess
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16137.
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:16137 ! intraembryonic coelom peritoneal component
+relationship: part_of EMAPA:16137 ! peritoneal component
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -18946,7 +18944,7 @@ name: right hepatic recess
 namespace: anatomical_structure
 comment: order=5 for EMAPA:16137.
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:16137 ! intraembryonic coelom peritoneal component
+relationship: part_of EMAPA:16137 ! peritoneal component
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -21120,7 +21118,7 @@ name: lower jaw alveolar sulcus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:17906.
 is_a: EMAPA:32805 ! alveolar sulcus
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17906 ! lower jaw
 relationship: starts_at TS21 ! TS21
 
@@ -22249,8 +22247,9 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:18414
 name: greater sac visceral mesothelium
 namespace: anatomical_structure
+alt_id: EMAPA:18457
 comment: order=1 for EMAPA:16887.
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16887 ! greater sac mesothelium
 relationship: starts_at TS17 ! TS17
 
@@ -22549,180 +22548,12 @@ relationship: part_of EMAPA:16536 ! otic pit
 relationship: starts_at TS14 ! TS14
 
 [Term]
-id: EMAPA:18447
-name: pericardial component
-namespace: anatomical_structure
-comment: order=3 for EMAPA:16088.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16088 ! intraembryonic coelom
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18448
-name: pericardial cavity
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18447.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18447 ! pericardial component
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18449
-name: pericardial mesothelium
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18447.
-synonym: "pericardium" RELATED []
-is_a: EMAPA:32856 ! mesothelium
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18447 ! pericardial component
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18450
-name: pericardium parietal mesothelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18449.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18449 ! pericardial mesothelium
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18451
-name: pericardium visceral mesothelium
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18449.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18449 ! pericardial mesothelium
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18452
-name: peritoneum
-namespace: anatomical_structure
-comment: order=6 for EMAPA:16088.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16088 ! intraembryonic coelom
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18453
-name: greater sac
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18452.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18452 ! peritoneum
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18454
-name: greater sac cavity
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18453.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18453 ! greater sac
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18455
-name: greater sac mesothelium
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18453.
-is_a: EMAPA:32856 ! mesothelium
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18453 ! greater sac
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18456
-name: greater sac parietal mesothelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18455.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18455 ! greater sac mesothelium
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18457
-name: greater sac visceral mesothelium
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18455.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18455 ! greater sac mesothelium
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18458
-name: omental bursa
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18452.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18452 ! peritoneum
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18459
-name: omental bursa mesothelium
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18458.
-is_a: EMAPA:32856 ! mesothelium
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18458 ! omental bursa
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18460
-name: omental bursa parietal mesothelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18459.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18459 ! omental bursa mesothelium
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:18461
 name: omental bursa cavity
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18458.
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18458 ! omental bursa
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18462
-name: pleural component
-namespace: anatomical_structure
-comment: order=8 for EMAPA:16088.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16088 ! intraembryonic coelom
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18463
-name: pleural mesothelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18462.
-synonym: "pleura" RELATED []
-is_a: EMAPA:32856 ! mesothelium
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18462 ! pleural component
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18464
-name: pleura parietal mesothelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18463.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18463 ! pleural mesothelium
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18465
-name: pleura visceral mesothelium
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18463.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18463 ! pleural mesothelium
+relationship: part_of EMAPA:16889 ! omental bursa
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -22975,6 +22806,7 @@ id: EMAPA:18527
 name: gluteus maximus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18184.
+synonym: "gluteus superficialis" RELATED []
 is_a: EMAPA:18185 ! pelvic girdle muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
@@ -24535,15 +24367,6 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:18666.
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:18666 ! jejunum
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18731
-name: pleural cavity
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18462.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18462 ! pleural component
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -26584,6 +26407,7 @@ id: EMAPA:19012
 name: hypoglossal canal
 namespace: anatomical_structure
 comment: order=18 for EMAPA:17681.
+synonym: "anterior condylar canal" RELATED []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17681 ! chondrocranium
 relationship: starts_at TS24 ! TS24
@@ -26700,7 +26524,7 @@ name: fibrous pericardium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17174.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17174 ! pericardium
+relationship: part_of EMAPA:16133 ! pericardium
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -26708,8 +26532,9 @@ id: EMAPA:19030
 name: serosal pericardium
 namespace: anatomical_structure
 comment: order=2 for EMAPA:17174.
+synonym: "serous pericardium" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17174 ! pericardium
+relationship: part_of EMAPA:16133 ! pericardium
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -26718,6 +26543,7 @@ name: parietal serosal pericardium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:19030.
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16588 ! parietal pericardium
 relationship: part_of EMAPA:19030 ! serosal pericardium
 relationship: starts_at TS24 ! TS24
 
@@ -26727,6 +26553,7 @@ name: visceral serosal pericardium
 namespace: anatomical_structure
 comment: order=1 for EMAPA:19030.
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16589 ! visceral pericardium
 relationship: part_of EMAPA:19030 ! serosal pericardium
 relationship: starts_at TS24 ! TS24
 
@@ -27796,6 +27623,7 @@ id: EMAPA:19156
 name: neural retina intermediate anuclear layer
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18592.
+synonym: "layer of Chievitz" RELATED []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18592 ! neural retina nuclear layer
 relationship: starts_at TS25 ! TS25
@@ -27814,7 +27642,6 @@ id: EMAPA:19159
 name: pectinate line
 namespace: anatomical_structure
 comment: order=5 for EMAPA:16831.
-synonym: "Hilton's 'white line'" RELATED []
 synonym: "site of anal membrane" RELATED []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16831 ! anal region
@@ -28272,6 +28099,7 @@ id: EMAPA:19210
 name: epicranial aponeurosis
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17525.
+synonym: "galea aponeurotica" RELATED []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17525 ! skin
 relationship: starts_at TS25 ! TS25
@@ -32533,7 +32361,7 @@ relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:25031
-name: intraembryonic coelom pleuro-peritoneal canal
+name: pleuro-peritoneal canal
 namespace: anatomical_structure
 comment: order=10 for EMAPA:16088.
 relationship: ends_at TS20 ! TS20
@@ -32547,7 +32375,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:25031.
 is_a: EMAPA:32856 ! mesothelium
 relationship: ends_at TS20 ! TS20
-relationship: part_of EMAPA:25031 ! intraembryonic coelom pleuro-peritoneal canal
+relationship: part_of EMAPA:25031 ! pleuro-peritoneal canal
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -32565,7 +32393,7 @@ name: pleuro-peritoneal canal cavity
 namespace: anatomical_structure
 comment: order=0 for EMAPA:25031.
 relationship: ends_at TS20 ! TS20
-relationship: part_of EMAPA:25031 ! intraembryonic coelom pleuro-peritoneal canal
+relationship: part_of EMAPA:25031 ! pleuro-peritoneal canal
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -50668,7 +50496,7 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:32703
-name: subplate
+name: cortical subplate
 namespace: anatomical_structure
 comment: order=13 for EMAPA:17544.
 relationship: ends_at TS26 ! TS26
@@ -50912,7 +50740,7 @@ id: EMAPA:32728
 name: limb epidermis
 namespace: anatomical_structure
 comment: order=6 for EMAPA:17528.\norder=4 for EMAPA:32726.
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17528 ! epidermis
 relationship: part_of EMAPA:32726 ! limb skin
 relationship: starts_at TS22 ! TS22
@@ -51644,7 +51472,7 @@ id: EMAPA:32805
 name: alveolar sulcus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:32905.
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32905 ! jaw
 relationship: starts_at TS21 ! TS21
 
@@ -53651,7 +53479,7 @@ comment: order=0 for EMAPA:35295.
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35295 ! dorsal thalamus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35133
@@ -56055,7 +55883,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:18769.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18769 ! hair
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35388
@@ -56894,7 +56722,7 @@ is_a: EMAPA:35185 ! brain nucleus
 is_a: EMAPA:36051 ! amygdaloid nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32672 ! amygdala
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35477
@@ -57529,7 +57357,7 @@ is_a: EMAPA:35185 ! brain nucleus
 is_a: EMAPA:36051 ! amygdaloid nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32672 ! amygdala
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35544
@@ -59810,7 +59638,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:32834.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32834 ! small intestine
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35785
@@ -59830,7 +59658,7 @@ comment: order=4 for EMAPA:32634.
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32634 ! hindlimb musculature
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35787
@@ -61140,7 +60968,7 @@ comment: order=10 for EMAPA:18022.
 is_a: EMAPA:35996 ! head bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18022 ! viscerocranium
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35925
