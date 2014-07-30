@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:07:2014 11:48
+date: 30:07:2014 17:31
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
@@ -3119,18 +3119,22 @@ relationship: starts_at TS13 ! TS13
 id: EMAPA:16361
 name: thyroid primordium
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16360.
-relationship: ends_at TS13 ! TS13
+alt_id: EMAPA:16558
+comment: order=0 for EMAPA:16360.\norder=2 for EMAPA:16557.
+relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16360 ! foregut diverticulum gland
+relationship: part_of EMAPA:16557 ! foregut gland
 relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16362
 name: thyroid primordium mesenchyme
 namespace: anatomical_structure
+alt_id: EMAPA:16559
 comment: order=0 for EMAPA:16361.
 is_a: EMAPA:16249 ! foregut diverticulum mesenchyme
-relationship: ends_at TS13 ! TS13
+is_a: EMAPA:32923 ! foregut mesenchyme
+relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16361 ! thyroid primordium
 relationship: starts_at TS13 ! TS13
 
@@ -5011,35 +5015,6 @@ relationship: part_of EMAPA:16548 ! foregut
 relationship: starts_at TS14 ! TS14
 
 [Term]
-id: EMAPA:16558
-name: thyroid primordium
-namespace: anatomical_structure
-comment: order=2 for EMAPA:16557.
-relationship: ends_at TS17 ! TS17
-relationship: part_of EMAPA:16557 ! foregut gland
-relationship: starts_at TS14 ! TS14
-
-[Term]
-id: EMAPA:16559
-name: thyroid primordium mesenchyme
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16558.
-is_a: EMAPA:32923 ! foregut mesenchyme
-relationship: ends_at TS17 ! TS17
-relationship: part_of EMAPA:16558 ! thyroid primordium
-relationship: starts_at TS14 ! TS14
-
-[Term]
-id: EMAPA:16560
-name: thyroid primordium endoderm
-namespace: anatomical_structure
-comment: order=1 for EMAPA:16558.
-is_a: EMAPA:32930 ! gut endoderm
-relationship: ends_at TS17 ! TS17
-relationship: part_of EMAPA:16558 ! thyroid primordium
-relationship: starts_at TS14 ! TS14
-
-[Term]
 id: EMAPA:16561
 name: biliary bud
 namespace: anatomical_structure
@@ -6428,8 +6403,10 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:16706
 name: pharynx
 namespace: anatomical_structure
-comment: order=8 for EMAPA:16548.
-relationship: ends_at TS23 ! TS23
+alt_id: EMAPA:18838
+comment: order=8 for EMAPA:16548.\norder=23 for EMAPA:16247.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16247 ! gut
 relationship: part_of EMAPA:16548 ! foregut
 relationship: starts_at TS15 ! TS15
 
@@ -6437,9 +6414,11 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:16707
 name: pharynx mesenchyme
 namespace: anatomical_structure
-comment: order=4 for EMAPA:16706.
+alt_id: EMAPA:35685
+comment: order=6 for EMAPA:16706.
+is_a: EMAPA:32909 ! gut mesenchyme
 is_a: EMAPA:32923 ! foregut mesenchyme
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16706 ! pharynx
 relationship: starts_at TS15 ! TS15
 
@@ -6447,19 +6426,23 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:16708
 name: pharynx epithelium
 namespace: anatomical_structure
-comment: order=5 for EMAPA:16706.
+alt_id: EMAPA:18868
+alt_id: EMAPA:26961
+comment: order=4 for EMAPA:16706.\norder=0 for EMAPA:26957.
 is_a: EMAPA:32922 ! foregut epithelium
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16706 ! pharynx
+relationship: part_of EMAPA:26957 ! pharynx mucosa
 relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16709
 name: pharynx vascular element
 namespace: anatomical_structure
-comment: order=10 for EMAPA:16706.
+alt_id: EMAPA:18888
+comment: order=11 for EMAPA:16706.
 is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16706 ! pharynx
 relationship: starts_at TS15 ! TS15
 
@@ -7679,9 +7662,11 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:16833
 name: esophagus
 namespace: anatomical_structure
-comment: order=6 for EMAPA:16548.
+alt_id: EMAPA:18860
+comment: order=6 for EMAPA:16548.\norder=2 for EMAPA:16247.
 synonym: "oesophagus" RELATED []
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16247 ! gut
 relationship: part_of EMAPA:16548 ! foregut
 relationship: starts_at TS16 ! TS16
 
@@ -7689,10 +7674,12 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:16834
 name: esophagus mesenchyme
 namespace: anatomical_structure
+alt_id: EMAPA:35606
 comment: order=0 for EMAPA:16833.
 synonym: "esophageal mesenchyme" RELATED []
+is_a: EMAPA:32909 ! gut mesenchyme
 is_a: EMAPA:32923 ! foregut mesenchyme
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16833 ! esophagus
 relationship: starts_at TS16 ! TS16
 
@@ -7700,19 +7687,23 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:16835
 name: esophagus epithelium
 namespace: anatomical_structure
-comment: order=1 for EMAPA:16833.
+alt_id: EMAPA:18862
+alt_id: EMAPA:26985
+comment: order=1 for EMAPA:16833.\norder=0 for EMAPA:26981.
 synonym: "esophageal epithelium" RELATED []
 is_a: EMAPA:32922 ! foregut epithelium
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16833 ! esophagus
+relationship: part_of EMAPA:26981 ! esophagus mucosa
 relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:16836
 name: esophagus mesentery
 namespace: anatomical_structure
+alt_id: EMAPA:18864
 comment: order=3 for EMAPA:16833.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16833 ! esophagus
 relationship: starts_at TS16 ! TS16
 
@@ -7720,9 +7711,10 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:16837
 name: dorsal meso-esophagus
 namespace: anatomical_structure
+alt_id: EMAPA:18865
 comment: order=0 for EMAPA:16836.
 synonym: "dorsal meso-oesophagus" RELATED []
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16836 ! esophagus mesentery
 relationship: starts_at TS16 ! TS16
 
@@ -7730,9 +7722,10 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:16838
 name: esophagus vascular element
 namespace: anatomical_structure
+alt_id: EMAPA:18866
 comment: order=6 for EMAPA:16833.
 is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16833 ! esophagus
 relationship: starts_at TS16 ! TS16
 
@@ -9505,8 +9498,10 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:17021
 name: stomach
 namespace: anatomical_structure
+alt_id: EMAPA:18889
 comment: order=10 for EMAPA:16548.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16247 ! gut
 relationship: part_of EMAPA:16548 ! foregut
 relationship: starts_at TS17 ! TS17
 
@@ -9514,9 +9509,11 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:17022
 name: stomach mesenchyme
 namespace: anatomical_structure
+alt_id: EMAPA:32836
 comment: order=0 for EMAPA:17021.
+is_a: EMAPA:32909 ! gut mesenchyme
 is_a: EMAPA:32923 ! foregut mesenchyme
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17021 ! stomach
 relationship: starts_at TS17 ! TS17
 
@@ -9524,9 +9521,10 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:17023
 name: stomach epithelium
 namespace: anatomical_structure
+alt_id: EMAPA:32835
 comment: order=1 for EMAPA:17021.
 is_a: EMAPA:32922 ! foregut epithelium
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17021 ! stomach
 relationship: starts_at TS17 ! TS17
 
@@ -9534,9 +9532,10 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:17024
 name: stomach mesentery
 namespace: anatomical_structure
+alt_id: EMAPA:18902
 comment: order=5 for EMAPA:17021.
 synonym: "mesogastrium" RELATED []
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17021 ! stomach
 relationship: starts_at TS17 ! TS17
 
@@ -9544,8 +9543,9 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:17025
 name: dorsal mesogastrium
 namespace: anatomical_structure
-comment: order=0 for EMAPA:17024.
-relationship: ends_at TS23 ! TS23
+alt_id: EMAPA:18903
+comment: order=0 for EMAPA:17024..
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17024 ! stomach mesentery
 relationship: starts_at TS17 ! TS17
 
@@ -9553,8 +9553,9 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:17026
 name: ventral mesogastrium
 namespace: anatomical_structure
+alt_id: EMAPA:18907
 comment: order=1 for EMAPA:17024.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17024 ! stomach mesentery
 relationship: starts_at TS17 ! TS17
 
@@ -10965,10 +10966,13 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:17181
 name: duodenum rostral part epithelium
 namespace: anatomical_structure
-comment: order=1 for EMAPA:17179.
+alt_id: EMAPA:27033
+comment: order=1 for EMAPA:17179.\norder=0 for EMAPA:27025.
 is_a: EMAPA:32922 ! foregut epithelium
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17179 ! duodenum rostral part
+relationship: part_of EMAPA:19078 ! duodenum epithelium
+relationship: part_of EMAPA:27025 ! duodenum rostral part mucosa
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -11003,8 +11007,9 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:17185
 name: tongue
 namespace: anatomical_structure
-comment: order=11 for EMAPA:16706.
-relationship: ends_at TS23 ! TS23
+alt_id: EMAPA:18870
+comment: order=12 for EMAPA:16706.
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16706 ! pharynx
 relationship: starts_at TS18 ! TS18
 
@@ -11012,7 +11017,7 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:17186
 name: lingual swelling
 namespace: anatomical_structure
-comment: order=5 for EMAPA:17185.
+comment: order=3 for EMAPA:17185.
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:17185 ! tongue
 relationship: starts_at TS18 ! TS18
@@ -11111,10 +11116,13 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:17196
 name: duodenum caudal part epithelium
 namespace: anatomical_structure
-comment: order=1 for EMAPA:17194.
+alt_id: EMAPA:27103
+comment: order=1 for EMAPA:17194.\norder=0 for EMAPA:27095.
 is_a: EMAPA:16569 ! midgut epithelium
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17194 ! duodenum caudal part
+relationship: part_of EMAPA:19078 ! duodenum epithelium
+relationship: part_of EMAPA:27095 ! duodenum caudal part mucosa
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -11187,9 +11195,10 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:17205
 name: stomach pyloric region muscularis
 namespace: anatomical_structure
+alt_id: EMAPA:27507
 comment: order=5 for EMAPA:17631.
 is_a: EMAPA:35385 ! gut muscularis
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17631 ! stomach pyloric region
 relationship: starts_at TS23 ! TS23
 
@@ -12550,7 +12559,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17352
 name: hypobranchial eminence
 namespace: anatomical_structure
-comment: order=3 for EMAPA:17185.
+comment: order=1 for EMAPA:17185.
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:17185 ! tongue
 relationship: starts_at TS19 ! TS19
@@ -12559,7 +12568,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17353
 name: occipital myotome
 namespace: anatomical_structure
-comment: order=7 for EMAPA:17185.
+comment: order=5 for EMAPA:17185.
 is_a: EMAPA:32841 ! myotome
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:17185 ! tongue
@@ -12645,18 +12654,21 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17362
 name: palatal shelf
 namespace: anatomical_structure
-comment: order=5 for EMAPA:17359.
-relationship: ends_at TS20 ! TS20
+alt_id: EMAPA:17930
+comment: order=5 for EMAPA:17359.\norder=0 for EMAPA:17924.
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17359 ! maxillary process
+relationship: part_of EMAPA:17924 ! upper jaw
 relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:17363
 name: palatal shelf epithelium
 namespace: anatomical_structure
+alt_id: EMAPA:17931
 comment: order=0 for EMAPA:17362.
 is_a: EMAPA:16839 ! oral region epithelium
-relationship: ends_at TS20 ! TS20
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17362 ! palatal shelf
 relationship: starts_at TS19 ! TS19
 
@@ -12664,9 +12676,10 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17364
 name: palatal shelf mesenchyme
 namespace: anatomical_structure
+alt_id: EMAPA:17932
 comment: order=1 for EMAPA:17362.
 is_a: EMAPA:35618 ! oral region mesenchyme
-relationship: ends_at TS20 ! TS20
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17362 ! palatal shelf
 relationship: starts_at TS19 ! TS19
 
@@ -15132,8 +15145,10 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17623
 name: stomach glandular region
 namespace: anatomical_structure
+alt_id: EMAPA:18896
 comment: order=3 for EMAPA:17021.
-relationship: ends_at TS23 ! TS23
+is_a: EMAPA:35821 ! stomach region
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17021 ! stomach
 relationship: starts_at TS20 ! TS20
 
@@ -15141,9 +15156,10 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17624
 name: stomach glandular region mesenchyme
 namespace: anatomical_structure
+alt_id: EMAPA:35816
 comment: order=0 for EMAPA:17623.
 is_a: EMAPA:17022 ! stomach mesenchyme
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17623 ! stomach glandular region
 relationship: starts_at TS20 ! TS20
 
@@ -15151,19 +15167,23 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17625
 name: stomach glandular region epithelium
 namespace: anatomical_structure
-comment: order=1 for EMAPA:17623.
+alt_id: EMAPA:18899
+alt_id: EMAPA:27175
+comment: order=1 for EMAPA:17623.\norder=0 for EMAPA:27167.
 is_a: EMAPA:17023 ! stomach epithelium
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17623 ! stomach glandular region
+relationship: part_of EMAPA:27167 ! stomach glandular region mucosa
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17626
 name: stomach glandular region vascular element
 namespace: anatomical_structure
+alt_id: EMAPA:18897
 comment: order=7 for EMAPA:17623.
 is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17623 ! stomach glandular region
 relationship: starts_at TS20 ! TS20
 
@@ -15171,11 +15191,13 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17627
 name: stomach proventricular region
 namespace: anatomical_structure
+alt_id: EMAPA:18910
 comment: order=6 for EMAPA:17021.
-synonym: "cutaneous region" RELATED []
-synonym: "ependymal region" RELATED []
-synonym: "non-glandular region" RELATED []
-relationship: ends_at TS23 ! TS23
+synonym: "stomach cutaneous region" RELATED []
+synonym: "stomach ependymal region" RELATED []
+synonym: "stomach non-glandular region" RELATED []
+is_a: EMAPA:35821 ! stomach region
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17021 ! stomach
 relationship: starts_at TS20 ! TS20
 
@@ -15193,19 +15215,23 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17629
 name: stomach proventricular region epithelium
 namespace: anatomical_structure
+alt_id: EMAPA:18912
+alt_id: EMAPA:27191
 comment: order=1 for EMAPA:17627.
 is_a: EMAPA:17023 ! stomach epithelium
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17627 ! stomach proventricular region
+relationship: part_of EMAPA:27183 ! stomach proventricular region mucosa
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17630
 name: stomach proventricular region vascular element
 namespace: anatomical_structure
+alt_id: EMAPA:18914
 comment: order=7 for EMAPA:17627.
 is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17627 ! stomach proventricular region
 relationship: starts_at TS20 ! TS20
 
@@ -15213,8 +15239,10 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17631
 name: stomach pyloric region
 namespace: anatomical_structure
+alt_id: EMAPA:18915
 comment: order=7 for EMAPA:17021.
-relationship: ends_at TS23 ! TS23
+is_a: EMAPA:35821 ! stomach region
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17021 ! stomach
 relationship: starts_at TS20 ! TS20
 
@@ -15222,9 +15250,10 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17632
 name: stomach pyloric region mesenchyme
 namespace: anatomical_structure
+alt_id: EMAPA:35820
 comment: order=1 for EMAPA:17631.
 is_a: EMAPA:17022 ! stomach mesenchyme
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17631 ! stomach pyloric region
 relationship: starts_at TS20 ! TS20
 
@@ -15232,19 +15261,23 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17633
 name: stomach pyloric region epithelium
 namespace: anatomical_structure
+alt_id: EMAPA:18917
+alt_id: EMAPA:27207
 comment: order=2 for EMAPA:17631.
 is_a: EMAPA:17023 ! stomach epithelium
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17631 ! stomach pyloric region
+relationship: part_of EMAPA:27199 ! stomach pyloric region mucosa
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17634
 name: stomach pyloric region vascular element
 namespace: anatomical_structure
+alt_id: EMAPA:18920
 comment: order=8 for EMAPA:17631.
 is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17631 ! stomach pyloric region
 relationship: starts_at TS20 ! TS20
 
@@ -15252,10 +15285,12 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17635
 name: Meckel's cartilage
 namespace: anatomical_structure
-comment: order=2 for EMAPA:17355.
+alt_id: EMAPA:17907
+comment: order=2 for EMAPA:17355.\norder=8 for EMAPA:17906.
 is_a: EMAPA:35978 ! sensory organ cartilage
-relationship: ends_at TS20 ! TS20
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17355 ! mandibular process
+relationship: part_of EMAPA:17906 ! lower jaw
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -15291,9 +15326,12 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17639
 name: maxilla
 namespace: anatomical_structure
-comment: order=0 for EMAPA:17638.
-relationship: ends_at TS20 ! TS20
+alt_id: EMAPA:17928
+comment: order=0 for EMAPA:17638.\norder=0 for EMAPA:17927.
+is_a: EMAPA:35453 ! jaw bone
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17638 ! maxillary process skeleton
+relationship: part_of EMAPA:17927 ! upper jaw skeleton
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -15309,17 +15347,22 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17641
 name: premaxilla
 namespace: anatomical_structure
-comment: order=6 for EMAPA:17359.
-relationship: ends_at TS20 ! TS20
+alt_id: EMAPA:17933
+alt_id: EMAPA:19033
+comment: order=6 for EMAPA:17359.\norder=2 for EMAPA:17924.\norder=1 for EMAPA:17927.
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17359 ! maxillary process
+relationship: part_of EMAPA:17924 ! upper jaw
+relationship: part_of EMAPA:17927 ! upper jaw skeleton
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17642
 name: primary palate
 namespace: anatomical_structure
+alt_id: EMAPA:17934
 comment: order=0 for EMAPA:17641.
-relationship: ends_at TS20 ! TS20
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17641 ! premaxilla
 relationship: starts_at TS20 ! TS20
 
@@ -15327,9 +15370,10 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17643
 name: primary palate epithelium
 namespace: anatomical_structure
+alt_id: EMAPA:17935
 comment: order=0 for EMAPA:17642.
 is_a: EMAPA:16839 ! oral region epithelium
-relationship: ends_at TS20 ! TS20
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17642 ! primary palate
 relationship: starts_at TS20 ! TS20
 
@@ -15337,9 +15381,10 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17644
 name: primary palate mesenchyme
 namespace: anatomical_structure
+alt_id: EMAPA:17936
 comment: order=1 for EMAPA:17642.
 is_a: EMAPA:35618 ! oral region mesenchyme
-relationship: ends_at TS20 ! TS20
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17642 ! primary palate
 relationship: starts_at TS20 ! TS20
 
@@ -17513,9 +17558,10 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17881
 name: tongue epithelium
 namespace: anatomical_structure
+alt_id: EMAPA:18872
 comment: order=8 for EMAPA:17185.
 is_a: EMAPA:32922 ! foregut epithelium
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17185 ! tongue
 relationship: starts_at TS18 ! TS18
 
@@ -17523,9 +17569,11 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:17882
 name: tongue mesenchyme
 namespace: anatomical_structure
-comment: order=9 for EMAPA:17185.
+alt_id: EMAPA:18878
+comment: order=10 for EMAPA:17185.
+synonym: "tongue mesenchyme" EXACT []
 is_a: EMAPA:16707 ! pharynx mesenchyme
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17185 ! tongue
 relationship: starts_at TS18 ! TS18
 
@@ -17533,9 +17581,10 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:17883
 name: tongue skeletal muscle
 namespace: anatomical_structure
-comment: order=10 for EMAPA:17185.
+alt_id: EMAPA:18879
+comment: order=12 for EMAPA:17185.
 is_a: EMAPA:35988 ! skeletal muscle
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17185 ! tongue
 relationship: starts_at TS20 ! TS20
 
@@ -17552,8 +17601,10 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17886
 name: stomach fundus
 namespace: anatomical_structure
-comment: order=2 for EMAPA:17021.
-relationship: ends_at TS23 ! TS23
+alt_id: EMAPA:18890
+comment: order=2 for EMAPA:17021.\norder=4 for EMAPA:18889.
+is_a: EMAPA:35821 ! stomach region
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17021 ! stomach
 relationship: starts_at TS21 ! TS21
 
@@ -17561,9 +17612,10 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17887
 name: stomach fundus mesenchyme
 namespace: anatomical_structure
+alt_id: EMAPA:35813
 comment: order=0 for EMAPA:17886.
 is_a: EMAPA:17022 ! stomach mesenchyme
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17886 ! stomach fundus
 relationship: starts_at TS21 ! TS21
 
@@ -17571,19 +17623,23 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17888
 name: stomach fundus epithelium
 namespace: anatomical_structure
+alt_id: EMAPA:18893
+alt_id: EMAPA:27159
 comment: order=1 for EMAPA:17886.
 is_a: EMAPA:17023 ! stomach epithelium
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17886 ! stomach fundus
+relationship: part_of EMAPA:27151 ! stomach fundus mucosa
 relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:17889
 name: stomach fundus vascular element
 namespace: anatomical_structure
+alt_id: EMAPA:18891
 comment: order=8 for EMAPA:17886.
 is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17886 ! stomach fundus
 relationship: starts_at TS21 ! TS21
 
@@ -17591,8 +17647,9 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17890
 name: lesser omentum
 namespace: anatomical_structure
+alt_id: EMAPA:18909
 comment: order=1 for EMAPA:17026.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17026 ! ventral mesogastrium
 relationship: starts_at TS21 ! TS21
 
@@ -17600,8 +17657,9 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17891
 name: pyloric antrum
 namespace: anatomical_structure
+alt_id: EMAPA:18919
 comment: order=0 for EMAPA:17631.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17631 ! stomach pyloric region
 relationship: starts_at TS21 ! TS21
 
@@ -17747,16 +17805,6 @@ namespace: anatomical_structure
 comment: order=9 for EMAPA:32905.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32905 ! jaw
-relationship: starts_at TS21 ! TS21
-
-[Term]
-id: EMAPA:17907
-name: Meckel's cartilage
-namespace: anatomical_structure
-comment: order=8 for EMAPA:17906.
-is_a: EMAPA:35978 ! sensory organ cartilage
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17906 ! lower jaw
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -17912,16 +17960,6 @@ relationship: part_of EMAPA:17924 ! upper jaw
 relationship: starts_at TS21 ! TS21
 
 [Term]
-id: EMAPA:17928
-name: maxilla
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17927.
-is_a: EMAPA:35453 ! jaw bone
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17927 ! upper jaw skeleton
-relationship: starts_at TS21 ! TS21
-
-[Term]
 id: EMAPA:17929
 name: upper jaw mesenchyme
 namespace: anatomical_structure
@@ -17929,73 +17967,6 @@ comment: order=6 for EMAPA:17924.
 is_a: EMAPA:32907 ! jaw mesenchyme
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17924 ! upper jaw
-relationship: starts_at TS21 ! TS21
-
-[Term]
-id: EMAPA:17930
-name: palatal shelf
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17924.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17924 ! upper jaw
-relationship: starts_at TS21 ! TS21
-
-[Term]
-id: EMAPA:17931
-name: palatal shelf epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17930.
-is_a: EMAPA:16839 ! oral region epithelium
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17930 ! palatal shelf
-relationship: starts_at TS21 ! TS21
-
-[Term]
-id: EMAPA:17932
-name: palatal shelf mesenchyme
-namespace: anatomical_structure
-comment: order=1 for EMAPA:17930.
-is_a: EMAPA:35618 ! oral region mesenchyme
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17930 ! palatal shelf
-relationship: starts_at TS21 ! TS21
-
-[Term]
-id: EMAPA:17933
-name: premaxilla
-namespace: anatomical_structure
-comment: order=2 for EMAPA:17924.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17924 ! upper jaw
-relationship: starts_at TS21 ! TS21
-
-[Term]
-id: EMAPA:17934
-name: primary palate
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17933.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17933 ! premaxilla
-relationship: starts_at TS21 ! TS21
-
-[Term]
-id: EMAPA:17935
-name: primary palate epithelium
-namespace: anatomical_structure
-comment: order=1 for EMAPA:17934.
-is_a: EMAPA:16839 ! oral region epithelium
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17934 ! primary palate
-relationship: starts_at TS21 ! TS21
-
-[Term]
-id: EMAPA:17936
-name: primary palate mesenchyme
-namespace: anatomical_structure
-comment: order=2 for EMAPA:17934.
-is_a: EMAPA:35618 ! oral region mesenchyme
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17934 ! primary palate
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -20912,8 +20883,10 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18267
 name: gastro-esophageal junction
 namespace: anatomical_structure
-comment: order=4 for EMAPA:16548.
-relationship: ends_at TS23 ! TS23
+alt_id: EMAPA:18855
+comment: order=4 for EMAPA:16548.\norder=6 for EMAPA:16247.
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16247 ! gut
 relationship: part_of EMAPA:16548 ! foregut
 relationship: starts_at TS22 ! TS22
 
@@ -20931,19 +20904,23 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18269
 name: gastro-esophageal junction epithelium
 namespace: anatomical_structure
-comment: order=1 for EMAPA:18267.
+alt_id: EMAPA:18857
+alt_id: EMAPA:27047
+comment: order=1 for EMAPA:18267.\norder=0 for EMAPA:27039.
 is_a: EMAPA:32922 ! foregut epithelium
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18267 ! gastro-esophageal junction
+relationship: part_of EMAPA:27039 ! gastro-esophageal junction mucosa
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:18270
 name: gastro-esophageal junction vascular element
 namespace: anatomical_structure
+alt_id: EMAPA:18859
 comment: order=7 for EMAPA:18267.
 is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18267 ! gastro-esophageal junction
 relationship: starts_at TS22 ! TS22
 
@@ -20951,26 +20928,33 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18271
 name: circumvallate papilla
 namespace: anatomical_structure
-comment: order=0 for EMAPA:17185.
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17185 ! tongue
+alt_id: EMAPA:18654
+alt_id: EMAPA:18871
+comment: order=0 for EMAPA:17185.\norder=0 for EMAPA:18870.\norder=0 for EMAPA:17881.
+is_a: EMAPA:32777 ! tongue papillae
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17881 ! tongue epithelium
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:18272
 name: fungiform papillae
 namespace: anatomical_structure
-comment: order=2 for EMAPA:17185.
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17185 ! tongue
+alt_id: EMAPA:18657
+alt_id: EMAPA:18875
+comment: order=2 for EMAPA:17185.\norder=4 for EMAPA:18870.\norder=2 for EMAPA:17881.
+is_a: EMAPA:32777 ! tongue papillae
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17881 ! tongue epithelium
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:18273
 name: intermolar eminence
 namespace: anatomical_structure
-comment: order=4 for EMAPA:17185.
-relationship: ends_at TS23 ! TS23
+alt_id: EMAPA:18876
+comment: order=2 for EMAPA:17185.
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17185 ! tongue
 relationship: starts_at TS22 ! TS22
 
@@ -20978,8 +20962,9 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18274
 name: median fibrous septum
 namespace: anatomical_structure
-comment: order=6 for EMAPA:17185.
-relationship: ends_at TS23 ! TS23
+alt_id: EMAPA:18877
+comment: order=4 for EMAPA:17185.
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17185 ! tongue
 relationship: starts_at TS22 ! TS22
 
@@ -20987,8 +20972,9 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18275
 name: tongue extrinsic skeletal muscle
 namespace: anatomical_structure
+alt_id: EMAPA:18880
 comment: order=1 for EMAPA:17883.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17883 ! tongue skeletal muscle
 relationship: starts_at TS22 ! TS22
 
@@ -20996,8 +20982,9 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18276
 name: genioglossus
 namespace: anatomical_structure
+alt_id: EMAPA:18881
 comment: order=0 for EMAPA:18275.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18275 ! tongue extrinsic skeletal muscle
 relationship: starts_at TS22 ! TS22
 
@@ -21005,8 +20992,9 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18277
 name: hyoglossus
 namespace: anatomical_structure
+alt_id: EMAPA:18882
 comment: order=1 for EMAPA:18275.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18275 ! tongue extrinsic skeletal muscle
 relationship: starts_at TS22 ! TS22
 
@@ -21014,8 +21002,9 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18278
 name: palatoglossus
 namespace: anatomical_structure
+alt_id: EMAPA:18883
 comment: order=2 for EMAPA:18275.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18275 ! tongue extrinsic skeletal muscle
 relationship: starts_at TS22 ! TS22
 
@@ -21023,8 +21012,9 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18279
 name: styloglossus
 namespace: anatomical_structure
+alt_id: EMAPA:18884
 comment: order=3 for EMAPA:18275.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18275 ! tongue extrinsic skeletal muscle
 relationship: starts_at TS22 ! TS22
 
@@ -21032,8 +21022,9 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18280
 name: tongue intrinsic skeletal muscle
 namespace: anatomical_structure
+alt_id: EMAPA:18885
 comment: order=2 for EMAPA:17883.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17883 ! tongue skeletal muscle
 relationship: starts_at TS22 ! TS22
 
@@ -21041,8 +21032,9 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18281
 name: tongue intrinsic skeletal muscle transverse component
 namespace: anatomical_structure
+alt_id: EMAPA:18886
 comment: order=0 for EMAPA:18280.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18280 ! tongue intrinsic skeletal muscle
 relationship: starts_at TS22 ! TS22
 
@@ -21050,8 +21042,9 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18282
 name: tongue intrinsic skeletal muscle vertical component
 namespace: anatomical_structure
+alt_id: EMAPA:18887
 comment: order=1 for EMAPA:18280.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18280 ! tongue intrinsic skeletal muscle
 relationship: starts_at TS22 ! TS22
 
@@ -21059,8 +21052,9 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18284
 name: stomach fundus glandular mucous membrane
 namespace: anatomical_structure
+alt_id: EMAPA:35812
 comment: order=2 for EMAPA:17886.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17886 ! stomach fundus
 relationship: starts_at TS22 ! TS22
 
@@ -21068,28 +21062,33 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18285
 name: gastro-splenic ligament
 namespace: anatomical_structure
-comment: order=0 for EMAPA:17025.
-relationship: ends_at TS23 ! TS23
+alt_id: EMAPA:18905
+comment: order=0 for EMAPA:17025.\norder=0 for EMAPA:18904.
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17025 ! dorsal mesogastrium
+relationship: part_of EMAPA:18660 ! greater omentum
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:18286
 name: lieno-renal ligament
 namespace: anatomical_structure
+alt_id: EMAPA:18906
 comment: order=2 for EMAPA:17025.
 synonym: "lienorenal ligament" RELATED []
 synonym: "splenorenal ligament" RELATED []
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17025 ! dorsal mesogastrium
+relationship: part_of EMAPA:18660 ! greater omentum
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:18288
 name: falciform ligament
 namespace: anatomical_structure
+alt_id: EMAPA:18908
 comment: order=0 for EMAPA:17026.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17026 ! ventral mesogastrium
 relationship: starts_at TS22 ! TS22
 
@@ -21921,8 +21920,9 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:18379
 name: gastro-esophageal junction lumen
 namespace: anatomical_structure
+alt_id: EMAPA:18858
 comment: order=2 for EMAPA:18267.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18267 ! gastro-esophageal junction
 relationship: starts_at TS22 ! TS22
 
@@ -21930,9 +21930,10 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18380
 name: esophagus lumen
 namespace: anatomical_structure
+alt_id: EMAPA:18863
 comment: order=2 for EMAPA:16833.
 synonym: "esophageal lumen" RELATED []
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16833 ! esophagus
 relationship: starts_at TS16 ! TS16
 
@@ -21940,8 +21941,10 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:18381
 name: pharynx lumen
 namespace: anatomical_structure
-comment: order=6 for EMAPA:16706.
-relationship: ends_at TS23 ! TS23
+alt_id: EMAPA:18869
+comment: order=5 for EMAPA:16706.
+synonym: "pharynx lumen" EXACT []
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16706 ! pharynx
 relationship: starts_at TS15 ! TS15
 
@@ -21949,8 +21952,9 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:18382
 name: stomach fundus lumen
 namespace: anatomical_structure
+alt_id: EMAPA:18894
 comment: order=3 for EMAPA:17886.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17886 ! stomach fundus
 relationship: starts_at TS21 ! TS21
 
@@ -21958,8 +21962,9 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:18383
 name: stomach glandular region lumen
 namespace: anatomical_structure
+alt_id: EMAPA:18900
 comment: order=2 for EMAPA:17623.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17623 ! stomach glandular region
 relationship: starts_at TS20 ! TS20
 
@@ -21967,8 +21972,9 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:18384
 name: stomach proventricular region lumen
 namespace: anatomical_structure
+alt_id: EMAPA:18913
 comment: order=2 for EMAPA:17627.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17627 ! stomach proventricular region
 relationship: starts_at TS20 ! TS20
 
@@ -21976,8 +21982,9 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:18385
 name: stomach pyloric region lumen
 namespace: anatomical_structure
+alt_id: EMAPA:18918
 comment: order=3 for EMAPA:17631.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17631 ! stomach pyloric region
 relationship: starts_at TS20 ! TS20
 
@@ -23778,18 +23785,20 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:18649
 name: pharynx skeleton
 namespace: anatomical_structure
-comment: order=9 for EMAPA:16706.
-relationship: ends_at TS23 ! TS23
+alt_id: EMAPA:18839
+comment: order=10 for EMAPA:16706.
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16706 ! pharynx
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:18650
-name: hyoid bone
+name: hyoid
 namespace: anatomical_structure
-comment: order=0 for EMAPA:18649.
+alt_id: EMAPA:18840
+comment: order=0 for EMAPA:18649.\norder=0 for EMAPA:18839.
 is_a: EMAPA:32782 ! bone
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18649 ! pharynx skeleton
 relationship: starts_at TS23 ! TS23
 
@@ -23797,63 +23806,40 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:18651
 name: hyoid greater horn
 namespace: anatomical_structure
-comment: order=1 for EMAPA:18650.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:18650 ! hyoid bone
+alt_id: EMAPA:18841
+comment: order=1 for EMAPA:18650.\norder=1 for EMAPA:18840.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18650 ! hyoid
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:18652
 name: hyoid lesser horn
 namespace: anatomical_structure
-comment: order=2 for EMAPA:18650.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:18650 ! hyoid bone
+alt_id: EMAPA:18842
+comment: order=2 for EMAPA:18650.\norder=2 for EMAPA:18840.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18650 ! hyoid
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:18653
 name: hyoid body
 namespace: anatomical_structure
-comment: order=0 for EMAPA:18650.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:18650 ! hyoid bone
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18654
-name: circumvallate papilla
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17881.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17881 ! tongue epithelium
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18655
-name: filiform papillae
-namespace: anatomical_structure
-comment: order=1 for EMAPA:17881.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17881 ! tongue epithelium
+alt_id: EMAPA:18843
+comment: order=0 for EMAPA:18650.\norder=0 for EMAPA:18840.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18650 ! hyoid
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:18656
 name: frenulum
 namespace: anatomical_structure
-comment: order=1 for EMAPA:17185.
-relationship: ends_at TS23 ! TS23
+alt_id: EMAPA:18874
+comment: order=0 for EMAPA:17185.
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17185 ! tongue
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18657
-name: fungiform papillae
-namespace: anatomical_structure
-comment: order=2 for EMAPA:17881.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17881 ! tongue epithelium
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -23869,8 +23855,9 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18660
 name: greater omentum
 namespace: anatomical_structure
+alt_id: EMAPA:18904
 comment: order=1 for EMAPA:17025.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17025 ! dorsal mesogastrium
 relationship: starts_at TS23 ! TS23
 
@@ -25154,61 +25141,6 @@ relationship: part_of EMAPA:18256 ! anal canal
 relationship: starts_at TS22 ! TS22
 
 [Term]
-id: EMAPA:18838
-name: pharynx
-namespace: anatomical_structure
-comment: order=23 for EMAPA:16247.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16247 ! gut
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18839
-name: pharynx skeleton
-namespace: anatomical_structure
-comment: order=8 for EMAPA:18838.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18838 ! pharynx
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18840
-name: hyoid
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18839.
-is_a: EMAPA:32782 ! bone
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18839 ! pharynx skeleton
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18841
-name: hyoid greater horn
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18840.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18840 ! hyoid
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18842
-name: hyoid lesser horn
-namespace: anatomical_structure
-comment: order=2 for EMAPA:18840.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18840 ! hyoid
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18843
-name: hyoid body
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18840.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18840 ! hyoid
-relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:18852
 name: duodenum
 namespace: anatomical_structure
@@ -25237,548 +25169,15 @@ relationship: part_of EMAPA:18852 ! duodenum
 relationship: starts_at TS24 ! TS24
 
 [Term]
-id: EMAPA:18855
-name: gastro-esophageal junction
-namespace: anatomical_structure
-comment: order=6 for EMAPA:16247.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16247 ! gut
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18857
-name: gastro-esophageal junction epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:27263.
-is_a: EMAPA:32922 ! foregut epithelium
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27263 ! gastro-esophageal junction mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18858
-name: gastro-esophageal junction lumen
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18855.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18855 ! gastro-esophageal junction
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18859
-name: gastro-esophageal junction vascular element
-namespace: anatomical_structure
-comment: order=6 for EMAPA:18855.
-is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18855 ! gastro-esophageal junction
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18860
-name: esophagus
-namespace: anatomical_structure
-comment: order=2 for EMAPA:16247.
-synonym: "oesophagus" RELATED []
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16247 ! gut
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18862
-name: esophagus epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:26991.
-synonym: "esophageal epithelium" RELATED []
-is_a: EMAPA:32922 ! foregut epithelium
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:26991 ! esophagus mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18863
-name: esophagus lumen
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18860.
-synonym: "esophageal lumen" RELATED []
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18860 ! esophagus
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18864
-name: esophagus mesentery
-namespace: anatomical_structure
-comment: order=2 for EMAPA:18860.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18860 ! esophagus
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18865
-name: dorsal meso-esophagus
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18864.
-synonym: "dorsal meso-oesophagus" RELATED []
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18864 ! esophagus mesentery
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18866
-name: esophagus vascular element
-namespace: anatomical_structure
-comment: order=5 for EMAPA:18860.
-is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18860 ! esophagus
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18868
-name: pharynx epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:26965.
-is_a: EMAPA:32922 ! foregut epithelium
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:26965 ! pharynx mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18869
-name: pharynx lumen
-namespace: anatomical_structure
-comment: order=3 for EMAPA:18838.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18838 ! pharynx
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18870
-name: tongue
-namespace: anatomical_structure
-comment: order=10 for EMAPA:18838.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18838 ! pharynx
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18871
-name: circumvallate papilla
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18870.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18870 ! tongue
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18872
-name: tongue epithelium
-namespace: anatomical_structure
-comment: order=9 for EMAPA:18870.
-is_a: EMAPA:32922 ! foregut epithelium
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18870 ! tongue
-relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:18873
 name: filiform papillae
 namespace: anatomical_structure
-comment: order=1 for EMAPA:18870.
+alt_id: EMAPA:18655
+comment: order=1 for EMAPA:18870.\norder=1 for EMAPA:17881.
+is_a: EMAPA:32777 ! tongue papillae
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18870 ! tongue
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18874
-name: frenulum
-namespace: anatomical_structure
-comment: order=3 for EMAPA:18870.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18870 ! tongue
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18875
-name: fungiform papillae
-namespace: anatomical_structure
-comment: order=4 for EMAPA:18870.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18870 ! tongue
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18876
-name: intermolar eminence
-namespace: anatomical_structure
-comment: order=5 for EMAPA:18870.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18870 ! tongue
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18877
-name: median fibrous septum
-namespace: anatomical_structure
-comment: order=6 for EMAPA:18870.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18870 ! tongue
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18878
-name: tongue mesenchyme
-namespace: anatomical_structure
-comment: order=11 for EMAPA:18870.
-is_a: EMAPA:35685 ! pharynx mesenchyme
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18870 ! tongue
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18879
-name: tongue skeletal muscle
-namespace: anatomical_structure
-comment: order=13 for EMAPA:18870.
-is_a: EMAPA:35988 ! skeletal muscle
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18870 ! tongue
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18880
-name: tongue extrinsic skeletal muscle
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18879.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18879 ! tongue skeletal muscle
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18881
-name: genioglossus
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18880.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18880 ! tongue extrinsic skeletal muscle
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18882
-name: hyoglossus
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18880.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18880 ! tongue extrinsic skeletal muscle
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18883
-name: palatoglossus
-namespace: anatomical_structure
-comment: order=2 for EMAPA:18880.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18880 ! tongue extrinsic skeletal muscle
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18884
-name: styloglossus
-namespace: anatomical_structure
-comment: order=3 for EMAPA:18880.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18880 ! tongue extrinsic skeletal muscle
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18885
-name: tongue intrinsic skeletal muscle
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18879.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18879 ! tongue skeletal muscle
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18886
-name: tongue intrinsic skeletal muscle transverse component
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18885.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18885 ! tongue intrinsic skeletal muscle
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18887
-name: tongue intrinsic skeletal muscle vertical component
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18885.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18885 ! tongue intrinsic skeletal muscle
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18888
-name: pharynx vascular element
-namespace: anatomical_structure
-comment: order=9 for EMAPA:18838.
-is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18838 ! pharynx
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18889
-name: stomach
-namespace: anatomical_structure
-comment: order=25 for EMAPA:16247.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16247 ! gut
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18890
-name: stomach fundus
-namespace: anatomical_structure
-comment: order=4 for EMAPA:18889.
-is_a: EMAPA:35821 ! stomach region
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18889 ! stomach
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18891
-name: stomach fundus vascular element
-namespace: anatomical_structure
-comment: order=7 for EMAPA:18890.
-is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18890 ! stomach fundus
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18893
-name: stomach fundus epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:27403.
-is_a: EMAPA:32835 ! stomach epithelium
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27403 ! stomach fundus mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18894
-name: stomach fundus lumen
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18890.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18890 ! stomach fundus
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18896
-name: stomach glandular region
-namespace: anatomical_structure
-comment: order=5 for EMAPA:18889.
-is_a: EMAPA:35821 ! stomach region
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18889 ! stomach
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18897
-name: stomach glandular region vascular element
-namespace: anatomical_structure
-comment: order=7 for EMAPA:18896.
-is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18896 ! stomach glandular region
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18899
-name: stomach glandular region epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:27435.
-is_a: EMAPA:32835 ! stomach epithelium
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27435 ! stomach glandular region mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18900
-name: stomach glandular region lumen
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18896.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18896 ! stomach glandular region
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18902
-name: stomach mesentery
-namespace: anatomical_structure
-comment: order=7 for EMAPA:18889.
-synonym: "mesogastrium" RELATED []
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18889 ! stomach
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18903
-name: dorsal mesogastrium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18902.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18902 ! stomach mesentery
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18904
-name: greater omentum
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18903.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18903 ! dorsal mesogastrium
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18905
-name: gastro-splenic ligament
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18904.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18904 ! greater omentum
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18906
-name: lieno-renal ligament
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18904.
-synonym: "lienorenal ligament" RELATED []
-synonym: "splenorenal ligament" RELATED []
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18904 ! greater omentum
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18907
-name: ventral mesogastrium
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18902.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18902 ! stomach mesentery
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18908
-name: falciform ligament
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18907.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18907 ! ventral mesogastrium
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18909
-name: lesser omentum
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18907.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18907 ! ventral mesogastrium
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18910
-name: stomach proventricular region
-namespace: anatomical_structure
-comment: order=8 for EMAPA:18889.
-synonym: "cutaneous region" RELATED []
-synonym: "ependymal region" RELATED []
-synonym: "non-glandular region" RELATED []
-is_a: EMAPA:35821 ! stomach region
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18889 ! stomach
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18912
-name: stomach proventricular region epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:27467.
-is_a: EMAPA:32835 ! stomach epithelium
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27467 ! stomach proventricular region mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18913
-name: stomach proventricular region lumen
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18910.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18910 ! stomach proventricular region
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18914
-name: stomach proventricular region vascular element
-namespace: anatomical_structure
-comment: order=5 for EMAPA:18910.
-is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18910 ! stomach proventricular region
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18915
-name: stomach pyloric region
-namespace: anatomical_structure
-comment: order=9 for EMAPA:18889.
-is_a: EMAPA:35821 ! stomach region
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18889 ! stomach
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18917
-name: stomach pyloric region epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:27499.
-is_a: EMAPA:32835 ! stomach epithelium
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27499 ! stomach pyloric region mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18918
-name: stomach pyloric region lumen
-namespace: anatomical_structure
-comment: order=2 for EMAPA:18915.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18915 ! stomach pyloric region
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18919
-name: pyloric antrum
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18915.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18915 ! stomach pyloric region
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18920
-name: stomach pyloric region vascular element
-namespace: anatomical_structure
-comment: order=8 for EMAPA:18915.
-is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18915 ! stomach pyloric region
-relationship: starts_at TS24 ! TS24
+relationship: part_of EMAPA:17881 ! tongue epithelium
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:18921
@@ -26068,20 +25467,20 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:18962
 name: sulcus terminalis
 namespace: anatomical_structure
-comment: order=7 for EMAPA:18870.
+comment: order=6 for EMAPA:18870.
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18870 ! tongue
+relationship: part_of EMAPA:17185 ! tongue
 relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:18963
 name: pharynx skeletal muscle
 namespace: anatomical_structure
-comment: order=7 for EMAPA:18838.
+comment: order=9 for EMAPA:16706.
 is_a: EMAPA:35988 ! skeletal muscle
 is_a: EMAPA:36050 ! neck muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18838 ! pharynx
+relationship: part_of EMAPA:16706 ! pharynx
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -26558,15 +25957,6 @@ relationship: part_of EMAPA:19030 ! serosal pericardium
 relationship: starts_at TS24 ! TS24
 
 [Term]
-id: EMAPA:19033
-name: premaxilla
-namespace: anatomical_structure
-comment: order=1 for EMAPA:17927.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17927 ! upper jaw skeleton
-relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:19034
 name: incisive canal
 namespace: anatomical_structure
@@ -26874,8 +26264,9 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:27235.
 is_a: EMAPA:35778 ! small intestine epithelium
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18852 ! duodenum
 relationship: part_of EMAPA:27235 ! duodenum mucosa
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:19080
@@ -26920,7 +26311,7 @@ name: gastro-esophageal junction mesentery
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18855.
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18855 ! gastro-esophageal junction
+relationship: part_of EMAPA:18267 ! gastro-esophageal junction
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -28433,18 +27824,18 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:19249
 name: pharyngeal ligament
 namespace: anatomical_structure
-comment: order=1 for EMAPA:18838.
+comment: order=2 for EMAPA:18838.
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18838 ! pharynx
+relationship: part_of EMAPA:16706 ! pharynx
 relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:19250
 name: pharyngeal tubercle
 namespace: anatomical_structure
-comment: order=2 for EMAPA:18838.
+comment: order=3 for EMAPA:18838.
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18838 ! pharynx
+relationship: part_of EMAPA:16706 ! pharynx
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -28453,7 +27844,7 @@ name: pyloric sphincter
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18915.
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18915 ! stomach pyloric region
+relationship: part_of EMAPA:17631 ! stomach pyloric region
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -32838,9 +32229,9 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:25094
 name: oropharynx
 namespace: anatomical_structure
-comment: order=0 for EMAPA:18838.
+comment: order=1 for EMAPA:16706.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18838 ! pharynx
+relationship: part_of EMAPA:16706 ! pharynx
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -32865,9 +32256,9 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:25097
 name: tongue gland
 namespace: anatomical_structure
-comment: order=10 for EMAPA:18870.
+comment: order=9 for EMAPA:17185.
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18870 ! tongue
+relationship: part_of EMAPA:17185 ! tongue
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -35110,11 +34501,12 @@ relationship: starts_at TS11 ! TS11
 
 [Term]
 id: EMAPA:25357
-name: early thyrold primordium endoderm
+name: thyroid primordium endoderm
 namespace: anatomical_structure
+alt_id: EMAPA:16560
 comment: order=1 for EMAPA:16361.
 is_a: EMAPA:32930 ! gut endoderm
-relationship: ends_at TS13 ! TS13
+relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16361 ! thyroid primordium
 relationship: starts_at TS13 ! TS13
 
@@ -39670,8 +39062,10 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:26957
 name: pharynx mucosa
 namespace: anatomical_structure
+alt_id: EMAPA:26965
 comment: order=7 for EMAPA:16706.
-relationship: ends_at TS23 ! TS23
+synonym: "pharynx mucosa" EXACT []
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16706 ! pharynx
 relationship: starts_at TS23 ! TS23
 
@@ -39679,65 +39073,30 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:26959
 name: pharynx muscularis
 namespace: anatomical_structure
+alt_id: EMAPA:26969
 comment: order=8 for EMAPA:16706.
 is_a: EMAPA:35385 ! gut muscularis
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16706 ! pharynx
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:26961
-name: pharynx epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:26957.
-is_a: EMAPA:32922 ! foregut epithelium
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:26957 ! pharynx mucosa
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:26963
 name: pharynx lamina propria
 namespace: anatomical_structure
+alt_id: EMAPA:26977
 comment: order=1 for EMAPA:26957.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:26957 ! pharynx mucosa
 relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:26965
-name: pharynx mucosa
-namespace: anatomical_structure
-comment: order=5 for EMAPA:18838.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18838 ! pharynx
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:26969
-name: pharynx muscularis
-namespace: anatomical_structure
-comment: order=6 for EMAPA:18838.
-is_a: EMAPA:35385 ! gut muscularis
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18838 ! pharynx
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:26977
-name: pharynx lamina propria
-namespace: anatomical_structure
-comment: order=1 for EMAPA:26965.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:26965 ! pharynx mucosa
-relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:26981
 name: esophagus mucosa
 namespace: anatomical_structure
+alt_id: EMAPA:26991
 comment: order=4 for EMAPA:16833.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16833 ! esophagus
 relationship: starts_at TS23 ! TS23
 
@@ -39745,30 +39104,21 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:26983
 name: esophagus muscularis
 namespace: anatomical_structure
+alt_id: EMAPA:26995
 comment: order=5 for EMAPA:16833.
 is_a: EMAPA:35385 ! gut muscularis
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16833 ! esophagus
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:26985
-name: esophagus epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:26981.
-synonym: "esophageal epithelium" RELATED []
-is_a: EMAPA:32922 ! foregut epithelium
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:26981 ! esophagus mucosa
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:26987
 name: esophagus lamina propria
 namespace: anatomical_structure
+alt_id: EMAPA:27003
 comment: order=1 for EMAPA:26981.
 synonym: "esophageal lamina propria" RELATED []
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:26981 ! esophagus mucosa
 relationship: starts_at TS23 ! TS23
 
@@ -39776,48 +39126,11 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:26989
 name: esophagus muscularis mucosa
 namespace: anatomical_structure
+alt_id: EMAPA:27007
 comment: order=2 for EMAPA:26981.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:26981 ! esophagus mucosa
 relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:26991
-name: esophagus mucosa
-namespace: anatomical_structure
-comment: order=3 for EMAPA:18860.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18860 ! esophagus
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:26995
-name: esophagus muscularis
-namespace: anatomical_structure
-comment: order=4 for EMAPA:18860.
-is_a: EMAPA:35385 ! gut muscularis
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18860 ! esophagus
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27003
-name: esophagus lamina propria
-namespace: anatomical_structure
-comment: order=1 for EMAPA:26991.
-synonym: "esophageal lamina propria" RELATED []
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:26991 ! esophagus mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27007
-name: esophagus muscularis mucosa
-namespace: anatomical_structure
-comment: order=2 for EMAPA:26991.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:26991 ! esophagus mucosa
-relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:27011
@@ -39891,6 +39204,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:17179.
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17179 ! duodenum rostral part
+relationship: part_of EMAPA:27235 ! duodenum mucosa
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -39922,22 +39236,13 @@ relationship: part_of EMAPA:17179 ! duodenum rostral part
 relationship: starts_at TS23 ! TS23
 
 [Term]
-id: EMAPA:27033
-name: duodenum rostral part epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:27025.
-is_a: EMAPA:32922 ! foregut epithelium
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:27025 ! duodenum rostral part mucosa
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:27035
 name: duodenum rostral part lamina propria
 namespace: anatomical_structure
 comment: order=1 for EMAPA:27025.
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:27025 ! duodenum rostral part mucosa
+relationship: part_of EMAPA:27255 ! duodenum lamina propria
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -39947,14 +39252,16 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:27025.
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:27025 ! duodenum rostral part mucosa
+relationship: part_of EMAPA:27259 ! duodenum muscularis mucosa
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27039
 name: gastro-esophageal junction mucosa
 namespace: anatomical_structure
+alt_id: EMAPA:27263
 comment: order=3 for EMAPA:18267.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18267 ! gastro-esophageal junction
 relationship: starts_at TS23 ! TS23
 
@@ -39962,8 +39269,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27041
 name: gastro-esophageal junction submucosa
 namespace: anatomical_structure
+alt_id: EMAPA:27267
 comment: order=6 for EMAPA:18267.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18267 ! gastro-esophageal junction
 relationship: starts_at TS23 ! TS23
 
@@ -39971,8 +39279,10 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27043
 name: gastro-esophageal junction muscularis
 namespace: anatomical_structure
+alt_id: EMAPA:27271
 comment: order=4 for EMAPA:18267.
-relationship: ends_at TS23 ! TS23
+is_a: EMAPA:35385 ! gut muscularis
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18267 ! gastro-esophageal junction
 relationship: starts_at TS23 ! TS23
 
@@ -39980,27 +39290,19 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27045
 name: gastro-esophageal junction serosa
 namespace: anatomical_structure
+alt_id: EMAPA:27275
 comment: order=5 for EMAPA:18267.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18267 ! gastro-esophageal junction
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:27047
-name: gastro-esophageal junction epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:27039.
-is_a: EMAPA:32922 ! foregut epithelium
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:27039 ! gastro-esophageal junction mucosa
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27049
 name: gastro-esophageal junction lamina propria
 namespace: anatomical_structure
+alt_id: EMAPA:27283
 comment: order=1 for EMAPA:27039.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27039 ! gastro-esophageal junction mucosa
 relationship: starts_at TS23 ! TS23
 
@@ -40008,8 +39310,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27051
 name: gastro-esophageal junction muscularis mucosa
 namespace: anatomical_structure
+alt_id: EMAPA:27287
 comment: order=2 for EMAPA:27039.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27039 ! gastro-esophageal junction mucosa
 relationship: starts_at TS23 ! TS23
 
@@ -40215,6 +39518,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:17194.
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17194 ! duodenum caudal part
+relationship: part_of EMAPA:27235 ! duodenum mucosa
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -40246,22 +39550,13 @@ relationship: part_of EMAPA:17194 ! duodenum caudal part
 relationship: starts_at TS23 ! TS23
 
 [Term]
-id: EMAPA:27103
-name: duodenum caudal part epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:27095.
-is_a: EMAPA:16569 ! midgut epithelium
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:27095 ! duodenum caudal part mucosa
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:27105
 name: duodenum caudal part lamina propria
 namespace: anatomical_structure
 comment: order=1 for EMAPA:27095.
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:27095 ! duodenum caudal part mucosa
+relationship: part_of EMAPA:27255 ! duodenum lamina propria
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -40271,6 +39566,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:27095.
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:27095 ! duodenum caudal part mucosa
+relationship: part_of EMAPA:27259 ! duodenum muscularis mucosa
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -40462,8 +39758,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27151
 name: stomach fundus mucosa
 namespace: anatomical_structure
+alt_id: EMAPA:27403
 comment: order=4 for EMAPA:17886.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17886 ! stomach fundus
 relationship: starts_at TS23 ! TS23
 
@@ -40471,8 +39768,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27153
 name: stomach fundus submucosa
 namespace: anatomical_structure
+alt_id: EMAPA:27407
 comment: order=7 for EMAPA:17886.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17886 ! stomach fundus
 relationship: starts_at TS23 ! TS23
 
@@ -40480,9 +39778,10 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27155
 name: stomach fundus muscularis
 namespace: anatomical_structure
-comment: order=5 for EMAPA:17886.
+alt_id: EMAPA:27411
+comment: order=5 for EMAPA:17886
 is_a: EMAPA:35385 ! gut muscularis
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17886 ! stomach fundus
 relationship: starts_at TS23 ! TS23
 
@@ -40490,27 +39789,19 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27157
 name: stomach fundus serosa
 namespace: anatomical_structure
+alt_id: EMAPA:27415
 comment: order=6 for EMAPA:17886.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17886 ! stomach fundus
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:27159
-name: stomach fundus epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:27151.
-is_a: EMAPA:17023 ! stomach epithelium
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:27151 ! stomach fundus mucosa
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27161
 name: stomach fundus gastric gland
 namespace: anatomical_structure
+alt_id: EMAPA:27427
 comment: order=1 for EMAPA:27151.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27151 ! stomach fundus mucosa
 relationship: starts_at TS23 ! TS23
 
@@ -40518,8 +39809,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27163
 name: stomach fundus lamina propria
 namespace: anatomical_structure
+alt_id: EMAPA:27423
 comment: order=2 for EMAPA:27151.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27151 ! stomach fundus mucosa
 relationship: starts_at TS23 ! TS23
 
@@ -40527,8 +39819,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27165
 name: stomach fundus muscularis mucosa
 namespace: anatomical_structure
+alt_id: EMAPA:27431
 comment: order=3 for EMAPA:27151.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27151 ! stomach fundus mucosa
 relationship: starts_at TS23 ! TS23
 
@@ -40536,8 +39829,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27167
 name: stomach glandular region mucosa
 namespace: anatomical_structure
+alt_id: EMAPA:27435
 comment: order=3 for EMAPA:17623.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17623 ! stomach glandular region
 relationship: starts_at TS23 ! TS23
 
@@ -40545,8 +39839,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27169
 name: stomach glandular region submucosa
 namespace: anatomical_structure
+alt_id: EMAPA:27439
 comment: order=6 for EMAPA:17623.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17623 ! stomach glandular region
 relationship: starts_at TS23 ! TS23
 
@@ -40554,9 +39849,10 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27171
 name: stomach glandular region muscularis
 namespace: anatomical_structure
+alt_id: EMAPA:27443
 comment: order=4 for EMAPA:17623.
 is_a: EMAPA:35385 ! gut muscularis
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17623 ! stomach glandular region
 relationship: starts_at TS23 ! TS23
 
@@ -40564,27 +39860,19 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27173
 name: stomach glandular region serosa
 namespace: anatomical_structure
+alt_id: EMAPA:27447
 comment: order=5 for EMAPA:17623.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17623 ! stomach glandular region
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:27175
-name: stomach glandular region epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:27167.
-is_a: EMAPA:17023 ! stomach epithelium
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:27167 ! stomach glandular region mucosa
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27177
 name: stomach glandular region lamina propria
 namespace: anatomical_structure
+alt_id: EMAPA:27455
 comment: order=2 for EMAPA:27167.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27167 ! stomach glandular region mucosa
 relationship: starts_at TS23 ! TS23
 
@@ -40592,8 +39880,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27179
 name: stomach glandular region muscularis mucosa
 namespace: anatomical_structure
+alt_id: EMAPA:27463
 comment: order=3 for EMAPA:27167.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27167 ! stomach glandular region mucosa
 relationship: starts_at TS23 ! TS23
 
@@ -40601,8 +39890,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27181
 name: stomach glandular region gastric gland
 namespace: anatomical_structure
+alt_id: EMAPA:27459
 comment: order=1 for EMAPA:27167.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27167 ! stomach glandular region mucosa
 relationship: starts_at TS23 ! TS23
 
@@ -40610,8 +39900,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27183
 name: stomach proventricular region mucosa
 namespace: anatomical_structure
+alt_id: EMAPA:27467
 comment: order=3 for EMAPA:17627.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17627 ! stomach proventricular region
 relationship: starts_at TS23 ! TS23
 
@@ -40619,8 +39910,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27185
 name: stomach proventricular region submucosa
 namespace: anatomical_structure
+alt_id: EMAPA:27471
 comment: order=6 for EMAPA:17627.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17627 ! stomach proventricular region
 relationship: starts_at TS23 ! TS23
 
@@ -40628,9 +39920,10 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27187
 name: stomach proventricular region muscularis
 namespace: anatomical_structure
+alt_id: EMAPA:27475
 comment: order=4 for EMAPA:17627.
 is_a: EMAPA:35385 ! gut muscularis
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17627 ! stomach proventricular region
 relationship: starts_at TS23 ! TS23
 
@@ -40638,27 +39931,19 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27189
 name: stomach proventricular region serosa
 namespace: anatomical_structure
+alt_id: EMAPA:27479
 comment: order=5 for EMAPA:17627.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17627 ! stomach proventricular region
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:27191
-name: stomach proventricular region epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:27183.
-is_a: EMAPA:17023 ! stomach epithelium
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:27183 ! stomach proventricular region mucosa
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27193
 name: stomach proventricular region lamina propria
 namespace: anatomical_structure
+alt_id: EMAPA:27487
 comment: order=2 for EMAPA:27183.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27183 ! stomach proventricular region mucosa
 relationship: starts_at TS23 ! TS23
 
@@ -40666,8 +39951,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27195
 name: stomach proventricular region gastric gland
 namespace: anatomical_structure
+alt_id: EMAPA:27491
 comment: order=1 for EMAPA:27183.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27183 ! stomach proventricular region mucosa
 relationship: starts_at TS23 ! TS23
 
@@ -40675,8 +39961,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27197
 name: stomach proventricular region muscularis mucosa
 namespace: anatomical_structure
+alt_id: EMAPA:27495
 comment: order=3 for EMAPA:27183.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27183 ! stomach proventricular region mucosa
 relationship: starts_at TS23 ! TS23
 
@@ -40684,8 +39971,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27199
 name: stomach pyloric region mucosa
 namespace: anatomical_structure
+alt_id: EMAPA:27499
 comment: order=4 for EMAPA:17631.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17631 ! stomach pyloric region
 relationship: starts_at TS23 ! TS23
 
@@ -40693,8 +39981,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27201
 name: stomach pyloric region submucosa
 namespace: anatomical_structure
+alt_id: EMAPA:27503
 comment: order=7 for EMAPA:17631.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17631 ! stomach pyloric region
 relationship: starts_at TS23 ! TS23
 
@@ -40702,27 +39991,19 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27205
 name: stomach pyloric region serosa
 namespace: anatomical_structure
+alt_id: EMAPA:27511
 comment: order=6 for EMAPA:17631.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17631 ! stomach pyloric region
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:27207
-name: stomach pyloric region epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:27199.
-is_a: EMAPA:17023 ! stomach epithelium
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:27199 ! stomach pyloric region mucosa
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27209
 name: stomach pyloric region lamina propria
 namespace: anatomical_structure
+alt_id: EMAPA:27519
 comment: order=2 for EMAPA:27199.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27199 ! stomach pyloric region mucosa
 relationship: starts_at TS23 ! TS23
 
@@ -40730,8 +40011,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27211
 name: stomach pyloric region gastric gland
 namespace: anatomical_structure
+alt_id: EMAPA:27523
 comment: order=1 for EMAPA:27199.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27199 ! stomach pyloric region mucosa
 relationship: starts_at TS23 ! TS23
 
@@ -40739,8 +40021,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27213
 name: stomach pyloric region muscularis mucosa
 namespace: anatomical_structure
+alt_id: EMAPA:27527
 comment: order=3 for EMAPA:27199.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27199 ! stomach pyloric region mucosa
 relationship: starts_at TS23 ! TS23
 
@@ -40843,7 +40126,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:18852.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18852 ! duodenum
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27239
@@ -40880,7 +40163,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:27235.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:27235 ! duodenum mucosa
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27259
@@ -40889,62 +40172,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:27235.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:27235 ! duodenum mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27263
-name: gastro-esophageal junction mucosa
-namespace: anatomical_structure
-comment: order=2 for EMAPA:18855.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18855 ! gastro-esophageal junction
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27267
-name: gastro-esophageal junction submucosa
-namespace: anatomical_structure
-comment: order=5 for EMAPA:18855.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18855 ! gastro-esophageal junction
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27271
-name: gastro-esophageal junction muscularis
-namespace: anatomical_structure
-comment: order=3 for EMAPA:18855.
-is_a: EMAPA:35385 ! gut muscularis
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18855 ! gastro-esophageal junction
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27275
-name: gastro-esophageal junction serosa
-namespace: anatomical_structure
-comment: order=4 for EMAPA:18855.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18855 ! gastro-esophageal junction
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27283
-name: gastro-esophageal junction lamina propria
-namespace: anatomical_structure
-comment: order=1 for EMAPA:27263.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27263 ! gastro-esophageal junction mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27287
-name: gastro-esophageal junction muscularis mucosa
-namespace: anatomical_structure
-comment: order=2 for EMAPA:27263.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27263 ! gastro-esophageal junction mucosa
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27291
@@ -41174,262 +40402,6 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:27375.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:27375 ! colon mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27403
-name: stomach fundus mucosa
-namespace: anatomical_structure
-comment: order=3 for EMAPA:18890.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18890 ! stomach fundus
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27407
-name: stomach fundus submucosa
-namespace: anatomical_structure
-comment: order=6 for EMAPA:18890.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18890 ! stomach fundus
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27411
-name: stomach fundus muscularis
-namespace: anatomical_structure
-comment: order=4 for EMAPA:18890.
-is_a: EMAPA:35385 ! gut muscularis
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18890 ! stomach fundus
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27415
-name: stomach fundus serosa
-namespace: anatomical_structure
-comment: order=5 for EMAPA:18890.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18890 ! stomach fundus
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27423
-name: stomach fundus lamina propria
-namespace: anatomical_structure
-comment: order=2 for EMAPA:27403.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27403 ! stomach fundus mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27427
-name: stomach fundus gastric gland
-namespace: anatomical_structure
-comment: order=1 for EMAPA:27403.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27403 ! stomach fundus mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27431
-name: stomach fundus muscularis mucosa
-namespace: anatomical_structure
-comment: order=3 for EMAPA:27403.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27403 ! stomach fundus mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27435
-name: stomach glandular region mucosa
-namespace: anatomical_structure
-comment: order=3 for EMAPA:18896.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18896 ! stomach glandular region
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27439
-name: stomach glandular region submucosa
-namespace: anatomical_structure
-comment: order=6 for EMAPA:18896.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18896 ! stomach glandular region
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27443
-name: stomach glandular region muscularis
-namespace: anatomical_structure
-comment: order=4 for EMAPA:18896.
-is_a: EMAPA:35385 ! gut muscularis
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18896 ! stomach glandular region
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27447
-name: stomach glandular region serosa
-namespace: anatomical_structure
-comment: order=5 for EMAPA:18896.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18896 ! stomach glandular region
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27455
-name: stomach glandular region lamina propria
-namespace: anatomical_structure
-comment: order=2 for EMAPA:27435.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27435 ! stomach glandular region mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27459
-name: stomach glandular region gastric gland
-namespace: anatomical_structure
-comment: order=1 for EMAPA:27435.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27435 ! stomach glandular region mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27463
-name: stomach glandular region muscularis mucosa
-namespace: anatomical_structure
-comment: order=3 for EMAPA:27435.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27435 ! stomach glandular region mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27467
-name: stomach proventricular region mucosa
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18910.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18910 ! stomach proventricular region
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27471
-name: stomach proventricular region submucosa
-namespace: anatomical_structure
-comment: order=4 for EMAPA:18910.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18910 ! stomach proventricular region
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27475
-name: stomach proventricular region muscularis
-namespace: anatomical_structure
-comment: order=2 for EMAPA:18910.
-is_a: EMAPA:35385 ! gut muscularis
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18910 ! stomach proventricular region
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27479
-name: stomach proventricular region serosa
-namespace: anatomical_structure
-comment: order=3 for EMAPA:18910.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18910 ! stomach proventricular region
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27487
-name: stomach proventricular region lamina propria
-namespace: anatomical_structure
-comment: order=2 for EMAPA:27467.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27467 ! stomach proventricular region mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27491
-name: stomach proventricular region gastric gland
-namespace: anatomical_structure
-comment: order=1 for EMAPA:27467.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27467 ! stomach proventricular region mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27495
-name: stomach proventricular region muscularis mucosa
-namespace: anatomical_structure
-comment: order=3 for EMAPA:27467.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27467 ! stomach proventricular region mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27499
-name: stomach pyloric region mucosa
-namespace: anatomical_structure
-comment: order=4 for EMAPA:18915.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18915 ! stomach pyloric region
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27503
-name: stomach pyloric region submucosa
-namespace: anatomical_structure
-comment: order=7 for EMAPA:18915.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18915 ! stomach pyloric region
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27507
-name: stomach pyloric region muscularis
-namespace: anatomical_structure
-comment: order=5 for EMAPA:18915.
-is_a: EMAPA:35385 ! gut muscularis
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18915 ! stomach pyloric region
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27511
-name: stomach pyloric region serosa
-namespace: anatomical_structure
-comment: order=6 for EMAPA:18915.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18915 ! stomach pyloric region
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27519
-name: stomach pyloric region lamina propria
-namespace: anatomical_structure
-comment: order=2 for EMAPA:27499.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27499 ! stomach pyloric region mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27523
-name: stomach pyloric region gastric gland
-namespace: anatomical_structure
-comment: order=1 for EMAPA:27499.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27499 ! stomach pyloric region mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27527
-name: stomach pyloric region muscularis mucosa
-namespace: anatomical_structure
-comment: order=3 for EMAPA:27499.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27499 ! stomach pyloric region mucosa
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -51205,10 +50177,10 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:32777
 name: tongue papillae
 namespace: anatomical_structure
-comment: order=12 for EMAPA:18870.
+comment: order=11 for EMAPA:17185.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18870 ! tongue
-relationship: starts_at TS24 ! TS24
+relationship: part_of EMAPA:17185 ! tongue
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:32778
@@ -51308,8 +50280,9 @@ id: EMAPA:32788
 name: foliate papillae
 namespace: anatomical_structure
 comment: order=2 for EMAPA:18870.
+is_a: EMAPA:32777 ! tongue papillae
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18870 ! tongue
+relationship: part_of EMAPA:17881 ! tongue epithelium
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -51753,26 +50726,6 @@ namespace: anatomical_structure
 comment: order=7 for EMAPA:32874.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32874 ! intestine
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:32835
-name: stomach epithelium
-namespace: anatomical_structure
-comment: order=3 for EMAPA:18889.
-is_a: EMAPA:32922 ! foregut epithelium
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18889 ! stomach
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:32836
-name: stomach mesenchyme
-namespace: anatomical_structure
-comment: order=6 for EMAPA:18889.
-is_a: EMAPA:32909 ! gut mesenchyme
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18889 ! stomach
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -55274,7 +54227,7 @@ comment: order=0 for EMAPA:18862.
 synonym: "esophageal basal epithelium" RELATED []
 is_a: EMAPA:32922 ! foregut epithelium
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18862 ! esophagus epithelium
+relationship: part_of EMAPA:16835 ! esophagus epithelium
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -55293,7 +54246,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:26995.
 is_a: EMAPA:35117 ! alimentary system smooth muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:26995 ! esophagus muscularis
+relationship: part_of EMAPA:26983 ! esophagus muscularis
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -55303,7 +54256,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:18862.
 is_a: EMAPA:32922 ! foregut epithelium
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18862 ! esophagus epithelium
+relationship: part_of EMAPA:16835 ! esophagus epithelium
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -55321,7 +54274,7 @@ name: esophagus wall
 namespace: anatomical_structure
 comment: order=6 for EMAPA:18860.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18860 ! esophagus
+relationship: part_of EMAPA:16833 ! esophagus
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -55552,7 +54505,7 @@ name: forestomach
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18889.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18889 ! stomach
+relationship: part_of EMAPA:17021 ! stomach
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -57941,16 +56894,6 @@ relationship: part_of EMAPA:18215 ! tegmentum
 relationship: starts_at TS27 ! TS27
 
 [Term]
-id: EMAPA:35606
-name: esophagus mesenchyme
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18860.
-is_a: EMAPA:32909 ! gut mesenchyme
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18860 ! esophagus
-relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:35607
 name: olfactory bulb external plexiform layer
 namespace: anatomical_structure
@@ -58231,16 +57174,16 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:35637
-name: palatal rugae
+name: primary palate palatal rugae
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17934.
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17934 ! primary palate
+relationship: part_of EMAPA:17642 ! primary palate
 relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35638
-name: palatal rugae
+name: hard palate palatal rugae
 namespace: anatomical_structure
 comment: order=4 for EMAPA:18952.
 relationship: ends_at TS26 ! TS26
@@ -58249,42 +57192,42 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35639
-name: palatal rugae epithelium
+name: primary palate palatal rugae epithelium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35637.
 is_a: EMAPA:16839 ! oral region epithelium
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:35637 ! palatal rugae
+relationship: part_of EMAPA:35637 ! primary palate palatal rugae
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35640
-name: palatal rugae epithelium
+name: hard palate palatal rugae epithelium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35638.
 is_a: EMAPA:16839 ! oral region epithelium
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:35638 ! palatal rugae
+relationship: part_of EMAPA:35638 ! hard palate palatal rugae
 relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35641
-name: palatal rugae mesenchyme
+name: primary palate palatal rugae mesenchyme
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35637.
 is_a: EMAPA:35618 ! oral region mesenchyme
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:35637 ! palatal rugae
+relationship: part_of EMAPA:35637 ! primary palate palatal rugae
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35642
-name: palatal rugae mesenchyme
+name: hard palate palatal rugae mesenchyme
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35638.
 is_a: EMAPA:35618 ! oral region mesenchyme
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:35638 ! palatal rugae
+relationship: part_of EMAPA:35638 ! hard palate palatal rugae
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -58688,16 +57631,6 @@ comment: order=0 for EMAPA:19028.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19028 ! Peyer's patches
 relationship: starts_at TS28 ! TS28
-
-[Term]
-id: EMAPA:35685
-name: pharynx mesenchyme
-namespace: anatomical_structure
-comment: order=4 for EMAPA:18838.
-is_a: EMAPA:32909 ! gut mesenchyme
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18838 ! pharynx
-relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35686
@@ -59879,7 +58812,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:18889.
 is_a: EMAPA:35821 ! stomach region
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18889 ! stomach
+relationship: part_of EMAPA:17021 ! stomach
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -59889,27 +58822,8 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:18889.
 is_a: EMAPA:35821 ! stomach region
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18889 ! stomach
+relationship: part_of EMAPA:17021 ! stomach
 relationship: starts_at TS28 ! TS28
-
-[Term]
-id: EMAPA:35812
-name: stomach fundus glandular mucous membrane
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18890.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18890 ! stomach fundus
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:35813
-name: stomach fundus mesenchyme
-namespace: anatomical_structure
-comment: order=2 for EMAPA:18890.
-is_a: EMAPA:32836 ! stomach mesenchyme
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18890 ! stomach fundus
-relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35814
@@ -59917,7 +58831,7 @@ name: stomach glandular epithelium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:32835.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32835 ! stomach epithelium
+relationship: part_of EMAPA:17023 ! stomach epithelium
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -59926,18 +58840,8 @@ name: stomach glandular region glandular mucous membrane
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18896.
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18896 ! stomach glandular region
+relationship: part_of EMAPA:17623 ! stomach glandular region
 relationship: starts_at TS25 ! TS25
-
-[Term]
-id: EMAPA:35816
-name: stomach glandular region mesenchyme
-namespace: anatomical_structure
-comment: order=2 for EMAPA:18896.
-is_a: EMAPA:32836 ! stomach mesenchyme
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18896 ! stomach glandular region
-relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35817
@@ -59968,22 +58872,12 @@ relationship: part_of EMAPA:35717 ! right lung alveolar system
 relationship: starts_at TS25 ! TS25
 
 [Term]
-id: EMAPA:35820
-name: stomach pyloric region mesenchyme
-namespace: anatomical_structure
-comment: order=3 for EMAPA:18915.
-is_a: EMAPA:32836 ! stomach mesenchyme
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18915 ! stomach pyloric region
-relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:35821
 name: stomach region
 namespace: anatomical_structure
 comment: order=10 for EMAPA:18889.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18889 ! stomach
+relationship: part_of EMAPA:17021 ! stomach
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -60011,7 +58905,7 @@ name: stomach squamous epithelium
 namespace: anatomical_structure
 comment: order=1 for EMAPA:32835.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32835 ! stomach epithelium
+relationship: part_of EMAPA:17023 ! stomach epithelium
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -60029,7 +58923,7 @@ name: stomach wall
 namespace: anatomical_structure
 comment: order=11 for EMAPA:18889.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18889 ! stomach
+relationship: part_of EMAPA:17021 ! stomach
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -60253,9 +59147,9 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:35850
 name: taste bud
 namespace: anatomical_structure
-comment: order=8 for EMAPA:18870.
+comment: order=7 for EMAPA:18870.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18870 ! tongue
+relationship: part_of EMAPA:17185 ! tongue
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -60435,7 +59329,7 @@ id: EMAPA:35869
 name: tongue papilla epithelium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:32777.
-is_a: EMAPA:18872 ! tongue epithelium
+is_a: EMAPA:17881 ! tongue epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32777 ! tongue papillae
 relationship: starts_at TS28 ! TS28
@@ -60444,7 +59338,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35870
 name: tongue vascular element
 namespace: anatomical_structure
-comment: order=11 for EMAPA:17185.
+comment: order=13 for EMAPA:17185.
 is_a: EMAPA:35994 ! alimentary system vascular element
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:17185 ! tongue
@@ -62274,6 +61168,7 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:36065
 name: hyoid cartilage primordium
 namespace: anatomical_structure
+comment: order=0 for EMAPA:16706.
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:16706 ! pharynx
 relationship: starts_at TS19 ! TS19
