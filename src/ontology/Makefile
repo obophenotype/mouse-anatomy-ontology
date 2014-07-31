@@ -8,31 +8,19 @@
 OBO = http://purl.obolibrary.org/obo
 
 initial-build: emapa.obo
-build: emapa.obo minidiff
-release: emapa.obo diff
+build: emapa.obo 
+release: emapa.obo
 
 # all release files are derived from the editors version.
 # we use the default Oort setup (hermit as reasoner)
-emapa.obo: emapa-edit.owl
-	ontology-release-runner $< --allow-overwrite --asserted --simple
+emapa.obo: INPUT-fixed.obo
+	ontology-release-runner $< --allow-overwrite --asserted --simple --skip-format owx
 
-# ----------------------------------------
-# Imports
-# ----------------------------------------
-all_imports: imports/go_import.owl imports/pato_import.owl
+# this step can be removed when the editors version includes a line in the header:
+#
+# ontology: emapa
+#
+INPUT-fixed.obo: INPUT.obo
+	owltools $< --set-ontology-id emapa -o -f obo $@
 
-imports/%_import.owl: emapa-edit.owl
-	owltools $< $(OBO)/$*.owl --add-imports-from-supports --extract-module -s $(OBO)/$*.owl -c --extract-mingraph  --set-ontology-id $(OBO)/go/extensions/$@ -o $@
-
-# ----------------------------------------
-# Diffs
-# ----------------------------------------
-
-# 
-diff: emapa.obo
-	cd diffs && touch emapa-diff && rm emapa-*diff* && make
-
-# Minidiff: intra-release differences
-minidiff: emapa.obo
-	cd diffs  && touch emapa-diff && rm emapa-*diff* && make TGTS='html txt' SRC=../emapa.obo && mail -s emapa-diffs RELEASE-MANAGER@FOO.BAR < emapa-combined-diff.txt
 
