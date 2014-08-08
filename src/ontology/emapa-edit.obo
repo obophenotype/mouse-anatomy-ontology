@@ -1,10 +1,9 @@
 format-version: 1.2
-date: 30:07:2014 17:31
+date: 08:08:2014 15:56
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
 remark: Version 012
-format-version: 1.2
 ontology: emapa
 
 [Term]
@@ -353,9 +352,11 @@ relationship: starts_at TS08 ! TS08
 id: EMAPA:16067
 name: cytotrophoblast
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16059.
-relationship: ends_at TS18 ! TS18
+alt_id: EMAPA:31869
+comment: order=0 for EMAPA:16059.\norder=0 for EMAPA:31870.
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16059 ! ectoplacental cone
+relationship: part_of EMAPA:31870 ! trabecular cord
 relationship: starts_at TS08 ! TS08
 
 [Term]
@@ -770,9 +771,11 @@ relationship: starts_at TS11 ! TS11
 id: EMAPA:16115
 name: blood island
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16087.
-relationship: ends_at TS11 ! TS11
+alt_id: EMAPA:16268
+comment: order=0 for EMAPA:16087.\norder=0 for EMAPA:16267.
+relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16087 ! yolk sac mesoderm
+relationship: part_of EMAPA:16267 ! yolk sac mesenchyme
 relationship: starts_at TS11 ! TS11
 
 [Term]
@@ -1158,8 +1161,10 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:16154
 name: future hindbrain floor plate
 namespace: anatomical_structure
+alt_id: EMAPA:32936
 comment: order=0 for EMAPA:16153.
-relationship: ends_at TS12 ! TS12
+relationship: ends_at TS13 ! TS13
+relationship: part_of EMAPA:16148 ! future hindbrain
 relationship: part_of EMAPA:16153 ! future hindbrain neural ectoderm
 relationship: starts_at TS12 ! TS12
 
@@ -1167,9 +1172,11 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:16155
 name: future hindbrain neural fold
 namespace: anatomical_structure
-comment: order=1 for EMAPA:16153.
+alt_id: EMAPA:32733
+comment: order=1 for EMAPA:16153.\norder=3 for EMAPA:16148.
 is_a: EMAPA:32732 ! neural fold
-relationship: ends_at TS12 ! TS12
+relationship: ends_at TS13 ! TS13
+relationship: part_of EMAPA:16148 ! future hindbrain
 relationship: part_of EMAPA:16153 ! future hindbrain neural ectoderm
 relationship: starts_at TS12 ! TS12
 
@@ -1177,9 +1184,11 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:16156
 name: future hindbrain neural crest
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16155.
+alt_id: EMAPA:35366
+comment: order=0 for EMAPA:16155.\norder=0 for EMAPA:32733.
+synonym: "future hindbrain neural crest" EXACT []
 is_a: EMAPA:32737 ! neural crest
-relationship: ends_at TS12 ! TS12
+relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16155 ! future hindbrain neural fold
 relationship: starts_at TS12 ! TS12
 
@@ -2255,15 +2264,6 @@ relationship: part_of EMAPA:16085 ! yolk sac
 relationship: starts_at TS12 ! TS12
 
 [Term]
-id: EMAPA:16268
-name: blood island
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16267.
-relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16267 ! yolk sac mesenchyme
-relationship: starts_at TS12 ! TS12
-
-[Term]
 id: EMAPA:16272
 name: 2nd branchial arch
 namespace: anatomical_structure
@@ -2799,9 +2799,11 @@ relationship: starts_at TS13 ! TS13
 id: EMAPA:16328
 name: internal carotid artery
 namespace: anatomical_structure
-comment: order=32 for EMAPA:16201.
+alt_id: EMAPA:18612
+comment: order=32 for EMAPA:16201.\norder=4 for EMAPA:18609.
+is_a: EMAPA:18609 ! carotid artery
 is_a: EMAPA:35147 ! artery
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS13 ! TS13
 
@@ -2935,18 +2937,21 @@ relationship: starts_at TS13 ! TS13
 id: EMAPA:16342
 name: common atrial chamber
 namespace: anatomical_structure
-comment: order=10 for EMAPA:16105.
-relationship: ends_at TS14 ! TS14
+alt_id: EMAPA:16689
+comment: order=10 for EMAPA:16105.\norder=2 for EMAPA:16688.
+relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16105 ! heart
+relationship: part_of EMAPA:16688 ! heart atrium
 relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16343
 name: common atrial chamber cardiac jelly
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16342.
+alt_id: EMAPA:16690
+comment: order=0 for EMAPA:16342.\norder=0 for EMAPA:16689.
 is_a: EMAPA:32687 ! cardiac jelly
-relationship: ends_at TS14 ! TS14
+relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16342 ! common atrial chamber
 relationship: starts_at TS13 ! TS13
 
@@ -2964,10 +2969,12 @@ relationship: starts_at TS13 ! TS13
 id: EMAPA:16345
 name: common atrial chamber cardiac muscle
 namespace: anatomical_structure
-comment: order=1 for EMAPA:16342.\norder=3 for EMAPA:32688.
-relationship: ends_at TS14 ! TS14
+alt_id: EMAPA:16692
+comment: order=1 for EMAPA:16342.\norder=3 for EMAPA:32688.\norder=0 for EMAPA:32746.
+relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16342 ! common atrial chamber
 relationship: part_of EMAPA:32688 ! cardiac muscle tissue
+relationship: part_of EMAPA:32746 ! atrium cardiac muscle
 relationship: starts_at TS13 ! TS13
 
 [Term]
@@ -5046,10 +5053,12 @@ relationship: starts_at TS14 ! TS14
 id: EMAPA:16564
 name: foregut-midgut junction epithelium
 namespace: anatomical_structure
-comment: order=4 for EMAPA:16363.
+alt_id: EMAPA:27019
+comment: order=4 for EMAPA:16363.\norder=0 for EMAPA:27011.
 is_a: EMAPA:32928 ! gut epithelium
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:16363 ! foregut-midgut junction
+relationship: part_of EMAPA:27011 ! foregut-midgut junction mucosa
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -6230,42 +6239,13 @@ relationship: part_of EMAPA:16105 ! heart
 relationship: starts_at TS15 ! TS15
 
 [Term]
-id: EMAPA:16689
-name: common atrial chamber
-namespace: anatomical_structure
-comment: order=2 for EMAPA:16688.
-relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16688 ! heart atrium
-relationship: starts_at TS15 ! TS15
-
-[Term]
-id: EMAPA:16690
-name: common atrial chamber cardiac jelly
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16689.
-is_a: EMAPA:32687 ! cardiac jelly
-relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16689 ! common atrial chamber
-relationship: starts_at TS15 ! TS15
-
-[Term]
 id: EMAPA:16691
 name: common atrial chamber endocardial lining
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16689.
 is_a: EMAPA:32686 ! endocardial lining
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16689 ! common atrial chamber
-relationship: starts_at TS15 ! TS15
-
-[Term]
-id: EMAPA:16692
-name: common atrial chamber cardiac muscle
-namespace: anatomical_structure
-comment: order=1 for EMAPA:16689.\norder=0 for EMAPA:32746.
-relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16689 ! common atrial chamber
-relationship: part_of EMAPA:32746 ! atrium cardiac muscle
+relationship: part_of EMAPA:16342 ! common atrial chamber
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -6306,7 +6286,6 @@ id: EMAPA:16696
 name: endocardial cushion tissue
 namespace: anatomical_structure
 comment: order=13 for EMAPA:16105.
-synonym: "bulbar cushion" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16105 ! heart
 relationship: starts_at TS15 ! TS15
@@ -6384,10 +6363,13 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:16704
 name: dorsal meso-esophagus
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16703.
+alt_id: EMAPA:16837
+alt_id: EMAPA:18865
+comment: order=0 for EMAPA:16703.\norder=0 for EMAPA:16836.
 synonym: "dorsal meso-oesophagus" RELATED []
-relationship: ends_at TS15 ! TS15
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16703 ! esophageal region mesentery
+relationship: part_of EMAPA:16836 ! esophagus mesentery
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -6480,9 +6462,11 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:16713
 name: gallbladder primordium
 namespace: anatomical_structure
-comment: order=2 for EMAPA:16561.
-relationship: ends_at TS15 ! TS15
+alt_id: EMAPA:16842
+comment: order=2 for EMAPA:16561.\norder=4 for EMAPA:16840.
+relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16561 ! biliary bud
+relationship: part_of EMAPA:16840 ! liver and biliary system
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -6791,7 +6775,7 @@ id: EMAPA:16744
 name: mesonephros
 namespace: anatomical_structure
 comment: order=7 for EMAPA:16367.
-relationship: ends_at TS20 ! TS20
+relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16367 ! genitourinary system
 relationship: starts_at TS15 ! TS15
 
@@ -7467,7 +7451,7 @@ name: common atrial chamber left part
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16689.
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16689 ! common atrial chamber
+relationship: part_of EMAPA:16342 ! common atrial chamber
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -7528,7 +7512,7 @@ name: common atrial chamber left part cardiac muscle
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16692.\norder=1 for EMAPA:16813.
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16692 ! common atrial chamber cardiac muscle
+relationship: part_of EMAPA:16345 ! common atrial chamber cardiac muscle
 relationship: part_of EMAPA:16813 ! common atrial chamber left part
 relationship: starts_at TS16 ! TS16
 
@@ -7538,7 +7522,7 @@ name: common atrial chamber right part
 namespace: anatomical_structure
 comment: order=4 for EMAPA:16689.
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16689 ! common atrial chamber
+relationship: part_of EMAPA:16342 ! common atrial chamber
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -7567,7 +7551,7 @@ name: common atrial chamber right part cardiac muscle
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16692.\norder=1 for EMAPA:16820.
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16692 ! common atrial chamber cardiac muscle
+relationship: part_of EMAPA:16345 ! common atrial chamber cardiac muscle
 relationship: part_of EMAPA:16820 ! common atrial chamber right part
 relationship: starts_at TS16 ! TS16
 
@@ -7709,17 +7693,6 @@ relationship: part_of EMAPA:16833 ! esophagus
 relationship: starts_at TS16 ! TS16
 
 [Term]
-id: EMAPA:16837
-name: dorsal meso-esophagus
-namespace: anatomical_structure
-alt_id: EMAPA:18865
-comment: order=0 for EMAPA:16836.
-synonym: "dorsal meso-oesophagus" RELATED []
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16836 ! esophagus mesentery
-relationship: starts_at TS16 ! TS16
-
-[Term]
 id: EMAPA:16838
 name: esophagus vascular element
 namespace: anatomical_structure
@@ -7758,15 +7731,6 @@ name: cystic duct
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16840.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16840 ! liver and biliary system
-relationship: starts_at TS16 ! TS16
-
-[Term]
-id: EMAPA:16842
-name: gallbladder primordium
-namespace: anatomical_structure
-comment: order=4 for EMAPA:16840.
-relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16840 ! liver and biliary system
 relationship: starts_at TS16 ! TS16
 
@@ -8186,10 +8150,12 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:16884
 name: cervical sinus
 namespace: anatomical_structure
-comment: order=6 for EMAPA:16760.
+alt_id: EMAPA:17526
+comment: order=6 for EMAPA:16760.\norder=1 for EMAPA:17525.
 synonym: "retro-hyoid depression" RELATED []
-relationship: ends_at TS19 ! TS19
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16760 ! 4th branchial arch
+relationship: part_of EMAPA:17525 ! skin
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -9234,8 +9200,10 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:16994
 name: endolymphatic appendage
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16669.
-relationship: ends_at TS18 ! TS18
+alt_id: EMAPA:17283
+comment: order=0 for EMAPA:16669.\norder=0 for EMAPA:16194.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16194 ! inner ear
 relationship: part_of EMAPA:16669 ! otocyst
 relationship: starts_at TS17 ! TS17
 
@@ -9243,9 +9211,10 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:16995
 name: endolymphatic appendage mesenchyme
 namespace: anatomical_structure
+alt_id: EMAPA:17284
 comment: order=0 for EMAPA:16994.
 is_a: EMAPA:32885 ! inner ear mesenchyme
-relationship: ends_at TS18 ! TS18
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16994 ! endolymphatic appendage
 relationship: starts_at TS17 ! TS17
 
@@ -9253,9 +9222,10 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:16996
 name: endolymphatic appendage epithelium
 namespace: anatomical_structure
+alt_id: EMAPA:17285
 comment: order=1 for EMAPA:16994.
 is_a: EMAPA:32883 ! inner ear epithelium
-relationship: ends_at TS18 ! TS18
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16994 ! endolymphatic appendage
 relationship: starts_at TS17 ! TS17
 
@@ -9432,17 +9402,24 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:17014
 name: ascending aorta
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16827.
-relationship: ends_at TS18 ! TS18
+alt_id: EMAPA:18604
+alt_id: EMAPA:25959
+comment: order=0 for EMAPA:16827.\norder=5 for EMAPA:16201.\norder=0 for EMAPA:18603.
+synonym: "ascending thoracic aorta" EXACT []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16201 ! arterial system
 relationship: part_of EMAPA:16827 ! aortico-pulmonary spiral septum
+relationship: part_of EMAPA:18603 ! thoracic aorta
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:17015
 name: pulmonary trunk
 namespace: anatomical_structure
-comment: order=1 for EMAPA:16827.
-relationship: ends_at TS18 ! TS18
+alt_id: EMAPA:18240
+comment: order=1 for EMAPA:16827.\norder=46 for EMAPA:16201.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16201 ! arterial system
 relationship: part_of EMAPA:16827 ! aortico-pulmonary spiral septum
 relationship: starts_at TS17 ! TS17
 
@@ -9671,10 +9648,12 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:17038
 name: midgut loop epithelium
 namespace: anatomical_structure
-comment: order=1 for EMAPA:17036.
+alt_id: EMAPA:27131
+comment: order=1 for EMAPA:17036.\norder=0 for EMAPA:27123.
 is_a: EMAPA:16569 ! midgut epithelium
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17036 ! midgut loop
+relationship: part_of EMAPA:27123 ! midgut loop mucosa
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -9728,10 +9707,12 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:17044
 name: rest of midgut epithelium
 namespace: anatomical_structure
-comment: order=1 for EMAPA:17042.
+alt_id: EMAPA:27145
+comment: order=1 for EMAPA:17042.\norder=0 for EMAPA:27137.
 is_a: EMAPA:16569 ! midgut epithelium
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17042 ! rest of midgut
+relationship: part_of EMAPA:27137 ! rest of midgut mucosa
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -9938,7 +9919,7 @@ name: pancreas primordium
 namespace: anatomical_structure
 comment: order=1 for EMAPA:17065.
 relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:17065 ! foregut-midgut junction gland
+relationship: part_of EMAPA:16363 ! foregut-midgut junction
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -9954,8 +9935,12 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:17068
 name: thyroid gland
 namespace: anatomical_structure
-comment: order=1 for EMAPA:16557.
-relationship: ends_at TS23 ! TS23
+alt_id: EMAPA:18827
+comment: order=1 for EMAPA:16557.\norder=27 for EMAPA:16247.
+is_a: EMAPA:18815 ! gut gland
+is_a: EMAPA:35999 ! endocrine gland
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16247 ! gut
 relationship: part_of EMAPA:16557 ! foregut gland
 relationship: starts_at TS18 ! TS18
 
@@ -9963,8 +9948,9 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:17069
 name: foramen caecum
 namespace: anatomical_structure
-comment: order=0 for EMAPA:17068.
-relationship: ends_at TS23 ! TS23
+alt_id: EMAPA:18828
+comment: order=0 for EMAPA:17068.\norder=0 for EMAPA:18827.
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17068 ! thyroid gland
 relationship: starts_at TS18 ! TS18
 
@@ -9972,8 +9958,9 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:17070
 name: thyroglossal duct
 namespace: anatomical_structure
+alt_id: EMAPA:18833
 comment: order=1 for EMAPA:17068.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17068 ! thyroid gland
 relationship: starts_at TS18 ! TS18
 
@@ -11921,35 +11908,6 @@ relationship: part_of EMAPA:17281 ! future tympanic membrane
 relationship: starts_at TS19 ! TS19
 
 [Term]
-id: EMAPA:17283
-name: endolymphatic appendage
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16194.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16194 ! inner ear
-relationship: starts_at TS19 ! TS19
-
-[Term]
-id: EMAPA:17284
-name: endolymphatic appendage mesenchyme
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17283.
-is_a: EMAPA:32885 ! inner ear mesenchyme
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:17283 ! endolymphatic appendage
-relationship: starts_at TS19 ! TS19
-
-[Term]
-id: EMAPA:17285
-name: endolymphatic appendage epithelium
-namespace: anatomical_structure
-comment: order=1 for EMAPA:17283.
-is_a: EMAPA:32883 ! inner ear epithelium
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:17283 ! endolymphatic appendage
-relationship: starts_at TS19 ! TS19
-
-[Term]
 id: EMAPA:17286
 name: inner ear vestibular component
 namespace: anatomical_structure
@@ -12403,9 +12361,11 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17332
 name: bulbar ridge
 namespace: anatomical_structure
-comment: order=0 for EMAPA:17331.
-relationship: ends_at TS19 ! TS19
+alt_id: EMAPA:17867
+comment: order=0 for EMAPA:17331.\norder=1 for EMAPA:17865.
+relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17331 ! heart ventricle
+relationship: part_of EMAPA:17865 ! bulboventricular region
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -12542,7 +12502,7 @@ name: rostral two-thirds of anal canal
 namespace: anatomical_structure
 comment: order=6 for EMAPA:16831.
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:16831 ! anal region
+relationship: part_of EMAPA:18256 ! anal canal
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -12688,9 +12648,12 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17365
 name: liver sinusoid
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16846.
-relationship: ends_at TS21 ! TS21
+alt_id: EMAPA:35500
+comment: order=0 for EMAPA:16846.\norder=1 for EMAPA:35499.
+synonym: "hepatic sinusoid" RELATED []
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16846 ! liver
+relationship: part_of EMAPA:35499 ! liver lobule
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -14017,26 +13980,35 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17503
 name: pancreas
 namespace: anatomical_structure
-comment: order=0 for EMAPA:17065.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17065 ! foregut-midgut junction gland
+alt_id: EMAPA:18816
+comment: order=20 for EMAPA:16247.
+is_a: EMAPA:17065 ! foregut-midgut junction gland
+is_a: EMAPA:18815 ! gut gland
+is_a: EMAPA:35949 ! organ
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16247 ! gut
+relationship: part_of EMAPA:16363 ! foregut-midgut junction
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17504
 name: body of pancreas
 namespace: anatomical_structure
+alt_id: EMAPA:18817
 comment: order=0 for EMAPA:17503.
-relationship: ends_at TS23 ! TS23
+synonym: "pancreas body" EXACT []
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17503 ! pancreas
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17505
-name: dorsal pancreatic duct of body of pancreas
+name: dorsal pancreatic duct of pancreas body
 namespace: anatomical_structure
+alt_id: EMAPA:18818
 comment: order=0 for EMAPA:17504.\norder=0 for EMAPA:32953.
-relationship: ends_at TS23 ! TS23
+synonym: "dorsal pancreatic duct of body of pancreas" EXACT []
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17504 ! body of pancreas
 relationship: part_of EMAPA:32953 ! dorsal pancreatic duct
 relationship: starts_at TS20 ! TS20
@@ -14045,8 +14017,9 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17506
 name: pancreas body parenchyma
 namespace: anatomical_structure
+alt_id: EMAPA:18819
 comment: order=1 for EMAPA:17504.\norder=0 for EMAPA:32925.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17504 ! body of pancreas
 relationship: part_of EMAPA:32925 ! pancreas parenchyma
 relationship: starts_at TS20 ! TS20
@@ -14055,8 +14028,10 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17507
 name: head of pancreas
 namespace: anatomical_structure
+alt_id: EMAPA:18820
 comment: order=2 for EMAPA:17503.
-relationship: ends_at TS23 ! TS23
+synonym: "pancreas head" EXACT []
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17503 ! pancreas
 relationship: starts_at TS20 ! TS20
 
@@ -14064,8 +14039,9 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17508
 name: pancreas head parenchyma
 namespace: anatomical_structure
+alt_id: EMAPA:18822
 comment: order=0 for EMAPA:17507.\norder=1 for EMAPA:32925.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17507 ! head of pancreas
 relationship: part_of EMAPA:32925 ! pancreas parenchyma
 relationship: starts_at TS20 ! TS20
@@ -14074,8 +14050,9 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17509
 name: uncinate process
 namespace: anatomical_structure
+alt_id: EMAPA:18823
 comment: order=1 for EMAPA:17507.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17507 ! head of pancreas
 relationship: starts_at TS20 ! TS20
 
@@ -14083,11 +14060,12 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17510
 name: ventral pancreatic duct
 namespace: anatomical_structure
+alt_id: EMAPA:18821
 comment: order=2 for EMAPA:17507.
 synonym: "accessory pancreatic duct" RELATED []
 synonym: "Duct of Santorini" RELATED []
 is_a: EMAPA:32952 ! pancreatic duct
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17507 ! head of pancreas
 relationship: starts_at TS20 ! TS20
 
@@ -14095,17 +14073,21 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17511
 name: tail of pancreas
 namespace: anatomical_structure
+alt_id: EMAPA:18824
 comment: order=7 for EMAPA:17503.
-relationship: ends_at TS23 ! TS23
+synonym: "pancreas tail" EXACT []
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17503 ! pancreas
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17512
-name: dorsal pancreatic duct of tail of pancreas
+name: dorsal pancreatic duct of pancreas tail
 namespace: anatomical_structure
+alt_id: EMAPA:18825
 comment: order=0 for EMAPA:17511.\norder=1 for EMAPA:32953.
-relationship: ends_at TS23 ! TS23
+synonym: "dorsal pancreatic duct of tail of pancreas" EXACT []
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17511 ! tail of pancreas
 relationship: part_of EMAPA:32953 ! dorsal pancreatic duct
 relationship: starts_at TS20 ! TS20
@@ -14114,8 +14096,9 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17513
 name: pancreas tail parenchyma
 namespace: anatomical_structure
+alt_id: EMAPA:18826
 comment: order=1 for EMAPA:17511.\norder=2 for EMAPA:32925.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17511 ! tail of pancreas
 relationship: part_of EMAPA:32925 ! pancreas parenchyma
 relationship: starts_at TS20 ! TS20
@@ -14200,9 +14183,11 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17523
 name: thymus primordium
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16557.
-relationship: ends_at TS22 ! TS22
+alt_id: EMAPA:18536
+comment: order=0 for EMAPA:16557.\norder=6 for EMAPA:18765.
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:16557 ! foregut gland
+relationship: part_of EMAPA:18765 ! hemolymphoid system
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -14222,16 +14207,6 @@ comment: order=7 for EMAPA:17524.
 is_a: EMAPA:35949 ! organ
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17524 ! integumental system
-relationship: starts_at TS20 ! TS20
-
-[Term]
-id: EMAPA:17526
-name: cervical sinus
-namespace: anatomical_structure
-comment: order=1 for EMAPA:17525.
-synonym: "retro-hyoid depression" RELATED []
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:17525 ! skin
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -15044,10 +15019,12 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17613
 name: arch of aorta
 namespace: anatomical_structure
-comment: order=2 for EMAPA:16201.
+alt_id: EMAPA:18602
+comment: order=2 for EMAPA:16201.\norder=3 for EMAPA:18601.
 synonym: "aortic arch" RELATED []
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16201 ! arterial system
+relationship: part_of EMAPA:18601 ! aorta
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -15096,7 +15073,6 @@ name: atrioventricular cushion tissue
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16105.
 synonym: "atrio-ventricular cushion tissue" RELATED []
-synonym: "bulbar cushion" RELATED []
 synonym: "ependymal cushion tissue" RELATED []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16105 ! heart
@@ -15937,10 +15913,12 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17704
 name: pleuro-pericardial canal
 namespace: anatomical_structure
-comment: order=5 for EMAPA:17701.
+alt_id: EMAPA:25031
+comment: order=5 for EMAPA:17701.\norder=10 for EMAPA:16088.
 relationship: ends_at TS22 ! TS22
+relationship: part_of EMAPA:16088 ! intraembryonic coelom
 relationship: part_of EMAPA:17701 ! diaphragm
-relationship: starts_at TS20 ! TS20
+relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:17705
@@ -16332,7 +16310,6 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:17743.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35103 ! abdomen musculature
-relationship: part_of EMAPA:35888 ! trunk musculature
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -17340,9 +17317,11 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17854
 name: anterior cerebral artery
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16201.
+alt_id: EMAPA:18614
+comment: order=0 for EMAPA:16201.\norder=0 for EMAPA:18613.
+is_a: EMAPA:18613 ! cerebral artery
 is_a: EMAPA:35147 ! artery
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS20 ! TS20
 
@@ -17350,9 +17329,11 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17855
 name: common carotid artery
 namespace: anatomical_structure
-comment: order=14 for EMAPA:16201.
+alt_id: EMAPA:18610
+comment: order=14 for EMAPA:16201.\norder=2 for EMAPA:18609.
+is_a: EMAPA:18609 ! carotid artery
 is_a: EMAPA:35147 ! artery
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS21 ! TS21
 
@@ -17360,9 +17341,11 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17856
 name: abdominal aorta
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16204.
-relationship: ends_at TS22 ! TS22
+alt_id: EMAPA:18607
+comment: order=0 for EMAPA:16204.\norder=0 for EMAPA:18606.
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16204 ! dorsal aorta
+relationship: part_of EMAPA:18606 ! descending aorta
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -17406,22 +17389,13 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17861
 name: posterior cerebral artery
 namespace: anatomical_structure
-comment: order=44 for EMAPA:16201.
-is_a: EMAPA:35147 ! artery
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:16201 ! arterial system
-relationship: starts_at TS20 ! TS20
-
-[Term]
-id: EMAPA:17862
-name: renal artery
-namespace: anatomical_structure
-comment: order=47 for EMAPA:16201.\norder=4 for EMAPA:31464.
+alt_id: EMAPA:18616
+comment: order=44 for EMAPA:16201.\norder=2 for EMAPA:18613.
+is_a: EMAPA:18613 ! cerebral artery
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16201 ! arterial system
-relationship: part_of EMAPA:31464 ! renal large blood vessel
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17863
@@ -17456,17 +17430,10 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17866
 name: bulbar cushion
 namespace: anatomical_structure
-comment: order=0 for EMAPA:17865.
-relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:17865 ! bulboventricular region
-relationship: starts_at TS21 ! TS21
-
-[Term]
-id: EMAPA:17867
-name: bulbar ridge
-namespace: anatomical_structure
-comment: order=1 for EMAPA:17865.
-relationship: ends_at TS21 ! TS21
+alt_id: EMAPA:18245
+comment: order=0 for EMAPA:17865.\norder=3 for EMAPA:16105.
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16105 ! heart
 relationship: part_of EMAPA:17865 ! bulboventricular region
 relationship: starts_at TS21 ! TS21
 
@@ -17668,8 +17635,10 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17892
 name: perineal body
 namespace: anatomical_structure
-comment: order=5 for EMAPA:16715.
-relationship: ends_at TS23 ! TS23
+alt_id: EMAPA:18921
+comment: order=5 for EMAPA:16715.\norder=22 for EMAPA:16247.
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16247 ! gut
 relationship: part_of EMAPA:16715 ! hindgut
 relationship: starts_at TS21 ! TS21
 
@@ -17687,19 +17656,23 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17894
 name: perineal body epithelium
 namespace: anatomical_structure
-comment: order=1 for EMAPA:17892.
+alt_id: EMAPA:27061
+alt_id: EMAPA:27307
+comment: order=1 for EMAPA:17892.\norder=0 for EMAPA:27053.
 is_a: EMAPA:16717 ! hindgut epithelium
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17892 ! perineal body
+relationship: part_of EMAPA:27053 ! perineal body mucosa
 relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:17895
 name: perineal body vascular element
 namespace: anatomical_structure
+alt_id: EMAPA:18924
 comment: order=7 for EMAPA:17892.
 is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17892 ! perineal body
 relationship: starts_at TS21 ! TS21
 
@@ -17707,8 +17680,10 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17896
 name: rectum
 namespace: anatomical_structure
-comment: order=6 for EMAPA:16715.
-relationship: ends_at TS23 ! TS23
+alt_id: EMAPA:18925
+comment: order=6 for EMAPA:16715.\norder=24 for EMAPA:16247.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16247 ! gut
 relationship: part_of EMAPA:16715 ! hindgut
 relationship: starts_at TS21 ! TS21
 
@@ -17716,9 +17691,11 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17897
 name: rectum mesenchyme
 namespace: anatomical_structure
+alt_id: EMAPA:35723
 comment: order=0 for EMAPA:17896.
 is_a: EMAPA:16716 ! hindgut mesenchyme
-relationship: ends_at TS23 ! TS23
+is_a: EMAPA:32909 ! gut mesenchyme
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17896 ! rectum
 relationship: starts_at TS21 ! TS21
 
@@ -17726,19 +17703,24 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17898
 name: rectum epithelium
 namespace: anatomical_structure
-comment: order=1 for EMAPA:17896.
+alt_id: EMAPA:18927
+alt_id: EMAPA:27089
+comment: order=1 for EMAPA:17896.\norder=0 for EMAPA:27081.
 is_a: EMAPA:16717 ! hindgut epithelium
-relationship: ends_at TS22 ! TS22
+is_a: EMAPA:35466 ! large intestine epithelium
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17896 ! rectum
+relationship: part_of EMAPA:27081 ! rectum mucosa
 relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:17899
 name: rectum vascular element
 namespace: anatomical_structure
+alt_id: EMAPA:18931
 comment: order=8 for EMAPA:17896.
 is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17896 ! rectum
 relationship: starts_at TS21 ! TS21
 
@@ -17765,10 +17747,12 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17902
 name: rest of hindgut epithelium
 namespace: anatomical_structure
-comment: order=1 for EMAPA:17900.
+alt_id: EMAPA:27075
+comment: order=1 for EMAPA:17900.\norder=0 for EMAPA:27067.
 is_a: EMAPA:16717 ! hindgut epithelium
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17900 ! rest of hindgut
+relationship: part_of EMAPA:27067 ! rest of hindgut mucosa
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -20296,8 +20280,9 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18195
 name: thyroid gland isthmus
 namespace: anatomical_structure
+alt_id: EMAPA:18829
 comment: order=2 for EMAPA:17068.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17068 ! thyroid gland
 relationship: starts_at TS22 ! TS22
 
@@ -20305,8 +20290,9 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18196
 name: thyroid gland lobe
 namespace: anatomical_structure
+alt_id: EMAPA:18830
 comment: order=3 for EMAPA:17068.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17068 ! thyroid gland
 relationship: starts_at TS22 ! TS22
 
@@ -20314,8 +20300,9 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18197
 name: thyroid gland left lobe
 namespace: anatomical_structure
+alt_id: EMAPA:18831
 comment: order=0 for EMAPA:18196.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18196 ! thyroid gland lobe
 relationship: starts_at TS22 ! TS22
 
@@ -20323,8 +20310,9 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18198
 name: thyroid gland right lobe
 namespace: anatomical_structure
+alt_id: EMAPA:18832
 comment: order=1 for EMAPA:18196.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18196 ! thyroid gland lobe
 relationship: starts_at TS22 ! TS22
 
@@ -20618,17 +20606,10 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18239
 name: middle cerebral artery
 namespace: anatomical_structure
-comment: order=39 for EMAPA:16201.
+alt_id: EMAPA:18615
+comment: order=39 for EMAPA:16201.\norder=1 for EMAPA:18613.
+is_a: EMAPA:18613 ! cerebral artery
 is_a: EMAPA:35147 ! artery
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:16201 ! arterial system
-relationship: starts_at TS20 ! TS20
-
-[Term]
-id: EMAPA:18240
-name: pulmonary trunk
-namespace: anatomical_structure
-comment: order=46 for EMAPA:16201.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS20 ! TS20
@@ -20668,15 +20649,6 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:17011.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17011 ! interatrial septum
-relationship: starts_at TS22 ! TS22
-
-[Term]
-id: EMAPA:18245
-name: bulbar cushion
-namespace: anatomical_structure
-comment: order=3 for EMAPA:16105.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16105 ! heart
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -20780,7 +20752,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:16831.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16831 ! anal region
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:18257
@@ -20805,10 +20777,13 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18259
 name: anal canal rostral part epithelium
 namespace: anatomical_structure
-comment: order=1 for EMAPA:18257.
+alt_id: EMAPA:27229
+comment: order=1 for EMAPA:18257.\norder=0 for EMAPA:27225.
 is_a: EMAPA:32683 ! alimentary system epithelium
-relationship: ends_at TS22 ! TS22
+is_a: EMAPA:32803 ! anal canal epithelium
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:18257 ! anal canal rostral part
+relationship: part_of EMAPA:27225 ! anal canal rostral part mucosa
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -20844,10 +20819,13 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18263
 name: anal canal caudal part epithelium
 namespace: anatomical_structure
-comment: order=1 for EMAPA:18261.
+alt_id: EMAPA:27219
+comment: order=1 for EMAPA:18261.\norder=0 for EMAPA:27215.
 is_a: EMAPA:32683 ! alimentary system epithelium
-relationship: ends_at TS22 ! TS22
+is_a: EMAPA:32803 ! anal canal epithelium
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:18261 ! anal canal caudal part
+relationship: part_of EMAPA:27215 ! anal canal caudal part mucosa
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -22011,8 +21989,9 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:18388
 name: rectum lumen
 namespace: anatomical_structure
+alt_id: EMAPA:18928
 comment: order=2 for EMAPA:17896.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17896 ! rectum
 relationship: starts_at TS21 ! TS21
 
@@ -22751,7 +22730,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:18521
 name: intercostal muscle
 namespace: anatomical_structure
+alt_id: EMAPA:35436
 comment: order=3 for EMAPA:18166.
+synonym: "intercostales" EXACT []
 is_a: EMAPA:18167 ! axial muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
@@ -22829,15 +22810,6 @@ comment: order=4 for EMAPA:18765.
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:18765 ! hemolymphoid system
 relationship: starts_at TS22 ! TS22
-
-[Term]
-id: EMAPA:18536
-name: thymus primordium
-namespace: anatomical_structure
-comment: order=6 for EMAPA:18765.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:18765 ! hemolymphoid system
-relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:18537
@@ -23336,16 +23308,6 @@ relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS23 ! TS23
 
 [Term]
-id: EMAPA:18602
-name: arch of aorta
-namespace: anatomical_structure
-comment: order=3 for EMAPA:18601.
-synonym: "aortic arch" RELATED []
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18601 ! aorta
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:18603
 name: thoracic aorta
 namespace: anatomical_structure
@@ -23355,42 +23317,24 @@ relationship: part_of EMAPA:18601 ! aorta
 relationship: starts_at TS23 ! TS23
 
 [Term]
-id: EMAPA:18604
-name: ascending thoracic aorta
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18603.
-synonym: "ascending aorta" RELATED []
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18603 ! thoracic aorta
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:18605
 name: descending thoracic aorta
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18603.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18603 ! thoracic aorta
-relationship: part_of EMAPA:35284 ! descending aorta
+relationship: part_of EMAPA:18606 ! descending aorta
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:18606
-name: dorsal aorta
+name: descending aorta
 namespace: anatomical_structure
-comment: order=5 for EMAPA:18601.
+alt_id: EMAPA:35284
+comment: order=4 for EMAPA:18601.
+synonym: "dorsal aorta" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18601 ! aorta
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18607
-name: abdominal aorta
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18606.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18606 ! dorsal aorta
-relationship: part_of EMAPA:35284 ! descending aorta
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -23411,33 +23355,17 @@ comment: order=10 for EMAPA:16201.
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16201 ! arterial system
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18610
-name: common carotid artery
-namespace: anatomical_structure
-comment: order=2 for EMAPA:18609.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18609 ! carotid artery
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:18611
 name: external carotid artery
 namespace: anatomical_structure
 comment: order=3 for EMAPA:18609.
+is_a: EMAPA:18609 ! carotid artery
+is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18609 ! carotid artery
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18612
-name: internal carotid artery
-namespace: anatomical_structure
-comment: order=4 for EMAPA:18609.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18609 ! carotid artery
+relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -23448,34 +23376,7 @@ comment: order=13 for EMAPA:16201.
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16201 ! arterial system
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18614
-name: anterior cerebral artery
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18613.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18613 ! cerebral artery
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18615
-name: middle cerebral artery
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18613.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18613 ! cerebral artery
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18616
-name: posterior cerebral artery
-namespace: anatomical_structure
-comment: order=2 for EMAPA:18613.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18613 ! cerebral artery
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:18617
@@ -23876,27 +23777,32 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:18662
 name: duodenal papilla
 namespace: anatomical_structure
-comment: order=0 for EMAPA:18661.
+alt_id: EMAPA:18853
+comment: order=0 for EMAPA:18661.\norder=0 for EMAPA:18852.
 synonym: "ampulla of Vater" RELATED []
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18661 ! foregut-midgut junction duodenum
+relationship: part_of EMAPA:18852 ! duodenum
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:18663
 name: sphincter of Oddi
 namespace: anatomical_structure
-comment: order=1 for EMAPA:18661.
-relationship: ends_at TS23 ! TS23
+alt_id: EMAPA:18854
+comment: order=1 for EMAPA:18661.\norder=11 for EMAPA:18852.
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18661 ! foregut-midgut junction duodenum
+relationship: part_of EMAPA:18852 ! duodenum
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:18664
 name: rectum mesentery
 namespace: anatomical_structure
+alt_id: EMAPA:18929
 comment: order=3 for EMAPA:17896.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17896 ! rectum
 relationship: starts_at TS23 ! TS23
 
@@ -23904,8 +23810,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:18665
 name: rectum dorsal mesentery
 namespace: anatomical_structure
+alt_id: EMAPA:18930
 comment: order=0 for EMAPA:18664.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18664 ! rectum mesentery
 relationship: starts_at TS23 ! TS23
 
@@ -23913,8 +23820,10 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:18666
 name: jejunum
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16255.
-relationship: ends_at TS23 ! TS23
+alt_id: EMAPA:18932
+comment: order=0 for EMAPA:16255.\norder=18 for EMAPA:16247.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16247 ! gut
 relationship: part_of EMAPA:16255 ! midgut
 relationship: starts_at TS23 ! TS23
 
@@ -23922,9 +23831,12 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:18668
 name: jejunum epithelium
 namespace: anatomical_structure
-comment: order=0 for EMAPA:27109.
+alt_id: EMAPA:18934
+comment: MERGED COMMENT:\nTARGET COMMENT: order=0 for EMAPA:27109.\n--------------------\nSOURCE COMMENT: order=0 for EMAPA:27347.
+synonym: "jejunum epithelium" EXACT []
 is_a: EMAPA:16569 ! midgut epithelium
-relationship: ends_at TS23 ! TS23
+is_a: EMAPA:35778 ! small intestine epithelium
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:27109 ! jejunum mucosa
 relationship: starts_at TS23 ! TS23
 
@@ -23932,9 +23844,10 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:18669
 name: jejunum vascular element
 namespace: anatomical_structure
+alt_id: EMAPA:18936
 comment: order=6 for EMAPA:18666.
 is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18666 ! jejunum
 relationship: starts_at TS23 ! TS23
 
@@ -23942,8 +23855,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:18670
 name: jejunum mesentery
 namespace: anatomical_structure
-comment: order=1 for EMAPA:18666.
-relationship: ends_at TS23 ! TS23
+alt_id: EMAPA:18937
+comment: order=1 for EMAPA:18666..
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18666 ! jejunum
 relationship: starts_at TS23 ! TS23
 
@@ -23951,8 +23865,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:18671
 name: jejunum dorsal mesentery
 namespace: anatomical_structure
+alt_id: EMAPA:18938
 comment: order=0 for EMAPA:18670.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18670 ! jejunum mesentery
 relationship: starts_at TS23 ! TS23
 
@@ -24091,7 +24006,7 @@ namespace: anatomical_structure
 comment: order=8 for EMAPA:16727.
 is_a: EMAPA:32730 ! cartilage
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16727 ! respiratory system
+relationship: part_of EMAPA:35977 ! respiratory system connective tissue
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -24352,8 +24267,9 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:18729
 name: jejunum lumen
 namespace: anatomical_structure
+alt_id: EMAPA:18935
 comment: order=0 for EMAPA:18666.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18666 ! jejunum
 relationship: starts_at TS23 ! TS23
 
@@ -24941,188 +24857,6 @@ relationship: part_of EMAPA:16247 ! gut
 relationship: starts_at TS13 ! TS13
 
 [Term]
-id: EMAPA:18816
-name: pancreas
-namespace: anatomical_structure
-comment: order=20 for EMAPA:16247.
-is_a: EMAPA:18815 ! gut gland
-is_a: EMAPA:35949 ! organ
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16247 ! gut
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18817
-name: body of pancreas
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18816.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18816 ! pancreas
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18818
-name: dorsal pancreatic duct of body of pancreas
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18817.\norder=0 for EMAPA:32954.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18817 ! body of pancreas
-relationship: part_of EMAPA:32954 ! dorsal pancreatic duct
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18819
-name: pancreas body parenchyma
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18817.\norder=1 for EMAPA:32926.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18817 ! body of pancreas
-relationship: part_of EMAPA:32926 ! pancreas parenchyma
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18820
-name: head of pancreas
-namespace: anatomical_structure
-comment: order=4 for EMAPA:18816.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18816 ! pancreas
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18821
-name: ventral pancreatic duct
-namespace: anatomical_structure
-comment: order=2 for EMAPA:18820.
-is_a: EMAPA:32924 ! pancreatic duct
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18820 ! head of pancreas
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18822
-name: pancreas head parenchyma
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18820.\norder=2 for EMAPA:32926.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18820 ! head of pancreas
-relationship: part_of EMAPA:32926 ! pancreas parenchyma
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18823
-name: uncinate process
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18820.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18820 ! head of pancreas
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18824
-name: tail of pancreas
-namespace: anatomical_structure
-comment: order=9 for EMAPA:18816.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18816 ! pancreas
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18825
-name: dorsal pancreatic duct of tail of pancreas
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18824.\norder=1 for EMAPA:32954.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18824 ! tail of pancreas
-relationship: part_of EMAPA:32954 ! dorsal pancreatic duct
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18826
-name: pancreas tail parenchyma
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18824.\norder=3 for EMAPA:32926.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18824 ! tail of pancreas
-relationship: part_of EMAPA:32926 ! pancreas parenchyma
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18827
-name: thyroid gland
-namespace: anatomical_structure
-comment: order=27 for EMAPA:16247.
-is_a: EMAPA:18815 ! gut gland
-is_a: EMAPA:35999 ! endocrine gland
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16247 ! gut
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18828
-name: foramen caecum
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18827.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18827 ! thyroid gland
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18829
-name: thyroid gland isthmus
-namespace: anatomical_structure
-comment: order=2 for EMAPA:18827.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18827 ! thyroid gland
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18830
-name: thyroid gland lobe
-namespace: anatomical_structure
-comment: order=3 for EMAPA:18827.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18827 ! thyroid gland
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18831
-name: thyroid gland left lobe
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18830.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18830 ! thyroid gland lobe
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18832
-name: thyroid gland right lobe
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18830.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18830 ! thyroid gland lobe
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18833
-name: thyroglossal duct
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18827.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18827 ! thyroid gland
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18835
-name: anal canal epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:27531.
-is_a: EMAPA:32683 ! alimentary system epithelium
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27531 ! anal canal mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:18836
 name: anal canal lumen
 namespace: anatomical_structure
@@ -25151,25 +24885,6 @@ relationship: part_of EMAPA:16247 ! gut
 relationship: starts_at TS18 ! TS18
 
 [Term]
-id: EMAPA:18853
-name: duodenal papilla
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18852.
-synonym: "ampulla of Vater" RELATED []
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18852 ! duodenum
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18854
-name: sphincter of Oddi
-namespace: anatomical_structure
-comment: order=11 for EMAPA:18852.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18852 ! duodenum
-relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:18873
 name: filiform papillae
 namespace: anatomical_structure
@@ -25181,144 +24896,13 @@ relationship: part_of EMAPA:17881 ! tongue epithelium
 relationship: starts_at TS23 ! TS23
 
 [Term]
-id: EMAPA:18921
-name: perineal body
-namespace: anatomical_structure
-comment: order=22 for EMAPA:16247.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16247 ! gut
-relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:18923
 name: perineal body muscle
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18921.
 is_a: EMAPA:35117 ! alimentary system smooth muscle
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18921 ! perineal body
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18924
-name: perineal body vascular element
-namespace: anatomical_structure
-comment: order=5 for EMAPA:18921.
-is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18921 ! perineal body
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18925
-name: rectum
-namespace: anatomical_structure
-comment: order=24 for EMAPA:16247.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16247 ! gut
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18927
-name: rectum epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:27319.
-is_a: EMAPA:35466 ! large intestine epithelium
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:27319 ! rectum mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18928
-name: rectum lumen
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18925.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18925 ! rectum
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18929
-name: rectum mesentery
-namespace: anatomical_structure
-comment: order=2 for EMAPA:18925.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18925 ! rectum
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18930
-name: rectum dorsal mesentery
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18929.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18929 ! rectum mesentery
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18931
-name: rectum vascular element
-namespace: anatomical_structure
-comment: order=7 for EMAPA:18925.
-is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18925 ! rectum
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18932
-name: jejunum
-namespace: anatomical_structure
-comment: order=18 for EMAPA:16247.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16247 ! gut
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18934
-name: jejunum epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:27347.
-is_a: EMAPA:35778 ! small intestine epithelium
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:27347 ! jejunum mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18935
-name: jejunum lumen
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18932.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18932 ! jejunum
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18936
-name: jejunum vascular element
-namespace: anatomical_structure
-comment: order=6 for EMAPA:18932.
-is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18932 ! jejunum
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18937
-name: jejunum mesentery
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18932.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18932 ! jejunum
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:18938
-name: jejunum dorsal mesentery
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18937.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18937 ! jejunum mesentery
+relationship: part_of EMAPA:17892 ! perineal body
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -25613,7 +25197,6 @@ id: EMAPA:18985
 name: uterine horn
 namespace: anatomical_structure
 comment: order=9 for EMAPA:17959.
-synonym: "uterus" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: starts_at TS24 ! TS24
@@ -26392,7 +25975,7 @@ comment: order=2 for EMAPA:18207.
 synonym: "caudoputamen" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17549 ! corpus striatum
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:19096
@@ -27446,7 +27029,7 @@ comment: order=3 for EMAPA:17412.
 is_a: EMAPA:35456 ! joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17412 ! forelimb
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:19205
@@ -27613,17 +27196,6 @@ comment: order=31 for EMAPA:16240.
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16240 ! venous system
-relationship: starts_at TS25 ! TS25
-
-[Term]
-id: EMAPA:19223
-name: renal vein
-namespace: anatomical_structure
-comment: order=39 for EMAPA:16240.\norder=5 for EMAPA:31464.
-is_a: EMAPA:35906 ! vein
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16240 ! venous system
-relationship: part_of EMAPA:31464 ! renal large blood vessel
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -27798,7 +27370,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:18819.
 is_a: EMAPA:32927 ! islets of Langerhans
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18819 ! pancreas body parenchyma
+relationship: part_of EMAPA:17506 ! pancreas body parenchyma
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -27808,7 +27380,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:18822.
 is_a: EMAPA:32927 ! islets of Langerhans
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18822 ! pancreas head parenchyma
+relationship: part_of EMAPA:17508 ! pancreas head parenchyma
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -27818,7 +27390,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:18826.
 is_a: EMAPA:32927 ! islets of Langerhans
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18826 ! pancreas tail parenchyma
+relationship: part_of EMAPA:17513 ! pancreas tail parenchyma
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -28234,7 +27806,7 @@ comment: order=0 for EMAPA:19204.
 is_a: EMAPA:32641 ! hand joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17428 ! hand
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:19303
@@ -28278,7 +27850,7 @@ name: thyroid gland left lobe colloid-filled follicles
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18831.
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18831 ! thyroid gland left lobe
+relationship: part_of EMAPA:18197 ! thyroid gland left lobe
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -28287,7 +27859,7 @@ name: thyroid gland right lobe colloid-filled follicles
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18832.
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18832 ! thyroid gland right lobe
+relationship: part_of EMAPA:18198 ! thyroid gland right lobe
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31752,22 +31324,13 @@ relationship: part_of EMAPA:18374 ! tail vertebra
 relationship: starts_at TS26 ! TS26
 
 [Term]
-id: EMAPA:25031
-name: pleuro-peritoneal canal
-namespace: anatomical_structure
-comment: order=10 for EMAPA:16088.
-relationship: ends_at TS20 ! TS20
-relationship: part_of EMAPA:16088 ! intraembryonic coelom
-relationship: starts_at TS16 ! TS16
-
-[Term]
 id: EMAPA:25032
 name: pleuro-peritoneal canal mesothelium
 namespace: anatomical_structure
 comment: order=1 for EMAPA:25031.
 is_a: EMAPA:32856 ! mesothelium
 relationship: ends_at TS20 ! TS20
-relationship: part_of EMAPA:25031 ! pleuro-peritoneal canal
+relationship: part_of EMAPA:17704 ! pleuro-pericardial canal
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -31785,7 +31348,7 @@ name: pleuro-peritoneal canal cavity
 namespace: anatomical_structure
 comment: order=0 for EMAPA:25031.
 relationship: ends_at TS20 ! TS20
-relationship: part_of EMAPA:25031 ! pleuro-peritoneal canal
+relationship: part_of EMAPA:17704 ! pleuro-pericardial canal
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -31819,18 +31382,22 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:25038
 name: proctodeum
 namespace: anatomical_structure
-comment: order=4 for EMAPA:16096.
-synonym: "proctodaeum" RELATED []
-relationship: ends_at TS19 ! TS19
+alt_id: EMAPA:25043
+comment: order=4 for EMAPA:16096.\norder=7 for EMAPA:17525.
+synonym: "proctodeum" EXACT []
+relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:16096 ! surface ectoderm
+relationship: part_of EMAPA:17525 ! skin
 relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:25039
 name: caudal one-third of anal canal
 namespace: anatomical_structure
+alt_id: EMAPA:25044
 comment: order=0 for EMAPA:25038.
-relationship: ends_at TS19 ! TS19
+relationship: ends_at TS21 ! TS21
+relationship: part_of EMAPA:18256 ! anal canal
 relationship: part_of EMAPA:25038 ! proctodeum
 relationship: starts_at TS19 ! TS19
 
@@ -31838,9 +31405,10 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:25040
 name: ectoderm component of anal membrane
 namespace: anatomical_structure
+alt_id: EMAPA:25045
 comment: order=1 for EMAPA:25038.
 is_a: EMAPA:35990 ! alimentary system ectoderm
-relationship: ends_at TS19 ! TS19
+relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:25038 ! proctodeum
 relationship: starts_at TS19 ! TS19
 
@@ -31862,35 +31430,6 @@ synonym: "central canal" RELATED []
 synonym: "spinal canal" RELATED []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17577 ! spinal cord
-relationship: starts_at TS20 ! TS20
-
-[Term]
-id: EMAPA:25043
-name: proctodeum
-namespace: anatomical_structure
-comment: order=7 for EMAPA:17525.
-synonym: "proctodaeum" RELATED []
-relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:17525 ! skin
-relationship: starts_at TS20 ! TS20
-
-[Term]
-id: EMAPA:25044
-name: caudal one-third of anal canal
-namespace: anatomical_structure
-comment: order=0 for EMAPA:25043.
-relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:25043 ! proctodeum
-relationship: starts_at TS20 ! TS20
-
-[Term]
-id: EMAPA:25045
-name: ectoderm component of anal membrane
-namespace: anatomical_structure
-comment: order=1 for EMAPA:25043.
-is_a: EMAPA:35990 ! alimentary system ectoderm
-relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:25043 ! proctodeum
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -37876,22 +37415,13 @@ namespace: anatomical_structure
 is_a: EMAPA:0 ! Anatomical structure
 
 [Term]
-id: EMAPA:25959
-name: ascending aorta
-namespace: anatomical_structure
-comment: order=5 for EMAPA:16201.
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:16201 ! arterial system
-relationship: starts_at TS19 ! TS19
-
-[Term]
 id: EMAPA:25968
 name: early coronary artery
 namespace: anatomical_structure
 comment: order=0 for EMAPA:25959.
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:25959 ! ascending aorta
+relationship: part_of EMAPA:17014 ! ascending aorta
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -39171,16 +38701,6 @@ relationship: part_of EMAPA:16363 ! foregut-midgut junction
 relationship: starts_at TS23 ! TS23
 
 [Term]
-id: EMAPA:27019
-name: foregut-midgut junction epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:27011.
-is_a: EMAPA:32928 ! gut epithelium
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:27011 ! foregut-midgut junction mucosa
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:27021
 name: foregut-midgut junction lamina propria
 namespace: anatomical_structure
@@ -39321,8 +38841,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27053
 name: perineal body mucosa
 namespace: anatomical_structure
+alt_id: EMAPA:27291
 comment: order=3 for EMAPA:17892.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17892 ! perineal body
 relationship: starts_at TS23 ! TS23
 
@@ -39330,8 +38851,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27055
 name: perineal body submucosa
 namespace: anatomical_structure
+alt_id: EMAPA:27295
 comment: order=6 for EMAPA:17892.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17892 ! perineal body
 relationship: starts_at TS23 ! TS23
 
@@ -39339,9 +38861,10 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27057
 name: perineal body muscularis
 namespace: anatomical_structure
+alt_id: EMAPA:27299
 comment: order=4 for EMAPA:17892.
 is_a: EMAPA:35385 ! gut muscularis
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17892 ! perineal body
 relationship: starts_at TS23 ! TS23
 
@@ -39349,27 +38872,19 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27059
 name: perineal body serosa
 namespace: anatomical_structure
+alt_id: EMAPA:27303
 comment: order=5 for EMAPA:17892.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17892 ! perineal body
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:27061
-name: perineal body epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:27053.
-is_a: EMAPA:16717 ! hindgut epithelium
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:27053 ! perineal body mucosa
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27063
 name: perineal body lamina propria
 namespace: anatomical_structure
+alt_id: EMAPA:27311
 comment: order=1 for EMAPA:27053.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27053 ! perineal body mucosa
 relationship: starts_at TS23 ! TS23
 
@@ -39377,8 +38892,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27065
 name: perineal body muscularis mucosa
 namespace: anatomical_structure
+alt_id: EMAPA:27315
 comment: order=2 for EMAPA:27053.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27053 ! perineal body mucosa
 relationship: starts_at TS23 ! TS23
 
@@ -39420,16 +38936,6 @@ relationship: part_of EMAPA:17900 ! rest of hindgut
 relationship: starts_at TS23 ! TS23
 
 [Term]
-id: EMAPA:27075
-name: rest of hindgut epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:27067.
-is_a: EMAPA:16717 ! hindgut epithelium
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:27067 ! rest of hindgut mucosa
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:27077
 name: rest of hindgut lamina propria
 namespace: anatomical_structure
@@ -39451,8 +38957,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27081
 name: rectum mucosa
 namespace: anatomical_structure
+alt_id: EMAPA:27319
 comment: order=4 for EMAPA:17896.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17896 ! rectum
 relationship: starts_at TS23 ! TS23
 
@@ -39460,8 +38967,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27083
 name: rectum submucosa
 namespace: anatomical_structure
+alt_id: EMAPA:27323
 comment: order=7 for EMAPA:17896.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17896 ! rectum
 relationship: starts_at TS23 ! TS23
 
@@ -39469,9 +38977,11 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27085
 name: rectum muscularis
 namespace: anatomical_structure
+alt_id: EMAPA:27327
 comment: order=5 for EMAPA:17896.
+synonym: "rectum muscularis" EXACT []
 is_a: EMAPA:35385 ! gut muscularis
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17896 ! rectum
 relationship: starts_at TS23 ! TS23
 
@@ -39479,27 +38989,19 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27087
 name: rectum serosa
 namespace: anatomical_structure
+alt_id: EMAPA:27331
 comment: order=6 for EMAPA:17896.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17896 ! rectum
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:27089
-name: rectum epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:27081.
-is_a: EMAPA:16717 ! hindgut epithelium
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:27081 ! rectum mucosa
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27091
 name: rectum lamina propria
 namespace: anatomical_structure
+alt_id: EMAPA:27339
 comment: order=1 for EMAPA:27081.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27081 ! rectum mucosa
 relationship: starts_at TS23 ! TS23
 
@@ -39507,8 +39009,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27093
 name: rectum muscularis mucosa
 namespace: anatomical_structure
+alt_id: EMAPA:27343
 comment: order=2 for EMAPA:27081.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27081 ! rectum mucosa
 relationship: starts_at TS23 ! TS23
 
@@ -39574,8 +39077,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27109
 name: jejunum mucosa
 namespace: anatomical_structure
+alt_id: EMAPA:27347
 comment: order=2 for EMAPA:18666.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18666 ! jejunum
 relationship: starts_at TS23 ! TS23
 
@@ -39583,8 +39087,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27111
 name: jejunum submucosa
 namespace: anatomical_structure
+alt_id: EMAPA:27351
 comment: order=5 for EMAPA:18666.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18666 ! jejunum
 relationship: starts_at TS23 ! TS23
 
@@ -39592,9 +39097,10 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27113
 name: jejunum muscularis
 namespace: anatomical_structure
+alt_id: EMAPA:27355
 comment: order=3 for EMAPA:18666.
 is_a: EMAPA:35385 ! gut muscularis
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18666 ! jejunum
 relationship: starts_at TS23 ! TS23
 
@@ -39602,8 +39108,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27115
 name: jejunum serosa
 namespace: anatomical_structure
+alt_id: EMAPA:27359
 comment: order=4 for EMAPA:18666.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18666 ! jejunum
 relationship: starts_at TS23 ! TS23
 
@@ -39611,8 +39118,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27119
 name: jejunum lamina propria
 namespace: anatomical_structure
+alt_id: EMAPA:27367
 comment: order=1 for EMAPA:27109.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27109 ! jejunum mucosa
 relationship: starts_at TS23 ! TS23
 
@@ -39620,8 +39128,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27121
 name: jejunum muscularis mucosa
 namespace: anatomical_structure
-comment: order=2 for EMAPA:27109.
-relationship: ends_at TS23 ! TS23
+alt_id: EMAPA:27371
+comment: order=2 for EMAPA:27109.\norder=2 for EMAPA:27347.
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27109 ! jejunum mucosa
 relationship: starts_at TS23 ! TS23
 
@@ -39660,16 +39169,6 @@ namespace: anatomical_structure
 comment: order=6 for EMAPA:17036.
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17036 ! midgut loop
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:27131
-name: midgut loop epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:27123.
-is_a: EMAPA:16569 ! midgut epithelium
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:27123 ! midgut loop mucosa
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -39725,16 +39224,6 @@ namespace: anatomical_structure
 comment: order=6 for EMAPA:17042.
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17042 ! rest of midgut
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:27145
-name: rest of midgut epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:27137.
-is_a: EMAPA:16569 ! midgut epithelium
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:27137 ! rest of midgut mucosa
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -39831,7 +39320,9 @@ id: EMAPA:27167
 name: stomach glandular region mucosa
 namespace: anatomical_structure
 alt_id: EMAPA:27435
+alt_id: EMAPA:35815
 comment: order=3 for EMAPA:17623.
+synonym: "stomach glandular region glandular mucous membrane" EXACT []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17623 ! stomach glandular region
 relationship: starts_at TS23 ! TS23
@@ -40047,16 +39538,6 @@ relationship: part_of EMAPA:18261 ! anal canal caudal part
 relationship: starts_at TS23 ! TS23
 
 [Term]
-id: EMAPA:27219
-name: anal canal caudal part epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:27215.
-is_a: EMAPA:32803 ! anal canal epithelium
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:27215 ! anal canal caudal part mucosa
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:27221
 name: anal canal caudal part gland
 namespace: anatomical_structure
@@ -40090,16 +39571,6 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:18257.
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:18257 ! anal canal rostral part
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:27229
-name: anal canal rostral part epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:27225.
-is_a: EMAPA:32803 ! anal canal epithelium
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:27225 ! anal canal rostral part mucosa
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -40174,181 +39645,6 @@ comment: order=2 for EMAPA:27235.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:27235 ! duodenum mucosa
 relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:27291
-name: perineal body mucosa
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18921.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18921 ! perineal body
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27295
-name: perineal body submucosa
-namespace: anatomical_structure
-comment: order=4 for EMAPA:18921.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18921 ! perineal body
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27299
-name: perineal body muscularis
-namespace: anatomical_structure
-comment: order=2 for EMAPA:18921.
-is_a: EMAPA:35385 ! gut muscularis
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18921 ! perineal body
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27303
-name: perineal body serosa
-namespace: anatomical_structure
-comment: order=3 for EMAPA:18921.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18921 ! perineal body
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27307
-name: perineal body epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:27291.
-is_a: EMAPA:16717 ! hindgut epithelium
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27291 ! perineal body mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27311
-name: perineal body lamina propria
-namespace: anatomical_structure
-comment: order=1 for EMAPA:27291.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27291 ! perineal body mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27315
-name: perineal body muscularis mucosa
-namespace: anatomical_structure
-comment: order=2 for EMAPA:27291.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27291 ! perineal body mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27319
-name: rectum mucosa
-namespace: anatomical_structure
-comment: order=3 for EMAPA:18925.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18925 ! rectum
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27323
-name: rectum submucosa
-namespace: anatomical_structure
-comment: order=6 for EMAPA:18925.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18925 ! rectum
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27327
-name: rectum muscularis
-namespace: anatomical_structure
-comment: order=4 for EMAPA:18925.
-is_a: EMAPA:35385 ! gut muscularis
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18925 ! rectum
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27331
-name: rectum serosa
-namespace: anatomical_structure
-comment: order=5 for EMAPA:18925.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18925 ! rectum
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27339
-name: rectum lamina propria
-namespace: anatomical_structure
-comment: order=1 for EMAPA:27319.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27319 ! rectum mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27343
-name: rectum muscularis mucosa
-namespace: anatomical_structure
-comment: order=2 for EMAPA:27319.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27319 ! rectum mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27347
-name: jejunum mucosa
-namespace: anatomical_structure
-comment: order=2 for EMAPA:18932.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18932 ! jejunum
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27351
-name: jejunum submucosa
-namespace: anatomical_structure
-comment: order=5 for EMAPA:18932.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18932 ! jejunum
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27355
-name: jejunum muscularis
-namespace: anatomical_structure
-comment: order=3 for EMAPA:18932.
-is_a: EMAPA:35385 ! gut muscularis
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18932 ! jejunum
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27359
-name: jejunum serosa
-namespace: anatomical_structure
-comment: order=4 for EMAPA:18932.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18932 ! jejunum
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27367
-name: jejunum lamina propria
-namespace: anatomical_structure
-comment: order=1 for EMAPA:27347.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27347 ! jejunum mucosa
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:27371
-name: jejunum muscularis mucosa
-namespace: anatomical_structure
-comment: order=2 for EMAPA:27347.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:27347 ! jejunum mucosa
-relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:27375
@@ -42022,22 +41318,30 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:28373
 name: renal artery
 namespace: anatomical_structure
-comment: order=3 for EMAPA:17366.\norder=5 for EMAPA:28457.\norder=0 for EMAPA:31436.
+alt_id: EMAPA:17862
+comment: order=3 for EMAPA:17366.\norder=5 for EMAPA:28457.\norder=0 for EMAPA:31436.\norder=47 for EMAPA:16201.\norder=4 for EMAPA:31464.
+is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16201 ! arterial system
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: part_of EMAPA:28457 ! renal vasculature
 relationship: part_of EMAPA:31436 ! renal arterial system
+relationship: part_of EMAPA:31464 ! renal large blood vessel
 relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:28376
 name: renal vein
 namespace: anatomical_structure
-comment: order=4 for EMAPA:17366.\norder=6 for EMAPA:28457.\norder=0 for EMAPA:31450.
+alt_id: EMAPA:19223
+comment: order=4 for EMAPA:17366.\norder=6 for EMAPA:28457.\norder=0 for EMAPA:31450.\norder=39 for EMAPA:16240.\norder=5 for EMAPA:31464.
+is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16240 ! venous system
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: part_of EMAPA:28457 ! renal vasculature
 relationship: part_of EMAPA:31450 ! renal venous system
+relationship: part_of EMAPA:31464 ! renal large blood vessel
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -47914,15 +47218,6 @@ relationship: part_of EMAPA:16042 ! extraembryonic component
 relationship: starts_at TS13 ! TS13
 
 [Term]
-id: EMAPA:31869
-name: cytotrophoblast
-namespace: anatomical_structure
-comment: order=0 for EMAPA:31870.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:31870 ! trabecular cord
-relationship: starts_at TS19 ! TS19
-
-[Term]
 id: EMAPA:31870
 name: trabecular cord
 namespace: anatomical_structure
@@ -49755,16 +49050,6 @@ relationship: part_of EMAPA:35593 ! neural plate
 relationship: starts_at TS11 ! TS11
 
 [Term]
-id: EMAPA:32733
-name: future hindbrain neural fold
-namespace: anatomical_structure
-comment: order=3 for EMAPA:16148.
-is_a: EMAPA:32732 ! neural fold
-relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16148 ! future hindbrain
-relationship: starts_at TS13 ! TS13
-
-[Term]
 id: EMAPA:32734
 name: extraembryonic blood vessel
 namespace: anatomical_structure
@@ -50426,10 +49711,12 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:32803
 name: anal canal epithelium
 namespace: anatomical_structure
-comment: order=1 for EMAPA:18256.
+alt_id: EMAPA:18835
+comment: order=1 for EMAPA:18256.\norder=0 for EMAPA:27531.
 is_a: EMAPA:32683 ! alimentary system epithelium
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18256 ! anal canal
+relationship: part_of EMAPA:27531 ! anal canal mucosa
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -51586,39 +50873,25 @@ relationship: part_of EMAPA:16548 ! foregut
 relationship: starts_at TS14 ! TS14
 
 [Term]
-id: EMAPA:32924
-name: pancreatic duct
-namespace: anatomical_structure
-comment: order=8 for EMAPA:18816.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18816 ! pancreas
-relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:32925
 name: pancreas parenchyma
 namespace: anatomical_structure
+alt_id: EMAPA:32926
 comment: order=5 for EMAPA:17503.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17503 ! pancreas
 relationship: starts_at TS20 ! TS20
-
-[Term]
-id: EMAPA:32926
-name: pancreas parenchyma
-namespace: anatomical_structure
-comment: order=6 for EMAPA:18816.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18816 ! pancreas
-relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:32927
 name: islets of Langerhans
 namespace: anatomical_structure
-comment: order=0 for EMAPA:32926.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:32926 ! pancreas parenchyma
+alt_id: EMAPA:35652
+comment: order=0 for EMAPA:32926.\norder=0 for EMAPA:35305.
+synonym: "pancreatic islet" EXACT []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32925 ! pancreas parenchyma
+relationship: part_of EMAPA:35305 ! endocrine pancreas
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -51699,15 +50972,6 @@ relationship: part_of EMAPA:16640 ! early forebrain
 relationship: starts_at TS15 ! TS15
 
 [Term]
-id: EMAPA:32936
-name: future hindbrain floor plate
-namespace: anatomical_structure
-comment: order=2 for EMAPA:16148.
-relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16148 ! future hindbrain
-relationship: starts_at TS13 ! TS13
-
-[Term]
 id: EMAPA:32937
 name: early forebrain lateral wall
 namespace: anatomical_structure
@@ -51746,7 +51010,7 @@ is_a: EMAPA:35403 ! hindlimb long bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32633 ! hindlimb skeleton
 relationship: part_of EMAPA:32649 ! hindlimb digit
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:32941
@@ -51870,8 +51134,9 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:32952
 name: pancreatic duct
 namespace: anatomical_structure
+alt_id: EMAPA:32924
 comment: order=6 for EMAPA:17503.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17503 ! pancreas
 relationship: starts_at TS20 ! TS20
 
@@ -51879,21 +51144,12 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:32953
 name: dorsal pancreatic duct
 namespace: anatomical_structure
+alt_id: EMAPA:32954
 comment: order=1 for EMAPA:17503.
 is_a: EMAPA:32952 ! pancreatic duct
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17503 ! pancreas
 relationship: starts_at TS20 ! TS20
-
-[Term]
-id: EMAPA:32954
-name: dorsal pancreatic duct
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18816.
-is_a: EMAPA:32924 ! pancreatic duct
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18816 ! pancreas
-relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:32955
@@ -52124,7 +51380,7 @@ comment: order=0 for EMAPA:16900.
 synonym: "third ventricle ependyma" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16900 ! 3rd ventricle
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35101
@@ -52143,7 +51399,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35104.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35104 ! abdominal segment of trunk
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35103
@@ -52152,9 +51408,9 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35102.
 synonym: "abdominal musculature" RELATED []
 synonym: "abdominal wall musculature" RELATED []
-is_a: EMAPA:35578 ! skeletal musculature
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35102 ! abdomen
+relationship: part_of EMAPA:35888 ! trunk musculature
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -52165,7 +51421,7 @@ comment: order=0 for EMAPA:31857.
 synonym: "lower body" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31857 ! trunk
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35105
@@ -52634,7 +51890,7 @@ synonym: "A-V node" RELATED []
 synonym: "atrio-ventricular node" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35428 ! impulse conducting system
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35154
@@ -52809,7 +52065,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35172.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35172 ! biliary tract
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35172
@@ -52818,7 +52074,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:16840.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16840 ! liver and biliary system
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35173
@@ -52911,7 +52167,7 @@ comment: order=0 for EMAPA:16894.
 is_a: EMAPA:32743 ! blood vessel
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16894 ! brain
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35183
@@ -53010,7 +52266,7 @@ synonym: "bronchial cartilage" RELATED []
 is_a: EMAPA:18694 ! respiratory system cartilage
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35193 ! bronchus connective tissue
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35193
@@ -53021,7 +52277,7 @@ synonym: "bronchial connective tissue" RELATED []
 is_a: EMAPA:35977 ! respiratory system connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32689 ! bronchus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35194
@@ -53089,7 +52345,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:16104.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16104 ! cardiovascular system
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35202
@@ -53689,7 +52945,7 @@ namespace: anatomical_structure
 comment: order=10 for EMAPA:17681.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17681 ! chondrocranium
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35264
@@ -53707,7 +52963,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:32874.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32874 ! intestine
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35267
@@ -53870,15 +53126,6 @@ relationship: part_of EMAPA:17527 ! dermis
 relationship: starts_at TS27 ! TS27
 
 [Term]
-id: EMAPA:35284
-name: descending aorta
-namespace: anatomical_structure
-comment: order=4 for EMAPA:18601.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18601 ! aorta
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:35285
 name: descending colon
 namespace: anatomical_structure
@@ -54038,7 +53285,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:16991.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16991 ! outer ear
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35302
@@ -54075,7 +53322,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:18816.
 is_a: EMAPA:35999 ! endocrine gland
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18816 ! pancreas
+relationship: part_of EMAPA:17503 ! pancreas
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -54295,7 +53542,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:18816.
 is_a: EMAPA:35327 ! exocrine gland
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18816 ! pancreas
+relationship: part_of EMAPA:17503 ! pancreas
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -54572,7 +53819,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35263.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35263 ! cranial suture
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35359
@@ -54581,7 +53828,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:35263.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35263 ! cranial suture
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35360
@@ -54640,16 +53887,6 @@ relationship: part_of EMAPA:16478 ! early hindbrain
 relationship: starts_at TS14 ! TS14
 
 [Term]
-id: EMAPA:35366
-name: future hindbrain neural crest
-namespace: anatomical_structure
-comment: order=0 for EMAPA:32733.
-is_a: EMAPA:32737 ! neural crest
-relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:32733 ! future hindbrain neural fold
-relationship: starts_at TS13 ! TS13
-
-[Term]
 id: EMAPA:35367
 name: early hindbrain roof plate
 namespace: anatomical_structure
@@ -54686,7 +53923,7 @@ comment: order=0 for EMAPA:17202.
 is_a: EMAPA:35950 ! liver and biliary system epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17202 ! gallbladder
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35371
@@ -55278,16 +54515,6 @@ relationship: part_of EMAPA:35237 ! cerebral white matter
 relationship: starts_at TS27 ! TS27
 
 [Term]
-id: EMAPA:35436
-name: intercostales
-namespace: anatomical_structure
-comment: order=4 for EMAPA:18166.
-is_a: EMAPA:35988 ! skeletal muscle
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18166 ! axial musculature
-relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:35437
 name: internal capsule
 namespace: anatomical_structure
@@ -55345,7 +54572,7 @@ comment: order=0 for EMAPA:35440.
 synonym: "intestinal muscularis mucosa" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35440 ! intestine mucosa
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35443
@@ -55461,7 +54688,7 @@ id: EMAPA:35455
 name: jaw skeleton
 namespace: anatomical_structure
 comment: order=7 for EMAPA:32905.
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17213 ! skeleton
 relationship: part_of EMAPA:32905 ! jaw
 relationship: starts_at TS21 ! TS21
@@ -55561,9 +54788,10 @@ id: EMAPA:35465
 name: large intestine crypt of lieberkuhn
 namespace: anatomical_structure
 comment: order=2 for EMAPA:19252.
+is_a: EMAPA:35266 ! crypt of lieberkuhn
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19252 ! large intestine
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35466
@@ -55818,7 +55046,7 @@ name: left common carotid artery
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18610.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18610 ! common carotid artery
+relationship: part_of EMAPA:17855 ! common carotid artery
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -55889,7 +55117,7 @@ synonym: "hepatic blood vessel" RELATED []
 is_a: EMAPA:32743 ! blood vessel
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16846 ! liver
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35499
@@ -55899,16 +55127,6 @@ comment: order=0 for EMAPA:17203.
 synonym: "hepatic lobule" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17203 ! liver parenchyma
-relationship: starts_at TS27 ! TS27
-
-[Term]
-id: EMAPA:35500
-name: liver sinusoid
-namespace: anatomical_structure
-comment: order=1 for EMAPA:35499.
-synonym: "hepatic sinusoid" RELATED []
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35499 ! liver lobule
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -55949,7 +55167,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35503.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35503 ! long bone
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35505
@@ -56218,7 +55436,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35532.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35532 ! lymphatic vessel
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35534
@@ -57254,21 +56472,13 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35645
 name: pancreas epithelium
 namespace: anatomical_structure
+alt_id: EMAPA:35646
 comment: order=3 for EMAPA:17503.
 is_a: EMAPA:16564 ! foregut-midgut junction epithelium
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17503 ! pancreas
-relationship: starts_at TS22 ! TS22
-
-[Term]
-id: EMAPA:35646
-name: pancreas epithelium
-namespace: anatomical_structure
-comment: order=5 for EMAPA:18816.
 is_a: EMAPA:32928 ! gut epithelium
 relationship: ends_at TS25 ! TS25
-relationship: part_of EMAPA:18816 ! pancreas
-relationship: starts_at TS25 ! TS25
+relationship: part_of EMAPA:17503 ! pancreas
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35647
@@ -57314,17 +56524,8 @@ name: pancreatic acinus
 namespace: anatomical_structure
 comment: order=7 for EMAPA:18816.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18816 ! pancreas
+relationship: part_of EMAPA:17503 ! pancreas
 relationship: starts_at TS26 ! TS26
-
-[Term]
-id: EMAPA:35652
-name: pancreatic islet
-namespace: anatomical_structure
-comment: order=0 for EMAPA:35305.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35305 ! endocrine pancreas
-relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35653
@@ -57332,7 +56533,7 @@ name: pancreatic islet core
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35652.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35652 ! pancreatic islet
+relationship: part_of EMAPA:32927 ! islets of Langerhans
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -57341,7 +56542,7 @@ name: pancreatic islet mantle
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35652.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35652 ! pancreatic islet
+relationship: part_of EMAPA:32927 ! islets of Langerhans
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -57479,7 +56680,7 @@ is_a: EMAPA:35934 ! hindlimb bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17493 ! knee
 relationship: part_of EMAPA:32633 ! hindlimb skeleton
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35669
@@ -57944,7 +57145,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:35428.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35428 ! impulse conducting system
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35719
@@ -57983,16 +57184,6 @@ is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17550 ! medulla oblongata
 relationship: starts_at TS27 ! TS27
-
-[Term]
-id: EMAPA:35723
-name: rectum mesenchyme
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18925.
-is_a: EMAPA:32909 ! gut mesenchyme
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18925 ! rectum
-relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35724
@@ -58050,7 +57241,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:32697.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32697 ! bronchiole
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35730
@@ -58060,7 +57251,7 @@ comment: order=0 for EMAPA:35729.
 is_a: EMAPA:32693 ! bronchiole epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35729 ! respiratory bronchiole
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35731
@@ -58240,7 +57431,7 @@ name: right common carotid artery
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18610.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18610 ! common carotid artery
+relationship: part_of EMAPA:17855 ! common carotid artery
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -58457,7 +57648,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:35428.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35428 ! impulse conducting system
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35773
@@ -58476,7 +57667,7 @@ comment: order=10 for EMAPA:17525.
 is_a: EMAPA:17758 ! integumental system gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17525 ! skin
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35775
@@ -58503,9 +57694,10 @@ id: EMAPA:35777
 name: small intestine crypt of lieberkuhn
 namespace: anatomical_structure
 comment: order=0 for EMAPA:32834.
+is_a: EMAPA:35266 ! crypt of lieberkuhn
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32834 ! small intestine
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35778
@@ -58740,7 +57932,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:18767.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18767 ! spleen
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35803
@@ -58795,7 +57987,7 @@ namespace: anatomical_structure
 comment: order=5 for EMAPA:18767.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18767 ! spleen
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35809
@@ -58814,7 +58006,7 @@ comment: order=0 for EMAPA:18889.
 is_a: EMAPA:35821 ! stomach region
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17021 ! stomach
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35811
@@ -58833,16 +58025,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:32835.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17023 ! stomach epithelium
-relationship: starts_at TS28 ! TS28
-
-[Term]
-id: EMAPA:35815
-name: stomach glandular region glandular mucous membrane
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18896.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:17623 ! stomach glandular region
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35817
@@ -59180,7 +58363,7 @@ synonym: "Achilles tendon" RELATED []
 synonym: "calcaneal tendon" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35854 ! tendon
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35854
@@ -59370,7 +58553,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:32782.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32782 ! bone
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35874
@@ -59517,7 +58700,7 @@ comment: order=5 for EMAPA:31857.\norder=2 for EMAPA:35578.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31857 ! trunk
 relationship: part_of EMAPA:35578 ! skeletal musculature
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35889
@@ -59806,7 +58989,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:32740.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32740 ! vertebra
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35919
@@ -61122,7 +60305,7 @@ id: EMAPA:36059
 name: common atrial chamber auricular region
 namespace: anatomical_structure
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16689 ! common atrial chamber
+relationship: part_of EMAPA:16342 ! common atrial chamber
 relationship: starts_at TS16 ! TS16
 
 [Term]
