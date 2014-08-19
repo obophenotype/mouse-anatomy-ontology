@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 14:08:2014 12:52
-saved-by: terryh
-auto-generated-by: OBO-Edit 2.2
+date: 19:08:2014 10:38
+saved-by: jarm
+auto-generated-by: OBO-Edit 2.3-beta5
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -38915,7 +38915,7 @@ id: EMAPA:27577
 name: cloacal epithelium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:27573.
-synonym: "distal urethral epithelium" RELATED []
+synonym: "cloacal endoderm" RELATED []
 is_a: EMAPA:35954 ! genitourinary system epithelium
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:27573 ! cloaca
