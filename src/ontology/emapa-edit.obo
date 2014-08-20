@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 19:08:2014 10:38
-saved-by: jarm
-auto-generated-by: OBO-Edit 2.3-beta5
+date: 20:08:2014 16:05
+saved-by: terryh
+auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -538,9 +538,12 @@ relationship: starts_at TS11 ! TS11
 id: EMAPA:16089
 name: future brain
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16073.
-relationship: ends_at TS13 ! TS13
+alt_id: EMAPA:16471
+comment: order=0 for EMAPA:16073.\norder=5 for EMAPA:16470.
+synonym: "early brain" EXACT []
+relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16073 ! neural ectoderm
+relationship: part_of EMAPA:16470 ! central nervous system
 relationship: starts_at TS11 ! TS11
 
 [Term]
@@ -4250,22 +4253,13 @@ relationship: part_of EMAPA:16469 ! nervous system
 relationship: starts_at TS14 ! TS14
 
 [Term]
-id: EMAPA:16471
-name: early brain
-namespace: anatomical_structure
-comment: order=5 for EMAPA:16470.
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16470 ! central nervous system
-relationship: starts_at TS14 ! TS14
-
-[Term]
 id: EMAPA:16472
 name: early midbrain
 namespace: anatomical_structure
 comment: order=7 for EMAPA:16471.
 synonym: "early mesencephalon" RELATED []
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16471 ! early brain
+relationship: part_of EMAPA:16089 ! future brain
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -4322,7 +4316,7 @@ namespace: anatomical_structure
 comment: order=6 for EMAPA:16471.
 synonym: "early rhombencephalon" RELATED []
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16471 ! early brain
+relationship: part_of EMAPA:16089 ! future brain
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -4616,7 +4610,7 @@ name: prosencephalon
 namespace: anatomical_structure
 comment: order=9 for EMAPA:16471.
 relationship: ends_at TS14 ! TS14
-relationship: part_of EMAPA:16471 ! early brain
+relationship: part_of EMAPA:16089 ! future brain
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -5780,7 +5774,7 @@ namespace: anatomical_structure
 comment: order=5 for EMAPA:16471.
 synonym: "prosencephalon" RELATED []
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16471 ! early brain
+relationship: part_of EMAPA:16089 ! future brain
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -47614,7 +47608,7 @@ name: early brain ventricle
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16471.
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16471 ! early brain
+relationship: part_of EMAPA:16089 ! future brain
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -47634,7 +47628,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:16471.
 is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16471 ! early brain
+relationship: part_of EMAPA:16089 ! future brain
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -49293,7 +49287,7 @@ name: early midbrain-hindbrain junction
 namespace: anatomical_structure
 comment: order=8 for EMAPA:16471.
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16471 ! early brain
+relationship: part_of EMAPA:16089 ! future brain
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -52900,7 +52894,7 @@ name: early brain marginal layer
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16471.
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16471 ! early brain
+relationship: part_of EMAPA:16089 ! future brain
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -52909,7 +52903,7 @@ name: early brain roof plate
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16471.
 relationship: ends_at TS15 ! TS15
-relationship: part_of EMAPA:16471 ! early brain
+relationship: part_of EMAPA:16089 ! future brain
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -52919,7 +52913,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:16471.
 is_a: EMAPA:35209 ! ventricular layer
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16471 ! early brain
+relationship: part_of EMAPA:16089 ! future brain
 relationship: starts_at TS14 ! TS14
 
 [Term]
