@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 20:08:2014 16:05
-saved-by: jane a
+date: 21:08:2014 16:02
+saved-by: terryh
 auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
 remark: Version 012
@@ -540,7 +540,6 @@ name: future brain
 namespace: anatomical_structure
 alt_id: EMAPA:16471
 comment: order=0 for EMAPA:16073.\norder=5 for EMAPA:16470.
-synonym: "early brain" EXACT []
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16073 ! neural ectoderm
 relationship: part_of EMAPA:16470 ! central nervous system
@@ -570,18 +569,21 @@ relationship: starts_at TS11 ! TS11
 id: EMAPA:16092
 name: future spinal cord
 namespace: anatomical_structure
-comment: order=1 for EMAPA:16073.
-relationship: ends_at TS13 ! TS13
+alt_id: EMAPA:16525
+comment: order=1 for EMAPA:16073.\norder=7 for EMAPA:16470.
+relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16073 ! neural ectoderm
+relationship: part_of EMAPA:16470 ! central nervous system
 relationship: starts_at TS11 ! TS11
 
 [Term]
 id: EMAPA:16095
 name: future spinal cord neural plate
 namespace: anatomical_structure
-comment: order=1 for EMAPA:16092.
+alt_id: EMAPA:16527
+comment: order=1 for EMAPA:16092.\norder=2 for EMAPA:16525.
 is_a: EMAPA:35593 ! neural plate
-relationship: ends_at TS13 ! TS13
+relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16092 ! future spinal cord
 relationship: starts_at TS11 ! TS11
 
@@ -1022,9 +1024,10 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:16140
 name: future midbrain
 namespace: anatomical_structure
-comment: order=1 for EMAPA:16089.
+alt_id: EMAPA:16472
+comment: order=1 for EMAPA:16089.\norder=7 for EMAPA:16471.
 synonym: "future mesencephalon" RELATED []
-relationship: ends_at TS13 ! TS13
+relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16089 ! future brain
 relationship: starts_at TS12 ! TS12
 
@@ -1032,8 +1035,10 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:16141
 name: future midbrain floor plate
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16140.
-relationship: ends_at TS13 ! TS13
+alt_id: EMAPA:16473
+comment: order=0 for EMAPA:16140.\norder=0 for EMAPA:16472.
+is_a: EMAPA:32684 ! floor plate
+relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16140 ! future midbrain
 relationship: starts_at TS12 ! TS12
 
@@ -1051,9 +1056,11 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:16143
 name: future midbrain neural crest
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16142.
+alt_id: EMAPA:16476
+comment: order=0 for EMAPA:16142.\norder=2 for EMAPA:16472.
 is_a: EMAPA:32737 ! neural crest
-relationship: ends_at TS13 ! TS13
+relationship: ends_at TS14 ! TS14
+relationship: part_of EMAPA:16140 ! future midbrain
 relationship: part_of EMAPA:16142 ! future midbrain neural fold
 relationship: starts_at TS12 ! TS12
 
@@ -1099,9 +1106,10 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:16148
 name: future hindbrain
 namespace: anatomical_structure
-comment: order=3 for EMAPA:16089.
+alt_id: EMAPA:16478
+comment: order=3 for EMAPA:16089.\norder=6 for EMAPA:16471.
 synonym: "future rhombencephalon" RELATED []
-relationship: ends_at TS13 ! TS13
+relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16089 ! future brain
 relationship: starts_at TS12 ! TS12
 
@@ -1159,8 +1167,10 @@ id: EMAPA:16154
 name: future hindbrain floor plate
 namespace: anatomical_structure
 alt_id: EMAPA:32936
+alt_id: EMAPA:35363
 comment: order=0 for EMAPA:16153.
-relationship: ends_at TS13 ! TS13
+is_a: EMAPA:32684 ! floor plate
+relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16148 ! future hindbrain
 relationship: part_of EMAPA:16153 ! future hindbrain neural ectoderm
 relationship: starts_at TS12 ! TS12
@@ -1243,10 +1253,10 @@ id: EMAPA:16162
 name: future spinal cord neural fold
 namespace: anatomical_structure
 alt_id: EMAPA:16093
-comment: order=0 for EMAPA:16095.
-synonym: "future spinal cord neural fold" EXACT []
+alt_id: EMAPA:16528
+comment: order=0 for EMAPA:16095.\norder=0 for EMAPA:16527.
 is_a: EMAPA:32732 ! neural fold
-relationship: ends_at TS13 ! TS13
+relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16095 ! future spinal cord neural plate
 relationship: starts_at TS11 ! TS11
 
@@ -1255,56 +1265,62 @@ id: EMAPA:16163
 name: future spinal cord neural crest
 namespace: anatomical_structure
 alt_id: EMAPA:16094
-comment: order=0 for EMAPA:16162.
-synonym: "future spinal cord neural crest" EXACT []
+alt_id: EMAPA:16529
+comment: order=0 for EMAPA:16162.\norder=0 for EMAPA:16528.
 is_a: EMAPA:32737 ! neural crest
-relationship: ends_at TS13 ! TS13
+relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16162 ! future spinal cord neural fold
 relationship: starts_at TS11 ! TS11
 
 [Term]
 id: EMAPA:16164
-name: future spinal cord neural tube
+name: neural tube
 namespace: anatomical_structure
-comment: order=2 for EMAPA:16092.
-relationship: ends_at TS13 ! TS13
+alt_id: EMAPA:16530
+comment: order=2 for EMAPA:16092.\norder=3 for EMAPA:16525.
+relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16092 ! future spinal cord
 relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16165
-name: future spinal cord floor plate
+name: neural tube floor plate
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16164.
-relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16164 ! future spinal cord neural tube
+alt_id: EMAPA:16531
+comment: order=0 for EMAPA:16164.\norder=1 for EMAPA:16530.
+is_a: EMAPA:32684 ! floor plate
+relationship: ends_at TS19 ! TS19
+relationship: part_of EMAPA:16164 ! neural tube
 relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16166
-name: future spinal cord lateral wall
+name: neural tube lateral wall
 namespace: anatomical_structure
-comment: order=1 for EMAPA:16164.
-relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16164 ! future spinal cord neural tube
+alt_id: EMAPA:16532
+comment: order=1 for EMAPA:16164.\norder=2 for EMAPA:16530.
+relationship: ends_at TS19 ! TS19
+relationship: part_of EMAPA:16164 ! neural tube
 relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16167
-name: future spinal cord neural lumen
+name: neural lumen
 namespace: anatomical_structure
-comment: order=2 for EMAPA:16164.
-relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16164 ! future spinal cord neural tube
+alt_id: EMAPA:16533
+comment: order=2 for EMAPA:16164.\norder=0 for EMAPA:16530.
+relationship: ends_at TS19 ! TS19
+relationship: part_of EMAPA:16164 ! neural tube
 relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16168
-name: future spinal cord roof plate
+name: neural tube roof plate
 namespace: anatomical_structure
-comment: order=3 for EMAPA:16164.
-relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16164 ! future spinal cord neural tube
+alt_id: EMAPA:16535
+comment: order=3 for EMAPA:16164.\norder=3 for EMAPA:16530.
+relationship: ends_at TS19 ! TS19
+relationship: part_of EMAPA:16164 ! neural tube
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -1672,41 +1688,32 @@ relationship: part_of EMAPA:36034 ! umbilical or vitelline vessel
 relationship: starts_at TS12 ! TS12
 
 [Term]
-id: EMAPA:16208
-name: early primitive heart tube
-namespace: anatomical_structure
-comment: order=12 for EMAPA:16105.
-relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16105 ! heart
-relationship: starts_at TS12 ! TS12
-
-[Term]
 id: EMAPA:16209
-name: early primitive heart tube cardiac jelly
+name: primitive heart tube cardiac jelly
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16208.
 is_a: EMAPA:32687 ! cardiac jelly
 relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16208 ! early primitive heart tube
+relationship: part_of EMAPA:16215 ! primitive heart tube
 relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16210
-name: early primitive heart tube endocardial tube
+name: primitive heart tube endocardial tube
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16208.
 is_a: EMAPA:32685 ! endocardial tube
 relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16208 ! early primitive heart tube
+relationship: part_of EMAPA:16215 ! primitive heart tube
 relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16211
-name: early primitive heart tube cardiac muscle
+name: primitive heart tube cardiac muscle
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16208.\norder=7 for EMAPA:32688.
 relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16208 ! early primitive heart tube
+relationship: part_of EMAPA:16215 ! primitive heart tube
 relationship: part_of EMAPA:32688 ! cardiac muscle tissue
 relationship: starts_at TS12 ! TS12
 
@@ -1744,213 +1751,10 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:16215
 name: primitive heart tube
 namespace: anatomical_structure
-comment: order=26 for EMAPA:16105.
+alt_id: EMAPA:16208
+comment: order=26 for EMAPA:16105.\norder=12 for EMAPA:16105.
 relationship: ends_at TS12 ! TS12
 relationship: part_of EMAPA:16105 ! heart
-relationship: starts_at TS12 ! TS12
-
-[Term]
-id: EMAPA:16216
-name: early bulbus cordis
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16215.
-relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16215 ! primitive heart tube
-relationship: starts_at TS12 ! TS12
-
-[Term]
-id: EMAPA:16217
-name: early bulbus cordis caudal half
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16216.
-relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16216 ! early bulbus cordis
-relationship: starts_at TS12 ! TS12
-
-[Term]
-id: EMAPA:16218
-name: early bulbus cordis caudal half cardiac jelly
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16217.
-is_a: EMAPA:32687 ! cardiac jelly
-relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16217 ! early bulbus cordis caudal half
-relationship: starts_at TS12 ! TS12
-
-[Term]
-id: EMAPA:16219
-name: early bulbus cordis caudal half endocardial tube
-namespace: anatomical_structure
-comment: order=2 for EMAPA:16217.
-is_a: EMAPA:32685 ! endocardial tube
-relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16217 ! early bulbus cordis caudal half
-relationship: starts_at TS12 ! TS12
-
-[Term]
-id: EMAPA:16220
-name: early bulbus cordis caudal half cardiac muscle
-namespace: anatomical_structure
-comment: order=1 for EMAPA:16217.\norder=4 for EMAPA:32688.
-relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16217 ! early bulbus cordis caudal half
-relationship: part_of EMAPA:32688 ! cardiac muscle tissue
-relationship: starts_at TS12 ! TS12
-
-[Term]
-id: EMAPA:16221
-name: early bulbus cordis rostral half
-namespace: anatomical_structure
-comment: order=1 for EMAPA:16216.
-relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16216 ! early bulbus cordis
-relationship: starts_at TS12 ! TS12
-
-[Term]
-id: EMAPA:16222
-name: early bulbus cordis rostral half cardiac jelly
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16221.
-is_a: EMAPA:32687 ! cardiac jelly
-relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16221 ! early bulbus cordis rostral half
-relationship: starts_at TS12 ! TS12
-
-[Term]
-id: EMAPA:16223
-name: early bulbus cordis rostral half endocardial tube
-namespace: anatomical_structure
-comment: order=2 for EMAPA:16221.
-is_a: EMAPA:32685 ! endocardial tube
-relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16221 ! early bulbus cordis rostral half
-relationship: starts_at TS12 ! TS12
-
-[Term]
-id: EMAPA:16224
-name: early bulbus cordis rostral half cardiac muscle
-namespace: anatomical_structure
-comment: order=1 for EMAPA:16221.\norder=5 for EMAPA:32688.
-relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16221 ! early bulbus cordis rostral half
-relationship: part_of EMAPA:32688 ! cardiac muscle tissue
-relationship: starts_at TS12 ! TS12
-
-[Term]
-id: EMAPA:16225
-name: early common atrial chamber
-namespace: anatomical_structure
-comment: order=1 for EMAPA:16215.
-relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16215 ! primitive heart tube
-relationship: starts_at TS12 ! TS12
-
-[Term]
-id: EMAPA:16226
-name: early common atrial chamber cardiac jelly
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16225.
-is_a: EMAPA:32687 ! cardiac jelly
-relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16225 ! early common atrial chamber
-relationship: starts_at TS12 ! TS12
-
-[Term]
-id: EMAPA:16227
-name: early common atrial chamber endocardial tube
-namespace: anatomical_structure
-comment: order=2 for EMAPA:16225.
-is_a: EMAPA:32685 ! endocardial tube
-relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16225 ! early common atrial chamber
-relationship: starts_at TS12 ! TS12
-
-[Term]
-id: EMAPA:16228
-name: early common atrial chamber cardiac muscle
-namespace: anatomical_structure
-comment: order=1 for EMAPA:16225.\norder=6 for EMAPA:32688.
-relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16225 ! early common atrial chamber
-relationship: part_of EMAPA:32688 ! cardiac muscle tissue
-relationship: starts_at TS12 ! TS12
-
-[Term]
-id: EMAPA:16229
-name: early outflow tract
-namespace: anatomical_structure
-comment: order=2 for EMAPA:16215.
-relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16215 ! primitive heart tube
-relationship: starts_at TS12 ! TS12
-
-[Term]
-id: EMAPA:16230
-name: early outflow tract cardiac jelly
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16229.
-is_a: EMAPA:32687 ! cardiac jelly
-relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16229 ! early outflow tract
-relationship: starts_at TS12 ! TS12
-
-[Term]
-id: EMAPA:16231
-name: early outflow tract endocardial tube
-namespace: anatomical_structure
-comment: order=1 for EMAPA:16229.
-is_a: EMAPA:32685 ! endocardial tube
-relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16229 ! early outflow tract
-relationship: starts_at TS12 ! TS12
-
-[Term]
-id: EMAPA:16232
-name: early outflow tract mesenchyme
-namespace: anatomical_structure
-comment: order=2 for EMAPA:16229.
-is_a: EMAPA:35973 ! cardiovascular system mesenchyme
-relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16229 ! early outflow tract
-relationship: starts_at TS12 ! TS12
-
-[Term]
-id: EMAPA:16233
-name: early primitive ventricle
-namespace: anatomical_structure
-comment: order=3 for EMAPA:16215.
-relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16215 ! primitive heart tube
-relationship: starts_at TS12 ! TS12
-
-[Term]
-id: EMAPA:16234
-name: early primitive ventricle cardiac jelly
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16233.
-is_a: EMAPA:32687 ! cardiac jelly
-relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16233 ! early primitive ventricle
-relationship: starts_at TS12 ! TS12
-
-[Term]
-id: EMAPA:16235
-name: early primitive ventricle endocardial tube
-namespace: anatomical_structure
-comment: order=2 for EMAPA:16233.
-is_a: EMAPA:32685 ! endocardial tube
-relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16233 ! early primitive ventricle
-relationship: starts_at TS12 ! TS12
-
-[Term]
-id: EMAPA:16236
-name: early primitive ventricle cardiac muscle
-namespace: anatomical_structure
-comment: order=1 for EMAPA:16233.\norder=8 for EMAPA:32688.
-relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16233 ! early primitive ventricle
-relationship: part_of EMAPA:32688 ! cardiac muscle tissue
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -2395,8 +2199,9 @@ relationship: starts_at TS13 ! TS13
 id: EMAPA:16285
 name: future midbrain roof plate
 namespace: anatomical_structure
-comment: order=2 for EMAPA:16140.
-relationship: ends_at TS13 ! TS13
+alt_id: EMAPA:16477
+comment: order=2 for EMAPA:16140.\norder=3 for EMAPA:16472.
+relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16140 ! future midbrain
 relationship: starts_at TS13 ! TS13
 
@@ -2449,7 +2254,6 @@ comment: order=8 for EMAPA:16148.\norder=7 for EMAPA:16478.\norder=11 for EMAPA:
 is_a: EMAPA:32820 ! rhombomere
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16148 ! future hindbrain
-relationship: part_of EMAPA:16478 ! early hindbrain
 relationship: part_of EMAPA:16916 ! hindbrain
 relationship: part_of EMAPA:17071 ! metencephalon
 relationship: starts_at TS13 ! TS13
@@ -2490,7 +2294,6 @@ comment: order=9 for EMAPA:16148.\norder=8 for EMAPA:16478.\norder=12 for EMAPA:
 is_a: EMAPA:32820 ! rhombomere
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16148 ! future hindbrain
-relationship: part_of EMAPA:16478 ! early hindbrain
 relationship: part_of EMAPA:16916 ! hindbrain
 relationship: part_of EMAPA:17071 ! metencephalon
 relationship: starts_at TS13 ! TS13
@@ -2542,7 +2345,6 @@ comment: order=10 for EMAPA:16148.\norder=9 for EMAPA:16478.\norder=13 for EMAPA
 is_a: EMAPA:32820 ! rhombomere
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16148 ! future hindbrain
-relationship: part_of EMAPA:16478 ! early hindbrain
 relationship: part_of EMAPA:16916 ! hindbrain
 relationship: part_of EMAPA:17082 ! myelencephalon
 relationship: starts_at TS13 ! TS13
@@ -2594,7 +2396,6 @@ comment: order=11 for EMAPA:16148.\norder=10 for EMAPA:16478.\norder=14 for EMAP
 is_a: EMAPA:32820 ! rhombomere
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16148 ! future hindbrain
-relationship: part_of EMAPA:16478 ! early hindbrain
 relationship: part_of EMAPA:16916 ! hindbrain
 relationship: part_of EMAPA:17082 ! myelencephalon
 relationship: starts_at TS13 ! TS13
@@ -2646,7 +2447,6 @@ comment: order=12 for EMAPA:16148.\norder=11 for EMAPA:16478.\norder=15 for EMAP
 is_a: EMAPA:32820 ! rhombomere
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16148 ! future hindbrain
-relationship: part_of EMAPA:16478 ! early hindbrain
 relationship: part_of EMAPA:16916 ! hindbrain
 relationship: part_of EMAPA:17082 ! myelencephalon
 relationship: starts_at TS13 ! TS13
@@ -2701,11 +2501,12 @@ relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16310
-name: future spinal cord neural luminal occlusion
+name: neural luminal occlusion
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16167.
-relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16167 ! future spinal cord neural lumen
+alt_id: EMAPA:16534
+comment: order=0 for EMAPA:16167.\norder=0 for EMAPA:16533.
+relationship: ends_at TS18 ! TS18
+relationship: part_of EMAPA:16167 ! neural lumen
 relationship: starts_at TS13 ! TS13
 
 [Term]
@@ -2914,210 +2715,236 @@ relationship: starts_at TS13 ! TS13
 id: EMAPA:16333
 name: bulbus cordis
 namespace: anatomical_structure
-comment: order=6 for EMAPA:16105.
+alt_id: EMAPA:16216
+comment: order=6 for EMAPA:16105.\norder=0 for EMAPA:16215.
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16105 ! heart
-relationship: starts_at TS13 ! TS13
+relationship: part_of EMAPA:16215 ! primitive heart tube
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16334
 name: bulbus cordis caudal half
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16333.
+alt_id: EMAPA:16217
+comment: order=0 for EMAPA:16333.\norder=0 for EMAPA:16216.
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16333 ! bulbus cordis
-relationship: starts_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16335
 name: bulbus cordis caudal half cardiac jelly
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16334.
+alt_id: EMAPA:16218
+comment: order=0 for EMAPA:16334.\norder=0 for EMAPA:16217.
 is_a: EMAPA:32687 ! cardiac jelly
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16334 ! bulbus cordis caudal half
-relationship: starts_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16336
 name: bulbus cordis caudal half endocardial tube
 namespace: anatomical_structure
-comment: order=3 for EMAPA:16334.
+alt_id: EMAPA:16219
+comment: order=3 for EMAPA:16334.\norder=2 for EMAPA:16217.
 is_a: EMAPA:32685 ! endocardial tube
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16334 ! bulbus cordis caudal half
-relationship: starts_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16337
 name: bulbus cordis caudal half cardiac muscle
 namespace: anatomical_structure
-comment: order=1 for EMAPA:16334.\norder=1 for EMAPA:32688.
+alt_id: EMAPA:16220
+comment: order=1 for EMAPA:16217.\norder=4 for EMAPA:32688.
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16334 ! bulbus cordis caudal half
 relationship: part_of EMAPA:32688 ! cardiac muscle tissue
-relationship: starts_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16338
 name: bulbus cordis rostral half
 namespace: anatomical_structure
-comment: order=1 for EMAPA:16333.
+alt_id: EMAPA:16221
+comment: order=1 for EMAPA:16333.\norder=1 for EMAPA:16216.
 synonym: "conotruncus" RELATED []
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16333 ! bulbus cordis
-relationship: starts_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16339
 name: bulbus cordis rostral half cardiac jelly
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16338.
+alt_id: EMAPA:16222
+comment: order=0 for EMAPA:16338.\norder=0 for EMAPA:16221.
 is_a: EMAPA:32687 ! cardiac jelly
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16338 ! bulbus cordis rostral half
-relationship: starts_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16340
 name: bulbus cordis rostral half endocardial tube
 namespace: anatomical_structure
-comment: order=3 for EMAPA:16338.
+alt_id: EMAPA:16223
+comment: order=3 for EMAPA:16338.\norder=2 for EMAPA:16221.
 is_a: EMAPA:32685 ! endocardial tube
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16338 ! bulbus cordis rostral half
-relationship: starts_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16341
 name: bulbus cordis rostral half cardiac muscle
 namespace: anatomical_structure
-comment: order=1 for EMAPA:16338.\norder=2 for EMAPA:32688.
+alt_id: EMAPA:16224
+comment: order=1 for EMAPA:16338.\norder=2 for EMAPA:32688.\norder=1 for EMAPA:16221.\norder=5 for EMAPA:32688.
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16338 ! bulbus cordis rostral half
 relationship: part_of EMAPA:32688 ! cardiac muscle tissue
-relationship: starts_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16342
 name: common atrial chamber
 namespace: anatomical_structure
+alt_id: EMAPA:16225
 alt_id: EMAPA:16689
-comment: order=10 for EMAPA:16105.\norder=2 for EMAPA:16688.
+comment: order=10 for EMAPA:16105.\norder=2 for EMAPA:16688.\norder=1 for EMAPA:16215.
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16105 ! heart
+relationship: part_of EMAPA:16215 ! primitive heart tube
 relationship: part_of EMAPA:16688 ! heart atrium
-relationship: starts_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16343
 name: common atrial chamber cardiac jelly
 namespace: anatomical_structure
+alt_id: EMAPA:16226
 alt_id: EMAPA:16690
-comment: order=0 for EMAPA:16342.\norder=0 for EMAPA:16689.
+comment: order=0 for EMAPA:16342.\norder=0 for EMAPA:16689.\norder=0 for EMAPA:16225.
 is_a: EMAPA:32687 ! cardiac jelly
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16342 ! common atrial chamber
-relationship: starts_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16344
 name: common atrial chamber endocardial tube
 namespace: anatomical_structure
-comment: order=2 for EMAPA:16342.
+alt_id: EMAPA:16227
+comment: order=2 for EMAPA:16342.\norder=2 for EMAPA:16225.
 is_a: EMAPA:32685 ! endocardial tube
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16342 ! common atrial chamber
-relationship: starts_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16345
 name: common atrial chamber cardiac muscle
 namespace: anatomical_structure
+alt_id: EMAPA:16228
 alt_id: EMAPA:16692
-comment: order=1 for EMAPA:16342.\norder=3 for EMAPA:32688.\norder=0 for EMAPA:32746.
+comment: order=1 for EMAPA:16342.\norder=3 for EMAPA:32688.\norder=0 for EMAPA:32746.\norder=1 for EMAPA:16225.\norder=6 for EMAPA:32688.
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16342 ! common atrial chamber
 relationship: part_of EMAPA:32688 ! cardiac muscle tissue
 relationship: part_of EMAPA:32746 ! atrium cardiac muscle
-relationship: starts_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16346
 name: outflow tract
 namespace: anatomical_structure
-comment: order=24 for EMAPA:16105.
+alt_id: EMAPA:16229
+comment: order=24 for EMAPA:16105.\norder=2 for EMAPA:16215.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16105 ! heart
-relationship: starts_at TS13 ! TS13
+relationship: part_of EMAPA:16215 ! primitive heart tube
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16347
 name: outflow tract cardiac jelly
 namespace: anatomical_structure
-comment: order=2 for EMAPA:16346.
+alt_id: EMAPA:16230
+comment: order=2 for EMAPA:16346.\norder=0 for EMAPA:16229.
 is_a: EMAPA:32687 ! cardiac jelly
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16346 ! outflow tract
-relationship: starts_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16348
 name: outflow tract endocardial tube
 namespace: anatomical_structure
-comment: order=4 for EMAPA:16346.
+alt_id: EMAPA:16231
+comment: order=4 for EMAPA:16346.\norder=1 for EMAPA:16229.
+is_a: EMAPA:32685 ! endocardial tube
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16346 ! outflow tract
-relationship: starts_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16349
 name: outflow tract mesenchyme
 namespace: anatomical_structure
-comment: order=5 for EMAPA:16346.
+alt_id: EMAPA:16232
+comment: order=5 for EMAPA:16346.\norder=2 for EMAPA:16229.
 is_a: EMAPA:35973 ! cardiovascular system mesenchyme
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16346 ! outflow tract
-relationship: starts_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16350
 name: primitive ventricle
 namespace: anatomical_structure
-comment: order=27 for EMAPA:16105.
+alt_id: EMAPA:16233
+comment: order=27 for EMAPA:16105.\norder=3 for EMAPA:16215.
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16105 ! heart
-relationship: starts_at TS13 ! TS13
+relationship: part_of EMAPA:16215 ! primitive heart tube
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16351
 name: primitive ventricle cardiac jelly
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16350.
+alt_id: EMAPA:16234
+comment: order=0 for EMAPA:16350.\norder=0 for EMAPA:16233.
 is_a: EMAPA:32687 ! cardiac jelly
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16350 ! primitive ventricle
-relationship: starts_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16352
 name: primitive ventricle endocardial tube
 namespace: anatomical_structure
-comment: order=3 for EMAPA:16350.
+alt_id: EMAPA:16235
+comment: order=3 for EMAPA:16350.\norder=2 for EMAPA:16233.
 is_a: EMAPA:32685 ! endocardial tube
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16350 ! primitive ventricle
-relationship: starts_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16353
 name: primitive ventricle cardiac muscle
 namespace: anatomical_structure
-comment: order=1 for EMAPA:16350.\norder=10 for EMAPA:32688.
+alt_id: EMAPA:16236
+comment: order=1 for EMAPA:16350.\norder=10 for EMAPA:32688.\norder=1 for EMAPA:16233.\norder=8 for EMAPA:32688.
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16350 ! primitive ventricle
 relationship: part_of EMAPA:32688 ! cardiac muscle tissue
-relationship: starts_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16354
@@ -4253,81 +4080,12 @@ relationship: part_of EMAPA:16469 ! nervous system
 relationship: starts_at TS14 ! TS14
 
 [Term]
-id: EMAPA:16472
-name: early midbrain
-namespace: anatomical_structure
-comment: order=7 for EMAPA:16471.
-synonym: "early mesencephalon" RELATED []
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16089 ! future brain
-relationship: starts_at TS14 ! TS14
-
-[Term]
-id: EMAPA:16473
-name: early midbrain floor plate
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16472.
-is_a: EMAPA:32684 ! floor plate
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16472 ! early midbrain
-relationship: starts_at TS14 ! TS14
-
-[Term]
 id: EMAPA:16474
-name: early midbrain lateral wall
+name: future midbrain lateral wall
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16472.
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16472 ! early midbrain
-relationship: starts_at TS14 ! TS14
-
-[Term]
-id: EMAPA:16475
-name: early mesencephalic vesicle
-namespace: anatomical_structure
-comment: order=4 for EMAPA:16472.
-synonym: "future cerebral aqueduct" RELATED []
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16472 ! early midbrain
-relationship: starts_at TS14 ! TS14
-
-[Term]
-id: EMAPA:16476
-name: early midbrain neural crest
-namespace: anatomical_structure
-comment: order=2 for EMAPA:16472.
-relationship: ends_at TS14 ! TS14
-relationship: part_of EMAPA:16472 ! early midbrain
-relationship: starts_at TS14 ! TS14
-
-[Term]
-id: EMAPA:16477
-name: early midbrain roof plate
-namespace: anatomical_structure
-comment: order=3 for EMAPA:16472.
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16472 ! early midbrain
-relationship: starts_at TS14 ! TS14
-
-[Term]
-id: EMAPA:16478
-name: early hindbrain
-namespace: anatomical_structure
-comment: order=6 for EMAPA:16471.
-synonym: "early rhombencephalon" RELATED []
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16089 ! future brain
-relationship: starts_at TS14 ! TS14
-
-[Term]
-id: EMAPA:16479
-name: early 4th ventricle
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16478.
-synonym: "early fourth ventricle" RELATED []
-is_a: EMAPA:32675 ! early brain ventricle
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16478 ! early hindbrain
+relationship: part_of EMAPA:16140 ! future midbrain
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -4459,7 +4217,7 @@ alt_id: EMAPA:17127
 comment: order=12 for EMAPA:16478.\norder=16 for EMAPA:16916.\norder=7 for EMAPA:17082.
 is_a: EMAPA:32820 ! rhombomere
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16478 ! early hindbrain
+relationship: part_of EMAPA:16148 ! future hindbrain
 relationship: part_of EMAPA:16916 ! hindbrain
 relationship: part_of EMAPA:17082 ! myelencephalon
 relationship: starts_at TS14 ! TS14
@@ -4510,7 +4268,7 @@ alt_id: EMAPA:17134
 comment: order=13 for EMAPA:16478.\norder=17 for EMAPA:16916.\norder=8 for EMAPA:17082.
 is_a: EMAPA:32820 ! rhombomere
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16478 ! early hindbrain
+relationship: part_of EMAPA:16148 ! future hindbrain
 relationship: part_of EMAPA:16916 ! hindbrain
 relationship: part_of EMAPA:17082 ! myelencephalon
 relationship: starts_at TS14 ! TS14
@@ -4561,7 +4319,7 @@ alt_id: EMAPA:17141
 comment: order=14 for EMAPA:16478.\norder=18 for EMAPA:16916.\norder=9 for EMAPA:17082.
 is_a: EMAPA:32820 ! rhombomere
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16478 ! early hindbrain
+relationship: part_of EMAPA:16148 ! future hindbrain
 relationship: part_of EMAPA:16916 ! hindbrain
 relationship: part_of EMAPA:17082 ! myelencephalon
 relationship: starts_at TS14 ! TS14
@@ -4630,17 +4388,6 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:16512.
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16512 ! prosencephalon
-relationship: starts_at TS14 ! TS14
-
-[Term]
-id: EMAPA:16515
-name: future diencephalon 3rd ventricle
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16514.
-synonym: "future diencephalon third ventricle" RELATED []
-is_a: EMAPA:32675 ! early brain ventricle
-relationship: ends_at TS14 ! TS14
-relationship: part_of EMAPA:16514 ! future diencephalon
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -4726,104 +4473,13 @@ relationship: part_of EMAPA:16512 ! prosencephalon
 relationship: starts_at TS14 ! TS14
 
 [Term]
-id: EMAPA:16525
-name: early spinal cord
-namespace: anatomical_structure
-comment: order=7 for EMAPA:16470.
-relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16470 ! central nervous system
-relationship: starts_at TS14 ! TS14
-
-[Term]
 id: EMAPA:16526
 name: caudal neuropore
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16525.
 synonym: "posterior neuropore" RELATED []
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16525 ! early spinal cord
-relationship: starts_at TS14 ! TS14
-
-[Term]
-id: EMAPA:16527
-name: early spinal cord neural plate
-namespace: anatomical_structure
-comment: order=2 for EMAPA:16525.
-relationship: ends_at TS14 ! TS14
-relationship: part_of EMAPA:16525 ! early spinal cord
-relationship: starts_at TS14 ! TS14
-
-[Term]
-id: EMAPA:16528
-name: early spinal cord neural fold
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16527.
-relationship: ends_at TS14 ! TS14
-relationship: part_of EMAPA:16527 ! early spinal cord neural plate
-relationship: starts_at TS14 ! TS14
-
-[Term]
-id: EMAPA:16529
-name: early spinal cord neural crest
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16528.
-relationship: ends_at TS14 ! TS14
-relationship: part_of EMAPA:16528 ! early spinal cord neural fold
-relationship: starts_at TS14 ! TS14
-
-[Term]
-id: EMAPA:16530
-name: neural tube
-namespace: anatomical_structure
-comment: order=3 for EMAPA:16525.
-relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16525 ! early spinal cord
-relationship: starts_at TS14 ! TS14
-
-[Term]
-id: EMAPA:16531
-name: neural tube floor plate
-namespace: anatomical_structure
-comment: order=1 for EMAPA:16530.
-is_a: EMAPA:32684 ! floor plate
-relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16530 ! neural tube
-relationship: starts_at TS14 ! TS14
-
-[Term]
-id: EMAPA:16532
-name: neural tube lateral wall
-namespace: anatomical_structure
-comment: order=2 for EMAPA:16530.
-relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16530 ! neural tube
-relationship: starts_at TS14 ! TS14
-
-[Term]
-id: EMAPA:16533
-name: neural lumen
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16530.
-relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16530 ! neural tube
-relationship: starts_at TS14 ! TS14
-
-[Term]
-id: EMAPA:16534
-name: neural luminal occlusion
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16533.
-relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16533 ! neural lumen
-relationship: starts_at TS14 ! TS14
-
-[Term]
-id: EMAPA:16535
-name: neural tube roof plate
-namespace: anatomical_structure
-comment: order=3 for EMAPA:16530.
-relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16530 ! neural tube
+relationship: part_of EMAPA:16092 ! future spinal cord
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -5769,7 +5425,7 @@ relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16640
-name: early forebrain
+name: future forebrain
 namespace: anatomical_structure
 comment: order=5 for EMAPA:16471.
 synonym: "prosencephalon" RELATED []
@@ -5778,171 +5434,52 @@ relationship: part_of EMAPA:16089 ! future brain
 relationship: starts_at TS15 ! TS15
 
 [Term]
-id: EMAPA:16641
-name: early diencephalon
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16640.
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16640 ! early forebrain
-relationship: starts_at TS15 ! TS15
-
-[Term]
-id: EMAPA:16642
-name: early 3rd ventricle
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16641.
-synonym: "early diencephalon third ventricle" RELATED []
-is_a: EMAPA:32675 ! early brain ventricle
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16641 ! early diencephalon
-relationship: starts_at TS15 ! TS15
-
-[Term]
-id: EMAPA:16643
-name: diencephalic part of early interventricular foramen
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16642.
-synonym: "ependymal foramen" RELATED []
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16642 ! early 3rd ventricle
-relationship: part_of EMAPA:36066 ! early interventricular foramen
-relationship: starts_at TS15 ! TS15
-
-[Term]
-id: EMAPA:16644
-name: early optic recess
-namespace: anatomical_structure
-comment: order=1 for EMAPA:16642.
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16642 ! early 3rd ventricle
-relationship: starts_at TS15 ! TS15
-
-[Term]
-id: EMAPA:16645
-name: early diencephalon floor plate
-namespace: anatomical_structure
-comment: order=1 for EMAPA:16641.
-is_a: EMAPA:32684 ! floor plate
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16641 ! early diencephalon
-relationship: starts_at TS15 ! TS15
-
-[Term]
-id: EMAPA:16646
-name: early diencephalon gland
-namespace: anatomical_structure
-comment: order=2 for EMAPA:16641.
-is_a: EMAPA:18425 ! gland
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16641 ! early diencephalon
-relationship: starts_at TS15 ! TS15
-
-[Term]
 id: EMAPA:16647
 name: future neurohypophysis
 namespace: anatomical_structure
 alt_id: EMAPA:16898
 comment: order=5 for EMAPA:16641.\norder=1 for EMAPA:32796.\norder=12 for EMAPA:16896.\norder=0 for EMAPA:32796.
-is_a: EMAPA:16646 ! early diencephalon gland
 is_a: EMAPA:16897 ! diencephalon gland
 relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16641 ! early diencephalon
 relationship: part_of EMAPA:16896 ! diencephalon
 relationship: part_of EMAPA:32796 ! future pituitary
 relationship: starts_at TS15 ! TS15
 
 [Term]
-id: EMAPA:16648
-name: infundibular recess of early 3rd ventricle
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16647.
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16642 ! early 3rd ventricle
-relationship: part_of EMAPA:16647 ! future neurohypophysis
-relationship: starts_at TS15 ! TS15
-
-[Term]
-id: EMAPA:16649
-name: early diencephalon lamina terminalis
-namespace: anatomical_structure
-comment: order=3 for EMAPA:16641.
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16641 ! early diencephalon
-relationship: starts_at TS15 ! TS15
-
-[Term]
-id: EMAPA:16650
-name: early diencephalon lateral wall
-namespace: anatomical_structure
-comment: order=4 for EMAPA:16641.
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16641 ! early diencephalon
-relationship: starts_at TS15 ! TS15
-
-[Term]
-id: EMAPA:16651
-name: early diencephalon roof plate
-namespace: anatomical_structure
-comment: order=6 for EMAPA:16641.
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16641 ! early diencephalon
-relationship: starts_at TS15 ! TS15
-
-[Term]
-id: EMAPA:16652
-name: early telencephalon
-namespace: anatomical_structure
-comment: order=4 for EMAPA:16640.
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16640 ! early forebrain
-relationship: starts_at TS15 ! TS15
-
-[Term]
 id: EMAPA:16653
-name: early telencephalic vesicle
+name: telencephalic vesicle
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16652.
-is_a: EMAPA:32675 ! early brain ventricle
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16652 ! early telencephalon
-relationship: starts_at TS15 ! TS15
-
-[Term]
-id: EMAPA:16654
-name: telencephalic part of early interventricular foramen
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16653.
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16653 ! early telencephalic vesicle
-relationship: part_of EMAPA:36066 ! early interventricular foramen
+relationship: part_of EMAPA:16910 ! telencephalon
 relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16655
-name: early telencephalon floor plate
+name: telencephalon floor plate
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16652.
 is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16652 ! early telencephalon
+relationship: part_of EMAPA:16910 ! telencephalon
 relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16656
-name: early telencephalon lateral wall
+name: telencephalon lateral wall
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16652.
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16652 ! early telencephalon
+relationship: part_of EMAPA:16910 ! telencephalon
 relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16657
-name: early telencephalon roof plate
+name: telencephalon roof plate
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16652.
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16652 ! early telencephalon
+relationship: part_of EMAPA:16910 ! telencephalon
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -6901,7 +6438,7 @@ name: tail future spinal cord
 namespace: anatomical_structure
 comment: order=4 for EMAPA:16525.\norder=0 for EMAPA:16754.
 relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16525 ! early spinal cord
+relationship: part_of EMAPA:16092 ! future spinal cord
 relationship: part_of EMAPA:16754 ! tail central nervous system
 relationship: starts_at TS15 ! TS15
 
@@ -6920,7 +6457,7 @@ name: tail neural tube
 namespace: anatomical_structure
 comment: order=4 for EMAPA:16530.\norder=1 for EMAPA:16755.
 relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16530 ! neural tube
+relationship: part_of EMAPA:16164 ! neural tube
 relationship: part_of EMAPA:16755 ! tail future spinal cord
 relationship: starts_at TS15 ! TS15
 
@@ -7167,33 +6704,13 @@ relationship: part_of EMAPA:16779 ! hindlimb bud
 relationship: starts_at TS16 ! TS16
 
 [Term]
-id: EMAPA:16782
-name: early diencephalon ventricular layer
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16650.
-is_a: EMAPA:35942 ! early forebrain ventricular layer
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16650 ! early diencephalon lateral wall
-relationship: starts_at TS16 ! TS16
-
-[Term]
-id: EMAPA:16784
-name: early telencephalon ventricular layer
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16656.
-is_a: EMAPA:35942 ! early forebrain ventricular layer
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16656 ! early telencephalon lateral wall
-relationship: starts_at TS16 ! TS16
-
-[Term]
 id: EMAPA:16785
-name: early midbrain ventricular layer
+name: future midbrain ventricular layer
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16474.
-is_a: EMAPA:35362 ! early brain ventricular layer
+is_a: EMAPA:35362 ! future brain ventricular layer
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16474 ! early midbrain lateral wall
+relationship: part_of EMAPA:16474 ! future midbrain lateral wall
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -8312,88 +7829,101 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:16896
 name: diencephalon
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16895.
+alt_id: EMAPA:16641
+comment: order=0 for EMAPA:16895.\norder=0 for EMAPA:16640.
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16640 ! future forebrain
 relationship: part_of EMAPA:16895 ! forebrain
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16897
 name: diencephalon gland
 namespace: anatomical_structure
-comment: order=3 for EMAPA:16896.
+alt_id: EMAPA:16646
+comment: order=3 for EMAPA:16896.\norder=2 for EMAPA:16641.
+is_a: EMAPA:18425 ! gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16896 ! diencephalon
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16899
 name: infundibular recess of 3rd ventricle
 namespace: anatomical_structure
-comment: order=1 for EMAPA:16898.
+alt_id: EMAPA:16648
+comment: order=1 for EMAPA:16898.\norder=0 for EMAPA:16647.
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16647 ! future neurohypophysis
 relationship: part_of EMAPA:16900 ! 3rd ventricle
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16900
 name: 3rd ventricle
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16896.
+alt_id: EMAPA:16515
+alt_id: EMAPA:16642
+comment: order=0 for EMAPA:16896.\norder=0 for EMAPA:16641.\norder=0 for EMAPA:16514.
 synonym: "third ventricle" RELATED []
 is_a: EMAPA:32674 ! brain ventricle
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16514 ! future diencephalon
 relationship: part_of EMAPA:16896 ! diencephalon
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16901
 name: diencephalic part of interventricular foramen
 namespace: anatomical_structure
-comment: order=1 for EMAPA:16900.
+alt_id: EMAPA:16643
+comment: order=1 for EMAPA:16900.\norder=0 for EMAPA:16642.
 synonym: "ependymal foramen" RELATED []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16900 ! 3rd ventricle
 relationship: part_of EMAPA:36067 ! interventricular foramen
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16902
 name: optic recess
 namespace: anatomical_structure
-comment: order=2 for EMAPA:16900.
+alt_id: EMAPA:16644
+comment: order=2 for EMAPA:16900.\norder=1 for EMAPA:16642.
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16900 ! 3rd ventricle
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16903
 name: diencephalon floor plate
 namespace: anatomical_structure
-comment: order=2 for EMAPA:16896.
+alt_id: EMAPA:16645
+comment: order=2 for EMAPA:16896.\norder=1 for EMAPA:16641.
 is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16896 ! diencephalon
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16904
 name: diencephalon lamina terminalis
 namespace: anatomical_structure
-comment: order=5 for EMAPA:16896.
+alt_id: EMAPA:16649
+comment: order=5 for EMAPA:16896.\norder=3 for EMAPA:16641.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16896 ! diencephalon
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16905
 name: diencephalon lateral wall
 namespace: anatomical_structure
-comment: order=6 for EMAPA:16896.
+alt_id: EMAPA:16650
+comment: order=6 for EMAPA:16896.\n order=4 for EMAPA:16641.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16896 ! diencephalon
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16906
@@ -8417,30 +7947,35 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:16908
 name: diencephalon lateral wall ventricular layer
 namespace: anatomical_structure
-comment: order=2 for EMAPA:16905.
+alt_id: EMAPA:16782
+comment: order=2 for EMAPA:16905.\norder=0 for EMAPA:16650.
 is_a: EMAPA:32710 ! diencephalon ventricular layer
+is_a: EMAPA:35942 ! future forebrain ventricular layer
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16905 ! diencephalon lateral wall
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:16909
 name: diencephalon roof plate
 namespace: anatomical_structure
-comment: order=10 for EMAPA:16896.
+alt_id: EMAPA:16651
+comment: order=10 for EMAPA:16896.\norder=6 for EMAPA:16641.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16896 ! diencephalon
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16910
 name: telencephalon
 namespace: anatomical_structure
-comment: order=4 for EMAPA:16895.
+alt_id: EMAPA:16652
+comment: order=4 for EMAPA:16895.\norder=4 for EMAPA:16640.
 synonym: "cerebrum" RELATED []
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16640 ! future forebrain
 relationship: part_of EMAPA:16895 ! forebrain
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16911
@@ -8464,11 +7999,14 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:16913
 name: telencephalon ventricular layer
 namespace: anatomical_structure
-comment: order=15 for EMAPA:16910.
+alt_id: EMAPA:16784
+comment: order=15 for EMAPA:16910.\norder=0 for EMAPA:16656.
 is_a: EMAPA:32921 ! forebrain ventricular layer
+is_a: EMAPA:35942 ! future forebrain ventricular layer
 relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16656 ! telencephalon lateral wall
 relationship: part_of EMAPA:16910 ! telencephalon
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:16914
@@ -8484,11 +8022,13 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:16915
 name: telencephalic part of interventricular foramen
 namespace: anatomical_structure
-comment: order=8 for EMAPA:16914.
+alt_id: EMAPA:16654
+comment: order=8 for EMAPA:16914.\norder=0 for EMAPA:16653.
 relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16653 ! telencephalic vesicle
 relationship: part_of EMAPA:16914 ! lateral ventricle
 relationship: part_of EMAPA:36067 ! interventricular foramen
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16916
@@ -8504,12 +8044,14 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:16917
 name: 4th ventricle
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16916.
+alt_id: EMAPA:16479
+comment: order=0 for EMAPA:16916.\norder=0 for EMAPA:16478.
 synonym: "fourth ventricle" RELATED []
 is_a: EMAPA:32674 ! brain ventricle
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16148 ! future hindbrain
 relationship: part_of EMAPA:16916 ! hindbrain
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16921
@@ -8748,11 +8290,13 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:16980
 name: mesencephalic vesicle
 namespace: anatomical_structure
-comment: order=1 for EMAPA:16974.
-synonym: "cerebral aqueduct" RELATED []
+alt_id: EMAPA:16475
+comment: order=1 for EMAPA:16974.\norder=4 for EMAPA:16472.
+synonym: "future cerebral aqueduct" RELATED []
 relationship: ends_at TS20 ! TS20
+relationship: part_of EMAPA:16140 ! future midbrain
 relationship: part_of EMAPA:16974 ! midbrain
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16981
@@ -9839,7 +9383,7 @@ name: neural tube mantle layer
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16532.
 relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16532 ! neural tube lateral wall
+relationship: part_of EMAPA:16166 ! neural tube lateral wall
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -9866,7 +9410,7 @@ name: neural tube marginal layer
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16532.
 relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16532 ! neural tube lateral wall
+relationship: part_of EMAPA:16166 ! neural tube lateral wall
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -9876,7 +9420,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:16532.
 is_a: EMAPA:35209 ! ventricular layer
 relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16532 ! neural tube lateral wall
+relationship: part_of EMAPA:16166 ! neural tube lateral wall
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -21668,33 +21212,6 @@ relationship: part_of EMAPA:16889 ! omental bursa
 relationship: starts_at TS23 ! TS23
 
 [Term]
-id: EMAPA:18466
-name: early radius
-namespace: anatomical_structure
-comment: order=1 for EMAPA:17419.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17419 ! forearm mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18467
-name: early ulna
-namespace: anatomical_structure
-comment: order=5 for EMAPA:17419.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17419 ! forearm mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18468
-name: early humerus
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17426.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17426 ! upper arm mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:18486
 name: hand skin
 namespace: anatomical_structure
@@ -21812,33 +21329,6 @@ comment: order=2 for EMAPA:17740.
 is_a: EMAPA:32638 ! hindlimb pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17740 ! knee joint primordium
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18512
-name: early fibula
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17498.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17498 ! lower leg mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18513
-name: early tibia
-namespace: anatomical_structure
-comment: order=3 for EMAPA:17498.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17498 ! lower leg mesenchyme
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18514
-name: early femur
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17501.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17501 ! upper leg mesenchyme
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -25169,23 +24659,27 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19103
 name: radius
 namespace: anatomical_structure
-comment: order=5 for EMAPA:17417.
+alt_id: EMAPA:18466
+comment: order=5 for EMAPA:17417.\norder=1 for EMAPA:17419.
 is_a: EMAPA:35347 ! forearm bone
 is_a: EMAPA:35350 ! forelimb long bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17417 ! forearm
-relationship: starts_at TS24 ! TS24
+relationship: part_of EMAPA:17419 ! forearm mesenchyme
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19104
 name: ulna
 namespace: anatomical_structure
-comment: order=6 for EMAPA:17417.
+alt_id: EMAPA:18467
+comment: order=6 for EMAPA:17417.\norder=5 for EMAPA:17419.
 is_a: EMAPA:35347 ! forearm bone
 is_a: EMAPA:35350 ! forelimb long bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17417 ! forearm
-relationship: starts_at TS24 ! TS24
+relationship: part_of EMAPA:17419 ! forearm mesenchyme
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19105
@@ -25201,12 +24695,14 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19106
 name: humerus
 namespace: anatomical_structure
-comment: order=0 for EMAPA:17424.
+alt_id: EMAPA:18468
+comment: order=0 for EMAPA:17424.\norder=0 for EMAPA:17426.
 is_a: EMAPA:35350 ! forelimb long bone
 is_a: EMAPA:35892 ! upper arm bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17424 ! upper arm
-relationship: starts_at TS24 ! TS24
+relationship: part_of EMAPA:17426 ! upper arm mesenchyme
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19107
@@ -25567,34 +25063,41 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19141
 name: fibula
 namespace: anatomical_structure
-comment: order=0 for EMAPA:17496.
+alt_id: EMAPA:18512
+comment: order=0 for EMAPA:17496.\norder=0 for EMAPA:17498.
 is_a: EMAPA:35403 ! hindlimb long bone
 is_a: EMAPA:35519 ! lower leg bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17496 ! lower leg
-relationship: starts_at TS24 ! TS24
+relationship: part_of EMAPA:17498 ! lower leg mesenchyme
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19142
 name: tibia
 namespace: anatomical_structure
-comment: order=6 for EMAPA:17496.
+alt_id: EMAPA:18513
+comment: order=6 for EMAPA:17496.\norder=3 for EMAPA:17498.
+synonym: "early tibia" EXACT []
 is_a: EMAPA:35403 ! hindlimb long bone
 is_a: EMAPA:35519 ! lower leg bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17496 ! lower leg
-relationship: starts_at TS24 ! TS24
+relationship: part_of EMAPA:17498 ! lower leg mesenchyme
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19143
 name: femur
 namespace: anatomical_structure
-comment: order=0 for EMAPA:17499.
+alt_id: EMAPA:18514
+comment: order=0 for EMAPA:17499.\norder=0 for EMAPA:17501.
 is_a: EMAPA:35403 ! hindlimb long bone
 is_a: EMAPA:35893 ! upper leg bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17499 ! upper leg
-relationship: starts_at TS24 ! TS24
+relationship: part_of EMAPA:17501 ! upper leg mesenchyme
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19144
@@ -25741,11 +25244,13 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19160
 name: coronary artery
 namespace: anatomical_structure
-comment: order=16 for EMAPA:16201.
+alt_id: EMAPA:25968
+comment: order=16 for EMAPA:16201.\norder=0 for EMAPA:25959.
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16201 ! arterial system
-relationship: starts_at TS23 ! TS23
+relationship: part_of EMAPA:17014 ! ascending aorta
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:19161
@@ -36530,16 +36035,6 @@ namespace: anatomical_structure
 is_a: EMAPA:0 ! Anatomical structure
 
 [Term]
-id: EMAPA:25968
-name: early coronary artery
-namespace: anatomical_structure
-comment: order=0 for EMAPA:25959.
-is_a: EMAPA:35147 ! artery
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17014 ! ascending aorta
-relationship: starts_at TS21 ! TS21
-
-[Term]
 id: EMAPA:26011
 name: left atrium lumen
 namespace: anatomical_structure
@@ -47268,7 +46763,6 @@ name: hand joint
 namespace: anatomical_structure
 alt_id: EMAPA:35394
 comment: order=11 for EMAPA:17428.
-synonym: "hand joint primordium" RELATED []
 is_a: EMAPA:19204 ! forelimb joint
 is_a: EMAPA:35160 ! autopod joint
 relationship: ends_at TS28 ! TS28
@@ -47599,18 +47093,11 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:32674
 name: brain ventricle
 namespace: anatomical_structure
-comment: order=9 for EMAPA:16894.
+alt_id: EMAPA:32675
+comment: order=9 for EMAPA:16894.\norder=3 for EMAPA:16471.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16894 ! brain
-relationship: starts_at TS17 ! TS17
-
-[Term]
-id: EMAPA:32675
-name: early brain ventricle
-namespace: anatomical_structure
-comment: order=3 for EMAPA:16471.
-relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16089 ! future brain
+relationship: part_of EMAPA:16894 ! brain
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -47625,7 +47112,7 @@ relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:32677
-name: early brain floor plate
+name: future brain floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16471.
 is_a: EMAPA:32684 ! floor plate
@@ -48781,7 +48268,7 @@ name: tail neural tube floor plate
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16531.\norder=0 for EMAPA:16757.
 relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16531 ! neural tube floor plate
+relationship: part_of EMAPA:16165 ! neural tube floor plate
 relationship: part_of EMAPA:16757 ! tail neural tube
 relationship: starts_at TS15 ! TS15
 
@@ -48993,7 +48480,6 @@ alt_id: EMAPA:35398
 alt_id: EMAPA:35943
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16148 ! future hindbrain
-relationship: part_of EMAPA:16478 ! early hindbrain
 relationship: part_of EMAPA:16916 ! hindbrain
 relationship: part_of EMAPA:17071 ! metencephalon
 relationship: part_of EMAPA:17082 ! myelencephalon
@@ -49015,7 +48501,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:32932
 comment: order=2 for EMAPA:32819.
 is_a: EMAPA:32898 ! hindbrain ventricular layer
-is_a: EMAPA:35368 ! early hindbrain ventricular layer
+is_a: EMAPA:35368 ! future hindbrain ventricular layer
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:32819 ! rhombomere lateral wall
 relationship: starts_at TS14 ! TS14
@@ -49284,24 +48770,6 @@ relationship: part_of EMAPA:17552 ! medulla oblongata lateral wall
 relationship: starts_at TS20 ! TS20
 
 [Term]
-id: EMAPA:32853
-name: early midbrain-hindbrain junction
-namespace: anatomical_structure
-comment: order=8 for EMAPA:16471.
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16089 ! future brain
-relationship: starts_at TS14 ! TS14
-
-[Term]
-id: EMAPA:32854
-name: future brain midbrain-hindbrain junction
-namespace: anatomical_structure
-comment: order=4 for EMAPA:16089.
-relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16089 ! future brain
-relationship: starts_at TS12 ! TS12
-
-[Term]
 id: EMAPA:32855
 name: metencephalon ventricular layer
 namespace: anatomical_structure
@@ -49324,11 +48792,14 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:32857
 name: midbrain-hindbrain junction
 namespace: anatomical_structure
-comment: order=18 for EMAPA:16894.
+alt_id: EMAPA:32853
+alt_id: EMAPA:32854
+comment: order=18 for EMAPA:16894.\norder=8 for EMAPA:16471.\norder=4 for EMAPA:16089.
 synonym: "isthmus" RELATED []
 relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16089 ! future brain
 relationship: part_of EMAPA:16894 ! brain
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:32858
@@ -49933,12 +49404,12 @@ relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:32919
-name: early forebrain floor plate
+name: future forebrain floor plate
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16640.
 is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16640 ! early forebrain
+relationship: part_of EMAPA:16640 ! future forebrain
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -50024,20 +49495,20 @@ relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:32935
-name: early forebrain roof plate
+name: future forebrain roof plate
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16640.
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16640 ! early forebrain
+relationship: part_of EMAPA:16640 ! future forebrain
 relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:32937
-name: early forebrain lateral wall
+name: future forebrain lateral wall
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16640.
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16640 ! early forebrain
+relationship: part_of EMAPA:16640 ! future forebrain
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -52892,7 +52363,7 @@ relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35360
-name: early brain marginal layer
+name: future brain marginal layer
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16471.
 relationship: ends_at TS16 ! TS16
@@ -52901,7 +52372,7 @@ relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:35361
-name: early brain roof plate
+name: future brain roof plate
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16471.
 relationship: ends_at TS15 ! TS15
@@ -52910,7 +52381,7 @@ relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:35362
-name: early brain ventricular layer
+name: future brain ventricular layer
 namespace: anatomical_structure
 comment: order=4 for EMAPA:16471.
 is_a: EMAPA:35209 ! ventricular layer
@@ -52919,50 +52390,40 @@ relationship: part_of EMAPA:16089 ! future brain
 relationship: starts_at TS14 ! TS14
 
 [Term]
-id: EMAPA:35363
-name: early hindbrain floor plate
-namespace: anatomical_structure
-comment: order=1 for EMAPA:16478.
-is_a: EMAPA:32684 ! floor plate
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16478 ! early hindbrain
-relationship: starts_at TS14 ! TS14
-
-[Term]
 id: EMAPA:35364
-name: early hindbrain lateral wall
+name: future hindbrain lateral wall
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16478.
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16478 ! early hindbrain
+relationship: part_of EMAPA:16148 ! future hindbrain
 relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:35365
-name: early hindbrain neural crest
+name: future hindbrain neural crest
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16478.
 relationship: ends_at TS14 ! TS14
-relationship: part_of EMAPA:16478 ! early hindbrain
+relationship: part_of EMAPA:16148 ! future hindbrain
 relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:35367
-name: early hindbrain roof plate
+name: future hindbrain roof plate
 namespace: anatomical_structure
 comment: order=5 for EMAPA:16478.
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16478 ! early hindbrain
+relationship: part_of EMAPA:16148 ! future hindbrain
 relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:35368
-name: early hindbrain ventricular layer
+name: future hindbrain ventricular layer
 namespace: anatomical_structure
 comment: order=6 for EMAPA:16478.
-is_a: EMAPA:35362 ! early brain ventricular layer
+is_a: EMAPA:35362 ! future brain ventricular layer
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16478 ! early hindbrain
+relationship: part_of EMAPA:16148 ! future hindbrain
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -52972,7 +52433,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:16525.
 is_a: EMAPA:35208 ! central nervous system vascular element
 relationship: ends_at TS17 ! TS17
-relationship: part_of EMAPA:16525 ! early spinal cord
+relationship: part_of EMAPA:16092 ! future spinal cord
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -58228,12 +57689,12 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35942
-name: early forebrain ventricular layer
+name: future forebrain ventricular layer
 namespace: anatomical_structure
 comment: order=0 for EMAPA:32937.
-is_a: EMAPA:35362 ! early brain ventricular layer
+is_a: EMAPA:35362 ! future brain ventricular layer
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:32937 ! early forebrain lateral wall
+relationship: part_of EMAPA:32937 ! future forebrain lateral wall
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -59362,20 +58823,14 @@ relationship: part_of EMAPA:16706 ! pharynx
 relationship: starts_at TS19 ! TS19
 
 [Term]
-id: EMAPA:36066
-name: early interventricular foramen
-namespace: anatomical_structure
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16640 ! early forebrain
-relationship: starts_at TS15 ! TS15
-
-[Term]
 id: EMAPA:36067
 name: interventricular foramen
 namespace: anatomical_structure
+alt_id: EMAPA:36066
 relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16640 ! future forebrain
 relationship: part_of EMAPA:16895 ! forebrain
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:36068
