@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 21:08:2014 16:02
+date: 21:08:2014 16:35
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
@@ -16376,8 +16376,8 @@ namespace: anatomical_structure
 alt_id: EMAPA:18925
 comment: order=6 for EMAPA:16715.\norder=24 for EMAPA:16247.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16247 ! gut
 relationship: part_of EMAPA:16715 ! hindgut
+relationship: part_of EMAPA:19252 ! large intestine
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -22421,8 +22421,8 @@ namespace: anatomical_structure
 alt_id: EMAPA:18932
 comment: order=0 for EMAPA:16255.\norder=18 for EMAPA:16247.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16247 ! gut
 relationship: part_of EMAPA:16255 ! midgut
+relationship: part_of EMAPA:32834 ! small intestine
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -22430,8 +22430,7 @@ id: EMAPA:18668
 name: jejunum epithelium
 namespace: anatomical_structure
 alt_id: EMAPA:18934
-comment: MERGED COMMENT:\nTARGET COMMENT: order=0 for EMAPA:27109.\n--------------------\nSOURCE COMMENT: order=0 for EMAPA:27347.
-synonym: "jejunum epithelium" EXACT []
+comment: order=0 for EMAPA:27109.\norder=0 for EMAPA:27347.
 is_a: EMAPA:16569 ! midgut epithelium
 is_a: EMAPA:35778 ! small intestine epithelium
 relationship: ends_at TS28 ! TS28
@@ -23492,6 +23491,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:16247.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16247 ! gut
+relationship: part_of EMAPA:32834 ! small intestine
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -23521,7 +23521,7 @@ name: colon
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16247.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16247 ! gut
+relationship: part_of EMAPA:19252 ! large intestine
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -26047,7 +26047,7 @@ namespace: anatomical_structure
 comment: order=6 for EMAPA:32874.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32874 ! intestine
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:19253
@@ -47950,7 +47950,7 @@ name: ileum
 namespace: anatomical_structure
 comment: order=16 for EMAPA:16247.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16247 ! gut
+relationship: part_of EMAPA:32834 ! small intestine
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -48608,7 +48608,7 @@ namespace: anatomical_structure
 comment: order=7 for EMAPA:32874.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32874 ! intestine
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:32837
@@ -53301,8 +53301,9 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35467.
 is_a: EMAPA:32873 ! intestine epithelium
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:19252 ! large intestine
 relationship: part_of EMAPA:35467 ! large intestine mucosa
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35467
@@ -56180,8 +56181,9 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35780.
 is_a: EMAPA:32873 ! intestine epithelium
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32834 ! small intestine
 relationship: part_of EMAPA:35780 ! small intestine mucosa
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:35779
