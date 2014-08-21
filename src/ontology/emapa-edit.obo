@@ -42975,6 +42975,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:29995
 name: endothelium of renal artery
 namespace: anatomical_structure
+alt_id: EMAPA:29976
 comment: order=0 for EMAPA:28373.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28373 ! renal artery
@@ -42994,6 +42995,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:30011
 name: endothelium of renal vein
 namespace: anatomical_structure
+alt_id: EMAPA:29964
 comment: order=0 for EMAPA:28376.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28376 ! renal vein
