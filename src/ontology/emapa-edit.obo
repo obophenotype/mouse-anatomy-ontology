@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 21:08:2014 16:35
+date: 22:08:2014 11:39
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
@@ -25078,7 +25078,6 @@ name: tibia
 namespace: anatomical_structure
 alt_id: EMAPA:18513
 comment: order=6 for EMAPA:17496.\norder=3 for EMAPA:17498.
-synonym: "early tibia" EXACT []
 is_a: EMAPA:35403 ! hindlimb long bone
 is_a: EMAPA:35519 ! lower leg bone
 relationship: ends_at TS28 ! TS28
@@ -53172,7 +53171,7 @@ comment: order=4 for EMAPA:32905.
 is_a: EMAPA:35996 ! head bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35455 ! jaw skeleton
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35454
