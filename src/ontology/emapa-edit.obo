@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 22:08:2014 11:39
-saved-by: terryh
-auto-generated-by: OBO-Edit 2.2
+date: 27:08:2014 14:46
+saved-by: jarm
+auto-generated-by: OBO-Edit 2.3-beta5
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -3072,7 +3072,7 @@ name: genitourinary system
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16245.
 synonym: "urogenital system" RELATED []
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16103 ! organ system
 relationship: part_of EMAPA:16245 ! visceral organ system
 relationship: starts_at TS13 ! TS13
@@ -4818,10 +4818,11 @@ relationship: starts_at TS14 ! TS14
 id: EMAPA:16577
 name: nephric duct
 namespace: anatomical_structure
+def: "nd: nephric duct (syn: Wolffian duct) (TS14-TS18): paired epithelial ducts which develop early in development (TS14) in the cranial/anterior intermediate mesoderm and extend caudally down the rostro-caudal axis of the embryo to terminate at the cloaca. The nephric duct is subdivided along its anterior-posterior length, into the pronephric portion, mesonephric portion (part of the mesonephros) and metanephric portion. These regions are stage-dependant, with the pronephric portion present at TS14 in the pronephros, the mesonpehric portion from TS15 in the mesonephros and posterior to these, the metanerphic portion from TS17. Becomes the nephric duct (TS19-20) part of the urinary system." []
 comment: order=2 for EMAPA:16367.
 synonym: "mesonephric duct" RELATED []
 synonym: "Wolffian duct" RELATED []
-relationship: ends_at TS16 ! TS16
+relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16367 ! genitourinary system
 relationship: starts_at TS14 ! TS14
 
@@ -38443,10 +38444,12 @@ id: EMAPA:27591
 name: nephric duct, mesonephric portion
 namespace: anatomical_structure
 comment: order=5 for EMAPA:16744.\norder=1 for EMAPA:28425.
+synonym: "mesonephric duct" RELATED []
+synonym: "Wolffian duct, mesonephric portion" RELATED []
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16744 ! mesonephros
 relationship: part_of EMAPA:28425 ! nephric duct
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:27599
@@ -38463,11 +38466,12 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:27602
 name: nephric duct, pronephric portion
 namespace: anatomical_structure
-comment: order=8 for EMAPA:16367.\norder=0 for EMAPA:28425.
-relationship: ends_at TS17 ! TS17
-relationship: part_of EMAPA:16367 ! genitourinary system
+comment: order=0 for EMAPA:16579.\norder=0 for EMAPA:28425.
+synonym: "Wolffian duct, pronephric portion" RELATED []
+relationship: ends_at TS14 ! TS14
+relationship: part_of EMAPA:16579 ! pronephros
 relationship: part_of EMAPA:28425 ! nephric duct
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:27605
