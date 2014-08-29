@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 29:08:2014 17:00
+date: 29:08:2014 14:48
 saved-by: jarm
-auto-generated-by: OBO-Edit 2.3-beta5
+auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -11355,6 +11355,7 @@ comment: order=6 for EMAPA:16245.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16103 ! organ system
 relationship: part_of EMAPA:16245 ! visceral organ system
+relationship: part_of EMAPA:16367 ! genitourinary system
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -11452,6 +11453,7 @@ comment: order=4 for EMAPA:16245.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16103 ! organ system
 relationship: part_of EMAPA:16245 ! visceral organ system
+relationship: part_of EMAPA:16367 ! genitourinary system
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -20087,6 +20089,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18321
 name: bladder
 namespace: anatomical_structure
+def: "bladder (bl) (TS22-TS28): comprised of urothelium of bladder (subdivided into layers and cell types), lamina propria of bladder (subdivided into layers), detrusor muscle of bladder and surrounded by an outer layer of bladder (subdivided into serosa of bladder or adventitia of bladder). Also includes vasculature of bladder and nerve of bladder. Derived from primitive bladder (TS19-21). Bladder is also subdivided into regions; bladder fundus and bladder neck (subdivided into bladder trigone and ventral bladder neck). Part of the urogenital sinus and part of the urinary system." []
 comment: order=10 for EMAPA:17366.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
@@ -40231,6 +40234,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:28601
 name: urothelium of bladder
 namespace: anatomical_structure
+def: "urothelium of bladder (ubl) (TS22-28) (synonym: epithelium of bladder): the innermost layer of the bladder lining the bladder lumen, comprised of a stratified epithelium of three epithelial cell layers containing different epithelial cell types. Contains blood vessels and nerve of urothelium of bladder (TS22-28). Comprised of three cellular layers; superficial, intermediate and basal cell layers. Distinct epithelial cell types reside within the layers of urothelium and are stage dependant. It is possible to annotate urothelium cell layer without knowing the cell type. In the adult bladder, Krt5-expressing basal cells of bladder urothelium make up 90% of the mature urothelium, while intermediate and superficial cells of bladder urothelium each make up about 5%." []
 comment: order=0 for EMAPA:18321.
 synonym: "epithelium of bladder" RELATED []
 is_a: EMAPA:35953 ! urinary system epithelium
@@ -40240,11 +40244,11 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:28607
-name: urothelium of fundus
+name: urothelium of bladder fundus
 namespace: anatomical_structure
-comment: order=2 for EMAPA:28601.
+comment: order=0 for EMAPA:35173.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:28601 ! urothelium of bladder
+relationship: part_of EMAPA:35173 ! bladder fundus region
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -40287,7 +40291,9 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:28637
 name: detrusor muscle of bladder
 namespace: anatomical_structure
+def: "detrusor muscle of bladder (dmbl) (syn: smooth muscle layer of bladder) (TS22-TS28): a thick layer comprised of irregularly oriented smooth muscle fibre bundles adjacent to the outer layer of bladder (serosa/adventitia of bladder). Marked by smooth muscle markers including Tgfb1, smooth muscle actins (smooth muscle alpha actin, smooth muscle gamma actin) and smooth muscle myosins (eg. Myh11, smooth muscle myosin heavy chain), the major structural components of smooth muscle. Contains nerve of bladder detrusor muscle (TS22-28)." []
 comment: order=4 for EMAPA:18321.
+synonym: "smooth muscle layer of bladder" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
 relationship: starts_at TS22 ! TS22
@@ -40316,7 +40322,7 @@ name: serosa of bladder
 namespace: anatomical_structure
 comment: order=5 for EMAPA:18321.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18321 ! bladder
+relationship: part_of JFA:0004008 ! outer layer of bladder
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -40463,8 +40469,8 @@ name: adventitia of bladder
 namespace: anatomical_structure
 comment: order=6 for EMAPA:18321.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18321 ! bladder
-relationship: starts_at TS23 ! TS23
+relationship: part_of JFA:0004008 ! outer layer of bladder
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:28831
@@ -42651,6 +42657,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:30088
 name: lamina propria of bladder
 namespace: anatomical_structure
+def: "lamina propria of bladder (lpb) (TS22-TS28): the thick mesenchymal cell layer of the bladder located  between the urothelium and the detrusor muscle of bladder. Contains loose to dense (depending on region) connective tissue (marked by pro-collagen) many small blood vessels and nerves and thin, discontinuous wisps of smooth muscle (marked by smooth muscle markers; smooth muscle actin, desmin and actin). Contains nerve of lamina propria of bladder and is subdivided into suburothelial lamina propria of bladder (syn: suburothelial stroma of bladder, suburothelial mesenchyme of bladder, inner lamina propria of bladder) and outer lamina propria of bladder (syn: muscularis mesenchyme of bladder). These layers differ in their gene expression profile, presence of smooth muscle cells, vascularisation density and proliferation rates. During development the lamina propria of bladder is radially patterned into these two layers due to differentiation of the outer mesenchyme into smooth muscle." []
 comment: order=1 for EMAPA:18321.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
@@ -46047,18 +46054,21 @@ relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:32273
-name: superficial cell layer of bladder
+name: superficial cell layer of bladder urothelium
 namespace: anatomical_structure
+def: "superficial cell layer of bladder urothelium (TS22-TS28) (syn: luminal cell layer of bladder urothelium): the epithelial layer of cells lining the bladder lumen, comprised of superficial cells and intermediate cells of bladder urothelium from TS22-28." []
 comment: order=0 for EMAPA:28601.
+synonym: "luminal cell layer of bladder urothelium" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28601 ! urothelium of bladder
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:32274
-name: basal cell layer of bladder
+name: basal cell layer of bladder urothelium
 namespace: anatomical_structure
-comment: order=1 for EMAPA:28601.
+def: "basal cell layer of bladder urothelium (TS22-TS28): the cell layer at the base of the urothelium adjacent to the basement membrane, comprised of different cell types dependant on stage. At TS22, is comprised solely of intermediate cells (prior to the identification of Krt5-expressing basal cells), from TS23-24 is comprised of intermediate and Krt5-expressing basal cells of bladder urothelium, and from TS25-28 is comprised solely of Krt5-expressing basal cells of bladder urothelium." []
+comment: order=2 for EMAPA:28601.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28601 ! urothelium of bladder
 relationship: starts_at TS22 ! TS22
@@ -50607,10 +50617,12 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35173
 name: bladder fundus region
 namespace: anatomical_structure
+def: "bladder fundus (syn: bladder dome) (TS22-28): the rounded blind-end of the bladder. Comprised of urothelium, lamina propria, detrusor muscle and serosa of bladder fundus." []
 comment: order=9 for EMAPA:18321.
+synonym: "bladder dome" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35174
@@ -58881,6 +58893,86 @@ relationship: part_of EMAPA:16832 ! cloacal membrane
 relationship: starts_at TS17 ! TS17
 created_by: jarm
 creation_date: 2014-08-28T14:47:25Z
+
+[Term]
+id: JFA:0004003
+name: superficial cell of bladder urothelium 
+namespace: anatomical_structure
+def: "superficial cell of bladder urothelium (TS22-28) (TS22-25 synonym: immature umbrella cells of bladder urothelium , at TS26 synonym: umbrella cells of bladder urothelium): the urothelial cell type lining the bladder lumen. Part of the superficial cell layer from E14 (TS22) to adult (TS28). During development immature umbrella cells become multinucleated large and oval shaped as they mature. Superficial cells are specialised for the syntheseis and transport of uroplakin proteins which make up the urothelial plaque. These cell express uroplakins (whereas genetic markers of other urothelial cell types including, Krt5, Trp63, Foxa2, Isl1 and Shh, are not expressed). At TS22, superficial cells of bladder urothelium are immature umbrella cells which are mononucleated and similar in size to the other urothelial cell types. By TS26 mature umbrella cells, are fully differentiated, they are multinucleated (polyploidy) and are enormous in size compared to the other urothelial cell types. Fully differentiated superficial cells uniquely express Krt20, from TS26. In the adult, they make up ~5% of the urothelium of bladder." []
+comment: order=0 for EMAPA:32273.
+synonym: "immature umbrella cells TS22-25" RELATED []
+synonym: "umbrella cells TS26-28" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32273 ! superficial cell layer of bladder urothelium
+relationship: starts_at TS22 ! TS22
+created_by: jarm
+creation_date: 2014-08-29T11:01:15Z
+
+[Term]
+id: JFA:0004004
+name: intermediate cell layer of bladder urothelium 
+namespace: anatomical_structure
+def: "intermediate cell layer of bladder urothelium (TS22-TS28) (syn: suprabasal cell layer of  bladder urothelium): the 1-2 cell epithelial layer located between the superficial layer and the basal layers, comprised of intermediate cells of bladder urothelium at TS22. From TS23-28 is comprised of intermediate cells and Krt5-expressing basal cells of bladder urothelium." []
+comment: order=1 for EMAPA:28601.
+synonym: "suprabasal cell layer of  bladder urothelium" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:28601 ! urothelium of bladder
+relationship: starts_at TS22 ! TS22
+created_by: jarm
+creation_date: 2014-08-29T11:19:53Z
+
+[Term]
+id: JFA:0004005
+name: Krt5-expressing basal cell of bladder urothelium 
+namespace: anatomical_structure
+def: "Krt5-expressing basal cell of bladder urothelium (syn: K5-basal cells of bladder urothelium) (TS23-TS28): cells expressing Krt5, present in the basal and intermediate cell layers of the bladder urothelium. First detected between E14-E15, at TS23.  They express Krt5, Trp63 and Shh (do not express Isl1, Foxa2 or uroplakins).  From TS27 (P0), a subpopulation of these cells also express Krt14. In the adult, they make up ~90% of the urothelium of bladder." []
+comment: order=1 for EMAPA:32274.
+synonym: "K5-basal cell of bladder urothelium" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32274 ! basal cell layer of bladder urothelium
+relationship: part_of JFA:0004004 ! intermediate cell layer of bladder urothelium 
+relationship: starts_at TS23 ! TS23
+created_by: jarm
+creation_date: 2014-08-29T12:39:40Z
+
+[Term]
+id: JFA:0004006
+name: suburothelial lamina propria of bladder 
+namespace: anatomical_structure
+def: "suburothelial lamina propria of bladder (sulpb) (syn: suburothelial stroma of bladder, suburothelial mesenchyme of bladder, inner lamina propria of bladder) (TS22-TS28): a thin layer of mesenchymal (or stromal) cells located immediately adjacent to the urothelium. Numerous blood vessels and an absence of smooth muscle cells are characteristic of this layer and therefore it does not express markers of smooth muscle (such as smooth muscle actins (alpha-actin and gamma-actin) or smooth muscle myosins (myosin heavy chain) or Tgfb1). At E14-16, the suburothelial lamina propria expresses higher levels of Ptch1, Gli1 and is marked by Snai1 at E17. Contains nerve of suburothelial lamina propria of bladder (TS22-28)." []
+comment: order=0 for EMAPA:30088.
+synonym: "inner lamina propria of bladder" RELATED []
+synonym: "suburothelial mesenchyme of bladder" RELATED []
+synonym: "suburothelial stroma of bladder" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:30088 ! lamina propria of bladder
+relationship: starts_at TS22 ! TS22
+created_by: jarm
+creation_date: 2014-08-29T13:21:42Z
+
+[Term]
+id: JFA:0004007
+name: outer lamina propria of bladder
+namespace: anatomical_structure
+def: "outer lamina propria of bladder (olpb) (syn: muscularis mesenchyme of bladder) (TS22-TS28): the outer mesenchymal layer or outer lamina propria layer of the bladder located adjacent to the detrusor muscle of bladder. Contains loosely organised connective tissue, many small blood vessels and nerves, and discontinuous  wisps of smooth muscle cells marked by smooth muscle alpha actin. At E14-E16 this layer is marked by Gli3 and Myocd (DeSouza et al 2013). Contains nerve of outer lamina propria of bladder (TS22-28)." []
+comment: order=1 for EMAPA:30088.
+synonym: "muscularis mesenchyme of bladder" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:30088 ! lamina propria of bladder
+relationship: starts_at TS22 ! TS22
+created_by: jarm
+creation_date: 2014-08-29T13:32:19Z
+
+[Term]
+id: JFA:0004008
+name: outer layer of bladder
+namespace: anatomical_structure
+def: "outer layer of bladder (TS22-TS28): the outermost layer of the bladder subdivided into serosa of bladder (TS22-28) and adventitia of bladder (TS22-28). Most of the bladder is covered by serosa, a serous-fluid-secreting outer epithelial surface of the bladder in contact with the coelomic cavity. The fundus (or dome) is surrounded by serosa, the rest of the bladder, in contact with the adjacent connective tissue, is covered by adventitia. The adventitia refers to the outer part of the bladder that is not exposed to the peritoneal cavity but is a connective tissue layer that binds it to the adventitia of adjacent organs. The proportion of the bladder covered by serosa and adventitia is stage dependant, with adventita covering more of the bladder early in development, and the majority covered by serosa later in development. Contains nerve of bladder serosa/adventitia (TS22-28)." []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18321 ! bladder
+relationship: starts_at TS22 ! TS22
+created_by: jarm
+creation_date: 2014-08-29T14:03:16Z
 
 [Term]
 id: Tmp_new_group
