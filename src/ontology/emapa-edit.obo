@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 28:08:2014 15:09
+date: 29:08:2014 17:00
 saved-by: jarm
-auto-generated-by: OBO-Edit 2.3.1
+auto-generated-by: OBO-Edit 2.3-beta5
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -58852,7 +58852,7 @@ name: Group term
 
 [Term]
 id: JFA:0004000
-name: cloacal membrane 
+name: cloacal membrane
 namespace: anatomical_structure
 def: "cloacal membrane (clmem) (TS17-20): part of the cloaca where the two different epithelia of the surface ectoderm (of the embryo) and cloacal epithelium are in direct contact with each other. Comprised of cloacal epithelium of cloacal membrane and surface ectoderm of cloacal membrane. Fgf8 marks the the cloacal epithelium component. (Note: the cloacal membrane is distinct to the urogenital membrane, which is comprised of the regions of surface ectoderm and urethral plate epithelium in contact with each other and part of the genital tubercle.)" []
 comment: order=2 for EMAPA:27573.
