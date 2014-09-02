@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 29:08:2014 14:48
+date: 02:09:2014 15:19
 saved-by: jarm
-auto-generated-by: OBO-Edit 2.3.1
+auto-generated-by: OBO-Edit 2.3-beta5
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -58896,7 +58896,7 @@ creation_date: 2014-08-28T14:47:25Z
 
 [Term]
 id: JFA:0004003
-name: superficial cell of bladder urothelium 
+name: superficial cell of bladder urothelium
 namespace: anatomical_structure
 def: "superficial cell of bladder urothelium (TS22-28) (TS22-25 synonym: immature umbrella cells of bladder urothelium , at TS26 synonym: umbrella cells of bladder urothelium): the urothelial cell type lining the bladder lumen. Part of the superficial cell layer from E14 (TS22) to adult (TS28). During development immature umbrella cells become multinucleated large and oval shaped as they mature. Superficial cells are specialised for the syntheseis and transport of uroplakin proteins which make up the urothelial plaque. These cell express uroplakins (whereas genetic markers of other urothelial cell types including, Krt5, Trp63, Foxa2, Isl1 and Shh, are not expressed). At TS22, superficial cells of bladder urothelium are immature umbrella cells which are mononucleated and similar in size to the other urothelial cell types. By TS26 mature umbrella cells, are fully differentiated, they are multinucleated (polyploidy) and are enormous in size compared to the other urothelial cell types. Fully differentiated superficial cells uniquely express Krt20, from TS26. In the adult, they make up ~5% of the urothelium of bladder." []
 comment: order=0 for EMAPA:32273.
@@ -58910,7 +58910,7 @@ creation_date: 2014-08-29T11:01:15Z
 
 [Term]
 id: JFA:0004004
-name: intermediate cell layer of bladder urothelium 
+name: intermediate cell layer of bladder urothelium
 namespace: anatomical_structure
 def: "intermediate cell layer of bladder urothelium (TS22-TS28) (syn: suprabasal cell layer of  bladder urothelium): the 1-2 cell epithelial layer located between the superficial layer and the basal layers, comprised of intermediate cells of bladder urothelium at TS22. From TS23-28 is comprised of intermediate cells and Krt5-expressing basal cells of bladder urothelium." []
 comment: order=1 for EMAPA:28601.
@@ -58923,21 +58923,21 @@ creation_date: 2014-08-29T11:19:53Z
 
 [Term]
 id: JFA:0004005
-name: Krt5-expressing basal cell of bladder urothelium 
+name: Krt5-expressing basal cell of bladder urothelium
 namespace: anatomical_structure
 def: "Krt5-expressing basal cell of bladder urothelium (syn: K5-basal cells of bladder urothelium) (TS23-TS28): cells expressing Krt5, present in the basal and intermediate cell layers of the bladder urothelium. First detected between E14-E15, at TS23.  They express Krt5, Trp63 and Shh (do not express Isl1, Foxa2 or uroplakins).  From TS27 (P0), a subpopulation of these cells also express Krt14. In the adult, they make up ~90% of the urothelium of bladder." []
 comment: order=1 for EMAPA:32274.
 synonym: "K5-basal cell of bladder urothelium" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32274 ! basal cell layer of bladder urothelium
-relationship: part_of JFA:0004004 ! intermediate cell layer of bladder urothelium 
+relationship: part_of JFA:0004004 ! intermediate cell layer of bladder urothelium
 relationship: starts_at TS23 ! TS23
 created_by: jarm
 creation_date: 2014-08-29T12:39:40Z
 
 [Term]
 id: JFA:0004006
-name: suburothelial lamina propria of bladder 
+name: suburothelial lamina propria of bladder
 namespace: anatomical_structure
 def: "suburothelial lamina propria of bladder (sulpb) (syn: suburothelial stroma of bladder, suburothelial mesenchyme of bladder, inner lamina propria of bladder) (TS22-TS28): a thin layer of mesenchymal (or stromal) cells located immediately adjacent to the urothelium. Numerous blood vessels and an absence of smooth muscle cells are characteristic of this layer and therefore it does not express markers of smooth muscle (such as smooth muscle actins (alpha-actin and gamma-actin) or smooth muscle myosins (myosin heavy chain) or Tgfb1). At E14-16, the suburothelial lamina propria expresses higher levels of Ptch1, Gli1 and is marked by Snai1 at E17. Contains nerve of suburothelial lamina propria of bladder (TS22-28)." []
 comment: order=0 for EMAPA:30088.
