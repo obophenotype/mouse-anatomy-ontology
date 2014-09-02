@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 02:09:2014 15:19
+date: 02:09:2014 15:23
 saved-by: jarm
 auto-generated-by: OBO-Edit 2.3-beta5
 default-namespace: mouse_ontology
@@ -9914,13 +9914,6 @@ relationship: part_of EMAPA:17207 ! metanephros
 relationship: starts_at TS18 ! TS18
 
 [Term]
-id: EMAPA:17210
-name: urogenital membrane
-namespace: anatomical_structure
-comment: order=14 for EMAPA:16367.
-is_obsolete: true
-
-[Term]
 id: EMAPA:17211
 name: urogenital sinus
 namespace: anatomical_structure
@@ -11422,7 +11415,9 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17378
 name: urogenital membrane
 namespace: anatomical_structure
-comment: order=18 for EMAPA:17366.
+alt_id: EMAPA:17210
+comment: MERGED COMMENT:\nTARGET COMMENT: order=18 for EMAPA:17366.\n--------------------\nSOURCE COMMENT: order=14 for EMAPA:16367.
+synonym: "urogenital membrane" EXACT []
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS19 ! TS19
@@ -40253,11 +40248,11 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:28613
-name: urothelium of trigone
+name: urothelium of bladder trigone
 namespace: anatomical_structure
-comment: order=3 for EMAPA:28601.
+comment: order=2 for EMAPA:35174.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:28601 ! urothelium of bladder
+relationship: part_of EMAPA:35174 ! bladder trigone region
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -40300,20 +40295,20 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:28643
-name: detrusor muscle of fundus
+name: detrusor muscle of bladder fundus
 namespace: anatomical_structure
-comment: order=0 for EMAPA:28637.
+comment: order=2 for EMAPA:35173.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:28637 ! detrusor muscle of bladder
+relationship: part_of EMAPA:35173 ! bladder fundus region
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:28649
-name: detrusor muscle of trigone
+name: detrusor muscle of bladder trigone
 namespace: anatomical_structure
-comment: order=1 for EMAPA:28637.
+comment: order=4 for EMAPA:35174.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:28637 ! detrusor muscle of bladder
+relationship: part_of EMAPA:35174 ! bladder trigone region
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -40327,11 +40322,11 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:28667
-name: serosa of fundus
+name: serosa of bladder fundus
 namespace: anatomical_structure
-comment: order=0 for EMAPA:28661.
+comment: order=3 for EMAPA:35173.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:28661 ! serosa of bladder
+relationship: part_of EMAPA:35173 ! bladder fundus region
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -40483,11 +40478,11 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:28836
-name: adventitia of trigone
+name: adventitia of bladder trigone
 namespace: anatomical_structure
-comment: order=1 for EMAPA:28826.
+comment: order=5 for EMAPA:35174.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:28826 ! adventitia of bladder
+relationship: part_of EMAPA:35174 ! bladder trigone region
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -42646,11 +42641,11 @@ relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:30081
-name: urothelium of neck
+name: urothelium of ventral bladder neck
 namespace: anatomical_structure
 comment: order=4 for EMAPA:28601.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:28601 ! urothelium of bladder
+relationship: part_of JFA:0004010 ! ventral bladder neck
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -42665,38 +42660,36 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:30102
-name: lamina propria of fundus
+name: lamina propria of bladder fundus
 namespace: anatomical_structure
-comment: order=0 for EMAPA:30088.
+comment: order=1 for EMAPA:35173.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:30088 ! lamina propria of bladder
+relationship: part_of EMAPA:35173 ! bladder fundus region
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:30109
-name: lamina propria of trigone
+name: lamina propria of bladder trigone
 namespace: anatomical_structure
 comment: order=1 for EMAPA:30088.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:30088 ! lamina propria of bladder
+relationship: part_of EMAPA:35174 ! bladder trigone region
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:30116
-name: lamina propria of neck
+name: lamina propria of ventral bladder neck
 namespace: anatomical_structure
-comment: order=2 for EMAPA:30088.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:30088 ! lamina propria of bladder
+relationship: part_of JFA:0004010 ! ventral bladder neck
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:30123
-name: detrusor muscle of neck
+name: detrusor muscle of ventral bladder neck
 namespace: anatomical_structure
-comment: order=2 for EMAPA:28637.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:28637 ! detrusor muscle of bladder
+relationship: part_of JFA:0004010 ! ventral bladder neck
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -42719,11 +42712,10 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:30144
-name: adventitia of neck
+name: adventitia of ventral bladder neck
 namespace: anatomical_structure
-comment: order=2 for EMAPA:28826.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:28826 ! adventitia of bladder
+relationship: part_of JFA:0004010 ! ventral bladder neck
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -50617,8 +50609,8 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35173
 name: bladder fundus region
 namespace: anatomical_structure
-def: "bladder fundus (syn: bladder dome) (TS22-28): the rounded blind-end of the bladder. Comprised of urothelium, lamina propria, detrusor muscle and serosa of bladder fundus." []
-comment: order=9 for EMAPA:18321.
+def: "bladder fundus region (syn: bladder dome) (TS22-28): the rounded blind-end of the bladder. Comprised of urothelium, lamina propria, detrusor muscle and serosa of bladder fundus." []
+comment: order=0 for EMAPA:18321.
 synonym: "bladder dome" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
@@ -50628,10 +50620,12 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:35174
 name: bladder trigone region
 namespace: anatomical_structure
+def: "bladder trigone region (TS22-28): the triangular-shaped dorsal region of the bladder neck located between the ureters and the opening of the pelvic urethra.  The ureter orifices form the base of the trigone and the urethra opening, the apex. The urothelium of bladder trigone has a smooth surface (as opposed to folded luminal surface of the urothelium of the bladder fundus). The morphology of the trigone changes from isosceles to equilateral triangle during development, as the distance between the ureters and pelvic urethra lengthens. Lineage analysis has shown that the urothelium derives from the urogenital sinus and the muscle derives from differentiates from the intersecting detrusor muscle and longitudinal urethral muscle fibres. Comprised of urothelium, lamina propria and detrusor muscle of bladder trigone, intercalated with ureteral smooth muscle of trigone. Also contains ureter junction of bladder trigone and urethra junction of bladder trigone." []
 comment: order=11 for EMAPA:18321.
+synonym: "dorsal bladder neck" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18321 ! bladder
-relationship: starts_at TS24 ! TS24
+relationship: part_of JFA:0004009 ! bladder neck region
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35175
@@ -58973,6 +58967,81 @@ relationship: part_of EMAPA:18321 ! bladder
 relationship: starts_at TS22 ! TS22
 created_by: jarm
 creation_date: 2014-08-29T14:03:16Z
+
+[Term]
+id: JFA:0004009
+name: bladder neck region
+namespace: anatomical_structure
+def: "bladder neck region (TS22-28): the narrow open end of the bladder, located between the ureter orifices and the opening of the pelvic urethra. Subdivided into bladder trigone and ventral bladder neck." []
+comment: order=1 for EMAPA:18321.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18321 ! bladder
+relationship: starts_at TS22 ! TS22
+created_by: jarm
+creation_date: 2014-09-02T10:55:26Z
+
+[Term]
+id: JFA:0004010
+name: ventral bladder neck
+namespace: anatomical_structure
+def: "ventral bladder neck (TS22-28): the ventral region of the narrow open end of the bladder, located between the ureter orifices and the opening of the pelvic urethra (the dorsal region of the bladder neck is the bladder trigone). Comprised of urothelium, lamina propria, detrusor muscle and adventitia of ventral bladder neck." []
+relationship: ends_at TS28 ! TS28
+relationship: part_of JFA:0004009 ! bladder neck region
+relationship: starts_at TS22 ! TS22
+created_by: jarm
+creation_date: 2014-09-02T11:27:43Z
+
+[Term]
+id: JFA:0004011
+name: ureter junction of bladder trigone
+namespace: anatomical_structure
+comment: order=0 for JFA:35174.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35174 ! bladder trigone region
+relationship: starts_at TS22 ! TS22
+created_by: jarm
+creation_date: 2014-09-02T11:41:16Z
+
+[Term]
+id: JFA:0004012
+name: urethra junction of bladder trigone
+namespace: anatomical_structure
+comment: order=1 for JFA:35174.
+is_a: TS28 ! TS28
+relationship: part_of EMAPA:35174 ! bladder trigone region
+relationship: starts_at TS22 ! TS22
+created_by: jarm
+creation_date: 2014-09-02T11:44:25Z
+
+[Term]
+id: JFA:0004013
+name: ureteral smooth muscle of trigone
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35174 ! bladder trigone region
+relationship: starts_at TS22 ! TS22
+created_by: jarm
+creation_date: 2014-09-02T13:46:59Z
+
+[Term]
+id: JFA:0004014
+name: fundus junction of ventral bladder neck
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of JFA:0004010 ! ventral bladder neck
+relationship: starts_at TS22 ! TS22
+created_by: jarm
+creation_date: 2014-09-02T13:56:47Z
+
+[Term]
+id: JFA:0004015
+name: urethra junction of ventral bladder neck
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of JFA:0004010 ! ventral bladder neck
+relationship: starts_at TS22 ! TS22
+created_by: jarm
+creation_date: 2014-09-02T14:01:31Z
 
 [Term]
 id: Tmp_new_group
