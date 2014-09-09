@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 05:09:2014 12:58
+date: 09:09:2014 15:16
 saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -11449,7 +11449,7 @@ relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16103 ! organ system
 relationship: part_of EMAPA:16245 ! visceral organ system
 relationship: part_of EMAPA:16367 ! genitourinary system
-relationship: starts_at TS19 ! TS19
+relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:17382
@@ -43815,7 +43815,7 @@ relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:30873
-name: urothelium of primitive bladder 
+name: urothelium of primitive bladder
 namespace: anatomical_structure
 def: "urothelium of primitive bladder (upbl) (syn: epithelium of primitive bladder, epithelial layer of primitive bladder) (TS19-TS21): the urothelial layer lining the lumen of the primitive bladder, comprised of a stratified epithelium of different epithelial cell types depending on stage, a subpopulation of which expresses Uroplakin. Derived from cloacal endoderm. At TS19-20 the upbl is comprised predominantly of P-0 cells and very few undifferentiated epithelial cells. At TS21 the upbl is comprised of P-0 cells (usually on the luminal surface) and intermediate cells. Becomes the urothelium of bladder at TS22." []
 comment: order=0 for EMAPA:30870.
@@ -43829,10 +43829,12 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:30876
 name: mesenchymal layer of primitive bladder
 namespace: anatomical_structure
+def: "mesenchymal layer of primitive bladder (mpbl) (syn: primitive bladder mesenchyme) (TS19-TS21): the mesenchyme surrounding the urothelium of primitive bladder. At TS19-20, expresses Ptch1 and Gli1. From TS21, contains smooth muscle cells. The mesenchyme of primitive bladder (and later the bladder) is radially patterned due to differentiation of mesenchymal cells into smooth muscle cells. The layers are defined by their location, differing gene expression profiles and proliferation rates.  From TS20-21 it is divided into inner mesenchyme of primitive bladder (TS20-21) and outer mesenchyme of primitive bladder (TS20-21)." []
 comment: order=1 for EMAPA:30870.
+synonym: "primitive bladder mesenchyme" RELATED []
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:30870 ! primitive bladder
-relationship: starts_at TS20 ! TS20
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:30879
@@ -59049,12 +59051,13 @@ creation_date: 2014-09-02T14:01:31Z
 
 [Term]
 id: JFA:0004016
-name: undifferentiated epithelial cell of urothelium of primitive bladder 
+name: undifferentiated epithelial cell of urothelium of primitive bladder
 namespace: anatomical_structure
 def: "undifferentiated epithelial cell of urothelium of primitive bladder (syn: endodermal epithelial cells of urothelium)  (TS19-TS20): a very small number of these cells are present in the early embryonic urothelium of primitive bladder from TS19-20. These cells are defined by their expression pattern and location in the urothelium. They express Foxa2, Trp63, Shh and Isl1. They do not express Uroplakin or Krt5. They are usually located at the luminal surface of the urothelium." []
+comment: order=0 for EMAPA:30873.
 synonym: "undifferentiated endodermal cell of urothelium of primitive bladder" RELATED []
 relationship: ends_at TS20 ! TS20
-relationship: part_of EMAPA:30873 ! urothelium of primitive bladder 
+relationship: part_of EMAPA:30873 ! urothelium of primitive bladder
 relationship: starts_at TS19 ! TS19
 created_by: jarm
 creation_date: 2014-09-05T11:46:02Z
@@ -59063,11 +59066,64 @@ creation_date: 2014-09-05T11:46:02Z
 id: JFA:0004017
 name: intermediate cell of urothelium of primitive bladder
 namespace: anatomical_structure
+def: "intermediate cell of urothelium of primitive bladder (ICs) (TS21-TS21): are defined by their expression pattern and location in the urothelium. They are present from TS21, in the primitive bladder they are located below the luminal cells and they express Uroplakins, Trp63 and Shh (and do not express Foxa2, Isl1 or Krt5). Intermediate cells are present in the bladder (after TS21)." []
+comment: order=2 for EMAPA:30873
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:30873 ! urothelium of primitive bladder 
+relationship: part_of EMAPA:30873 ! urothelium of primitive bladder
 relationship: starts_at TS21 ! TS21
 created_by: jarm
 creation_date: 2014-09-05T12:13:25Z
+
+[Term]
+id: JFA:0004018
+name: P-0 cell of urothelium of primitive bladder
+namespace: anatomical_structure
+def: "P-0 cell of urothelium of primitive bladder (syn: transient urothelial progenitor cells) (TS19-TS21): a transient embryonic urothelial cell type of the primitive bladder. P-0 cells are defined by their expression pattern and location in the urothelium. P-0 cells express Shh, Uroplakin, Trp63, Isl1 and Foxa2. P-cells do not express Krt5. They make up most of the TS19-20 urothelium and generally reside on the luminal surface of the urothelium at TS21. P-0 cells are the progenitors of intermediate cells and superficial cells of the urothelium of primitive bladder/bladder during embryonic development." []
+comment: order=1 for EMAPA:30873.
+relationship: ends_at TS21 ! TS21
+relationship: part_of EMAPA:30873 ! urothelium of primitive bladder
+relationship: starts_at TS19 ! TS19
+created_by: jarm
+creation_date: 2014-09-09T13:44:35Z
+
+[Term]
+id: JFA:0004019
+name: inner mesenchymal layer of primitive bladder
+namespace: anatomical_structure
+def: "inner mesenchymal layer of primitive bladder (impbl) (syn: suburothelial mesenchyme of primitive bladder) (TS20-TS21): the inner zone of mesenchyme of the primitive bladder, immediately adjacent to the urothelium of primitive bladder. From TS20 is marked by high levels of expression of Gli2 and Bmp4 and moderate levels of Gli1 and Ptch1 and from TS21 is marked by high levels of Gli1, Gli2, Ptch1 and Bmp4. Does not contain smooth muscle cells and therefore does not express smooth muscle actins (alpha-actin and gamma-actin) or smooth muscle myosins (myosin heavy chain). Becomes the lamina propria of bladder (TS22-28)." []
+comment: order=0 for EMAPA:30876.
+synonym: "suburothelial mesenchyme of primitive bladder" RELATED []
+relationship: ends_at TS21 ! TS21
+relationship: part_of EMAPA:30876 ! mesenchymal layer of primitive bladder
+relationship: starts_at TS20 ! TS20
+created_by: jarm
+creation_date: 2014-09-09T14:28:43Z
+
+[Term]
+id: JFA:0004020
+name: outer mesenchymal layer of primitive bladder 
+namespace: anatomical_structure
+def: "outer mesenchymal layer of primitive bladder (ompbl) (syn: peripheral mesenchyme of primitive bladder) (TS20-TS21): the outer zone of the mesenchyme of the primitive bladder adjacent to the serosa/adventitia of primitive bladder. Inner mesenchymal zone markers Gli1, Gli2, Ptch1, Bmp4 are not expressed at high levels. From TS21, is marked by Gli3 and Myocd, which are absent in the inner layer and from TS21 contains smooth muscle cells (marked by smooth muscle actins and myosins such as smooth muscle alpha-actin, smooth muscle gamma-actin, smooth muscle myosin heavy chain, and Tgfb1) and mesenchymal cells of outer mesenchymal layer of primitive bladder." []
+comment: order=1 for EMAPA:30876.
+synonym: "peripheral mesenchyme of primitive bladder" RELATED []
+relationship: ends_at TS21 ! TS21
+relationship: part_of EMAPA:30876 ! mesenchymal layer of primitive bladder
+relationship: starts_at TS20 ! TS20
+created_by: jarm
+creation_date: 2014-09-09T14:39:18Z
+
+[Term]
+id: JFA:0004021
+name: muscle layer of primitive bladder
+namespace: anatomical_structure
+def: "muscle layer of primitive bladder (mupbl) (syn: smooth muscle layer of primitive bladder) (TS21-TS21): smooth muscle differentiation, marked by Myocd, is first seen at TS21 in the fundus or bladder dome which moves towards the bladder neck. Marked by smooth muscle actins and myosins such as smooth muscle alpha-actin, smooth muscle gamma-actin, smooth muscle myosin heavy chain, and Tgfb1. Differentiates into the detrusor muscle of bladder (TS22-28)." []
+comment: order=2 for EMAPA:30870.
+synonym: "smooth muscle layer of primitive bladder" RELATED []
+relationship: ends_at TS21 ! TS21
+relationship: part_of EMAPA:30870 ! primitive bladder
+relationship: starts_at TS21 ! TS21
+created_by: jarm
+creation_date: 2014-09-09T14:48:04Z
 
 [Term]
 id: Tmp_new_group
