@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 11:09:2014 15:15
-saved-by: jarm
-auto-generated-by: OBO-Edit 2.3.1
+date: 11:09:2014 16:08
+saved-by: terryh
+auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -543,6 +543,7 @@ comment: order=0 for EMAPA:16073.\norder=5 for EMAPA:16470.
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16073 ! neural ectoderm
 relationship: part_of EMAPA:16470 ! central nervous system
+relationship: part_of EMAPA:31858 ! head
 relationship: starts_at TS11 ! TS11
 
 [Term]
@@ -760,7 +761,6 @@ id: EMAPA:16114
 name: chorion mesoderm
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16112.
-synonym: "chorion mesoderm" RELATED []
 is_a: EMAPA:31862 ! extraembryonic mesoderm
 relationship: ends_at TS11 ! TS11
 relationship: part_of EMAPA:16112 ! chorion
@@ -1191,11 +1191,12 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:16156
 name: future hindbrain neural crest
 namespace: anatomical_structure
+alt_id: EMAPA:35365
 alt_id: EMAPA:35366
-comment: order=0 for EMAPA:16155.\norder=0 for EMAPA:32733.
-synonym: "future hindbrain neural crest" EXACT []
+comment: MERGED COMMENT:\nTARGET COMMENT: order=0 for EMAPA:16155.\norder=0 for EMAPA:32733.\n--------------------\nSOURCE COMMENT: order=3 for EMAPA:16478.
 is_a: EMAPA:32737 ! neural crest
-relationship: ends_at TS13 ! TS13
+relationship: ends_at TS14 ! TS14
+relationship: part_of EMAPA:16148 ! future hindbrain
 relationship: part_of EMAPA:16155 ! future hindbrain neural fold
 relationship: starts_at TS12 ! TS12
 
@@ -2016,7 +2017,6 @@ namespace: anatomical_structure
 comment: order=21 for EMAPA:16262.
 synonym: "mouth pit" RELATED []
 synonym: "oral pit" RELATED []
-synonym: "stomatodeum" RELATED []
 synonym: "stomodaeum" RELATED []
 synonym: "stomodeum" RELATED []
 relationship: ends_at TS14 ! TS14
@@ -2459,7 +2459,6 @@ alt_id: EMAPA:16497
 alt_id: EMAPA:16947
 alt_id: EMAPA:17121
 comment: order=0 for EMAPA:16305.\norder=0 for EMAPA:16496.\norder=0 for EMAPA:16946.\norder=0 for EMAPA:17120.
-synonym: "rhombomere 05 floor plate" EXACT []
 is_a: EMAPA:32684 ! floor plate
 is_a: EMAPA:32818 ! rhombomere floor plate
 relationship: ends_at TS18 ! TS18
@@ -4356,7 +4355,6 @@ namespace: anatomical_structure
 alt_id: EMAPA:16973
 alt_id: EMAPA:17147
 comment: order=2 for EMAPA:16508.\norder=2 for EMAPA:16967.\norder=2 for EMAPA:17141.
-synonym: "rhombomere 08 roof plate" EXACT []
 is_a: EMAPA:32824 ! rhombomere roof plate
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16508 ! rhombomere 08
@@ -6146,7 +6144,6 @@ name: Rathke's pouch
 namespace: anatomical_structure
 alt_id: EMAPA:16574
 comment: order=0 for EMAPA:16724.
-synonym: "Rathke's pouch" EXACT []
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16724 ! future adenohypophysis
 relationship: starts_at TS14 ! TS14
@@ -6451,6 +6448,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:16755.
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16755 ! tail future spinal cord
+relationship: part_of EMAPA:35593 ! neural plate
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -6638,7 +6636,6 @@ name: pleura
 namespace: anatomical_structure
 alt_id: EMAPA:18463
 comment: order=1 for EMAPA:16773.
-synonym: "pleura" RELATED []
 synonym: "pleural mesothelium" EXACT []
 is_a: EMAPA:32856 ! mesothelium
 relationship: ends_at TS28 ! TS28
@@ -7440,7 +7437,6 @@ id: EMAPA:16857
 name: gonad primordium
 namespace: anatomical_structure
 comment: order=5 for EMAPA:16367.
-synonym: "gonad primordium" RELATED []
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16367 ! genitourinary system
 relationship: starts_at TS16 ! TS16
@@ -7934,6 +7930,7 @@ id: EMAPA:16906
 name: diencephalon lateral wall mantle layer
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16905.
+is_a: EMAPA:32718 ! diencephalon mantle layer
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16905 ! diencephalon lateral wall
 relationship: starts_at TS17 ! TS17
@@ -7943,6 +7940,7 @@ id: EMAPA:16907
 name: diencephalon lateral wall marginal layer
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16905.
+is_a: EMAPA:32709 ! diencephalon marginal layer
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16905 ! diencephalon lateral wall
 relationship: starts_at TS17 ! TS17
@@ -10445,7 +10443,6 @@ namespace: anatomical_structure
 alt_id: EMAPA:17159
 comment: order=1 for EMAPA:17264.
 synonym: "accessory nerve" RELATED []
-synonym: "accessory XI nerve" EXACT []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16989 ! spinal nerve
 relationship: part_of EMAPA:17264 ! cranial nerve
@@ -10466,7 +10463,6 @@ name: accessory XI nerve spinal component
 namespace: anatomical_structure
 alt_id: EMAPA:17160
 comment: order=1 for EMAPA:17265.
-synonym: "accessory XI nerve spinal component" EXACT []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17265 ! accessory XI nerve
 relationship: starts_at TS18 ! TS18
@@ -13295,7 +13291,6 @@ namespace: anatomical_structure
 alt_id: EMAPA:16983
 comment: order=1 for EMAPA:16659.
 synonym: "facial ganglion" RELATED []
-synonym: "facial VII ganglion" EXACT []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16659 ! cranial ganglion
 relationship: starts_at TS17 ! TS17
@@ -16231,7 +16226,6 @@ name: tongue mesenchyme
 namespace: anatomical_structure
 alt_id: EMAPA:18878
 comment: order=10 for EMAPA:17185.
-synonym: "tongue mesenchyme" EXACT []
 is_a: EMAPA:16707 ! pharynx mesenchyme
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17185 ! tongue
@@ -16938,16 +16932,6 @@ is_a: EMAPA:36000 ! germ cell of gonad
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:29098 ! primary sex cord
 relationship: starts_at TS20 ! TS20
-
-[Term]
-id: EMAPA:17978
-name: laryngeal aditus
-namespace: anatomical_structure
-comment: order=3 for EMAPA:16727.
-synonym: "larynx aditus" RELATED []
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:16727 ! respiratory system
-relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:17980
@@ -20613,7 +20597,6 @@ name: pharynx lumen
 namespace: anatomical_structure
 alt_id: EMAPA:18869
 comment: order=5 for EMAPA:16706.
-synonym: "pharynx lumen" EXACT []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16706 ! pharynx
 relationship: starts_at TS15 ! TS15
@@ -21092,7 +21075,6 @@ name: knee rest of mesenchyme
 namespace: anatomical_structure
 alt_id: EMAPA:18511
 comment: order=1 for EMAPA:17495.
-synonym: "knee rest of mesenchyme" EXACT []
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17495 ! knee mesenchyme
 relationship: starts_at TS21 ! TS21
@@ -22201,7 +22183,7 @@ comment: order=25 for EMAPA:16240.
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16240 ! venous system
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:18641
@@ -24559,11 +24541,13 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19091
 name: larynx aditus
 namespace: anatomical_structure
-comment: order=0 for EMAPA:18333.
+alt_id: EMAPA:17978
+comment: order=0 for EMAPA:18333.\norder=3 for EMAPA:16727.
 synonym: "laryngeal aditus" RELATED []
 relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16727 ! respiratory system
 relationship: part_of EMAPA:18333 ! larynx
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:19092
@@ -24871,7 +24855,6 @@ name: carpus
 namespace: anatomical_structure
 alt_id: EMAPA:18485
 comment: order=0 for EMAPA:17428.
-synonym: "carpus" EXACT []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17428 ! hand
 relationship: starts_at TS23 ! TS23
@@ -30003,7 +29986,6 @@ name: proctodeum
 namespace: anatomical_structure
 alt_id: EMAPA:25043
 comment: order=4 for EMAPA:16096.\norder=7 for EMAPA:17525.
-synonym: "proctodeum" EXACT []
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:16096 ! surface ectoderm
 relationship: part_of EMAPA:17525 ! skin
@@ -37205,7 +37187,6 @@ name: pharynx mucosa
 namespace: anatomical_structure
 alt_id: EMAPA:26965
 comment: order=7 for EMAPA:16706.
-synonym: "pharynx mucosa" EXACT []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16706 ! pharynx
 relationship: starts_at TS23 ! TS23
@@ -37589,7 +37570,6 @@ name: rectum muscularis
 namespace: anatomical_structure
 alt_id: EMAPA:27327
 comment: order=5 for EMAPA:17896.
-synonym: "rectum muscularis" EXACT []
 is_a: EMAPA:35385 ! gut muscularis
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17896 ! rectum
@@ -47195,7 +47175,7 @@ id: EMAPA:32685
 name: endocardial tube
 namespace: anatomical_structure
 comment: order=16 for EMAPA:16105.
-relationship: ends_at TS14 ! TS14
+relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16105 ! heart
 relationship: starts_at TS12 ! TS12
 
@@ -47436,7 +47416,7 @@ namespace: anatomical_structure
 comment: order=8 for EMAPA:16896.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16896 ! diencephalon
-relationship: starts_at TS20 ! TS20
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:32710
@@ -47446,7 +47426,7 @@ comment: order=11 for EMAPA:16896.
 is_a: EMAPA:32921 ! forebrain ventricular layer
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16896 ! diencephalon
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:32711
@@ -47520,7 +47500,7 @@ namespace: anatomical_structure
 comment: order=7 for EMAPA:16896.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16896 ! diencephalon
-relationship: starts_at TS20 ! TS20
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:32719
@@ -47971,7 +47951,6 @@ id: EMAPA:32766
 name: 6th branchial arch
 namespace: anatomical_structure
 comment: order=4 for EMAPA:16117.
-synonym: "6th branchial arch" RELATED []
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16117 ! branchial arch
 relationship: starts_at TS17 ! TS17
@@ -49281,7 +49260,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:16262.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16262 ! oral region
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:32906
@@ -49450,7 +49429,7 @@ name: foregut mesenchyme
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16548.
 is_a: EMAPA:32909 ! gut mesenchyme
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16548 ! foregut
 relationship: starts_at TS14 ! TS14
 
@@ -51860,7 +51839,7 @@ comment: order=2 for EMAPA:18816.
 is_a: EMAPA:35999 ! endocrine gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17503 ! pancreas
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35306
@@ -52401,15 +52380,6 @@ name: future hindbrain lateral wall
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16478.
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16148 ! future hindbrain
-relationship: starts_at TS14 ! TS14
-
-[Term]
-id: EMAPA:35365
-name: future hindbrain neural crest
-namespace: anatomical_structure
-comment: order=3 for EMAPA:16478.
-relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16148 ! future hindbrain
 relationship: starts_at TS14 ! TS14
 
@@ -53198,7 +53168,7 @@ comment: order=7 for EMAPA:32905.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17213 ! skeleton
 relationship: part_of EMAPA:32905 ! jaw
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35456
@@ -54497,8 +54467,9 @@ id: EMAPA:35593
 name: neural plate
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16073.
-relationship: ends_at TS13 ! TS13
+relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16073 ! neural ectoderm
+relationship: part_of EMAPA:16470 ! central nervous system
 relationship: starts_at TS11 ! TS11
 
 [Term]
@@ -56544,7 +56515,7 @@ namespace: anatomical_structure
 comment: order=10 for EMAPA:18889.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17021 ! stomach
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35822
