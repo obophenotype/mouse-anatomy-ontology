@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 09:09:2014 15:16
+date: 11:09:2014 15:15
 saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -40243,7 +40243,7 @@ name: urothelium of bladder fundus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35173.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35173 ! bladder fundus region
+relationship: part_of EMAPA:35173 ! bladder fundus
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -40252,14 +40252,13 @@ name: urothelium of bladder trigone
 namespace: anatomical_structure
 comment: order=2 for EMAPA:35174.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35174 ! bladder trigone region
+relationship: part_of EMAPA:35174 ! bladder trigone
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:28619
 name: muscularis mucosa of bladder
 namespace: anatomical_structure
-comment: order=2 for EMAPA:18321.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
 relationship: starts_at TS22 ! TS22
@@ -40287,7 +40286,7 @@ id: EMAPA:28637
 name: detrusor muscle of bladder
 namespace: anatomical_structure
 def: "detrusor muscle of bladder (dmbl) (syn: smooth muscle layer of bladder) (TS22-TS28): a thick layer comprised of irregularly oriented smooth muscle fibre bundles adjacent to the outer layer of bladder (serosa/adventitia of bladder). Marked by smooth muscle markers including Tgfb1, smooth muscle actins (smooth muscle alpha actin, smooth muscle gamma actin) and smooth muscle myosins (eg. Myh11, smooth muscle myosin heavy chain), the major structural components of smooth muscle. Contains nerve of bladder detrusor muscle (TS22-28)." []
-comment: order=4 for EMAPA:18321.
+comment: order=2 for EMAPA:18321.
 synonym: "smooth muscle layer of bladder" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
@@ -40299,7 +40298,7 @@ name: detrusor muscle of bladder fundus
 namespace: anatomical_structure
 comment: order=2 for EMAPA:35173.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35173 ! bladder fundus region
+relationship: part_of EMAPA:35173 ! bladder fundus
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -40308,7 +40307,7 @@ name: detrusor muscle of bladder trigone
 namespace: anatomical_structure
 comment: order=4 for EMAPA:35174.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35174 ! bladder trigone region
+relationship: part_of EMAPA:35174 ! bladder trigone
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -40326,7 +40325,7 @@ name: serosa of bladder fundus
 namespace: anatomical_structure
 comment: order=3 for EMAPA:35173.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35173 ! bladder fundus region
+relationship: part_of EMAPA:35173 ! bladder fundus
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -40342,7 +40341,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:28679
 name: vasculature of bladder
 namespace: anatomical_structure
-comment: order=7 for EMAPA:18321.
+comment: order=4 for EMAPA:18321.
 synonym: "blood vessel of bladder" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
@@ -40482,7 +40481,7 @@ name: adventitia of bladder trigone
 namespace: anatomical_structure
 comment: order=5 for EMAPA:35174.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35174 ! bladder trigone region
+relationship: part_of EMAPA:35174 ! bladder trigone
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -42664,7 +42663,7 @@ name: lamina propria of bladder fundus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35173.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35173 ! bladder fundus region
+relationship: part_of EMAPA:35173 ! bladder fundus
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -42673,7 +42672,7 @@ name: lamina propria of bladder trigone
 namespace: anatomical_structure
 comment: order=1 for EMAPA:30088.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35174 ! bladder trigone region
+relationship: part_of EMAPA:35174 ! bladder trigone
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -45185,7 +45184,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:31526
 name: nerve of bladder
 namespace: anatomical_structure
-comment: order=8 for EMAPA:18321.
+comment: order=5 for EMAPA:18321.
 is_a: EMAPA:35948 ! nerve of urinary system
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
@@ -45312,7 +45311,8 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:31539
 name: developing vasculature of primitive bladder
 namespace: anatomical_structure
-comment: order=2 for EMAPA:30870.\norder=1 for EMAPA:31563.
+def: "developing vasculature of primitive bladder (TS20-TS21): the blood vessels (arteries, veins and capillaries) of the primitive bladder." []
+comment: order=4 for EMAPA:30870.\norder=1 for EMAPA:31563.
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:30870 ! primitive bladder
 relationship: part_of EMAPA:31563 ! developing vasculature of urinary system group
@@ -46075,7 +46075,6 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:32275
 name: submucosa of bladder
 namespace: anatomical_structure
-comment: order=3 for EMAPA:18321.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
 relationship: starts_at TS22 ! TS22
@@ -49732,7 +49731,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35042
 name: nerve of primitive bladder
 namespace: anatomical_structure
-comment: order=3 for EMAPA:30870.
+comment: order=5 for EMAPA:30870.
 is_a: EMAPA:35948 ! nerve of urinary system
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:30870 ! primitive bladder
@@ -50613,10 +50612,10 @@ relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35173
-name: bladder fundus region
+name: bladder fundus
 namespace: anatomical_structure
-def: "bladder fundus region (syn: bladder dome) (TS22-28): the rounded blind-end of the bladder. Comprised of urothelium, lamina propria, detrusor muscle and serosa of bladder fundus." []
-comment: order=0 for EMAPA:18321.
+def: "bladder fundus (syn: bladder dome) (TS22-TS28): the rounded blind-end of the bladder. Comprised of urothelium, lamina propria, detrusor muscle and serosa of bladder fundus." []
+comment: order=6 for EMAPA:18321.
 synonym: "bladder dome" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
@@ -50624,20 +50623,19 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35174
-name: bladder trigone region
+name: bladder trigone
 namespace: anatomical_structure
-def: "bladder trigone region (TS22-28): the triangular-shaped dorsal region of the bladder neck located between the ureters and the opening of the pelvic urethra.  The ureter orifices form the base of the trigone and the urethra opening, the apex. The urothelium of bladder trigone has a smooth surface (as opposed to folded luminal surface of the urothelium of the bladder fundus). The morphology of the trigone changes from isosceles to equilateral triangle during development, as the distance between the ureters and pelvic urethra lengthens. Lineage analysis has shown that the urothelium derives from the urogenital sinus and the muscle derives from differentiates from the intersecting detrusor muscle and longitudinal urethral muscle fibres. Comprised of urothelium, lamina propria and detrusor muscle of bladder trigone, intercalated with ureteral smooth muscle of trigone. Also contains ureter junction of bladder trigone and urethra junction of bladder trigone." []
+def: "bladder trigone (syn: dorsal bladder neck) (TS22-TS28): the triangular-shaped dorsal region of the bladder neck located between the ureters and the opening of the pelvic urethra.  The ureter orifices form the base of the trigone and the urethra opening, the apex. The urothelium of bladder trigone has a smooth surface (as opposed to folded luminal surface of the urothelium of the bladder fundus). The morphology of the trigone changes from isosceles to equilateral triangle during development, as the distance between the ureters and pelvic urethra lengthens. Lineage analysis has shown that the urothelium derives from the urogenital sinus and the muscle derives from differentiates from the intersecting detrusor muscle and longitudinal urethral muscle fibres. Comprised of urothelium, lamina propria and detrusor muscle of bladder trigone, intercalated with ureteral smooth muscle of trigone. Also contains ureter junction of bladder trigone and urethra junction of bladder trigone." []
 comment: order=11 for EMAPA:18321.
 synonym: "dorsal bladder neck" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of JFA:0004009 ! bladder neck region
+relationship: part_of JFA:0004009 ! bladder neck
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35175
 name: bladder wall
 namespace: anatomical_structure
-comment: order=12 for EMAPA:18321.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
 relationship: starts_at TS23 ! TS23
@@ -57269,7 +57267,6 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:35897
 name: bladder mucosa
 namespace: anatomical_structure
-comment: order=10 for EMAPA:18321.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
 relationship: starts_at TS28 ! TS28
@@ -58968,6 +58965,7 @@ id: JFA:0004008
 name: outer layer of bladder
 namespace: anatomical_structure
 def: "outer layer of bladder (TS22-TS28): the outermost layer of the bladder subdivided into serosa of bladder (TS22-28) and adventitia of bladder (TS22-28). Most of the bladder is covered by serosa, a serous-fluid-secreting outer epithelial surface of the bladder in contact with the coelomic cavity. The fundus (or dome) is surrounded by serosa, the rest of the bladder, in contact with the adjacent connective tissue, is covered by adventitia. The adventitia refers to the outer part of the bladder that is not exposed to the peritoneal cavity but is a connective tissue layer that binds it to the adventitia of adjacent organs. The proportion of the bladder covered by serosa and adventitia is stage dependant, with adventita covering more of the bladder early in development, and the majority covered by serosa later in development. Contains nerve of bladder serosa/adventitia (TS22-28)." []
+comment: order=3 for EMAPA:18321.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
 relationship: starts_at TS22 ! TS22
@@ -58976,10 +58974,10 @@ creation_date: 2014-08-29T14:03:16Z
 
 [Term]
 id: JFA:0004009
-name: bladder neck region
+name: bladder neck
 namespace: anatomical_structure
-def: "bladder neck region (TS22-28): the narrow open end of the bladder, located between the ureter orifices and the opening of the pelvic urethra. Subdivided into bladder trigone and ventral bladder neck." []
-comment: order=1 for EMAPA:18321.
+def: "bladder neck (TS22-TS28): the narrow open end of the bladder, located between the ureter orifices and the opening of the pelvic urethra. Subdivided into bladder trigone and ventral bladder neck." []
+comment: order=7 for EMAPA:18321.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
 relationship: starts_at TS22 ! TS22
@@ -58992,7 +58990,7 @@ name: ventral bladder neck
 namespace: anatomical_structure
 def: "ventral bladder neck (TS22-28): the ventral region of the narrow open end of the bladder, located between the ureter orifices and the opening of the pelvic urethra (the dorsal region of the bladder neck is the bladder trigone). Comprised of urothelium, lamina propria, detrusor muscle and adventitia of ventral bladder neck." []
 relationship: ends_at TS28 ! TS28
-relationship: part_of JFA:0004009 ! bladder neck region
+relationship: part_of JFA:0004009 ! bladder neck
 relationship: starts_at TS22 ! TS22
 created_by: jarm
 creation_date: 2014-09-02T11:27:43Z
@@ -59003,7 +59001,7 @@ name: ureter junction of bladder trigone
 namespace: anatomical_structure
 comment: order=0 for JFA:35174.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35174 ! bladder trigone region
+relationship: part_of EMAPA:35174 ! bladder trigone
 relationship: starts_at TS22 ! TS22
 created_by: jarm
 creation_date: 2014-09-02T11:41:16Z
@@ -59014,7 +59012,7 @@ name: urethra junction of bladder trigone
 namespace: anatomical_structure
 comment: order=1 for JFA:35174.
 is_a: TS28 ! TS28
-relationship: part_of EMAPA:35174 ! bladder trigone region
+relationship: part_of EMAPA:35174 ! bladder trigone
 relationship: starts_at TS22 ! TS22
 created_by: jarm
 creation_date: 2014-09-02T11:44:25Z
@@ -59024,7 +59022,7 @@ id: JFA:0004013
 name: ureteral smooth muscle of trigone
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35174 ! bladder trigone region
+relationship: part_of EMAPA:35174 ! bladder trigone
 relationship: starts_at TS22 ! TS22
 created_by: jarm
 creation_date: 2014-09-02T13:46:59Z
@@ -59101,7 +59099,7 @@ creation_date: 2014-09-09T14:28:43Z
 
 [Term]
 id: JFA:0004020
-name: outer mesenchymal layer of primitive bladder 
+name: outer mesenchymal layer of primitive bladder
 namespace: anatomical_structure
 def: "outer mesenchymal layer of primitive bladder (ompbl) (syn: peripheral mesenchyme of primitive bladder) (TS20-TS21): the outer zone of the mesenchyme of the primitive bladder adjacent to the serosa/adventitia of primitive bladder. Inner mesenchymal zone markers Gli1, Gli2, Ptch1, Bmp4 are not expressed at high levels. From TS21, is marked by Gli3 and Myocd, which are absent in the inner layer and from TS21 contains smooth muscle cells (marked by smooth muscle actins and myosins such as smooth muscle alpha-actin, smooth muscle gamma-actin, smooth muscle myosin heavy chain, and Tgfb1) and mesenchymal cells of outer mesenchymal layer of primitive bladder." []
 comment: order=1 for EMAPA:30876.
@@ -59124,6 +59122,60 @@ relationship: part_of EMAPA:30870 ! primitive bladder
 relationship: starts_at TS21 ! TS21
 created_by: jarm
 creation_date: 2014-09-09T14:48:04Z
+
+[Term]
+id: JFA:0004022
+name: smooth muscle cell of outer mesenchymal layer of primitive bladder
+namespace: anatomical_structure
+relationship: ends_at TS21 ! TS21
+relationship: part_of JFA:0004020 ! outer mesenchymal layer of primitive bladder
+relationship: starts_at TS21 ! TS21
+created_by: jarm
+creation_date: 2014-09-11T11:54:47Z
+
+[Term]
+id: JFA:0004023
+name: mesenchymal cell of outer mesenchymal layer of primitive bladder
+namespace: anatomical_structure
+relationship: ends_at TS21 ! TS21
+relationship: part_of JFA:0004020 ! outer mesenchymal layer of primitive bladder
+relationship: starts_at TS21 ! TS21
+created_by: jarm
+creation_date: 2014-09-11T12:13:38Z
+
+[Term]
+id: JFA:0004024
+name: outer layer of primitive bladder
+namespace: anatomical_structure
+def: "outer layer of primitive bladder (TS20-TS21): the outermost layer of the bladder is comprised of either a serosa or an adventitia. The adventitia refers to the outer part of the primitive bladder that is not exposed to the peritoneal cavity but is a connective tissue layer that binds it to the adventitia of the adjacent organs. Most of the bladder will be covered by serosa, but early when the primitive bladder is not developed and later in some regions (i.e. closer toward the urethra) there will instead be an adventitia. As the organs develop, more of the bladder is covered by serosa and less by an adventitia." []
+comment: order=3 for EMAPA:30870.
+relationship: ends_at TS21 ! TS21
+relationship: part_of EMAPA:30870 ! primitive bladder
+relationship: starts_at TS20 ! TS20
+created_by: jarm
+creation_date: 2014-09-11T12:17:45Z
+
+[Term]
+id: JFA:0004025
+name: serosa of primitive bladder
+namespace: anatomical_structure
+def: "serosa of primitive bladder (spbl) (TS20-TS21): the outermost layer of the bladder is comprised of either a serosa or an adventitia. The serosa (or serous membrane) of the primitive bladder, where the outer surface is covered by simple epithelium. Most of the bladder will be covered by serosa, but early when the primitive bladder is not developed and later in some regions (i.e. closer toward the urethra) there will instead be an adventitia. As the organs develop, more of the bladder is covered by serosa and less by an adventitia." []
+relationship: ends_at TS21 ! TS21
+relationship: part_of JFA:0004024 ! outer layer of primitive bladder
+relationship: starts_at TS20 ! TS20
+created_by: jarm
+creation_date: 2014-09-11T13:42:38Z
+
+[Term]
+id: JFA:0004026
+name: adventitia of primitive bladder
+namespace: anatomical_structure
+def: "adventitia of primitive bladder (apbl) (TS20-TS21): the outermost layer of the bladder is comprised of either a serosa or an adventitia. The adventitia refers to the outer part of the primitive bladder that is not exposed to the peritoneal cavity but is a connective tissue layer that binds it to the adventitia of the adjacent organs. Most of the bladder will be covered by serosa, but early when the primitive bladder is not developed and later in some regions (i.e. closer toward the urethra) there will instead be an adventitia. As the organs develop, more of the bladder is covered by serosa and less by an adventitia." []
+relationship: ends_at TS21 ! TS21
+relationship: part_of JFA:0004024 ! outer layer of primitive bladder
+relationship: starts_at TS20 ! TS20
+created_by: jarm
+creation_date: 2014-09-11T13:48:33Z
 
 [Term]
 id: Tmp_new_group
