@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 12:09:2014 16:18
-saved-by: jarm
-auto-generated-by: OBO-Edit 2.3.1
+date: 12:09:2014 15:48
+saved-by: terryh
+auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -11413,7 +11413,6 @@ name: urogenital membrane
 namespace: anatomical_structure
 alt_id: EMAPA:17210
 comment: MERGED COMMENT:\nTARGET COMMENT: order=18 for EMAPA:17366.\n--------------------\nSOURCE COMMENT: order=14 for EMAPA:16367.
-synonym: "urogenital membrane" EXACT []
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS19 ! TS19
@@ -58973,7 +58972,7 @@ id: EMAPA:36081
 name: urethra junction of bladder trigone
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35174.
-is_a: TS28 ! TS28
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35174 ! bladder trigone
 relationship: starts_at TS22 ! TS22
 created_by: jarm
@@ -59149,271 +59148,6 @@ creation_date: 2014-09-12T14:48:01Z
 [Term]
 id: group_term
 name: Group term
-
-[Term]
-id: JFA:0004000
-name: cloacal membrane
-namespace: anatomical_structure
-def: "cloacal membrane (clmem) (TS17-20): part of the cloaca where the two different epithelia of the surface ectoderm (of the embryo) and cloacal epithelium are in direct contact with each other. Comprised of cloacal epithelium of cloacal membrane and surface ectoderm of cloacal membrane. Fgf8 marks the the cloacal epithelium component. (Note: the cloacal membrane is distinct to the urogenital membrane, which is comprised of the regions of surface ectoderm and urethral plate epithelium in contact with each other and part of the genital tubercle.)" []
-comment: order=2 for EMAPA:27573.
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-08-28T11:44:22Z
-
-[Term]
-id: JFA:0004001
-name: cloacal epithelium of cloacal membrane
-namespace: anatomical_structure
-comment: order=0 for EMAPA:16832.
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-08-28T14:44:24Z
-
-[Term]
-id: JFA:0004002
-name: surface ectoderm of cloacal membrane
-namespace: anatomical_structure
-comment: order=1 for EMAPA:16832.
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-08-28T14:47:25Z
-
-[Term]
-id: JFA:0004003
-name: superficial cell of bladder urothelium
-namespace: anatomical_structure
-def: "superficial cell of bladder urothelium (TS22-28) (TS22-25 synonym: immature umbrella cells of bladder urothelium , at TS26 synonym: umbrella cells of bladder urothelium): the urothelial cell type lining the bladder lumen. Part of the superficial cell layer from E14 (TS22) to adult (TS28). During development immature umbrella cells become multinucleated large and oval shaped as they mature. Superficial cells are specialised for the syntheseis and transport of uroplakin proteins which make up the urothelial plaque. These cell express uroplakins (whereas genetic markers of other urothelial cell types including, Krt5, Trp63, Foxa2, Isl1 and Shh, are not expressed). At TS22, superficial cells of bladder urothelium are immature umbrella cells which are mononucleated and similar in size to the other urothelial cell types. By TS26 mature umbrella cells, are fully differentiated, they are multinucleated (polyploidy) and are enormous in size compared to the other urothelial cell types. Fully differentiated superficial cells uniquely express Krt20, from TS26. In the adult, they make up ~5% of the urothelium of bladder." []
-comment: order=0 for EMAPA:32273.
-synonym: "immature umbrella cells TS22-25" RELATED []
-synonym: "umbrella cells TS26-28" RELATED []
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-08-29T11:01:15Z
-
-[Term]
-id: JFA:0004004
-name: intermediate cell layer of bladder urothelium
-namespace: anatomical_structure
-def: "intermediate cell layer of bladder urothelium (TS22-TS28) (syn: suprabasal cell layer of  bladder urothelium): the 1-2 cell epithelial layer located between the superficial layer and the basal layers, comprised of intermediate cells of bladder urothelium at TS22. From TS23-28 is comprised of intermediate cells and Krt5-expressing basal cells of bladder urothelium." []
-comment: order=1 for EMAPA:28601.
-synonym: "suprabasal cell layer of  bladder urothelium" RELATED []
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-08-29T11:19:53Z
-
-[Term]
-id: JFA:0004005
-name: Krt5-expressing basal cell of bladder urothelium
-namespace: anatomical_structure
-def: "Krt5-expressing basal cell of bladder urothelium (syn: K5-basal cells of bladder urothelium) (TS23-TS28): cells expressing Krt5, present in the basal and intermediate cell layers of the bladder urothelium. First detected between E14-E15, at TS23.  They express Krt5, Trp63 and Shh (do not express Isl1, Foxa2 or uroplakins).  From TS27 (P0), a subpopulation of these cells also express Krt14. In the adult, they make up ~90% of the urothelium of bladder." []
-comment: order=1 for EMAPA:32274.
-synonym: "K5-basal cell of bladder urothelium" RELATED []
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-08-29T12:39:40Z
-
-[Term]
-id: JFA:0004006
-name: suburothelial lamina propria of bladder
-namespace: anatomical_structure
-def: "suburothelial lamina propria of bladder (sulpb) (syn: suburothelial stroma of bladder, suburothelial mesenchyme of bladder, inner lamina propria of bladder) (TS22-TS28): a thin layer of mesenchymal (or stromal) cells located immediately adjacent to the urothelium. Numerous blood vessels and an absence of smooth muscle cells are characteristic of this layer and therefore it does not express markers of smooth muscle (such as smooth muscle actins (alpha-actin and gamma-actin) or smooth muscle myosins (myosin heavy chain) or Tgfb1). At E14-16, the suburothelial lamina propria expresses higher levels of Ptch1, Gli1 and is marked by Snai1 at E17. Contains nerve of suburothelial lamina propria of bladder (TS22-28)." []
-comment: order=0 for EMAPA:30088.
-synonym: "inner lamina propria of bladder" RELATED []
-synonym: "suburothelial mesenchyme of bladder" RELATED []
-synonym: "suburothelial stroma of bladder" RELATED []
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-08-29T13:21:42Z
-
-[Term]
-id: JFA:0004007
-name: outer lamina propria of bladder
-namespace: anatomical_structure
-def: "outer lamina propria of bladder (olpb) (syn: muscularis mesenchyme of bladder) (TS22-TS28): the outer mesenchymal layer or outer lamina propria layer of the bladder located adjacent to the detrusor muscle of bladder. Contains loosely organised connective tissue, many small blood vessels and nerves, and discontinuous  wisps of smooth muscle cells marked by smooth muscle alpha actin. At E14-E16 this layer is marked by Gli3 and Myocd (DeSouza et al 2013). Contains nerve of outer lamina propria of bladder (TS22-28)." []
-comment: order=1 for EMAPA:30088.
-synonym: "muscularis mesenchyme of bladder" RELATED []
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-08-29T13:32:19Z
-
-[Term]
-id: JFA:0004008
-name: outer layer of bladder
-namespace: anatomical_structure
-def: "outer layer of bladder (TS22-TS28): the outermost layer of the bladder subdivided into serosa of bladder (TS22-28) and adventitia of bladder (TS22-28). Most of the bladder is covered by serosa, a serous-fluid-secreting outer epithelial surface of the bladder in contact with the coelomic cavity. The fundus (or dome) is surrounded by serosa, the rest of the bladder, in contact with the adjacent connective tissue, is covered by adventitia. The adventitia refers to the outer part of the bladder that is not exposed to the peritoneal cavity but is a connective tissue layer that binds it to the adventitia of adjacent organs. The proportion of the bladder covered by serosa and adventitia is stage dependant, with adventita covering more of the bladder early in development, and the majority covered by serosa later in development. Contains nerve of bladder serosa/adventitia (TS22-28)." []
-comment: order=3 for EMAPA:18321.
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-08-29T14:03:16Z
-
-[Term]
-id: JFA:0004009
-name: bladder neck
-namespace: anatomical_structure
-def: "bladder neck (TS22-TS28): the narrow open end of the bladder, located between the ureter orifices and the opening of the pelvic urethra. Subdivided into bladder trigone and ventral bladder neck." []
-comment: order=7 for EMAPA:18321.
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-09-02T10:55:26Z
-
-[Term]
-id: JFA:0004010
-name: ventral bladder neck
-namespace: anatomical_structure
-def: "ventral bladder neck (TS22-28): the ventral region of the narrow open end of the bladder, located between the ureter orifices and the opening of the pelvic urethra (the dorsal region of the bladder neck is the bladder trigone). Comprised of urothelium, lamina propria, detrusor muscle and adventitia of ventral bladder neck." []
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-09-02T11:27:43Z
-
-[Term]
-id: JFA:0004011
-name: ureter junction of bladder trigone
-namespace: anatomical_structure
-comment: order=0 for JFA:35174.
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-09-02T11:41:16Z
-
-[Term]
-id: JFA:0004012
-name: urethra junction of bladder trigone
-namespace: anatomical_structure
-comment: order=1 for JFA:35174.
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-09-02T11:44:25Z
-
-[Term]
-id: JFA:0004013
-name: ureteral smooth muscle of trigone
-namespace: anatomical_structure
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-09-02T13:46:59Z
-
-[Term]
-id: JFA:0004014
-name: fundus junction of ventral bladder neck
-namespace: anatomical_structure
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-09-02T13:56:47Z
-
-[Term]
-id: JFA:0004015
-name: urethra junction of ventral bladder neck
-namespace: anatomical_structure
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-09-02T14:01:31Z
-
-[Term]
-id: JFA:0004016
-name: undifferentiated epithelial cell of urothelium of primitive bladder
-namespace: anatomical_structure
-def: "undifferentiated epithelial cell of urothelium of primitive bladder (syn: endodermal epithelial cells of urothelium)  (TS19-TS20): a very small number of these cells are present in the early embryonic urothelium of primitive bladder from TS19-20. These cells are defined by their expression pattern and location in the urothelium. They express Foxa2, Trp63, Shh and Isl1. They do not express Uroplakin or Krt5. They are usually located at the luminal surface of the urothelium." []
-comment: order=0 for EMAPA:30873.
-synonym: "undifferentiated endodermal cell of urothelium of primitive bladder" RELATED []
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-09-05T11:46:02Z
-
-[Term]
-id: JFA:0004017
-name: intermediate cell of urothelium of primitive bladder
-namespace: anatomical_structure
-def: "intermediate cell of urothelium of primitive bladder (ICs) (TS21-TS21): are defined by their expression pattern and location in the urothelium. They are present from TS21, in the primitive bladder they are located below the luminal cells and they express Uroplakins, Trp63 and Shh (and do not express Foxa2, Isl1 or Krt5). Intermediate cells are present in the bladder (after TS21)." []
-comment: order=2 for EMAPA:30873
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-09-05T12:13:25Z
-
-[Term]
-id: JFA:0004018
-name: P-0 cell of urothelium of primitive bladder
-namespace: anatomical_structure
-def: "P-0 cell of urothelium of primitive bladder (syn: transient urothelial progenitor cells) (TS19-TS21): a transient embryonic urothelial cell type of the primitive bladder. P-0 cells are defined by their expression pattern and location in the urothelium. P-0 cells express Shh, Uroplakin, Trp63, Isl1 and Foxa2. P-cells do not express Krt5. They make up most of the TS19-20 urothelium and generally reside on the luminal surface of the urothelium at TS21. P-0 cells are the progenitors of intermediate cells and superficial cells of the urothelium of primitive bladder/bladder during embryonic development." []
-comment: order=1 for EMAPA:30873.
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-09-09T13:44:35Z
-
-[Term]
-id: JFA:0004019
-name: inner mesenchymal layer of primitive bladder
-namespace: anatomical_structure
-def: "inner mesenchymal layer of primitive bladder (impbl) (syn: suburothelial mesenchyme of primitive bladder) (TS20-TS21): the inner zone of mesenchyme of the primitive bladder, immediately adjacent to the urothelium of primitive bladder. From TS20 is marked by high levels of expression of Gli2 and Bmp4 and moderate levels of Gli1 and Ptch1 and from TS21 is marked by high levels of Gli1, Gli2, Ptch1 and Bmp4. Does not contain smooth muscle cells and therefore does not express smooth muscle actins (alpha-actin and gamma-actin) or smooth muscle myosins (myosin heavy chain). Becomes the lamina propria of bladder (TS22-28)." []
-comment: order=0 for EMAPA:30876.
-synonym: "suburothelial mesenchyme of primitive bladder" RELATED []
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-09-09T14:28:43Z
-
-[Term]
-id: JFA:0004020
-name: outer mesenchymal layer of primitive bladder
-namespace: anatomical_structure
-def: "outer mesenchymal layer of primitive bladder (ompbl) (syn: peripheral mesenchyme of primitive bladder) (TS20-TS21): the outer zone of the mesenchyme of the primitive bladder adjacent to the serosa/adventitia of primitive bladder. Inner mesenchymal zone markers Gli1, Gli2, Ptch1, Bmp4 are not expressed at high levels. From TS21, is marked by Gli3 and Myocd, which are absent in the inner layer and from TS21 contains smooth muscle cells (marked by smooth muscle actins and myosins such as smooth muscle alpha-actin, smooth muscle gamma-actin, smooth muscle myosin heavy chain, and Tgfb1) and mesenchymal cells of outer mesenchymal layer of primitive bladder." []
-comment: order=1 for EMAPA:30876.
-synonym: "peripheral mesenchyme of primitive bladder" RELATED []
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-09-09T14:39:18Z
-
-[Term]
-id: JFA:0004021
-name: muscle layer of primitive bladder
-namespace: anatomical_structure
-def: "muscle layer of primitive bladder (mupbl) (syn: smooth muscle layer of primitive bladder) (TS21-TS21): smooth muscle differentiation, marked by Myocd, is first seen at TS21 in the fundus or bladder dome which moves towards the bladder neck. Marked by smooth muscle actins and myosins such as smooth muscle alpha-actin, smooth muscle gamma-actin, smooth muscle myosin heavy chain, and Tgfb1. Differentiates into the detrusor muscle of bladder (TS22-28)." []
-comment: order=2 for EMAPA:30870.
-synonym: "smooth muscle layer of primitive bladder" RELATED []
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-09-09T14:48:04Z
-
-[Term]
-id: JFA:0004022
-name: smooth muscle cell of outer mesenchymal layer of primitive bladder
-namespace: anatomical_structure
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-09-11T11:54:47Z
-
-[Term]
-id: JFA:0004023
-name: mesenchymal cell of outer mesenchymal layer of primitive bladder
-namespace: anatomical_structure
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-09-11T12:13:38Z
-
-[Term]
-id: JFA:0004024
-name: outer layer of primitive bladder
-namespace: anatomical_structure
-def: "outer layer of primitive bladder (TS20-TS21): the outermost layer of the bladder is comprised of either a serosa or an adventitia. The adventitia refers to the outer part of the primitive bladder that is not exposed to the peritoneal cavity but is a connective tissue layer that binds it to the adventitia of the adjacent organs. Most of the bladder will be covered by serosa, but early when the primitive bladder is not developed and later in some regions (i.e. closer toward the urethra) there will instead be an adventitia. As the organs develop, more of the bladder is covered by serosa and less by an adventitia." []
-comment: order=3 for EMAPA:30870.
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-09-11T12:17:45Z
-
-[Term]
-id: JFA:0004025
-name: serosa of primitive bladder
-namespace: anatomical_structure
-def: "serosa of primitive bladder (spbl) (TS20-TS21): the outermost layer of the bladder is comprised of either a serosa or an adventitia. The serosa (or serous membrane) of the primitive bladder, where the outer surface is covered by simple epithelium. Most of the bladder will be covered by serosa, but early when the primitive bladder is not developed and later in some regions (i.e. closer toward the urethra) there will instead be an adventitia. As the organs develop, more of the bladder is covered by serosa and less by an adventitia." []
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-09-11T13:42:38Z
-
-[Term]
-id: JFA:0004026
-name: adventitia of primitive bladder
-namespace: anatomical_structure
-def: "adventitia of primitive bladder (apbl) (TS20-TS21): the outermost layer of the bladder is comprised of either a serosa or an adventitia. The adventitia refers to the outer part of the primitive bladder that is not exposed to the peritoneal cavity but is a connective tissue layer that binds it to the adventitia of the adjacent organs. Most of the bladder will be covered by serosa, but early when the primitive bladder is not developed and later in some regions (i.e. closer toward the urethra) there will instead be an adventitia. As the organs develop, more of the bladder is covered by serosa and less by an adventitia." []
-is_obsolete: true
-created_by: jarm
-creation_date: 2014-09-11T13:48:33Z
 
 [Term]
 id: Tmp_new_group
