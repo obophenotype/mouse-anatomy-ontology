@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 12:09:2014 15:48
-saved-by: terryh
-auto-generated-by: OBO-Edit 2.2
+date: 16:09:2014 15:28
+saved-by: jarm
+auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -7190,7 +7190,7 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:16832
 name: cloacal membrane
 namespace: anatomical_structure
-def: "cloacal membrane (clmem) (TS16-20): part of the cloaca where the two different epithelia of the surface ectoderm (of the embryo) and cloacal epithelium are in direct contact with each other. Comprised of cloacal epithelium of cloacal membrane and surface ectoderm of cloacal membrane. Fgf8 marks the cloacal epithelium component. (Note: the cloacal membrane is distinct to the urogenital membrane, which is comprised of the regions of surface ectoderm and urethral plate epithelium in contact with each other and part of the genital tubercle.)" []
+def: "cloacal membrane (clmem) (TS16-TS20): part of the cloaca where the two different epithelia of the surface ectoderm (of the embryo) and cloacal epithelium are in direct contact with each other. Comprised of cloacal epithelium of cloacal membrane and surface ectoderm of cloacal membrane. Fgf8 marks the cloacal epithelium component. (Note: the cloacal membrane is distinct to the urogenital membrane, which is comprised of the regions of surface ectoderm and urethral plate epithelium in contact with each other and part of the genital tubercle.)" []
 comment: order=1 for EMAPA:16831.
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16831 ! anal region
@@ -9912,15 +9912,6 @@ relationship: part_of EMAPA:17207 ! metanephros
 relationship: starts_at TS18 ! TS18
 
 [Term]
-id: EMAPA:17211
-name: urogenital sinus
-namespace: anatomical_structure
-comment: order=12 for EMAPA:16367.
-relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16367 ! genitourinary system
-relationship: starts_at TS18 ! TS18
-
-[Term]
 id: EMAPA:17212
 name: urorectal septum
 namespace: anatomical_structure
@@ -11421,10 +11412,12 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17379
 name: urogenital sinus
 namespace: anatomical_structure
-comment: order=12 for EMAPA:17366.
+alt_id: EMAPA:17211
+comment: MERGED COMMENT:\nTARGET COMMENT: order=12 for EMAPA:17366.\n--------------------\nSOURCE COMMENT: order=12 for EMAPA:16367.
 relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16367 ! genitourinary system
 relationship: part_of EMAPA:17366 ! urinary system
-relationship: starts_at TS19 ! TS19
+relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:17380
@@ -38372,19 +38365,23 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:27573
 name: cloaca
 namespace: anatomical_structure
-def: "CL: cloaca (TS17-20): an epithelial lined cavity derived from endoderm, seen early in embryonic development located at the posterior end of the embryo. The cloaca undergoes septation to form the urogenital sinus (ventral) and hindgut (dorsal). This common cavity is referred to as the cloaca until the urorectal septum makes contact with the skin at the surface of the embryo, and completely septates the urogenital sinus from the hindgut at TS21. The cavity that remains, becomes part of the urogenital sinus and urethra.  The cloaca is comprised of cloacal epithelium lining the lumen and the adjacent cloaca associated mesenchyme. Part of the cloacal epithelium forms the cloacal membrane." []
-comment: order=13 for EMAPA:16367.
-relationship: ends_at TS20 ! TS20
+alt_id: EMAPA:27638
+def: "cloaca (CL) (TS17-TS20): an epithelial lined cavity derived from endoderm, seen early in embryonic development located at the posterior end of the embryo. The cloaca undergoes septation to form the urogenital sinus (ventral) and hindgut (dorsal). This common cavity is referred to as the cloaca until the urorectal septum makes contact with the skin at the surface of the embryo, and completely septates the urogenital sinus from the hindgut at TS21. The cavity that remains, becomes part of the urogenital sinus and urethra.  The cloaca is comprised of cloacal epithelium lining the lumen and the adjacent cloaca associated mesenchyme. Part of the cloacal epithelium forms the cloacal membrane." []
+comment: MERGED COMMENT:\nTARGET COMMENT: order=13 for EMAPA:16367.\n--------------------\nSOURCE COMMENT: order=16 for EMAPA:17366.
+relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:16367 ! genitourinary system
+relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:27577
 name: cloacal epithelium
 namespace: anatomical_structure
-def: "cle: cloacal epithelium (syn: cloacal endoderm) (TS17-20): the cloacal epithelium is derived from endoderm and lines the cloacal cavity. It is marked by Shh and Cdh1 and lines the cloacal lumen. The cloacal epithelium gives rise to the urogenital sinus epithelium, hindgut epithelium and the urethral plate epithelium." []
-comment: order=0 for EMAPA:27573.
+alt_id: EMAPA:27640
+def: "cloacal epithelium (cle) (syn: cloacal endoderm) (TS17-TS20): the cloacal epithelium is derived from endoderm and lines the cloacal cavity. It is marked by Shh and Cdh1 and lines the cloacal lumen. The cloacal epithelium gives rise to the urogenital sinus epithelium, hindgut epithelium and the urethral plate epithelium." []
+comment: MERGED COMMENT:\nTARGET COMMENT: order=0 for EMAPA:27573.\n--------------------\nSOURCE COMMENT: order=0 for EMAPA:27638.
 synonym: "cloacal endoderm" RELATED []
+is_a: EMAPA:35953 ! urinary system epithelium
 is_a: EMAPA:35954 ! genitourinary system epithelium
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:27573 ! cloaca
@@ -38394,9 +38391,11 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:27581
 name: cloaca associated mesenchyme
 namespace: anatomical_structure
-def: "cloaca associated mesenchyme (TS17-20): the mesenchyme surrounding the cloacal epithelium of the cloaca, an epithelial lined cavity derived from endoderm, seen early in embryonic development located at the posterior end of the embryo." []
+alt_id: EMAPA:27642
+def: "cloaca associated mesenchyme (TS17-TS20): the mesenchyme surrounding the cloacal epithelium of the cloaca, an epithelial lined cavity derived from endoderm, seen early in embryonic development located at the posterior end of the embryo." []
 comment: order=1 for EMAPA:27573.
 is_a: EMAPA:16576 ! genitourinary system mesenchyme
+is_a: EMAPA:35898 ! urinary system mesenchyme
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:27573 ! cloaca
 relationship: starts_at TS17 ! TS17
@@ -38541,35 +38540,6 @@ comment: order=1 for EMAPA:17376.
 synonym: "ureteric trunk" RELATED []
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:17376 ! ureteric bud
-relationship: starts_at TS19 ! TS19
-
-[Term]
-id: EMAPA:27638
-name: cloaca
-namespace: anatomical_structure
-comment: order=16 for EMAPA:17366.
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17366 ! urinary system
-relationship: starts_at TS19 ! TS19
-
-[Term]
-id: EMAPA:27640
-name: cloacal epithelium
-namespace: anatomical_structure
-comment: order=0 for EMAPA:27638.
-is_a: EMAPA:35953 ! urinary system epithelium
-relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:27638 ! cloaca
-relationship: starts_at TS19 ! TS19
-
-[Term]
-id: EMAPA:27642
-name: cloaca mesenchyme
-namespace: anatomical_structure
-comment: order=1 for EMAPA:27638.
-is_a: EMAPA:35898 ! urinary system mesenchyme
-relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:27638 ! cloaca
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -43820,30 +43790,31 @@ relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:30879
-name: rest of urogenital sinus
+name: caudal urogenital sinus
 namespace: anatomical_structure
+def: "caudal urogenital sinus (syn: primitive pelvic urethra) (TS19-TS20): the posterior/caudal part of the urogenital sinus including the urogenital sinus ridge where the common nephric ducts/nephric ducts join the urogenital sinus. Comprised of the urogenital sinus ridge, rest of caudal urogenital sinus epithelium and surrounded by the caudal urogenital sinus mesenchyme. Becomes the pelvic urethra at TS21, which together with the primitive bladder makes up the urogenital sinus." []
 comment: order=6 for EMAPA:17379.
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:17379 ! urogenital sinus
-relationship: starts_at TS20 ! TS20
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:30882
-name: epithelial layer of rest of urogenital sinus
+name: caudal urogenital sinus epithelium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:30879.
 relationship: ends_at TS20 ! TS20
-relationship: part_of EMAPA:30879 ! rest of urogenital sinus
-relationship: starts_at TS20 ! TS20
+relationship: part_of EMAPA:30879 ! caudal urogenital sinus
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:30885
-name: mesenchymal layer of rest of urogenital sinus
+name: caudal urogenital sinus mesenchyme
 namespace: anatomical_structure
 comment: order=1 for EMAPA:30879.
 relationship: ends_at TS20 ! TS20
-relationship: part_of EMAPA:30879 ! rest of urogenital sinus
-relationship: starts_at TS20 ! TS20
+relationship: part_of EMAPA:30879 ! caudal urogenital sinus
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:30888
@@ -44905,11 +44876,13 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:31500
 name: mesenchyme of urogenital sinus
 namespace: anatomical_structure
-comment: order=1 for EMAPA:17379.
+alt_id: EMAPA:31519
+comment: MERGED COMMENT:\nTARGET COMMENT: order=1 for EMAPA:17379.\n--------------------\nSOURCE COMMENT: order=1 for EMAPA:17211.
+is_a: EMAPA:16576 ! genitourinary system mesenchyme
 is_a: EMAPA:35898 ! urinary system mesenchyme
-relationship: ends_at TS24 ! TS24
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17379 ! urogenital sinus
-relationship: starts_at TS19 ! TS19
+relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:31501
@@ -44993,11 +44966,13 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:31509
 name: epithelium of urogenital sinus
 namespace: anatomical_structure
-comment: order=0 for EMAPA:17379.
+alt_id: EMAPA:31520
+comment: MERGED COMMENT:\nTARGET COMMENT: order=0 for EMAPA:17379.\n--------------------\nSOURCE COMMENT: order=0 for EMAPA:17211.
 is_a: EMAPA:35953 ! urinary system epithelium
-relationship: ends_at TS24 ! TS24
+is_a: EMAPA:35954 ! genitourinary system epithelium
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17379 ! urogenital sinus
-relationship: starts_at TS19 ! TS19
+relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:31510
@@ -45091,26 +45066,6 @@ is_a: EMAPA:35951 ! reproductive system epithelium
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:17382 ! genital tubercle
 relationship: starts_at TS19 ! TS19
-
-[Term]
-id: EMAPA:31519
-name: mesenchyme of urogenital sinus
-namespace: anatomical_structure
-comment: order=1 for EMAPA:17211.
-is_a: EMAPA:16576 ! genitourinary system mesenchyme
-relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:17211 ! urogenital sinus
-relationship: starts_at TS18 ! TS18
-
-[Term]
-id: EMAPA:31520
-name: epithelium of urogenital sinus
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17211.
-is_a: EMAPA:35954 ! genitourinary system epithelium
-relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:17211 ! urogenital sinus
-relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:31521
@@ -59144,6 +59099,65 @@ relationship: part_of EMAPA:36093 ! outer layer of primitive bladder
 relationship: starts_at TS20 ! TS20
 created_by: jarm
 creation_date: 2014-09-12T14:48:01Z
+
+[Term]
+id: EMAPA:36096
+name: primitive bladder-caudal urogenital sinus transition zone 
+namespace: anatomical_structure
+def: "primitive bladder-caudal urogenital sinus transition zone (syn: primitive bladder-caudal urogenital sinus junction) (TS19-TS21): comprised of epithelium and mesenchyme of primitive bladder-caudal urogenital sinus transition zone. The zone or region where the primitive bladder meets the caudal urogenital sinus, marking the junction where these two different epithelia meet. It is similar to transitional zones in other organs, such as the female cervix and the Z-line in the oesophagus. In early developmental stages it is identified by the site of the common nephric duct/nephric duct attachment to the urogenital sinus. Part of the urogenital sinus. Use these terms to annotate expression in the epithelium or mesenchyme where the primitive bladder meets the caudal urogenital sinus/pelvic urethra, when the tissue cannot be identified as being either part of the bladder or part of the urethra." []
+comment: order=5 for EMAPA:17379.
+synonym: "primitive bladder-caudal urogenital sinus junction" RELATED []
+relationship: ends_at TS21 ! TS21
+relationship: part_of EMAPA:17379 ! urogenital sinus
+relationship: starts_at TS19 ! TS19
+created_by: jarm
+creation_date: 2014-09-16T14:06:15Z
+
+[Term]
+id: EMAPA:36097
+name: epithelium of primitive bladder-caudal urogenital sinus transition zone
+namespace: anatomical_structure
+comment: order=0 for EMAPA:36096.
+relationship: ends_at TS21 ! TS21
+relationship: part_of EMAPA:36096 ! primitive bladder-caudal urogenital sinus transition zone 
+relationship: starts_at TS19 ! TS19
+created_by: jarm
+creation_date: 2014-09-16T14:27:18Z
+
+[Term]
+id: EMAPA:36098
+name: mesenchyme of primitive bladder-caudal urogenital sinus transition zone
+namespace: anatomical_structure
+comment: order=1 for EMAPA:36096.
+relationship: ends_at TS21 ! TS21
+relationship: part_of EMAPA:36096 ! primitive bladder-caudal urogenital sinus transition zone 
+relationship: starts_at TS19 ! TS19
+created_by: jarm
+creation_date: 2014-09-16T14:27:18Z
+
+[Term]
+id: EMAPA:36099
+name: urogenital sinus ridge
+namespace: anatomical_structure
+def: "urogenital sinus ridge (sr) (syn: sinus ridge) part of the urogenital sinus (TS19-TS21), part of the caudal urogenital sinus (TS19-TS20), and then later part of pelvic urethra (TS21-TS23). The thickened and raised, dorsal portion of the urogenital sinus or epithelium of pelvic urethra located at the site where the common nephric duct/nephric duct or reproductive ducts join the urogenital sinus/pelvic urethra. From TS19-22 the urogenital sinus ridge surrounds the common nephric duct. Marked by Cdh1 (E-cadherin) and derived from cloacal endoderm.  It is a signalling centre, important for regulating common nephric duct remodelling and apoptosis during ureter maturation and repositioning, and later in development, may be a source of inductive signals regulating vaginal outgrowth. At TS24, it becomes the verumontanum in males and sinovaginal bulb in females, the protrusion of the pelvic urethra where the reproductive ducts join." []
+comment: order=0 for EMAPA:30882.
+synonym: " sinus ridge" RELATED []
+relationship: ends_at TS20 ! TS20
+relationship: part_of EMAPA:30882 ! caudal urogenital sinus epithelium
+relationship: starts_at TS19 ! TS19
+created_by: jarm
+creation_date: 2014-09-16T14:41:16Z
+
+[Term]
+id: EMAPA:36100
+name: rest of caudal urogenital sinus epithelium
+namespace: anatomical_structure
+comment: order=1 for EMAPA:30882.
+relationship: ends_at TS20 ! TS20
+relationship: part_of EMAPA:30882 ! caudal urogenital sinus epithelium
+relationship: starts_at TS19 ! TS19
+created_by: jarm
+creation_date: 2014-09-16T14:41:16Z
 
 [Term]
 id: group_term
