@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 16:09:2014 15:28
-saved-by: jarm
-auto-generated-by: OBO-Edit 2.3.1
+date: 17:09:2014 16:32
+saved-by: terryh
+auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -24641,7 +24641,6 @@ is_a: EMAPA:35347 ! forearm bone
 is_a: EMAPA:35350 ! forelimb long bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17417 ! forearm
-relationship: part_of EMAPA:17419 ! forearm mesenchyme
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -24654,7 +24653,6 @@ is_a: EMAPA:35347 ! forearm bone
 is_a: EMAPA:35350 ! forelimb long bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17417 ! forearm
-relationship: part_of EMAPA:17419 ! forearm mesenchyme
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -24677,7 +24675,6 @@ is_a: EMAPA:35350 ! forelimb long bone
 is_a: EMAPA:35892 ! upper arm bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17424 ! upper arm
-relationship: part_of EMAPA:17426 ! upper arm mesenchyme
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -25044,7 +25041,6 @@ is_a: EMAPA:35403 ! hindlimb long bone
 is_a: EMAPA:35519 ! lower leg bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17496 ! lower leg
-relationship: part_of EMAPA:17498 ! lower leg mesenchyme
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -25057,7 +25053,6 @@ is_a: EMAPA:35403 ! hindlimb long bone
 is_a: EMAPA:35519 ! lower leg bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17496 ! lower leg
-relationship: part_of EMAPA:17498 ! lower leg mesenchyme
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -25070,7 +25065,6 @@ is_a: EMAPA:35403 ! hindlimb long bone
 is_a: EMAPA:35893 ! upper leg bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17499 ! upper leg
-relationship: part_of EMAPA:17501 ! upper leg mesenchyme
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -59102,7 +59096,7 @@ creation_date: 2014-09-12T14:48:01Z
 
 [Term]
 id: EMAPA:36096
-name: primitive bladder-caudal urogenital sinus transition zone 
+name: primitive bladder-caudal urogenital sinus transition zone
 namespace: anatomical_structure
 def: "primitive bladder-caudal urogenital sinus transition zone (syn: primitive bladder-caudal urogenital sinus junction) (TS19-TS21): comprised of epithelium and mesenchyme of primitive bladder-caudal urogenital sinus transition zone. The zone or region where the primitive bladder meets the caudal urogenital sinus, marking the junction where these two different epithelia meet. It is similar to transitional zones in other organs, such as the female cervix and the Z-line in the oesophagus. In early developmental stages it is identified by the site of the common nephric duct/nephric duct attachment to the urogenital sinus. Part of the urogenital sinus. Use these terms to annotate expression in the epithelium or mesenchyme where the primitive bladder meets the caudal urogenital sinus/pelvic urethra, when the tissue cannot be identified as being either part of the bladder or part of the urethra." []
 comment: order=5 for EMAPA:17379.
@@ -59119,7 +59113,7 @@ name: epithelium of primitive bladder-caudal urogenital sinus transition zone
 namespace: anatomical_structure
 comment: order=0 for EMAPA:36096.
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:36096 ! primitive bladder-caudal urogenital sinus transition zone 
+relationship: part_of EMAPA:36096 ! primitive bladder-caudal urogenital sinus transition zone
 relationship: starts_at TS19 ! TS19
 created_by: jarm
 creation_date: 2014-09-16T14:27:18Z
@@ -59130,7 +59124,7 @@ name: mesenchyme of primitive bladder-caudal urogenital sinus transition zone
 namespace: anatomical_structure
 comment: order=1 for EMAPA:36096.
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:36096 ! primitive bladder-caudal urogenital sinus transition zone 
+relationship: part_of EMAPA:36096 ! primitive bladder-caudal urogenital sinus transition zone
 relationship: starts_at TS19 ! TS19
 created_by: jarm
 creation_date: 2014-09-16T14:27:18Z
