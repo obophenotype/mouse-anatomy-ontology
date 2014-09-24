@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 23:09:2014 14:59
+date: 24:09:2014 16:24
 saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -43674,6 +43674,7 @@ def: "urothelium of primitive bladder (upbl) (syn: epithelium of primitive bladd
 comment: order=0 for EMAPA:30870.
 synonym: "epithelial layer of primitive bladder" RELATED []
 synonym: "epithelium of primitive bladder" RELATED []
+is_a: EMAPA:31509 ! epithelium of urogenital sinus
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:30870 ! primitive bladder
 relationship: starts_at TS19 ! TS19
@@ -43685,6 +43686,7 @@ namespace: anatomical_structure
 def: "mesenchymal layer of primitive bladder (mpbl) (syn: primitive bladder mesenchyme) (TS19-TS21): the mesenchyme surrounding the urothelium of primitive bladder. At TS19-20, expresses Ptch1 and Gli1. From TS21, contains smooth muscle cells. The mesenchyme of primitive bladder (and later the bladder) is radially patterned due to differentiation of mesenchymal cells into smooth muscle cells. The layers are defined by their location, differing gene expression profiles and proliferation rates.  From TS20-21 it is divided into inner mesenchyme of primitive bladder (TS20-21) and outer mesenchyme of primitive bladder (TS20-21)." []
 comment: order=1 for EMAPA:30870.
 synonym: "primitive bladder mesenchyme" RELATED []
+is_a: EMAPA:31500 ! mesenchyme of urogenital sinus
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:30870 ! primitive bladder
 relationship: starts_at TS19 ! TS19
@@ -43704,6 +43706,7 @@ id: EMAPA:30882
 name: caudal urogenital sinus epithelium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:30879.
+is_a: EMAPA:31509 ! epithelium of urogenital sinus
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:30879 ! caudal urogenital sinus
 relationship: starts_at TS19 ! TS19
@@ -43713,6 +43716,7 @@ id: EMAPA:30885
 name: caudal urogenital sinus mesenchyme
 namespace: anatomical_structure
 comment: order=1 for EMAPA:30879.
+is_a: EMAPA:31500 ! mesenchyme of urogenital sinus
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:30879 ! caudal urogenital sinus
 relationship: starts_at TS19 ! TS19
@@ -43727,39 +43731,12 @@ relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS20 ! TS20
 
 [Term]
-id: EMAPA:30891
-name: urethra
-namespace: anatomical_structure
-comment: order=5 for EMAPA:17379.
-relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:17379 ! urogenital sinus
-relationship: starts_at TS21 ! TS21
-
-[Term]
-id: EMAPA:30893
-name: pelvic urethra
-namespace: anatomical_structure
-comment: order=0 for EMAPA:30891.
-relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:30891 ! urethra
-relationship: starts_at TS21 ! TS21
-
-[Term]
-id: EMAPA:30895
-name: caudal urethra
-namespace: anatomical_structure
-comment: order=1 for EMAPA:30891.
-relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:30891 ! urethra
-relationship: starts_at TS21 ! TS21
-
-[Term]
 id: EMAPA:30897
 name: urethral plate
 namespace: anatomical_structure
 comment: order=2 for EMAPA:30891.
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:30891 ! urethra
+relationship: part_of EMAPA:30901 ! urethra
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -43768,44 +43745,52 @@ name: urethral fold
 namespace: anatomical_structure
 comment: order=3 for EMAPA:30891.
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:30891 ! urethra
+relationship: part_of EMAPA:30901 ! urethra
 relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:30901
 name: urethra
 namespace: anatomical_structure
-comment: order=13 for EMAPA:17366.
+alt_id: EMAPA:30891
+comment: order=13 for EMAPA:17366.\norder=5 for EMAPA:17379.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
-relationship: starts_at TS22 ! TS22
+relationship: part_of EMAPA:17379 ! urogenital sinus
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:30903
 name: pelvic urethra
 namespace: anatomical_structure
+alt_id: EMAPA:30893
+def: "pelvic urethra (PLUR) (TS21-TS22): comprised of epithelium of pelvic urethra (eplur, subdivided into urogenital sinus ridge (sr) and rest of epithelium of pelvic urethra), mesenchymal layer of pelvic urethra (mplur; divided into dorsal and ventral), nerve, developing vasculature, adventitia and from TS22 muscle layer (muplur; divided into dorsal and ventral). Pelvic urethra is a part of the urinary system and is part of the urethra. The epithelium of pelvic urethra is contiguous with the epithelium of phallic urethra (caudally) and bladder urothelium (cranially). Derived from the caudal urogenital sinus (TS20). Becomes the pelvic urethra of male/female from TS23." []
 comment: order=0 for EMAPA:30901.
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:30901 ! urethra
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:30905
-name: epithelial layer of pelvic urethra
+name: epithelium of pelvic urethra
 namespace: anatomical_structure
 comment: order=0 for EMAPA:30903.
+synonym: "epithelial layer of pelvic urethra" RELATED []
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:30903 ! pelvic urethra
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:30907
 name: mesenchymal layer of pelvic urethra
 namespace: anatomical_structure
+alt_id: EMAPA:31573
 comment: order=1 for EMAPA:30903.
+synonym: "mesenchyme of pelvic urethra" EXACT []
+is_a: EMAPA:35898 ! urinary system mesenchyme
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:30903 ! pelvic urethra
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:30909
@@ -43820,10 +43805,12 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:30911
 name: phallic urethra
 namespace: anatomical_structure
+alt_id: EMAPA:30895
 comment: order=1 for EMAPA:30901.
+synonym: "caudal urethra" RELATED []
+relationship: ends_at TS21 ! TS21
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:30901 ! urethra
-relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:30913
@@ -44778,6 +44765,7 @@ id: EMAPA:31500
 name: mesenchyme of urogenital sinus
 namespace: anatomical_structure
 alt_id: EMAPA:31519
+def: "mesenchyme of urogenital sinus: the mesenchyme surrounding the urogenital sinus epithelium. Marked by Gli1, Ptch1, Bmp4, Raldh2. Derived from mesoderm. Subdivided into mesenchymal layer of primitive bladder (rostral/anterior), mesenchyme of primitive bladder-caudal urogenital sinus transition zone and caudal urogenital sinus mesenchyme (caudal/posterior)." []
 comment: order=1 for EMAPA:17379.
 is_a: EMAPA:16576 ! genitourinary system mesenchyme
 is_a: EMAPA:35898 ! urinary system mesenchyme
@@ -44868,6 +44856,7 @@ id: EMAPA:31509
 name: epithelium of urogenital sinus
 namespace: anatomical_structure
 alt_id: EMAPA:31520
+def: "epithelium of urogenital sinus: the epithelium lining the lumen, marked by Cdh1 (E-cadherin), Osr1 and Shh. Derived from cloacal endoderm.  Subdivided into urothelium of primitive bladder (cranial/anterior), epithelium of pimitive bladder-caudal urogenital sinus transition zone and caudal urogenital sinus epithelium (caudal/posterior)." []
 comment: order=0 for EMAPA:17379.
 is_a: EMAPA:35953 ! urinary system epithelium
 is_a: EMAPA:35954 ! genitourinary system epithelium
@@ -44992,12 +44981,13 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:31523
 name: nerve of pelvic urethra
 namespace: anatomical_structure
-comment: order=3 for EMAPA:30903.\norder=0 for EMAPA:31569.
+alt_id: EMAPA:31558
+comment: order=4 for EMAPA:30903.\norder=0 for EMAPA:31569.
 is_a: EMAPA:35948 ! nerve of urinary system
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:30903 ! pelvic urethra
 relationship: part_of EMAPA:31569 ! nerves of urethra
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:31524
@@ -45324,17 +45314,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:30895.
 is_a: EMAPA:35948 ! nerve of urinary system
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:30895 ! caudal urethra
-relationship: starts_at TS21 ! TS21
-
-[Term]
-id: EMAPA:31558
-name: nerve of pelvic urethra
-namespace: anatomical_structure
-comment: order=1 for EMAPA:30893.
-is_a: EMAPA:35948 ! nerve of urinary system
-relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:30893 ! pelvic urethra
+relationship: part_of EMAPA:30911 ! phallic urethra
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -45354,15 +45334,6 @@ comment: order=0 for EMAPA:28771.
 relationship: ends_at TS25 ! TS25
 relationship: part_of EMAPA:28771 ! muscle layer of pelvic urethra of female
 relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:31561
-name: ventral mesenchyme of pelvic urethra
-namespace: anatomical_structure
-comment: order=1 for EMAPA:31573.
-relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:31573 ! mesenchyme of pelvic urethra
-relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:31562
@@ -45461,42 +45432,29 @@ relationship: part_of EMAPA:18976 ! cortical renal tubule
 relationship: starts_at TS22 ! TS22
 
 [Term]
-id: EMAPA:31572
-name: dorsal mesenchyme of pelvic urethra
-namespace: anatomical_structure
-comment: order=0 for EMAPA:31573.
-is_a: EMAPA:35898 ! urinary system mesenchyme
-relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:31573 ! mesenchyme of pelvic urethra
-relationship: starts_at TS21 ! TS21
-
-[Term]
-id: EMAPA:31573
-name: mesenchyme of pelvic urethra
-namespace: anatomical_structure
-comment: order=0 for EMAPA:30893.
-is_a: EMAPA:35898 ! urinary system mesenchyme
-relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:30893 ! pelvic urethra
-relationship: starts_at TS21 ! TS21
-
-[Term]
 id: EMAPA:31574
 name: mesenchymal layer of ventral pelvic urethra
 namespace: anatomical_structure
+alt_id: EMAPA:31561
 comment: order=1 for EMAPA:30907.
+synonym: "ventral mesenchyme of pelvic urethra" RELATED []
+relationship: ends_at TS21 ! TS21
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:30907 ! mesenchymal layer of pelvic urethra
+relationship: starts_at TS21 ! TS21
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:31575
 name: mesenchymal layer of dorsal pelvic urethra
 namespace: anatomical_structure
+alt_id: EMAPA:31572
 comment: order=0 for EMAPA:30907.
+synonym: "dorsal mesenchyme of pelvic urethra" RELATED []
+is_a: EMAPA:35898 ! urinary system mesenchyme
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:30907 ! mesenchymal layer of pelvic urethra
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:31576
@@ -58928,6 +58886,7 @@ id: EMAPA:36097
 name: epithelium of primitive bladder-caudal urogenital sinus transition zone
 namespace: anatomical_structure
 comment: order=0 for EMAPA:36096.
+is_a: EMAPA:31509 ! epithelium of urogenital sinus
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:36096 ! primitive bladder-caudal urogenital sinus transition zone
 relationship: starts_at TS19 ! TS19
@@ -58937,6 +58896,7 @@ id: EMAPA:36098
 name: mesenchyme of primitive bladder-caudal urogenital sinus transition zone
 namespace: anatomical_structure
 comment: order=1 for EMAPA:36096.
+is_a: EMAPA:31500 ! mesenchyme of urogenital sinus
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:36096 ! primitive bladder-caudal urogenital sinus transition zone
 relationship: starts_at TS19 ! TS19
@@ -58946,10 +58906,11 @@ id: EMAPA:36099
 name: urogenital sinus ridge
 namespace: anatomical_structure
 def: "urogenital sinus ridge (sr) (syn: sinus ridge) part of the urogenital sinus (TS19-TS21), part of the caudal urogenital sinus (TS19-TS20), and then later part of pelvic urethra (TS21-TS23). The thickened and raised, dorsal portion of the urogenital sinus or epithelium of pelvic urethra located at the site where the common nephric duct/nephric duct or reproductive ducts join the urogenital sinus/pelvic urethra. From TS19-22 the urogenital sinus ridge surrounds the common nephric duct. Marked by Cdh1 (E-cadherin) and derived from cloacal endoderm.  It is a signalling centre, important for regulating common nephric duct remodelling and apoptosis during ureter maturation and repositioning, and later in development, may be a source of inductive signals regulating vaginal outgrowth. At TS24, it becomes the verumontanum in males and sinovaginal bulb in females, the protrusion of the pelvic urethra where the reproductive ducts join." []
-comment: order=0 for EMAPA:30882.
+comment: order=0 for EMAPA:30882.\norder=0 for EMAPA:30905.
 synonym: "sinus ridge" RELATED []
-relationship: ends_at TS20 ! TS20
+relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:30882 ! caudal urogenital sinus epithelium
+relationship: part_of EMAPA:30905 ! epithelium of pelvic urethra
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -58965,12 +58926,40 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:36101
 name: common nephric duct
 namespace: anatomical_structure
+def: "common nephric duct (cnd) (syn: posterior/caudal Wolffian duct) (TS19-TS22): the caudal portion of the paired epithelial nephric ducts, between the ureteric bud stalk/ureter attachment site (anterior/cranial end) and the site of insertion into the urogenital sinus at the urogenital sinus ridge (posterior/caudal end). Regresses after TS21 due to remodelling and apoptosis and at TS22 only a few cells are visible. Marked by Cdh1, Hoxb7 and Ret." []
 comment: order=3 for EMAPA:16577.
 synonym: "posterior/caudal Wolffian duct" RELATED []
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:16577 ! nephric duct
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:36102
+name: developing vasculature of pelvic urethra
+namespace: anatomical_structure
+comment: order=3 for EMAPA:30903.
+relationship: ends_at TS22 ! TS22
+relationship: part_of EMAPA:30903 ! pelvic urethra
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:36103
+name: adventitia of pelvic urethra
+namespace: anatomical_structure
+comment: order=2 for EMAPA:30903.
+relationship: ends_at TS22 ! TS22
+relationship: part_of EMAPA:30903 ! pelvic urethra
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:36104
+name: rest of epithelium of pelvic urethra
+namespace: anatomical_structure
+comment: order=1 for EMAPA:30905.
+relationship: ends_at TS22 ! TS22
+relationship: part_of EMAPA:30905 ! epithelium of pelvic urethra
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: group_term
