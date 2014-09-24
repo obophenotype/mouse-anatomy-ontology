@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 24:09:2014 16:24
-saved-by: jarm
-auto-generated-by: OBO-Edit 2.3.1
+date: 24:09:2014 16:43
+saved-by: terryh
+auto-generated-by: OBO-Edit 2.2
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -21398,8 +21398,11 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:18535
 name: spleen primordium
 namespace: anatomical_structure
-comment: order=4 for EMAPA:18765.
+alt_id: EMAPA:18659
+comment: order=4 for EMAPA:18765.\norder=3 for EMAPA:17025.
+synonym: "splenic primordium" EXACT []
 relationship: ends_at TS23 ! TS23
+relationship: part_of EMAPA:17025 ! dorsal mesogastrium
 relationship: part_of EMAPA:18765 ! hemolymphoid system
 relationship: starts_at TS22 ! TS22
 
@@ -22317,15 +22320,6 @@ comment: order=0 for EMAPA:17185.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17185 ! tongue
 relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18659
-name: splenic primordium
-namespace: anatomical_structure
-comment: order=3 for EMAPA:17025.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17025 ! dorsal mesogastrium
-relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:18660
@@ -25544,7 +25538,7 @@ comment: order=1 for EMAPA:17682.
 is_a: EMAPA:35456 ! joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17682 ! temporal bone
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:19197
@@ -43808,9 +43802,9 @@ namespace: anatomical_structure
 alt_id: EMAPA:30895
 comment: order=1 for EMAPA:30901.
 synonym: "caudal urethra" RELATED []
-relationship: ends_at TS21 ! TS21
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:30901 ! urethra
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:30913
@@ -45438,11 +45432,9 @@ namespace: anatomical_structure
 alt_id: EMAPA:31561
 comment: order=1 for EMAPA:30907.
 synonym: "ventral mesenchyme of pelvic urethra" RELATED []
-relationship: ends_at TS21 ! TS21
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:30907 ! mesenchymal layer of pelvic urethra
 relationship: starts_at TS21 ! TS21
-relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:31575
@@ -57030,7 +57022,7 @@ comment: order=29 for EMAPA:17366.
 is_a: EMAPA:35961 ! embryo mesenchyme
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:17366 ! urinary system
-relationship: starts_at TS19 ! TS19
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:35899
