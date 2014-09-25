@@ -21396,7 +21396,7 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:18535
-name: SAUSAGES
+name: spleen primordium
 namespace: anatomical_structure
 alt_id: EMAPA:18659
 comment: order=4 for EMAPA:18765.\norder=3 for EMAPA:17025.
