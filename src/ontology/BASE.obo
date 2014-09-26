@@ -22946,7 +22946,7 @@ id: EMAPA:18668
 name: jejunum epithelium
 namespace: anatomical_structure
 alt_id: EMAPA:18934
-comment: MERGED COMMENT:\nTARGET COMMENT: order=0 for EMAPA:27109.\n--------------------\nSOURCE COMMENT: order=0 for EMAPA:27347.
+comment: order=0 for EMAPA:27109.\norder=0 for EMAPA:27347.
 synonym: "jejunum epithelium" EXACT []
 is_a: EMAPA:16569 ! midgut epithelium
 is_a: EMAPA:35778 ! small intestine epithelium
