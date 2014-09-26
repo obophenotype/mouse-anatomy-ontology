@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 24:09:2014 16:43
-saved-by: terryh
-auto-generated-by: OBO-Edit 2.2
+date: 25:09:2014 16:28
+saved-by: jarm
+auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -7204,7 +7204,7 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:16832
 name: cloacal membrane
 namespace: anatomical_structure
-def: "cloacal membrane (clmem) (TS16-TS20): part of the cloaca where the two different epithelia of the surface ectoderm (of the embryo) and cloacal epithelium are in direct contact with each other. Comprised of cloacal epithelium of cloacal membrane and surface ectoderm of cloacal membrane. Fgf8 marks the cloacal epithelium component. (Note: the cloacal membrane is distinct to the urogenital membrane, which is comprised of the regions of surface ectoderm and urethral plate epithelium in contact with each other and part of the genital tubercle.)" []
+def: "cloacal membrane (clmem) (TS16-TS20): part of the cloaca where the two different epithelia of the surface ectoderm (of the embryo) and cloacal epithelium are in direct contact with each other. Comprised of cloacal epithelium of cloacal membrane and surface ectoderm of cloacal membrane. Fgf8 marks the cloacal epithelium component. (Note: the cloacal membrane is distinct to the urogenital membrane, which is comprised of the regions of surface ectoderm and urethral plate epithelium in contact with each other and part of the genital tubercle)." []
 comment: order=1 for EMAPA:16831.\norder=2 for EMAPA:27573.
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16831 ! anal region
@@ -22552,6 +22552,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:18692
 name: urethra of male
 namespace: anatomical_structure
+def: "urethra of male (TS23-TS28): from TS23 to TS27, urethra is comprised of pelvic urethra of male and phallic urethra of male. At TS28, urethra of male is comprised of prostatic urethra, pelvic urethra of male and penile urethra." []
 comment: order=15 for EMAPA:17366.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
@@ -40223,8 +40224,9 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:28697
-name: urothelium of pelvic urethra of male
+name: epithelium of pelvic urethra of male
 namespace: anatomical_structure
+def: "epithelium of pelvic urethra of male (TS23-TS28): the innermost layer of the pelvic urethra, a stratified epithelium lining the lumen. It is subdivided into dorsal and ventral. It is also subdivided into three epithelial cell layers; superficial, intermediate and basal cell layer of dorsal/ventral pelvic urethra.  At TS23, the epithelium of dorsal pelvic urethra of male is also comprised of urogenital sinus ridge of male and rest of dorsal epithelium of pelvic urethra of male. The urogenital sinus ridge becomes the verumontanum in males from TS24. Cytokeratin 14 and Cadherin 1 are markers of all layers of the epithelium." []
 comment: order=0 for EMAPA:18995.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18995 ! pelvic urethra of male
@@ -40252,6 +40254,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:28747
 name: urethra of female
 namespace: anatomical_structure
+def: "urethra of female (TS23-TS28): from TS23 to TS27, urethra is comprised of pelvic urethra of female and phallic urethra of female. At TS28, urethra of female is comprised of pelvic urethra of female and clitoral urethra of female (syn: external urethra)." []
 comment: order=14 for EMAPA:17366.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
@@ -40262,14 +40265,17 @@ id: EMAPA:28753
 name: pelvic urethra of female
 namespace: anatomical_structure
 comment: order=0 for EMAPA:28747.
+synonym: "cranial urethra" RELATED []
+synonym: "internal urethra" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28747 ! urethra of female
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:28759
-name: urothelium of pelvic urethra of female
+name: epithelium of pelvic urethra of female
 namespace: anatomical_structure
+def: "epithelium of pelvic urethra of female (TS23-TS28): the innermost layer of the pelvic urethra, a stratified epithelium lining the lumen. It is subdivided into dorsal and ventral. It is also subdivided into three epithelial cell layers; superficial, intermediate and basal cell layer of dorsal/ventral pelvic urethra.  At TS23, the epithelium of dorsal pelvic urethra of female is also comprised of urogenital sinus ridge of female and rest of dorsal epithelium of pelvic urethra of female. The urogenital sinus ridge becomes the sinovaginal bulb in females from TS24. Cytokeratin 14 and Cadherin 1 are markers of all layers of the epithelium." []
 comment: order=0 for EMAPA:28753.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28753 ! pelvic urethra of female
@@ -45709,7 +45715,7 @@ name: urothelium of ventral pelvic urethra of male
 namespace: anatomical_structure
 comment: order=1 for EMAPA:28697.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:28697 ! urothelium of pelvic urethra of male
+relationship: part_of EMAPA:28697 ! epithelium of pelvic urethra of male
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -45759,11 +45765,11 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:32264
-name: urothelium of dorsal pelvic urethra of female
+name: epithelium of dorsal pelvic urethra of female
 namespace: anatomical_structure
-comment: order=0 for EMAPA:28759.
+comment: order=3 for EMAPA:28759.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:28759 ! urothelium of pelvic urethra of female
+relationship: part_of EMAPA:28759 ! epithelium of pelvic urethra of female
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -45779,18 +45785,18 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:32266
 name: superficial cell layer of dorsal pelvic urethra of female
 namespace: anatomical_structure
-comment: order=0 for EMAPA:32264.
+comment: order=2 for EMAPA:32264.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32264 ! urothelium of dorsal pelvic urethra of female
+relationship: part_of EMAPA:32264 ! epithelium of dorsal pelvic urethra of female
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:32267
 name: basal cell layer of dorsal pelvic urethra of female
 namespace: anatomical_structure
-comment: order=2 for EMAPA:32264.
+comment: order=4 for EMAPA:32264.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32264 ! urothelium of dorsal pelvic urethra of female
+relationship: part_of EMAPA:32264 ! epithelium of dorsal pelvic urethra of female
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -45926,11 +45932,11 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:32282
-name: urothelium of ventral pelvic urethra of female
+name: epithelium of ventral pelvic urethra of female
 namespace: anatomical_structure
-comment: order=1 for EMAPA:28759.
+comment: order=4 for EMAPA:28759.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:28759 ! urothelium of pelvic urethra of female
+relationship: part_of EMAPA:28759 ! epithelium of pelvic urethra of female
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -46012,7 +46018,7 @@ name: superficial cell layer of ventral pelvic urethra of female
 namespace: anatomical_structure
 comment: order=0 for EMAPA:32282.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32282 ! urothelium of ventral pelvic urethra of female
+relationship: part_of EMAPA:32282 ! epithelium of ventral pelvic urethra of female
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -46021,7 +46027,7 @@ name: basal cell layer of ventral pelvic urethra of female
 namespace: anatomical_structure
 comment: order=2 for EMAPA:32282.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32282 ! urothelium of ventral pelvic urethra of female
+relationship: part_of EMAPA:32282 ! epithelium of ventral pelvic urethra of female
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -46097,7 +46103,7 @@ name: urothelium of dorsal pelvic urethra of male
 namespace: anatomical_structure
 comment: order=0 for EMAPA:28697.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:28697 ! urothelium of pelvic urethra of male
+relationship: part_of EMAPA:28697 ! epithelium of pelvic urethra of male
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -46142,16 +46148,16 @@ name: intermediate cell layer of ventral pelvic urethra of female
 namespace: anatomical_structure
 comment: order=1 for EMAPA:32282.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32282 ! urothelium of ventral pelvic urethra of female
+relationship: part_of EMAPA:32282 ! epithelium of ventral pelvic urethra of female
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:32306
 name: intermediate cell layer of dorsal pelvic urethra of female
 namespace: anatomical_structure
-comment: order=1 for EMAPA:32264.
+comment: order=3 for EMAPA:32264.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32264 ! urothelium of dorsal pelvic urethra of female
+relationship: part_of EMAPA:32264 ! epithelium of dorsal pelvic urethra of female
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -58952,6 +58958,51 @@ comment: order=1 for EMAPA:30905.
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:30905 ! epithelium of pelvic urethra
 relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:36105
+name: superficial cell layer of pelvic urethra of female
+namespace: anatomical_structure
+comment: order=0 for EMAPA:28759.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:28759 ! epithelium of pelvic urethra of female
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36106
+name: intermediate cell layer of pelvic urethra of female
+namespace: anatomical_structure
+comment: order=1 for EMAPA:28759.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:28759 ! epithelium of pelvic urethra of female
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36107
+name: basal cell layer of dorsal urethra of female
+namespace: anatomical_structure
+comment: order=2 for EMAPA:28759.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:28759 ! epithelium of pelvic urethra of female
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36108
+name: urogenital sinus ridge of female
+namespace: anatomical_structure
+comment: order=0 for EMAPA:32264.
+relationship: ends_at TS23 ! TS23
+relationship: part_of EMAPA:32264 ! epithelium of dorsal pelvic urethra of female
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36109
+name: rest of epithelium of dorsal pelvic urethra of female
+namespace: anatomical_structure
+comment: order=1 for EMAPA:32264.
+relationship: ends_at TS23 ! TS23
+relationship: part_of EMAPA:32264 ! epithelium of dorsal pelvic urethra of female
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: group_term
