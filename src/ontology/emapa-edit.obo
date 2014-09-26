@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 25:09:2014 16:28
+date: 26:09:2014 10:44
 saved-by: jarm
-auto-generated-by: OBO-Edit 2.3.1
+auto-generated-by: OBO-Edit 2.3-beta5
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -1193,7 +1193,7 @@ name: future hindbrain neural crest
 namespace: anatomical_structure
 alt_id: EMAPA:35365
 alt_id: EMAPA:35366
-comment: MERGED COMMENT:\nTARGET COMMENT: order=0 for EMAPA:16155.\norder=0 for EMAPA:32733.\n--------------------\nSOURCE COMMENT: order=3 for EMAPA:16478.
+comment: order=0 for EMAPA:16155.\norder=0 for EMAPA:32733.\norder=3 for EMAPA:16478.
 is_a: EMAPA:32737 ! neural crest
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16148 ! future hindbrain
