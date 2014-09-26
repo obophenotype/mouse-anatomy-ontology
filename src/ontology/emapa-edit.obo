@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 26:09:2014 15:23
-saved-by: mnw
-auto-generated-by: OBO-Edit 2.3.1
+date: 26:09:2014 15:22
+saved-by: terryh
+auto-generated-by: OBO-Edit 2.1.1-beta6
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -17,8 +17,8 @@ name: first polar body
 namespace: anatomical_structure
 comment: order=18 for EMAPA:25765.
 synonym: "1st polar body" RELATED []
+is_a: EMAPA:31859 ! polar body
 relationship: ends_at TS01 ! TS01
-relationship: part_of EMAPA:31859 ! polar body
 relationship: part_of EMAPA:36041 ! 1-cell stage conceptus
 relationship: starts_at TS01 ! TS01
 
@@ -30,8 +30,8 @@ comment: order=0 for EMAPA:25765.
 synonym: "1-cell embryo" RELATED []
 synonym: "fertilized egg" RELATED []
 synonym: "one-cell embryo" RELATED []
+is_a: EMAPA:36032 ! early embryo
 relationship: ends_at TS01 ! TS01
-relationship: part_of EMAPA:36032 ! early embryo
 relationship: part_of EMAPA:36041 ! 1-cell stage conceptus
 relationship: starts_at TS01 ! TS01
 
@@ -42,8 +42,8 @@ namespace: anatomical_structure
 alt_id: EMAPA:16045
 comment: order=37 for EMAPA:25765.
 synonym: "2nd polar body" RELATED []
+is_a: EMAPA:31859 ! polar body
 relationship: ends_at TS04 ! TS04
-relationship: part_of EMAPA:31859 ! polar body
 relationship: part_of EMAPA:36041 ! 1-cell stage conceptus
 relationship: part_of EMAPA:36042 ! 2-cell stage conceptus
 relationship: part_of EMAPA:36043 ! 4-cell stage conceptus
@@ -77,8 +77,8 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:25765.
 synonym: "2-cell embryo" RELATED []
 synonym: "two-cell embryo" RELATED []
+is_a: EMAPA:36032 ! early embryo
 relationship: ends_at TS02 ! TS02
-relationship: part_of EMAPA:36032 ! early embryo
 relationship: part_of EMAPA:36042 ! 2-cell stage conceptus
 relationship: starts_at TS02 ! TS02
 
@@ -89,8 +89,8 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:25765.
 synonym: "4-8 cell embryo" RELATED []
 synonym: "four-to-eight cell embryo" RELATED []
+is_a: EMAPA:36032 ! early embryo
 relationship: ends_at TS03 ! TS03
-relationship: part_of EMAPA:36032 ! early embryo
 relationship: part_of EMAPA:36063 ! 4-8 cell stage conceptus
 relationship: starts_at TS03 ! TS03
 
@@ -109,8 +109,8 @@ id: EMAPA:16040
 name: compacted morula
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16039.\norder=7 for EMAPA:25765.
+is_a: EMAPA:36032 ! early embryo
 relationship: ends_at TS04 ! TS04
-relationship: part_of EMAPA:36032 ! early embryo
 relationship: part_of EMAPA:36045 ! morula-stage conceptus
 relationship: starts_at TS03 ! TS03
 
@@ -132,6 +132,7 @@ comment: order=17 for EMAPA:25765.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25765 ! mouse
 relationship: part_of EMAPA:36040 ! conceptus
+relationship: part_of EMAPA:36119 ! egg cylinder
 relationship: starts_at TS04 ! TS04
 
 [Term]
@@ -139,8 +140,8 @@ id: EMAPA:16043
 name: extraembryonic cavity
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16042.
+is_a: EMAPA:36037 ! cavity or lining
 relationship: ends_at TS06 ! TS06
-relationship: part_of EMAPA:36037 ! cavity or lining
 relationship: starts_at TS04 ! TS04
 
 [Term]
@@ -149,8 +150,8 @@ name: blastocoelic cavity
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16043.
 synonym: "blastocelic cavity" RELATED []
+is_a: EMAPA:16043 ! extraembryonic cavity
 relationship: ends_at TS06 ! TS06
-relationship: part_of EMAPA:16043 ! extraembryonic cavity
 relationship: part_of EMAPA:36035 ! blastocyst
 relationship: starts_at TS04 ! TS04
 
@@ -190,6 +191,7 @@ comment: order=8 for EMAPA:16039.\norder=15 for EMAPA:25765.
 relationship: ends_at TS08 ! TS08
 relationship: part_of EMAPA:16039 ! embryo
 relationship: part_of EMAPA:36035 ! blastocyst
+relationship: part_of EMAPA:36119 ! egg cylinder
 relationship: starts_at TS06 ! TS06
 
 [Term]
@@ -205,6 +207,7 @@ is_a: EMAPA:35986 ! endoderm
 relationship: ends_at TS12 ! TS12
 relationship: part_of EMAPA:36035 ! blastocyst
 relationship: part_of EMAPA:36040 ! conceptus
+relationship: part_of EMAPA:36119 ! egg cylinder
 relationship: starts_at TS06 ! TS06
 
 [Term]
@@ -232,9 +235,9 @@ id: EMAPA:16054
 name: extraembryonic component cavity
 namespace: anatomical_structure
 comment: order=6 for EMAPA:16042.
+is_a: EMAPA:36037 ! cavity or lining
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16042 ! extraembryonic component
-relationship: part_of EMAPA:36037 ! cavity or lining
 relationship: starts_at TS07 ! TS07
 
 [Term]
@@ -242,8 +245,8 @@ id: EMAPA:16055
 name: yolk sac cavity
 namespace: anatomical_structure
 comment: order=5 for EMAPA:16054.
+is_a: EMAPA:16054 ! extraembryonic component cavity
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16054 ! extraembryonic component cavity
 relationship: starts_at TS07 ! TS07
 
 [Term]
@@ -287,9 +290,9 @@ id: EMAPA:16060
 name: body cavity or lining
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16039.\norder=6 for EMAPA:25765.
+is_a: EMAPA:36037 ! cavity or lining
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16039 ! embryo
-relationship: part_of EMAPA:36037 ! cavity or lining
 relationship: starts_at TS08 ! TS08
 
 [Term]
@@ -297,8 +300,8 @@ id: EMAPA:16061
 name: proamniotic cavity embryonic part
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16060.
+is_a: EMAPA:16060 ! body cavity or lining
 relationship: ends_at TS10 ! TS10
-relationship: part_of EMAPA:16060 ! body cavity or lining
 relationship: part_of EMAPA:36038 ! proamniotic cavity
 relationship: starts_at TS08 ! TS08
 
@@ -318,8 +321,8 @@ id: EMAPA:16064
 name: proamniotic cavity extraembryonic part
 namespace: anatomical_structure
 comment: order=4 for EMAPA:16054.
+is_a: EMAPA:16054 ! extraembryonic component cavity
 relationship: ends_at TS10 ! TS10
-relationship: part_of EMAPA:16054 ! extraembryonic component cavity
 relationship: part_of EMAPA:36038 ! proamniotic cavity
 relationship: starts_at TS08 ! TS08
 
@@ -465,8 +468,8 @@ id: EMAPA:16079
 name: amniotic cavity
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16054.
+is_a: EMAPA:16054 ! extraembryonic component cavity
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16054 ! extraembryonic component cavity
 relationship: starts_at TS10 ! TS10
 
 [Term]
@@ -474,8 +477,8 @@ id: EMAPA:16080
 name: ectoplacental cavity
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16054.
+is_a: EMAPA:16054 ! extraembryonic component cavity
 relationship: ends_at TS11 ! TS11
-relationship: part_of EMAPA:16054 ! extraembryonic component cavity
 relationship: starts_at TS10 ! TS10
 
 [Term]
@@ -483,8 +486,8 @@ id: EMAPA:16081
 name: exocoelomic cavity
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16054.
+is_a: EMAPA:16054 ! extraembryonic component cavity
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16054 ! extraembryonic component cavity
 relationship: starts_at TS10 ! TS10
 
 [Term]
@@ -492,8 +495,8 @@ id: EMAPA:16082
 name: cavity within amniotic fold
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16054.
+is_a: EMAPA:16054 ! extraembryonic component cavity
 relationship: ends_at TS10 ! TS10
-relationship: part_of EMAPA:16054 ! extraembryonic component cavity
 relationship: starts_at TS10 ! TS10
 
 [Term]
@@ -530,8 +533,8 @@ id: EMAPA:16088
 name: intraembryonic coelom
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16060.
+is_a: EMAPA:16060 ! body cavity or lining
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16060 ! body cavity or lining
 relationship: starts_at TS11 ! TS11
 
 [Term]
@@ -602,8 +605,8 @@ id: EMAPA:16097
 name: mesenchyme
 namespace: anatomical_structure
 comment: order=22 for EMAPA:25765.
+is_a: EMAPA:35868 ! tissue
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:35868 ! tissue
 relationship: starts_at TS11 ! TS11
 
 [Term]
@@ -658,8 +661,8 @@ id: EMAPA:16104
 name: cardiovascular system
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16103.
+is_a: EMAPA:16103 ! organ system
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16103 ! organ system
 relationship: starts_at TS11 ! TS11
 
 [Term]
@@ -1558,8 +1561,8 @@ id: EMAPA:16192
 name: sensory organ system
 namespace: anatomical_structure
 comment: order=13 for EMAPA:16103.
+is_a: EMAPA:16103 ! organ system
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16103 ! organ system
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -1683,9 +1686,9 @@ name: vitelline artery
 namespace: anatomical_structure
 comment: order=59 for EMAPA:16201.
 is_a: EMAPA:35147 ! artery
+is_a: EMAPA:36034 ! umbilical or vitelline vessel
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16201 ! arterial system
-relationship: part_of EMAPA:36034 ! umbilical or vitelline vessel
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -1842,8 +1845,8 @@ id: EMAPA:16245
 name: visceral organ system
 namespace: anatomical_structure
 comment: order=14 for EMAPA:16103.
+is_a: EMAPA:16103 ! organ system
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16103 ! organ system
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -1853,8 +1856,8 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:16245.
 synonym: "digestive system" RELATED []
 synonym: "gastrointestinal system" RELATED []
+is_a: EMAPA:16103 ! organ system
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16103 ! organ system
 relationship: part_of EMAPA:16245 ! visceral organ system
 relationship: starts_at TS12 ! TS12
 
@@ -3071,8 +3074,8 @@ name: genitourinary system
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16245.
 synonym: "urogenital system" RELATED []
+is_a: EMAPA:16103 ! organ system
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16103 ! organ system
 relationship: part_of EMAPA:16245 ! visceral organ system
 relationship: starts_at TS13 ! TS13
 
@@ -3443,8 +3446,8 @@ id: EMAPA:16405
 name: limb
 namespace: anatomical_structure
 comment: order=12 for EMAPA:16039.\norder=21 for EMAPA:25765.
+is_a: EMAPA:36031 ! body region
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:36031 ! body region
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -3454,7 +3457,6 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:16405.
 is_a: EMAPA:35944 ! limb bud
 relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16405 ! limb
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -4064,8 +4066,8 @@ id: EMAPA:16469
 name: nervous system
 namespace: anatomical_structure
 comment: order=9 for EMAPA:16103.
+is_a: EMAPA:16103 ! organ system
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16103 ! organ system
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -6163,8 +6165,8 @@ id: EMAPA:16727
 name: respiratory system
 namespace: anatomical_structure
 comment: order=5 for EMAPA:16245.
+is_a: EMAPA:16103 ! organ system
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16103 ! organ system
 relationship: part_of EMAPA:16245 ! visceral organ system
 relationship: starts_at TS15 ! TS15
 
@@ -6185,7 +6187,6 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:16728.
 is_a: EMAPA:36007 ! lung rudiment
 relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16728 ! lung
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -6226,7 +6227,6 @@ namespace: anatomical_structure
 comment: order=11 for EMAPA:16728.
 is_a: EMAPA:36007 ! lung rudiment
 relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16728 ! lung
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -6382,8 +6382,8 @@ id: EMAPA:16748
 name: tail
 namespace: anatomical_structure
 comment: order=25 for EMAPA:16039.\norder=38 for EMAPA:25765.
+is_a: EMAPA:36031 ! body region
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:36031 ! body region
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -6693,7 +6693,6 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:16405.
 is_a: EMAPA:35944 ! limb bud
 relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16405 ! limb
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -7288,8 +7287,8 @@ name: liver and biliary system
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16245.
 synonym: "hepatobiliary system" RELATED []
+is_a: EMAPA:16103 ! organ system
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16103 ! organ system
 relationship: part_of EMAPA:16245 ! visceral organ system
 relationship: starts_at TS16 ! TS16
 
@@ -11345,8 +11344,8 @@ id: EMAPA:17366
 name: urinary system
 namespace: anatomical_structure
 comment: order=6 for EMAPA:16245.
+is_a: EMAPA:16103 ! organ system
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16103 ! organ system
 relationship: part_of EMAPA:16245 ! visceral organ system
 relationship: part_of EMAPA:16367 ! genitourinary system
 relationship: starts_at TS17 ! TS17
@@ -11435,8 +11434,8 @@ id: EMAPA:17381
 name: reproductive system
 namespace: anatomical_structure
 comment: order=4 for EMAPA:16245.
+is_a: EMAPA:16103 ! organ system
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16103 ! organ system
 relationship: part_of EMAPA:16245 ! visceral organ system
 relationship: part_of EMAPA:16367 ! genitourinary system
 relationship: starts_at TS16 ! TS16
@@ -11744,8 +11743,8 @@ id: EMAPA:17412
 name: forelimb
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16405.
+is_a: EMAPA:16405 ! limb
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16405 ! limb
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -12210,8 +12209,8 @@ id: EMAPA:17458
 name: hindlimb
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16405.
+is_a: EMAPA:16405 ! limb
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16405 ! limb
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -12873,8 +12872,8 @@ id: EMAPA:17524
 name: integumental system
 namespace: anatomical_structure
 comment: order=6 for EMAPA:16103.
+is_a: EMAPA:16103 ! organ system
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16103 ! organ system
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -14193,7 +14192,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35155.
 is_a: EMAPA:32696 ! lobar bronchus
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35155 ! right lung lobe
+relationship: part_of EMAPA:17661 ! right lung
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -16944,7 +16943,6 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:17661.
 is_a: EMAPA:35155 ! right lung lobe
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17661 ! right lung
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -16995,7 +16993,6 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:17661.
 is_a: EMAPA:35155 ! right lung lobe
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17661 ! right lung
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -17046,7 +17043,6 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:17661.
 is_a: EMAPA:35155 ! right lung lobe
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17661 ! right lung
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -17107,7 +17103,6 @@ namespace: anatomical_structure
 comment: order=8 for EMAPA:17661.
 is_a: EMAPA:35155 ! right lung lobe
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17661 ! right lung
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -20974,7 +20969,6 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:16103.
 is_a: EMAPA:35949 ! organ
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16103 ! organ system
 relationship: starts_at TS13 ! TS13
 
 [Term]
@@ -23067,8 +23061,8 @@ namespace: anatomical_structure
 alt_id: EMAPA:18534
 comment: order=5 for EMAPA:16103.
 synonym: "haemolymphoid system" RELATED []
+is_a: EMAPA:16103 ! organ system
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16103 ! organ system
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -23863,7 +23857,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:17656.
 is_a: EMAPA:32697 ! bronchiole
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17656 ! left lung lobar bronchus
+relationship: part_of EMAPA:17653 ! left lung
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -23873,7 +23867,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:19000.
 is_a: EMAPA:32692 ! alveolar system
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19000 ! left lung bronchiole
+relationship: part_of EMAPA:17653 ! left lung
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -36146,8 +36140,8 @@ id: EMAPA:26164
 name: cavity of physiological umbilical hernia
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16060.
+is_a: EMAPA:16060 ! body cavity or lining
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16060 ! body cavity or lining
 relationship: part_of EMAPA:18404 ! physiological umbilical hernia
 relationship: starts_at TS20 ! TS20
 
@@ -45519,8 +45513,8 @@ name: trunk
 namespace: anatomical_structure
 comment: order=27 for EMAPA:16039.\norder=41 for EMAPA:25765.
 synonym: "body" RELATED []
+is_a: EMAPA:36031 ! body region
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:36031 ! body region
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -45528,8 +45522,8 @@ id: EMAPA:31858
 name: head
 namespace: anatomical_structure
 comment: order=10 for EMAPA:16039.\norder=19 for EMAPA:25765.
+is_a: EMAPA:36031 ! body region
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:36031 ! body region
 relationship: starts_at TS11 ! TS11
 
 [Term]
@@ -47072,7 +47066,7 @@ name: alveolar system
 namespace: anatomical_structure
 comment: order=0 for EMAPA:32697.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32697 ! bronchiole
+relationship: part_of EMAPA:16728 ! lung
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -47122,7 +47116,7 @@ name: bronchiole
 namespace: anatomical_structure
 comment: order=0 for EMAPA:32696.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32696 ! lobar bronchus
+relationship: part_of EMAPA:16728 ! lung
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -47283,8 +47277,8 @@ id: EMAPA:32714
 name: musculoskeletal system
 namespace: anatomical_structure
 comment: order=8 for EMAPA:16103.
+is_a: EMAPA:16103 ! organ system
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16103 ! organ system
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -47292,8 +47286,8 @@ id: EMAPA:32715
 name: muscle tissue
 namespace: anatomical_structure
 comment: order=25 for EMAPA:25765.
+is_a: EMAPA:35868 ! tissue
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35868 ! tissue
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -47503,8 +47497,8 @@ id: EMAPA:32738
 name: epithelium
 namespace: anatomical_structure
 comment: order=9 for EMAPA:16039.\norder=16 for EMAPA:25765.
+is_a: EMAPA:35868 ! tissue
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35868 ! tissue
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -48589,8 +48583,8 @@ id: EMAPA:32856
 name: mesothelium
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16060.
+is_a: EMAPA:16060 ! body cavity or lining
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16060 ! body cavity or lining
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -51171,8 +51165,8 @@ id: EMAPA:35251
 name: connective tissue
 namespace: anatomical_structure
 comment: order=8 for EMAPA:25765.
+is_a: EMAPA:35868 ! tissue
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35868 ! tissue
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -51669,8 +51663,8 @@ id: EMAPA:35306
 name: endocrine system
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16103.
+is_a: EMAPA:16103 ! organ system
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16103 ! organ system
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -51889,8 +51883,8 @@ id: EMAPA:35329
 name: exocrine system
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16103.
+is_a: EMAPA:16103 ! organ system
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16103 ! organ system
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -52716,7 +52710,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:17664.
 is_a: EMAPA:32697 ! bronchiole
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17664 ! right lung lobar bronchus
+relationship: part_of EMAPA:17661 ! right lung
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -54109,8 +54103,8 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35577
 name: musculature
 namespace: anatomical_structure
+is_a: EMAPA:16103 ! organ system
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16103 ! organ system
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -54194,8 +54188,8 @@ id: EMAPA:35587
 name: neck
 namespace: anatomical_structure
 comment: order=27 for EMAPA:25765.
+is_a: EMAPA:36031 ! body region
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:36031 ! body region
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -55086,8 +55080,8 @@ id: EMAPA:35683
 name: peritoneal fluid
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35178.
+is_a: EMAPA:35178 ! body fluid or substance
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35178 ! body fluid or substance
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -55400,7 +55394,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35425.
 is_a: EMAPA:32692 ! alveolar system
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35425 ! right lung bronchiole
+relationship: part_of EMAPA:17661 ! right lung
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -55504,8 +55498,8 @@ id: EMAPA:35729
 name: respiratory bronchiole
 namespace: anatomical_structure
 comment: order=2 for EMAPA:32697.
+is_a: EMAPA:32697 ! bronchiole
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32697 ! bronchiole
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -55513,8 +55507,8 @@ id: EMAPA:35730
 name: respiratory bronchiole epithelium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35729.
-is_a: EMAPA:32693 ! bronchiole epithelium
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32693 ! bronchiole epithelium
 relationship: part_of EMAPA:35729 ! respiratory bronchiole
 relationship: starts_at TS27 ! TS27
 
@@ -57877,8 +57871,8 @@ id: EMAPA:35985
 name: ectoderm
 namespace: anatomical_structure
 comment: order=9 for EMAPA:25765.
+is_a: EMAPA:36033 ! germ layer
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:36033 ! germ layer
 relationship: starts_at TS06 ! TS06
 
 [Term]
@@ -57886,8 +57880,8 @@ id: EMAPA:35986
 name: endoderm
 namespace: anatomical_structure
 comment: order=14 for EMAPA:25765.
+is_a: EMAPA:36033 ! germ layer
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:36033 ! germ layer
 relationship: starts_at TS06 ! TS06
 
 [Term]
@@ -57895,8 +57889,8 @@ id: EMAPA:35987
 name: mesoderm
 namespace: anatomical_structure
 comment: order=24 for EMAPA:25765.
+is_a: EMAPA:36033 ! germ layer
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:36033 ! germ layer
 relationship: starts_at TS09 ! TS09
 
 [Term]
@@ -58180,8 +58174,8 @@ id: EMAPA:36017
 name: umbilical artery
 namespace: anatomical_structure
 comment: order=42 for EMAPA:25765.
+is_a: EMAPA:36034 ! umbilical or vitelline vessel
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:36034 ! umbilical or vitelline vessel
 relationship: starts_at TS13 ! TS13
 
 [Term]
@@ -58189,8 +58183,8 @@ id: EMAPA:36018
 name: umbilical vein
 namespace: anatomical_structure
 comment: order=43 for EMAPA:25765.
+is_a: EMAPA:36034 ! umbilical or vitelline vessel
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:36034 ! umbilical or vitelline vessel
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -58198,8 +58192,8 @@ id: EMAPA:36019
 name: left umbilical vein
 namespace: anatomical_structure
 comment: order=0 for EMAPA:36018.
+is_a: EMAPA:36018 ! umbilical vein
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:36018 ! umbilical vein
 relationship: starts_at TS13 ! TS13
 
 [Term]
@@ -58207,8 +58201,8 @@ id: EMAPA:36020
 name: right umbilical vein
 namespace: anatomical_structure
 comment: order=1 for EMAPA:36018.
+is_a: EMAPA:36018 ! umbilical vein
 relationship: ends_at TS15 ! TS15
-relationship: part_of EMAPA:36018 ! umbilical vein
 relationship: starts_at TS13 ! TS13
 
 [Term]
@@ -58216,8 +58210,8 @@ id: EMAPA:36021
 name: vitelline vein
 namespace: anatomical_structure
 comment: order=44 for EMAPA:25765.
+is_a: EMAPA:36034 ! umbilical or vitelline vessel
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:36034 ! umbilical or vitelline vessel
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -58225,8 +58219,8 @@ id: EMAPA:36022
 name: left vitelline vein
 namespace: anatomical_structure
 comment: order=0 for EMAPA:36021.
+is_a: EMAPA:36021 ! vitelline vein
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:36021 ! vitelline vein
 relationship: starts_at TS13 ! TS13
 
 [Term]
@@ -58234,8 +58228,8 @@ id: EMAPA:36023
 name: right vitelline vein
 namespace: anatomical_structure
 comment: order=1 for EMAPA:36021.
+is_a: EMAPA:36021 ! vitelline vein
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:36021 ! vitelline vein
 relationship: starts_at TS13 ! TS13
 
 [Term]
@@ -58310,6 +58304,7 @@ name: early embryo
 namespace: anatomical_structure
 relationship: ends_at TS04 ! TS04
 relationship: part_of EMAPA:25765 ! mouse
+relationship: part_of EMAPA:36040 ! conceptus
 relationship: starts_at TS01 ! TS01
 
 [Term]
@@ -58358,16 +58353,16 @@ relationship: starts_at TS04 ! TS04
 id: EMAPA:36038
 name: proamniotic cavity
 namespace: anatomical_structure
+is_a: EMAPA:36037 ! cavity or lining
 relationship: ends_at TS10 ! TS10
-relationship: part_of EMAPA:36037 ! cavity or lining
 relationship: starts_at TS08 ! TS08
 
 [Term]
 id: EMAPA:36039
 name: primary yolk sac cavity
 namespace: anatomical_structure
+is_a: EMAPA:16055 ! yolk sac cavity
 relationship: ends_at TS08 ! TS08
-relationship: part_of EMAPA:16055 ! yolk sac cavity
 relationship: starts_at TS07 ! TS07
 
 [Term]
@@ -58382,50 +58377,50 @@ relationship: starts_at TS01 ! TS01
 id: EMAPA:36041
 name: 1-cell stage conceptus
 namespace: anatomical_structure
+is_a: EMAPA:36040 ! conceptus
 relationship: ends_at TS01 ! TS01
-relationship: part_of EMAPA:36040 ! conceptus
 relationship: starts_at TS01 ! TS01
 
 [Term]
 id: EMAPA:36042
 name: 2-cell stage conceptus
 namespace: anatomical_structure
+is_a: EMAPA:36040 ! conceptus
 relationship: ends_at TS02 ! TS02
-relationship: part_of EMAPA:36040 ! conceptus
 relationship: starts_at TS02 ! TS02
 
 [Term]
 id: EMAPA:36043
 name: 4-cell stage conceptus
 namespace: anatomical_structure
+is_a: EMAPA:36040 ! conceptus
 is_a: EMAPA:36063 ! 4-8 cell stage conceptus
 relationship: ends_at TS03 ! TS03
-relationship: part_of EMAPA:36040 ! conceptus
 relationship: starts_at TS03 ! TS03
 
 [Term]
 id: EMAPA:36044
 name: 8-cell stage conceptus
 namespace: anatomical_structure
+is_a: EMAPA:36040 ! conceptus
 is_a: EMAPA:36063 ! 4-8 cell stage conceptus
 relationship: ends_at TS03 ! TS03
-relationship: part_of EMAPA:36040 ! conceptus
 relationship: starts_at TS03 ! TS03
 
 [Term]
 id: EMAPA:36045
 name: morula-stage conceptus
 namespace: anatomical_structure
+is_a: EMAPA:36040 ! conceptus
 relationship: ends_at TS04 ! TS04
-relationship: part_of EMAPA:36040 ! conceptus
 relationship: starts_at TS03 ! TS03
 
 [Term]
 id: EMAPA:36046
 name: blastocyst-stage conceptus
 namespace: anatomical_structure
+is_a: EMAPA:36040 ! conceptus
 relationship: ends_at TS06 ! TS06
-relationship: part_of EMAPA:36040 ! conceptus
 relationship: starts_at TS04 ! TS04
 
 [Term]
@@ -58565,8 +58560,8 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:36063
 name: 4-8 cell stage conceptus
 namespace: anatomical_structure
+is_a: EMAPA:36040 ! conceptus
 relationship: ends_at TS03 ! TS03
-relationship: part_of EMAPA:36040 ! conceptus
 relationship: starts_at TS03 ! TS03
 
 [Term]
@@ -59099,6 +59094,14 @@ def: "adventitia of pelvic urethra of female (TS23-TS28): the outer connective t
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28753 ! pelvic urethra of female
 relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36119
+name: egg cylinder
+namespace: anatomical_structure
+relationship: ends_at TS08 ! TS08
+relationship: part_of EMAPA:36040 ! conceptus
+relationship: starts_at TS07 ! TS07
 
 [Term]
 id: group_term
