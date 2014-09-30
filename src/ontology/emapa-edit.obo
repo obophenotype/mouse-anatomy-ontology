@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 26:09:2014 15:22
-saved-by: terryh
-auto-generated-by: OBO-Edit 2.1.1-beta6
+date: 30:09:2014 14:39
+saved-by: jarm
+auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -23826,6 +23826,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:18995
 name: pelvic urethra of male
 namespace: anatomical_structure
+def: "pelvic urethra of male: (TS23-TS28) part of urethra of male. Cranially joined to the bladder and caudally joined to the phallic urethra of male (TS23-TS27) which becomes the penile urethra (TS28). Comprised of epithelium (subdivided into 3 layers), mesenchymal layer [subdivided into lamina propria, muscularis mucosa, submucosa (TS25-TS28) and also contains mesenchymal pad of male (TS25-TS27)], muscle layer and adventitia. Also contains vasculature and nerve of pelvic urethra of male, and neural crest derivative of pelvic urethra of male (TS25-TS27). Also contains ventral epithelial bud of male and male urethral gland bud (TS24-TS26), which become urethral gland of male pelvic urethra (TS27), which develop from the epithelium of pelvic urethra of male. The pelvic urethra of female (TS28) also contains a rhabdosphincter as part of the muscle layer of pelvic uretha of female. In the TS28 male, the rhabdophincter is part of the prostatic urethra." []
 comment: order=0 for EMAPA:18692.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18692 ! urethra of male
@@ -45245,7 +45246,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:31550
 name: mesenchymal layer of ventral pelvic urethra of male
 namespace: anatomical_structure
-comment: order=1 for EMAPA:28703.
+comment: order=4 for EMAPA:28703.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28703 ! mesenchymal layer of pelvic urethra of male
 relationship: starts_at TS23 ! TS23
@@ -45265,7 +45266,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:31552
 name: mesenchymal layer of dorsal pelvic urethra of male
 namespace: anatomical_structure
-comment: order=0 for EMAPA:28703.
+comment: order=3 for EMAPA:28703.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28703 ! mesenchymal layer of pelvic urethra of male
 relationship: starts_at TS23 ! TS23
@@ -45365,7 +45366,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:31565
 name: nerve of pelvic urethra of male
 namespace: anatomical_structure
-comment: order=4 for EMAPA:18995.\norder=2 for EMAPA:31569.
+comment: order=5 for EMAPA:18995.\norder=2 for EMAPA:31569.
 is_a: EMAPA:35948 ! nerve of urinary system
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18995 ! pelvic urethra of male
@@ -45710,9 +45711,9 @@ relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:32258
-name: urothelium of ventral pelvic urethra of male
+name: epithelium of ventral pelvic urethra of male
 namespace: anatomical_structure
-comment: order=1 for EMAPA:28697.
+comment: order=4 for EMAPA:28697.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28697 ! epithelium of pelvic urethra of male
 relationship: starts_at TS23 ! TS23
@@ -45730,9 +45731,9 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:32260
 name: basal cell layer of dorsal pelvic urethra of male
 namespace: anatomical_structure
-comment: order=2 for EMAPA:32300.
+comment: order=4 for EMAPA:32300.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32300 ! urothelium of dorsal pelvic urethra of male
+relationship: part_of EMAPA:32300 ! epithelium of dorsal pelvic urethra of male
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -45741,25 +45742,25 @@ name: basal cell layer of ventral pelvic urethra of male
 namespace: anatomical_structure
 comment: order=2 for EMAPA:32258.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32258 ! urothelium of ventral pelvic urethra of male
+relationship: part_of EMAPA:32258 ! epithelium of ventral pelvic urethra of male
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:32262
 name: vasculature of pelvic urethra of male
 namespace: anatomical_structure
-comment: order=3 for EMAPA:18995.
+comment: order=4 for EMAPA:18995.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18995 ! pelvic urethra of male
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:32263
 name: superficial cell layer of dorsal pelvic urethra of male
 namespace: anatomical_structure
-comment: order=0 for EMAPA:32300.
+comment: order=2 for EMAPA:32300.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32300 ! urothelium of dorsal pelvic urethra of male
+relationship: part_of EMAPA:32300 ! epithelium of dorsal pelvic urethra of male
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -45914,10 +45915,10 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:32280
 name: mesenchymal pad of pelvic urethra of male
 namespace: anatomical_structure
-comment: order=2 for EMAPA:28703.
+comment: order=5 for EMAPA:28703.
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:28703 ! mesenchymal layer of pelvic urethra of male
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:32281
@@ -45953,7 +45954,7 @@ name: superficial cell layer of ventral pelvic urethra of male
 namespace: anatomical_structure
 comment: order=0 for EMAPA:32258.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32258 ! urothelium of ventral pelvic urethra of male
+relationship: part_of EMAPA:32258 ! epithelium of ventral pelvic urethra of male
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -45970,7 +45971,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:32286
 name: neural crest derivative of pelvic urethra of male
 namespace: anatomical_structure
-comment: order=5 for EMAPA:18995.
+comment: order=6 for EMAPA:18995.
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18995 ! pelvic urethra of male
 relationship: starts_at TS25 ! TS25
@@ -46100,9 +46101,9 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:32300
-name: urothelium of dorsal pelvic urethra of male
+name: epithelium of dorsal pelvic urethra of male
 namespace: anatomical_structure
-comment: order=0 for EMAPA:28697.
+comment: order=3 for EMAPA:28697.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28697 ! epithelium of pelvic urethra of male
 relationship: starts_at TS23 ! TS23
@@ -46165,9 +46166,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:32307
 name: intermediate cell layer of dorsal pelvic urethra of male
 namespace: anatomical_structure
-comment: order=1 for EMAPA:32300.
+comment: order=3 for EMAPA:32300.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32300 ! urothelium of dorsal pelvic urethra of male
+relationship: part_of EMAPA:32300 ! epithelium of dorsal pelvic urethra of male
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -46235,7 +46236,7 @@ name: intermediate cell layer of ventral pelvic urethra of male
 namespace: anatomical_structure
 comment: order=1 for EMAPA:32258.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32258 ! urothelium of ventral pelvic urethra of male
+relationship: part_of EMAPA:32258 ! epithelium of ventral pelvic urethra of male
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -58982,7 +58983,7 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:36107
-name: basal cell layer of dorsal urethra of female
+name: basal cell layer of pelvic urethra of female
 namespace: anatomical_structure
 comment: order=2 for EMAPA:28759.
 relationship: ends_at TS28 ! TS28
@@ -59102,6 +59103,117 @@ namespace: anatomical_structure
 relationship: ends_at TS08 ! TS08
 relationship: part_of EMAPA:36040 ! conceptus
 relationship: starts_at TS07 ! TS07
+
+[Term]
+id: EMAPA:36120
+name: superficial cell layer of pelvic urethra of male
+namespace: anatomical_structure
+def: "order=0 for EMAPA:28697." []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:28697 ! epithelium of pelvic urethra of male
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36121
+name: intermediate cell layer of pelvic urethra of male
+namespace: anatomical_structure
+comment: order=1 for EMAPA:28697.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:28697 ! epithelium of pelvic urethra of male
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36122
+name: basal cell layer of pelvic urethra of male
+namespace: anatomical_structure
+comment: order=2 for EMAPA:28697.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:28697 ! epithelium of pelvic urethra of male
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36123
+name: urogenital sinus ridge of male
+namespace: anatomical_structure
+comment: order=0 for EMAPA:32300.
+relationship: ends_at TS23 ! TS23
+relationship: part_of EMAPA:32300 ! epithelium of dorsal pelvic urethra of male
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36124
+name: rest of epithelium of dorsal pelvic urethra of male
+namespace: anatomical_structure
+comment: order=1 for EMAPA:32300.
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:32300 ! epithelium of dorsal pelvic urethra of male
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36125
+name: lamina propria of pelvic urethra of male
+namespace: anatomical_structure
+comment: order=0 for EMAPA:28703.
+synonym: "peri-epithelial mesenchymal layer of pelvic urethra of male" RELATED []
+synonym: "sub-epithelial mesenchymal layer of pelvic urethra of male" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:28703 ! mesenchymal layer of pelvic urethra of male
+relationship: starts_at TS25 ! TS25
+
+[Term]
+id: EMAPA:36126
+name: muscularis mucosa of pelvic urethra of male
+namespace: anatomical_structure
+comment: order=1 for EMAPA:28703.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:28703 ! mesenchymal layer of pelvic urethra of male
+relationship: starts_at TS25 ! TS25
+
+[Term]
+id: EMAPA:36127
+name: submucosa of pelvic urethra of male
+namespace: anatomical_structure
+comment: order=2 for EMAPA:28703.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:28703 ! mesenchymal layer of pelvic urethra of male
+relationship: starts_at TS25 ! TS25
+
+[Term]
+id: EMAPA:36128
+name: anterior mesenchymal pad of male
+namespace: anatomical_structure
+comment: order=0 for EMAPA:32280.
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:32280 ! mesenchymal pad of pelvic urethra of male
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36129
+name: dorsal mesenchymal pad of male
+namespace: anatomical_structure
+comment: order=1 for EMAPA:32280.
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:32280 ! mesenchymal pad of pelvic urethra of male
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36130
+name: ventral mesenchymal pad of male
+namespace: anatomical_structure
+comment: order=2 for EMAPA:32280.
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:32280 ! mesenchymal pad of pelvic urethra of male
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36131
+name: adventitia of pelvic urethra of male
+namespace: anatomical_structure
+def: "adventitia of pelvic urethra of male (TS23-TS28): the outer connective tissue layer of the pelvic urethra. The pelvic urethra is not surrounded by an outer serous membrane or serosa." []
+comment: order=3 for EMAPA:18995.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18995 ! pelvic urethra of male
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: group_term
