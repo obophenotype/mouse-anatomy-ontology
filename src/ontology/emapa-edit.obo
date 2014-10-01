@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 30:09:2014 17:07
-saved-by: terryh
-auto-generated-by: OBO-Edit 2.1.1-beta6
+date: 01:10:2014 15:53
+saved-by: jarm
+auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -23843,12 +23843,15 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:18999
-name: lower part of vagina
+name: sinovaginal bulb
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18986.
+synonym: "lower vagina" RELATED []
 synonym: "sinus vagina" RELATED []
+synonym: "vaginal bulb" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18986 ! vagina
+relationship: part_of EMAPA:28753 ! pelvic urethra of female
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -40712,11 +40715,12 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:29058
-name: epithelial layer of lower part of vagina
+name: epithelium of sinovaginal bulb
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18999.\norder=0 for EMAPA:30991.
+synonym: "epithelial layer of lower vagina" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18999 ! lower part of vagina
+relationship: part_of EMAPA:18999 ! sinovaginal bulb
 relationship: part_of EMAPA:30991 ! epithelium of vagina
 relationship: starts_at TS24 ! TS24
 
@@ -40726,7 +40730,7 @@ name: muscular layer of lower part of vagina
 namespace: anatomical_structure
 comment: order=2 for EMAPA:18999.\norder=0 for EMAPA:30997.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18999 ! lower part of vagina
+relationship: part_of EMAPA:18999 ! sinovaginal bulb
 relationship: part_of EMAPA:30997 ! muscular layer of vagina
 relationship: starts_at TS24 ! TS24
 
@@ -42272,7 +42276,7 @@ name: gland of lower vaginal epithelium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:29058.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:29058 ! epithelial layer of lower part of vagina
+relationship: part_of EMAPA:29058 ! epithelium of sinovaginal bulb
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -42281,18 +42285,18 @@ name: rest of epithelial layer of lower vagina
 namespace: anatomical_structure
 comment: order=1 for EMAPA:29058.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:29058 ! epithelial layer of lower part of vagina
+relationship: part_of EMAPA:29058 ! epithelium of sinovaginal bulb
 relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:29939
-name: adventitia of lower part of vagina
+name: adventitia of sinovaginal bulb
 namespace: anatomical_structure
 comment: order=3 for EMAPA:18999.\norder=0 for EMAPA:31003.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18999 ! lower part of vagina
+relationship: part_of EMAPA:18999 ! sinovaginal bulb
 relationship: part_of EMAPA:31003 ! adventitia of vagina
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:29941
@@ -44235,11 +44239,11 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:31224
-name: developing vasculature of lower part of vagina
+name: vasculature of sinovaginal bulb
 namespace: anatomical_structure
 comment: order=4 for EMAPA:18999.\norder=0 for EMAPA:31229.
 relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:18999 ! lower part of vagina
+relationship: part_of EMAPA:18999 ! sinovaginal bulb
 relationship: part_of EMAPA:31229 ! developing vasculature of vagina
 relationship: starts_at TS24 ! TS24
 
@@ -45720,12 +45724,12 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:32259
-name: mesenchymal layer of lower part of vagina
+name: lamina propria of sinovaginal bulb
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18999.
 relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:18999 ! lower part of vagina
-relationship: starts_at TS25 ! TS25
+relationship: part_of EMAPA:18999 ! sinovaginal bulb
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:32260
@@ -59215,6 +59219,36 @@ comment: order=3 for EMAPA:18995.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18995 ! pelvic urethra of male
 relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36132
+name: ventral epithelial bud of female
+namespace: anatomical_structure
+def: "ventral epithelial bud of female (veb) (TS24-TS26): part of urethra of female and part of the pelvic urethra of female. In female mice, epithelial buds develop from the epithelium of the pelvic urethra. These buds develop in the ventral pelvic urethra in females, anterior to the sinovaginal bulb connection to the pelvic urethra in the same location as ventral prostate buds in the male. At birth, these buds are short, only a few cells in diameter and extend out from the epithelium of pelvic urethra, however they are more numerous than the ventral epithelial bud of male. Unlike in the male, where some of these ventral epithelial buds are ventral prostate buds and develop into the ventral prostate gland, in the female, these buds do not elongate. Female mice can develop functional prostate glands if exposed to exogenous androgens. Sometimes these buds are called rudimentary prostate buds or female prostate buds. However during normal female development, they most likely develop into urethral gland of female pelvic urethra (syn: Skene's gland of pelvic urethra, TS27)." []
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:28753 ! pelvic urethra of female
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36133
+name: urethral gland of pelvic urethra of female
+namespace: anatomical_structure
+comment: order=0 for EMAPA:29653.
+synonym: "Skene's gland of clitoral urethra" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:28753 ! pelvic urethra of female
+relationship: part_of EMAPA:29653 ! female urethral gland
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36134
+name: urethral gland of clitoral urethra
+namespace: anatomical_structure
+comment: order=1 for EMAPA:29653.
+synonym: "Skene's gland of clitoral urethra" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:29653 ! female urethral gland
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: group_term
