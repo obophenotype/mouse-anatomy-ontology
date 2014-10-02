@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 01:10:2014 15:53
+date: 02:10:2014 16:11
 saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -43893,6 +43893,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:30942
 name: prostatic urethra
 namespace: anatomical_structure
+def: "prostatic urethra (TS28-TS28): the subregion of the urethra of male where the prostate glands enter the urethra. Cranially joined to the bladder and caudally joined to the pelvic urethra of male. Comprised of epithelium (subdivided into 3 layers and into dorsal and ventral), mesenchymal layer (subdivided into lamina propria, muscularis mucosa, submucosa), muscle layer (subdivided into smooth muscle and rhabdosphincter) and adventitia. Also contains vasculature and nerve of prostatic urethra. The verumontanum (the raised portion of the dorsal epithelium of prostatic urethra where the ejaculatory duct orifices enter the urethra) is also part of the prostatic urethra." []
 comment: order=1 for EMAPA:18692.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18692 ! urethra of male
@@ -43936,8 +43937,9 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:30952
-name: urothelium of prostatic urethra
+name: epithelium of prostatic urethra
 namespace: anatomical_structure
+def: "epithelium of prostatic urethra (TS28-TS28): the innermost layer of the prostatic urethra, a stratified epithelium lining the lumen. It is subdivided into dorsal and ventral. It is also subdivided into three epithelial cell layers; superficial, intermediate and basal cell layer of prostatic urethra. The raised, dorsal portion of the male urethra where the prostate glands and orifices of the ejaculatory ducts enter the urethra is the verumontanum (syn: seminal colliluculus)." []
 comment: order=0 for EMAPA:30942.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30942 ! prostatic urethra
@@ -43947,6 +43949,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:30954
 name: mesenchymal layer of prostatic urethra
 namespace: anatomical_structure
+def: "mesenchymal layer of prostatic urethra (TS28-TS28): the mesenchymal layer of the prostatic urethra located between the epithelium and muscle layers. Contains smooth muscle cells and mesenchymal/fibroblastic/stromal cells, blood vessels and nerves. Subdivided into lamina propria, musclaris mucosa and submucosa." []
 comment: order=1 for EMAPA:30942.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30942 ! prostatic urethra
@@ -43956,6 +43959,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:30956
 name: muscle layer of prostatic urethra
 namespace: anatomical_structure
+def: "muscle layer of prostatic urethra (TS28-TS28): the thick layer of muscle towards the outside of the prostatic urethra. Subdivided into smooth muscle layer of prostatic urethra and rhabdosphincter of male (syn: striated muscle layer of prostatic urethra)." []
 comment: order=2 for EMAPA:30942.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30942 ! prostatic urethra
@@ -45780,7 +45784,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:32265
 name: vasculature of prostatic urethra
 namespace: anatomical_structure
-comment: order=3 for EMAPA:30942.
+comment: order=4 for EMAPA:30942.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30942 ! prostatic urethra
 relationship: starts_at TS28 ! TS28
@@ -45810,14 +45814,16 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:30952.
 synonym: "superficial epithelial layer of prostatic urethra" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:30952 ! urothelium of prostatic urethra
+relationship: part_of EMAPA:30952 ! epithelium of prostatic urethra
 relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:32269
-name: striated muscle layer of prostatic urethra
+name: rhabdosphincter of male
 namespace: anatomical_structure
+def: "rhabdosphincter of male (syn: striated muscle layer of prostatic urethra) (TS28-TS28): the striated muscle layer towards the outside of the prostatic urethra. Part of the prostatic urethra, part of the urethra of male. Marked by proteins expressed by skeletal muscle cells, such as skeletal muscle alpha actin (Acta1)." []
 comment: order=1 for EMAPA:30956.
+synonym: "striated muscle layer of prostatic urethra" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30956 ! muscle layer of prostatic urethra
 relationship: starts_at TS28 ! TS28
@@ -45837,7 +45843,7 @@ name: basal cell layer of prostatic urethra
 namespace: anatomical_structure
 comment: order=2 for EMAPA:30952.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:30952 ! urothelium of prostatic urethra
+relationship: part_of EMAPA:30952 ! epithelium of prostatic urethra
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -45900,6 +45906,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:32278
 name: smooth muscle layer of prostatic urethra
 namespace: anatomical_structure
+def: "smooth muscle layer of prostatic urethra (TS28-TS28): the smooth muscle layer towards the outside of the prostatic urethra. Part of the prostatic urethra, part of the urethra of male. Marked by proteins expressed by smooth muscle cells, such as smooth muscle alpha actin (Acta2)." []
 comment: order=0 for EMAPA:30956.
 is_a: EMAPA:32717 ! smooth muscle tissue
 relationship: ends_at TS28 ! TS28
@@ -45910,7 +45917,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:32279
 name: nerve of prostatic urethra
 namespace: anatomical_structure
-comment: order=4 for EMAPA:30942.
+comment: order=5 for EMAPA:30942.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30942 ! prostatic urethra
 relationship: starts_at TS28 ! TS28
@@ -46100,7 +46107,7 @@ name: intermediate cell layer of prostatic urethra
 namespace: anatomical_structure
 comment: order=1 for EMAPA:30952.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:30952 ! urothelium of prostatic urethra
+relationship: part_of EMAPA:30952 ! epithelium of prostatic urethra
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -46116,6 +46123,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:32301
 name: submucosa of prostatic urethra
 namespace: anatomical_structure
+def: "submucosa of prostatic urethra (TS8-TS28): the mesenchymal layer located below the muscularis mucosa of prostatic urethra, between the muscularis mucosa and muscle layer of prostatic urethra, comprised of mesenchymal/fibroblastic cells." []
 comment: order=2 for EMAPA:30954.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30954 ! mesenchymal layer of prostatic urethra
@@ -46125,6 +46133,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:32302
 name: muscularis mucosa of prostatic urethra
 namespace: anatomical_structure
+def: "muscularis mucosa of prostatic urethra (TS28-TS28): a thin, discontinuous layer comprised of wisps of smooth muscle, located between the lamina propria and the submucosa. Expresses markers of smooth muscle including ACTA2-protein and smooth muscle alpha actin (Acta2)." []
 comment: order=1 for EMAPA:30954.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30954 ! mesenchymal layer of prostatic urethra
@@ -46134,6 +46143,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:32303
 name: lamina propria of prostatic urethra
 namespace: anatomical_structure
+def: "lamina propria of prostatic urethra (TS28-TS28): the thin mesenchymal/fibroblastic/stromal cell layer of the prostatic urethra located immediately adjacent to the epithelium, between the epithelium and the muscularis mucosa. Contains connective tissue, marked by pro-collagen." []
 comment: order=0 for EMAPA:30954.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30954 ! mesenchymal layer of prostatic urethra
@@ -59249,6 +59259,62 @@ synonym: "Skene's gland of clitoral urethra" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29653 ! female urethral gland
 relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36135
+name: ventral epithelial bud of male
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:18995 ! pelvic urethra of male
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36136
+name: epithelium of dorsal prostatic urethra
+namespace: anatomical_structure
+comment: order=3 for EMAPA:30952.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:30952 ! epithelium of prostatic urethra
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36137
+name: verumontanum
+namespace: anatomical_structure
+def: "verumontanum (syn: seminal colliculus) (TS24-TS28): the raised, dorsal portion of the male urethra where the prostate glands and orifices of the ejaculatory ducts enter the urethra. Part of the pelvic urethra of male (TS24-TS27), and in the adult is part of the prostatic urethra (TS28). Also part of the male urethra. Derived from the urogenital sinus ridge of male (TS23)." []
+comment: order=0 for EMAPA:36136.
+synonym: "seminal colliculus" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36136 ! epithelium of dorsal prostatic urethra
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36138
+name: rest of epithelium of dorsal prostatic urethra
+namespace: anatomical_structure
+comment: order=1 for EMAPA:36136.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36136 ! epithelium of dorsal prostatic urethra
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36139
+name: epithelium of ventral prostatic urethra
+namespace: anatomical_structure
+comment: order=4 for EMAPA:30952.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:30952 ! epithelium of prostatic urethra
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36140
+name: adventitia of prostatic urethra of male
+namespace: anatomical_structure
+def: "adventitia of prostatic urethra (TS28-TS28): the outer connective tissue layer of the prostatic urethra. The prostatic urethra is not surrounded by an outer serous membrane or serosa." []
+comment: order=3 for EMAPA:30942.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:30942 ! prostatic urethra
+relationship: starts_at TS28 ! TS28
 
 [Term]
 id: group_term
