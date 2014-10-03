@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 03:10:2014 13:13
-saved-by: jarm
-auto-generated-by: OBO-Edit 2.3.1
+date: 03:10:2014 17:53
+saved-by: terryh
+auto-generated-by: OBO-Edit 2.1.1-beta6
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -203,8 +203,8 @@ comment: order=35 for EMAPA:25765.\norder=1 for EMAPA:16062.
 synonym: "hypoblast" RELATED []
 synonym: "primary endoderm" RELATED []
 synonym: "visceral endoderm" RELATED []
-is_a: EMAPA:35986 ! endoderm
 relationship: ends_at TS12 ! TS12
+relationship: part_of EMAPA:35986 ! endoderm
 relationship: part_of EMAPA:36035 ! blastocyst
 relationship: part_of EMAPA:36040 ! conceptus
 relationship: part_of EMAPA:36119 ! egg cylinder
@@ -253,9 +253,10 @@ relationship: starts_at TS07 ! TS07
 id: EMAPA:16056
 name: intermediate endoderm
 namespace: anatomical_structure
+def: "Cells with transitional morphology at boundary zone between embryonic and extraembryonic endoderm. (Kaufman, 1995; Plates 3 and 4)" []
 comment: order=0 for EMAPA:16052.
 relationship: ends_at TS11 ! TS11
-relationship: part_of EMAPA:16052 ! extraembryonic endoderm
+relationship: part_of EMAPA:35986 ! endoderm
 relationship: starts_at TS07 ! TS07
 
 [Term]
@@ -513,8 +514,8 @@ id: EMAPA:16086
 name: yolk sac endoderm
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16085.
-is_a: EMAPA:16052 ! extraembryonic endoderm
 relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16052 ! extraembryonic endoderm
 relationship: part_of EMAPA:16085 ! yolk sac
 relationship: starts_at TS10 ! TS10
 
@@ -41669,7 +41670,7 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:29792
-name: lamina propria of bulbourethral gland of male 
+name: lamina propria of bulbourethral gland of male
 namespace: anatomical_structure
 comment: order=1 for EMAPA:19286.
 synonym: "interstitium of bulbourethral gland of male" RELATED []
@@ -58373,7 +58374,7 @@ name: proamniotic cavity
 namespace: anatomical_structure
 is_a: EMAPA:36037 ! cavity or lining
 relationship: ends_at TS10 ! TS10
-relationship: starts_at TS08 ! TS08
+relationship: starts_at TS07 ! TS07
 
 [Term]
 id: EMAPA:36039
