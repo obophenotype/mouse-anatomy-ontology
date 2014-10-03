@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 02:10:2014 16:11
+date: 03:10:2014 13:13
 saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -26279,24 +26279,26 @@ synonym: "accessory sex gland" RELATED []
 is_a: EMAPA:18425 ! gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19286
-name: bulbourethral gland
+name: bulbourethral gland of male
 namespace: anatomical_structure
+def: "bulbourethral gland of male (syn: Cowper's gland of male) (TS23-TS28): paired epithelial secretory glands develop at the junction of the phallic/penile/clitoral and pelvic urethra in males and females. First seen at E15.5 (TS23), budding out from the epithelium of the urethra in both sexes. They are larger in the male. Growth is dependant on androgens and in males, they canalise after birth (TS27, P1) opening into the urethra and then branch and enlarge during the neonatal period. Comprised of epithelium and a thin interstitium (or connective tissue) which also contains the vasculature (blood vessels). The epithelium of bulbourethral gland is derived from cloacal endoderm. Part of urethra of male/female, and also part of male/female accessory gland. Also called Cowper's gland in human males and not present in human females. It is likely they remain only rudimentary in the adult female mouse." []
 comment: order=29 for EMAPA:17968.
-synonym: "Cowper's gland" RELATED []
+synonym: "Cowper's gland of male" RELATED []
 is_a: EMAPA:19285 ! male accessory gland
 is_a: EMAPA:35327 ! exocrine gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19287
 name: prostate gland
 namespace: anatomical_structure
+def: "prostate gland (TS24-TS28): part of the urethra of male and part of the male accessory gland. Divided into layers (epithelium of prostate gland and peri-prostatic mesenchyme of prostate gland), developmental stages (prostate bud and prostate gland) and regions by location (anterior, dorsal, ventral and lateral). From TS24-TS27, the glands are called prostate buds, subdivided into anterior, dorsal (TS24-TS27) and ventral and lateral prostate bud (TS25-TS27). At TS28, the prostate gland is divided into anterior, dorsal, ventral and lateral prostate gland." []
 comment: order=31 for EMAPA:17968.
 is_a: EMAPA:19285 ! male accessory gland
 is_a: EMAPA:35327 ! exocrine gland
@@ -41658,21 +41660,22 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:29790
-name: epithelial component of bulbourethral gland
+name: epithelium of bulbourethral gland of male
 namespace: anatomical_structure
 comment: order=0 for EMAPA:19286.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19286 ! bulbourethral gland
-relationship: starts_at TS28 ! TS28
+relationship: part_of EMAPA:19286 ! bulbourethral gland of male
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:29792
-name: interstitium of bulbourethral gland
+name: lamina propria of bulbourethral gland of male 
 namespace: anatomical_structure
 comment: order=1 for EMAPA:19286.
+synonym: "interstitium of bulbourethral gland of male" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19286 ! bulbourethral gland
-relationship: starts_at TS28 ! TS28
+relationship: part_of EMAPA:19286 ! bulbourethral gland of male
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:29794
@@ -43467,12 +43470,12 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:30801
-name: vasculature of bulbourethral gland
+name: vasculature of bulbourethral gland of male
 namespace: anatomical_structure
 comment: order=2 for EMAPA:19286.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19286 ! bulbourethral gland
-relationship: starts_at TS28 ! TS28
+relationship: part_of EMAPA:19286 ! bulbourethral gland of male
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:30805
@@ -46017,7 +46020,7 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:32290
-name: epithelial layer of prostate gland
+name: epithelium of prostate gland
 namespace: anatomical_structure
 comment: order=0 for EMAPA:19287.
 relationship: ends_at TS28 ! TS28
@@ -49670,12 +49673,12 @@ relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35055
-name: nerve of bulbourethral gland
+name: nerve of bulbourethral gland of male
 namespace: anatomical_structure
 comment: order=3 for EMAPA:19286.
 is_a: EMAPA:35947 ! nerve of male reproductive system
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19286 ! bulbourethral gland
+relationship: part_of EMAPA:19286 ! bulbourethral gland of male
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -59315,6 +59318,126 @@ comment: order=3 for EMAPA:30942.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30942 ! prostatic urethra
 relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36141
+name: prostate bud
+namespace: anatomical_structure
+def: "prostate bud (syn: prostatic bud, prostate gland bud) (TS24-TS27): androgens produced by the male, leads to the formation of numerous prostate buds, which develop from the epithelium of the pelvic urethra in distinct locations. Anterior and dorsal prostatic buds are the first to emerge at E16.5 (TS24) and later lateral and ventral buds at E17.5 (TS25). Prostate buds emerge from the epithelium in the location of the mesenchymal pads. Comprised of epithelium of prostate bud (derived from the urogenital sinus epithelium) and peri-prostatic mesenchyme of prostate bud. Epithelial layer of prostate bud is selectively marked by Wnt10b (E17 to P0, in all prostate bud regions) and is also marked by Nkx3-1 at E16 to P0 (also expressed in urethral gland buds, E16 to P0). In the prostate gland, Bmp2 is selectively expressed by epithelium of ventral prostate bud at E17. Prostate bud formation is complete by E18.5 (TS26) and elongation and differentiation continues after birth. The different prostate bud regions show differences in size, patterning and location." []
+comment: order=2 for EMAPA:19287.
+synonym: "prostate gland bud" RELATED []
+synonym: "prostatic bud" RELATED []
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:19287 ! prostate gland
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36142
+name: anterior prostate bud
+namespace: anatomical_structure
+comment: order=0 for EMAPA:36141.
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:36141 ! prostate bud
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36143
+name: dorsal prostate bud
+namespace: anatomical_structure
+comment: order=1 for EMAPA:36141.
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:36141 ! prostate bud
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36144
+name: ventral prostate bud
+namespace: anatomical_structure
+comment: order=2 for EMAPA:36141.
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:36141 ! prostate bud
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36145
+name: lateral prostate bud
+namespace: anatomical_structure
+comment: order=3 for EMAPA:36141.
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:36141 ! prostate bud
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36146
+name: epithelium of anterior prostate bud
+namespace: anatomical_structure
+comment: order=0 for EMAPA:36142.
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:36142 ! anterior prostate bud
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36147
+name: peri-prostatic mesenchyme of anterior prostate bud
+namespace: anatomical_structure
+comment: order=1 for EMAPA:36142.
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:36142 ! anterior prostate bud
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36148
+name: epithelium of dorsal prostate bud
+namespace: anatomical_structure
+comment: order=0 for EMAPA:36143.
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:36143 ! dorsal prostate bud
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36149
+name: peri-prostatic mesenchyme of dorsal prostate bud
+namespace: anatomical_structure
+comment: order=1 for EMAPA:36143.
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:36143 ! dorsal prostate bud
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36150
+name: epithelium of ventral prostate bud
+namespace: anatomical_structure
+comment: order=0 for EMAPA:36144.
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:36144 ! ventral prostate bud
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36151
+name: peri-prostatic mesenchyme of ventral prostate bud
+namespace: anatomical_structure
+comment: order=1 for EMAPA:36144.
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:36144 ! ventral prostate bud
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36152
+name: epithelium of lateral prostate bud
+namespace: anatomical_structure
+comment: order=0 for EMAPA:36145.
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:36145 ! lateral prostate bud
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36153
+name: peri-prostatic mesenchyme of lateral prostate bud
+namespace: anatomical_structure
+comment: order=1 for EMAPA:36145.
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:36145 ! lateral prostate bud
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: group_term
