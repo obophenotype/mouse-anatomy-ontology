@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 03:10:2014 17:53
+date: 08:10:2014 16:28
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.1.1-beta6
 default-namespace: mouse_ontology
@@ -18758,8 +18758,7 @@ id: EMAPA:18169
 name: psoas major
 namespace: anatomical_structure
 comment: order=6 for EMAPA:18166.
-is_a: EMAPA:18167 ! axial muscle
-is_a: EMAPA:35988 ! skeletal muscle
+is_a: EMAPA:36157 ! psoas muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18166 ! axial musculature
 relationship: starts_at TS22 ! TS22
@@ -18769,8 +18768,7 @@ id: EMAPA:18170
 name: psoas minor
 namespace: anatomical_structure
 comment: order=7 for EMAPA:18166.
-is_a: EMAPA:18167 ! axial muscle
-is_a: EMAPA:35988 ! skeletal muscle
+is_a: EMAPA:36157 ! psoas muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18166 ! axial musculature
 relationship: starts_at TS22 ! TS22
@@ -18812,8 +18810,8 @@ id: EMAPA:18178
 name: latissimus dorsi
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17747.
-is_a: EMAPA:17748 ! pectoral girdle and thoracic body wall muscle
 is_a: EMAPA:35988 ! skeletal muscle
+is_a: EMAPA:36154 ! shoulder muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17747 ! pectoral girdle and thoracic body wall musculature
 relationship: starts_at TS22 ! TS22
@@ -18847,8 +18845,8 @@ id: EMAPA:18181
 name: subscapularis
 namespace: anatomical_structure
 comment: order=8 for EMAPA:17747.
-is_a: EMAPA:17748 ! pectoral girdle and thoracic body wall muscle
 is_a: EMAPA:35988 ! skeletal muscle
+is_a: EMAPA:36154 ! shoulder muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17747 ! pectoral girdle and thoracic body wall musculature
 relationship: starts_at TS22 ! TS22
@@ -18858,8 +18856,8 @@ id: EMAPA:18182
 name: supraspinatus
 namespace: anatomical_structure
 comment: order=10 for EMAPA:17747.
-is_a: EMAPA:17748 ! pectoral girdle and thoracic body wall muscle
 is_a: EMAPA:35988 ! skeletal muscle
+is_a: EMAPA:36154 ! shoulder muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17747 ! pectoral girdle and thoracic body wall musculature
 relationship: starts_at TS22 ! TS22
@@ -18900,6 +18898,7 @@ name: gluteus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18184.
 is_a: EMAPA:18185 ! pelvic girdle muscle
+is_a: EMAPA:19144 ! upper leg skeletal muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18184 ! pelvic girdle musculature
@@ -24690,8 +24689,8 @@ name: biceps brachii
 namespace: anatomical_structure
 alt_id: EMAPA:19067
 comment: order=0 for EMAPA:19066.
+is_a: EMAPA:19107 ! upper arm skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19107 ! upper arm skeletal muscle
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -24700,8 +24699,8 @@ name: brachialis
 namespace: anatomical_structure
 alt_id: EMAPA:19068
 comment: order=1 for EMAPA:19066.
+is_a: EMAPA:19107 ! upper arm skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19107 ! upper arm skeletal muscle
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -24710,8 +24709,8 @@ name: teres major
 namespace: anatomical_structure
 alt_id: EMAPA:19069
 comment: order=2 for EMAPA:19066.
+is_a: EMAPA:36155 ! teres muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19107 ! upper arm skeletal muscle
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -24720,17 +24719,18 @@ name: triceps
 namespace: anatomical_structure
 alt_id: EMAPA:19070
 comment: order=3 for EMAPA:19066.
+is_a: EMAPA:19107 ! upper arm skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19107 ! upper arm skeletal muscle
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19112
-name: forelimb digit 1 metacarpus
+name: forelimb digit 1 metacarpal
 namespace: anatomical_structure
 alt_id: EMAPA:18475
 comment: order=6 for EMAPA:17429.
-is_a: EMAPA:32654 ! metacarpus
+synonym: "forelimb digit 1 metacarpus" RELATED []
+is_a: EMAPA:36158 ! metacarpal bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17429 ! forelimb digit 1
 relationship: starts_at TS23 ! TS23
@@ -24748,11 +24748,12 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19114
-name: forelimb digit 2 metacarpus
+name: forelimb digit 2 metacarpal
 namespace: anatomical_structure
 alt_id: EMAPA:18477
 comment: order=6 for EMAPA:17432.
-is_a: EMAPA:32654 ! metacarpus
+synonym: "forelimb digit 2 metacarpus" RELATED []
+is_a: EMAPA:36158 ! metacarpal bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17432 ! forelimb digit 2
 relationship: starts_at TS23 ! TS23
@@ -24770,11 +24771,12 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19116
-name: forelimb digit 3 metacarpus
+name: forelimb digit 3 metacarpal
 namespace: anatomical_structure
 alt_id: EMAPA:18479
 comment: order=6 for EMAPA:17435.
-is_a: EMAPA:32654 ! metacarpus
+synonym: "forelimb digit 3 metacarpus" RELATED []
+is_a: EMAPA:36158 ! metacarpal bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17435 ! forelimb digit 3
 relationship: starts_at TS23 ! TS23
@@ -24792,11 +24794,12 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19118
-name: forelimb digit 4 metacarpus
+name: forelimb digit 4 metacarpal
 namespace: anatomical_structure
 alt_id: EMAPA:18481
 comment: order=6 for EMAPA:17438.
-is_a: EMAPA:32654 ! metacarpus
+synonym: "forelimb digit 4 metacarpus" RELATED []
+is_a: EMAPA:36158 ! metacarpal bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17438 ! forelimb digit 4
 relationship: starts_at TS23 ! TS23
@@ -24814,11 +24817,12 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19120
-name: forelimb digit 5 metacarpus
+name: forelimb digit 5 metacarpal
 namespace: anatomical_structure
 alt_id: EMAPA:18483
 comment: order=6 for EMAPA:17441.
-is_a: EMAPA:32654 ! metacarpus
+synonym: "forelimb digit 5 metacarpus" RELATED []
+is_a: EMAPA:36158 ! metacarpal bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17441 ! forelimb digit 5
 relationship: starts_at TS23 ! TS23
@@ -24846,11 +24850,12 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19123
-name: hindlimb digit 1 metatarsus
+name: hindlimb digit 1 metatarsal
 namespace: anatomical_structure
 alt_id: EMAPA:18490
 comment: order=5 for EMAPA:17460.
-is_a: EMAPA:32940 ! metatarsus
+synonym: "hindlimb digit 1 metatarsus" RELATED []
+is_a: EMAPA:36159 ! metatarsal bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17460 ! hindlimb digit 1
 relationship: starts_at TS23 ! TS23
@@ -24868,11 +24873,12 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19125
-name: hindlimb digit 2 metatarsus
+name: hindlimb digit 2 metatarsal
 namespace: anatomical_structure
 alt_id: EMAPA:18492
 comment: order=5 for EMAPA:17463.
-is_a: EMAPA:32940 ! metatarsus
+synonym: "hindlimb digit 2 metatarsus" RELATED []
+is_a: EMAPA:36159 ! metatarsal bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17463 ! hindlimb digit 2
 relationship: starts_at TS23 ! TS23
@@ -24890,11 +24896,12 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19127
-name: hindlimb digit 3 metatarsus
+name: hindlimb digit 3 metatarsal
 namespace: anatomical_structure
 alt_id: EMAPA:18494
 comment: order=5 for EMAPA:17466.
-is_a: EMAPA:32940 ! metatarsus
+synonym: "hindlimb digit 3 metatarsal" RELATED []
+is_a: EMAPA:36159 ! metatarsal bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17466 ! hindlimb digit 3
 relationship: starts_at TS23 ! TS23
@@ -24912,11 +24919,12 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19129
-name: hindlimb digit 4 metatarsus
+name: hindlimb digit 4 metatarsal
 namespace: anatomical_structure
 alt_id: EMAPA:18496
 comment: order=5 for EMAPA:17469.
-is_a: EMAPA:32940 ! metatarsus
+synonym: "hindlimb digit 4 metatarsus" RELATED []
+is_a: EMAPA:36159 ! metatarsal bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17469 ! hindlimb digit 4
 relationship: starts_at TS23 ! TS23
@@ -24934,11 +24942,12 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19131
-name: hindlimb digit 5 metatarsus
+name: hindlimb digit 5 metatarsal
 namespace: anatomical_structure
 alt_id: EMAPA:18498
 comment: order=5 for EMAPA:17472.
-is_a: EMAPA:32940 ! metatarsus
+synonym: "hindlimb digit 5 metatarsus" RELATED []
+is_a: EMAPA:36159 ! metatarsal bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17472 ! hindlimb digit 5
 relationship: starts_at TS23 ! TS23
@@ -24973,7 +24982,6 @@ comment: order=0 for EMAPA:25072.\norder=0 for EMAPA:18500.
 synonym: "calcaneum" EXACT []
 is_a: EMAPA:25072 ! tarsal bone
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19133 ! tarsus
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -24984,7 +24992,6 @@ alt_id: EMAPA:18503
 comment: order=1 for EMAPA:25072.\norder=1 for EMAPA:18500.
 is_a: EMAPA:25072 ! tarsal bone
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19133 ! tarsus
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -25072,7 +25079,7 @@ comment: order=4 for EMAPA:17499.\norder=7 for EMAPA:32634.
 is_a: EMAPA:36054 ! leg skeletal muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17499 ! upper leg
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:19145
@@ -25080,8 +25087,8 @@ name: hamstring
 namespace: anatomical_structure
 alt_id: EMAPA:19072
 comment: order=1 for EMAPA:19144.
+is_a: EMAPA:19144 ! upper leg skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19144 ! upper leg skeletal muscle
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -25090,8 +25097,8 @@ name: quadriceps
 namespace: anatomical_structure
 alt_id: EMAPA:19073
 comment: order=2 for EMAPA:19144.
+is_a: EMAPA:19144 ! upper leg skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19144 ! upper leg skeletal muscle
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -25235,7 +25242,7 @@ is_a: EMAPA:18185 ! pelvic girdle muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18184 ! pelvic girdle musculature
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19164
@@ -25261,12 +25268,12 @@ relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:19166
-name: adductor muscle
+name: adductor muscle of leg
 namespace: anatomical_structure
 comment: order=0 for EMAPA:19144.
+is_a: EMAPA:19144 ! upper leg skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19144 ! upper leg skeletal muscle
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19168
@@ -26543,16 +26550,16 @@ comment: order=4 for EMAPA:17496.\norder=2 for EMAPA:32634.
 is_a: EMAPA:36054 ! leg skeletal muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17496 ! lower leg
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19319
 name: flexor digitorum profundus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:19318.
+is_a: EMAPA:32622 ! forearm skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19318 ! lower leg skeletal muscle
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19320
@@ -30108,7 +30115,7 @@ is_a: EMAPA:35391 ! hand bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19122 ! carpus
 relationship: part_of EMAPA:32643 ! hand skeleton
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:25057
@@ -46392,9 +46399,9 @@ name: forearm skeletal muscle
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17417.\norder=1 for EMAPA:32624.
 is_a: EMAPA:36053 ! arm skeletal muscle
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17417 ! forearm
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:32623
@@ -46615,9 +46622,9 @@ name: hand skeletal muscle
 namespace: anatomical_structure
 comment: order=14 for EMAPA:17428.\norder=2 for EMAPA:32624.
 is_a: EMAPA:36049 ! forelimb skeletal muscle
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17428 ! hand
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:32645
@@ -46721,10 +46728,8 @@ id: EMAPA:32654
 name: metacarpus
 namespace: anatomical_structure
 comment: order=7 for EMAPA:32642.\norder=2 for EMAPA:32643.
-is_a: EMAPA:35350 ! forelimb long bone
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32642 ! forelimb digit
-relationship: part_of EMAPA:32643 ! hand skeleton
+relationship: part_of EMAPA:17428 ! hand
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -49355,8 +49360,8 @@ name: metatarsus
 namespace: anatomical_structure
 comment: order=3 for EMAPA:32633.\norder=6 for EMAPA:32649.
 is_a: EMAPA:35354 ! foot bone
-is_a: EMAPA:35403 ! hindlimb long bone
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17459 ! foot
 relationship: part_of EMAPA:32633 ! hindlimb skeleton
 relationship: part_of EMAPA:32649 ! hindlimb digit
 relationship: starts_at TS23 ! TS23
@@ -51911,10 +51916,10 @@ id: EMAPA:35330
 name: extensor digitorum longus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:32624.
+is_a: EMAPA:19318 ! lower leg skeletal muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32624 ! forelimb musculature
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35331
@@ -52301,10 +52306,9 @@ id: EMAPA:35375
 name: gastrocnemius muscle
 namespace: anatomical_structure
 comment: order=1 for EMAPA:32634.
-is_a: EMAPA:36048 ! hindlimb skeletal muscle
+is_a: EMAPA:19318 ! lower leg skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32634 ! hindlimb musculature
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35376
@@ -55802,10 +55806,10 @@ id: EMAPA:35762
 name: semitendinosus
 namespace: anatomical_structure
 comment: order=3 for EMAPA:32634.
-is_a: EMAPA:35988 ! skeletal muscle
+is_a: EMAPA:19144 ! upper leg skeletal muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32634 ! hindlimb musculature
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35763
@@ -56033,10 +56037,10 @@ id: EMAPA:35786
 name: soleus
 namespace: anatomical_structure
 comment: order=4 for EMAPA:32634.
+is_a: EMAPA:19318 ! lower leg skeletal muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32634 ! hindlimb musculature
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35787
@@ -56631,10 +56635,11 @@ id: EMAPA:35855
 name: tensor fasciae lata
 namespace: anatomical_structure
 comment: order=5 for EMAPA:32634.
+is_a: EMAPA:19144 ! upper leg skeletal muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32634 ! hindlimb musculature
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35856
@@ -56739,7 +56744,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35867.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35867 ! tibialis muscle
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35867
@@ -56749,7 +56754,7 @@ comment: order=6 for EMAPA:32634.
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32634 ! hindlimb musculature
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35868
@@ -59439,6 +59444,234 @@ comment: order=1 for EMAPA:36145.
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:36145 ! lateral prostate bud
 relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36154
+name: shoulder muscle
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17421 ! shoulder
+relationship: part_of EMAPA:17747 ! pectoral girdle and thoracic body wall musculature
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36155
+name: teres muscle
+namespace: anatomical_structure
+is_a: EMAPA:19107 ! upper arm skeletal muscle
+is_a: EMAPA:36154 ! shoulder muscle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36156
+name: teres minor
+namespace: anatomical_structure
+is_a: EMAPA:36155 ! teres muscle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36157
+name: psoas muscle
+namespace: anatomical_structure
+is_a: EMAPA:18167 ! axial muscle
+is_a: EMAPA:19144 ! upper leg skeletal muscle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36158
+name: metacarpal bone
+namespace: anatomical_structure
+is_a: EMAPA:35350 ! forelimb long bone
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32643 ! hand skeleton
+relationship: part_of EMAPA:32654 ! metacarpus
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36159
+name: metatarsal bone
+namespace: anatomical_structure
+is_a: EMAPA:35403 ! hindlimb long bone
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32940 ! metatarsus
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36160
+name: foot skeletal muscle
+namespace: anatomical_structure
+is_a: EMAPA:36048 ! hindlimb skeletal muscle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36161
+name: acromiodeltoidus
+namespace: anatomical_structure
+is_a: EMAPA:36154 ! shoulder muscle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36162
+name: infrascapularis
+namespace: anatomical_structure
+is_a: EMAPA:36154 ! shoulder muscle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36163
+name: spinodeltoidus
+namespace: anatomical_structure
+is_a: EMAPA:36154 ! shoulder muscle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36164
+name: proximal carpal bone
+namespace: anatomical_structure
+is_a: EMAPA:25056 ! carpal bone
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36165
+name: pisiform
+namespace: anatomical_structure
+is_a: EMAPA:36164 ! proximal carpal bone
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36166
+name: scapholunate
+namespace: anatomical_structure
+is_a: EMAPA:36164 ! proximal carpal bone
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36167
+name: triquetrum
+namespace: anatomical_structure
+is_a: EMAPA:36164 ! proximal carpal bone
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36168
+name: distal carpal bone
+namespace: anatomical_structure
+is_a: EMAPA:25056 ! carpal bone
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36169
+name: capitate
+namespace: anatomical_structure
+is_a: EMAPA:36168 ! distal carpal bone
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36170
+name: centrale
+namespace: anatomical_structure
+is_a: EMAPA:36168 ! distal carpal bone
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36171
+name: falciform
+namespace: anatomical_structure
+is_a: EMAPA:36168 ! distal carpal bone
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36172
+name: hamate
+namespace: anatomical_structure
+is_a: EMAPA:36168 ! distal carpal bone
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36173
+name: trapezium
+namespace: anatomical_structure
+is_a: EMAPA:36168 ! distal carpal bone
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36174
+name: trapezoid
+namespace: anatomical_structure
+is_a: EMAPA:36168 ! distal carpal bone
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36175
+name: cuboid
+namespace: anatomical_structure
+is_a: EMAPA:25072 ! tarsal bone
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36176
+name: medial cuneiform
+namespace: anatomical_structure
+synonym: "1st cuneiform" RELATED []
+synonym: "distal tarsal bone 1" RELATED []
+is_a: EMAPA:25072 ! tarsal bone
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36177
+name: intermediate cuneiform
+namespace: anatomical_structure
+synonym: "2nd cuneiform" RELATED []
+synonym: "distal tarsal bone 2" RELATED []
+is_a: EMAPA:25072 ! tarsal bone
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36178
+name: lateral cuneiform
+namespace: anatomical_structure
+synonym: "3rd cuneiform" RELATED []
+synonym: "distal tarsal bone 3" RELATED []
+is_a: EMAPA:25072 ! tarsal bone
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36179
+name: tibiale
+namespace: anatomical_structure
+is_a: EMAPA:25072 ! tarsal bone
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36180
+name: navicular
+namespace: anatomical_structure
+is_a: EMAPA:25072 ! tarsal bone
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: group_term
