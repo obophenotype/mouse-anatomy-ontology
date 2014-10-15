@@ -44,7 +44,35 @@ If this looks good:
 
 And type a brief description of the release in the editor window
 
-== Jenkins Continuous Integration System ==
+# How to release the ontology
+
+The -edit file is generally not visible to the public (of course they
+can find it in github if they try). The editors are free to make
+changes they are not yet comfortable releasing.
+
+When ready for release, the process is as follows.
+
+First check the file is valid - see the Jenkins job below. Additional
+spot checks would not do any harm.
+
+The emapa-edit.obo file should be copied to
+
+ * ftp://ftp.hgu.mrc.ac.uk/pub/MouseAtlas/Anatomy/EMAPA.obo
+
+JAX users will download from here.
+
+In addition, this will be picked up by the central obolibrary job
+within 24hrs, which will produce two files:
+
+ 1. http://purl.obolibrary.org/obo/emapa.obo
+ 2. http://purl.obolibrary.org/obo/emapa.owl
+
+This is used by obolibrary users and OWL people
+
+For questions on this contact Chris Mungall or email obo-admin AT obofoundry.org
+
+
+# Jenkins Continuous Integration System
 
 TODO - editors do you want this set up?
 
