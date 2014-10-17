@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 09:10:2014 17:13
+date: 17:10:2014 15:44
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.1.1-beta6
 default-namespace: mouse_ontology
@@ -18681,24 +18681,22 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:18162
-name: external oblique
+name: external oblique muscle
 namespace: anatomical_structure
 comment: order=2 for EMAPA:17744.
-is_a: EMAPA:17745 ! anterior abdominal wall muscle
+is_a: EMAPA:35603 ! oblique abdominal muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17744 ! anterior abdominal wall musculature
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:18163
-name: internal oblique
+name: internal oblique muscle
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17744.
-is_a: EMAPA:17745 ! anterior abdominal wall muscle
+is_a: EMAPA:35603 ! oblique abdominal muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17744 ! anterior abdominal wall musculature
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -18709,7 +18707,6 @@ comment: order=5 for EMAPA:17744.
 is_a: EMAPA:17745 ! anterior abdominal wall muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17744 ! anterior abdominal wall musculature
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -18720,7 +18717,6 @@ comment: order=6 for EMAPA:17744.
 is_a: EMAPA:17745 ! anterior abdominal wall muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17744 ! anterior abdominal wall musculature
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -18750,7 +18746,6 @@ comment: order=1 for EMAPA:18166.
 is_a: EMAPA:18167 ! axial muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18166 ! axial musculature
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -18803,7 +18798,6 @@ is_a: EMAPA:17748 ! pectoral girdle and thoracic body wall muscle
 is_a: EMAPA:35988 ! skeletal muscle
 is_a: EMAPA:36154 ! shoulder muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17747 ! pectoral girdle and thoracic body wall musculature
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -18814,7 +18808,6 @@ comment: order=3 for EMAPA:17747.
 is_a: EMAPA:35988 ! skeletal muscle
 is_a: EMAPA:36154 ! shoulder muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17747 ! pectoral girdle and thoracic body wall musculature
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -18824,7 +18817,6 @@ namespace: anatomical_structure
 comment: order=6 for EMAPA:17747.
 is_a: EMAPA:35670 ! pectoralis
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17747 ! pectoral girdle and thoracic body wall musculature
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -18834,7 +18826,6 @@ namespace: anatomical_structure
 comment: order=7 for EMAPA:17747.
 is_a: EMAPA:35670 ! pectoralis
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17747 ! pectoral girdle and thoracic body wall musculature
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -18842,10 +18833,10 @@ id: EMAPA:18181
 name: subscapularis
 namespace: anatomical_structure
 comment: order=8 for EMAPA:17747.
+is_a: EMAPA:17748 ! pectoral girdle and thoracic body wall muscle
 is_a: EMAPA:35988 ! skeletal muscle
 is_a: EMAPA:36154 ! shoulder muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17747 ! pectoral girdle and thoracic body wall musculature
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -18853,10 +18844,10 @@ id: EMAPA:18182
 name: supraspinatus
 namespace: anatomical_structure
 comment: order=10 for EMAPA:17747.
+is_a: EMAPA:17748 ! pectoral girdle and thoracic body wall muscle
 is_a: EMAPA:35988 ! skeletal muscle
 is_a: EMAPA:36154 ! shoulder muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17747 ! pectoral girdle and thoracic body wall musculature
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -18867,7 +18858,6 @@ comment: order=12 for EMAPA:17747.
 is_a: EMAPA:17748 ! pectoral girdle and thoracic body wall muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17747 ! pectoral girdle and thoracic body wall musculature
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -18891,14 +18881,13 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:18186
-name: gluteus muscle
+name: gluteal muscle
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18184.
 is_a: EMAPA:18185 ! pelvic girdle muscle
 is_a: EMAPA:19144 ! upper leg muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18184 ! pelvic girdle musculature
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -21306,7 +21295,6 @@ comment: order=2 for EMAPA:18166.
 is_a: EMAPA:18167 ! axial muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18166 ! axial musculature
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -21319,7 +21307,6 @@ synonym: "intercostales" EXACT []
 is_a: EMAPA:18167 ! axial muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18166 ! axial musculature
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -21348,18 +21335,16 @@ comment: order=8 for EMAPA:18166.
 is_a: EMAPA:18167 ! axial muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18166 ! axial musculature
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:18525
-name: serratus anterior
+name: serratus ventralis
 namespace: anatomical_structure
 comment: order=9 for EMAPA:18166.
-is_a: EMAPA:18167 ! axial muscle
-is_a: EMAPA:35988 ! skeletal muscle
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18166 ! axial musculature
+synonym: "serratus anterior" RELATED []
+is_a: EMAPA:35769 ! serratus muscle
+relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -21370,8 +21355,8 @@ comment: order=2 for EMAPA:17747.
 synonym: "infrascapularis" RELATED []
 is_a: EMAPA:17748 ! pectoral girdle and thoracic body wall muscle
 is_a: EMAPA:35988 ! skeletal muscle
+is_a: EMAPA:36154 ! shoulder muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17747 ! pectoral girdle and thoracic body wall musculature
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -21380,7 +21365,7 @@ name: gluteus maximus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18184.
 synonym: "gluteus superficialis" RELATED []
-is_a: EMAPA:18186 ! gluteus muscle
+is_a: EMAPA:18186 ! gluteal muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18184 ! pelvic girdle musculature
 relationship: starts_at TS23 ! TS23
@@ -23645,8 +23630,8 @@ id: EMAPA:18964
 name: pharyngeal constrictor muscle
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18963.
+is_a: EMAPA:18963 ! pharynx skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18963 ! pharynx skeletal muscle
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -23654,8 +23639,8 @@ id: EMAPA:18965
 name: inferior pharyngeal constrictor muscle
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18964.
+is_a: EMAPA:18964 ! pharyngeal constrictor muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18964 ! pharyngeal constrictor muscle
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -23663,8 +23648,8 @@ id: EMAPA:18966
 name: superior pharyngeal constrictor muscle
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18964.
+is_a: EMAPA:18964 ! pharyngeal constrictor muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18964 ! pharyngeal constrictor muscle
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -25090,7 +25075,7 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19146
-name: quadriceps muscle
+name: quadriceps femoris muscle
 namespace: anatomical_structure
 alt_id: EMAPA:19073
 comment: order=2 for EMAPA:19144.
@@ -25235,7 +25220,7 @@ id: EMAPA:19163
 name: gluteus medius
 namespace: anatomical_structure
 comment: order=2 for EMAPA:18184.
-is_a: EMAPA:18186 ! gluteus muscle
+is_a: EMAPA:18186 ! gluteal muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18184 ! pelvic girdle musculature
 relationship: starts_at TS23 ! TS23
@@ -25248,7 +25233,6 @@ comment: order=3 for EMAPA:18184.
 is_a: EMAPA:18185 ! pelvic girdle muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18184 ! pelvic girdle musculature
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -25259,7 +25243,6 @@ comment: order=4 for EMAPA:18184.
 is_a: EMAPA:18185 ! pelvic girdle muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18184 ! pelvic girdle musculature
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -26158,7 +26141,6 @@ comment: order=11 for EMAPA:17747.
 is_a: EMAPA:17748 ! pectoral girdle and thoracic body wall muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17747 ! pectoral girdle and thoracic body wall musculature
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -26168,17 +26150,18 @@ namespace: anatomical_structure
 alt_id: EMAPA:25142
 comment: order=1 for EMAPA:18963.
 synonym: "pre-tracheal muscle" EXACT []
+is_a: EMAPA:18963 ! pharynx skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18963 ! pharynx skeletal muscle
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:19270
 name: cricothyroid
 namespace: anatomical_structure
 comment: order=0 for EMAPA:19269.
+is_a: EMAPA:35473 ! larynx muscle
+is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35473 ! larynx muscle
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -26186,17 +26169,19 @@ id: EMAPA:19271
 name: sternohyoid
 namespace: anatomical_structure
 comment: order=1 for EMAPA:19269.
+is_a: EMAPA:19269 ! infrahyoid muscle
+is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19269 ! infrahyoid muscle
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:19272
 name: sternothyroid
 namespace: anatomical_structure
 comment: order=2 for EMAPA:19269.
+is_a: EMAPA:19269 ! infrahyoid muscle
+is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19269 ! infrahyoid muscle
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -26205,8 +26190,9 @@ name: thyrohyoid
 namespace: anatomical_structure
 alt_id: EMAPA:25143
 comment: order=10 for EMAPA:18171.\norder=3 for EMAPA:19269.
+is_a: EMAPA:19269 ! infrahyoid muscle
+is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19269 ! infrahyoid muscle
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -26496,9 +26482,9 @@ name: ophthalmic vein
 namespace: anatomical_structure
 comment: order=32 for EMAPA:16240.
 is_a: EMAPA:35906 ! vein
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16240 ! venous system
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:19314
@@ -30658,9 +30644,8 @@ namespace: anatomical_structure
 comment: order=5 for EMAPA:18166.
 is_a: EMAPA:18167 ! axial muscle
 is_a: EMAPA:35988 ! skeletal muscle
+is_a: EMAPA:36050 ! neck muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18166 ! axial musculature
-relationship: part_of EMAPA:36050 ! neck muscle
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30668,8 +30653,8 @@ id: EMAPA:25131
 name: longus capitis
 namespace: anatomical_structure
 comment: order=0 for EMAPA:25130.
+is_a: EMAPA:25130 ! pre-vertebral muscle of neck
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:25130 ! pre-vertebral muscle of neck
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30677,8 +30662,8 @@ id: EMAPA:25132
 name: longus cervicis
 namespace: anatomical_structure
 comment: order=1 for EMAPA:25130.
+is_a: EMAPA:25130 ! pre-vertebral muscle of neck
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:25130 ! pre-vertebral muscle of neck
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30703,7 +30688,6 @@ comment: order=1 for EMAPA:18171.
 is_a: EMAPA:25133 ! facial muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18171 ! cranial musculature
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -30714,7 +30698,6 @@ comment: order=3 for EMAPA:18171.
 is_a: EMAPA:25133 ! facial muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18171 ! cranial musculature
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -30725,7 +30708,6 @@ comment: order=4 for EMAPA:18171.
 is_a: EMAPA:25133 ! facial muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18171 ! cranial musculature
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -30736,7 +30718,6 @@ comment: order=8 for EMAPA:18171.
 is_a: EMAPA:25133 ! facial muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18171 ! cranial musculature
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -30747,7 +30728,6 @@ comment: order=9 for EMAPA:18171.
 is_a: EMAPA:25133 ! facial muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18171 ! cranial musculature
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -30758,7 +30738,6 @@ comment: order=7 for EMAPA:18171.
 is_a: EMAPA:25133 ! facial muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18171 ! cranial musculature
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -46396,6 +46375,7 @@ id: EMAPA:32622
 name: forearm muscle
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17417.\norder=1 for EMAPA:32624.
+synonym: "lower arm muscle" RELATED []
 is_a: EMAPA:36053 ! arm muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17417 ! forearm
@@ -47097,7 +47077,7 @@ name: bronchiole epithelium
 namespace: anatomical_structure
 comment: order=1 for EMAPA:32697.
 synonym: "bronchiolar epithelium" RELATED []
-is_a: EMAPA:32695 ! lobar bronchus epithelium
+is_a: EMAPA:32860 ! lung epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32697 ! bronchiole
 relationship: starts_at TS24 ! TS24
@@ -50406,10 +50386,9 @@ name: biceps femoris
 namespace: anatomical_structure
 alt_id: EMAPA:36222
 comment: order=0 for EMAPA:32634.
-is_a: EMAPA:19144 ! upper leg muscle
+is_a: EMAPA:19145 ! hamstring muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32634 ! hindlimb musculature
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -52306,7 +52285,7 @@ id: EMAPA:35375
 name: gastrocnemius muscle
 namespace: anatomical_structure
 comment: order=1 for EMAPA:32634.
-is_a: EMAPA:19318 ! lower leg muscle
+is_a: EMAPA:36267 ! triceps surae muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
@@ -54371,7 +54350,6 @@ comment: order=4 for EMAPA:17744.
 is_a: EMAPA:17745 ! anterior abdominal wall muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17744 ! anterior abdominal wall musculature
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -54981,7 +54959,6 @@ comment: order=5 for EMAPA:17747.
 is_a: EMAPA:17748 ! pectoral girdle and thoracic body wall muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17747 ! pectoral girdle and thoracic body wall musculature
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -55806,9 +55783,8 @@ id: EMAPA:35762
 name: semitendinosus
 namespace: anatomical_structure
 comment: order=3 for EMAPA:32634.
-is_a: EMAPA:19144 ! upper leg muscle
+is_a: EMAPA:19145 ! hamstring muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32634 ! hindlimb musculature
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -55875,7 +55851,7 @@ is_a: EMAPA:18167 ! axial muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18166 ! axial musculature
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35770
@@ -56037,8 +56013,8 @@ id: EMAPA:35786
 name: soleus
 namespace: anatomical_structure
 comment: order=4 for EMAPA:32634.
-is_a: EMAPA:19318 ! lower leg muscle
 is_a: EMAPA:35988 ! skeletal muscle
+is_a: EMAPA:36267 ! triceps surae muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
@@ -56635,10 +56611,10 @@ id: EMAPA:35855
 name: tensor fasciae lata
 namespace: anatomical_structure
 comment: order=5 for EMAPA:32634.
+is_a: EMAPA:18186 ! gluteal muscle
 is_a: EMAPA:19144 ! upper leg muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32634 ! hindlimb musculature
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -56752,10 +56728,9 @@ id: EMAPA:35867
 name: tibialis muscle
 namespace: anatomical_structure
 comment: order=6 for EMAPA:32634.
-is_a: EMAPA:19318 ! lower leg muscle
 is_a: EMAPA:35988 ! skeletal muscle
+is_a: EMAPA:36267 ! triceps surae muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32634 ! hindlimb musculature
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -59478,7 +59453,9 @@ id: EMAPA:36157
 name: psoas muscle
 namespace: anatomical_structure
 is_a: EMAPA:18167 ! axial muscle
+is_a: EMAPA:18185 ! pelvic girdle muscle
 is_a: EMAPA:19144 ! upper leg muscle
+is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS22 ! TS22
 
@@ -59507,12 +59484,14 @@ name: foot muscle
 namespace: anatomical_structure
 is_a: EMAPA:36048 ! hindlimb muscle
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17459 ! foot
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:36161
 name: pars acromialis of deltoid
 namespace: anatomical_structure
+synonym: "acromiodeltoidus" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18177 ! deltoid
 relationship: starts_at TS23 ! TS23
@@ -59531,7 +59510,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36163
 name: pars scapularis of deltoid
 namespace: anatomical_structure
-synonym: "spinodeltoid" RELATED []
+synonym: "spinodeltoidus" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18177 ! deltoid
 relationship: starts_at TS23 ! TS23
@@ -59893,7 +59872,6 @@ id: EMAPA:36206
 name: pronator quadratus
 namespace: anatomical_structure
 is_a: EMAPA:32622 ! forearm muscle
-is_a: EMAPA:32644 ! hand muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
@@ -59918,7 +59896,6 @@ id: EMAPA:36209
 name: abductor pollucis
 namespace: anatomical_structure
 synonym: "abductor digiti primi" RELATED []
-is_a: EMAPA:32622 ! forearm muscle
 is_a: EMAPA:32644 ! hand muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
@@ -59927,6 +59904,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36210
 name: abductor pollicis longus
 namespace: anatomical_structure
+is_a: EMAPA:32622 ! forearm muscle
 is_a: EMAPA:36209 ! abductor pollucis
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
@@ -60081,7 +60059,7 @@ id: EMAPA:36230
 name: gluteus minimus
 namespace: anatomical_structure
 synonym: "gluteus profundus" RELATED []
-is_a: EMAPA:18186 ! gluteus muscle
+is_a: EMAPA:18186 ! gluteal muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
@@ -60121,7 +60099,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36235
 name: obturator muscle
 namespace: anatomical_structure
-is_a: EMAPA:19144 ! upper leg muscle
+is_a: EMAPA:18186 ! gluteal muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
@@ -60153,7 +60131,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36239
 name: piriformis
 namespace: anatomical_structure
-is_a: EMAPA:19144 ! upper leg muscle
+is_a: EMAPA:18186 ! gluteal muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
@@ -60169,7 +60147,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36241
 name: quadratus femoris
 namespace: anatomical_structure
-is_a: EMAPA:19144 ! upper leg muscle
+is_a: EMAPA:18186 ! gluteal muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
@@ -60177,7 +60155,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36242
 name: semimembranosus
 namespace: anatomical_structure
-is_a: EMAPA:19144 ! upper leg muscle
+is_a: EMAPA:19145 ! hamstring muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
@@ -60185,7 +60163,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36243
 name: vastus intermedius
 namespace: anatomical_structure
-is_a: EMAPA:19146 ! quadriceps muscle
+is_a: EMAPA:19146 ! quadriceps femoris muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
@@ -60193,7 +60171,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36244
 name: vastus lateralis
 namespace: anatomical_structure
-is_a: EMAPA:19146 ! quadriceps muscle
+is_a: EMAPA:19146 ! quadriceps femoris muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
@@ -60201,7 +60179,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36245
 name: vastus medialis
 namespace: anatomical_structure
-is_a: EMAPA:19146 ! quadriceps muscle
+is_a: EMAPA:19146 ! quadriceps femoris muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
@@ -60226,7 +60204,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36248
 name: flexor digitorum longus
 namespace: anatomical_structure
-is_a: EMAPA:19318 ! lower leg muscle
+is_a: EMAPA:36160 ! foot muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
@@ -60329,7 +60307,7 @@ id: EMAPA:36260
 name: peroneus digiti quarti
 namespace: anatomical_structure
 synonym: "peroneus digiti IV" RELATED []
-is_a: EMAPA:36160 ! foot muscle
+is_a: EMAPA:36251 ! peroneus muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
@@ -60339,7 +60317,7 @@ name: peroneus digiti quinti
 namespace: anatomical_structure
 synonym: "peroneus digit V" RELATED []
 synonym: "peroneus digiti minimi" RELATED []
-is_a: EMAPA:36160 ! foot muscle
+is_a: EMAPA:36251 ! peroneus muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
@@ -60375,6 +60353,57 @@ synonym: "tensor fasciae pedis" RELATED []
 is_a: EMAPA:36160 ! foot muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36266
+name: rectus femoris
+namespace: anatomical_structure
+is_a: EMAPA:19146 ! quadriceps femoris muscle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+created_by: terryh
+creation_date: 2014-10-17T09:51:03Z
+
+[Term]
+id: EMAPA:36267
+name: triceps surae muscle
+namespace: anatomical_structure
+is_a: EMAPA:19318 ! lower leg muscle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+created_by: terryh
+creation_date: 2014-10-17T09:53:50Z
+
+[Term]
+id: EMAPA:36268
+name: median sulcus
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17563 ! pons
+relationship: starts_at TS22 ! TS22
+created_by: terryh
+creation_date: 2014-10-17T12:10:53Z
+
+[Term]
+id: EMAPA:36269
+name: serratus dorsalis
+namespace: anatomical_structure
+synonym: "serratus posterior" RELATED []
+is_a: EMAPA:35769 ! serratus muscle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS25 ! TS25
+created_by: terryh
+creation_date: 2014-10-17T12:24:17Z
+
+[Term]
+id: EMAPA:36270
+name: medullary velum
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16917 ! 4th ventricle
+relationship: starts_at TS22 ! TS22
+created_by: terryh
+creation_date: 2014-10-17T03:03:08Z
 
 [Term]
 id: group_term
