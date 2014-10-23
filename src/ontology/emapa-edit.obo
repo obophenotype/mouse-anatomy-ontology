@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:10:2014 15:44
+date: 23:10:2014 17:00
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.1.1-beta6
 default-namespace: mouse_ontology
@@ -339,12 +339,12 @@ relationship: starts_at TS07 ! TS07
 
 [Term]
 id: EMAPA:16066
-name: primary trophoblast giant cells
+name: primary trophoblast giant cell
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16047.
 relationship: ends_at TS12 ! TS12
 relationship: part_of EMAPA:16047 ! mural trophectoderm
-relationship: starts_at TS08 ! TS08
+relationship: starts_at TS07 ! TS07
 
 [Term]
 id: EMAPA:16067
@@ -23755,7 +23755,7 @@ name: uterine horn
 namespace: anatomical_structure
 comment: order=9 for EMAPA:17959.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17959 ! female reproductive system
+relationship: part_of EMAPA:29915 ! uterus
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -26484,7 +26484,7 @@ comment: order=32 for EMAPA:16240.
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16240 ! venous system
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:19314
@@ -30264,7 +30264,7 @@ comment: order=6 for EMAPA:16240.
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16240 ! venous system
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:25083
@@ -36371,6 +36371,7 @@ id: EMAPA:26549
 name: C3 foramen transversarium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:25736.
+is_a: EMAPA:36272 ! foramen tranversarium
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25736 ! C3 neural arch transverse process
 relationship: starts_at TS26 ! TS26
@@ -36380,6 +36381,7 @@ id: EMAPA:26551
 name: C4 foramen transversarium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:25743.
+is_a: EMAPA:36272 ! foramen tranversarium
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25743 ! C4 neural arch transverse process
 relationship: starts_at TS26 ! TS26
@@ -36389,6 +36391,7 @@ id: EMAPA:26553
 name: C5 foramen transversarium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:25750.
+is_a: EMAPA:36272 ! foramen tranversarium
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25750 ! C5 neural arch transverse process
 relationship: starts_at TS26 ! TS26
@@ -36398,6 +36401,7 @@ id: EMAPA:26555
 name: C6 foramen transversarium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:25757.
+is_a: EMAPA:36272 ! foramen tranversarium
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25757 ! C6 neural arch transverse process
 relationship: starts_at TS26 ! TS26
@@ -36407,6 +36411,7 @@ id: EMAPA:26557
 name: C7 foramen transversarium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:25764.
+is_a: EMAPA:36272 ! foramen tranversarium
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25764 ! C7 neural arch transverse process
 relationship: starts_at TS26 ! TS26
@@ -36955,6 +36960,7 @@ id: EMAPA:26673
 name: C1 foramen transversarium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:26671.
+is_a: EMAPA:36272 ! foramen tranversarium
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:26671 ! C1 neural arch transverse process
 relationship: starts_at TS26 ! TS26
@@ -36973,6 +36979,7 @@ id: EMAPA:26677
 name: C2 foramen transversarium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:26675.
+is_a: EMAPA:36272 ! foramen tranversarium
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:26675 ! C2 neural arch transverse process
 relationship: starts_at TS26 ! TS26
@@ -42175,7 +42182,7 @@ namespace: anatomical_structure
 comment: order=10 for EMAPA:17959.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:29917
@@ -42255,6 +42262,7 @@ name: adventitia of cervix uteri
 namespace: anatomical_structure
 comment: order=2 for EMAPA:29927.
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:29925 ! adventitia of uterus
 relationship: part_of EMAPA:29927 ! cervix uteri
 relationship: starts_at TS28 ! TS28
 
@@ -49523,7 +49531,7 @@ comment: order=5 for EMAPA:29915.
 is_a: EMAPA:35946 ! nerve of female reproductive system
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29915 ! uterus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35042
@@ -49640,8 +49648,8 @@ id: EMAPA:35053
 name: nerve of uterine horn
 namespace: anatomical_structure
 comment: order=4 for EMAPA:18985.
-is_a: EMAPA:35946 ! nerve of female reproductive system
-relationship: ends_at TS27 ! TS27
+is_a: EMAPA:35041 ! nerve of uterus
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18985 ! uterine horn
 relationship: starts_at TS27 ! TS27
 
@@ -52003,7 +52011,7 @@ comment: order=23 for EMAPA:16201.
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16201 ! arterial system
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:35343
@@ -57044,11 +57052,12 @@ relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:35900
-name: uterine stroma
+name: uterus stroma
 namespace: anatomical_structure
 comment: order=5 for EMAPA:18985.
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18985 ! uterine horn
+synonym: "uterine stroma" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:29915 ! uterus
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -60361,8 +60370,6 @@ namespace: anatomical_structure
 is_a: EMAPA:19146 ! quadriceps femoris muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-created_by: terryh
-creation_date: 2014-10-17T09:51:03Z
 
 [Term]
 id: EMAPA:36267
@@ -60371,8 +60378,6 @@ namespace: anatomical_structure
 is_a: EMAPA:19318 ! lower leg muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-created_by: terryh
-creation_date: 2014-10-17T09:53:50Z
 
 [Term]
 id: EMAPA:36268
@@ -60381,8 +60386,6 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17563 ! pons
 relationship: starts_at TS22 ! TS22
-created_by: terryh
-creation_date: 2014-10-17T12:10:53Z
 
 [Term]
 id: EMAPA:36269
@@ -60392,8 +60395,6 @@ synonym: "serratus posterior" RELATED []
 is_a: EMAPA:35769 ! serratus muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS25 ! TS25
-created_by: terryh
-creation_date: 2014-10-17T12:24:17Z
 
 [Term]
 id: EMAPA:36270
@@ -60402,8 +60403,30 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16917 ! 4th ventricle
 relationship: starts_at TS22 ! TS22
-created_by: terryh
-creation_date: 2014-10-17T03:03:08Z
+
+[Term]
+id: EMAPA:36271
+name: vertebral vein
+namespace: anatomical_structure
+is_a: EMAPA:35906 ! vein
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36272
+name: foramen tranversarium
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:17674 ! cervical vertebra
+relationship: starts_at TS25 ! TS25
+
+[Term]
+id: EMAPA:36273
+name: uterus lumen
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:29915 ! uterus
+relationship: starts_at TS28 ! TS28
 
 [Term]
 id: group_term
