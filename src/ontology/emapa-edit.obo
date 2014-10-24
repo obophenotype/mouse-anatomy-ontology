@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 24:10:2014 15:29
+date: 24:10:2014 16:32
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.1.1-beta6
 default-namespace: mouse_ontology
@@ -345,6 +345,7 @@ alt_id: EMAPA:31874
 comment: order=0 for EMAPA:16047.\norder=0 for EMAPA:31877.
 synonym: "primary trophoblast giant cell" EXACT []
 is_a: EMAPA:31877 ! trophoblast giant cell
+relationship: ends_at TS15 ! TS15
 relationship: part_of EMAPA:16047 ! mural trophectoderm
 relationship: starts_at TS07 ! TS07
 
