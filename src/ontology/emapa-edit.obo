@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 24:10:2014 13:44
-saved-by: jarm
-auto-generated-by: OBO-Edit 2.3.1
+date: 24:10:2014 15:29
+saved-by: terryh
+auto-generated-by: OBO-Edit 2.1.1-beta6
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -341,8 +341,10 @@ relationship: starts_at TS07 ! TS07
 id: EMAPA:16066
 name: primary trophoblast giant cell
 namespace: anatomical_structure
-comment: order=0 for EMAPA:16047.
-relationship: ends_at TS12 ! TS12
+alt_id: EMAPA:31874
+comment: order=0 for EMAPA:16047.\norder=0 for EMAPA:31877.
+synonym: "primary trophoblast giant cell" EXACT []
+is_a: EMAPA:31877 ! trophoblast giant cell
 relationship: part_of EMAPA:16047 ! mural trophectoderm
 relationship: starts_at TS07 ! TS07
 
@@ -9497,8 +9499,8 @@ id: EMAPA:17158
 name: thoracic ganglion
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17157.
+is_a: EMAPA:17157 ! sympathetic ganglion
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17157 ! sympathetic ganglion
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -19100,8 +19102,8 @@ id: EMAPA:18222
 name: ciliary ganglion
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18221.
+is_a: EMAPA:32813 ! parasympathetic ganglion
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18221 ! autonomic ganglion
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -19109,8 +19111,8 @@ id: EMAPA:18223
 name: paraganglion of Zuckerkandl
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18221.
+is_a: EMAPA:18221 ! autonomic ganglion
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18221 ! autonomic ganglion
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -19137,8 +19139,8 @@ name: cervico-thoracic ganglion
 namespace: anatomical_structure
 comment: order=1 for EMAPA:17157.
 synonym: "stellate ganglion" RELATED []
+is_a: EMAPA:17157 ! sympathetic ganglion
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17157 ! sympathetic ganglion
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -21079,8 +21081,8 @@ id: EMAPA:18438
 name: cervical ganglion
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17157.
+is_a: EMAPA:17157 ! sympathetic ganglion
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17157 ! sympathetic ganglion
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -21090,8 +21092,8 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:18438.
 synonym: "cervico-thoracic" RELATED []
 synonym: "stellate ganglion" RELATED []
+is_a: EMAPA:18438 ! cervical ganglion
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18438 ! cervical ganglion
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -21099,8 +21101,8 @@ id: EMAPA:18440
 name: middle cervical ganglion
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18438.
+is_a: EMAPA:18438 ! cervical ganglion
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18438 ! cervical ganglion
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -21108,8 +21110,8 @@ id: EMAPA:18441
 name: superior cervical ganglion
 namespace: anatomical_structure
 comment: order=2 for EMAPA:18438.
+is_a: EMAPA:18438 ! cervical ganglion
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18438 ! cervical ganglion
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -26563,8 +26565,8 @@ name: celiac ganglion
 namespace: anatomical_structure
 comment: order=2 for EMAPA:17157.
 synonym: "coeliac ganglion" RELATED []
+is_a: EMAPA:17157 ! sympathetic ganglion
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17157 ! sympathetic ganglion
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -45679,21 +45681,13 @@ relationship: part_of EMAPA:16042 ! extraembryonic component
 relationship: starts_at TS13 ! TS13
 
 [Term]
-id: EMAPA:31874
-name: primary trophoblast giant cell
-namespace: anatomical_structure
-comment: order=0 for EMAPA:31877.
-relationship: ends_at TS15 ! TS15
-relationship: part_of EMAPA:31877 ! trophoblast giant cell
-relationship: starts_at TS13 ! TS13
-
-[Term]
 id: EMAPA:31875
 name: secondary trophoblast giant cell
 namespace: anatomical_structure
 comment: order=1 for EMAPA:31877.
+is_a: EMAPA:31877 ! trophoblast giant cell
 relationship: ends_at TS15 ! TS15
-relationship: part_of EMAPA:31877 ! trophoblast giant cell
+relationship: part_of EMAPA:16059 ! ectoplacental cone
 relationship: starts_at TS13 ! TS13
 
 [Term]
@@ -45712,7 +45706,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:16046.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16046 ! trophectoderm
-relationship: starts_at TS13 ! TS13
+relationship: starts_at TS07 ! TS07
 
 [Term]
 id: EMAPA:31878
@@ -47279,7 +47273,7 @@ id: EMAPA:32712
 name: cerebral cortex intermediate zone
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17544.
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:17544 ! cerebral cortex
 relationship: starts_at TS20 ! TS20
 
@@ -48226,7 +48220,7 @@ comment: order=0 for EMAPA:17270.
 is_a: EMAPA:18221 ! autonomic ganglion
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17270 ! parasympathetic nervous system
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:32814
@@ -60428,6 +60422,34 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29915 ! uterus
 relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36274
+name: otic ganglion
+namespace: anatomical_structure
+is_a: EMAPA:32813 ! parasympathetic ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36275
+name: sphenopalatine ganglion
+namespace: anatomical_structure
+synonym: "Meckel's ganglion" RELATED []
+synonym: "nasal ganglion" RELATED []
+synonym: "pterygopalatine ganglion" RELATED []
+is_a: EMAPA:32813 ! parasympathetic ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36276
+name: submandibular ganglion
+namespace: anatomical_structure
+synonym: "submaxillary ganglion" RELATED []
+is_a: EMAPA:32813 ! parasympathetic ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: group_term
