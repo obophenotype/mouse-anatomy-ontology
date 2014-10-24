@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 23:10:2014 17:00
-saved-by: terryh
-auto-generated-by: OBO-Edit 2.1.1-beta6
+date: 24:10:2014 13:44
+saved-by: jarm
+auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -11405,9 +11405,10 @@ id: EMAPA:17378
 name: urogenital membrane
 namespace: anatomical_structure
 alt_id: EMAPA:17210
+def: "urogenital membrane (TS19-TS26): comprised of the urethral plate epithelium (cloacal endoderm-derived) and the surface ectoderm/skin (ectoderm-derived), where these two different epithelia are in direct contact. Part of the genital tubercle at TS19, and then part of the genital tubercle of male/female from TS20-25, then part of the penis/clitoris at TS26." []
 comment: order=18 for EMAPA:17366.
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17366 ! urinary system
+relationship: part_of EMAPA:17382 ! genital tubercle
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -11445,6 +11446,7 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:17382
 name: genital tubercle
 namespace: anatomical_structure
+def: "genital tubercle (TS19): a medial swelling seen at the level of the hind limb buds, adjacent to the cloaca and posterior/caudal to the urogenital sinus (UGS). At TS19 the genital tubercle can be subdivided into a dorsal genital swelling and two ventrolateral genital swellings, which have merged into a single genital tubercle. At TS19, is comprised of urethral plate epithelium and surface ectoderm of genital tubercle. The urethral plate epithelium and surface ectoderm together are known as the cloacal membrane. Derives from the TS17-TS18 genital swelling. From TS20, the genital tubercle becomes genital tubercle of male/female." []
 comment: order=3 for EMAPA:17381.
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:17381 ! reproductive system
@@ -16865,6 +16867,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17969
 name: genital tubercle of male
 namespace: anatomical_structure
+def: "genital tubercle of male (syn: penis anlage) (TS20): a medial swelling seen at the level of the hind limb buds, adjacent to the cloaca and posterior/caudal to the urogenital sinus. The genital tubercle is separated into male and female, therefore you must know the sex of the embryo. At TS20, the genital tubercle of male is comprised of genital tubercle mesenchyme of male, urethral plate epithelium of male, skin of genital tubercle of male, the urogenital membrane of male, and developing vasculature of male genital tubercle. The urethral plate epithelium and skin together, where they are in direct contact, are known as the urogenital membrane. After TS20, the genital tubercle becomes further subdivided. Will become the penis at TS26." []
 comment: order=20 for EMAPA:17968.\norder=0 for EMAPA:28533.\norder=0 for EMAPA:30977.
 synonym: "penis anlage" RELATED []
 relationship: ends_at TS26 ! TS26
@@ -22465,7 +22468,9 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:18680
 name: genital tubercle of female
 namespace: anatomical_structure
+def: "genital tubercle of female (syn: clitoris anlage) (TS20): a medial swelling seen at the level of the hind limb buds, adjacent to the cloaca and posterior/caudal to the urogenital sinus. The genital tubercle is separated into male and female, therefore you must know the sex of the embryo. At TS20, the genital tubercle of female is comprised of genital tubercle mesenchyme of female, urethral plate epithelium of female, skin of genital tubercle of female, the urogenital membrane of female, and developing vasculature of female genital tubercle. The urethral plate epithelium and skin together, where they are in direct contact, are known as the urogenital membrane. After TS20, the genital tubercle becomes further subdivided. Will become the clitoris at TS26." []
 comment: order=12 for EMAPA:17959.\norder=2 for EMAPA:28540.\norder=0 for EMAPA:30984.
+synonym: "clitoris anlage" RELATED []
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: part_of EMAPA:28540 ! female associated reproductive structure
@@ -41673,10 +41678,12 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:29794
 name: anterior prostate gland
 namespace: anatomical_structure
+alt_id: EMAPA:35245
 comment: order=2 for EMAPA:19287.
 synonym: "coagulating gland" RELATED []
 is_a: EMAPA:35712 ! prostate gland lobe
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17968 ! male reproductive system
 relationship: part_of EMAPA:19287 ! prostate gland
 relationship: starts_at TS28 ! TS28
 
@@ -42501,7 +42508,9 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:30077
 name: dorsal genital swelling
 namespace: anatomical_structure
+def: "dorsal genital swelling (syn: anterior genital swelling, dorsal genital tubercle) (TS18-TS19): seen as a swelling on the surface of the embryo at the level of the hind limb buds, adjacent to the urogenital sinus and anterior/cranial to the ventrolateral genital swellings and cloaca. Will fuse with the ventrolateral genital swellings to form part of a single genital tubercle at TS19." []
 comment: order=0 for EMAPA:17382.
+synonym: "anterior genital swelling" RELATED []
 synonym: "dorsal genital tubercle" RELATED []
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:17382 ! genital tubercle
@@ -42511,6 +42520,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:30079
 name: ventrolateral genital swelling
 namespace: anatomical_structure
+def: "ventrolateral genital swelling (syn: lateral plate mesoderm buds, ventrolateral genital tubercle) (TS18-TS19): seen as paired lateral swellings on the surface of the embryo at the level of the hind limb buds, adjacent to the cloaca. Will fuse together and with the dorsal genital swelling, to form part of a single genital tubercle at TS19." []
 comment: order=1 for EMAPA:17382.
 synonym: "ventrolateral genital tubercle" RELATED []
 relationship: ends_at TS19 ! TS19
@@ -42713,7 +42723,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:17969.
 synonym: "urethral plate" RELATED []
 synonym: "urethral seam" RELATED []
-is_a: EMAPA:31518 ! urethral epithelium
+is_a: EMAPA:31518 ! urethral plate epithelium
 is_a: EMAPA:35963 ! male reproductive system epithelium
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17969 ! genital tubercle of male
@@ -42726,7 +42736,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:18680.
 synonym: "urethral plate" RELATED []
 synonym: "urethral seam" RELATED []
-is_a: EMAPA:31518 ! urethral epithelium
+is_a: EMAPA:31518 ! urethral plate epithelium
 is_a: EMAPA:35962 ! female reproductive system epithelium
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:18680 ! genital tubercle of female
@@ -44951,11 +44961,11 @@ relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:31518
-name: urethral epithelium
+name: urethral plate epithelium
 namespace: anatomical_structure
+def: "urethral plate epithelium (syn: urethral plate) (TS19): a bilaminar epithelial extension of the cloacal epithelium that grows out from the cloaca, between the ventrolateral genital swellings. Derived from cloacal endoderm. This bilayered epithelium often called the urethral plate, marked by Shh, continues to grow distally with the genital tubercle. At TS19 is part of the genital tubercle and from TS20 as the ontology becomes gender-specific it becomes part of the genital tubercle of male/female and from TS21 it is also part of the phallic urethra epithelium, which is part of genital tubercle of male/female and part of the phallic urethra." []
 comment: order=2 for EMAPA:17382.
 synonym: "urethral plate" RELATED []
-synonym: "urethral seam" RELATED []
 is_a: EMAPA:35951 ! reproductive system epithelium
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:17382 ! genital tubercle
@@ -51113,16 +51123,6 @@ relationship: part_of EMAPA:32673 ! basal ganglia
 relationship: starts_at TS27 ! TS27
 
 [Term]
-id: EMAPA:35245
-name: coagulating gland
-namespace: anatomical_structure
-comment: order=30 for EMAPA:17968.
-is_a: EMAPA:19285 ! male accessory gland
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17968 ! male reproductive system
-relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:35246
 name: coat hair follicle
 namespace: anatomical_structure
@@ -51501,9 +51501,10 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35288
 name: distal urethral epithelium
 namespace: anatomical_structure
+def: "urethral plate epithelium (syn: urethral plate) (TS19): a bilaminar epithelial extension of the cloacal epithelium that grows out from the cloaca, between the ventrolateral genital swellings. Derived from cloacal endoderm. This bilayered epithelium often called the urethral plate, marked by Shh, continues to grow distally with the genital tubercle. At TS19 is part of the genital tubercle and from TS20 as the ontology becomes gender-specific it becomes part of the genital tubercle of male/female and from TS21 it is also part of the phallic urethra epithelium, which is part of genital tubercle of male/female and part of the phallic urethra." []
 comment: order=0 for EMAPA:31518.
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:31518 ! urethral epithelium
+relationship: part_of EMAPA:31518 ! urethral plate epithelium
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -57672,7 +57673,7 @@ name: proximal urethral epithelium
 namespace: anatomical_structure
 comment: order=1 for EMAPA:31518.
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:31518 ! urethral epithelium
+relationship: part_of EMAPA:31518 ! urethral plate epithelium
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -57681,7 +57682,7 @@ name: urethral opening
 namespace: anatomical_structure
 comment: order=2 for EMAPA:31518.
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:31518 ! urethral epithelium
+relationship: part_of EMAPA:31518 ! urethral plate epithelium
 relationship: starts_at TS21 ! TS21
 
 [Term]
