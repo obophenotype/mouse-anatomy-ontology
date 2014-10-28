@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 24:10:2014 16:32
+date: 28:10:2014 16:30
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.1.1-beta6
 default-namespace: mouse_ontology
@@ -14158,7 +14158,7 @@ name: left lung vascular element
 namespace: anatomical_structure
 comment: order=4 for EMAPA:17653.
 is_a: EMAPA:32867 ! lung vascular element
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17653 ! left lung
 relationship: starts_at TS20 ! TS20
 
@@ -16958,7 +16958,7 @@ name: right lung accessory lobe lobar bronchus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17981.
 is_a: EMAPA:17664 ! right lung lobar bronchus
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17981 ! right lung accessory lobe
 relationship: starts_at TS21 ! TS21
 
@@ -16969,7 +16969,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:17982.
 is_a: EMAPA:17662 ! right lung mesenchyme
 is_a: EMAPA:32698 ! lobar bronchus mesenchyme
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17982 ! right lung accessory lobe lobar bronchus
 relationship: starts_at TS21 ! TS21
 
@@ -16979,7 +16979,7 @@ name: right lung accessory lobe lobar bronchus epithelium
 namespace: anatomical_structure
 comment: order=2 for EMAPA:17982.
 is_a: EMAPA:17666 ! right lung lobar bronchus epithelium
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17982 ! right lung accessory lobe lobar bronchus
 relationship: starts_at TS21 ! TS21
 
@@ -16989,7 +16989,8 @@ name: right lung accessory lobe lobar bronchus vascular element
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17982.
 is_a: EMAPA:17667 ! right lung lobar bronchus vascular element
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36277 ! right lung accessory lobe vascular element
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17982 ! right lung accessory lobe lobar bronchus
 relationship: starts_at TS21 ! TS21
 
@@ -17008,7 +17009,7 @@ name: right lung caudal lobe lobar bronchus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17986.
 is_a: EMAPA:17664 ! right lung lobar bronchus
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17986 ! right lung caudal lobe
 relationship: starts_at TS21 ! TS21
 
@@ -17019,7 +17020,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:17987.
 is_a: EMAPA:17662 ! right lung mesenchyme
 is_a: EMAPA:32698 ! lobar bronchus mesenchyme
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17987 ! right lung caudal lobe lobar bronchus
 relationship: starts_at TS21 ! TS21
 
@@ -17029,7 +17030,7 @@ name: right lung caudal lobe lobar bronchus epithelium
 namespace: anatomical_structure
 comment: order=2 for EMAPA:17987.
 is_a: EMAPA:17666 ! right lung lobar bronchus epithelium
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17987 ! right lung caudal lobe lobar bronchus
 relationship: starts_at TS21 ! TS21
 
@@ -17039,7 +17040,8 @@ name: right lung caudal lobe lobar bronchus vascular element
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17987.
 is_a: EMAPA:17667 ! right lung lobar bronchus vascular element
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36278 ! right lung caudal lobe vascular element
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17987 ! right lung caudal lobe lobar bronchus
 relationship: starts_at TS21 ! TS21
 
@@ -17058,7 +17060,7 @@ name: right lung cranial lobe lobar bronchus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17991.
 is_a: EMAPA:17664 ! right lung lobar bronchus
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17991 ! right lung cranial lobe
 relationship: starts_at TS21 ! TS21
 
@@ -17069,7 +17071,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:17992.
 is_a: EMAPA:17662 ! right lung mesenchyme
 is_a: EMAPA:32698 ! lobar bronchus mesenchyme
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17992 ! right lung cranial lobe lobar bronchus
 relationship: starts_at TS21 ! TS21
 
@@ -17079,7 +17081,7 @@ name: right lung cranial lobe lobar bronchus epithelium
 namespace: anatomical_structure
 comment: order=2 for EMAPA:17992.
 is_a: EMAPA:17666 ! right lung lobar bronchus epithelium
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17992 ! right lung cranial lobe lobar bronchus
 relationship: starts_at TS21 ! TS21
 
@@ -17089,7 +17091,8 @@ name: right lung cranial lobe lobar bronchus vascular element
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17992.
 is_a: EMAPA:17667 ! right lung lobar bronchus vascular element
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36279 ! right lung cranial lobe vascular element
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17992 ! right lung cranial lobe lobar bronchus
 relationship: starts_at TS21 ! TS21
 
@@ -17118,7 +17121,7 @@ name: right lung middle lobe lobar bronchus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17997.
 is_a: EMAPA:17664 ! right lung lobar bronchus
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17997 ! right lung middle lobe
 relationship: starts_at TS21 ! TS21
 
@@ -17129,7 +17132,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:17998.
 is_a: EMAPA:17662 ! right lung mesenchyme
 is_a: EMAPA:32698 ! lobar bronchus mesenchyme
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17998 ! right lung middle lobe lobar bronchus
 relationship: starts_at TS21 ! TS21
 
@@ -17139,7 +17142,7 @@ name: right lung middle lobe lobar bronchus epithelium
 namespace: anatomical_structure
 comment: order=2 for EMAPA:17998.
 is_a: EMAPA:17666 ! right lung lobar bronchus epithelium
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17998 ! right lung middle lobe lobar bronchus
 relationship: starts_at TS21 ! TS21
 
@@ -17149,7 +17152,8 @@ name: right lung middle lobe lobar bronchus vascular element
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17998.
 is_a: EMAPA:17667 ! right lung lobar bronchus vascular element
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36280 ! right lung middle lobe vascular element
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17998 ! right lung middle lobe lobar bronchus
 relationship: starts_at TS21 ! TS21
 
@@ -23870,8 +23874,8 @@ name: right lung accessory lobe bronchiole
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17982.
 is_a: EMAPA:35425 ! right lung bronchiole
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:17982 ! right lung accessory lobe lobar bronchus
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17981 ! right lung accessory lobe
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -23880,8 +23884,8 @@ name: right lung accessory lobe alveolar system
 namespace: anatomical_structure
 comment: order=0 for EMAPA:19002.
 is_a: EMAPA:35717 ! right lung alveolar system
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19002 ! right lung accessory lobe bronchiole
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17981 ! right lung accessory lobe
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -23890,8 +23894,8 @@ name: right lung caudal lobe bronchiole
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17987.
 is_a: EMAPA:35425 ! right lung bronchiole
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:17987 ! right lung caudal lobe lobar bronchus
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17986 ! right lung caudal lobe
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -23900,8 +23904,8 @@ name: right lung caudal lobe alveolar system
 namespace: anatomical_structure
 comment: order=0 for EMAPA:19004.
 is_a: EMAPA:35717 ! right lung alveolar system
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19004 ! right lung caudal lobe bronchiole
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17986 ! right lung caudal lobe
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -23910,8 +23914,8 @@ name: right lung cranial lobe bronchiole
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17992.
 is_a: EMAPA:35425 ! right lung bronchiole
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:17992 ! right lung cranial lobe lobar bronchus
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17991 ! right lung cranial lobe
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -23920,8 +23924,8 @@ name: right lung cranial lobe alveolar system
 namespace: anatomical_structure
 comment: order=0 for EMAPA:19006.
 is_a: EMAPA:35717 ! right lung alveolar system
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19006 ! right lung cranial lobe bronchiole
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17991 ! right lung cranial lobe
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -23930,8 +23934,8 @@ name: right lung middle lobe bronchiole
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17998.
 is_a: EMAPA:35425 ! right lung bronchiole
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:17998 ! right lung middle lobe lobar bronchus
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17997 ! right lung middle lobe
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -23940,8 +23944,8 @@ name: right lung middle lobe alveolar system
 namespace: anatomical_structure
 comment: order=0 for EMAPA:19008.
 is_a: EMAPA:35717 ! right lung alveolar system
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19008 ! right lung middle lobe bronchiole
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17997 ! right lung middle lobe
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -25410,7 +25414,7 @@ name: right lung middle lobe alveolus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:19009.
 is_a: EMAPA:35997 ! right lung alveolus
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19009 ! right lung middle lobe alveolar system
 relationship: starts_at TS25 ! TS25
 
@@ -25420,7 +25424,7 @@ name: right lung middle lobe alveolar duct
 namespace: anatomical_structure
 comment: order=0 for EMAPA:19009.
 is_a: EMAPA:35819 ! right lung alveolar duct
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19009 ! right lung middle lobe alveolar system
 relationship: starts_at TS25 ! TS25
 
@@ -25430,7 +25434,7 @@ name: right lung cranial lobe alveolus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:19007.
 is_a: EMAPA:35997 ! right lung alveolus
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19007 ! right lung cranial lobe alveolar system
 relationship: starts_at TS25 ! TS25
 
@@ -25440,7 +25444,7 @@ name: right lung cranial lobe alveolar duct
 namespace: anatomical_structure
 comment: order=0 for EMAPA:19007.
 is_a: EMAPA:35819 ! right lung alveolar duct
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19007 ! right lung cranial lobe alveolar system
 relationship: starts_at TS25 ! TS25
 
@@ -25450,7 +25454,7 @@ name: right lung caudal lobe alveolus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:19005.
 is_a: EMAPA:35997 ! right lung alveolus
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19005 ! right lung caudal lobe alveolar system
 relationship: starts_at TS25 ! TS25
 
@@ -25460,7 +25464,7 @@ name: right lung caudal lobe alveolar duct
 namespace: anatomical_structure
 comment: order=0 for EMAPA:19005.
 is_a: EMAPA:35819 ! right lung alveolar duct
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19005 ! right lung caudal lobe alveolar system
 relationship: starts_at TS25 ! TS25
 
@@ -25470,7 +25474,7 @@ name: right lung accessory lobe alveolus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:19003.
 is_a: EMAPA:35997 ! right lung alveolus
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19003 ! right lung accessory lobe alveolar system
 relationship: starts_at TS25 ! TS25
 
@@ -25480,7 +25484,7 @@ name: right lung accessory lobe alveolar duct
 namespace: anatomical_structure
 comment: order=0 for EMAPA:19003.
 is_a: EMAPA:35819 ! right lung alveolar duct
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19003 ! right lung accessory lobe alveolar system
 relationship: starts_at TS25 ! TS25
 
@@ -60451,6 +60455,42 @@ synonym: "submaxillary ganglion" RELATED []
 is_a: EMAPA:32813 ! parasympathetic ganglion
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36277
+name: right lung accessory lobe vascular element
+namespace: anatomical_structure
+is_a: EMAPA:17668 ! right lung vascular element
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17981 ! right lung accessory lobe
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:36278
+name: right lung caudal lobe vascular element
+namespace: anatomical_structure
+is_a: EMAPA:17668 ! right lung vascular element
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17986 ! right lung caudal lobe
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:36279
+name: right lung cranial lobe vascular element
+namespace: anatomical_structure
+is_a: EMAPA:17668 ! right lung vascular element
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17991 ! right lung cranial lobe
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:36280
+name: right lung middle lobe vascular element
+namespace: anatomical_structure
+is_a: EMAPA:17668 ! right lung vascular element
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17997 ! right lung middle lobe
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: group_term
