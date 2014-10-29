@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 29:10:2014 14:25
-saved-by: jarm
-auto-generated-by: OBO-Edit 2.3.1
+date: 29:10:2014 16:16
+saved-by: terryh
+auto-generated-by: OBO-Edit 2.1.1-beta6
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -8580,6 +8580,7 @@ id: EMAPA:17008
 name: pulmonary artery
 namespace: anatomical_structure
 comment: order=45 for EMAPA:16201.
+is_a: EMAPA:32867 ! lung vascular element
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16201 ! arterial system
@@ -14240,7 +14241,7 @@ name: right lung vascular element
 namespace: anatomical_structure
 comment: order=9 for EMAPA:17661.
 is_a: EMAPA:32867 ! lung vascular element
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17661 ! right lung
 relationship: starts_at TS20 ! TS20
 
@@ -21923,6 +21924,7 @@ id: EMAPA:18608
 name: bronchial artery
 namespace: anatomical_structure
 comment: order=9 for EMAPA:16201.
+is_a: EMAPA:32867 ! lung vascular element
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16201 ! arterial system
@@ -22211,6 +22213,7 @@ id: EMAPA:18645
 name: pulmonary vein
 namespace: anatomical_structure
 comment: order=38 for EMAPA:16240.
+is_a: EMAPA:32867 ! lung vascular element
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16240 ! venous system
@@ -25396,7 +25399,7 @@ comment: order=1 for EMAPA:19001.
 is_a: EMAPA:32682 ! lung alveolus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19001 ! left lung alveolar system
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:19183
@@ -25406,7 +25409,7 @@ comment: order=0 for EMAPA:19001.
 is_a: EMAPA:32694 ! alveolar duct
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19001 ! left lung alveolar system
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:19184
@@ -46985,7 +46988,7 @@ comment: order=4 for EMAPA:32692.
 synonym: "pulmonary alveolus" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32692 ! alveolar system
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:32683
@@ -47106,7 +47109,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:32692.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32692 ! alveolar system
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:32695
@@ -49919,7 +49922,7 @@ comment: order=0 for EMAPA:32682.
 synonym: "alveolus wall" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32682 ! lung alveolus
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35121
@@ -49930,7 +49933,7 @@ synonym: "alveolar epithelium" RELATED []
 is_a: EMAPA:32860 ! lung epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35120 ! alveolar wall
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35122
@@ -50171,7 +50174,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35144.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35144 ! arterial blood vessel
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35147
@@ -50187,6 +50190,7 @@ id: EMAPA:35148
 name: artery endothelium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35147.
+is_a: EMAPA:35176 ! blood vessel endothelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35147 ! artery
 relationship: starts_at TS28 ! TS28
@@ -50256,6 +50260,7 @@ id: EMAPA:35155
 name: right lung lobe
 namespace: anatomical_structure
 comment: order=6 for EMAPA:17661.
+is_a: EMAPA:36281 ! lung lobe
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17661 ! right lung
 relationship: starts_at TS20 ! TS20
@@ -50463,7 +50468,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:32743.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32743 ! blood vessel
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35177
@@ -50677,9 +50682,10 @@ id: EMAPA:35198
 name: capillary
 namespace: anatomical_structure
 comment: order=2 for EMAPA:35905.
-is_a: EMAPA:35993 ! vascular element
+is_a: EMAPA:32743 ! blood vessel
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35905 ! vascular system
+relationship: part_of EMAPA:36291 ! capillary bed
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -52790,13 +52796,13 @@ relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35433
-name: interalveolar septum
+name: alveolar septum
 namespace: anatomical_structure
 comment: order=3 for EMAPA:32692.
-synonym: "alveolar septum" RELATED []
+synonym: "interalveolar septum" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32692 ! alveolar system
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35434
@@ -53730,9 +53736,10 @@ id: EMAPA:35532
 name: lymphatic vessel
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18248.
+is_a: EMAPA:35993 ! vascular element
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18248 ! lymphatic system
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35533
@@ -53741,7 +53748,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35532.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35532 ! lymphatic vessel
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35534
@@ -55508,7 +55515,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:32697.
 is_a: EMAPA:32697 ! bronchiole
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35730
@@ -55518,7 +55525,7 @@ comment: order=0 for EMAPA:35729.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32693 ! bronchiole epithelium
 relationship: part_of EMAPA:35729 ! respiratory bronchiole
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35731
@@ -56293,7 +56300,7 @@ comment: order=0 for EMAPA:35717.
 is_a: EMAPA:32694 ! alveolar duct
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35717 ! right lung alveolar system
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35821
@@ -57222,7 +57229,7 @@ comment: order=54 for EMAPA:16240.
 is_a: EMAPA:35932 ! venous blood vessel
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16240 ! venous system
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35918
@@ -57999,7 +58006,7 @@ comment: order=1 for EMAPA:35717.
 is_a: EMAPA:32682 ! lung alveolus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35717 ! right lung alveolar system
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35998
@@ -60491,6 +60498,111 @@ is_a: EMAPA:17668 ! right lung vascular element
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17997 ! right lung middle lobe
 relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:36281
+name: lung lobe
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16728 ! lung
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36282
+name: terminal bronchiole
+namespace: anatomical_structure
+is_a: EMAPA:32697 ! bronchiole
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36283
+name: terminal bronchiole epithelium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32693 ! bronchiole epithelium
+relationship: part_of EMAPA:36282 ! terminal bronchiole
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36284
+name: bronchial vein
+namespace: anatomical_structure
+is_a: EMAPA:32867 ! lung vascular element
+is_a: EMAPA:35906 ! vein
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36285
+name: artery smooth muscle
+namespace: anatomical_structure
+is_a: EMAPA:35177 ! blood vessel smooth muscle
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35147 ! artery
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36286
+name: arteriole endothelium
+namespace: anatomical_structure
+is_a: EMAPA:35176 ! blood vessel endothelium
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35146 ! arteriole
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36287
+name: arteriole smooth muscle
+namespace: anatomical_structure
+is_a: EMAPA:35177 ! blood vessel smooth muscle
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35146 ! arteriole
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36288
+name: vein endothelium
+namespace: anatomical_structure
+is_a: EMAPA:35176 ! blood vessel endothelium
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35906 ! vein
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36289
+name: vein smooth muscle
+namespace: anatomical_structure
+is_a: EMAPA:35177 ! blood vessel smooth muscle
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35906 ! vein
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36290
+name: venule endothelium
+namespace: anatomical_structure
+is_a: EMAPA:35176 ! blood vessel endothelium
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35917 ! venule
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36291
+name: capillary bed
+namespace: anatomical_structure
+is_a: EMAPA:35993 ! vascular element
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36292
+name: capillary endothelium
+namespace: anatomical_structure
+is_a: EMAPA:35176 ! blood vessel endothelium
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35198 ! capillary
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: group_term
