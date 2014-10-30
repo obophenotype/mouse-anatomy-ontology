@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 29:10:2014 16:16
+date: 30:10:2014 16:48
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.1.1-beta6
 default-namespace: mouse_ontology
@@ -50192,7 +50192,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35147.
 is_a: EMAPA:35176 ! blood vessel endothelium
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35147 ! artery
+relationship: part_of EMAPA:36293 ! artery tunica intima
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -50467,7 +50467,7 @@ name: blood vessel endothelium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:32743.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32743 ! blood vessel
+relationship: part_of EMAPA:36297 ! tunica intima
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -50477,7 +50477,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:32743.
 is_a: EMAPA:32717 ! smooth muscle tissue
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32743 ! blood vessel
+relationship: part_of EMAPA:36298 ! tunica media
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -53747,7 +53747,7 @@ name: lymphatic vessel endothelium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35532.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35532 ! lymphatic vessel
+relationship: part_of EMAPA:36311 ! lymphatic vessel tunica intima
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -55532,7 +55532,6 @@ id: EMAPA:35731
 name: respiratory system blood vessel
 namespace: anatomical_structure
 comment: order=7 for EMAPA:16727.
-is_a: EMAPA:32743 ! blood vessel
 is_a: EMAPA:35995 ! respiratory system vascular element
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16727 ! respiratory system
@@ -60539,7 +60538,7 @@ name: artery smooth muscle
 namespace: anatomical_structure
 is_a: EMAPA:35177 ! blood vessel smooth muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35147 ! artery
+relationship: part_of EMAPA:36294 ! artery tunica media
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -60548,7 +60547,7 @@ name: arteriole endothelium
 namespace: anatomical_structure
 is_a: EMAPA:35176 ! blood vessel endothelium
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35146 ! arteriole
+relationship: part_of EMAPA:36305 ! arteriole tunica intima
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -60557,7 +60556,7 @@ name: arteriole smooth muscle
 namespace: anatomical_structure
 is_a: EMAPA:35177 ! blood vessel smooth muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35146 ! arteriole
+relationship: part_of EMAPA:36306 ! arteriole tunica media
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -60566,7 +60565,7 @@ name: vein endothelium
 namespace: anatomical_structure
 is_a: EMAPA:35176 ! blood vessel endothelium
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35906 ! vein
+relationship: part_of EMAPA:36308 ! vein tunica intima
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -60575,7 +60574,7 @@ name: vein smooth muscle
 namespace: anatomical_structure
 is_a: EMAPA:35177 ! blood vessel smooth muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35906 ! vein
+relationship: part_of EMAPA:36309 ! vein tunica media
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -60602,6 +60601,195 @@ namespace: anatomical_structure
 is_a: EMAPA:35176 ! blood vessel endothelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35198 ! capillary
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36293
+name: artery tunica intima
+namespace: anatomical_structure
+is_a: EMAPA:36297 ! tunica intima
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35147 ! artery
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36294
+name: artery tunica media
+namespace: anatomical_structure
+is_a: EMAPA:36298 ! tunica media
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35147 ! artery
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36295
+name: artery tunica adventitia
+namespace: anatomical_structure
+is_a: EMAPA:36299 ! tunica adventitia
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35147 ! artery
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36296
+name: blood vessel layer
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32743 ! blood vessel
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36297
+name: tunica intima
+namespace: anatomical_structure
+is_a: EMAPA:36296 ! blood vessel layer
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36298
+name: tunica media
+namespace: anatomical_structure
+is_a: EMAPA:36296 ! blood vessel layer
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36299
+name: tunica adventitia
+namespace: anatomical_structure
+is_a: EMAPA:36296 ! blood vessel layer
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36300
+name: blood vessel elastic tissue
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32743 ! blood vessel
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36301
+name: internal elastic lamina
+namespace: anatomical_structure
+is_a: EMAPA:36300 ! blood vessel elastic tissue
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36297 ! tunica intima
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36302
+name: external elastic lamina
+namespace: anatomical_structure
+is_a: EMAPA:36300 ! blood vessel elastic tissue
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36298 ! tunica media
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36303
+name: artery internal elastic lamina
+namespace: anatomical_structure
+is_a: EMAPA:36301 ! internal elastic lamina
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36293 ! artery tunica intima
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36304
+name: artery external elastic lamina
+namespace: anatomical_structure
+is_a: EMAPA:36302 ! external elastic lamina
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36294 ! artery tunica media
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36305
+name: arteriole tunica intima
+namespace: anatomical_structure
+is_a: EMAPA:36297 ! tunica intima
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35146 ! arteriole
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36306
+name: arteriole tunica media
+namespace: anatomical_structure
+is_a: EMAPA:36298 ! tunica media
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35146 ! arteriole
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36307
+name: arteriole tunica adventitia
+namespace: anatomical_structure
+is_a: EMAPA:36299 ! tunica adventitia
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35146 ! arteriole
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36308
+name: vein tunica intima
+namespace: anatomical_structure
+is_a: EMAPA:36297 ! tunica intima
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35906 ! vein
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36309
+name: vein tunica media
+namespace: anatomical_structure
+is_a: EMAPA:36298 ! tunica media
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35906 ! vein
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36310
+name: vein tunica adventitia
+namespace: anatomical_structure
+is_a: EMAPA:36299 ! tunica adventitia
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35906 ! vein
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36311
+name: lymphatic vessel tunica intima
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35532 ! lymphatic vessel
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36312
+name: lymphatic vessel tunica media
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35532 ! lymphatic vessel
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36313
+name: lymphatic vessel smooth muscle
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36312 ! lymphatic vessel tunica media
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36314
+name: lymphatic vessel tunica adventitia
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35532 ! lymphatic vessel
 relationship: starts_at TS24 ! TS24
 
 [Term]
