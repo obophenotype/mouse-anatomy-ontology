@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 30:10:2014 16:48
-saved-by: terryh
-auto-generated-by: OBO-Edit 2.1.1-beta6
+date: 31:10:2014 16:30
+saved-by: jarm
+auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -11410,7 +11410,7 @@ name: urogenital membrane
 namespace: anatomical_structure
 alt_id: EMAPA:17210
 def: "urogenital membrane (TS19-TS26): comprised of the urethral plate epithelium (cloacal endoderm-derived) and the surface ectoderm/skin (ectoderm-derived), where these two different epithelia are in direct contact. Part of the genital tubercle at TS19, and then part of the genital tubercle of male/female from TS20-25, then part of the penis/clitoris at TS26." []
-comment: order=18 for EMAPA:17366.
+comment: order=6 for EMAPA:17382.
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17382 ! genital tubercle
 relationship: starts_at TS19 ! TS19
@@ -40874,6 +40874,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:29167
 name: genital tubercle mesenchyme of male
 namespace: anatomical_structure
+def: "genital tubercle mesenchyme of male (TS20-TS20): the mesenchyme of the genital tubercle surrounding the epithelium of phallic urethra of male." []
 comment: order=1 for EMAPA:17969.
 is_a: EMAPA:35975 ! male reproductive system mesenchyme
 relationship: ends_at TS20 ! TS20
@@ -41193,6 +41194,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:29621
 name: genital tubercle mesenchyme of female
 namespace: anatomical_structure
+def: "genital tubercle mesenchyme of female (TS20-TS20): the mesenchyme of the genital tubercle surrounding the epithelium of phallic urethra of female." []
 comment: order=1 for EMAPA:18680.
 is_a: EMAPA:35974 ! female reproductive system mesenchyme
 relationship: ends_at TS20 ! TS20
@@ -42532,6 +42534,7 @@ name: ventrolateral genital swelling
 namespace: anatomical_structure
 def: "ventrolateral genital swelling (syn: lateral plate mesoderm buds, ventrolateral genital tubercle) (TS18-TS19): seen as paired lateral swellings on the surface of the embryo at the level of the hind limb buds, adjacent to the cloaca. Will fuse together and with the dorsal genital swelling, to form part of a single genital tubercle at TS19." []
 comment: order=1 for EMAPA:17382.
+synonym: "lateral plate mesoderm buds" RELATED []
 synonym: "ventrolateral genital tubercle" RELATED []
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:17382 ! genital tubercle
@@ -44822,7 +44825,7 @@ id: EMAPA:31503
 name: developing vasculature of female genital tubercle
 namespace: anatomical_structure
 comment: order=9 for EMAPA:18680.\norder=0 for EMAPA:31564.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:18680 ! genital tubercle of female
 relationship: part_of EMAPA:31564 ! developing vasculature of reproductive system group
 relationship: starts_at TS20 ! TS20
@@ -44893,7 +44896,7 @@ id: EMAPA:31510
 name: developing vasculature of male genital tubercle
 namespace: anatomical_structure
 comment: order=9 for EMAPA:17969.\norder=2 for EMAPA:31564.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:17969 ! genital tubercle of male
 relationship: part_of EMAPA:31564 ! developing vasculature of reproductive system group
 relationship: starts_at TS20 ! TS20
@@ -60791,6 +60794,15 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35532 ! lymphatic vessel
 relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36315
+name: surface ectoderm of genital tubercle
+namespace: anatomical_structure
+comment: order=5 for EMAPA:17382.
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:17382 ! genital tubercle
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: group_term
