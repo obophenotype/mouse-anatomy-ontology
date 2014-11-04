@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 31:10:2014 16:30
-saved-by: jarm
-auto-generated-by: OBO-Edit 2.3.1
+date: 04:11:2014 16:53
+saved-by: terryh
+auto-generated-by: OBO-Edit 2.1.1-beta6
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -10766,6 +10766,7 @@ id: EMAPA:17303
 name: hyaloid vascular plexus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17302.
+is_a: EMAPA:35904 ! vascular plexus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17302 ! hyaloid cavity
 relationship: starts_at TS19 ! TS19
@@ -22288,6 +22289,7 @@ alt_id: EMAPA:18842
 comment: order=2 for EMAPA:18650.\norder=2 for EMAPA:18840.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18650 ! hyoid
+relationship: part_of EMAPA:36319 ! Reichert's cartilage
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -30661,7 +30663,7 @@ is_a: EMAPA:18167 ! axial muscle
 is_a: EMAPA:35988 ! skeletal muscle
 is_a: EMAPA:36050 ! neck muscle
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:25131
@@ -30670,7 +30672,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:25130.
 is_a: EMAPA:25130 ! pre-vertebral muscle of neck
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:25132
@@ -30678,8 +30680,8 @@ name: longus cervicis
 namespace: anatomical_structure
 comment: order=1 for EMAPA:25130.
 is_a: EMAPA:25130 ! pre-vertebral muscle of neck
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:25133
@@ -36386,7 +36388,7 @@ id: EMAPA:26549
 name: C3 foramen transversarium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:25736.
-is_a: EMAPA:36272 ! foramen tranversarium
+is_a: EMAPA:36272 ! foramen transversarium
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25736 ! C3 neural arch transverse process
 relationship: starts_at TS26 ! TS26
@@ -36396,7 +36398,7 @@ id: EMAPA:26551
 name: C4 foramen transversarium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:25743.
-is_a: EMAPA:36272 ! foramen tranversarium
+is_a: EMAPA:36272 ! foramen transversarium
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25743 ! C4 neural arch transverse process
 relationship: starts_at TS26 ! TS26
@@ -36406,7 +36408,7 @@ id: EMAPA:26553
 name: C5 foramen transversarium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:25750.
-is_a: EMAPA:36272 ! foramen tranversarium
+is_a: EMAPA:36272 ! foramen transversarium
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25750 ! C5 neural arch transverse process
 relationship: starts_at TS26 ! TS26
@@ -36416,7 +36418,7 @@ id: EMAPA:26555
 name: C6 foramen transversarium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:25757.
-is_a: EMAPA:36272 ! foramen tranversarium
+is_a: EMAPA:36272 ! foramen transversarium
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25757 ! C6 neural arch transverse process
 relationship: starts_at TS26 ! TS26
@@ -36426,7 +36428,7 @@ id: EMAPA:26557
 name: C7 foramen transversarium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:25764.
-is_a: EMAPA:36272 ! foramen tranversarium
+is_a: EMAPA:36272 ! foramen transversarium
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25764 ! C7 neural arch transverse process
 relationship: starts_at TS26 ! TS26
@@ -36975,7 +36977,7 @@ id: EMAPA:26673
 name: C1 foramen transversarium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:26671.
-is_a: EMAPA:36272 ! foramen tranversarium
+is_a: EMAPA:36272 ! foramen transversarium
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:26671 ! C1 neural arch transverse process
 relationship: starts_at TS26 ! TS26
@@ -36994,7 +36996,7 @@ id: EMAPA:26677
 name: C2 foramen transversarium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:26675.
-is_a: EMAPA:36272 ! foramen tranversarium
+is_a: EMAPA:36272 ! foramen transversarium
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:26675 ! C2 neural arch transverse process
 relationship: starts_at TS26 ! TS26
@@ -39214,7 +39216,7 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:28029
-name: developing vasculature of cortex
+name: developing vasculature of renal cortex
 namespace: anatomical_structure
 comment: order=9 for EMAPA:17952.\norder=7 for EMAPA:28457.
 relationship: ends_at TS22 ! TS22
@@ -39224,29 +39226,29 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:28035
-name: developing arterial vasculature of cortex
+name: developing arterial vasculature of renal cortex
 namespace: anatomical_structure
 comment: order=0 for EMAPA:28029.
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:28029 ! developing vasculature of cortex
+relationship: part_of EMAPA:28029 ! developing vasculature of renal cortex
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:28037
-name: developing venous vasculature of cortex
+name: developing venous vasculature of renal cortex
 namespace: anatomical_structure
 comment: order=1 for EMAPA:28029.
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:28029 ! developing vasculature of cortex
+relationship: part_of EMAPA:28029 ! developing vasculature of renal cortex
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:28039
-name: developing capillary of cortex
+name: developing capillary of renal cortex
 namespace: anatomical_structure
 comment: order=2 for EMAPA:28029.
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:28029 ! developing vasculature of cortex
+relationship: part_of EMAPA:28029 ! developing vasculature of renal cortex
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -39272,7 +39274,7 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:28069
-name: developing vasculature of medulla
+name: developing vasculature of renal medulla
 namespace: anatomical_structure
 comment: order=3 for EMAPA:19279.\norder=8 for EMAPA:28457.
 relationship: ends_at TS22 ! TS22
@@ -39282,29 +39284,29 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:28071
-name: developing arterial vasculature of medulla
+name: developing arterial vasculature of renal medulla
 namespace: anatomical_structure
 comment: order=0 for EMAPA:28069.
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:28069 ! developing vasculature of medulla
+relationship: part_of EMAPA:28069 ! developing vasculature of renal medulla
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:28073
-name: developing venous vasculature of medulla
+name: developing venous vasculature of renal medulla
 namespace: anatomical_structure
 comment: order=1 for EMAPA:28069.
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:28069 ! developing vasculature of medulla
+relationship: part_of EMAPA:28069 ! developing vasculature of renal medulla
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:28075
-name: developing capillary of medulla
+name: developing capillary of renal medulla
 namespace: anatomical_structure
 comment: order=2 for EMAPA:28069.
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:28069 ! developing vasculature of medulla
+relationship: part_of EMAPA:28069 ! developing vasculature of renal medulla
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -40792,7 +40794,7 @@ relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:29114
-name: developing vasculature of the testis
+name: developing vasculature of testis
 namespace: anatomical_structure
 comment: order=7 for EMAPA:17972.\norder=5 for EMAPA:31564.
 relationship: ends_at TS27 ! TS27
@@ -40806,7 +40808,7 @@ name: coelomic vessel
 namespace: anatomical_structure
 comment: order=0 for EMAPA:29114.
 relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:29114 ! developing vasculature of the testis
+relationship: part_of EMAPA:29114 ! developing vasculature of testis
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -40815,7 +40817,7 @@ name: interstitial vessel
 namespace: anatomical_structure
 comment: order=1 for EMAPA:29114.
 relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:29114 ! developing vasculature of the testis
+relationship: part_of EMAPA:29114 ! developing vasculature of testis
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -41213,7 +41215,7 @@ relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:29631
-name: vasculature of the ovary
+name: vasculature of ovary
 namespace: anatomical_structure
 comment: order=16 for EMAPA:17962.
 relationship: ends_at TS28 ! TS28
@@ -51193,6 +51195,7 @@ id: EMAPA:35252
 name: coronary vascular plexus
 namespace: anatomical_structure
 comment: order=11 for EMAPA:16105.
+is_a: EMAPA:35904 ! vascular plexus
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16105 ! heart
 relationship: starts_at TS20 ! TS20
@@ -53424,14 +53427,13 @@ relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35498
-name: liver blood vessel
+name: liver vasculature
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16846.
 synonym: "hepatic blood vessel" RELATED []
-is_a: EMAPA:32743 ! blood vessel
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16846 ! liver
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35499
@@ -53450,8 +53452,8 @@ namespace: anatomical_structure
 comment: order=5 for EMAPA:16846.
 synonym: "hepatic vascular element" RELATED []
 is_a: EMAPA:35993 ! vascular element
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16846 ! liver
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35498 ! liver vasculature
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -55052,8 +55054,8 @@ id: EMAPA:35678
 name: perineural vascular plexus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35904.
+is_a: EMAPA:35904 ! vascular plexus
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:35904 ! vascular plexus
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -57102,9 +57104,8 @@ name: vascular plexus
 namespace: anatomical_structure
 comment: order=4 for EMAPA:35905.
 is_a: EMAPA:35993 ! vascular element
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:35905 ! vascular system
-relationship: starts_at TS21 ! TS21
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:35905
@@ -58572,7 +58573,7 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:36062
 name: cranium bone primordium
 namespace: anatomical_structure
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17680 ! cranium
 relationship: starts_at TS21 ! TS21
 
@@ -60423,11 +60424,11 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:36272
-name: foramen tranversarium
+name: foramen transversarium
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17674 ! cervical vertebra
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:36273
@@ -60803,6 +60804,133 @@ comment: order=5 for EMAPA:17382.
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:17382 ! genital tubercle
 relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:36316
+name: palatine vasculature
+namespace: anatomical_structure
+relationship: ends_at TS23 ! TS23
+relationship: part_of EMAPA:17362 ! palatal shelf
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36317
+name: Reichert's cartilage pre-cartilage condensation
+namespace: anatomical_structure
+is_a: EMAPA:32736 ! pre-cartilage condensation
+relationship: ends_at TS19 ! TS19
+relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:36318
+name: Reichert's cartilage condensation
+namespace: anatomical_structure
+is_a: EMAPA:32731 ! cartilage condensation
+relationship: ends_at TS22 ! TS22
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36319
+name: Reichert's cartilage
+namespace: anatomical_structure
+is_a: EMAPA:36062 ! cranium bone primordium
+relationship: ends_at TS26 ! TS26
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36320
+name: styloid process of temporal bone
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17682 ! temporal bone
+relationship: part_of EMAPA:36319 ! Reichert's cartilage
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36321
+name: hyoid body upper part
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18653 ! hyoid body
+relationship: part_of EMAPA:36319 ! Reichert's cartilage
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36322
+name: chordae tendinae
+namespace: anatomical_structure
+def: "Cord-like tendons connecting the papillary muscles to the leaflets of the mitral and tricuspid valves." []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17331 ! heart ventricle
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36323
+name: hepatic venous plexus
+namespace: anatomical_structure
+xref: XX:<new xref>
+is_a: EMAPA:35501 ! liver vascular element
+is_a: EMAPA:36327 ! venous plexus
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16240 ! venous system
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36324
+name: lingual artery
+namespace: anatomical_structure
+is_a: EMAPA:35147 ! artery
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS25 ! TS25
+
+[Term]
+id: EMAPA:36325
+name: thymic vein
+namespace: anatomical_structure
+is_a: EMAPA:35906 ! vein
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS26 ! TS26
+
+[Term]
+id: EMAPA:36326
+name: liver lobar interzone
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16846 ! liver
+relationship: starts_at TS25 ! TS25
+
+[Term]
+id: EMAPA:36327
+name: venous plexus
+namespace: anatomical_structure
+is_a: EMAPA:35904 ! vascular plexus
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16240 ! venous system
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36328
+name: vertebral venous plexus
+namespace: anatomical_structure
+is_a: EMAPA:36327 ! venous plexus
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS25 ! TS25
+
+[Term]
+id: EMAPA:36329
+name: external vertebral venous plexus
+namespace: anatomical_structure
+is_a: EMAPA:36328 ! vertebral venous plexus
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS25 ! TS25
+
+[Term]
+id: EMAPA:36330
+name: internal vertebral venous plexus
+namespace: anatomical_structure
+is_a: EMAPA:36328 ! vertebral venous plexus
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: group_term
