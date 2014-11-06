@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 04:11:2014 16:53
-saved-by: terryh
-auto-generated-by: OBO-Edit 2.1.1-beta6
+date: 06:11:2014 15:29
+saved-by: jarm
+auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -43751,9 +43751,7 @@ id: EMAPA:30888
 name: urethral fold
 namespace: anatomical_structure
 comment: order=20 for EMAPA:17366.
-relationship: ends_at TS20 ! TS20
-relationship: part_of EMAPA:17366 ! urinary system
-relationship: starts_at TS20 ! TS20
+is_obsolete: true
 
 [Term]
 id: EMAPA:30897
@@ -43769,9 +43767,7 @@ id: EMAPA:30899
 name: urethral fold
 namespace: anatomical_structure
 comment: order=3 for EMAPA:30891.
-relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:30901 ! urethra
-relationship: starts_at TS21 ! TS21
+is_obsolete: true
 
 [Term]
 id: EMAPA:30901
@@ -43851,9 +43847,7 @@ id: EMAPA:30915
 name: urethral fold of phallic urethra
 namespace: anatomical_structure
 comment: order=1 for EMAPA:30911.
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:30911 ! phallic urethra
-relationship: starts_at TS22 ! TS22
+is_obsolete: true
 
 [Term]
 id: EMAPA:30917
@@ -60931,6 +60925,45 @@ namespace: anatomical_structure
 is_a: EMAPA:36328 ! vertebral venous plexus
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS25 ! TS25
+
+[Term]
+id: EMAPA:36331
+name: tailgut
+namespace: anatomical_structure
+def: "tailgut (tg) (TS19-TS19): a blind-ended, caudal/posterior epithelial extension from the cloacal epithelium." []
+relationship: ends_at TS19 ! TS19
+relationship: part_of EMAPA:17366 ! urinary system
+relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:36332
+name: bladder-urethra transition zone
+namespace: anatomical_structure
+def: "bladder-urethra transition zone (syn: bladder-urethra junction) (TS22-TS28): comprised of epithelium and mesenchyme of bladder-urethra transition zone. The zone or region located where the bladder neck meets the pelvic urethra/urethra, marking the junction where these two different epithelia meet (urothelium of bladder and epithelium of pelvic urethra). It is similar to transitional zones in other organs, such as the female cervix and the Z-line in the oesophagus. It is located close to where the nephric duct attaches to the urogenital sinus. Part of the urogenital sinus (to TS26) and part of the urinary system. Use these terms to annotate expression in the epithelium or mesenchyme where the bladder meets the pelvic urethra, when the tissue cannot be identified as being either part of the bladder or part of the pelvic urethra." []
+synonym: "bladder-urethra junction" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17366 ! urinary system
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36333
+name: epithelium of bladder-urethra transition zone
+namespace: anatomical_structure
+def: "epithelium of bladder-urethra transition zone (TS22-TS28): the zone or region of the epithelium located where the bladder neck meets the pelvic urethra/urethra, marking the junction where these two different epithelia meet (urothelium of bladder and epithelium of pelvic urethra). It is similar to transitional zones in other organs, such as the female cervix and the Z-line in the oesophagus. It is located close to where the nephric duct attaches to the urogenital sinus. Part of the bladder-urethra transition zone and part of the urogenital sinus and part of the urinary system. Use this term to annotate expression in the epithelium where the bladder neck meets the pelvic urethra, when the tissue cannot be identified as being either part of the bladder or part of the pelvic urethra." []
+comment: order=0 for EMAPA:36332.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36332 ! bladder-urethra transition zone
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36334
+name: mesenchyme of bladder-urethra transition zone
+namespace: anatomical_structure
+def: "mesenchyme of bladder-urethra transition zone (TS22-TS28): the mesenchyme surrounding the epithelium in the zone or region of the where the bladder neck meets the pelvic urethra/urethra. It is similar to transitional zones in other organs, such as the female cervix and the Z-line in the oesophagus. It is located close to where the nephric duct attaches to the urogenital sinus. Part of the bladder-urethra transition zone and part of the urogenital sinus and part of the urinary system. Use this term to annotate expression in the mesenchyme where the bladder neck meets the pelvic urethra, when the tissue cannot be identified as being either part of the bladder or part of the pelvic urethra." []
+comment: order=1 for EMAPA:36332.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36332 ! bladder-urethra transition zone
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: group_term
