@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 07:11:2014 16:42
+date: 07:11:2014 16:47
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.1.1-beta6
 default-namespace: mouse_ontology
@@ -2022,7 +2022,6 @@ id: EMAPA:16263
 name: stomatodeum
 namespace: anatomical_structure
 comment: order=21 for EMAPA:16262.
-synonym: "<new synonym>" RELATED []
 synonym: "mouth pit" RELATED []
 synonym: "oral pit" RELATED []
 synonym: "stomatodaeum" RELATED []
