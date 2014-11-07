@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 06:11:2014 15:29
-saved-by: jarm
-auto-generated-by: OBO-Edit 2.3.1
+date: 07:11:2014 16:42
+saved-by: terryh
+auto-generated-by: OBO-Edit 2.1.1-beta6
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -2022,11 +2022,13 @@ id: EMAPA:16263
 name: stomatodeum
 namespace: anatomical_structure
 comment: order=21 for EMAPA:16262.
+synonym: "<new synonym>" RELATED []
 synonym: "mouth pit" RELATED []
 synonym: "oral pit" RELATED []
+synonym: "stomatodaeum" RELATED []
 synonym: "stomodaeum" RELATED []
 synonym: "stomodeum" RELATED []
-relationship: ends_at TS14 ! TS14
+relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16262 ! oral region
 relationship: starts_at TS12 ! TS12
 
@@ -4794,19 +4796,19 @@ name: stomatodeum gland
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16263.
 is_a: EMAPA:18425 ! gland
-relationship: ends_at TS14 ! TS14
+relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16263 ! stomatodeum
 relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16575
-name: stomatodeum rest of ectoderm
+name: stomatodeum ectoderm
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16263.
-is_a: EMAPA:35990 ! alimentary system ectoderm
-relationship: ends_at TS14 ! TS14
+relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16263 ! stomatodeum
-relationship: starts_at TS14 ! TS14
+relationship: part_of EMAPA:16726 ! oral region ectoderm
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16576
@@ -6140,7 +6142,6 @@ alt_id: EMAPA:16573
 comment: order=16 for EMAPA:16262.\norder=2 for EMAPA:32796.
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16262 ! oral region
-relationship: part_of EMAPA:16263 ! stomatodeum
 relationship: part_of EMAPA:32796 ! future pituitary
 relationship: starts_at TS14 ! TS14
 
@@ -6151,18 +6152,20 @@ namespace: anatomical_structure
 alt_id: EMAPA:16574
 comment: order=0 for EMAPA:16724.
 relationship: ends_at TS19 ! TS19
+relationship: part_of EMAPA:16575 ! stomatodeum ectoderm
 relationship: part_of EMAPA:16724 ! future adenohypophysis
+relationship: part_of EMAPA:16726 ! oral region ectoderm
 relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16726
-name: oral region rest of ectoderm
+name: oral region ectoderm
 namespace: anatomical_structure
 comment: order=15 for EMAPA:16262.
 is_a: EMAPA:35990 ! alimentary system ectoderm
-relationship: ends_at TS15 ! TS15
+relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16262 ! oral region
-relationship: starts_at TS15 ! TS15
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16727
@@ -6370,14 +6373,14 @@ relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16747
-name: mesonephros tubule
+name: mesonephric tubule
 namespace: anatomical_structure
 alt_id: EMAPA:27588
 alt_id: EMAPA:27659
 alt_id: EMAPA:35566
 comment: order=1 for EMAPA:16744.
-synonym: "mesonephric tubule" EXACT []
-relationship: ends_at TS20 ! TS20
+synonym: "mesonephros tubule" RELATED []
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:16744 ! mesonephros
 relationship: starts_at TS15 ! TS15
 
@@ -40477,6 +40480,7 @@ name: mesonephros of female
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17959.
 is_a: EMAPA:16744 ! mesonephros
+is_a: EMAPA:16747 ! mesonephric tubule
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: starts_at TS20 ! TS20
@@ -40496,6 +40500,7 @@ id: EMAPA:28919
 name: mesonephric tubule of female
 namespace: anatomical_structure
 comment: order=1 for EMAPA:28909.
+is_a: EMAPA:16747 ! mesonephric tubule
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:28909 ! mesonephros of female
 relationship: starts_at TS20 ! TS20
@@ -40845,7 +40850,8 @@ id: EMAPA:29148
 name: mesonephric tubule of male
 namespace: anatomical_structure
 comment: order=2 for EMAPA:29138.
-relationship: ends_at TS22 ! TS22
+is_a: EMAPA:16747 ! mesonephric tubule
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:29138 ! mesonephros of male
 relationship: starts_at TS20 ! TS20
 
@@ -42879,8 +42885,10 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:30528
 name: cranial mesonephric tubule of male
 namespace: anatomical_structure
-comment: order=0 for EMAPA:29148.
-relationship: ends_at TS22 ! TS22
+alt_id: EMAPA:30556
+comment: order=0 for EMAPA:29148.\norder=3 for EMAPA:29138.
+relationship: ends_at TS23 ! TS23
+relationship: part_of EMAPA:29138 ! mesonephros of male
 relationship: part_of EMAPA:29148 ! mesonephric tubule of male
 relationship: starts_at TS20 ! TS20
 
@@ -42888,8 +42896,11 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:30532
 name: mesonephric glomerulus of male
 namespace: anatomical_structure
-comment: order=0 for EMAPA:30528.
-relationship: ends_at TS22 ! TS22
+alt_id: EMAPA:30560
+comment: order=0 for EMAPA:30528.\norder=0 for EMAPA:30556.
+synonym: "mesonephros glomerulus of male" EXACT []
+is_a: EMAPA:30568 ! mesonephric glomerulus
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:30528 ! cranial mesonephric tubule of male
 relationship: starts_at TS20 ! TS20
 
@@ -42897,8 +42908,11 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:30536
 name: rest of cranial mesonephric tubule of male
 namespace: anatomical_structure
-comment: order=1 for EMAPA:30528.
-relationship: ends_at TS22 ! TS22
+alt_id: EMAPA:30558
+comment: order=1 for EMAPA:30528.\norder=1 for EMAPA:30556.
+synonym: "rest of cranial mesonephros tubule of male" EXACT []
+is_a: EMAPA:30565 ! rest of cranial mesonephric tubule
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:30528 ! cranial mesonephric tubule of male
 relationship: starts_at TS20 ! TS20
 
@@ -42907,6 +42921,7 @@ id: EMAPA:30540
 name: caudal mesonephric tubule of male
 namespace: anatomical_structure
 comment: order=1 for EMAPA:29148.
+is_a: EMAPA:30571 ! caudal mesonephric tubule
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:29148 ! mesonephric tubule of male
 relationship: starts_at TS20 ! TS20
@@ -42916,6 +42931,7 @@ id: EMAPA:30544
 name: cranial mesonephric tubule of female
 namespace: anatomical_structure
 comment: order=0 for EMAPA:28919.
+is_a: EMAPA:30562 ! cranial mesonephric tubule
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:28919 ! mesonephric tubule of female
 relationship: starts_at TS20 ! TS20
@@ -42925,6 +42941,7 @@ id: EMAPA:30547
 name: mesonephric glomerulus of female
 namespace: anatomical_structure
 comment: order=0 for EMAPA:30544.
+is_a: EMAPA:30568 ! mesonephric glomerulus
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:30544 ! cranial mesonephric tubule of female
 relationship: starts_at TS20 ! TS20
@@ -42934,6 +42951,7 @@ id: EMAPA:30550
 name: rest of cranial mesonephric tubule of female
 namespace: anatomical_structure
 comment: order=1 for EMAPA:30544.
+is_a: EMAPA:30565 ! rest of cranial mesonephric tubule
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:30544 ! cranial mesonephric tubule of female
 relationship: starts_at TS20 ! TS20
@@ -42943,79 +42961,53 @@ id: EMAPA:30553
 name: caudal mesonephric tubule of female
 namespace: anatomical_structure
 comment: order=1 for EMAPA:28919.
+is_a: EMAPA:30571 ! caudal mesonephric tubule
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:28919 ! mesonephric tubule of female
 relationship: starts_at TS20 ! TS20
 
 [Term]
-id: EMAPA:30556
-name: cranial mesonephric tubule of male
-namespace: anatomical_structure
-comment: order=3 for EMAPA:29138.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:29138 ! mesonephros of male
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:30558
-name: rest of cranial mesonephric tubule
-namespace: anatomical_structure
-comment: order=1 for EMAPA:30556.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:30556 ! cranial mesonephric tubule of male
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:30560
-name: mesonephric glomerulus of male
-namespace: anatomical_structure
-comment: order=0 for EMAPA:30556.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:30556 ! cranial mesonephric tubule of male
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:30562
-name: cranial mesonephros tubule
+name: cranial mesonephric tubule
 namespace: anatomical_structure
 alt_id: EMAPA:30576
 comment: order=0 for EMAPA:16744.
-synonym: "cranial mesonephric tubule" EXACT []
-relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16747 ! mesonephros tubule
+synonym: "cranial mesonephros tubule" RELATED []
+relationship: ends_at TS23 ! TS23
+relationship: part_of EMAPA:16747 ! mesonephric tubule
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:30565
-name: rest of cranial mesonephros tubule
+name: rest of cranial mesonephric tubule
 namespace: anatomical_structure
 alt_id: EMAPA:30578
 comment: order=1 for EMAPA:30562.
-synonym: "rest of cranial mesonephric tubule" RELATED []
-relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:30562 ! cranial mesonephros tubule
+synonym: "rest of cranial mesonephros tubule" RELATED []
+relationship: ends_at TS23 ! TS23
+relationship: part_of EMAPA:30562 ! cranial mesonephric tubule
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:30568
-name: mesonephros glomerulus
+name: mesonephric glomerulus
 namespace: anatomical_structure
 alt_id: EMAPA:30580
 comment: order=0 for EMAPA:30562.
-synonym: "mesonephric glomerulus" EXACT []
-relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:30562 ! cranial mesonephros tubule
+synonym: "mesonephos glomerulus" EXACT []
+relationship: ends_at TS23 ! TS23
+relationship: part_of EMAPA:30562 ! cranial mesonephric tubule
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:30571
-name: caudal mesonephros tubule
+name: caudal mesonephric tubule
 namespace: anatomical_structure
 alt_id: EMAPA:30574
 comment: order=1 for EMAPA:16747.
-synonym: "caudal mesonephric tubule" RELATED []
-relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16747 ! mesonephros tubule
+synonym: "caudal mesonephros tubule" RELATED []
+relationship: ends_at TS22 ! TS22
+relationship: part_of EMAPA:16747 ! mesonephric tubule
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -60964,6 +60956,14 @@ comment: order=1 for EMAPA:36332.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36332 ! bladder-urethra transition zone
 relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36335
+name: remnant of mesonephric tubule of male
+namespace: anatomical_structure
+relationship: ends_at TS24 ! TS24
+relationship: part_of EMAPA:17968 ! male reproductive system
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: group_term
