@@ -12,7 +12,7 @@ name: Anatomical structure
 namespace: anatomical_structure
 
 [Term]
-id: EMAPA:160325555
+id: EMAPA:16032
 name: first polar body
 namespace: anatomical_structure
 comment: order=18 for EMAPA:25765.
