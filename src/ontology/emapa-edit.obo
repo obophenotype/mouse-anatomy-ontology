@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 07:11:2014 16:47
+date: 13:11:2014 15:35
 saved-by: terryh
-auto-generated-by: OBO-Edit 2.1.1-beta6
+auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -11925,7 +11925,6 @@ synonym: "pollex" RELATED []
 synonym: "thumb" RELATED []
 is_a: EMAPA:32642 ! forelimb digit
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17428 ! hand
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -11957,7 +11956,6 @@ synonym: "index finger" RELATED []
 synonym: "second finger" RELATED []
 is_a: EMAPA:32642 ! forelimb digit
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17428 ! hand
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -11990,7 +11988,6 @@ synonym: "middle finger" RELATED []
 synonym: "third finger" RELATED []
 is_a: EMAPA:32642 ! forelimb digit
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17428 ! hand
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -12020,7 +12017,6 @@ namespace: anatomical_structure
 comment: order=5 for EMAPA:17428.
 is_a: EMAPA:32642 ! forelimb digit
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17428 ! hand
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -12052,7 +12048,6 @@ synonym: "digiti minimi" RELATED []
 synonym: "fifth finger" RELATED []
 is_a: EMAPA:32642 ! forelimb digit
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17428 ! hand
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -12244,7 +12239,6 @@ synonym: "hallux" RELATED []
 synonym: "large toe" RELATED []
 is_a: EMAPA:32649 ! hindlimb digit
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17459 ! foot
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -12274,7 +12268,6 @@ namespace: anatomical_structure
 comment: order=9 for EMAPA:17459.
 is_a: EMAPA:32649 ! hindlimb digit
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17459 ! foot
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -12304,7 +12297,6 @@ namespace: anatomical_structure
 comment: order=10 for EMAPA:17459.
 is_a: EMAPA:32649 ! hindlimb digit
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17459 ! foot
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -12334,7 +12326,6 @@ namespace: anatomical_structure
 comment: order=11 for EMAPA:17459.
 is_a: EMAPA:32649 ! hindlimb digit
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17459 ! foot
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -12364,7 +12355,6 @@ namespace: anatomical_structure
 comment: order=12 for EMAPA:17459.
 is_a: EMAPA:32649 ! hindlimb digit
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17459 ! foot
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -30126,7 +30116,7 @@ name: forelimb digit 1 metacarpo-phalangeal joint
 namespace: anatomical_structure
 comment: order=5 for EMAPA:17429.
 is_a: EMAPA:19302 ! metacarpo-phalangeal joint
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17429 ! forelimb digit 1
 relationship: starts_at TS22 ! TS22
 
@@ -30135,8 +30125,8 @@ id: EMAPA:25058
 name: forelimb digit 1 inter-phalangeal joint
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17429.
-is_a: EMAPA:32641 ! hand joint
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36336 ! forelimb digit inter-phalangeal joint
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17429 ! forelimb digit 1
 relationship: starts_at TS22 ! TS22
 
@@ -30155,7 +30145,7 @@ name: forelimb digit 2 metacarpo-phalangeal joint
 namespace: anatomical_structure
 comment: order=5 for EMAPA:17432.
 is_a: EMAPA:19302 ! metacarpo-phalangeal joint
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17432 ! forelimb digit 2
 relationship: starts_at TS22 ! TS22
 
@@ -30164,10 +30154,10 @@ id: EMAPA:25061
 name: forelimb digit 2 inter-phalangeal joint
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17432.
-is_a: EMAPA:32641 ! hand joint
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36336 ! forelimb digit inter-phalangeal joint
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17432 ! forelimb digit 2
-relationship: starts_at TS20 ! TS20
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:25062
@@ -30184,7 +30174,7 @@ name: forelimb digit 3 metacarpo-phalangeal joint
 namespace: anatomical_structure
 comment: order=5 for EMAPA:17435.
 is_a: EMAPA:19302 ! metacarpo-phalangeal joint
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17435 ! forelimb digit 3
 relationship: starts_at TS22 ! TS22
 
@@ -30193,8 +30183,8 @@ id: EMAPA:25064
 name: forelimb digit 3 inter-phalangeal joint
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17435.
-is_a: EMAPA:32641 ! hand joint
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36336 ! forelimb digit inter-phalangeal joint
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17435 ! forelimb digit 3
 relationship: starts_at TS22 ! TS22
 
@@ -30213,7 +30203,7 @@ name: forelimb digit 4 metacarpo-phalangeal joint
 namespace: anatomical_structure
 comment: order=5 for EMAPA:17438.
 is_a: EMAPA:19302 ! metacarpo-phalangeal joint
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17438 ! forelimb digit 4
 relationship: starts_at TS22 ! TS22
 
@@ -30222,8 +30212,8 @@ id: EMAPA:25067
 name: forelimb digit 4 inter-phalangeal joint
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17438.
-is_a: EMAPA:32641 ! hand joint
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36336 ! forelimb digit inter-phalangeal joint
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17438 ! forelimb digit 4
 relationship: starts_at TS22 ! TS22
 
@@ -30242,7 +30232,7 @@ name: forelimb digit 5 metacarpo-phalangeal joint
 namespace: anatomical_structure
 comment: order=5 for EMAPA:17441.
 is_a: EMAPA:19302 ! metacarpo-phalangeal joint
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17441 ! forelimb digit 5
 relationship: starts_at TS22 ! TS22
 
@@ -30251,8 +30241,8 @@ id: EMAPA:25070
 name: forelimb digit 5 inter-phalangeal joint
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17441.
-is_a: EMAPA:32641 ! hand joint
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36336 ! forelimb digit inter-phalangeal joint
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17441 ! forelimb digit 5
 relationship: starts_at TS22 ! TS22
 
@@ -36180,9 +36170,9 @@ id: EMAPA:26430
 name: hindlimb digit 1 inter-phalangeal joint
 namespace: anatomical_structure
 comment: order=2 for EMAPA:17460.
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36337 ! hindlimb digit inter-phalangeal joint
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17460 ! hindlimb digit 1
-relationship: part_of EMAPA:32949 ! foot joint
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -36190,9 +36180,9 @@ id: EMAPA:26436
 name: hindlimb digit 1 metacarpo-phalangeal joint
 namespace: anatomical_structure
 comment: order=4 for EMAPA:17460.
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36338 ! hindlimb digit metacarpo-phalangeal joint
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17460 ! hindlimb digit 1
-relationship: part_of EMAPA:32949 ! foot joint
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -36200,9 +36190,9 @@ id: EMAPA:26442
 name: hindlimb digit 2 metacarpo-phalangeal joint
 namespace: anatomical_structure
 comment: order=4 for EMAPA:17463.
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36338 ! hindlimb digit metacarpo-phalangeal joint
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17463 ! hindlimb digit 2
-relationship: part_of EMAPA:32949 ! foot joint
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -36210,9 +36200,9 @@ id: EMAPA:26448
 name: hindlimb digit 2 inter-phalangeal joint
 namespace: anatomical_structure
 comment: order=2 for EMAPA:17463.
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36337 ! hindlimb digit inter-phalangeal joint
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17463 ! hindlimb digit 2
-relationship: part_of EMAPA:32949 ! foot joint
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -36220,9 +36210,9 @@ id: EMAPA:26454
 name: hindlimb digit 3 inter-phalangeal joint
 namespace: anatomical_structure
 comment: order=2 for EMAPA:17466.
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36337 ! hindlimb digit inter-phalangeal joint
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17466 ! hindlimb digit 3
-relationship: part_of EMAPA:32949 ! foot joint
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -36230,9 +36220,9 @@ id: EMAPA:26460
 name: hindlimb digit 3 metacarpo-phalangeal joint
 namespace: anatomical_structure
 comment: order=4 for EMAPA:17466.
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36338 ! hindlimb digit metacarpo-phalangeal joint
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17466 ! hindlimb digit 3
-relationship: part_of EMAPA:32949 ! foot joint
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -36240,9 +36230,9 @@ id: EMAPA:26466
 name: hindlimb digit 4 inter-phalangeal joint
 namespace: anatomical_structure
 comment: order=2 for EMAPA:17469.
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36337 ! hindlimb digit inter-phalangeal joint
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17469 ! hindlimb digit 4
-relationship: part_of EMAPA:32949 ! foot joint
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -36250,9 +36240,9 @@ id: EMAPA:26472
 name: hindlimb digit 4 metacarpo-phalangeal joint
 namespace: anatomical_structure
 comment: order=4 for EMAPA:17469.
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36338 ! hindlimb digit metacarpo-phalangeal joint
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17469 ! hindlimb digit 4
-relationship: part_of EMAPA:32949 ! foot joint
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -36260,9 +36250,9 @@ id: EMAPA:26478
 name: hindlimb digit 5 inter-phalangeal joint
 namespace: anatomical_structure
 comment: order=2 for EMAPA:17472.
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36337 ! hindlimb digit inter-phalangeal joint
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17472 ! hindlimb digit 5
-relationship: part_of EMAPA:32949 ! foot joint
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -36270,9 +36260,9 @@ id: EMAPA:26484
 name: hindlimb digit 5 metacarpo-phalangeal joint
 namespace: anatomical_structure
 comment: order=4 for EMAPA:17472.
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36338 ! hindlimb digit metacarpo-phalangeal joint
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17472 ! hindlimb digit 5
-relationship: part_of EMAPA:32949 ! foot joint
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -40479,7 +40469,6 @@ name: mesonephros of female
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17959.
 is_a: EMAPA:16744 ! mesonephros
-is_a: EMAPA:16747 ! mesonephric tubule
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: starts_at TS20 ! TS20
@@ -60963,6 +60952,32 @@ namespace: anatomical_structure
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:17968 ! male reproductive system
 relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36336
+name: forelimb digit inter-phalangeal joint
+namespace: anatomical_structure
+is_a: EMAPA:32641 ! hand joint
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32642 ! forelimb digit
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:36337
+name: hindlimb digit inter-phalangeal joint
+namespace: anatomical_structure
+is_a: EMAPA:32949 ! foot joint
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32649 ! hindlimb digit
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36338
+name: hindlimb digit metacarpo-phalangeal joint
+namespace: anatomical_structure
+is_a: EMAPA:32949 ! foot joint
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: group_term
