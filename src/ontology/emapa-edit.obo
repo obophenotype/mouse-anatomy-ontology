@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 13:11:2014 15:35
-saved-by: terryh
+date: 20:11:2014 15:29
+saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -4836,9 +4836,13 @@ relationship: starts_at TS14 ! TS14
 id: EMAPA:16578
 name: primordial germ cell
 namespace: anatomical_structure
-comment: order=6 for EMAPA:16367.
-relationship: ends_at TS15 ! TS15
+alt_id: EMAPA:16859
+alt_id: EMAPA:17386
+comment: order=6 for EMAPA:16367.\norder=2 for EMAPA:17383.
+relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:16367 ! genitourinary system
+relationship: part_of EMAPA:16857 ! gonad primordium
+relationship: part_of EMAPA:17383 ! gonad
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -7466,15 +7470,6 @@ name: gonad primordium mesenchyme
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16857.
 is_a: EMAPA:16576 ! genitourinary system mesenchyme
-relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16857 ! gonad primordium
-relationship: starts_at TS16 ! TS16
-
-[Term]
-id: EMAPA:16859
-name: primordial germ cell
-namespace: anatomical_structure
-comment: order=2 for EMAPA:16857.
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16857 ! gonad primordium
 relationship: starts_at TS16 ! TS16
@@ -11488,15 +11483,6 @@ comment: order=1 for EMAPA:17383.
 synonym: "gonad mesenchyme" RELATED []
 is_a: EMAPA:35728 ! reproductive system mesenchyme
 relationship: ends_at TS20 ! TS20
-relationship: part_of EMAPA:17383 ! gonad
-relationship: starts_at TS19 ! TS19
-
-[Term]
-id: EMAPA:17386
-name: primordial germ cell
-namespace: anatomical_structure
-comment: order=2 for EMAPA:17383.
-relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17383 ! gonad
 relationship: starts_at TS19 ! TS19
 
@@ -42876,7 +42862,6 @@ namespace: anatomical_structure
 alt_id: EMAPA:30556
 comment: order=0 for EMAPA:29148.\norder=3 for EMAPA:29138.
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:29138 ! mesonephros of male
 relationship: part_of EMAPA:29148 ! mesonephric tubule of male
 relationship: starts_at TS20 ! TS20
 
@@ -44996,21 +44981,21 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:31524
 name: nerve of phallic urethra
 namespace: anatomical_structure
+alt_id: EMAPA:31557
 comment: order=2 for EMAPA:30911.\norder=3 for EMAPA:31569.
+synonym: "nerve of caudal urethra" RELATED []
 is_a: EMAPA:35948 ! nerve of urinary system
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:30911 ! phallic urethra
 relationship: part_of EMAPA:31569 ! nerves of urethra
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:31525
 name: mesenchymal layer of ventral primitive bladder
 namespace: anatomical_structure
 comment: order=1 for EMAPA:30876.
-relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:30876 ! mesenchymal layer of primitive bladder
-relationship: starts_at TS20 ! TS20
+is_obsolete: true
 
 [Term]
 id: EMAPA:31526
@@ -45046,9 +45031,7 @@ id: EMAPA:31529
 name: mesenchymal layer of dorsal primitive bladder
 namespace: anatomical_structure
 comment: order=0 for EMAPA:30876.
-relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:30876 ! mesenchymal layer of primitive bladder
-relationship: starts_at TS20 ! TS20
+is_obsolete: true
 
 [Term]
 id: EMAPA:31530
@@ -45309,16 +45292,6 @@ comment: order=0 for EMAPA:28709.
 relationship: ends_at TS25 ! TS25
 relationship: part_of EMAPA:28709 ! muscle layer of pelvic urethra of male
 relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:31557
-name: nerve of caudal urethra
-namespace: anatomical_structure
-comment: order=0 for EMAPA:30895.
-is_a: EMAPA:35948 ! nerve of urinary system
-relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:30911 ! phallic urethra
-relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:31559
