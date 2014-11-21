@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 20:11:2014 15:29
-saved-by: jarm
-auto-generated-by: OBO-Edit 2.3.1
+date: 21:11:2014 15:41
+saved-by: terryh
+auto-generated-by: OBO-Edit 2.1.1-beta6
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -23714,6 +23714,8 @@ id: EMAPA:18976
 name: cortical renal tubule
 namespace: anatomical_structure
 comment: order=6 for EMAPA:17952.\norder=0 for EMAPA:17954.\norder=1 for EMAPA:28445.\norder=1 for EMAPA:28485.\norder=0 for EMAPA:28491.\norder=1 for EMAPA:28506.\norder=2 for EMAPA:28527.
+synonym: "kidney cortex tubule" RELATED []
+synonym: "renal cortex tubule" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17952 ! renal cortex
 relationship: part_of EMAPA:17954 ! early nephron group
@@ -55474,8 +55476,8 @@ id: EMAPA:35730
 name: respiratory bronchiole epithelium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35729.
+is_a: EMAPA:32693 ! bronchiole epithelium
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32693 ! bronchiole epithelium
 relationship: part_of EMAPA:35729 ! respiratory bronchiole
 relationship: starts_at TS24 ! TS24
 
@@ -60469,8 +60471,8 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:36283
 name: terminal bronchiole epithelium
 namespace: anatomical_structure
+is_a: EMAPA:32693 ! bronchiole epithelium
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32693 ! bronchiole epithelium
 relationship: part_of EMAPA:36282 ! terminal bronchiole
 relationship: starts_at TS24 ! TS24
 
@@ -60951,6 +60953,14 @@ namespace: anatomical_structure
 is_a: EMAPA:32949 ! foot joint
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36339
+name: bronchiole smooth muscle
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32697 ! bronchiole
+relationship: starts_at TS28 ! TS28
 
 [Term]
 id: group_term
