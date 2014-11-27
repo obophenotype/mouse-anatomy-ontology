@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 21:11:2014 15:41
-saved-by: terryh
-auto-generated-by: OBO-Edit 2.1.1-beta6
+date: 27:11:2014 17:24
+saved-by: jarm
+auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -7459,9 +7459,8 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:16857
 name: gonad primordium
 namespace: anatomical_structure
-comment: order=5 for EMAPA:16367.
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16367 ! genitourinary system
+relationship: part_of EMAPA:17381 ! reproductive system
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -9897,32 +9896,13 @@ relationship: part_of EMAPA:17631 ! stomach pyloric region
 relationship: starts_at TS23 ! TS23
 
 [Term]
-id: EMAPA:17207
-name: metanephros
-namespace: anatomical_structure
-synonym: "kidney" RELATED []
-relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:17366 ! urinary system
-relationship: starts_at TS18 ! TS18
-
-[Term]
-id: EMAPA:17208
-name: metanephric mesenchyme
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17207.
-synonym: "kidney mesenchyme" RELATED []
-is_a: EMAPA:35898 ! urinary system mesenchyme
-relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:17207 ! metanephros
-relationship: starts_at TS18 ! TS18
-
-[Term]
 id: EMAPA:17209
 name: ureteric bud
 namespace: anatomical_structure
-comment: order=1 for EMAPA:17207.
-relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:17207 ! metanephros
+alt_id: EMAPA:17376
+comment: order=6 for EMAPA:17373.
+relationship: ends_at TS19 ! TS19
+relationship: part_of EMAPA:17373 ! metanephros
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -11375,32 +11355,26 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17373
 name: metanephros
 namespace: anatomical_structure
+alt_id: EMAPA:17207
 comment: order=1 for EMAPA:17366.
 synonym: "kidney" RELATED []
 is_a: EMAPA:35949 ! organ
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
-relationship: starts_at TS19 ! TS19
+relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:17375
 name: metanephric mesenchyme
 namespace: anatomical_structure
+alt_id: EMAPA:17208
+alt_id: EMAPA:29990
 comment: order=2 for EMAPA:17373.
 synonym: "kidney mesenchyme" RELATED []
 is_a: EMAPA:35898 ! urinary system mesenchyme
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17373 ! metanephros
-relationship: starts_at TS19 ! TS19
-
-[Term]
-id: EMAPA:17376
-name: ureteric bud
-namespace: anatomical_structure
-comment: order=6 for EMAPA:17373.
-relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:17373 ! metanephros
-relationship: starts_at TS19 ! TS19
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:17378
@@ -14027,18 +14001,6 @@ comment: order=1 for EMAPA:17642.
 is_a: EMAPA:35618 ! oral region mesenchyme
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17642 ! primary palate
-relationship: starts_at TS20 ! TS20
-
-[Term]
-id: EMAPA:17645
-name: cap mesenchyme
-namespace: anatomical_structure
-comment: order=4 for EMAPA:17373.\norder=0 for EMAPA:31562.
-synonym: "condensed mesenchyme" RELATED []
-is_a: EMAPA:35898 ! urinary system mesenchyme
-relationship: ends_at TS20 ! TS20
-relationship: part_of EMAPA:17373 ! metanephros
-relationship: part_of EMAPA:31562 ! nephrogenic zone group
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -16746,12 +16708,14 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17953
 name: nephrogenic interstitium
 namespace: anatomical_structure
-comment: order=0 for EMAPA:27721.\norder=0 for EMAPA:28518.
+alt_id: EMAPA:31270
+comment: order=0 for EMAPA:27721.\norder=0 for EMAPA:28518.\norder=2 for EMAPA:27690.
 synonym: "peripheral blastema" RELATED []
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:27690 ! renal interstitium
 relationship: part_of EMAPA:27721 ! nephrogenic zone
 relationship: part_of EMAPA:28518 ! renal interstitium group
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17954
@@ -38420,20 +38384,28 @@ relationship: starts_at TS14 ! TS14
 id: EMAPA:27605
 name: ureteric tip
 namespace: anatomical_structure
+alt_id: EMAPA:27625
+alt_id: EMAPA:27694
+alt_id: EMAPA:27749
 comment: order=0 for EMAPA:17209.
 synonym: "ampulla of ureter" RELATED []
 synonym: "ureteric ampulla" RELATED []
-relationship: ends_at TS18 ! TS18
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17209 ! ureteric bud
+relationship: part_of EMAPA:17646 ! primitive collecting duct
+relationship: part_of EMAPA:27721 ! nephrogenic zone
+relationship: part_of EMAPA:28407 ! collecting duct
+relationship: part_of EMAPA:28477 ! primitive collecting duct group
 relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:27608
 name: ureteric stalk
 namespace: anatomical_structure
+alt_id: EMAPA:27627
 comment: order=1 for EMAPA:17209.
 synonym: "ureteric trunk" RELATED []
-relationship: ends_at TS18 ! TS18
+relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:17209 ! ureteric bud
 relationship: starts_at TS18 ! TS18
 
@@ -38482,27 +38454,6 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:17375.
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:17375 ! metanephric mesenchyme
-relationship: starts_at TS19 ! TS19
-
-[Term]
-id: EMAPA:27625
-name: ureteric tip
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17376.
-synonym: "ampulla of ureter" RELATED []
-synonym: "ureteric ampulla" RELATED []
-relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:17376 ! ureteric bud
-relationship: starts_at TS19 ! TS19
-
-[Term]
-id: EMAPA:27627
-name: ureteric stalk
-namespace: anatomical_structure
-comment: order=1 for EMAPA:17376.
-synonym: "ureteric trunk" RELATED []
-relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:17376 ! ureteric bud
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -38558,11 +38509,12 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:27673
 name: pretubular aggregate
 namespace: anatomical_structure
-comment: order=5 for EMAPA:17373.\norder=2 for EMAPA:31562.
+alt_id: EMAPA:27742
+comment: order=5 for EMAPA:17373.\norder=2 for EMAPA:31562.\norder=2 for EMAPA:27721.
 synonym: "pretubular condensate" RELATED []
-relationship: ends_at TS20 ! TS20
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17373 ! metanephros
-relationship: part_of EMAPA:31562 ! nephrogenic zone group
+relationship: part_of EMAPA:27721 ! nephrogenic zone
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -38581,29 +38533,23 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:27681
 name: comma-shaped body
 namespace: anatomical_structure
-comment: order=8 for EMAPA:17373.\norder=3 for EMAPA:17954.
-relationship: ends_at TS21 ! TS21
+alt_id: EMAPA:27835
+comment: order=8 for EMAPA:17373.\norder=3 for EMAPA:17954.\norder=1 for EMAPA:17952.\norder=1 for EMAPA:28500.
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17373 ! metanephros
+relationship: part_of EMAPA:17952 ! renal cortex
 relationship: part_of EMAPA:17954 ! early nephron group
+relationship: part_of EMAPA:28500 ! early tubule
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:27684
 name: upper limb of comma-shaped body
 namespace: anatomical_structure
+alt_id: EMAPA:27841
 comment: order=0 for EMAPA:27681.
 synonym: "distal limb of comma-shaped body" RELATED []
-relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:27681 ! comma-shaped body
-relationship: starts_at TS20 ! TS20
-
-[Term]
-id: EMAPA:27687
-name: lower limb of comma-shaped body
-namespace: anatomical_structure
-comment: order=1 for EMAPA:27681.
-synonym: "proximal limb of comma-shaped body" RELATED []
-relationship: ends_at TS21 ! TS21
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:27681 ! comma-shaped body
 relationship: starts_at TS20 ! TS20
 
@@ -38616,18 +38562,6 @@ synonym: "kidney interstitium" RELATED []
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17373 ! metanephros
 relationship: part_of EMAPA:28518 ! renal interstitium group
-relationship: starts_at TS20 ! TS20
-
-[Term]
-id: EMAPA:27694
-name: ureteric tip
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17646.\norder=3 for EMAPA:31562.
-synonym: "ampulla of ureter" RELATED []
-synonym: "ureteric ampulla" RELATED []
-relationship: ends_at TS20 ! TS20
-relationship: part_of EMAPA:17646 ! primitive collecting duct
-relationship: part_of EMAPA:31562 ! nephrogenic zone group
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -38663,44 +38597,24 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:27721
 name: nephrogenic zone
 namespace: anatomical_structure
+alt_id: EMAPA:31562
 comment: order=1 for EMAPA:17373.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17373 ! metanephros
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:27735
 name: cap mesenchyme
 namespace: anatomical_structure
-comment: order=1 for EMAPA:27721.
+alt_id: EMAPA:17645
+comment: order=1 for EMAPA:27721.\norder=4 for EMAPA:17373.
 synonym: "condensed mesenchyme" RELATED []
 is_a: EMAPA:35898 ! urinary system mesenchyme
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17373 ! metanephros
 relationship: part_of EMAPA:27721 ! nephrogenic zone
-relationship: starts_at TS21 ! TS21
-
-[Term]
-id: EMAPA:27742
-name: pretubular aggregate
-namespace: anatomical_structure
-comment: order=2 for EMAPA:27721.
-synonym: "pretubular condensate" RELATED []
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:27721 ! nephrogenic zone
-relationship: starts_at TS21 ! TS21
-
-[Term]
-id: EMAPA:27749
-name: ureteric tip
-namespace: anatomical_structure
-comment: order=3 for EMAPA:27721.\norder=0 for EMAPA:28407.\norder=0 for EMAPA:28477.
-synonym: "ampulla of ureter" RELATED []
-synonym: "ureteric ampulla" RELATED []
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:27721 ! nephrogenic zone
-relationship: part_of EMAPA:28407 ! collecting duct
-relationship: part_of EMAPA:28477 ! primitive collecting duct group
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:27756
@@ -38906,35 +38820,15 @@ relationship: part_of EMAPA:28500 ! early tubule
 relationship: starts_at TS22 ! TS22
 
 [Term]
-id: EMAPA:27835
-name: comma-shaped body
-namespace: anatomical_structure
-comment: order=1 for EMAPA:17952.\norder=4 for EMAPA:17954.\norder=1 for EMAPA:28500.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17952 ! renal cortex
-relationship: part_of EMAPA:17954 ! early nephron group
-relationship: part_of EMAPA:28500 ! early tubule
-relationship: starts_at TS22 ! TS22
-
-[Term]
-id: EMAPA:27841
-name: upper limb of comma-shaped body
-namespace: anatomical_structure
-comment: order=0 for EMAPA:27835.
-synonym: "distal limb of comma-shaped body" RELATED []
-relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:27835 ! comma-shaped body
-relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:27847
 name: lower limb of comma-shaped body
 namespace: anatomical_structure
+alt_id: EMAPA:27687
 comment: order=1 for EMAPA:27835.
 synonym: "proximal limb of comma-shaped body" RELATED []
 relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:27835 ! comma-shaped body
-relationship: starts_at TS22 ! TS22
+relationship: part_of EMAPA:27681 ! comma-shaped body
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:27853
@@ -40043,9 +39937,11 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:28555
 name: urethral plate
 namespace: anatomical_structure
-comment: order=19 for EMAPA:17366.
-relationship: ends_at TS20 ! TS20
+alt_id: EMAPA:30897
+comment: order=19 for EMAPA:17366.\norder=2 for EMAPA:30891.
+relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17366 ! urinary system
+relationship: part_of EMAPA:30901 ! urethra
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -42326,16 +42222,6 @@ relationship: part_of EMAPA:31003 ! adventitia of vagina
 relationship: starts_at TS28 ! TS28
 
 [Term]
-id: EMAPA:29990
-name: metanephric mesenchyme
-namespace: anatomical_structure
-synonym: "kidney mesenchyme" RELATED []
-is_a: EMAPA:35898 ! urinary system mesenchyme
-relationship: ends_at TS17 ! TS17
-relationship: part_of EMAPA:17366 ! urinary system
-relationship: starts_at TS17 ! TS17
-
-[Term]
 id: EMAPA:29993
 name: ureteral mesenchyme, rest of
 namespace: anatomical_structure
@@ -43721,15 +43607,6 @@ comment: order=20 for EMAPA:17366.
 is_obsolete: true
 
 [Term]
-id: EMAPA:30897
-name: urethral plate
-namespace: anatomical_structure
-comment: order=2 for EMAPA:30891.
-relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:30901 ! urethra
-relationship: starts_at TS21 ! TS21
-
-[Term]
 id: EMAPA:30899
 name: urethral fold
 namespace: anatomical_structure
@@ -44324,17 +44201,6 @@ comment: order=0 for EMAPA:31264.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31264 ! muscle layer of infundibulum
 relationship: starts_at TS28 ! TS28
-
-[Term]
-id: EMAPA:31270
-name: nephrogenic interstitium
-namespace: anatomical_structure
-comment: order=2 for EMAPA:27690.\norder=1 for EMAPA:31562.
-synonym: "peripheral blastema" RELATED []
-relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:27690 ! renal interstitium
-relationship: part_of EMAPA:31562 ! nephrogenic zone group
-relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:31273
@@ -45186,20 +45052,12 @@ relationship: part_of EMAPA:31571 ! cortical renal tubule of capillary loop neph
 relationship: starts_at TS22 ! TS22
 
 [Term]
-id: EMAPA:31545
-name: renal connecting segment of comma-shaped body
-namespace: anatomical_structure
-comment: order=2 for EMAPA:27835.
-relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:27835 ! comma-shaped body
-relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:31546
 name: renal connecting segment of comma-shaped body
 namespace: anatomical_structure
+alt_id: EMAPA:31545
 comment: order=2 for EMAPA:27681.
-relationship: ends_at TS21 ! TS21
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:27681 ! comma-shaped body
 relationship: starts_at TS20 ! TS20
 
@@ -45312,15 +45170,6 @@ comment: order=0 for EMAPA:28771.
 relationship: ends_at TS25 ! TS25
 relationship: part_of EMAPA:28771 ! muscle layer of pelvic urethra of female
 relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:31562
-name: nephrogenic zone group
-namespace: anatomical_structure
-comment: order=29 for EMAPA:17373.
-relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:17373 ! metanephros
-relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:31563
