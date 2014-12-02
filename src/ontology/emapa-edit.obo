@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 28:11:2014 19:54
+date: 02:12:2014 15:34
 saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -16875,9 +16875,11 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17975
 name: germ cell of testis
 namespace: anatomical_structure
-comment: order=1 for EMAPA:29098.
+alt_id: EMAPA:18686
+comment: order=1 for EMAPA:29098.\norder=1 for EMAPA:18685.
 is_a: EMAPA:36000 ! germ cell of gonad
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18685 ! seminiferous cord
 relationship: part_of EMAPA:29098 ! primary sex cord
 relationship: starts_at TS20 ! TS20
 
@@ -22468,16 +22470,6 @@ relationship: part_of EMAPA:17972 ! testis
 relationship: starts_at TS22 ! TS22
 
 [Term]
-id: EMAPA:18686
-name: germ cell of testis
-namespace: anatomical_structure
-comment: order=1 for EMAPA:18685.
-is_a: EMAPA:36000 ! germ cell of gonad
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18685 ! seminiferous cord
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:18687
 name: interstitium of the testis
 namespace: anatomical_structure
@@ -25303,15 +25295,6 @@ synonym: "testis non-specific mesenchyme" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18687 ! interstitium of the testis
 relationship: starts_at TS20 ! TS20
-
-[Term]
-id: EMAPA:19177
-name: Sertoli cell
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18685.
-relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:18685 ! seminiferous cord
-relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19179
@@ -38444,10 +38427,14 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:27621
 name: cap mesenchyme
 namespace: anatomical_structure
-comment: order=0 for EMAPA:17375.
+alt_id: EMAPA:17645
+alt_id: EMAPA:27735
+comment: order=0 for EMAPA:17375.\norder=1 for EMAPA:27721.
 synonym: "condensed mesenchyme" RELATED []
-relationship: ends_at TS19 ! TS19
+is_a: EMAPA:35898 ! urinary system mesenchyme
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17375 ! metanephric mesenchyme
+relationship: part_of EMAPA:27721 ! nephrogenic zone
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -38556,7 +38543,6 @@ namespace: anatomical_structure
 comment: order=12 for EMAPA:17373.\norder=11 for EMAPA:28518.
 synonym: "kidney interstitium" RELATED []
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:17373 ! metanephros
 relationship: part_of EMAPA:28518 ! renal interstitium group
 relationship: starts_at TS20 ! TS20
 
@@ -38600,19 +38586,6 @@ comment: order=1 for EMAPA:17373.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17373 ! metanephros
 relationship: part_of EMAPA:17952 ! renal cortex
-relationship: starts_at TS20 ! TS20
-
-[Term]
-id: EMAPA:27735
-name: cap mesenchyme
-namespace: anatomical_structure
-alt_id: EMAPA:17645
-comment: order=1 for EMAPA:27721.\norder=4 for EMAPA:17373.
-synonym: "condensed mesenchyme" RELATED []
-is_a: EMAPA:35898 ! urinary system mesenchyme
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17373 ! metanephros
-relationship: part_of EMAPA:27721 ! nephrogenic zone
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -39247,7 +39220,7 @@ relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:28233
-name: efferent arteriole
+name: efferent arteriole of maturing renal corpuscle
 namespace: anatomical_structure
 comment: order=1 for EMAPA:27991.
 relationship: ends_at TS27 ! TS27
@@ -39382,7 +39355,7 @@ relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:28275
-name: efferent arteriole
+name: efferent arteriole of mature renal corpuscle
 namespace: anatomical_structure
 comment: order=3 for EMAPA:28236.\norder=4 for EMAPA:31450.\norder=1 for EMAPA:31469.
 relationship: ends_at TS28 ! TS28
@@ -39749,7 +39722,7 @@ comment: order=26 for EMAPA:17373.
 synonym: "kidney interstitium group" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17373 ! metanephros
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:28527
@@ -40483,18 +40456,26 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:29106
 name: Sertoli cell
 namespace: anatomical_structure
-comment: order=0 for EMAPA:29098.
-relationship: ends_at TS22 ! TS22
+alt_id: EMAPA:19177
+alt_id: EMAPA:31478
+comment: order=0 for EMAPA:29098.\norder=0 for EMAPA:18685.\norder=0 for EMAPA:31476.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18685 ! seminiferous cord
 relationship: part_of EMAPA:29098 ! primary sex cord
+relationship: part_of EMAPA:31476 ! seminiferous tubule
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:29110
 name: peritubular myoid cell
 namespace: anatomical_structure
-comment: order=2 for EMAPA:29098.
-relationship: ends_at TS22 ! TS22
+alt_id: EMAPA:29244
+alt_id: EMAPA:31480
+comment: order=2 for EMAPA:29098.\norder=5 for EMAPA:31476.\norder=2 for EMAPA:18685.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18685 ! seminiferous cord
 relationship: part_of EMAPA:29098 ! primary sex cord
+relationship: part_of EMAPA:31476 ! seminiferous tubule
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -40511,18 +40492,22 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:29122
 name: coelomic vessel
 namespace: anatomical_structure
-comment: order=0 for EMAPA:29114.
-relationship: ends_at TS27 ! TS27
+alt_id: EMAPA:29605
+comment: order=0 for EMAPA:29114.\norder=0 for EMAPA:29603.
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29114 ! developing vasculature of testis
+relationship: part_of EMAPA:29603 ! vasculature of testis
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:29130
 name: interstitial vessel
 namespace: anatomical_structure
-comment: order=1 for EMAPA:29114.
-relationship: ends_at TS27 ! TS27
+alt_id: EMAPA:29607
+comment: order=1 for EMAPA:29114.\norder=1 for EMAPA:29603.
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29114 ! developing vasculature of testis
+relationship: part_of EMAPA:29603 ! vasculature of testis
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -40749,15 +40734,6 @@ relationship: part_of EMAPA:29220 ! preputial swelling of male
 relationship: starts_at TS21 ! TS21
 
 [Term]
-id: EMAPA:29244
-name: peritubular myoid cell
-namespace: anatomical_structure
-comment: order=2 for EMAPA:18685.
-relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:18685 ! seminiferous cord
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:29252
 name: glans of male genital tubercle
 namespace: anatomical_structure
@@ -40869,24 +40845,6 @@ namespace: anatomical_structure
 comment: order=11 for EMAPA:17972.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17972 ! testis
-relationship: starts_at TS28 ! TS28
-
-[Term]
-id: EMAPA:29605
-name: coelomic vessel
-namespace: anatomical_structure
-comment: order=0 for EMAPA:29603.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:29603 ! vasculature of testis
-relationship: starts_at TS28 ! TS28
-
-[Term]
-id: EMAPA:29607
-name: interstitial vessel
-namespace: anatomical_structure
-comment: order=1 for EMAPA:29603.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:29603 ! vasculature of testis
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -41247,8 +41205,8 @@ name: muscle layer of cauda of epididymis
 namespace: anatomical_structure
 comment: order=1 for EMAPA:19292.\norder=2 for EMAPA:30447.
 relationship: ends_at TS28 ! TS28
+relationship: is_a EMAPA:30747 ! muscle layer of epididymis
 relationship: part_of EMAPA:19292 ! cauda epididymis
-relationship: part_of EMAPA:30447 ! muscle layer of epididymis
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -41277,8 +41235,8 @@ name: muscle layer of corpus of epididymis
 namespace: anatomical_structure
 comment: order=1 for EMAPA:19293.\norder=1 for EMAPA:30447.
 relationship: ends_at TS28 ! TS28
+relationship: is_a EMAPA:30747 ! muscle layer of epididymis
 relationship: part_of EMAPA:19293 ! corpus epididymis
-relationship: part_of EMAPA:30447 ! muscle layer of epididymis
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -41307,8 +41265,8 @@ name: muscle layer of caput of epididymis
 namespace: anatomical_structure
 comment: order=1 for EMAPA:19291.\norder=0 for EMAPA:30447.
 relationship: ends_at TS28 ! TS28
+relationship: is_a EMAPA:30747 ! muscle layer of epididymis
 relationship: part_of EMAPA:19291 ! caput epididymis
-relationship: part_of EMAPA:30447 ! muscle layer of epididymis
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -42400,15 +42358,6 @@ relationship: part_of EMAPA:19290 ! epididymis
 relationship: starts_at TS24 ! TS24
 
 [Term]
-id: EMAPA:30447
-name: muscle layer of epididymis
-namespace: anatomical_structure
-comment: order=9 for EMAPA:19290.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19290 ! epididymis
-relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:30449
 name: juxtaglomerular complex
 namespace: anatomical_structure
@@ -42948,8 +42897,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:30747
 name: muscle layer of epididymis
 namespace: anatomical_structure
+alt_id: EMAPA:30447
 comment: order=3 for EMAPA:19290.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19290 ! epididymis
 relationship: starts_at TS23 ! TS23
 
@@ -44388,24 +44338,6 @@ comment: order=5 for EMAPA:17972.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17972 ! testis
 relationship: starts_at TS27 ! TS27
-
-[Term]
-id: EMAPA:31478
-name: Sertoli cell
-namespace: anatomical_structure
-comment: order=0 for EMAPA:31476.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:31476 ! seminiferous tubule
-relationship: starts_at TS28 ! TS28
-
-[Term]
-id: EMAPA:31480
-name: peritubular myoid cell
-namespace: anatomical_structure
-comment: order=5 for EMAPA:31476.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:31476 ! seminiferous tubule
-relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:31482
