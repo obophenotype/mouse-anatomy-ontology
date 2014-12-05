@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 02:12:2014 15:34
+date: 05:12:2014 18:51
 saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -4813,7 +4813,7 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:16576
 name: genitourinary system mesenchyme
 namespace: anatomical_structure
-comment: order=4 for EMAPA:16367.
+comment: order=7 for EMAPA:16367.
 is_a: EMAPA:35961 ! embryo mesenchyme
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16367 ! genitourinary system
@@ -6341,7 +6341,7 @@ id: EMAPA:16744
 name: mesonephros
 namespace: anatomical_structure
 alt_id: EMAPA:27644
-comment: order=7 for EMAPA:16367.\norder=0 for EMAPA:17381.
+comment: order=4 for EMAPA:16367.\norder=0 for EMAPA:17381.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16367 ! genitourinary system
 relationship: part_of EMAPA:17381 ! reproductive system
@@ -9909,9 +9909,10 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:17212
 name: urorectal septum
 namespace: anatomical_structure
-comment: order=15 for EMAPA:16367.
-relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16367 ! genitourinary system
+alt_id: EMAPA:17380
+comment: order=17 for EMAPA:17366.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -11326,7 +11327,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17366
 name: urinary system
 namespace: anatomical_structure
-comment: order=6 for EMAPA:16245.
+comment: order=6 for EMAPA:16245.\norder=10 for EMAPA:16367.
 is_a: EMAPA:16103 ! organ system
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16245 ! visceral organ system
@@ -11392,26 +11393,16 @@ id: EMAPA:17379
 name: urogenital sinus
 namespace: anatomical_structure
 alt_id: EMAPA:17211
-comment: order=12 for EMAPA:17366.\norder=12 for EMAPA:16367.
+comment: order=12 for EMAPA:17366.
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16367 ! genitourinary system
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS18 ! TS18
-
-[Term]
-id: EMAPA:17380
-name: urorectal septum
-namespace: anatomical_structure
-comment: order=17 for EMAPA:17366.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17366 ! urinary system
-relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:17381
 name: reproductive system
 namespace: anatomical_structure
-comment: order=4 for EMAPA:16245.
+comment: order=4 for EMAPA:16245.\norder=11 for EMAPA:16367.
 is_a: EMAPA:16103 ! organ system
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16245 ! visceral organ system
@@ -16716,9 +16707,8 @@ comment: order=0 for EMAPA:27721.\norder=0 for EMAPA:28518.\norder=2 for EMAPA:2
 synonym: "peripheral blastema" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17373 ! metanephros
-relationship: part_of EMAPA:27690 ! renal interstitium
 relationship: part_of EMAPA:27721 ! nephrogenic zone
-relationship: part_of EMAPA:28518 ! renal interstitium group
+relationship: part_of EMAPA:28518 ! renal interstitium
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -20026,7 +20016,7 @@ comment: order=2 for EMAPA:19279.\norder=7 for EMAPA:28518.
 synonym: "medullary stroma" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19279 ! renal medulla
-relationship: part_of EMAPA:28518 ! renal interstitium group
+relationship: part_of EMAPA:28518 ! renal interstitium
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -22452,8 +22442,8 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:18682
 name: penis
 namespace: anatomical_structure
+def: "penis (TS25-TS28): comprised of glans penis (distally), penile body (proximally) and surrounded by the prepuce. The penis contains within it, erectile tissues (corpora cavernosa glandis, urethra and MUMP corpus cavernosum), cartilage (hyaline cartilage of os penis and MUMP cartilage), bone (bone of os penis), nerves, vasculature and lamina propria (connective tissue) and is surrounded by skin. The penis is mobile. The penis also contains within it the penile urethra, located along the length of the penis and the urethral seam, located underneath the ventral midline skin of the penis. The glans penis is positioned at a right angle bend to the penile body, following the bend of the urethra. The bend in the male urethra is called the sigmoid flexure. Derived from the genital tubercle of male." []
 comment: order=21 for EMAPA:17968.\norder=1 for EMAPA:30977.
-synonym: "genital tubercle of male" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
 relationship: part_of EMAPA:30977 ! male external genitalia
@@ -23737,7 +23727,9 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:18988
 name: glans penis
 namespace: anatomical_structure
+def: "glans penis (syn: penile glans) (TS25-TS28): the distal part of the penis. The glans penis lies internally within the preputial space and externally is completely surrounded by the prepuce. The glans can be exposed when the prepuce is retracted. The distal part of the penile urethra is located within the glans penis. From TS25-TS27, is comprised of skin and mesenchyme of glans penis. At TS28, is comprised of corpus cavernosum glandis (two, linear corpora cavernosa, dorsally and ventrally located within the glans penis), corpus cavernosum urethra (linear erectile tissue ventral to the urethra), male urogenital mating protuberance (MUMP), os penis and lamina propria (stroma or connective tissue) and covered with skin. The glans penis is comprised of regions; the MUMP ridge (which encircles the glans and is comprised of a ridge (distal) and a groove (proximal) the MUMP ridge groove), and proximal to the ridge is the glandular ridge. The urethral meatus (the opening of the male penile urethra) is located at a ventral midline cleft in the MUMP ridge close to the distal tip of the glans penis (~1mm from the tip)." []
 comment: order=0 for EMAPA:18682.
+synonym: "penile glans" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18682 ! penis
 relationship: starts_at TS25 ! TS25
@@ -23746,6 +23738,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:18989
 name: prepuce of male
 namespace: anatomical_structure
+def: "prepuce of male (TS25-TS27, TS28): the external part of the penis that completely surrounds the glans penis. The glans can be exposed when the prepuce is retracted.  Contains the preputial glands and mesenchyme of prepuce and surrounded by skin. The preputial gland ducts drain into the preputial space. From TS28, prepuce is comprised of skin containing hair follicles, preputial gland (paired), which drain into the preputial space and prepuce lamina propria (stroma or connective tissue)." []
 comment: order=2 for EMAPA:18682.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18682 ! penis
@@ -38298,9 +38291,8 @@ name: cloaca
 namespace: anatomical_structure
 alt_id: EMAPA:27638
 def: "cloaca (CL) (TS17-TS20): an epithelial lined cavity derived from endoderm, seen early in embryonic development located at the posterior end of the embryo. The cloaca undergoes septation to form the urogenital sinus (ventral) and hindgut (dorsal). This common cavity is referred to as the cloaca until the urorectal septum makes contact with the skin at the surface of the embryo, and completely septates the urogenital sinus from the hindgut at TS21. The cavity that remains, becomes part of the urogenital sinus and urethra.  The cloaca is comprised of cloacal epithelium lining the lumen and the adjacent cloaca associated mesenchyme. Part of the cloacal epithelium forms the cloacal membrane." []
-comment: order=13 for EMAPA:16367.\norder=16 for EMAPA:17366.
+comment: order=16 for EMAPA:17366.
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:16367 ! genitourinary system
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS17 ! TS17
 
@@ -38537,16 +38529,6 @@ relationship: part_of EMAPA:27681 ! comma-shaped body
 relationship: starts_at TS20 ! TS20
 
 [Term]
-id: EMAPA:27690
-name: renal interstitium
-namespace: anatomical_structure
-comment: order=12 for EMAPA:17373.\norder=11 for EMAPA:28518.
-synonym: "kidney interstitium" RELATED []
-relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:28518 ! renal interstitium group
-relationship: starts_at TS20 ! TS20
-
-[Term]
 id: EMAPA:27697
 name: ureteric trunk
 namespace: anatomical_structure
@@ -38714,7 +38696,7 @@ comment: order=0 for EMAPA:27770.\norder=1 for EMAPA:28518.
 synonym: "capillary loop renal corpuscle associated interstitium" RELATED []
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:27770 ! capillary loop renal corpuscle
-relationship: part_of EMAPA:28518 ! renal interstitium group
+relationship: part_of EMAPA:28518 ! renal interstitium
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -38725,7 +38707,7 @@ alt_id: EMAPA:27931
 comment: order=3 for EMAPA:27770.\norder=2 for EMAPA:28518.
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:27770 ! capillary loop renal corpuscle
-relationship: part_of EMAPA:28518 ! renal interstitium group
+relationship: part_of EMAPA:28518 ! renal interstitium
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -38854,7 +38836,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:27949.\norder=3 for EMAPA:28518.
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:27949 ! maturing glomerular tuft
-relationship: part_of EMAPA:28518 ! renal interstitium group
+relationship: part_of EMAPA:28518 ! renal interstitium
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -39047,7 +39029,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:17948.\norder=10 for EMAPA:28518.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17948 ! kidney pelvis
-relationship: part_of EMAPA:28518 ! renal interstitium group
+relationship: part_of EMAPA:28518 ! renal interstitium
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -39100,7 +39082,7 @@ comment: order=8 for EMAPA:17952.\norder=6 for EMAPA:28518.
 synonym: "cortical stroma" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17952 ! renal cortex
-relationship: part_of EMAPA:28518 ! renal interstitium group
+relationship: part_of EMAPA:28518 ! renal interstitium
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -39268,7 +39250,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:28239.\norder=4 for EMAPA:28518.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28239 ! glomerular tuft
-relationship: part_of EMAPA:28518 ! renal interstitium group
+relationship: part_of EMAPA:28518 ! renal interstitium
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -39371,7 +39353,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:28236.\norder=5 for EMAPA:28518.\norder=0 for EMAPA:30449.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28236 ! mature renal corpuscle
-relationship: part_of EMAPA:28518 ! renal interstitium group
+relationship: part_of EMAPA:28518 ! renal interstitium
 relationship: part_of EMAPA:30449 ! juxtaglomerular complex
 relationship: starts_at TS25 ! TS25
 
@@ -39462,7 +39444,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:28310.\norder=8 for EMAPA:28518.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28310 ! outer renal medulla
-relationship: part_of EMAPA:28518 ! renal interstitium group
+relationship: part_of EMAPA:28518 ! renal interstitium
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -39533,7 +39515,7 @@ comment: order=1 for EMAPA:28349.\norder=9 for EMAPA:28518.
 synonym: "papillary interstitium" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28349 ! inner renal medulla
-relationship: part_of EMAPA:28518 ! renal interstitium group
+relationship: part_of EMAPA:28518 ! renal interstitium
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -39716,10 +39698,12 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:28518
-name: renal interstitium group
+name: renal interstitium
 namespace: anatomical_structure
-comment: order=26 for EMAPA:17373.
-synonym: "kidney interstitium group" RELATED []
+alt_id: EMAPA:27690
+comment: order=12 for EMAPA:17373.
+synonym: "kidney interstitium" RELATED []
+relationship: ends_at TS21 ! TS21
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17373 ! metanephros
 relationship: starts_at TS20 ! TS20
@@ -41204,8 +41188,8 @@ id: EMAPA:29751
 name: muscle layer of cauda of epididymis
 namespace: anatomical_structure
 comment: order=1 for EMAPA:19292.\norder=2 for EMAPA:30447.
+is_a: EMAPA:30747 ! muscle layer of epididymis
 relationship: ends_at TS28 ! TS28
-relationship: is_a EMAPA:30747 ! muscle layer of epididymis
 relationship: part_of EMAPA:19292 ! cauda epididymis
 relationship: starts_at TS24 ! TS24
 
@@ -41234,8 +41218,8 @@ id: EMAPA:29757
 name: muscle layer of corpus of epididymis
 namespace: anatomical_structure
 comment: order=1 for EMAPA:19293.\norder=1 for EMAPA:30447.
+is_a: EMAPA:30747 ! muscle layer of epididymis
 relationship: ends_at TS28 ! TS28
-relationship: is_a EMAPA:30747 ! muscle layer of epididymis
 relationship: part_of EMAPA:19293 ! corpus epididymis
 relationship: starts_at TS24 ! TS24
 
@@ -41264,8 +41248,8 @@ id: EMAPA:29763
 name: muscle layer of caput of epididymis
 namespace: anatomical_structure
 comment: order=1 for EMAPA:19291.\norder=0 for EMAPA:30447.
+is_a: EMAPA:30747 ! muscle layer of epididymis
 relationship: ends_at TS28 ! TS28
-relationship: is_a EMAPA:30747 ! muscle layer of epididymis
 relationship: part_of EMAPA:19291 ! caput epididymis
 relationship: starts_at TS24 ! TS24
 
@@ -42167,9 +42151,8 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:30074
 name: genital swelling
 namespace: anatomical_structure
-comment: order=16 for EMAPA:16367.
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16367 ! genitourinary system
+relationship: part_of EMAPA:17381 ! reproductive system
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -42751,7 +42734,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:30650
 name: prepuce mesenchyme of male
 namespace: anatomical_structure
-comment: order=2 for EMAPA:18989.
+comment: order=3 for EMAPA:18989.
 is_a: EMAPA:35975 ! male reproductive system mesenchyme
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18989 ! prepuce of male
@@ -42759,11 +42742,12 @@ relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:30655
-name: prepuce surface epithelium of male
+name: skin of male prepuce
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18989.
+synonym: "prepuce surface epithelium of male" RELATED []
 is_a: EMAPA:35963 ! male reproductive system epithelium
-relationship: ends_at TS27 ! TS27
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18989 ! prepuce of male
 relationship: starts_at TS25 ! TS25
 
@@ -42771,7 +42755,8 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:30659
 name: preputial gland of male
 namespace: anatomical_structure
-comment: order=1 for EMAPA:18989.
+comment: order=2 for EMAPA:18989.
+synonym: "preputial duct" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18989 ! prepuce of male
 relationship: starts_at TS25 ! TS25
@@ -43143,7 +43128,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:18682.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18682 ! penis
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:30809
@@ -43985,28 +43970,28 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:31273
 name: resident macrophages
 namespace: anatomical_structure
-comment: order=1 for EMAPA:27690.
+comment: order=12 for EMAPA:28518.
 synonym: "renal monocytes" RELATED []
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:27690 ! renal interstitium
+relationship: part_of EMAPA:28518 ! renal interstitium
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:31276
 name: rest of renal interstitium
 namespace: anatomical_structure
-comment: order=3 for EMAPA:27690.
+comment: order=13 for EMAPA:28518.
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:27690 ! renal interstitium
+relationship: part_of EMAPA:28518 ! renal interstitium
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:31279
 name: renal fibroblasts
 namespace: anatomical_structure
-comment: order=0 for EMAPA:27690.
+comment: order=11 for EMAPA:28518.
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:27690 ! renal interstitium
+relationship: part_of EMAPA:28518 ! renal interstitium
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -45023,7 +45008,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:31578
 name: developing vasculature of genitourinary system
 namespace: anatomical_structure
-comment: order=17 for EMAPA:16367.
+comment: order=9 for EMAPA:16367.
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16367 ! genitourinary system
 relationship: starts_at TS17 ! TS17
@@ -56567,7 +56552,7 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:35899
 name: urogenital ridge
 namespace: anatomical_structure
-comment: order=20 for EMAPA:16367.
+comment: order=5 for EMAPA:16367.
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:16367 ! genitourinary system
 relationship: starts_at TS15 ! TS15
@@ -57090,7 +57075,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:35954
 name: genitourinary system epithelium
 namespace: anatomical_structure
-comment: order=21 for EMAPA:16367.
+comment: order=8 for EMAPA:16367.
 is_a: EMAPA:32738 ! epithelium
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:16367 ! genitourinary system
@@ -60522,6 +60507,35 @@ name: bronchiole smooth muscle
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32697 ! bronchiole
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36340
+name: hair follicle of male prepuce
+namespace: anatomical_structure
+comment: order=1 for EMAPA:18989.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18989 ! prepuce of male
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36341
+name: lamina propria of male prepuce
+namespace: anatomical_structure
+comment: order=4 for EMAPA:18989.
+synonym: "male prepuce connective tissue" RELATED []
+synonym: "male prepuce stroma" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18989 ! prepuce of male
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36342
+name: preputial space of male
+namespace: anatomical_structure
+comment: order=5 for EMAPA:18989.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18989 ! prepuce of male
 relationship: starts_at TS28 ! TS28
 
 [Term]
