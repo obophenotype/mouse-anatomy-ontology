@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 05:12:2014 18:51
+date: 10:12:2014 14:57
 saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -43382,10 +43382,10 @@ id: EMAPA:30901
 name: urethra
 namespace: anatomical_structure
 alt_id: EMAPA:30891
+def: "urethra: (TS21 and TS22): the urethra links the primitive bladder/bladder to the outside of the embryo. At TS21 it is part of the urinary system. It is subdivided into pelvic urethra (located within the body of the embryo) and phallic urethra of male/female (located within the genital tubercle). Pelvic urethra is derived from the caudal urogenital sinus and phallic urethra is derived from urethral plate epithelium." []
 comment: order=13 for EMAPA:17366.\norder=5 for EMAPA:17379.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
-relationship: part_of EMAPA:17379 ! urogenital sinus
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -43396,6 +43396,7 @@ alt_id: EMAPA:30893
 def: "pelvic urethra (PLUR) (TS21-TS22): comprised of epithelium of pelvic urethra (eplur, subdivided into urogenital sinus ridge (sr) and rest of epithelium of pelvic urethra), mesenchymal layer of pelvic urethra (mplur; divided into dorsal and ventral), nerve, developing vasculature, adventitia and from TS22 muscle layer (muplur; divided into dorsal and ventral). Pelvic urethra is a part of the urinary system and is part of the urethra. The epithelium of pelvic urethra is contiguous with the epithelium of phallic urethra (caudally) and bladder urothelium (cranially). Derived from the caudal urogenital sinus (TS20). Becomes the pelvic urethra of male/female from TS23." []
 comment: order=0 for EMAPA:30901.
 relationship: ends_at TS22 ! TS22
+relationship: part_of EMAPA:17379 ! urogenital sinus
 relationship: part_of EMAPA:30901 ! urethra
 relationship: starts_at TS21 ! TS21
 
@@ -60537,6 +60538,369 @@ comment: order=5 for EMAPA:18989.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18989 ! prepuce of male
 relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36343
+name: nerve of urothelium of bladder
+namespace: anatomical_structure
+comment: order=0 for EMAPA:31526.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:31526 ! nerve of bladder
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36344
+name: nerve of lamina propria of bladder
+namespace: anatomical_structure
+comment: order=1 for EMAPA:31526.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:31526 ! nerve of bladder
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36345
+name: nerve of detrusor of bladder
+namespace: anatomical_structure
+comment: order=2 for EMAPA:31526.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:31526 ! nerve of bladder
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36346
+name: nerve of outer layer of bladder
+namespace: anatomical_structure
+comment: order=0 for EMAPA:31526.
+synonym: "nerve of serosa/adventitia of bladder" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:31526 ! nerve of bladder
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36347
+name: nerve of urothelium of bladder fundus
+namespace: anatomical_structure
+comment: order=0 for EMAPA:36343.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36343 ! nerve of urothelium of bladder
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36348
+name: nerve of urothelium of bladder neck
+namespace: anatomical_structure
+comment: order=1 for EMAPA:36343.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36343 ! nerve of urothelium of bladder
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36349
+name: nerve of urothelium of bladder trigone
+namespace: anatomical_structure
+comment: order=0 for EMAPA:36348.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36348 ! nerve of urothelium of bladder neck
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36350
+name: nerve of urothelium of ventral bladder neck
+namespace: anatomical_structure
+comment: order=1 for EMAPA:36348.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36348 ! nerve of urothelium of bladder neck
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36351
+name: nerve of nonvascular tissue of lamina propria of bladder fundus
+namespace: anatomical_structure
+comment: order=0 for EMAPA:36344.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36344 ! nerve of lamina propria of bladder
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36352
+name: nerve of nonvascular tissue of lamina propria of bladder neck
+namespace: anatomical_structure
+comment: order=1 for EMAPA:36344.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36344 ! nerve of lamina propria of bladder
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36353
+name: nerve of blood vessel of lamina propria of bladder fundus
+namespace: anatomical_structure
+comment: order=2 for EMAPA:36344.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36344 ! nerve of lamina propria of bladder
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36354
+name: nerve of blood vessel of lamina propria of bladder neck
+namespace: anatomical_structure
+comment: order=3 for EMAPA:36344.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36344 ! nerve of lamina propria of bladder
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36355
+name: nerve of nonvascular tissue of suburothelial lamina propria of bladder fundus
+namespace: anatomical_structure
+comment: order=0 for EMAPA:36351.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36351 ! nerve of nonvascular tissue of lamina propria of bladder fundus
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36356
+name: nerve of nonvascular tissue of outer lamina propria of bladder fundus
+namespace: anatomical_structure
+comment: order=1 for EMAPA:36351.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36351 ! nerve of nonvascular tissue of lamina propria of bladder fundus
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36357
+name: nerve of nonvascular tissue of lamina propria of trigone
+namespace: anatomical_structure
+comment: order=0 for EMAPA:36352.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36352 ! nerve of nonvascular tissue of lamina propria of bladder neck
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36358
+name: nerve of nonvascular tissue of lamina propria of ventral bladder neck
+namespace: anatomical_structure
+comment: order=1 for EMAPA:36352.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36352 ! nerve of nonvascular tissue of lamina propria of bladder neck
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36359
+name: nerve of blood vessel of suburothelial lamina propria of bladder fundus
+namespace: anatomical_structure
+comment: order=0 for EMAPA:36353.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36353 ! nerve of blood vessel of lamina propria of bladder fundus
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36360
+name: nerve of blood vessel of outer lamina propria of bladder fundus
+namespace: anatomical_structure
+comment: order=1 for EMAPA:36353.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36353 ! nerve of blood vessel of lamina propria of bladder fundus
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36361
+name: nerve of blood vessel of lamina propria of trigone
+namespace: anatomical_structure
+comment: order=0 for EMAPA:36354.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36354 ! nerve of blood vessel of lamina propria of bladder neck
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36362
+name: nerve of blood vessel of lamina propria of ventral bladder neck
+namespace: anatomical_structure
+comment: order=1 for EMAPA:36354.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36354 ! nerve of blood vessel of lamina propria of bladder neck
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36363
+name: nerve of nonvascular tissue of detrusor of bladder
+namespace: anatomical_structure
+comment: order=0 for EMAPA:36345.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36345 ! nerve of detrusor of bladder
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36364
+name: nerve of blood vessel of detrusor of bladder
+namespace: anatomical_structure
+comment: order=1 for EMAPA:36345.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36345 ! nerve of detrusor of bladder
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36365
+name: nerve of nonvascular tissue of detrusor of bladder fundus
+namespace: anatomical_structure
+comment: order=0 for EMAPA:36363.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36363 ! nerve of nonvascular tissue of detrusor of bladder
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36366
+name: nerve of nonvascular tissue of detrusor of bladder neck
+namespace: anatomical_structure
+comment: order=1 for EMAPA:36363.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36363 ! nerve of nonvascular tissue of detrusor of bladder
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36367
+name: nerve of nonvascular tissue of detrusor of trigone
+namespace: anatomical_structure
+comment: order=0 for EMAPA:36366.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36366 ! nerve of nonvascular tissue of detrusor of bladder neck
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36368
+name: nerve of nonvascular tissue of detrusor of ventral bladder neck
+namespace: anatomical_structure
+comment: order=1 for EMAPA:36366.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36366 ! nerve of nonvascular tissue of detrusor of bladder neck
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36369
+name: nerve of blood vessel of detrusor of bladder fundus
+namespace: anatomical_structure
+comment: order=0 for EMAPA:36364.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36364 ! nerve of blood vessel of detrusor of bladder
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36370
+name: nerve of blood vessel of detrusor of bladder neck
+namespace: anatomical_structure
+comment: order=1 for EMAPA:36364.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36364 ! nerve of blood vessel of detrusor of bladder
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36371
+name: nerve of blood vessel of detrusor of trigone
+namespace: anatomical_structure
+comment: order=0 for EMAPA:36370.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36370 ! nerve of blood vessel of detrusor of bladder neck
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36372
+name: nerve of blood vessel of detrusor of ventral bladder neck
+namespace: anatomical_structure
+comment: order=1 for EMAPA:36370.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36370 ! nerve of blood vessel of detrusor of bladder neck
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36373
+name: nerve of nonvascular tissue of outer layer of bladder
+namespace: anatomical_structure
+comment: order=0 for EMAPA:36346.
+synonym: "nerve of nonvascular tissue of serosa/adventitia of bladder" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36346 ! nerve of outer layer of bladder
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36374
+name: nerve of blood vessel of outer layer of bladder
+namespace: anatomical_structure
+comment: order=1 for EMAPA:36346.
+synonym: "nerve of blood vessel of serosa/adventitia of bladder" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36346 ! nerve of outer layer of bladder
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36375
+name: nerve of nonvascular tissue of serosa of bladder fundus
+namespace: anatomical_structure
+comment: order=0 for EMAPA:36373.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36373 ! nerve of nonvascular tissue of outer layer of bladder
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36376
+name: nerve of nonvascular tissue of adventitia of bladder neck
+namespace: anatomical_structure
+comment: order=1 for EMAPA:36373.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36373 ! nerve of nonvascular tissue of outer layer of bladder
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36377
+name: nerve of nonvascular tissue of adventitia of trigone
+namespace: anatomical_structure
+comment: order=0 for EMAPA:36376.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36376 ! nerve of nonvascular tissue of adventitia of bladder neck
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36378
+name: nerve of nonvascular tissue of adventitia of ventral bladder neck
+namespace: anatomical_structure
+comment: order=1 for EMAPA:36376.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36376 ! nerve of nonvascular tissue of adventitia of bladder neck
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36379
+name: nerve of blood vessel of serosa of bladder fundus
+namespace: anatomical_structure
+comment: order=0 for EMAPA:36374.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36374 ! nerve of blood vessel of outer layer of bladder
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36380
+name: nerve of blood vessel of adventitia of bladder neck
+namespace: anatomical_structure
+comment: order=1 for EMAPA:36374.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36374 ! nerve of blood vessel of outer layer of bladder
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36381
+name: nerve of blood vessel of adventitia of trigone
+namespace: anatomical_structure
+comment: order=0 for EMAPA:36380.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36380 ! nerve of blood vessel of adventitia of bladder neck
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36382
+name: nerve of blood vessel of adventitia of ventral bladder neck
+namespace: anatomical_structure
+comment: order=1 for EMAPA:36380.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36380 ! nerve of blood vessel of adventitia of bladder neck
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: group_term
