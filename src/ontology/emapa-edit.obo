@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 10:12:2014 14:57
+date: 10:12:2014 20:58
 saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -39703,7 +39703,6 @@ namespace: anatomical_structure
 alt_id: EMAPA:27690
 comment: order=12 for EMAPA:17373.
 synonym: "kidney interstitium" RELATED []
-relationship: ends_at TS21 ! TS21
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17373 ! metanephros
 relationship: starts_at TS20 ! TS20
