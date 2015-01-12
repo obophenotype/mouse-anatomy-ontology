@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 08:01:2015 17:09
+date: 12:01:2015 16:25
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -25181,11 +25181,12 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19164
 name: iliacus
 namespace: anatomical_structure
+alt_id: EMAPA:36234
 comment: order=3 for EMAPA:18184.
 is_a: EMAPA:18185 ! pelvic girdle muscle
-is_a: EMAPA:35988 ! skeletal muscle
+is_a: EMAPA:19144 ! upper leg muscle
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19165
@@ -59440,7 +59441,7 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:36214
-name: flexor digiti primi brevis
+name: flexor digiti primi brevis of hand
 namespace: anatomical_structure
 is_a: EMAPA:32644 ! hand muscle
 relationship: ends_at TS28 ! TS28
@@ -59588,14 +59589,6 @@ id: EMAPA:36233
 name: gracilis posticus
 namespace: anatomical_structure
 is_a: EMAPA:36231 ! gracilis muscle
-relationship: ends_at TS28 ! TS28
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:36234
-name: iliacus
-namespace: anatomical_structure
-is_a: EMAPA:19144 ! upper leg muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
@@ -59798,7 +59791,7 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:36259
-name: flexor digiti primi brevis
+name: flexor digiti primi brevis of foot
 namespace: anatomical_structure
 synonym: "flexor digit I brevis" RELATED []
 synonym: "flexor hallucis brevis" RELATED []
