@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:01:2015 16:25
+date: 13:01:2015 16:41
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -9651,7 +9651,7 @@ id: EMAPA:17180
 name: duodenum rostral part mesenchyme
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17179.
-is_a: EMAPA:32909 ! gut mesenchyme
+is_a: EMAPA:36383 ! duodenum mesenchyme
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17179 ! duodenum rostral part
 relationship: starts_at TS18 ! TS18
@@ -9801,7 +9801,7 @@ id: EMAPA:17195
 name: duodenum caudal part mesenchyme
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17194.
-is_a: EMAPA:32909 ! gut mesenchyme
+is_a: EMAPA:36383 ! duodenum mesenchyme
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17194 ! duodenum caudal part
 relationship: starts_at TS18 ! TS18
@@ -16813,6 +16813,7 @@ namespace: anatomical_structure
 def: "genital tubercle of male (syn: penis anlage) (TS20): a medial swelling seen at the level of the hind limb buds, adjacent to the cloaca and posterior/caudal to the urogenital sinus. The genital tubercle is separated into male and female, therefore you must know the sex of the embryo. At TS20, the genital tubercle of male is comprised of genital tubercle mesenchyme of male, urethral plate epithelium of male, skin of genital tubercle of male, the urogenital membrane of male, and developing vasculature of male genital tubercle. The urethral plate epithelium and skin together, where they are in direct contact, are known as the urogenital membrane. After TS20, the genital tubercle becomes further subdivided. Will become the penis at TS26." []
 comment: order=20 for EMAPA:17968.\norder=0 for EMAPA:28533.\norder=0 for EMAPA:30977.
 synonym: "penis anlage" RELATED []
+is_a: EMAPA:17382 ! genital tubercle
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17968 ! male reproductive system
 relationship: part_of EMAPA:28533 ! male associated reproductive structure
@@ -22423,6 +22424,7 @@ namespace: anatomical_structure
 def: "genital tubercle of female (syn: clitoris anlage) (TS20): a medial swelling seen at the level of the hind limb buds, adjacent to the cloaca and posterior/caudal to the urogenital sinus. The genital tubercle is separated into male and female, therefore you must know the sex of the embryo. At TS20, the genital tubercle of female is comprised of genital tubercle mesenchyme of female, urethral plate epithelium of female, skin of genital tubercle of female, the urogenital membrane of female, and developing vasculature of female genital tubercle. The urethral plate epithelium and skin together, where they are in direct contact, are known as the urogenital membrane. After TS20, the genital tubercle becomes further subdivided. Will become the clitoris at TS26." []
 comment: order=12 for EMAPA:17959.\norder=2 for EMAPA:28540.\norder=0 for EMAPA:30984.
 synonym: "clitoris anlage" RELATED []
+is_a: EMAPA:17382 ! genital tubercle
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: part_of EMAPA:28540 ! female associated reproductive structure
@@ -22477,6 +22479,7 @@ name: urethra of male
 namespace: anatomical_structure
 def: "urethra of male (TS23-TS28): from TS23 to TS27, urethra is comprised of pelvic urethra of male and phallic urethra of male. At TS28, urethra of male is comprised of prostatic urethra, pelvic urethra of male and penile urethra." []
 comment: order=16 for EMAPA:17366.
+is_a: EMAPA:30901 ! urethra
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS23 ! TS23
@@ -25966,6 +25969,7 @@ id: EMAPA:19255
 name: midgut derived large intestine mesenchyme
 namespace: anatomical_structure
 comment: order=0 for EMAPA:19253.
+is_a: EMAPA:32872 ! intestine mesenchyme
 is_a: EMAPA:32909 ! gut mesenchyme
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:19253 ! midgut derived large intestine
@@ -25976,6 +25980,7 @@ id: EMAPA:19256
 name: hindgut derived large intestine mesenchyme
 namespace: anatomical_structure
 comment: order=0 for EMAPA:19254.
+is_a: EMAPA:32872 ! intestine mesenchyme
 is_a: EMAPA:32909 ! gut mesenchyme
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:19254 ! hindgut derived large intestine
@@ -39955,6 +39960,7 @@ name: urethra of female
 namespace: anatomical_structure
 def: "urethra of female (TS23-TS28): from TS23 to TS27, urethra is comprised of pelvic urethra of female and phallic urethra of female. At TS28, urethra of female is comprised of pelvic urethra of female and clitoral urethra of female (syn: external urethra)." []
 comment: order=17 for EMAPA:17366.
+is_a: EMAPA:30901 ! urethra
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS23 ! TS23
@@ -40556,7 +40562,8 @@ namespace: anatomical_structure
 def: "genital tubercle mesenchyme of male (TS20-TS20): the mesenchyme of the genital tubercle surrounding the epithelium of phallic urethra of male." []
 comment: order=1 for EMAPA:17969.
 is_a: EMAPA:35975 ! male reproductive system mesenchyme
-relationship: ends_at TS20 ! TS20
+is_a: EMAPA:36384 ! genital tubercle mesenchyme
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17969 ! genital tubercle of male
 relationship: starts_at TS20 ! TS20
 
@@ -40674,6 +40681,7 @@ id: EMAPA:29207
 name: mesenchyme of distal genital tubercle of male
 namespace: anatomical_structure
 comment: order=1 for EMAPA:29205.
+is_a: EMAPA:29167 ! genital tubercle mesenchyme of male
 is_a: EMAPA:35975 ! male reproductive system mesenchyme
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:29205 ! distal genital tubercle of male
@@ -40735,6 +40743,7 @@ id: EMAPA:29254
 name: mesenchyme of glans of male genital tubercle
 namespace: anatomical_structure
 comment: order=1 for EMAPA:29252.
+is_a: EMAPA:29167 ! genital tubercle mesenchyme of male
 is_a: EMAPA:35975 ! male reproductive system mesenchyme
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:29252 ! glans of male genital tubercle
@@ -40849,7 +40858,8 @@ namespace: anatomical_structure
 def: "genital tubercle mesenchyme of female (TS20-TS20): the mesenchyme of the genital tubercle surrounding the epithelium of phallic urethra of female." []
 comment: order=1 for EMAPA:18680.
 is_a: EMAPA:35974 ! female reproductive system mesenchyme
-relationship: ends_at TS20 ! TS20
+is_a: EMAPA:36384 ! genital tubercle mesenchyme
+relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:18680 ! genital tubercle of female
 relationship: starts_at TS20 ! TS20
 
@@ -42414,6 +42424,7 @@ id: EMAPA:30487
 name: mesenchyme of distal genital tubercle of female
 namespace: anatomical_structure
 comment: order=1 for EMAPA:30484.
+is_a: EMAPA:29621 ! genital tubercle mesenchyme of female
 is_a: EMAPA:35974 ! female reproductive system mesenchyme
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:30484 ! distal genital tubercle of female
@@ -44384,6 +44395,7 @@ id: EMAPA:31501
 name: mesenchyme of proximal genital tubercle of male
 namespace: anatomical_structure
 comment: order=1 for EMAPA:31504.
+is_a: EMAPA:29167 ! genital tubercle mesenchyme of male
 is_a: EMAPA:35975 ! male reproductive system mesenchyme
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:31504 ! proximal genital tubercle of male
@@ -44688,6 +44700,7 @@ id: EMAPA:31534
 name: mesenchyme of proximal genital tubercle of female
 namespace: anatomical_structure
 comment: order=1 for EMAPA:31506.
+is_a: EMAPA:29621 ! genital tubercle mesenchyme of female
 is_a: EMAPA:35974 ! female reproductive system mesenchyme
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:31506 ! proximal genital tubercle of female
@@ -60884,6 +60897,33 @@ comment: order=1 for EMAPA:36380.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36380 ! nerve of blood vessel of adventitia of bladder neck
 relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36383
+name: duodenum mesenchyme
+namespace: anatomical_structure
+is_a: EMAPA:32909 ! gut mesenchyme
+is_a: EMAPA:36385 ! small intestine mesenchyme
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:18852 ! duodenum
+relationship: starts_at TS18 ! TS18
+
+[Term]
+id: EMAPA:36384
+name: genital tubercle mesenchyme
+namespace: anatomical_structure
+relationship: ends_at TS24 ! TS24
+relationship: part_of EMAPA:17382 ! genital tubercle
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36385
+name: small intestine mesenchyme
+namespace: anatomical_structure
+is_a: EMAPA:32872 ! intestine mesenchyme
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:32834 ! small intestine
+relationship: starts_at TS18 ! TS18
 
 [Term]
 id: group_term
