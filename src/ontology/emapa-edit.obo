@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:01:2015 16:41
+date: 14:01:2015 16:49
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -60912,6 +60912,7 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:36384
 name: genital tubercle mesenchyme
 namespace: anatomical_structure
+is_a: EMAPA:35728 ! reproductive system mesenchyme
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:17382 ! genital tubercle
 relationship: starts_at TS20 ! TS20
@@ -60924,6 +60925,17 @@ is_a: EMAPA:32872 ! intestine mesenchyme
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:32834 ! small intestine
 relationship: starts_at TS18 ! TS18
+
+[Term]
+id: EMAPA:36386
+name: genital tubercle epithelium
+namespace: anatomical_structure
+is_a: EMAPA:35951 ! reproductive system epithelium
+relationship: ends_at TS24 ! TS24
+relationship: part_of EMAPA:17382 ! genital tubercle
+relationship: starts_at TS20 ! TS20
+created_by: terryh
+creation_date: 2015-01-14T16:41:33Z
 
 [Term]
 id: group_term
