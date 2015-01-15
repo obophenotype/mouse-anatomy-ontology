@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 14:01:2015 16:49
+date: 15:01:2015 16:44
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -48904,6 +48904,7 @@ id: EMAPA:32943
 name: hindlimb digit dermis
 namespace: anatomical_structure
 comment: order=5 for EMAPA:32942.
+is_a: EMAPA:36387 ! digit dermis
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18505 ! foot dermis
 relationship: part_of EMAPA:32942 ! hindlimb digit skin
@@ -48914,6 +48915,7 @@ id: EMAPA:32944
 name: hindlimb digit epidermis
 namespace: anatomical_structure
 comment: order=6 for EMAPA:32942.
+is_a: EMAPA:36388 ! digit epidermis
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18506 ! foot epidermis
 relationship: part_of EMAPA:32942 ! hindlimb digit skin
@@ -51982,6 +51984,7 @@ id: EMAPA:35399
 name: forelimb digit dermis
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18487.\norder=5 for EMAPA:32648.
+is_a: EMAPA:36387 ! digit dermis
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18487 ! hand dermis
 relationship: part_of EMAPA:32648 ! forelimb digit skin
@@ -54485,6 +54488,7 @@ id: EMAPA:35671
 name: forelimb digit epidermis
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18488.\norder=6 for EMAPA:32648.
+is_a: EMAPA:36388 ! digit epidermis
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18488 ! hand epidermis
 relationship: part_of EMAPA:32648 ! forelimb digit skin
@@ -60934,8 +60938,22 @@ is_a: EMAPA:35951 ! reproductive system epithelium
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:17382 ! genital tubercle
 relationship: starts_at TS20 ! TS20
-created_by: terryh
-creation_date: 2015-01-14T16:41:33Z
+
+[Term]
+id: EMAPA:36387
+name: digit dermis
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:32615 ! digit skin
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36388
+name: digit epidermis
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:32615 ! digit skin
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: group_term
