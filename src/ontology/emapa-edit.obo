@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 15:01:2015 16:44
-saved-by: terryh
+date: 16:01:2015 17:32
+saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -6174,7 +6174,7 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:16727
 name: respiratory system
 namespace: anatomical_structure
-comment: order=5 for EMAPA:16245.
+comment: order=4 for EMAPA:16245.
 is_a: EMAPA:16103 ! organ system
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16245 ! visceral organ system
@@ -7214,7 +7214,7 @@ id: EMAPA:16832
 name: cloacal membrane
 namespace: anatomical_structure
 def: "cloacal membrane (clmem) (TS16-TS20): part of the cloaca where the two different epithelia of the surface ectoderm (of the embryo) and cloacal epithelium are in direct contact with each other. Comprised of cloacal epithelium of cloacal membrane and surface ectoderm of cloacal membrane. Fgf8 marks the cloacal epithelium component. (Note: the cloacal membrane is distinct to the urogenital membrane, which is comprised of the regions of surface ectoderm and urethral plate epithelium in contact with each other and part of the genital tubercle)." []
-comment: order=1 for EMAPA:16831.\norder=2 for EMAPA:27573.
+comment: order=2 for EMAPA:16831.\norder=2 for EMAPA:27573.
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16831 ! anal region
 relationship: part_of EMAPA:27573 ! cloaca
@@ -9621,7 +9621,7 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:17177
 name: endoderm component of anal membrane
 namespace: anatomical_structure
-comment: order=2 for EMAPA:16831.
+comment: order=3 for EMAPA:16831.
 is_a: EMAPA:35991 ! alimentary system endoderm
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:16831 ! anal region
@@ -9911,7 +9911,7 @@ id: EMAPA:17212
 name: urorectal septum
 namespace: anatomical_structure
 alt_id: EMAPA:17380
-comment: order=21 for EMAPA:17366.
+comment: order=22 for EMAPA:17366.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS17 ! TS17
@@ -11329,7 +11329,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17366
 name: urinary system
 namespace: anatomical_structure
-comment: order=6 for EMAPA:16245.\norder=10 for EMAPA:16367.
+comment: order=5 for EMAPA:16245.\norder=10 for EMAPA:16367.
 is_a: EMAPA:16103 ! organ system
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16245 ! visceral organ system
@@ -11359,7 +11359,7 @@ id: EMAPA:17373
 name: metanephros
 namespace: anatomical_structure
 alt_id: EMAPA:17207
-comment: order=1 for EMAPA:17366.
+comment: order=2 for EMAPA:17366.
 synonym: "kidney" RELATED []
 is_a: EMAPA:35949 ! organ
 relationship: ends_at TS28 ! TS28
@@ -11372,10 +11372,11 @@ name: metanephric mesenchyme
 namespace: anatomical_structure
 alt_id: EMAPA:17208
 alt_id: EMAPA:29990
-comment: order=2 for EMAPA:17373.
+comment: order=2 for EMAPA:17373.\norder=1 for EMAPA:17366.
 synonym: "kidney mesenchyme" RELATED []
 is_a: EMAPA:35898 ! urinary system mesenchyme
 relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:17366 ! urinary system
 relationship: part_of EMAPA:17373 ! metanephros
 relationship: starts_at TS17 ! TS17
 
@@ -11395,7 +11396,7 @@ id: EMAPA:17379
 name: urogenital sinus
 namespace: anatomical_structure
 alt_id: EMAPA:17211
-comment: order=19 for EMAPA:17366.
+comment: order=20 for EMAPA:17366.
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS18 ! TS18
@@ -11404,7 +11405,7 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:17381
 name: reproductive system
 namespace: anatomical_structure
-comment: order=4 for EMAPA:16245.\norder=11 for EMAPA:16367.
+comment: order=3 for EMAPA:16245.\norder=11 for EMAPA:16367.
 is_a: EMAPA:16103 ! organ system
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16245 ! visceral organ system
@@ -16684,7 +16685,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17950
 name: ureter
 namespace: anatomical_structure
-comment: order=10 for EMAPA:17366.
+comment: order=11 for EMAPA:17366.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS20 ! TS20
@@ -16715,7 +16716,7 @@ relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17954
-name: early nephron group
+name: early nephron
 namespace: anatomical_structure
 comment: order=20 for EMAPA:17373.
 relationship: ends_at TS28 ! TS28
@@ -16745,7 +16746,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17961
 name: mesovarium
 namespace: anatomical_structure
-comment: order=4 for EMAPA:17959.\norder=0 for EMAPA:28540.
+comment: order=3 for EMAPA:17959.\norder=0 for EMAPA:28540.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: part_of EMAPA:28540 ! female associated reproductive structure
@@ -16755,7 +16756,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17962
 name: ovary
 namespace: anatomical_structure
-comment: order=3 for EMAPA:17959.
+comment: order=2 for EMAPA:17959.
 synonym: "female gonad" RELATED []
 is_a: EMAPA:17383 ! gonad
 is_a: EMAPA:35949 ! organ
@@ -16792,7 +16793,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17966
 name: rete ovarii of ovary
 namespace: anatomical_structure
-comment: order=15 for EMAPA:17962.
+comment: order=19 for EMAPA:17962.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS20 ! TS20
@@ -19444,7 +19445,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18265
 name: external anal sphincter
 namespace: anatomical_structure
-comment: order=3 for EMAPA:16831.
+comment: order=4 for EMAPA:16831.
 is_a: EMAPA:36052 ! anal sphincter
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16831 ! anal region
@@ -19454,7 +19455,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18266
 name: internal anal sphincter
 namespace: anatomical_structure
-comment: order=4 for EMAPA:16831.
+comment: order=5 for EMAPA:16831.
 is_a: EMAPA:36052 ! anal sphincter
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16831 ! anal region
@@ -19997,7 +19998,7 @@ id: EMAPA:18321
 name: bladder
 namespace: anatomical_structure
 def: "bladder (bl) (TS22-TS28): comprised of urothelium of bladder (subdivided into layers and cell types), lamina propria of bladder (subdivided into layers), detrusor muscle of bladder and surrounded by an outer layer of bladder (subdivided into serosa of bladder or adventitia of bladder). Also includes vasculature of bladder and nerve of bladder. Derived from primitive bladder (TS19-21). Bladder is also subdivided into regions; bladder fundus and bladder neck (subdivided into bladder trigone and ventral bladder neck). Part of the urogenital sinus and part of the urinary system." []
-comment: order=13 for EMAPA:17366.
+comment: order=14 for EMAPA:17366.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS22 ! TS22
@@ -20006,7 +20007,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18323
 name: urachus
 namespace: anatomical_structure
-comment: order=18 for EMAPA:17366.
+comment: order=19 for EMAPA:17366.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS22 ! TS22
@@ -20026,7 +20027,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18328
 name: Mullerian tubercle
 namespace: anatomical_structure
-comment: order=7 for EMAPA:17959.\norder=1 for EMAPA:28540.
+comment: order=6 for EMAPA:17959.\norder=1 for EMAPA:28540.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: part_of EMAPA:28540 ! female associated reproductive structure
@@ -20036,7 +20037,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18329
 name: labial swelling
 namespace: anatomical_structure
-comment: order=14 for EMAPA:17959.\norder=3 for EMAPA:30984.
+comment: order=13 for EMAPA:17959.\norder=3 for EMAPA:30984.
 synonym: "labia" RELATED []
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:17959 ! female reproductive system
@@ -22422,7 +22423,7 @@ id: EMAPA:18680
 name: genital tubercle of female
 namespace: anatomical_structure
 def: "genital tubercle of female (syn: clitoris anlage) (TS20): a medial swelling seen at the level of the hind limb buds, adjacent to the cloaca and posterior/caudal to the urogenital sinus. The genital tubercle is separated into male and female, therefore you must know the sex of the embryo. At TS20, the genital tubercle of female is comprised of genital tubercle mesenchyme of female, urethral plate epithelium of female, skin of genital tubercle of female, the urogenital membrane of female, and developing vasculature of female genital tubercle. The urethral plate epithelium and skin together, where they are in direct contact, are known as the urogenital membrane. After TS20, the genital tubercle becomes further subdivided. Will become the clitoris at TS26." []
-comment: order=12 for EMAPA:17959.\norder=2 for EMAPA:28540.\norder=0 for EMAPA:30984.
+comment: order=10 for EMAPA:17959.\norder=2 for EMAPA:28540.\norder=0 for EMAPA:30984.
 synonym: "clitoris anlage" RELATED []
 is_a: EMAPA:17382 ! genital tubercle
 relationship: ends_at TS27 ! TS27
@@ -22478,7 +22479,7 @@ id: EMAPA:18692
 name: urethra of male
 namespace: anatomical_structure
 def: "urethra of male (TS23-TS28): from TS23 to TS27, urethra is comprised of pelvic urethra of male and phallic urethra of male. At TS28, urethra of male is comprised of prostatic urethra, pelvic urethra of male and penile urethra." []
-comment: order=16 for EMAPA:17366.
+comment: order=17 for EMAPA:17366.
 is_a: EMAPA:30901 ! urethra
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
@@ -23668,12 +23669,12 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:18976
 name: cortical renal tubule
 namespace: anatomical_structure
-comment: order=6 for EMAPA:17952.\norder=0 for EMAPA:17954.\norder=1 for EMAPA:28445.\norder=1 for EMAPA:28485.\norder=0 for EMAPA:28491.\norder=1 for EMAPA:28506.\norder=2 for EMAPA:28527.
+comment: order=6 for EMAPA:17952.\norder=3 for EMAPA:17954.\norder=1 for EMAPA:28445.\norder=1 for EMAPA:28485.\norder=0 for EMAPA:28491.\norder=1 for EMAPA:28506.\norder=2 for EMAPA:28527.
 synonym: "kidney cortex tubule" RELATED []
 synonym: "renal cortex tubule" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17952 ! renal cortex
-relationship: part_of EMAPA:17954 ! early nephron group
+relationship: part_of EMAPA:17954 ! early nephron
 relationship: part_of EMAPA:28445 ! stage IV immature nephron
 relationship: part_of EMAPA:28485 ! maturing nephron
 relationship: part_of EMAPA:28491 ! mature nephron
@@ -23685,7 +23686,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18978
 name: female cystic vesicular appendage
 namespace: anatomical_structure
-comment: order=5 for EMAPA:17959.
+comment: order=4 for EMAPA:17959.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: starts_at TS24 ! TS24
@@ -23694,7 +23695,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:18984
 name: oviduct
 namespace: anatomical_structure
-comment: order=8 for EMAPA:17959.
+comment: order=7 for EMAPA:17959.
 synonym: "fallopian tube" RELATED []
 synonym: "uterine tube" RELATED []
 relationship: ends_at TS28 ! TS28
@@ -23714,7 +23715,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:18986
 name: vagina
 namespace: anatomical_structure
-comment: order=11 for EMAPA:17959.
+comment: order=9 for EMAPA:17959.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: starts_at TS24 ! TS24
@@ -24418,7 +24419,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19085
 name: suspensory ligament of ovary
 namespace: anatomical_structure
-comment: order=6 for EMAPA:17959.
+comment: order=5 for EMAPA:17959.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: starts_at TS23 ! TS23
@@ -25142,7 +25143,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19159
 name: pectinate line
 namespace: anatomical_structure
-comment: order=5 for EMAPA:16831.
+comment: order=6 for EMAPA:16831.
 synonym: "site of anal membrane" RELATED []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16831 ! anal region
@@ -25251,7 +25252,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19172
 name: female inguinal ring
 namespace: anatomical_structure
-comment: order=18 for EMAPA:17959.
+comment: order=17 for EMAPA:17959.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: starts_at TS25 ! TS25
@@ -38299,7 +38300,7 @@ name: cloaca
 namespace: anatomical_structure
 alt_id: EMAPA:27638
 def: "cloaca (CL) (TS17-TS20): an epithelial lined cavity derived from endoderm, seen early in embryonic development located at the posterior end of the embryo. The cloaca undergoes septation to form the urogenital sinus (ventral) and hindgut (dorsal). This common cavity is referred to as the cloaca until the urorectal septum makes contact with the skin at the surface of the embryo, and completely septates the urogenital sinus from the hindgut at TS21. The cavity that remains, becomes part of the urogenital sinus and urethra.  The cloaca is comprised of cloacal epithelium lining the lumen and the adjacent cloaca associated mesenchyme. Part of the cloacal epithelium forms the cloacal membrane." []
-comment: order=20 for EMAPA:17366.
+comment: order=21 for EMAPA:17366.
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS17 ! TS17
@@ -38349,7 +38350,7 @@ id: EMAPA:27599
 name: nephric duct, metanephric portion
 namespace: anatomical_structure
 alt_id: EMAPA:17377
-comment: order=9 for EMAPA:17366.\norder=2 for EMAPA:16577.
+comment: order=10 for EMAPA:17366.\norder=2 for EMAPA:16577.
 synonym: "Wolffian duct, metanephric portion" RELATED []
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16577 ! nephric duct
@@ -38374,7 +38375,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:27625
 alt_id: EMAPA:27694
 alt_id: EMAPA:27749
-comment: order=0 for EMAPA:17209.
+comment: order=0 for EMAPA:17209.\norder=3 for EMAPA:27721.
 synonym: "ampulla of ureter" RELATED []
 synonym: "ureteric ampulla" RELATED []
 relationship: ends_at TS28 ! TS28
@@ -38399,7 +38400,7 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:27615
 name: parametanephric mesenchyme
 namespace: anatomical_structure
-comment: order=2 for EMAPA:17366.
+comment: order=3 for EMAPA:17366.
 is_a: EMAPA:35898 ! urinary system mesenchyme
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:17366 ! urinary system
@@ -38429,10 +38430,11 @@ name: cap mesenchyme
 namespace: anatomical_structure
 alt_id: EMAPA:17645
 alt_id: EMAPA:27735
-comment: order=0 for EMAPA:17375.\norder=1 for EMAPA:27721.
+comment: order=0 for EMAPA:17375.\norder=4 for EMAPA:17373.\norder=1 for EMAPA:27721.
 synonym: "condensed mesenchyme" RELATED []
 is_a: EMAPA:35898 ! urinary system mesenchyme
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17373 ! metanephros
 relationship: part_of EMAPA:17375 ! metanephric mesenchyme
 relationship: part_of EMAPA:27721 ! nephrogenic zone
 relationship: starts_at TS19 ! TS19
@@ -38502,13 +38504,13 @@ id: EMAPA:27678
 name: renal vesicle
 namespace: anatomical_structure
 alt_id: EMAPA:27829
-comment: order=7 for EMAPA:17373.\norder=0 for EMAPA:17952.\norder=1 for EMAPA:17954.\norder=0 for EMAPA:28500.
+comment: order=7 for EMAPA:17373.\norder=0 for EMAPA:17952.\norder=0 for EMAPA:17954.\norder=0 for EMAPA:28500.
 synonym: "epithelial vesicle" RELATED []
 synonym: "stage I nephron" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17373 ! metanephros
 relationship: part_of EMAPA:17952 ! renal cortex
-relationship: part_of EMAPA:17954 ! early nephron group
+relationship: part_of EMAPA:17954 ! early nephron
 relationship: part_of EMAPA:28500 ! early tubule
 relationship: starts_at TS20 ! TS20
 
@@ -38517,11 +38519,11 @@ id: EMAPA:27681
 name: comma-shaped body
 namespace: anatomical_structure
 alt_id: EMAPA:27835
-comment: order=8 for EMAPA:17373.\norder=3 for EMAPA:17954.\norder=1 for EMAPA:17952.\norder=1 for EMAPA:28500.
+comment: order=8 for EMAPA:17373.\norder=1 for EMAPA:17954.\norder=1 for EMAPA:17952.\norder=1 for EMAPA:28500.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17373 ! metanephros
 relationship: part_of EMAPA:17952 ! renal cortex
-relationship: part_of EMAPA:17954 ! early nephron group
+relationship: part_of EMAPA:17954 ! early nephron
 relationship: part_of EMAPA:28500 ! early tubule
 relationship: starts_at TS20 ! TS20
 
@@ -38572,7 +38574,7 @@ id: EMAPA:27721
 name: nephrogenic zone
 namespace: anatomical_structure
 alt_id: EMAPA:31562
-comment: order=1 for EMAPA:17373.
+comment: order=1 for EMAPA:17373.\norder=18 for EMAPA:17952.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17373 ! metanephros
 relationship: part_of EMAPA:17952 ! renal cortex
@@ -38583,12 +38585,12 @@ id: EMAPA:27756
 name: s-shaped body
 namespace: anatomical_structure
 alt_id: EMAPA:27853
-comment: order=9 for EMAPA:17373.\norder=5 for EMAPA:17954.\norder=2 for EMAPA:17952.\norder=2 for EMAPA:28500.
+comment: order=9 for EMAPA:17373.\norder=2 for EMAPA:17954.\norder=2 for EMAPA:17952.\norder=2 for EMAPA:28500.
 synonym: "stage II nephron" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17373 ! metanephros
 relationship: part_of EMAPA:17952 ! renal cortex
-relationship: part_of EMAPA:17954 ! early nephron group
+relationship: part_of EMAPA:17954 ! early nephron
 relationship: part_of EMAPA:28500 ! early tubule
 relationship: starts_at TS21 ! TS21
 
@@ -38662,12 +38664,12 @@ id: EMAPA:27770
 name: capillary loop renal corpuscle
 namespace: anatomical_structure
 alt_id: EMAPA:27907
-comment: order=10 for EMAPA:17373.\norder=7 for EMAPA:17954.\norder=3 for EMAPA:17952.\norder=0 for EMAPA:28506.\norder=0 for EMAPA:28527.
+comment: order=10 for EMAPA:17373.\norder=4 for EMAPA:17954.\norder=3 for EMAPA:17952.\norder=0 for EMAPA:28506.\norder=0 for EMAPA:28527.
 synonym: "renal corpuscle of the stage III nephron" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17373 ! metanephros
 relationship: part_of EMAPA:17952 ! renal cortex
-relationship: part_of EMAPA:17954 ! early nephron group
+relationship: part_of EMAPA:17954 ! early nephron
 relationship: part_of EMAPA:28506 ! developing capillary loop stage nephron group
 relationship: part_of EMAPA:28527 ! late tubule
 relationship: starts_at TS21 ! TS21
@@ -38735,10 +38737,10 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:27782
 name: renal tubule
 namespace: anatomical_structure
-comment: order=11 for EMAPA:17373.\norder=11 for EMAPA:17954.
+comment: order=11 for EMAPA:17373.\norder=6 for EMAPA:17954.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17373 ! metanephros
-relationship: part_of EMAPA:17954 ! early nephron group
+relationship: part_of EMAPA:17954 ! early nephron
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -38806,11 +38808,11 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:27943
 name: maturing renal corpuscle
 namespace: anatomical_structure
-comment: order=4 for EMAPA:17952.\norder=9 for EMAPA:17954.\norder=0 for EMAPA:28445.\norder=0 for EMAPA:28485.\norder=1 for EMAPA:28527.
+comment: order=4 for EMAPA:17952.\norder=5 for EMAPA:17954.\norder=0 for EMAPA:28445.\norder=0 for EMAPA:28485.\norder=1 for EMAPA:28527.
 synonym: "renal corpuscle of Stage IV nephron" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17952 ! renal cortex
-relationship: part_of EMAPA:17954 ! early nephron group
+relationship: part_of EMAPA:17954 ! early nephron
 relationship: part_of EMAPA:28445 ! stage IV immature nephron
 relationship: part_of EMAPA:28485 ! maturing nephron
 relationship: part_of EMAPA:28527 ! late tubule
@@ -39221,11 +39223,10 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:28236
 name: mature renal corpuscle
 namespace: anatomical_structure
-comment: order=5 for EMAPA:17952.\norder=10 for EMAPA:17954.\norder=2 for EMAPA:28491.
+comment: order=5 for EMAPA:17952.\norder=2 for EMAPA:28491.
 synonym: "Malpighian corpuscle" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17952 ! renal cortex
-relationship: part_of EMAPA:17954 ! early nephron group
 relationship: part_of EMAPA:28491 ! mature nephron
 relationship: starts_at TS25 ! TS25
 
@@ -39542,7 +39543,7 @@ id: EMAPA:28373
 name: renal artery
 namespace: anatomical_structure
 alt_id: EMAPA:17862
-comment: order=3 for EMAPA:17366.\norder=5 for EMAPA:28457.\norder=0 for EMAPA:31436.\norder=47 for EMAPA:16201.\norder=4 for EMAPA:31464.
+comment: order=4 for EMAPA:17366.\norder=5 for EMAPA:28457.\norder=0 for EMAPA:31436.\norder=47 for EMAPA:16201.\norder=4 for EMAPA:31464.
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16201 ! arterial system
@@ -39557,7 +39558,7 @@ id: EMAPA:28376
 name: renal vein
 namespace: anatomical_structure
 alt_id: EMAPA:19223
-comment: order=5 for EMAPA:17366.\norder=6 for EMAPA:28457.\norder=0 for EMAPA:31450.\norder=39 for EMAPA:16240.\norder=5 for EMAPA:31464.
+comment: order=6 for EMAPA:17366.\norder=6 for EMAPA:28457.\norder=0 for EMAPA:31450.\norder=39 for EMAPA:16240.\norder=5 for EMAPA:31464.
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16240 ! venous system
@@ -39630,7 +39631,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:28407
 name: collecting duct
 namespace: anatomical_structure
-comment: order=24 for EMAPA:17373.
+comment: order=23 for EMAPA:17373.
 synonym: "ureteric tree" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17373 ! metanephros
@@ -39649,7 +39650,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:28457
 name: renal vasculature
 namespace: anatomical_structure
-comment: order=7 for EMAPA:17366.\norder=3 for EMAPA:31563.
+comment: order=8 for EMAPA:17366.\norder=3 for EMAPA:31563.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: part_of EMAPA:31579 ! developing vasculature of urinary system
@@ -39678,7 +39679,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:28494
 name: ureteric trunk
 namespace: anatomical_structure
-comment: order=25 for EMAPA:17373.\norder=2 for EMAPA:28407.
+comment: order=24 for EMAPA:17373.\norder=2 for EMAPA:28407.
 synonym: "ureteric stalk" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17373 ! metanephros
@@ -39737,7 +39738,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:28540
 name: female associated reproductive structure
 namespace: anatomical_structure
-comment: order=20 for EMAPA:17959.
+comment: order=18 for EMAPA:17959.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: starts_at TS20 ! TS20
@@ -39746,7 +39747,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:28547
 name: allantois
 namespace: anatomical_structure
-comment: order=11 for EMAPA:17366.
+comment: order=12 for EMAPA:17366.
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS20 ! TS20
@@ -39756,7 +39757,7 @@ id: EMAPA:28555
 name: urethral plate
 namespace: anatomical_structure
 alt_id: EMAPA:30897
-comment: order=22 for EMAPA:17366.\norder=2 for EMAPA:30891.
+comment: order=23 for EMAPA:17366.\norder=2 for EMAPA:30891.
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: part_of EMAPA:30901 ! urethra
@@ -39959,7 +39960,7 @@ id: EMAPA:28747
 name: urethra of female
 namespace: anatomical_structure
 def: "urethra of female (TS23-TS28): from TS23 to TS27, urethra is comprised of pelvic urethra of female and phallic urethra of female. At TS28, urethra of female is comprised of pelvic urethra of female and clitoral urethra of female (syn: external urethra)." []
-comment: order=17 for EMAPA:17366.
+comment: order=18 for EMAPA:17366.
 is_a: EMAPA:30901 ! urethra
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
@@ -40125,16 +40126,20 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:28880
 name: mesenchymal stroma of ovary
 namespace: anatomical_structure
+alt_id: EMAPA:35634
 comment: order=2 for EMAPA:17962.
+synonym: "ovarian stroma" RELATED []
+synonym: "ovary stroma" EXACT []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS20 ! TS20
+relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:28888
 name: developing vasculature of ovary
 namespace: anatomical_structure
-comment: order=14 for EMAPA:17962.\norder=4 for EMAPA:31564.
+comment: order=16 for EMAPA:17962.\norder=4 for EMAPA:31564.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17962 ! ovary
 relationship: part_of EMAPA:31580 ! developing vasculature of reproductive system
@@ -40225,7 +40230,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:28945
 name: nephric duct of female, rest of
 namespace: anatomical_structure
-comment: order=2 for EMAPA:17959.
+comment: order=1 for EMAPA:17959.
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: starts_at TS20 ! TS20
@@ -40877,7 +40882,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:29631
 name: vasculature of ovary
 namespace: anatomical_structure
-comment: order=16 for EMAPA:17962.
+comment: order=17 for EMAPA:17962.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS28 ! TS28
@@ -40904,7 +40909,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29637
 name: median umbilical ligament
 namespace: anatomical_structure
-comment: order=12 for EMAPA:17366.
+comment: order=13 for EMAPA:17366.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS28 ! TS28
@@ -41067,7 +41072,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29691
 name: renal nerve
 namespace: anatomical_structure
-comment: order=8 for EMAPA:17366.
+comment: order=9 for EMAPA:17366.
 is_a: EMAPA:35948 ! nerve of urinary system
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
@@ -41357,7 +41362,6 @@ comment: order=2 for EMAPA:19287.
 synonym: "coagulating gland" RELATED []
 is_a: EMAPA:35712 ! prostate gland lobe
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17968 ! male reproductive system
 relationship: part_of EMAPA:19287 ! prostate gland
 relationship: starts_at TS28 ! TS28
 
@@ -41729,7 +41733,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29874
 name: atretic follicle
 namespace: anatomical_structure
-comment: order=12 for EMAPA:17962.
+comment: order=11 for EMAPA:17962.
 is_a: EMAPA:35627 ! ovary follicle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17962 ! ovary
@@ -41758,7 +41762,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29880
 name: ovary ruptured follicle
 namespace: anatomical_structure
-comment: order=10 for EMAPA:17962.
+comment: order=13 for EMAPA:17962.
 synonym: "ovulated follicle" RELATED []
 is_a: EMAPA:35627 ! ovary follicle
 relationship: ends_at TS28 ! TS28
@@ -41788,7 +41792,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29886
 name: corpus luteum
 namespace: anatomical_structure
-comment: order=11 for EMAPA:17962.
+comment: order=14 for EMAPA:17962.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS28 ! TS28
@@ -41797,7 +41801,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29888
 name: corpus albicans
 namespace: anatomical_structure
-comment: order=13 for EMAPA:17962.
+comment: order=15 for EMAPA:17962.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS28 ! TS28
@@ -41860,7 +41864,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29915
 name: uterus
 namespace: anatomical_structure
-comment: order=10 for EMAPA:17959.
+comment: order=8 for EMAPA:17959.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: starts_at TS24 ! TS24
@@ -42116,7 +42120,9 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:30055
 name: circular muscle layer of ductus deferens
 namespace: anatomical_structure
+alt_id: EMAPA:35299
 comment: order=0 for EMAPA:29270.
+synonym: "ductus deferens circular muscle layer" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29270 ! muscle layer of ductus deferens
 relationship: starts_at TS28 ! TS28
@@ -42125,7 +42131,9 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:30057
 name: longitudinal muscle layer of ductus deferens
 namespace: anatomical_structure
+alt_id: EMAPA:35300
 comment: order=1 for EMAPA:29270.
+synonym: "ductus deferens longitudinal muscle layer" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29270 ! muscle layer of ductus deferens
 relationship: starts_at TS28 ! TS28
@@ -42289,7 +42297,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:30423
 name: labioscrotal swelling of female
 namespace: anatomical_structure
-comment: order=15 for EMAPA:17959.\norder=2 for EMAPA:30984.
+comment: order=12 for EMAPA:17959.\norder=2 for EMAPA:30984.
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: part_of EMAPA:30984 ! female external genitalia
@@ -43009,7 +43017,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:30777
 name: Graafian follicle
 namespace: anatomical_structure
-comment: order=9 for EMAPA:17962.
+comment: order=12 for EMAPA:17962.
 synonym: "pre-ovulatory follicle" RELATED []
 is_a: EMAPA:35627 ! ovary follicle
 relationship: ends_at TS28 ! TS28
@@ -43085,7 +43093,9 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:30793
 name: vasculature of ductus deferens
 namespace: anatomical_structure
+alt_id: EMAPA:35298
 comment: order=5 for EMAPA:18681.
+synonym: "ductus deferens blood vessel" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18681 ! ductus deferens
 relationship: starts_at TS28 ! TS28
@@ -43175,7 +43185,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:30819
 name: clitoris
 namespace: anatomical_structure
-comment: order=13 for EMAPA:17959.\norder=1 for EMAPA:30984.
+comment: order=11 for EMAPA:17959.\norder=1 for EMAPA:30984.
 synonym: "genital tubercle of female" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
@@ -43259,7 +43269,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:30837
 name: labia
 namespace: anatomical_structure
-comment: order=17 for EMAPA:17959.\norder=4 for EMAPA:30984.
+comment: order=14 for EMAPA:17959.\norder=4 for EMAPA:30984.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: part_of EMAPA:30984 ! female external genitalia
@@ -43352,7 +43362,7 @@ id: EMAPA:30879
 name: caudal urogenital sinus
 namespace: anatomical_structure
 def: "caudal urogenital sinus (syn: primitive pelvic urethra) (TS19-TS20): the posterior/caudal part of the urogenital sinus including the urogenital sinus ridge where the common nephric ducts/nephric ducts join the urogenital sinus. Comprised of the urogenital sinus ridge, rest of caudal urogenital sinus epithelium and surrounded by the caudal urogenital sinus mesenchyme. Becomes the pelvic urethra at TS21, which together with the primitive bladder makes up the urogenital sinus." []
-comment: order=6 for EMAPA:17379.
+comment: order=7 for EMAPA:17379.
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:17379 ! urogenital sinus
 relationship: starts_at TS19 ! TS19
@@ -43397,7 +43407,7 @@ name: urethra
 namespace: anatomical_structure
 alt_id: EMAPA:30891
 def: "urethra: (TS21 and TS22): the urethra links the primitive bladder/bladder to the outside of the embryo. At TS21 it is part of the urinary system. It is subdivided into pelvic urethra (located within the body of the embryo) and phallic urethra of male/female (located within the genital tubercle). Pelvic urethra is derived from the caudal urogenital sinus and phallic urethra is derived from urethral plate epithelium." []
-comment: order=15 for EMAPA:17366.\norder=5 for EMAPA:17379.
+comment: order=16 for EMAPA:17366.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS21 ! TS21
@@ -43408,7 +43418,7 @@ name: pelvic urethra
 namespace: anatomical_structure
 alt_id: EMAPA:30893
 def: "pelvic urethra (PLUR) (TS21-TS22): comprised of epithelium of pelvic urethra (eplur, subdivided into urogenital sinus ridge (sr) and rest of epithelium of pelvic urethra), mesenchymal layer of pelvic urethra (mplur; divided into dorsal and ventral), nerve, developing vasculature, adventitia and from TS22 muscle layer (muplur; divided into dorsal and ventral). Pelvic urethra is a part of the urinary system and is part of the urethra. The epithelium of pelvic urethra is contiguous with the epithelium of phallic urethra (caudally) and bladder urothelium (cranially). Derived from the caudal urogenital sinus (TS20). Becomes the pelvic urethra of male/female from TS23." []
-comment: order=0 for EMAPA:30901.
+comment: order=0 for EMAPA:30901.\norder=6 for EMAPA:17379.
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17379 ! urogenital sinus
 relationship: part_of EMAPA:30901 ! urethra
@@ -43625,7 +43635,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:30984
 name: female external genitalia
 namespace: anatomical_structure
-comment: order=19 for EMAPA:17959.
+comment: order=15 for EMAPA:17959.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: starts_at TS20 ! TS20
@@ -43722,7 +43732,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:31058
 name: ovigerous cord
 namespace: anatomical_structure
-comment: order=17 for EMAPA:17962.
+comment: order=20 for EMAPA:17962.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS24 ! TS24
@@ -44283,7 +44293,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:31436
 name: renal arterial system
 namespace: anatomical_structure
-comment: order=4 for EMAPA:17366.
+comment: order=5 for EMAPA:17366.
 synonym: "kidney arterial system" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
@@ -44293,7 +44303,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:31443
 name: renal capillary
 namespace: anatomical_structure
-comment: order=28 for EMAPA:17373.
+comment: order=26 for EMAPA:17373.
 synonym: "kidney capillary" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17373 ! metanephros
@@ -44303,7 +44313,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:31450
 name: renal venous system
 namespace: anatomical_structure
-comment: order=6 for EMAPA:17366.
+comment: order=7 for EMAPA:17366.
 synonym: "kidney venous system" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
@@ -44324,7 +44334,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:31469
 name: renal small blood vessel
 namespace: anatomical_structure
-comment: order=27 for EMAPA:17373.
+comment: order=25 for EMAPA:17373.
 synonym: "kidney small blood vessel" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17373 ! metanephros
@@ -44595,7 +44605,7 @@ comment: order=4 for EMAPA:30903.\norder=0 for EMAPA:31569.
 is_a: EMAPA:35948 ! nerve of urinary system
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:30903 ! pelvic urethra
-relationship: part_of EMAPA:31569 ! nerves of urethra
+relationship: part_of EMAPA:31569 ! nerve of urethra
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -44608,7 +44618,7 @@ synonym: "nerve of caudal urethra" RELATED []
 is_a: EMAPA:35948 ! nerve of urinary system
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:30911 ! phallic urethra
-relationship: part_of EMAPA:31569 ! nerves of urethra
+relationship: part_of EMAPA:31569 ! nerve of urethra
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -44633,7 +44643,7 @@ id: EMAPA:31527
 name: pelvic ganglion
 namespace: anatomical_structure
 alt_id: EMAPA:31522
-comment: order=0 for EMAPA:31533.\norder=24 for EMAPA:17366.
+comment: order=0 for EMAPA:31533.\norder=25 for EMAPA:17366.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: part_of EMAPA:31533 ! nerves of urogenital sinus
@@ -44836,7 +44846,7 @@ comment: order=5 for EMAPA:30917.\norder=4 for EMAPA:31569.
 is_a: EMAPA:35948 ! nerve of urinary system
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30917 ! phallic urethra of female
-relationship: part_of EMAPA:31569 ! nerves of urethra
+relationship: part_of EMAPA:31569 ! nerve of urethra
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -44910,7 +44920,7 @@ comment: order=5 for EMAPA:18995.\norder=2 for EMAPA:31569.
 is_a: EMAPA:35948 ! nerve of urinary system
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18995 ! pelvic urethra of male
-relationship: part_of EMAPA:31569 ! nerves of urethra
+relationship: part_of EMAPA:31569 ! nerve of urethra
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -44930,7 +44940,7 @@ comment: order=4 for EMAPA:28753.\norder=1 for EMAPA:31569.
 is_a: EMAPA:35948 ! nerve of urinary system
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28753 ! pelvic urethra of female
-relationship: part_of EMAPA:31569 ! nerves of urethra
+relationship: part_of EMAPA:31569 ! nerve of urethra
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -44941,16 +44951,17 @@ comment: order=5 for EMAPA:17956.\norder=5 for EMAPA:31569.
 is_a: EMAPA:35948 ! nerve of urinary system
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:17956 ! phallic urethra of male
-relationship: part_of EMAPA:31569 ! nerves of urethra
+relationship: part_of EMAPA:31569 ! nerve of urethra
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:31569
-name: nerves of urethra
+name: nerve of urethra
 namespace: anatomical_structure
-comment: order=25 for EMAPA:17366.
+comment: order=31 for EMAPA:17366.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
+relationship: part_of EMAPA:30901 ! urethra
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -45026,7 +45037,7 @@ id: EMAPA:31579
 name: developing vasculature of urinary system
 namespace: anatomical_structure
 alt_id: EMAPA:31563
-comment: order=23 for EMAPA:17366.
+comment: order=24 for EMAPA:17366.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS19 ! TS19
@@ -51107,33 +51118,6 @@ relationship: part_of EMAPA:35419 ! hypothalamus medial zone
 relationship: starts_at TS27 ! TS27
 
 [Term]
-id: EMAPA:35298
-name: ductus deferens blood vessel
-namespace: anatomical_structure
-comment: order=7 for EMAPA:18681.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18681 ! ductus deferens
-relationship: starts_at TS28 ! TS28
-
-[Term]
-id: EMAPA:35299
-name: ductus deferens circular muscle layer
-namespace: anatomical_structure
-comment: order=8 for EMAPA:18681.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18681 ! ductus deferens
-relationship: starts_at TS28 ! TS28
-
-[Term]
-id: EMAPA:35300
-name: ductus deferens longitudinal muscle layer
-namespace: anatomical_structure
-comment: order=9 for EMAPA:18681.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18681 ! ductus deferens
-relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:35301
 name: ear skin
 namespace: anatomical_structure
@@ -51309,7 +51293,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35341.
 is_a: EMAPA:35962 ! female reproductive system epithelium
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:35341 ! female paramesonephric duct
+relationship: part_of EMAPA:35660 ! paramesonephric duct of female
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -51504,15 +51488,6 @@ comment: order=1 for EMAPA:35112.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35112 ! adipose tissue
 relationship: starts_at TS25 ! TS25
-
-[Term]
-id: EMAPA:35341
-name: female paramesonephric duct
-namespace: anatomical_structure
-comment: order=23 for EMAPA:17959.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17959 ! female reproductive system
-relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35342
@@ -52524,7 +52499,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:35457
 name: metanephros epithelium
 namespace: anatomical_structure
-comment: order=30 for EMAPA:17373.
+comment: order=27 for EMAPA:17373.
 synonym: "kidney epithelium" RELATED []
 synonym: "renal epithelium" RELATED []
 is_a: EMAPA:35953 ! urinary system epithelium
@@ -52536,7 +52511,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:35458
 name: metanephros glomerular epithelium
 namespace: anatomical_structure
-comment: order=31 for EMAPA:17373.
+comment: order=28 for EMAPA:17373.
 synonym: "kidney glomerular epithelium" RELATED []
 is_a: EMAPA:35457 ! metanephros epithelium
 relationship: ends_at TS28 ! TS28
@@ -53504,7 +53479,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:35341.
 is_a: EMAPA:35974 ! female reproductive system mesenchyme
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:35341 ! female paramesonephric duct
+relationship: part_of EMAPA:35660 ! paramesonephric duct of female
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -53739,7 +53714,7 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35590
 name: nephric duct of female
 namespace: anatomical_structure
-comment: order=26 for EMAPA:17959.
+comment: order=23 for EMAPA:17959.
 synonym: "mesonephric duct of female" RELATED []
 synonym: "wolffian duct of female" RELATED []
 relationship: ends_at TS22 ! TS22
@@ -53761,7 +53736,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:35592
 name: nephron
 namespace: anatomical_structure
-comment: order=34 for EMAPA:17373.
+comment: order=31 for EMAPA:17373.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17373 ! metanephros
 relationship: starts_at TS25 ! TS25
@@ -54064,7 +54039,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35625
 name: ovary antral follicle
 namespace: anatomical_structure
-comment: order=0 for EMAPA:35627.
+comment: order=0 for EMAPA:35627.\norder=10 for EMAPA:17962.
 is_a: EMAPA:35627 ! ovary follicle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17962 ! ovary
@@ -54074,7 +54049,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35626
 name: ovary capsule
 namespace: anatomical_structure
-comment: order=19 for EMAPA:17962.
+comment: order=21 for EMAPA:17962.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS28 ! TS28
@@ -54083,7 +54058,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35627
 name: ovary follicle
 namespace: anatomical_structure
-comment: order=20 for EMAPA:17962.
+comment: order=22 for EMAPA:17962.
 synonym: "ovarian follicle" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17962 ! ovary
@@ -54093,7 +54068,7 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35628
 name: ovary growing follicle
 namespace: anatomical_structure
-comment: order=1 for EMAPA:35627.
+comment: order=1 for EMAPA:35627.\norder=23 for EMAPA:17962.
 is_a: EMAPA:35627 ! ovary follicle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17962 ! ovary
@@ -54103,7 +54078,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35629
 name: ovary mature follicle
 namespace: anatomical_structure
-comment: order=2 for EMAPA:35627.
+comment: order=2 for EMAPA:35627.\norder=24 for EMAPA:17962.
 is_a: EMAPA:35627 ! ovary follicle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17962 ! ovary
@@ -54113,7 +54088,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35630
 name: ovary preantral follicle
 namespace: anatomical_structure
-comment: order=3 for EMAPA:35627.
+comment: order=3 for EMAPA:35627.\norder=9 for EMAPA:17962.
 is_a: EMAPA:35627 ! ovary follicle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17962 ! ovary
@@ -54124,7 +54099,7 @@ id: EMAPA:35631
 name: ovary primary follicle
 namespace: anatomical_structure
 alt_id: EMAPA:19284
-comment: order=4 for EMAPA:35627.
+comment: order=4 for EMAPA:35627.\norder=6 for EMAPA:17962.
 synonym: "primary follicle" RELATED []
 is_a: EMAPA:35627 ! ovary follicle
 relationship: ends_at TS28 ! TS28
@@ -54136,7 +54111,7 @@ id: EMAPA:35632
 name: ovary secondary follicle
 namespace: anatomical_structure
 alt_id: EMAPA:29862
-comment: order=5 for EMAPA:35627.
+comment: order=5 for EMAPA:35627.\norder=7 for EMAPA:17962.
 synonym: "antral follicle" RELATED []
 synonym: "secondary follicle" RELATED []
 is_a: EMAPA:35627 ! ovary follicle
@@ -54154,20 +54129,10 @@ relationship: part_of EMAPA:35627 ! ovary follicle
 relationship: starts_at TS28 ! TS28
 
 [Term]
-id: EMAPA:35634
-name: ovary stroma
-namespace: anatomical_structure
-comment: order=21 for EMAPA:17962.
-synonym: "ovarian stroma" RELATED []
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17962 ! ovary
-relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:35636
 name: ovary theca
 namespace: anatomical_structure
-comment: order=22 for EMAPA:17962.
+comment: order=25 for EMAPA:17962.
 synonym: "ovarian theca" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17962 ! ovary
@@ -54380,7 +54345,9 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35660
 name: paramesonephric duct of female
 namespace: anatomical_structure
-comment: order=22 for EMAPA:17959.
+alt_id: EMAPA:35341
+comment: order=20 for EMAPA:17959.
+synonym: "female paramesonephric duct" RELATED []
 is_a: EMAPA:27665 ! paramesonephric duct
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17959 ! female reproductive system
@@ -54647,7 +54614,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35689
 name: placenta
 namespace: anatomical_structure
-comment: order=27 for EMAPA:17959.
+comment: order=24 for EMAPA:17959.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: starts_at TS28 ! TS28
@@ -54991,7 +54958,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:35726
 name: renal corpuscle
 namespace: anatomical_structure
-comment: order=35 for EMAPA:17373.
+comment: order=32 for EMAPA:17373.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17373 ! metanephros
 relationship: starts_at TS21 ! TS21
@@ -57000,7 +56967,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:35946
 name: nerve of female reproductive system
 namespace: anatomical_structure
-comment: order=21 for EMAPA:17959.
+comment: order=19 for EMAPA:17959.
 is_a: EMAPA:32808 ! nerve
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
@@ -57163,7 +57130,7 @@ relationship: starts_at TS11 ! TS11
 id: EMAPA:35962
 name: female reproductive system epithelium
 namespace: anatomical_structure
-comment: order=24 for EMAPA:17959.
+comment: order=21 for EMAPA:17959.
 is_a: EMAPA:35951 ! reproductive system epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
@@ -57231,7 +57198,7 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:35969
 name: metanephros parietal epithelium
 namespace: anatomical_structure
-comment: order=32 for EMAPA:17373.
+comment: order=29 for EMAPA:17373.
 synonym: "kidney parietal epithelium" RELATED []
 is_a: EMAPA:35457 ! metanephros epithelium
 relationship: ends_at TS28 ! TS28
@@ -57242,7 +57209,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:35970
 name: metanephros visceral epithelium
 namespace: anatomical_structure
-comment: order=33 for EMAPA:17373.
+comment: order=30 for EMAPA:17373.
 synonym: "kidney visceral epithelium" RELATED []
 is_a: EMAPA:35457 ! metanephros epithelium
 relationship: ends_at TS28 ! TS28
@@ -57283,7 +57250,7 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:35974
 name: female reproductive system mesenchyme
 namespace: anatomical_structure
-comment: order=25 for EMAPA:17959.
+comment: order=22 for EMAPA:17959.
 is_a: EMAPA:35728 ! reproductive system mesenchyme
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17959 ! female reproductive system
@@ -57994,6 +57961,7 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:36052
 name: anal sphincter
 namespace: anatomical_structure
+comment: order=1 for EMAPA:16831.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16831 ! anal region
 relationship: starts_at TS22 ! TS22
@@ -60442,7 +60410,7 @@ id: EMAPA:36332
 name: bladder-urethra transition zone
 namespace: anatomical_structure
 def: "bladder-urethra transition zone (syn: bladder-urethra junction) (TS22-TS28): comprised of epithelium and mesenchyme of bladder-urethra transition zone. The zone or region located where the bladder neck meets the pelvic urethra/urethra, marking the junction where these two different epithelia meet (urothelium of bladder and epithelium of pelvic urethra). It is similar to transitional zones in other organs, such as the female cervix and the Z-line in the oesophagus. It is located close to where the nephric duct attaches to the urogenital sinus. Part of the urogenital sinus (to TS26) and part of the urinary system. Use these terms to annotate expression in the epithelium or mesenchyme where the bladder meets the pelvic urethra, when the tissue cannot be identified as being either part of the bladder or part of the pelvic urethra." []
-comment: order=14 for EMAPA:17366.
+comment: order=15 for EMAPA:17366.
 synonym: "bladder-urethra junction" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
@@ -60916,6 +60884,7 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:36384
 name: genital tubercle mesenchyme
 namespace: anatomical_structure
+comment: order=8 for EMAPA:17382.
 is_a: EMAPA:35728 ! reproductive system mesenchyme
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:17382 ! genital tubercle
@@ -60934,6 +60903,7 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:36386
 name: genital tubercle epithelium
 namespace: anatomical_structure
+comment: order=7 for EMAPA:17382.
 is_a: EMAPA:35951 ! reproductive system epithelium
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:17382 ! genital tubercle
