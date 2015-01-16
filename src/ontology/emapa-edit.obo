@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 16:01:2015 17:32
-saved-by: jarm
+date: 16:01:2015 17:36
+saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -25309,7 +25309,8 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19180
 name: seminal vesicle
 namespace: anatomical_structure
-comment: order=10 for EMAPA:17968.
+alt_id: EMAPA:35920
+synonym: "vesicular gland" EXACT []
 synonym: "vesicular seminalis" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
@@ -40133,7 +40134,6 @@ synonym: "ovary stroma" EXACT []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17962 ! ovary
 relationship: starts_at TS20 ! TS20
-relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:28888
@@ -46717,10 +46717,11 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:32703
 name: cortical subplate
 namespace: anatomical_structure
-comment: order=13 for EMAPA:17544.
+alt_id: EMAPA:32833
+synonym: "cerebral cortex subplate" EXACT []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17544 ! cerebral cortex
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:32704
@@ -47461,7 +47462,6 @@ id: EMAPA:32782
 name: bone
 namespace: anatomical_structure
 comment: order=2 for EMAPA:17213.
-is_a: EMAPA:35949 ! organ
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17213 ! skeleton
 relationship: starts_at TS20 ! TS20
@@ -47934,15 +47934,6 @@ comment: order=2 for EMAPA:17286.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17286 ! inner ear vestibular component
 relationship: starts_at TS19 ! TS19
-
-[Term]
-id: EMAPA:32833
-name: cerebral cortex subplate
-namespace: anatomical_structure
-comment: order=4 for EMAPA:17544.
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17544 ! cerebral cortex
-relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:32834
@@ -54508,7 +54499,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:35251.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35251 ! connective tissue
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35677
@@ -54554,7 +54545,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:32782.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32782 ! bone
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35682
@@ -56721,15 +56712,6 @@ comment: order=9 for EMAPA:17214.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17214 ! axial skeleton
 relationship: starts_at TS27 ! TS27
-
-[Term]
-id: EMAPA:35920
-name: vesicular gland
-namespace: anatomical_structure
-comment: order=37 for EMAPA:17968.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17968 ! male reproductive system
-relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:35921
