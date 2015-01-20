@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 16:01:2015 17:36
+date: 20:01:2015 16:29
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -16083,8 +16083,8 @@ id: EMAPA:17870
 name: aortic valve
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17869.
+is_a: EMAPA:35760 ! semilunar valve
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17869 ! heart valve
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -16092,8 +16092,8 @@ id: EMAPA:17871
 name: mitral valve
 namespace: anatomical_structure
 comment: order=2 for EMAPA:17869.
+is_a: EMAPA:35154 ! atrioventricular valve
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17869 ! heart valve
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -16101,8 +16101,8 @@ id: EMAPA:17872
 name: pulmonary valve
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17869.
+is_a: EMAPA:35760 ! semilunar valve
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17869 ! heart valve
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -16110,8 +16110,8 @@ id: EMAPA:17873
 name: tricuspid valve
 namespace: anatomical_structure
 comment: order=5 for EMAPA:17869.
+is_a: EMAPA:35154 ! atrioventricular valve
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17869 ! heart valve
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -49766,9 +49766,9 @@ name: atrioventricular valve
 namespace: anatomical_structure
 comment: order=1 for EMAPA:17869.
 synonym: "atrio-ventricular valve" RELATED []
+is_a: EMAPA:17869 ! heart valve
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17869 ! heart valve
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35155
@@ -55244,9 +55244,9 @@ id: EMAPA:35760
 name: semilunar valve
 namespace: anatomical_structure
 comment: order=4 for EMAPA:17869.
+is_a: EMAPA:17869 ! heart valve
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17869 ! heart valve
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35761
