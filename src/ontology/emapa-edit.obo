@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 21:01:2015 16:17
-saved-by: jarm
+date: 22:01:2015 17:38
+saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -7499,9 +7499,9 @@ id: EMAPA:16862
 name: somite 31 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16861.\norder=13 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16861 ! somite 31
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -7539,9 +7539,9 @@ id: EMAPA:16866
 name: somite 32 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16865.\norder=21 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16865 ! somite 32
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -7579,9 +7579,9 @@ id: EMAPA:16870
 name: somite 33 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16869.\norder=24 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16869 ! somite 33
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -7619,9 +7619,9 @@ id: EMAPA:16874
 name: somite 34 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16873.\norder=12 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16873 ! somite 34
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -7659,9 +7659,9 @@ id: EMAPA:16878
 name: somite 35 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16877.\norder=25 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16877 ! somite 35
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -8992,9 +8992,9 @@ id: EMAPA:17050
 name: somite 36 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17049.\norder=28 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:17049 ! somite 36
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -9032,9 +9032,9 @@ id: EMAPA:17054
 name: somite 37 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17053.\norder=2 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:17053 ! somite 37
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -9072,9 +9072,9 @@ id: EMAPA:17058
 name: somite 38 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17057.\norder=9 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:17057 ! somite 38
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -9112,9 +9112,9 @@ id: EMAPA:17062
 name: somite 39 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17061.\norder=27 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:17061 ! somite 39
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -9968,9 +9968,9 @@ id: EMAPA:17218
 name: somite 40 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17217.\norder=11 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17217 ! somite 40
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -10008,9 +10008,9 @@ id: EMAPA:17222
 name: somite 41 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17221.\norder=0 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17221 ! somite 41
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -10048,9 +10048,9 @@ id: EMAPA:17226
 name: somite 42 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17225.\norder=5 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17225 ! somite 42
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -10088,9 +10088,9 @@ id: EMAPA:17230
 name: somite 43 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17229.\norder=6 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17229 ! somite 43
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -10128,9 +10128,9 @@ id: EMAPA:17234
 name: somite 44 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17233.\norder=29 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17233 ! somite 44
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -10168,9 +10168,9 @@ id: EMAPA:17238
 name: somite 45 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17237.\norder=4 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17237 ! somite 45
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -11588,9 +11588,9 @@ id: EMAPA:17400
 name: somite 46 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17399.\norder=16 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17399 ! somite 46
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -11628,9 +11628,9 @@ id: EMAPA:17404
 name: somite 47 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17403.\norder=26 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17403 ! somite 47
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -11668,9 +11668,9 @@ id: EMAPA:17408
 name: somite 48 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17407.\norder=19 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17407 ! somite 48
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -14348,9 +14348,9 @@ id: EMAPA:17685
 name: somite 49 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17684.\norder=1 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17684 ! somite 49
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -14388,9 +14388,9 @@ id: EMAPA:17689
 name: somite 50 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17688.\norder=3 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17688 ! somite 50
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -14428,9 +14428,9 @@ id: EMAPA:17693
 name: somite 51 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17692.\norder=20 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17692 ! somite 51
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -14468,9 +14468,9 @@ id: EMAPA:17697
 name: somite 52 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17696.\norder=8 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17696 ! somite 52
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -16848,6 +16848,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:17968.
 synonym: "male gonad" RELATED []
 synonym: "testes" RELATED []
+synonym: "testicle" RELATED []
 is_a: EMAPA:17383 ! gonad
 is_a: EMAPA:35949 ! organ
 relationship: ends_at TS28 ! TS28
@@ -17333,9 +17334,9 @@ id: EMAPA:18031
 name: somite 53 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18030.\norder=17 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:18030 ! somite 53
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -17373,9 +17374,9 @@ id: EMAPA:18035
 name: somite 54 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18034.\norder=14 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:18034 ! somite 54
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -17413,9 +17414,9 @@ id: EMAPA:18039
 name: somite 55 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18038.\norder=7 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:18038 ! somite 55
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -19448,7 +19449,6 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:16831.
 is_a: EMAPA:36052 ! anal sphincter
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16831 ! anal region
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -19458,7 +19458,6 @@ namespace: anatomical_structure
 comment: order=5 for EMAPA:16831.
 is_a: EMAPA:36052 ! anal sphincter
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16831 ! anal region
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -20237,9 +20236,9 @@ id: EMAPA:18351
 name: somite 56 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18350.\norder=10 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:18350 ! somite 56
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -20277,9 +20276,9 @@ id: EMAPA:18355
 name: somite 57 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18354.\norder=18 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:18354 ! somite 57
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -20317,9 +20316,9 @@ id: EMAPA:18359
 name: somite 58 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18358.\norder=15 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:18358 ! somite 58
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -20357,9 +20356,9 @@ id: EMAPA:18363
 name: somite 59 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18362.\norder=23 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:18362 ! somite 59
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -20397,9 +20396,9 @@ id: EMAPA:18367
 name: somite 60 dermomyotome
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18366.\norder=22 for EMAPA:29703.
+is_a: EMAPA:29703 ! tail dermomyotome
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:18366 ! somite 60
-relationship: part_of EMAPA:29703 ! tail dermomyotome
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -23356,10 +23355,10 @@ namespace: anatomical_structure
 alt_id: EMAPA:32803
 comment: order=1 for EMAPA:18256.\norder=0 for EMAPA:27531.
 is_a: EMAPA:32683 ! alimentary system epithelium
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18256 ! anal canal
 relationship: part_of EMAPA:27531 ! anal canal mucosa
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:18836
@@ -38222,7 +38221,7 @@ id: EMAPA:27531
 name: anal canal mucosa
 namespace: anatomical_structure
 comment: order=3 for EMAPA:18256.
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18256 ! anal canal
 relationship: starts_at TS23 ! TS23
 
@@ -46557,7 +46556,7 @@ comment: order=8 for EMAPA:16105.\norder=0 for EMAPA:32715.
 synonym: "cardiac muscle" RELATED []
 synonym: "heart muscle" RELATED []
 synonym: "myocardium" RELATED []
-is_a: EMAPA:32715 ! muscle tissue
+is_a: EMAPA:36390 ! striated muscle tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16105 ! heart
 relationship: part_of EMAPA:35577 ! musculature
@@ -46830,7 +46829,7 @@ id: EMAPA:32716
 name: skeletal muscle tissue
 namespace: anatomical_structure
 comment: order=1 for EMAPA:32715.\norder=0 for EMAPA:35988.
-is_a: EMAPA:32715 ! muscle tissue
+is_a: EMAPA:36390 ! striated muscle tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35988 ! skeletal muscle
 relationship: starts_at TS20 ! TS20
@@ -49971,6 +49970,7 @@ id: EMAPA:35176
 name: blood vessel endothelium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:32743.
+is_a: EMAPA:35201 ! cardiovascular system endothelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36297 ! tunica intima
 relationship: starts_at TS24 ! TS24
@@ -50200,7 +50200,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:16104.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16104 ! cardiovascular system
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35202
@@ -53209,6 +53209,7 @@ id: EMAPA:35533
 name: lymphatic vessel endothelium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35532.
+is_a: EMAPA:35201 ! cardiovascular system endothelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36311 ! lymphatic vessel tunica intima
 relationship: starts_at TS24 ! TS24
@@ -57214,7 +57215,7 @@ name: cardiovascular system mesenchyme
 namespace: anatomical_structure
 comment: order=4 for EMAPA:16104.
 is_a: EMAPA:35961 ! embryo mesenchyme
-relationship: ends_at TS16 ! TS16
+relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16104 ! cardiovascular system
 relationship: starts_at TS12 ! TS12
 
@@ -60896,6 +60897,23 @@ namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:32615 ! digit skin
 relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36389
+name: tail dermatome
+namespace: anatomical_structure
+is_a: EMAPA:32838 ! dermatome
+relationship: ends_at TS22 ! TS22
+relationship: part_of EMAPA:29703 ! tail dermomyotome
+relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:36390
+name: striated muscle tissue
+namespace: anatomical_structure
+is_a: EMAPA:32715 ! muscle tissue
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: group_term
