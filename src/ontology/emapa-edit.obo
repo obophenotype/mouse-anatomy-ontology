@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 22:01:2015 17:38
+date: 23:01:2015 16:44
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -46903,7 +46903,7 @@ synonym: "paw skin" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32722 ! autopod
 relationship: part_of EMAPA:32726 ! limb skin
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:32724
@@ -49723,6 +49723,7 @@ id: EMAPA:35151
 name: ascending colon
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18939.
+synonym: "proximal colon" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18939 ! colon
 relationship: starts_at TS27 ! TS27
@@ -49835,7 +49836,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:31857.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31857 ! trunk
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35163
@@ -50976,6 +50977,7 @@ id: EMAPA:35285
 name: descending colon
 namespace: anatomical_structure
 comment: order=8 for EMAPA:18939.
+synonym: "distal colon" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18939 ! colon
 relationship: starts_at TS27 ! TS27
@@ -51360,6 +51362,7 @@ id: EMAPA:35328
 name: exocrine pancreas
 namespace: anatomical_structure
 comment: order=3 for EMAPA:18816.
+xref: XX:<new xref>
 is_a: EMAPA:35327 ! exocrine gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17503 ! pancreas
@@ -51973,7 +51976,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:18765.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18765 ! hemolymphoid system
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35403
@@ -54254,7 +54257,7 @@ namespace: anatomical_structure
 comment: order=7 for EMAPA:18816.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17503 ! pancreas
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35653
@@ -55793,7 +55796,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:32835.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17023 ! stomach epithelium
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35825
@@ -56322,6 +56325,7 @@ id: EMAPA:35880
 name: transverse colon
 namespace: anatomical_structure
 comment: order=9 for EMAPA:18939.
+synonym: "mid colon" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18939 ! colon
 relationship: starts_at TS27 ! TS27
@@ -60914,6 +60918,23 @@ namespace: anatomical_structure
 is_a: EMAPA:32715 ! muscle tissue
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS12 ! TS12
+
+[Term]
+id: EMAPA:36391
+name: sigmoid colon
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18939 ! colon
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36392
+name: back skin
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17525 ! skin
+relationship: part_of EMAPA:35162 ! back of trunk
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: group_term
