@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 29:01:2015 15:49
-saved-by: jarm
+date: 29:01:2015 15:15
+saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -5598,8 +5598,8 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:16667.
 synonym: "DRG" RELATED []
 synonym: "posterior root ganglion" RELATED []
+is_a: EMAPA:16667 ! spinal ganglion
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16667 ! spinal ganglion
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -8376,8 +8376,8 @@ id: EMAPA:16988
 name: brachial plexus
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16987.
+is_a: EMAPA:16987 ! spinal nerve plexus
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16987 ! spinal nerve plexus
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -8396,8 +8396,8 @@ id: EMAPA:16990
 name: segmental spinal nerve
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16989.
+is_a: EMAPA:16989 ! spinal nerve
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16989 ! spinal nerve
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -10431,9 +10431,9 @@ namespace: anatomical_structure
 alt_id: EMAPA:17159
 comment: order=1 for EMAPA:17264.
 synonym: "accessory nerve" RELATED []
+is_a: EMAPA:16989 ! spinal nerve
 is_a: EMAPA:17264 ! cranial nerve
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16989 ! spinal nerve
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -13409,8 +13409,8 @@ id: EMAPA:17587
 name: lumbosacral plexus
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16987.
+is_a: EMAPA:16987 ! spinal nerve plexus
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16987 ! spinal nerve plexus
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -15558,8 +15558,8 @@ id: EMAPA:17813
 name: phrenic nerve
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16989.
+is_a: EMAPA:16989 ! spinal nerve
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16989 ! spinal nerve
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -19098,8 +19098,8 @@ id: EMAPA:18227
 name: intercostal nerve
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16989.
+is_a: EMAPA:16989 ! spinal nerve
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16989 ! spinal nerve
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -30711,8 +30711,8 @@ id: EMAPA:25144
 name: C1 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -30720,8 +30720,8 @@ id: EMAPA:25145
 name: C1 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30767,8 +30767,8 @@ id: EMAPA:25150
 name: Tl1 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=0 for EMAPA:25149.
+is_a: EMAPA:25149 ! tail segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:25149 ! tail segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30794,8 +30794,8 @@ id: EMAPA:25154
 name: Tl1 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18372.
+is_a: EMAPA:18372 ! tail dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18372 ! tail dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30803,8 +30803,8 @@ id: EMAPA:25155
 name: C2 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30812,8 +30812,8 @@ id: EMAPA:25156
 name: C3 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30821,8 +30821,8 @@ id: EMAPA:25157
 name: C4 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30830,8 +30830,8 @@ id: EMAPA:25158
 name: C5 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=4 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30839,8 +30839,8 @@ id: EMAPA:25159
 name: C6 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=5 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30848,8 +30848,8 @@ id: EMAPA:25160
 name: C7 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=6 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30857,8 +30857,8 @@ id: EMAPA:25164
 name: L1 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=7 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30866,8 +30866,8 @@ id: EMAPA:25165
 name: L2 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=8 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30875,8 +30875,8 @@ id: EMAPA:25166
 name: L3 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=9 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30884,8 +30884,8 @@ id: EMAPA:25167
 name: L4 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=10 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30893,8 +30893,8 @@ id: EMAPA:25168
 name: L5 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=11 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30902,8 +30902,8 @@ id: EMAPA:25169
 name: L6 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=12 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30911,8 +30911,8 @@ id: EMAPA:25170
 name: S1 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=13 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30920,8 +30920,8 @@ id: EMAPA:25171
 name: S2 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=14 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30929,8 +30929,8 @@ id: EMAPA:25172
 name: S3 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=15 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30938,8 +30938,8 @@ id: EMAPA:25173
 name: S4 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=16 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30947,8 +30947,8 @@ id: EMAPA:25174
 name: T1 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=17 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30956,8 +30956,8 @@ id: EMAPA:25175
 name: T2 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=22 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30965,8 +30965,8 @@ id: EMAPA:25176
 name: T3 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=23 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30974,8 +30974,8 @@ id: EMAPA:25177
 name: T4 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=24 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30983,8 +30983,8 @@ id: EMAPA:25178
 name: T6 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=26 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -30992,8 +30992,8 @@ id: EMAPA:25179
 name: T5 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=25 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31001,8 +31001,8 @@ id: EMAPA:25180
 name: T7 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=27 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31010,8 +31010,8 @@ id: EMAPA:25181
 name: T8 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=28 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31019,8 +31019,8 @@ id: EMAPA:25182
 name: T9 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=29 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31028,8 +31028,8 @@ id: EMAPA:25183
 name: T10 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=18 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31037,8 +31037,8 @@ id: EMAPA:25184
 name: T11 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=19 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31046,8 +31046,8 @@ id: EMAPA:25185
 name: T12 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=20 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31055,8 +31055,8 @@ id: EMAPA:25186
 name: T13 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=21 for EMAPA:16668.
+is_a: EMAPA:16668 ! dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16668 ! dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31064,8 +31064,8 @@ id: EMAPA:25187
 name: Tl2 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=11 for EMAPA:18372.
+is_a: EMAPA:18372 ! tail dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18372 ! tail dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31073,8 +31073,8 @@ id: EMAPA:25188
 name: Tl3 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=12 for EMAPA:18372.
+is_a: EMAPA:18372 ! tail dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18372 ! tail dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31082,8 +31082,8 @@ id: EMAPA:25189
 name: Tl4 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=13 for EMAPA:18372.
+is_a: EMAPA:18372 ! tail dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18372 ! tail dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31091,8 +31091,8 @@ id: EMAPA:25190
 name: Tl5 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=14 for EMAPA:18372.
+is_a: EMAPA:18372 ! tail dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18372 ! tail dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31100,8 +31100,8 @@ id: EMAPA:25191
 name: Tl6 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=15 for EMAPA:18372.
+is_a: EMAPA:18372 ! tail dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18372 ! tail dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31109,8 +31109,8 @@ id: EMAPA:25192
 name: Tl7 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=16 for EMAPA:18372.
+is_a: EMAPA:18372 ! tail dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18372 ! tail dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31118,8 +31118,8 @@ id: EMAPA:25193
 name: Tl8 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=17 for EMAPA:18372.
+is_a: EMAPA:18372 ! tail dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18372 ! tail dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31127,8 +31127,8 @@ id: EMAPA:25194
 name: Tl9 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=18 for EMAPA:18372.
+is_a: EMAPA:18372 ! tail dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18372 ! tail dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31136,8 +31136,8 @@ id: EMAPA:25195
 name: Tl10 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18372.
+is_a: EMAPA:18372 ! tail dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18372 ! tail dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31145,8 +31145,8 @@ id: EMAPA:25196
 name: Tl11 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=2 for EMAPA:18372.
+is_a: EMAPA:18372 ! tail dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18372 ! tail dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31154,8 +31154,8 @@ id: EMAPA:25197
 name: Tl12 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=3 for EMAPA:18372.
+is_a: EMAPA:18372 ! tail dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18372 ! tail dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31163,8 +31163,8 @@ id: EMAPA:25198
 name: Tl13 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=4 for EMAPA:18372.
+is_a: EMAPA:18372 ! tail dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18372 ! tail dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31172,8 +31172,8 @@ id: EMAPA:25199
 name: Tl14 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=5 for EMAPA:18372.
+is_a: EMAPA:18372 ! tail dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18372 ! tail dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31181,8 +31181,8 @@ id: EMAPA:25200
 name: Tl15 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=6 for EMAPA:18372.
+is_a: EMAPA:18372 ! tail dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18372 ! tail dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31190,8 +31190,8 @@ id: EMAPA:25201
 name: Tl16 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=7 for EMAPA:18372.
+is_a: EMAPA:18372 ! tail dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18372 ! tail dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31199,8 +31199,8 @@ id: EMAPA:25202
 name: Tl17 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=8 for EMAPA:18372.
+is_a: EMAPA:18372 ! tail dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18372 ! tail dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31208,8 +31208,8 @@ id: EMAPA:25203
 name: Tl18 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=9 for EMAPA:18372.
+is_a: EMAPA:18372 ! tail dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18372 ! tail dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31217,8 +31217,8 @@ id: EMAPA:25204
 name: Tl19 dorsal root ganglion
 namespace: anatomical_structure
 comment: order=10 for EMAPA:18372.
+is_a: EMAPA:18372 ! tail dorsal root ganglion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18372 ! tail dorsal root ganglion
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31226,8 +31226,8 @@ id: EMAPA:25205
 name: Tl2 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=11 for EMAPA:25149.
+is_a: EMAPA:25149 ! tail segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:25149 ! tail segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31235,8 +31235,8 @@ id: EMAPA:25206
 name: Tl3 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=12 for EMAPA:25149.
+is_a: EMAPA:25149 ! tail segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:25149 ! tail segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31244,8 +31244,8 @@ id: EMAPA:25207
 name: Tl4 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=13 for EMAPA:25149.
+is_a: EMAPA:25149 ! tail segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:25149 ! tail segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31253,8 +31253,8 @@ id: EMAPA:25208
 name: Tl5 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=14 for EMAPA:25149.
+is_a: EMAPA:25149 ! tail segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:25149 ! tail segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31262,8 +31262,8 @@ id: EMAPA:25209
 name: Tl6 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=15 for EMAPA:25149.
+is_a: EMAPA:25149 ! tail segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:25149 ! tail segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31271,8 +31271,8 @@ id: EMAPA:25210
 name: Tl7 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=16 for EMAPA:25149.
+is_a: EMAPA:25149 ! tail segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:25149 ! tail segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31280,8 +31280,8 @@ id: EMAPA:25211
 name: Tl8 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=17 for EMAPA:25149.
+is_a: EMAPA:25149 ! tail segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:25149 ! tail segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31289,8 +31289,8 @@ id: EMAPA:25212
 name: Tl9 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=18 for EMAPA:25149.
+is_a: EMAPA:25149 ! tail segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:25149 ! tail segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31298,8 +31298,8 @@ id: EMAPA:25213
 name: Tl10 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=1 for EMAPA:25149.
+is_a: EMAPA:25149 ! tail segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:25149 ! tail segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31307,8 +31307,8 @@ id: EMAPA:25214
 name: Tl11 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=2 for EMAPA:25149.
+is_a: EMAPA:25149 ! tail segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:25149 ! tail segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31316,8 +31316,8 @@ id: EMAPA:25215
 name: Tl12 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=3 for EMAPA:25149.
+is_a: EMAPA:25149 ! tail segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:25149 ! tail segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31325,8 +31325,8 @@ id: EMAPA:25216
 name: Tl13 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=4 for EMAPA:25149.
+is_a: EMAPA:25149 ! tail segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:25149 ! tail segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31334,8 +31334,8 @@ id: EMAPA:25217
 name: Tl14 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=5 for EMAPA:25149.
+is_a: EMAPA:25149 ! tail segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:25149 ! tail segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31343,8 +31343,8 @@ id: EMAPA:25218
 name: Tl15 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=6 for EMAPA:25149.
+is_a: EMAPA:25149 ! tail segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:25149 ! tail segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31352,8 +31352,8 @@ id: EMAPA:25219
 name: Tl16 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=7 for EMAPA:25149.
+is_a: EMAPA:25149 ! tail segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:25149 ! tail segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31361,8 +31361,8 @@ id: EMAPA:25220
 name: Tl17 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=8 for EMAPA:25149.
+is_a: EMAPA:25149 ! tail segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:25149 ! tail segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31370,8 +31370,8 @@ id: EMAPA:25221
 name: Tl18 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=9 for EMAPA:25149.
+is_a: EMAPA:25149 ! tail segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:25149 ! tail segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31379,8 +31379,8 @@ id: EMAPA:25222
 name: Tl19 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=10 for EMAPA:25149.
+is_a: EMAPA:25149 ! tail segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:25149 ! tail segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31388,8 +31388,8 @@ id: EMAPA:25223
 name: C2 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31397,8 +31397,8 @@ id: EMAPA:25224
 name: C3 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31406,8 +31406,8 @@ id: EMAPA:25225
 name: C4 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31415,8 +31415,8 @@ id: EMAPA:25226
 name: C5 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=4 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31424,8 +31424,8 @@ id: EMAPA:25227
 name: C6 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=5 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31433,8 +31433,8 @@ id: EMAPA:25228
 name: C7 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=6 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31442,8 +31442,8 @@ id: EMAPA:25230
 name: L1 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=7 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31451,8 +31451,8 @@ id: EMAPA:25231
 name: L2 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=8 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31460,8 +31460,8 @@ id: EMAPA:25232
 name: L3 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=9 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31469,8 +31469,8 @@ id: EMAPA:25233
 name: L4 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=10 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31478,8 +31478,8 @@ id: EMAPA:25234
 name: L5 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=11 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31487,8 +31487,8 @@ id: EMAPA:25235
 name: L6 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=12 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31496,8 +31496,8 @@ id: EMAPA:25236
 name: S1 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=13 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31505,8 +31505,8 @@ id: EMAPA:25237
 name: S2 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=14 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31514,8 +31514,8 @@ id: EMAPA:25238
 name: S3 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=15 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31523,8 +31523,8 @@ id: EMAPA:25239
 name: S4 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=16 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31532,8 +31532,8 @@ id: EMAPA:25240
 name: T1 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=17 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31541,8 +31541,8 @@ id: EMAPA:25241
 name: T2 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=22 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31550,8 +31550,8 @@ id: EMAPA:25242
 name: T3 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=23 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31559,8 +31559,8 @@ id: EMAPA:25243
 name: T4 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=24 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31568,8 +31568,8 @@ id: EMAPA:25244
 name: T5 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=25 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31577,8 +31577,8 @@ id: EMAPA:25245
 name: T6 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=26 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31586,8 +31586,8 @@ id: EMAPA:25246
 name: T7 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=27 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31595,8 +31595,8 @@ id: EMAPA:25247
 name: T8 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=28 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31604,8 +31604,8 @@ id: EMAPA:25248
 name: T9 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=29 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31613,8 +31613,8 @@ id: EMAPA:25249
 name: T10 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=18 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31622,8 +31622,8 @@ id: EMAPA:25250
 name: T11 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=19 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31631,8 +31631,8 @@ id: EMAPA:25251
 name: T12 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=20 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -31640,8 +31640,8 @@ id: EMAPA:25252
 name: T13 segmental spinal nerve
 namespace: anatomical_structure
 comment: order=21 for EMAPA:16990.
+is_a: EMAPA:16990 ! segmental spinal nerve
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
 [Term]
