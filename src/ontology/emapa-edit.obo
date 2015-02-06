@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 03:02:2015 15:16
-saved-by: jarm
+date: 06:02:2015 15:18
+saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -9154,7 +9154,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:17065.
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16363 ! foregut-midgut junction
-relationship: starts_at TS18 ! TS18
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:17067
@@ -9163,7 +9163,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:17066.
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:17066 ! pancreas primordium
-relationship: starts_at TS18 ! TS18
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:17068
@@ -10354,7 +10354,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:17066.
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:17066 ! pancreas primordium
-relationship: starts_at TS19 ! TS19
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:17257
@@ -40068,7 +40068,7 @@ comment: order=5 for EMAPA:35174.\norder=0 for EMAPA:28826.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28826 ! adventitia of bladder
 relationship: part_of EMAPA:35174 ! bladder trigone
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:28841
@@ -42278,7 +42278,7 @@ comment: order=5 for EMAPA:36079.\norder=1 for EMAPA:28826.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28826 ! adventitia of bladder
 relationship: part_of EMAPA:36079 ! ventral bladder neck
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:30150
