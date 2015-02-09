@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 06:02:2015 15:18
-saved-by: terryh
+date: 09:02:2015 16:08
+saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -38299,7 +38299,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:27638
 def: "cloaca (CL) (TS17-TS20): an epithelial lined cavity derived from endoderm, seen early in embryonic development located at the posterior end of the embryo. The cloaca undergoes septation to form the urogenital sinus (ventral) and hindgut (dorsal). This common cavity is referred to as the cloaca until the urorectal septum makes contact with the skin at the surface of the embryo, and completely septates the urogenital sinus from the hindgut at TS21. The cavity that remains, becomes part of the urogenital sinus and urethra.  The cloaca is comprised of cloacal epithelium lining the lumen and the adjacent cloaca associated mesenchyme. Part of the cloacal epithelium forms the cloacal membrane." []
 comment: order=21 for EMAPA:17366.
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS17 ! TS17
 
@@ -39897,8 +39897,9 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:28667
 name: serosa of bladder fundus
 namespace: anatomical_structure
-comment: order=3 for EMAPA:35173.
+comment: order=3 for EMAPA:35173.\norder=0 for EMAPA:28661.
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:28661 ! serosa of bladder
 relationship: part_of EMAPA:35173 ! bladder fundus
 relationship: starts_at TS22 ! TS22
 
@@ -39907,9 +39908,7 @@ id: EMAPA:28673
 name: serosa of trigone
 namespace: anatomical_structure
 comment: order=1 for EMAPA:28661.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:28661 ! serosa of bladder
-relationship: starts_at TS22 ! TS22
+is_obsolete: true
 
 [Term]
 id: EMAPA:28679
@@ -42259,9 +42258,7 @@ id: EMAPA:30130
 name: serosa of neck
 namespace: anatomical_structure
 comment: order=2 for EMAPA:28661.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:28661 ! serosa of bladder
-relationship: starts_at TS22 ! TS22
+is_obsolete: true
 
 [Term]
 id: EMAPA:30137
@@ -60763,8 +60760,9 @@ is_obsolete: true
 id: EMAPA:36375
 name: nerve of serosa of bladder fundus
 namespace: anatomical_structure
-comment: order=0 for EMAPA:36346.
+comment: order=0 for EMAPA:36346.\norder=1 for EMAPA:28661.
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:28661 ! serosa of bladder
 relationship: part_of EMAPA:36346 ! nerve of outer layer of bladder
 relationship: starts_at TS22 ! TS22
 
@@ -60912,6 +60910,46 @@ relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17525 ! skin
 relationship: part_of EMAPA:35162 ! back of trunk
 relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36393
+name: nerve of bladder fundus
+namespace: anatomical_structure
+comment: order=4 for EMAPA:31526.\norder=4 for EMAPA:35173.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:31526 ! nerve of bladder
+relationship: part_of EMAPA:35173 ! bladder fundus
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36394
+name: nerve of bladder neck
+namespace: anatomical_structure
+comment: order=5 for EMAPA:31526.\norder=2 for EMAPA:36078.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:31526 ! nerve of bladder
+relationship: part_of EMAPA:36078 ! bladder neck
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36395
+name: nerve of bladder trigone
+namespace: anatomical_structure
+comment: order=0 for EMAPA:36394.\norder=7 for EMAPA:35174.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35174 ! bladder trigone
+relationship: part_of EMAPA:36394 ! nerve of bladder neck
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36396
+name: nerve of ventral bladder neck
+namespace: anatomical_structure
+comment: order=1 for EMAPA:36394.\norder=6 for EMAPA:36079.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36079 ! ventral bladder neck
+relationship: part_of EMAPA:36394 ! nerve of bladder neck
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: group_term
