@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 09:02:2015 16:08
+date: 10:02:2015 22:04
 saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -39915,7 +39915,7 @@ id: EMAPA:28679
 name: vasculature of bladder
 namespace: anatomical_structure
 def: "vasculature of bladder (syn: blood vessel of bladder) (TS22-TS28): blood vessels (arteries, veins and capillaries) of the bladder. Contains nerve of bladder blood vessel (TS22-28)." []
-comment: order=4 for EMAPA:18321.
+comment: order=6 for EMAPA:18321.
 synonym: "blood vessel of bladder" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
@@ -41286,9 +41286,10 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29769
 name: os penis
 namespace: anatomical_structure
-comment: order=0 for EMAPA:19294.
+def: "os penis (TS28-TS28): bone and cartilage located in the centre of the glans penis, dorsal to the penile urethra. The os penis is ~3.8mm long (although its size is variable) and overlaps the proximal end of the MUMP, located from the MUMP ridge groove to the junction of the glans penis and body of the penis. Comprised of proximal hyaline cartilage of os penis (proximally), which undergoes calcification to form the bone of os penis, distally, at ~6 months age." []
+comment: order=5 for EMAPA:18988.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19294 ! crus penis
+relationship: part_of EMAPA:18988 ! glans penis
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -41626,7 +41627,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29850
 name: corpus spongiosum
 namespace: anatomical_structure
-comment: order=1 for EMAPA:19294.
+comment: order=0 for EMAPA:19294.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19294 ! crus penis
 relationship: starts_at TS28 ! TS28
@@ -41635,7 +41636,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29852
 name: epithelial layer of crus penis
 namespace: anatomical_structure
-comment: order=2 for EMAPA:19294.
+comment: order=4 for EMAPA:19294.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19294 ! crus penis
 relationship: starts_at TS28 ! TS28
@@ -41644,34 +41645,29 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29854
 name: rest of crus penis
 namespace: anatomical_structure
-comment: order=4 for EMAPA:19294.
+comment: order=3 for EMAPA:19294.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19294 ! crus penis
 relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:29856
-name: corpus spongiosum
+name: corpus cavernosum of glans penis
 namespace: anatomical_structure
-comment: order=2 for EMAPA:18988.
+def: "corpus cavernosum of glans penis (syn: corpora cavernosa plural) (TS25-TS28): erectile tissues of the glans penis, including the corpus cavernosum urethra, two corpus cavernosum glandis, male urogenital mating protuberance corpus caveronosum." []
+comment: order=3 for EMAPA:18988.
+synonym: "corpora cavernosa" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18988 ! glans penis
-relationship: starts_at TS28 ! TS28
-
-[Term]
-id: EMAPA:29858
-name: epithelial layer of glans penis
-namespace: anatomical_structure
-comment: order=0 for EMAPA:18988.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18988 ! glans penis
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:29860
-name: rest of glans penis
+name: lamina propria of glans penis
 namespace: anatomical_structure
-comment: order=4 for EMAPA:18988.
+comment: order=2 for EMAPA:18988.
+synonym: "connective tissue of glans penis" RELATED []
+synonym: "stroma of glans penis" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18988 ! glans penis
 relationship: starts_at TS28 ! TS28
@@ -42731,7 +42727,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:30642
 name: mesenchyme of glans penis
 namespace: anatomical_structure
-comment: order=3 for EMAPA:18988.
+comment: order=1 for EMAPA:18988.
 is_a: EMAPA:35975 ! male reproductive system mesenchyme
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18988 ! glans penis
@@ -42739,11 +42735,13 @@ relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:30646
-name: surface epithelium of glans penis
+name: skin of glans penis
 namespace: anatomical_structure
-comment: order=1 for EMAPA:18988.
+alt_id: EMAPA:29858
+comment: order=0 for EMAPA:18988.
+synonym: "surface epithelium of glans penis" RELATED []
 is_a: EMAPA:35963 ! male reproductive system epithelium
-relationship: ends_at TS27 ! TS27
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18988 ! glans penis
 relationship: starts_at TS25 ! TS25
 
@@ -42782,7 +42780,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:30664
 name: mesenchyme of crus penis
 namespace: anatomical_structure
-comment: order=5 for EMAPA:19294.
+comment: order=2 for EMAPA:19294.
 is_a: EMAPA:35975 ! male reproductive system mesenchyme
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:19294 ! crus penis
@@ -42792,7 +42790,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:30668
 name: surface epithelium of crus penis
 namespace: anatomical_structure
-comment: order=3 for EMAPA:19294.
+comment: order=1 for EMAPA:19294.
 is_a: EMAPA:35963 ! male reproductive system epithelium
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:19294 ! crus penis
@@ -44626,7 +44624,7 @@ is_obsolete: true
 id: EMAPA:31526
 name: nerve of bladder
 namespace: anatomical_structure
-comment: order=5 for EMAPA:18321.
+comment: order=7 for EMAPA:18321.
 is_a: EMAPA:35948 ! nerve of urinary system
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
@@ -49947,7 +49945,7 @@ id: EMAPA:35173
 name: bladder fundus
 namespace: anatomical_structure
 def: "bladder fundus (syn: bladder dome) (TS22-TS28): the rounded blind-end of the bladder. Comprised of urothelium, lamina propria, detrusor muscle and serosa of bladder fundus." []
-comment: order=6 for EMAPA:18321.
+comment: order=4 for EMAPA:18321.
 synonym: "bladder dome" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
@@ -49968,6 +49966,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:35175
 name: bladder wall
 namespace: anatomical_structure
+comment: order=9 for EMAPA:18321.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
 relationship: starts_at TS23 ! TS23
@@ -56500,6 +56499,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:35897
 name: bladder mucosa
 namespace: anatomical_structure
+comment: order=8 for EMAPA:18321.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
 relationship: starts_at TS28 ! TS28
@@ -58174,7 +58174,7 @@ id: EMAPA:36078
 name: bladder neck
 namespace: anatomical_structure
 def: "bladder neck (TS22-TS28): the narrow open end of the bladder, located between the ureter orifices and the opening of the pelvic urethra. Subdivided into bladder trigone and ventral bladder neck." []
-comment: order=7 for EMAPA:18321.
+comment: order=5 for EMAPA:18321.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
 relationship: starts_at TS22 ! TS22
@@ -58259,7 +58259,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:36087
 name: P-0 cell of urothelium of primitive bladder
 namespace: anatomical_structure
-def: "P-0 cell of urothelium of primitive bladder (syn: transient urothelial progenitor cells) (TS19-TS21): a transient embryonic urothelial cell type of the primitive bladder. P-0 cells are defined by their expression pattern and location in the urothelium. P-0 cells express Shh, Uroplakin, Trp63, Isl1 and Foxa2. P-cells do not express Krt5. They make up most of the TS19-20 urothelium and generally reside on the luminal surface of the urothelium at TS21. P-0 cells are the progenitors of intermediate cells and superficial cells of the urothelium of primitive bladder/bladder during embryonic development." []
+def: "P-0 cell of urothelium of primitive bladder (syn: transient urothelial progenitor cells) (TS19-TS21): a transient embryonic urothelial cell type of the primitive bladder. P-0 cells are defined by their expression pattern and location in the urothelium. P-0 cells express Shh, Uroplakin, Trp63, Isl1 and Foxa2. P-0 cells do not express Krt5. They make up most of the TS19-20 urothelium and generally reside on the luminal surface of the urothelium at TS21. P-0 cells are the progenitors of intermediate cells and superficial cells of the urothelium of primitive bladder/bladder during embryonic development." []
 comment: order=1 for EMAPA:30873.
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:30873 ! urothelium of primitive bladder
@@ -60950,6 +60950,27 @@ relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36079 ! ventral bladder neck
 relationship: part_of EMAPA:36394 ! nerve of bladder neck
 relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36397
+name: glandular ridge
+namespace: anatomical_structure
+def: "glandular ridge (TS28-TS28): ridge on the outside of the glans penis, encircles the distal glans penis." []
+comment: order=6 for EMAPA:18988.
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18988 ! glans penis
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36398
+name: male urogenital mating protuberance
+namespace: anatomical_structure
+def: "male urogenital mating protuberance (syn: MUMP) (TS28-TS28): a tapered extension of the os penis, located at the distal end of the glans penis. The MUMP is ~1.7mm long, comprised of a fibrocartilage core called MUMP cartilage, surrounded by two MUMP corpus cavernosum (lie on lateral sides of the MUMP fibrocartilage core), and covered with skin. The MUMP boundary is defined by the MUMP ridge, a groove that encircles the distal glans penis." []
+comment: order=4 for EMAPA:18988.
+synonym: "MUMP" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18988 ! glans penis
+relationship: starts_at TS28 ! TS28
 
 [Term]
 id: group_term
