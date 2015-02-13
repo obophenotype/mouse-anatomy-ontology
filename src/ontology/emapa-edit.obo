@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:02:2015 15:16
+date: 13:02:2015 15:25
 saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -42787,7 +42787,7 @@ name: prepuce of female
 namespace: anatomical_structure
 def: "prepuce of female (TS25-TS28): the prepuce of female surrounds the glans clitoris and body of clitoris, but does not contain a preputial space. TS25-TS27 prepuce of female is comprised of skin, preputial glands and mesenchyme of prepuce. From TS28, prepuce of female is comprised of skin, preputial glands and lamina propria of prepuce. The skin of female prepuce does not contain epithelial spines." []
 comment: order=8 for EMAPA:18680.
-is_a: TS28 ! TS28
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18680 ! genital tubercle of female
 relationship: part_of EMAPA:30819 ! clitoris
 relationship: starts_at TS25 ! TS25
