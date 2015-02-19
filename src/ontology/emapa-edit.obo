@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:02:2015 15:25
+date: 19:02:2015 15:53
 saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -20032,10 +20032,10 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:18329
-name: labial swelling
+name: labial fold
 namespace: anatomical_structure
+def: "labial fold (TS24-TS27): two lateral labial folds are located ventrally at the base of the genital tubercle of female/clitoris, comprised of labial fold mesenchyme, skin and developing vasculature. Develop from labial swellings. The labial folds fuse at the ventral midline (or perineal seam) at around TS25. Become the labia at TS28. Part of the female external genitalia and female reproductive system. Scrotal fold is larger than labial fold." []
 comment: order=13 for EMAPA:17959.\norder=3 for EMAPA:30984.
-synonym: "labia" RELATED []
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: part_of EMAPA:30984 ! female external genitalia
@@ -24441,6 +24441,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19088
 name: ejaculatory duct
 namespace: anatomical_structure
+def: "ejaculatory duct (TS24-TS28): comprised of epithelium, lamina propria and muscle of ejaculatory duct and surrounded by adventitia. Also contains vasculature (TS24-TS28) and nerves are seen from birth (TS27). Epithelium is marked by Krt14, lamina propria by Foxf1a and muscle of ejaculatory duct is marked by Crabp1 at E17 (Abler et al, 2011). Connects the seminal vesicle and ductus deferens to the pelvic urethra. Derived from the nephric duct." []
 comment: order=16 for EMAPA:17968.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
@@ -25287,6 +25288,7 @@ id: EMAPA:19180
 name: seminal vesicle
 namespace: anatomical_structure
 alt_id: EMAPA:35920
+def: "seminal vesicle (syn: vesicular gland) (TS24-TS28): by E16.5 circulating androgens have initiated seminal vesicle formation in the male, and paired seminal vesicle buds develop from the nephric ducts close to where they have fused with the epithelium of the pelvic urethra of male, at the verumontanum (which develops from the urogenital sinus ridge).  Comprised of epithelium, lamina propria, muscle and surrounded by serosa of seminal vesicle. Also contains vasculature (TS24-TS28) and nerves are seen from birth (TS27). Connected to the dorsal anterior pelvic urethra via the ejaculatory duct. Seminal vesicle epithelium is marked by Wnt9b at E17 and seminal vesicle mesenchyme and smooth muscle are marked by Crabp1 at E17 (Abler et al, 2011). Develops from the nephric ducts." []
 synonym: "vesicular gland" EXACT []
 synonym: "vesicular seminalis" RELATED []
 relationship: ends_at TS28 ! TS28
@@ -26293,7 +26295,7 @@ comment: order=24 for EMAPA:17968.\norder=4 for EMAPA:30977.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
 relationship: part_of EMAPA:30977 ! male external genitalia
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:19300
@@ -41100,9 +41102,8 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29733
 name: epidermal layer of scrotum
 namespace: anatomical_structure
-comment: order=0 for EMAPA:19296.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19296 ! scrotum
+relationship: part_of EMAPA:36411 ! scrotum skin
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -41127,14 +41128,13 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29739
 name: dermal layer of scrotum
 namespace: anatomical_structure
-comment: order=1 for EMAPA:19296.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19296 ! scrotum
+relationship: part_of EMAPA:36411 ! scrotum skin
 relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:29741
-name: dermal layer of scrotum hair follicle
+name: hair follicle of scrotum dermal layer
 namespace: anatomical_structure
 comment: order=0 for EMAPA:29739.
 relationship: ends_at TS28 ! TS28
@@ -41143,7 +41143,7 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:29743
-name: dermal layer of scrotum sweat gland
+name: sweat gland of scrotum dermal layer
 namespace: anatomical_structure
 comment: order=1 for EMAPA:29739.
 is_a: EMAPA:35844 ! sweat gland
@@ -41155,7 +41155,6 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29745
 name: septum of scrotum
 namespace: anatomical_structure
-comment: order=2 for EMAPA:19296.
 synonym: "scrotal seam" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19296 ! scrotum
@@ -41280,7 +41279,7 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:29771
-name: epithelial layer of seminal vesicle
+name: epithelium of seminal vesicle
 namespace: anatomical_structure
 comment: order=0 for EMAPA:19180.
 relationship: ends_at TS28 ! TS28
@@ -41289,7 +41288,7 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:29773
-name: muscle layer of seminal vesicle
+name: muscle of seminal vesicle
 namespace: anatomical_structure
 comment: order=1 for EMAPA:19180.
 relationship: ends_at TS28 ! TS28
@@ -41298,7 +41297,7 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:29775
-name: adventitia of seminal vesicle
+name: serosa of seminal vesicle
 namespace: anatomical_structure
 comment: order=2 for EMAPA:19180.
 relationship: ends_at TS28 ! TS28
@@ -42269,8 +42268,9 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:30423
-name: labioscrotal swelling of female
+name: labial swelling
 namespace: anatomical_structure
+def: "labial swelling (TS22-TS23): two lateral swellings develop ventrally, at the base of the genital tubercle of female. Comprised of skin, mesenchyme and developing vasculature of labial swelling. At TS24, becomes the labial fold and then labia at TS28. Part of the female external genitalia and female reproductive system. Scrotal swellings are larger than labial swellings." []
 comment: order=12 for EMAPA:17959.\norder=2 for EMAPA:30984.
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17959 ! female reproductive system
@@ -42279,41 +42279,41 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:30426
-name: mesenchyme of labioscrotal swelling of female
+name: mesenchyme of labial swelling
 namespace: anatomical_structure
 comment: order=1 for EMAPA:30423.
 is_a: EMAPA:35974 ! female reproductive system mesenchyme
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:30423 ! labioscrotal swelling of female
+relationship: part_of EMAPA:30423 ! labial swelling
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:30429
-name: surface epithelium of labioscrotal swelling of female
+name: labial swelling skin
 namespace: anatomical_structure
 comment: order=0 for EMAPA:30423.
 is_a: EMAPA:35962 ! female reproductive system epithelium
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:30423 ! labioscrotal swelling of female
+relationship: part_of EMAPA:30423 ! labial swelling
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:30433
-name: mesenchymal layer of labial swelling
+name: mesenchyme of labial fold
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18329.
 relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:18329 ! labial swelling
+relationship: part_of EMAPA:18329 ! labial fold
 relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:30438
-name: surface epithelium of labial swelling
+name: labial fold skin
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18329.
 is_a: EMAPA:35962 ! female reproductive system epithelium
 relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:18329 ! labial swelling
+relationship: part_of EMAPA:18329 ! labial fold
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -42464,7 +42464,7 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:30512
-name: mesenchyme of labioscrotal swelling of male
+name: mesenchyme of scrotal swelling
 namespace: anatomical_structure
 comment: order=1 for EMAPA:30509.
 is_a: EMAPA:35975 ! male reproductive system mesenchyme
@@ -42474,7 +42474,7 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:30515
-name: surface epithelium of labioscrotal swelling of male
+name: scrotal swelling skin
 namespace: anatomical_structure
 comment: order=0 for EMAPA:30509.
 is_a: EMAPA:35963 ! male reproductive system epithelium
@@ -42622,9 +42622,9 @@ relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:30624
-name: scrotal fold mesenchyme of male
+name: mesenchyme of scrotal fold
 namespace: anatomical_structure
-comment: order=0 for EMAPA:29316.
+comment: order=1 for EMAPA:29316.
 is_a: EMAPA:35975 ! male reproductive system mesenchyme
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:29316 ! scrotal fold
@@ -42632,9 +42632,9 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:30627
-name: scrotal fold surface epithelium of male
+name: scrotal fold skin
 namespace: anatomical_structure
-comment: order=1 for EMAPA:29316.
+comment: order=0 for EMAPA:29316.
 is_a: EMAPA:35963 ! male reproductive system epithelium
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:29316 ! scrotal fold
@@ -43228,6 +43228,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:30837
 name: labia
 namespace: anatomical_structure
+def: "labia (TS28-TS28): located at the base of the clitoris and comprised of skin, gland, lamina propria, vasculature and nerve of labia. Derived from labial fold (TS24-TS27)." []
 comment: order=14 for EMAPA:17959.\norder=4 for EMAPA:30984.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
@@ -43236,7 +43237,7 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:30839
-name: epithelial layer of labia
+name: labia skin
 namespace: anatomical_structure
 comment: order=0 for EMAPA:30837.
 relationship: ends_at TS28 ! TS28
@@ -43245,7 +43246,7 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:30841
-name: mesenchymal layer of labia
+name: lamina propria of labia
 namespace: anatomical_structure
 comment: order=2 for EMAPA:30837.
 relationship: ends_at TS28 ! TS28
@@ -61040,6 +61041,92 @@ synonym: "female prepuce stroma" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30699 ! prepuce of female
 relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36411
+name: scrotum skin
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:19296 ! scrotum
+relationship: starts_at TS28 ! TS28
+created_by: jarm
+creation_date: 2015-02-18T10:47:54Z
+
+[Term]
+id: EMAPA:36412
+name: lamina propria of scrotum
+namespace: anatomical_structure
+comment: order=2 for EMAPA:19296.
+synonym: "scrotum connective tissue" RELATED []
+synonym: "scrotum stroma" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:19296 ! scrotum
+relationship: starts_at TS28 ! TS28
+created_by: jarm
+creation_date: 2015-02-18T11:35:19Z
+
+[Term]
+id: EMAPA:36413
+name: developing vasculature of scrotal swelling
+namespace: anatomical_structure
+comment: order=2 for EMAPA:30509.
+relationship: ends_at TS23 ! TS23
+relationship: part_of EMAPA:30509 ! scrotal swelling
+relationship: starts_at TS22 ! TS22
+created_by: jarm
+creation_date: 2015-02-18T11:58:42Z
+
+[Term]
+id: EMAPA:36414
+name: septum of scrotal fold
+namespace: anatomical_structure
+synonym: "scrotal seam" RELATED []
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:29316 ! scrotal fold
+relationship: starts_at TS25 ! TS25
+created_by: jarm
+creation_date: 2015-02-18T12:17:45Z
+
+[Term]
+id: EMAPA:36415
+name: developing vasculature of scrotal fold
+namespace: anatomical_structure
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:29316 ! scrotal fold
+relationship: starts_at TS24 ! TS24
+created_by: jarm
+creation_date: 2015-02-18T12:17:45Z
+
+[Term]
+id: EMAPA:36416
+name: developing vasculature of labial fold
+namespace: anatomical_structure
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:18329 ! labial fold
+relationship: starts_at TS24 ! TS24
+created_by: jarm
+creation_date: 2015-02-19T13:00:30Z
+
+[Term]
+id: EMAPA:36417
+name: developing vasculature of labial swelling
+namespace: anatomical_structure
+relationship: ends_at TS23 ! TS23
+relationship: part_of EMAPA:30423 ! labial swelling
+relationship: starts_at TS22 ! TS22
+created_by: jarm
+creation_date: 2015-02-19T13:57:12Z
+
+[Term]
+id: EMAPA:36418
+name: lamina propria of seminal vesicle
+namespace: anatomical_structure
+synonym: "mesenchyme of seminal vesicle" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:19180 ! seminal vesicle
+relationship: starts_at TS24 ! TS24
+created_by: jarm
+creation_date: 2015-02-19T14:37:14Z
 
 [Term]
 id: group_term
