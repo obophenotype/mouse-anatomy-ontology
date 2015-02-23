@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 20:02:2015 17:36
-saved-by: terryh
+date: 23:02:2015 13:33
+saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -22433,6 +22433,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:18681
 name: ductus deferens
 namespace: anatomical_structure
+def: "ductus deferens (syn: vas deferens) (TS24-TS28): derives from nephric duct of male (TS23). Connected to the dorsal anterior pelvic urethra via the ejaculatory duct. Comprised of epithelium, lamina propria and muscle and surrounded by serosa of ductus deferens. Also contains vasculature (TS24-TS28) and nerves are seen from birth (TS27-TS28)." []
 comment: order=13 for EMAPA:17968.\norder=3 for EMAPA:28533.
 synonym: "vas deferens" RELATED []
 relationship: ends_at TS28 ! TS28
@@ -23710,6 +23711,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:18986
 name: vagina
 namespace: anatomical_structure
+def: "vagina (TS24-TS28): the developing vagina is subdivided into upper vagina and sinovaginal bulb (or lower vagina), however only the upper vagina will become the vagina in the adult (Kurita 2010). The sinovaginal bulb is a transient structure only seen during development. The sinovaginal bulb is derived from the urogenital sinus epithelium (and is therefore often called the sinus vagina). The vagina (TS28) is derived from the upper vagina (TS24-TS27), and is derived from the paramesonephric duct of female." []
 comment: order=9 for EMAPA:17959.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
@@ -23717,9 +23719,12 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:18987
-name: upper part of vagina
+name: upper vagina
 namespace: anatomical_structure
+def: "upper vagina (syn: Mullerian vagina, upper part of vagina) (TS24-TS27): comprised of epithelium, lamina propria, muscle and adventitia. Also contains vasculature (TS24-TS27) and nerves are seen from birth (TS27). Derived from paramesonephric duct of female." []
 comment: order=1 for EMAPA:18986.
+synonym: "Mullerian vagina" RELATED []
+synonym: "upper part of vagina" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18986 ! vagina
 relationship: starts_at TS24 ! TS24
@@ -23778,6 +23783,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:18999
 name: sinovaginal bulb
 namespace: anatomical_structure
+def: "sinovaginal bulb (syn: sinus vagina,  vaginal bulb, lower vagina) (TS24-TS27): comprised of epithelium, lamina propria, muscle, adventita and developing vasculature. Epithelium of sinovaginal bulb is derived from urogenital sinus of female, derived from urogenital sinus epithelium." []
 comment: order=0 for EMAPA:18986.
 synonym: "lower vagina" RELATED []
 synonym: "sinus vagina" RELATED []
@@ -40360,21 +40366,25 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:29052
-name: epithelial layer of upper part of vagina
+name: epithelium of upper vagina
 namespace: anatomical_structure
+def: "epithelium of upper vagina (syn: epithelial layer of upper part of vagina) (TS24-TS27): the epithelial layer of upper vagina is selectively marked by Wnt7a at E17 (absent from sinovaginal bulb epithelium) (Abler et al, 2011)." []
 comment: order=0 for EMAPA:18987.\norder=1 for EMAPA:30991.
+synonym: "epithelial layer of upper part of vagina" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18987 ! upper part of vagina
+relationship: part_of EMAPA:18987 ! upper vagina
 relationship: part_of EMAPA:30991 ! epithelium of vagina
 relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:29055
-name: muscular layer of upper part of vagina
+name: muscle of upper vagina
 namespace: anatomical_structure
+def: "muscle of upper vagina (syn: muscular layer of upper part of vagina) (TS24-TS27): the smooth muscle layer of the upper vagina. Marked by Crabp1 at E17 (Abler et al, 2011) and alpha smooth muscle actin and gamma smooth muscle actin." []
 comment: order=2 for EMAPA:18987.\norder=1 for EMAPA:30997.
+synonym: "muscular layer of upper part of vagina" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18987 ! upper part of vagina
+relationship: part_of EMAPA:18987 ! upper vagina
 relationship: part_of EMAPA:30997 ! muscular layer of vagina
 relationship: starts_at TS24 ! TS24
 
@@ -40382,6 +40392,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:29058
 name: epithelium of sinovaginal bulb
 namespace: anatomical_structure
+def: "epithelium of sinovaginal bulb: (syn: vaginal bulb epithelium, epithelium of lower vagina, vaginal plate) (TS24-TS27): the epithelium of the sinovaginal bulb. Krt14 at E17 is specific to the epithelial layer of sinovaginal bulb (Krt14 also present in urothelium of bladder, but absent from epithelial layer of upper vagina) (Abler et al, 2011)." []
 comment: order=0 for EMAPA:18999.\norder=0 for EMAPA:30991.
 synonym: "epithelial layer of lower vagina" RELATED []
 relationship: ends_at TS28 ! TS28
@@ -40391,9 +40402,11 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:29061
-name: muscular layer of lower part of vagina
+name: muscle of sinovaginal bulb
 namespace: anatomical_structure
+def: "muscle of sinovaginal bulb (syn: muscular layer of lower vagina) (TS24-TS27) : marked by Crabp1 E17 (Abler et al, 2011) and alpha smooth muscle actin and gamma smooth muscle actin." []
 comment: order=2 for EMAPA:18999.\norder=0 for EMAPA:30997.
+synonym: "muscular layer of lower vagina" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18999 ! sinovaginal bulb
 relationship: part_of EMAPA:30997 ! muscular layer of vagina
@@ -40745,9 +40758,9 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:29270
-name: muscle layer of ductus deferens
+name: muscle of ductus deferens
 namespace: anatomical_structure
-comment: order=1 for EMAPA:18681.
+comment: order=2 for EMAPA:18681.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18681 ! ductus deferens
 relationship: starts_at TS24 ! TS24
@@ -41260,12 +41273,13 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:29767
-name: adventitia of ductus deferens
+name: serosa of ductus deferens
 namespace: anatomical_structure
+alt_id: EMAPA:30751
 comment: order=3 for EMAPA:18681.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18681 ! ductus deferens
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:29769
@@ -41306,7 +41320,7 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:29786
-name: epithelial layer of ejaculatory duct
+name: epithelium of ejaculatory duct
 namespace: anatomical_structure
 comment: order=0 for EMAPA:19088.
 relationship: ends_at TS28 ! TS28
@@ -41944,7 +41958,9 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29939
 name: adventitia of sinovaginal bulb
 namespace: anatomical_structure
+def: "adventitia of sinovaginal bulb (syn: adventitia of lower vagina) (TS24-TS28): the outer layer of the sinovaginal bulb." []
 comment: order=3 for EMAPA:18999.\norder=0 for EMAPA:31003.
+synonym: "adventitia of lower vagina" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18999 ! sinovaginal bulb
 relationship: part_of EMAPA:31003 ! adventitia of vagina
@@ -41956,7 +41972,7 @@ name: gland of upper vaginal epithelium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:29052.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:29052 ! epithelial layer of upper part of vagina
+relationship: part_of EMAPA:29052 ! epithelium of upper vagina
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -41965,18 +41981,20 @@ name: rest of epithelial layer of upper vagina
 namespace: anatomical_structure
 comment: order=1 for EMAPA:29052.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:29052 ! epithelial layer of upper part of vagina
+relationship: part_of EMAPA:29052 ! epithelium of upper vagina
 relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:29945
-name: adventitia of upper part of vagina
+name: adventitia of upper vagina
 namespace: anatomical_structure
+def: "adventitia of upper vagina (syn: adventitia of upper part of vagina) (TS24-TS27): the outer layer of the upper vagina." []
 comment: order=3 for EMAPA:18987.\norder=1 for EMAPA:31003.
+synonym: "adventitia of upper part of vagina" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18987 ! upper part of vagina
+relationship: part_of EMAPA:18987 ! upper vagina
 relationship: part_of EMAPA:31003 ! adventitia of vagina
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:29993
@@ -42089,24 +42107,24 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:30055
-name: circular muscle layer of ductus deferens
+name: circular muscle of ductus deferens
 namespace: anatomical_structure
 alt_id: EMAPA:35299
 comment: order=0 for EMAPA:29270.
 synonym: "ductus deferens circular muscle layer" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:29270 ! muscle layer of ductus deferens
+relationship: part_of EMAPA:29270 ! muscle of ductus deferens
 relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:30057
-name: longitudinal muscle layer of ductus deferens
+name: longitudinal muscle of ductus deferens
 namespace: anatomical_structure
 alt_id: EMAPA:35300
 comment: order=1 for EMAPA:29270.
 synonym: "ductus deferens longitudinal muscle layer" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:29270 ! muscle layer of ductus deferens
+relationship: part_of EMAPA:29270 ! muscle of ductus deferens
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -42864,15 +42882,6 @@ relationship: part_of EMAPA:19290 ! epididymis
 relationship: starts_at TS23 ! TS23
 
 [Term]
-id: EMAPA:30751
-name: outer layer of ductus deferens
-namespace: anatomical_structure
-comment: order=2 for EMAPA:18681.
-relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:18681 ! ductus deferens
-relationship: starts_at TS26 ! TS26
-
-[Term]
 id: EMAPA:30755
 name: ovary primordial follicle
 namespace: anatomical_structure
@@ -43037,12 +43046,13 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:30793
 name: vasculature of ductus deferens
 namespace: anatomical_structure
+alt_id: EMAPA:31188
 alt_id: EMAPA:35298
-comment: order=5 for EMAPA:18681.
+comment: order=4 for EMAPA:18681.
 synonym: "ductus deferens blood vessel" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18681 ! ductus deferens
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:30795
@@ -43066,7 +43076,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:30799
 name: vasculature of ejaculatory duct
 namespace: anatomical_structure
-comment: order=3 for EMAPA:19088.
+comment: order=4 for EMAPA:19088.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19088 ! ejaculatory duct
 relationship: starts_at TS24 ! TS24
@@ -43781,15 +43791,6 @@ relationship: part_of EMAPA:19290 ! epididymis
 relationship: starts_at TS23 ! TS23
 
 [Term]
-id: EMAPA:31188
-name: developing vasculature of ductus deferens
-namespace: anatomical_structure
-comment: order=4 for EMAPA:18681.
-relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:18681 ! ductus deferens
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:31194
 name: developing vasculature of cauda epididymis
 namespace: anatomical_structure
@@ -43839,11 +43840,11 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:31219
-name: developing vasculature of upper part of vagina
+name: vasculature of upper vagina
 namespace: anatomical_structure
 comment: order=4 for EMAPA:18987.\norder=1 for EMAPA:31229.
 relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:18987 ! upper part of vagina
+relationship: part_of EMAPA:18987 ! upper vagina
 relationship: part_of EMAPA:31229 ! developing vasculature of vagina
 relationship: starts_at TS24 ! TS24
 
@@ -45228,7 +45229,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:32259
 name: lamina propria of sinovaginal bulb
 namespace: anatomical_structure
+def: "lamina propria of sinovaginal bulb (syn: mesenchyme of sinovaginal bulb) (TS24-TS27): the lamina propria located between the epithelial layer and the muscle. Marked by Foxf1a, Crabp1, Amhr2 at E17 (Abler et al, 2011)." []
 comment: order=1 for EMAPA:18999.
+synonym: "mesenchyme of sinovaginal bulb" RELATED []
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18999 ! sinovaginal bulb
 relationship: starts_at TS24 ! TS24
@@ -45328,10 +45331,11 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:32270
-name: mesenchymal layer of ejaculatory duct
+name: lamina propria of ejaculatory duct
 namespace: anatomical_structure
 comment: order=1 for EMAPA:19088.
-relationship: ends_at TS27 ! TS27
+synonym: "mesenchyme of ejaculatory duct" RELATED []
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19088 ! ejaculatory duct
 relationship: starts_at TS24 ! TS24
 
@@ -45346,12 +45350,14 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:32272
-name: mesenchymal layer of upper part of vagina
+name: lamina propria of upper vagina
 namespace: anatomical_structure
+def: "lamina propria of upper vagina (syn: mesenchymal layer of upper part of vagina) (TS24-TS27): the lamina propria, connective tissue layer located between the epithelial layer and the muscular layer of the upper vagina. Marked by Amhr2 and Crabp1 at E17 (Abler et al, 2011)." []
 comment: order=1 for EMAPA:18987.
+synonym: "mesenchymal layer of upper part of vagina" RELATED []
 relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:18987 ! upper part of vagina
-relationship: starts_at TS25 ! TS25
+relationship: part_of EMAPA:18987 ! upper vagina
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:32273
@@ -45500,7 +45506,7 @@ relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:32289
-name: muscle layer of ejaculatory duct
+name: muscle of ejaculatory duct
 namespace: anatomical_structure
 comment: order=2 for EMAPA:19088.
 relationship: ends_at TS28 ! TS28
@@ -49144,7 +49150,7 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35054
 name: nerve of ejaculatory duct
 namespace: anatomical_structure
-comment: order=4 for EMAPA:19088.
+comment: order=5 for EMAPA:19088.
 is_a: EMAPA:35947 ! nerve of male reproductive system
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19088 ! ejaculatory duct
@@ -61051,8 +61057,6 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19296 ! scrotum
 relationship: starts_at TS28 ! TS28
-created_by: jarm
-creation_date: 2015-02-18T10:47:54Z
 
 [Term]
 id: EMAPA:36412
@@ -61075,8 +61079,6 @@ comment: order=2 for EMAPA:30509.
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:30509 ! scrotal swelling
 relationship: starts_at TS22 ! TS22
-created_by: jarm
-creation_date: 2015-02-18T11:58:42Z
 
 [Term]
 id: EMAPA:36414
@@ -61086,8 +61088,6 @@ synonym: "scrotal seam" RELATED []
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:29316 ! scrotal fold
 relationship: starts_at TS25 ! TS25
-created_by: jarm
-creation_date: 2015-02-18T12:17:45Z
 
 [Term]
 id: EMAPA:36415
@@ -61096,8 +61096,6 @@ namespace: anatomical_structure
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:29316 ! scrotal fold
 relationship: starts_at TS24 ! TS24
-created_by: jarm
-creation_date: 2015-02-18T12:17:45Z
 
 [Term]
 id: EMAPA:36416
@@ -61106,8 +61104,6 @@ namespace: anatomical_structure
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18329 ! labial fold
 relationship: starts_at TS24 ! TS24
-created_by: jarm
-creation_date: 2015-02-19T13:00:30Z
 
 [Term]
 id: EMAPA:36417
@@ -61116,8 +61112,6 @@ namespace: anatomical_structure
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:30423 ! labial swelling
 relationship: starts_at TS22 ! TS22
-created_by: jarm
-creation_date: 2015-02-19T13:57:12Z
 
 [Term]
 id: EMAPA:36418
@@ -61127,8 +61121,23 @@ synonym: "mesenchyme of seminal vesicle" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19180 ! seminal vesicle
 relationship: starts_at TS24 ! TS24
-created_by: jarm
-creation_date: 2015-02-19T14:37:14Z
+
+[Term]
+id: EMAPA:36419
+name: adventitia of ejaculatory duct
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:19088 ! ejaculatory duct
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36420
+name: lamina propria of ductus deferens
+namespace: anatomical_structure
+synonym: "mesenchyme of ductus deferens" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18681 ! ductus deferens
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: group_term
