@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 23:02:2015 13:33
+date: 24:02:2015 15:20
 saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -20034,7 +20034,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18329
 name: labial fold
 namespace: anatomical_structure
-def: "labial fold (TS24-TS27): two lateral labial folds are located ventrally at the base of the genital tubercle of female/clitoris, comprised of labial fold mesenchyme, skin and developing vasculature. Develop from labial swellings. The labial folds fuse at the ventral midline (or perineal seam) at around TS25. Become the labia at TS28. Part of the female external genitalia and female reproductive system. Scrotal fold is larger than labial fold." []
+def: "labial fold (TS24-TS27): two lateral labial folds are located ventrally at the base of the genital tubercle of female/clitoris, comprised of labial fold mesenchyme, skin and developing vasculature. Develop from labial swellings. The labial folds fuse at the ventral midline (or perineal seam) at around TS25. Become part of the perineum at TS28. Part of the female external genitalia and female reproductive system. Scrotal fold is larger than labial fold." []
 comment: order=13 for EMAPA:17959.\norder=3 for EMAPA:30984.
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:17959 ! female reproductive system
@@ -22445,7 +22445,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:18682
 name: penis
 namespace: anatomical_structure
-def: "penis (TS25-TS28): comprised of glans penis (distally), penile body (proximally) and surrounded by the prepuce. The penis contains within it, erectile tissues (corpora cavernosa glandis, urethra and MUMP corpus cavernosum), cartilage (hyaline cartilage of os penis and MUMP cartilage), bone (bone of os penis), nerves, vasculature and lamina propria (connective tissue) and is surrounded by skin. The penis is mobile. The penis also contains within it the penile urethra, located along the length of the penis and the urethral seam, located underneath the ventral midline skin of the penis. The glans penis is positioned at a right angle bend to the penile body, following the bend of the urethra. The bend in the male urethra is called the sigmoid flexure. Derived from the genital tubercle of male." []
+def: "penis (TS25-TS28): comprised of glans penis (distally), penile body (proximally) and surrounded by the prepuce. The penis contains within it, erectile tissues (corpora cavernosa glandis, urethra and MUMP corpus cavernosum), cartilage (hyaline cartilage of os penis and MUMP cartilage), bone (bone of os penis), nerves, vasculature and lamina propria (connective tissue) and is surrounded by skin. The penis is mobile. The penis also contains within it the penile urethra, located along the length of the penis and the urethral seam, located underneath the ventral midline skin of the penis. The glans penis is positioned at a right angle bend to the penile body, following the bend of the urethra. Derived from the genital tubercle of male." []
 comment: order=21 for EMAPA:17968.\norder=1 for EMAPA:30977.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
@@ -23744,11 +23744,13 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:18989
 name: prepuce of male
 namespace: anatomical_structure
-def: "prepuce of male (TS25-TS27, TS28): the external part of the penis that completely surrounds the glans penis. The glans can be exposed when the prepuce is retracted.  Contains the preputial glands and mesenchyme of prepuce and surrounded by skin. The preputial gland ducts drain into the preputial space. From TS28, prepuce is comprised of skin containing hair follicles, preputial gland (paired), which drain into the preputial space and prepuce lamina propria (stroma or connective tissue)." []
+alt_id: EMAPA:30634
+def: "prepuce of male (TS24-TS28): the external part of the penis that completely surrounds the glans penis. The glans can be exposed when the prepuce is retracted.  Contains the preputial glands and mesenchyme of prepuce and surrounded by skin. Part of the genital tubercle of male (TS24) and from TS25 part of penis. Derived from preputial swelling of male (TS21-TS23). The preputial gland ducts drain into the preputial space. From TS28, prepuce is comprised of skin containing hair follicles, preputial gland (paired), which drain into the preputial space and prepuce lamina propria (stroma or connective tissue)." []
 comment: order=2 for EMAPA:18682.
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17969 ! genital tubercle of male
 relationship: part_of EMAPA:18682 ! penis
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:18993
@@ -42679,44 +42681,6 @@ relationship: part_of EMAPA:29288 ! glans penis
 relationship: starts_at TS24 ! TS24
 
 [Term]
-id: EMAPA:30634
-name: prepuce of male
-namespace: anatomical_structure
-comment: order=8 for EMAPA:17969.
-relationship: ends_at TS24 ! TS24
-relationship: part_of EMAPA:17969 ! genital tubercle of male
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:30636
-name: prepuce mesenchyme of male
-namespace: anatomical_structure
-comment: order=2 for EMAPA:30634.
-is_a: EMAPA:35975 ! male reproductive system mesenchyme
-relationship: ends_at TS24 ! TS24
-relationship: part_of EMAPA:30634 ! prepuce of male
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:30638
-name: prepuce surface epithelium of male
-namespace: anatomical_structure
-comment: order=0 for EMAPA:30634.
-is_a: EMAPA:35963 ! male reproductive system epithelium
-relationship: ends_at TS24 ! TS24
-relationship: part_of EMAPA:30634 ! prepuce of male
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:30640
-name: preputial gland of male
-namespace: anatomical_structure
-comment: order=1 for EMAPA:30634.
-relationship: ends_at TS24 ! TS24
-relationship: part_of EMAPA:30634 ! prepuce of male
-relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:30642
 name: mesenchyme of glans penis
 namespace: anatomical_structure
@@ -42742,32 +42706,35 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:30650
 name: prepuce mesenchyme of male
 namespace: anatomical_structure
+alt_id: EMAPA:30636
 comment: order=3 for EMAPA:18989.
 is_a: EMAPA:35975 ! male reproductive system mesenchyme
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18989 ! prepuce of male
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:30655
-name: skin of male prepuce
+name: male prepuce skin
 namespace: anatomical_structure
+alt_id: EMAPA:30638
 comment: order=0 for EMAPA:18989.
 synonym: "prepuce surface epithelium of male" RELATED []
 is_a: EMAPA:35963 ! male reproductive system epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18989 ! prepuce of male
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:30659
 name: preputial gland of male
 namespace: anatomical_structure
+alt_id: EMAPA:30640
 comment: order=2 for EMAPA:18989.
 synonym: "preputial duct" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18989 ! prepuce of male
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:30664
@@ -42803,7 +42770,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:30699
 name: prepuce of female
 namespace: anatomical_structure
-def: "prepuce of female (TS25-TS28): the prepuce of female surrounds the glans clitoris and body of clitoris, but does not contain a preputial space. TS25-TS27 prepuce of female is comprised of skin, preputial glands and mesenchyme of prepuce. From TS28, prepuce of female is comprised of skin, preputial glands and lamina propria of prepuce. The skin of female prepuce does not contain epithelial spines." []
+def: "prepuce of female (TS25-TS28): the prepuce of female surrounds the glans clitoris and body of clitoris, but does not contain a preputial space. TS25-TS27 prepuce of female is comprised of skin, preputial glands and mesenchyme of prepuce. From TS28, prepuce of female is comprised of skin, preputial glands and lamina propria of prepuce." []
 comment: order=8 for EMAPA:18680.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18680 ! genital tubercle of female
@@ -43103,7 +43070,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:30807
 name: vasculature of penis
 namespace: anatomical_structure
-comment: order=3 for EMAPA:18682.
+comment: order=4 for EMAPA:18682.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18682 ! penis
 relationship: starts_at TS25 ! TS25
@@ -43139,7 +43106,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:30819
 name: clitoris
 namespace: anatomical_structure
-def: "clitoris (TS25-TS28): comprised of glans clitoris (distally), body of clitoris (proximally) and surrounded by the prepuce of female. The clitoris contains within it, bone of the os clitoridis, nerves, vasculature and lamina propria (connective tissue) and is surrounded by the skin of female prepuce. The clitoris also contains within it the clitoral urethra, which is linear, positioned ventrally within the clitoris and remains in contact with the ventral surface of the clitoris. An opening forms in the clitoral urethra, located within the glans clitoris, which is seen at birth, and the urethra is also open at the urethral duct at the base of the clitoris until a week after birth. The duct is closed by P8. The clitoral urethra forms a large, U-shaped urethral cleft that extends from the body of clitoris to the glans clitoris, and is surrounded by a solid, U-shaped lamina propria (of glans clitoris and body of clitoris), which are both surrounded by the lamina propria of prepuce. There is no preputial space. The clitoris is much smaller than the penis and the os clitoridis is minisucle compared to the size of the os penis. The clitoris does not contain cartilage or erectile tissues and the prepuce skin does not contain epithelial spines. The clitoris is not mobile, it is ventrally tethered to the prepuce and does not lie within a preputial space. Derived from the genital tubercle of female." []
+def: "clitoris (TS25-TS28): comprised of glans clitoris (distally), body of clitoris (proximally) and surrounded by the prepuce of female. The clitoris contains within it, bone of the os clitoridis, nerves, vasculature and lamina propria (connective tissue) and is surrounded by the skin of female prepuce. The clitoris also contains within it the clitoral urethra, which is linear, positioned ventrally within the clitoris and remains in contact with the ventral surface of the clitoris. An opening forms in the clitoral urethra, called the urethral meatus, located within the glans clitoris, which is seen at birth. The female urethra is also open at the proximal urethral meatus at the base of the clitoris until a week after birth. The proximal urethral meatus is closed by P8. The clitoral urethra forms a large, U-shaped urethral cleft that extends from the body of clitoris to the glans clitoris, and is surrounded by a solid, U-shaped lamina propria (of glans clitoris and body of clitoris), which are both surrounded by the lamina propria of prepuce. There is no preputial space. The clitoris is much smaller than the penis and the os clitoridis is minisucle compared to the size of the os penis. The clitoris does not contain cartilage or erectile tissues and does not contain epithelial spines. The clitoris is not mobile, it is ventrally tethered to the prepuce and does not lie within a preputial space. Derived from the genital tubercle of female." []
 comment: order=11 for EMAPA:17959.\norder=1 for EMAPA:30984.
 synonym: "genital tubercle of female" RELATED []
 relationship: ends_at TS28 ! TS28
@@ -43519,7 +43486,9 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:30944
 name: penile urethra
 namespace: anatomical_structure
+def: "penile urethra (syn: external urethra of male) (TS25-TS28): comprised of epithelium of penile urethra. Epithelium of penile urethra (TS25-TS28) derived from epithelium of phallic urethra of male/female (TS21-TS24). The urethral plate epithelium of male (syn: distal urethral epithelium of male; urethral plate) completely canalises by TS25 and the plate is no longer present in males from TS25. By TS25, the penile urethra opens at the urethral meatus of penile urethra (syn: urethral opening of male) and the proximal urethral meatus has closed. The penile urethra is anatomically located, centrally within the penis and is surrounded by the tissue of the penis, therefore only the epithelial components are necessary parts of penile urethra." []
 comment: order=3 for EMAPA:18692.
+synonym: "external urethra of male" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18692 ! urethra of male
 relationship: starts_at TS28 ! TS28
@@ -49180,7 +49149,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:35057
 name: nerve of penis
 namespace: anatomical_structure
-comment: order=4 for EMAPA:18682.
+comment: order=5 for EMAPA:18682.
 is_a: EMAPA:35947 ! nerve of male reproductive system
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18682 ! penis
@@ -61068,8 +61037,6 @@ synonym: "scrotum stroma" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19296 ! scrotum
 relationship: starts_at TS28 ! TS28
-created_by: jarm
-creation_date: 2015-02-18T11:35:19Z
 
 [Term]
 id: EMAPA:36413
@@ -61137,6 +61104,20 @@ namespace: anatomical_structure
 synonym: "mesenchyme of ductus deferens" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18681 ! ductus deferens
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36421
+name: urethral seam
+namespace: anatomical_structure
+def: "urethral seam (syn: urethral raphe, ventral seam) (TS24-TS28): in the male, growth from mesenchyme ventral to the phallic urethra closes the proximal urethral meatus and septates the epithelium of phallic urethra. This results in the centrally positioned phallic urethra and the ventrally positioned urethral seam. The urethral seam is a solid epithelial cord present underneath the skin along the ventral midline of the penis. Septation moves in a proximal to distal direction along the penis during development and the urethral seam is retained in the adult penis. Part of the genital tubercle of male (TS24), part of the penis (TS25-TS28) and also part of phallic urethra of male (TS24) and penile urethra." []
+synonym: "urethral raphe" RELATED []
+synonym: "ventral seam" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17956 ! phallic urethra of male
+relationship: part_of EMAPA:17969 ! genital tubercle of male
+relationship: part_of EMAPA:18682 ! penis
+relationship: part_of EMAPA:30944 ! penile urethra
 relationship: starts_at TS24 ! TS24
 
 [Term]
