@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 24:02:2015 15:20
-saved-by: jarm
+date: 25:02:2015 15:58
+saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -415,7 +415,7 @@ name: neural ectoderm
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16069.
 synonym: "neurectoderm" RELATED []
-relationship: ends_at TS13 ! TS13
+relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16069 ! embryo ectoderm
 relationship: starts_at TS10 ! TS10
 
@@ -569,7 +569,7 @@ name: future brain neural crest
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16090.
 is_a: EMAPA:32737 ! neural crest
-relationship: ends_at TS13 ! TS13
+relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16090 ! future brain neural fold
 relationship: starts_at TS11 ! TS11
 
@@ -1054,7 +1054,7 @@ id: EMAPA:16142
 name: future midbrain neural fold
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16140.
-is_a: EMAPA:32732 ! neural fold
+is_a: EMAPA:16090 ! future brain neural fold
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16140 ! future midbrain
 relationship: starts_at TS12 ! TS12
@@ -1065,7 +1065,7 @@ name: future midbrain neural crest
 namespace: anatomical_structure
 alt_id: EMAPA:16476
 comment: order=0 for EMAPA:16142.\norder=2 for EMAPA:16472.
-is_a: EMAPA:32737 ! neural crest
+is_a: EMAPA:16091 ! future brain neural crest
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16140 ! future midbrain
 relationship: part_of EMAPA:16142 ! future midbrain neural fold
@@ -1094,7 +1094,7 @@ id: EMAPA:16146
 name: future prosencephalon neural fold
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16144.
-is_a: EMAPA:32732 ! neural fold
+is_a: EMAPA:16090 ! future brain neural fold
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16144 ! future prosencephalon
 relationship: starts_at TS12 ! TS12
@@ -1104,7 +1104,7 @@ id: EMAPA:16147
 name: future prosencephalon neural crest
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16146.
-is_a: EMAPA:32737 ! neural crest
+is_a: EMAPA:16091 ! future brain neural crest
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16146 ! future prosencephalon neural fold
 relationship: starts_at TS12 ! TS12
@@ -1145,7 +1145,7 @@ id: EMAPA:16151
 name: anterior pro-rhombomere neural fold
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16149.
-is_a: EMAPA:32732 ! neural fold
+is_a: EMAPA:16155 ! future hindbrain neural fold
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16149 ! anterior pro-rhombomere
 relationship: starts_at TS12 ! TS12
@@ -1155,7 +1155,7 @@ id: EMAPA:16152
 name: anterior pro-rhombomere neural crest
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16151.
-is_a: EMAPA:32737 ! neural crest
+is_a: EMAPA:16156 ! future hindbrain neural crest
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16151 ! anterior pro-rhombomere neural fold
 relationship: starts_at TS12 ! TS12
@@ -1165,7 +1165,7 @@ id: EMAPA:16153
 name: future hindbrain neural ectoderm
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16148.
-relationship: ends_at TS12 ! TS12
+relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16148 ! future hindbrain
 relationship: starts_at TS12 ! TS12
 
@@ -1179,7 +1179,6 @@ comment: order=0 for EMAPA:16153.
 is_a: EMAPA:32684 ! floor plate
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16148 ! future hindbrain
-relationship: part_of EMAPA:16153 ! future hindbrain neural ectoderm
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -1188,9 +1187,8 @@ name: future hindbrain neural fold
 namespace: anatomical_structure
 alt_id: EMAPA:32733
 comment: order=1 for EMAPA:16153.\norder=3 for EMAPA:16148.
-is_a: EMAPA:32732 ! neural fold
-relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16148 ! future hindbrain
+is_a: EMAPA:16090 ! future brain neural fold
+relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16153 ! future hindbrain neural ectoderm
 relationship: starts_at TS12 ! TS12
 
@@ -1201,7 +1199,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:35365
 alt_id: EMAPA:35366
 comment: order=0 for EMAPA:16155.\norder=0 for EMAPA:32733.\norder=3 for EMAPA:16478.
-is_a: EMAPA:32737 ! neural crest
+is_a: EMAPA:16091 ! future brain neural crest
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16148 ! future hindbrain
 relationship: part_of EMAPA:16155 ! future hindbrain neural fold
@@ -1232,7 +1230,7 @@ id: EMAPA:16159
 name: posterior pro-rhombomere neural fold
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16157.
-is_a: EMAPA:32732 ! neural fold
+is_a: EMAPA:16155 ! future hindbrain neural fold
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16157 ! posterior pro-rhombomere
 relationship: starts_at TS12 ! TS12
@@ -1242,7 +1240,7 @@ id: EMAPA:16160
 name: posterior pro-rhombomere neural crest
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16159.
-is_a: EMAPA:32737 ! neural crest
+is_a: EMAPA:16156 ! future hindbrain neural crest
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16159 ! posterior pro-rhombomere neural fold
 relationship: starts_at TS12 ! TS12
@@ -2236,7 +2234,7 @@ id: EMAPA:16288
 name: future hindbrain posterior to rhombomere 05 neural fold
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16286.
-is_a: EMAPA:32732 ! neural fold
+is_a: EMAPA:16155 ! future hindbrain neural fold
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16286 ! future hindbrain posterior to rhombomere 05
 relationship: starts_at TS13 ! TS13
@@ -2246,7 +2244,7 @@ id: EMAPA:16289
 name: future hindbrain posterior to rhombomere 05 neural crest
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16288.
-is_a: EMAPA:32737 ! neural crest
+is_a: EMAPA:16156 ! future hindbrain neural crest
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16288 ! future hindbrain posterior to rhombomere 05 neural fold
 relationship: starts_at TS13 ! TS13
@@ -2285,7 +2283,7 @@ id: EMAPA:16292
 name: rhombomere 01 neural fold
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16290.
-is_a: EMAPA:32732 ! neural fold
+is_a: EMAPA:16155 ! future hindbrain neural fold
 is_a: EMAPA:35748 ! rhombomere neural fold
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16290 ! rhombomere 01
@@ -2325,7 +2323,7 @@ id: EMAPA:16295
 name: rhombomere 02 neural fold
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16293.
-is_a: EMAPA:32732 ! neural fold
+is_a: EMAPA:16155 ! future hindbrain neural fold
 is_a: EMAPA:35748 ! rhombomere neural fold
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16293 ! rhombomere 02
@@ -2336,7 +2334,6 @@ id: EMAPA:16296
 name: rhombomere 02 neural crest
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16295.
-is_a: EMAPA:32737 ! neural crest
 is_a: EMAPA:35747 ! rhombomere neural crest
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16295 ! rhombomere 02 neural fold
@@ -2376,7 +2373,7 @@ id: EMAPA:16299
 name: rhombomere 03 neural fold
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16297.
-is_a: EMAPA:32732 ! neural fold
+is_a: EMAPA:16155 ! future hindbrain neural fold
 is_a: EMAPA:35748 ! rhombomere neural fold
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16297 ! rhombomere 03
@@ -2387,7 +2384,6 @@ id: EMAPA:16300
 name: rhombomere 03 neural crest
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16299.
-is_a: EMAPA:32737 ! neural crest
 is_a: EMAPA:35747 ! rhombomere neural crest
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16299 ! rhombomere 03 neural fold
@@ -2427,7 +2423,7 @@ id: EMAPA:16303
 name: rhombomere 04 neural fold
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16301.
-is_a: EMAPA:32732 ! neural fold
+is_a: EMAPA:16155 ! future hindbrain neural fold
 is_a: EMAPA:35748 ! rhombomere neural fold
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16301 ! rhombomere 04
@@ -2438,7 +2434,6 @@ id: EMAPA:16304
 name: rhombomere 04 neural crest
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16303.
-is_a: EMAPA:32737 ! neural crest
 is_a: EMAPA:35747 ! rhombomere neural crest
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16303 ! rhombomere 04 neural fold
@@ -2478,7 +2473,7 @@ id: EMAPA:16307
 name: rhombomere 05 neural fold
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16305.
-is_a: EMAPA:32732 ! neural fold
+is_a: EMAPA:16155 ! future hindbrain neural fold
 is_a: EMAPA:35748 ! rhombomere neural fold
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16305 ! rhombomere 05
@@ -2489,7 +2484,6 @@ id: EMAPA:16308
 name: rhombomere 05 neural crest
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16307.
-is_a: EMAPA:32737 ! neural crest
 is_a: EMAPA:35747 ! rhombomere neural crest
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16307 ! rhombomere 05 neural fold
@@ -2500,7 +2494,6 @@ id: EMAPA:16309
 name: rhombomere 01 neural crest
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16292.
-is_a: EMAPA:32737 ! neural crest
 is_a: EMAPA:35747 ! rhombomere neural crest
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16292 ! rhombomere 01 neural fold
@@ -4418,6 +4411,7 @@ id: EMAPA:16518
 name: future diencephalon neural crest
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16514.
+is_a: EMAPA:16524 ! prosencephalon neural crest
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16514 ! future diencephalon
 relationship: starts_at TS14 ! TS14
@@ -4473,6 +4467,7 @@ id: EMAPA:16524
 name: prosencephalon neural crest
 namespace: anatomical_structure
 comment: order=4 for EMAPA:16512.
+is_a: EMAPA:16091 ! future brain neural crest
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16512 ! prosencephalon
 relationship: starts_at TS14 ! TS14
@@ -7689,6 +7684,7 @@ id: EMAPA:16881
 name: tail neural crest
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16756.
+is_a: EMAPA:32737 ! neural crest
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16756 ! tail neural plate
 relationship: starts_at TS16 ! TS16
@@ -46932,7 +46928,7 @@ id: EMAPA:32732
 name: neural fold
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16073.
-relationship: ends_at TS13 ! TS13
+relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:35593 ! neural plate
 relationship: starts_at TS11 ! TS11
 
@@ -46968,7 +46964,8 @@ id: EMAPA:32737
 name: neural crest
 namespace: anatomical_structure
 comment: order=0 for EMAPA:32732.
-relationship: ends_at TS13 ! TS13
+relationship: ends_at TS16 ! TS16
+relationship: part_of EMAPA:16469 ! nervous system
 relationship: part_of EMAPA:32732 ! neural fold
 relationship: starts_at TS11 ! TS11
 
@@ -55065,7 +55062,7 @@ id: EMAPA:35747
 name: rhombomere neural crest
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35748.
-is_a: EMAPA:32737 ! neural crest
+is_a: EMAPA:16156 ! future hindbrain neural crest
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:35748 ! rhombomere neural fold
 relationship: starts_at TS13 ! TS13
@@ -55075,7 +55072,7 @@ id: EMAPA:35748
 name: rhombomere neural fold
 namespace: anatomical_structure
 comment: order=1 for EMAPA:32820.
-is_a: EMAPA:32732 ! neural fold
+is_a: EMAPA:16155 ! future hindbrain neural fold
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:32820 ! rhombomere
 relationship: starts_at TS13 ! TS13
@@ -61119,6 +61116,17 @@ relationship: part_of EMAPA:17969 ! genital tubercle of male
 relationship: part_of EMAPA:18682 ! penis
 relationship: part_of EMAPA:30944 ! penile urethra
 relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36422
+name: migrating neural crest
+namespace: anatomical_structure
+relationship: ends_at TS16 ! TS16
+relationship: part_of EMAPA:32735 ! mesenchyme derived from neural crest
+relationship: part_of EMAPA:32737 ! neural crest
+relationship: starts_at TS12 ! TS12
+created_by: terryh
+creation_date: 2015-02-25T14:18:59Z
 
 [Term]
 id: group_term
