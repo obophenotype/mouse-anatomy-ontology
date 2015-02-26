@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 25:02:2015 15:58
-saved-by: terryh
+date: 26:02:2015 15:48
+saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -23781,7 +23781,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:18999
 name: sinovaginal bulb
 namespace: anatomical_structure
-def: "sinovaginal bulb (syn: sinus vagina,  vaginal bulb, lower vagina) (TS24-TS27): comprised of epithelium, lamina propria, muscle, adventita and developing vasculature. Epithelium of sinovaginal bulb is derived from urogenital sinus of female, derived from urogenital sinus epithelium." []
+def: "sinovaginal bulb (syn: sinus vagina, vaginal bulb, lower vagina) (TS24-TS27): comprised of epithelium, lamina propria, muscle, adventita and developing vasculature. A solid epithelial cord derived from the urogenital sinus ridge, located adjacent to the dorsal epithelium of the pelvic urethra and connects the epithelium of the pelvic urethra to the epithelium of the paramesonephric duct-derived upper vagina. Part of pelvic urethra of female and part of vagina. In males, androgens stop the caudal growth of the nephric ducts. In females, the remaining cells of the nephric duct and the paramesonephric duct-derived upper vagina continue to migrate down the pelvic urethra and have fused to the sinovaginal bulb by E18 (TS26). In newborn mice, the nonpatent, vagina is comprised of the sinovaginal bulb and PND-derived vaginal epithelium fused together. By P3, the proportion of PND-derived vaginal epithelium is larger than the proportion made up by the sinovaginal bulb and the downward migration of the upper vagina continues along the pelvic urethra. Throughout this time, the sinovaginal bulb is a solid, flat epithelial cord. The vagina reaches the perineum by P8 and opens during puberty (~P28). The entire vaginal epithelium of adult is derived from Hoxb7-Cre expressing PND and does not contain epithelia derived from the sinovaginal bulb or nephric duct epithelium. Vulvar epithelium does contain cells derived from urogenital sinus. The solid cord of the vagina canalises at the time of vaginal opening and the sinovaginal bulb becomes part of the vulvar epithelium." []
 comment: order=0 for EMAPA:18986.
 synonym: "lower vagina" RELATED []
 synonym: "sinus vagina" RELATED []
@@ -40909,16 +40909,8 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29639
 name: bulbar part of urethra of male
 namespace: anatomical_structure
+def: "bulbar part of urethra of male (TS28-TS28): The portion of male urethra that drains the bulbourethral glands and is positioned between the pelvic and penile portions of urethra." []
 comment: order=4 for EMAPA:18692.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18692 ! urethra of male
-relationship: starts_at TS28 ! TS28
-
-[Term]
-id: EMAPA:29641
-name: distal region of urethra of male
-namespace: anatomical_structure
-comment: order=5 for EMAPA:18692.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18692 ! urethra of male
 relationship: starts_at TS28 ! TS28
@@ -40927,17 +40919,18 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29645
 name: male urethral gland
 namespace: anatomical_structure
+def: "male urethral gland (TS27-TS28): numerous epithelial urethral glands develop from the epithelium of the urethra. Develop from male urethral gland bud (TS24-26). Part of the urethra of male, subdivided into urethral gland of pelvic urethra of male (part of the pelvic urethra) and urethral gland of penile urethra (part of the penile urethra)." []
 comment: order=6 for EMAPA:18692.
 is_a: EMAPA:35327 ! exocrine gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18692 ! urethra of male
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:29653
 name: female urethral gland
 namespace: anatomical_structure
-def: "female urethral gland (syn: Skene's gland) (TS27-TS28): epithelial urethral glands develop from the epithelium of the urethra. Develop from female urethral gland bud (TS24-TS26). Part of the urethra of female, subdivided into urethral gland of female pelvic urethra (part of the pelvic urethra) and urethral gland of clitoral urethra (part of the clitoral urethra)." []
+def: "female urethral gland (syn: Skene's gland) (TS27-TS28): epithelial urethral glands develop from the epithelium of the urethra. Develop from female urethral gland bud (TS24-TS26). Part of the urethra of female, subdivided into urethral gland of pelvic urethra of female (part of the pelvic urethra) and urethral gland of clitoral urethra (part of the clitoral urethra)." []
 comment: order=2 for EMAPA:28747.
 synonym: "Skene's gland" RELATED []
 is_a: EMAPA:35327 ! exocrine gland
@@ -43482,6 +43475,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:30944
 name: penile urethra
 namespace: anatomical_structure
+alt_id: EMAPA:29641
 def: "penile urethra (syn: external urethra of male) (TS25-TS28): comprised of epithelium of penile urethra. Epithelium of penile urethra (TS25-TS28) derived from epithelium of phallic urethra of male/female (TS21-TS24). The urethral plate epithelium of male (syn: distal urethral epithelium of male; urethral plate) completely canalises by TS25 and the plate is no longer present in males from TS25. By TS25, the penile urethra opens at the urethral meatus of penile urethra (syn: urethral opening of male) and the proximal urethral meatus has closed. The penile urethra is anatomically located, centrally within the penis and is surrounded by the tissue of the penis, therefore only the epithelial components are necessary parts of penile urethra." []
 comment: order=3 for EMAPA:18692.
 synonym: "external urethra of male" RELATED []
@@ -58634,7 +58628,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36132
 name: ventral epithelial bud of female
 namespace: anatomical_structure
-def: "ventral epithelial bud of female (veb) (TS24-TS26): part of urethra of female and part of the pelvic urethra of female. In female mice, epithelial buds develop from the epithelium of the pelvic urethra. These buds develop in the ventral pelvic urethra in females, anterior to the sinovaginal bulb connection to the pelvic urethra in the same location as ventral prostate buds in the male. At birth, these buds are short, only a few cells in diameter and extend out from the epithelium of pelvic urethra, however they are more numerous than the ventral epithelial bud of male. Unlike in the male, where some of these ventral epithelial buds are ventral prostate buds and develop into the ventral prostate gland, in the female, these buds do not elongate. Female mice can develop functional prostate glands if exposed to exogenous androgens. Sometimes these buds are called rudimentary prostate buds or female prostate buds. However during normal female development, they most likely develop into urethral gland of female pelvic urethra (syn: Skene's gland of pelvic urethra, TS27)." []
+def: "ventral epithelial bud of female (TS24-TS26): part of urethra of female and part of the pelvic urethra of female. In female mice, epithelial buds develop from the epithelium of the pelvic urethra. These buds develop in the ventral pelvic urethra in females, anterior to the sinovaginal bulb connection to the pelvic urethra in the same location as ventral prostate buds in the male. At birth, these buds are short, only a few cells in diameter and extend out from the epithelium of pelvic urethra, however they are more numerous than the ventral epithelial bud of male. Unlike in the male, where some of these ventral epithelial buds are ventral prostate buds and develop into the ventral prostate gland, in the female, these buds do not elongate. Female mice can develop functional prostate glands if exposed to exogenous androgens. Sometimes these buds are called rudimentary prostate buds or female prostate buds. However during normal female development, they most likely develop into urethral gland of female pelvic urethra (syn: Skene's gland of pelvic urethra, TS27)." []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:28753 ! pelvic urethra of female
 relationship: starts_at TS24 ! TS24
@@ -58664,6 +58658,7 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:36135
 name: ventral epithelial bud of male
 namespace: anatomical_structure
+def: "ventral epithelial bud of male (TS24-TS26): part of urethra of male, part of the pelvic urethra of male. Epithelial glands that bud from the pelvic urethra of male, develop from the cloacal endoderm-derived epithelium located in the ventral, anterior pelvic urethra, close to the bladder neck. In male mice, these buds represent both anterior male urethral gland buds and ventral prostate buds, which will develop into male urethral glands and ventral prostate glands respectively (TS27). These two gland types are grouped together because, during development, urethral and prostate glands cannot be distinguished from each other and both express the same markers, such as the early prostate marker, Nkx3-1.  Edar and Wnt10b mRNA staining intensity can be used to separate prostatic gland buds (High Edar and Wnt10b mRNA expression) from urethral gland buds (Low to not detectable Edar and Wnt10b mRNA) in male mice during development. By TS27 (birth), ventral prostate buds can be distinguished from male urethral gland buds as they are longer, having started to enlongate, and are seen in two lateral rows, with the smaller, shorter male urethral gland buds present medially and not aligned into rows. Ventral prostate bud is also part of the prostate bud (TS24-TS26, part of prostate gland) and becomes ventral prostate gland (TS27). Anterior male urethral gland buds become urethral gland of male pelvic urethra (TS27)." []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18995 ! pelvic urethra of male
 relationship: starts_at TS24 ! TS24
@@ -58752,6 +58747,7 @@ name: ventral prostate bud
 namespace: anatomical_structure
 comment: order=2 for EMAPA:36141.
 relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:36135 ! ventral epithelial bud of male
 relationship: part_of EMAPA:36141 ! prostate bud
 relationship: starts_at TS24 ! TS24
 
@@ -61127,6 +61123,94 @@ relationship: part_of EMAPA:32737 ! neural crest
 relationship: starts_at TS12 ! TS12
 created_by: terryh
 creation_date: 2015-02-25T14:18:59Z
+
+[Term]
+id: EMAPA:36423
+name: urethral gland of pelvic urethra of male
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18995 ! pelvic urethra of male
+relationship: part_of EMAPA:29645 ! male urethral gland
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36424
+name: urethral gland of penile urethra
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:29645 ! male urethral gland
+relationship: part_of EMAPA:30944 ! penile urethra
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36425
+name: male urethral gland bud
+namespace: anatomical_structure
+def: "male urethral gland bud (TS24-TS26): numerous epithelial urethral glands bud from the epithelium of the pelvic urethra. Part of the urethra of male and pelvic urethra of male. Subdivided into anterior and posterior male urethral gland bud (in the male only). In males, anterior male urethral gland buds are also a part of ventral epithelial bud of male, because at early stages, they cannot be distinguished from ventral prostate buds. These two gland types both express the early prostate marker, Nkx3-1.  Edar and Wnt10b mRNA staining intensity can be used to separate prostatic gland buds (High Edar and Wnt10b mRNA expression) from urethral gland buds (Low to not detectable Edar and Wnt10b mRNA) in male mice during development. At TS27, develop into urethral gland of male pelvic urethra." []
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:18692 ! urethra of male
+relationship: part_of EMAPA:18995 ! pelvic urethra of male
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36426
+name: anterior male urethral gland bud
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:36135 ! ventral epithelial bud of male
+relationship: part_of EMAPA:36425 ! male urethral gland bud
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36427
+name: posterior male urethral gland bud
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:36425 ! male urethral gland bud
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36428
+name: female accessory gland
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17959 ! female reproductive system
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36429
+name: bulbourethral gland of female
+namespace: anatomical_structure
+def: "bulbourethral gland of female (syn: Cowper's gland of female) (TS23-TS28): paired epithelial secretory glands develop at the junction of the phallic/penile/clitoral and pelvic urethra in males and females. First seen at E15.5 (TS23), budding out from the epithelium of the urethra in both sexes. They are larger in the male. Growth is dependant on androgens and in males, they canalise after birth (TS27, P1) opening into the urethra and then branch and enlarge during the neonatal period. Comprised of epithelium and a thin interstitium (or connective tissue) which also contains the vasculature (blood vessels). The epithelium of bulbourethral gland is derived from cloacal endoderm. Part of urethra of male/female, and also part of male/female accessory gland. Also called Cowper's gland in human males and not present in human females. It is likely they remain only rudimentary in the adult female mouse." []
+synonym: "Cowper's gland of female" RELATED []
+is_a: EMAPA:36428 ! female accessory gland
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17959 ! female reproductive system
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36430
+name: epithelium of bulbourethral gland of female
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36429 ! bulbourethral gland of female
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36431
+name: lamina propria of bulbourethral gland of female
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36429 ! bulbourethral gland of female
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36432
+name: vasculature of bulbourethral gland of female
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36429 ! bulbourethral gland of female
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: group_term
