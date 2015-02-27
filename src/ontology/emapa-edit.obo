@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 26:02:2015 15:48
+date: 27:02:2015 16:50
 saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -16721,9 +16721,11 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17956
 name: phallic urethra of male
 namespace: anatomical_structure
+def: "phallic urethra of male (TS21-TS24): part of the genital tubercle of male and part of the urethra of male. Comprised of epithelium and anatomically located within the genital tubercle of male. From TS25, as the genital tubercle becomes the penis and clitoris, the phallic urethra becomes the penile or clitoral urethra in male and females respectively. The phallic urethra is anatomically located within the genital tubercle and is surrounded by the tissue of the genital tubercle, therefore only the epithelial components are necessary parts of phallic urethra." []
 comment: order=2 for EMAPA:18692.
 synonym: "external urethra of male" RELATED []
 relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:17969 ! genital tubercle of male
 relationship: part_of EMAPA:18692 ! urethra of male
 relationship: starts_at TS23 ! TS23
 
@@ -40082,18 +40084,14 @@ id: EMAPA:28856
 name: mesenchymal layer of phallic urethra of male
 namespace: anatomical_structure
 comment: order=1 for EMAPA:17956.
-relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:17956 ! phallic urethra of male
-relationship: starts_at TS25 ! TS25
+is_obsolete: true
 
 [Term]
 id: EMAPA:28859
 name: muscle layer of phallic urethra of male
 namespace: anatomical_structure
 comment: order=2 for EMAPA:17956.
-relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:17956 ! phallic urethra of male
-relationship: starts_at TS25 ! TS25
+is_obsolete: true
 
 [Term]
 id: EMAPA:28862
@@ -40696,8 +40694,10 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:29220
 name: preputial swelling of male
 namespace: anatomical_structure
+def: "preputial swelling of male (syn: preputial fold of male, early prepuce of male) (TS21-TS23) : two lateral swellings develop on the sides of the genital tubercle at TS21 and grow medially and ventrally. These swellings enclose the preputial glands. Comprised of skin of male preputial swelling, preputial gland of male, and mesenchyme of male preputial swelling.  At TS24, when the two preputial swellings join/fuse together at the ventral midline of the genital tubercle of male, they become the prepuce of male." []
 comment: order=7 for EMAPA:17969.
-synonym: "prepuce of male" RELATED []
+synonym: "early prepuce of male" RELATED []
+synonym: "preputial fold of male" RELATED []
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17969 ! genital tubercle of male
 relationship: starts_at TS21 ! TS21
@@ -42394,9 +42394,11 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:30478
 name: preputial swelling of female
 namespace: anatomical_structure
+def: "preputial swelling of female (syn: preputial fold of female, early prepuce of female) (TS21-TS23): two lateral swellings develop on the sides of the genital tubercle at TS21 and grow medially and ventrally. These swellings enclose the preputial glands. Comprised of skin of female preputial swelling, preputial gland of female, and mesenchyme of female preputial swelling.  At TS24, when the two preputial swellings join/fuse together at the ventral midline of the genital tubercle of female, they become the prepuce of female." []
 comment: order=3 for EMAPA:18680.
-synonym: "prepuce of female" RELATED []
-relationship: ends_at TS24 ! TS24
+synonym: "early prepuce of female" RELATED []
+synonym: "preputial fold of female" RELATED []
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:18680 ! genital tubercle of female
 relationship: starts_at TS21 ! TS21
 
@@ -42437,7 +42439,7 @@ name: mesenchyme of female preputial swelling
 namespace: anatomical_structure
 comment: order=2 for EMAPA:30478.
 is_a: EMAPA:35974 ! female reproductive system mesenchyme
-relationship: ends_at TS24 ! TS24
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:30478 ! preputial swelling of female
 relationship: starts_at TS21 ! TS21
 
@@ -42447,17 +42449,8 @@ name: surface epithelium of female preputial swelling
 namespace: anatomical_structure
 comment: order=0 for EMAPA:30478.
 is_a: EMAPA:35962 ! female reproductive system epithelium
-relationship: ends_at TS24 ! TS24
-relationship: part_of EMAPA:30478 ! preputial swelling of female
-relationship: starts_at TS21 ! TS21
-
-[Term]
-id: EMAPA:30502
-name: preputial gland of male
-namespace: anatomical_structure
-comment: order=1 for EMAPA:29220.
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:29220 ! preputial swelling of male
+relationship: part_of EMAPA:30478 ! preputial swelling of female
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -42718,12 +42711,14 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:30659
 name: preputial gland of male
 namespace: anatomical_structure
+alt_id: EMAPA:30502
 alt_id: EMAPA:30640
 comment: order=2 for EMAPA:18989.
 synonym: "preputial duct" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18989 ! prepuce of male
-relationship: starts_at TS24 ! TS24
+relationship: part_of EMAPA:29220 ! preputial swelling of male
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:30664
@@ -43410,8 +43405,9 @@ is_obsolete: true
 
 [Term]
 id: EMAPA:30917
-name: phallic urethra of female
+name: clitoral urethra
 namespace: anatomical_structure
+def: "clitoral urethra (syn: external urethra of female) (TS25-TS28): comprised of epithelium of clitoral urethra. Epithelium of clitoral urethra (TS25-28) derived from epithelium of phallic urethra of male/female (TS21-24). At TS25, the epithelium is subdivided into along its distal-proximal length into urethral plate epithelium (distal) and urethral tube epithelium (proximal). The urethral plate epithelium of female (syn: distal urethral epithelium of female; urethral plate of female) is no longer present from TS26. The clitoral urethra is open proximally at the proximal urethral meatus (present to P7) (syn: proximal urethral opening of female or urethral duct) located at the base of the clitoris. The proximal urethral meatus closes after birth (closed by P8). In adults and from birth, the urethra of female is open externally at the urethral meatus of clitoral urethra (syn: distal urethral opening of female) which is anatomically located within the clitoris. (This is different to humans, where the urethral opening is located between the clitoris and vagina.) The clitoral urethra is anatomically located ventrally within the clitoris and is surrounded by the tissue of the clitoris, therefore only the epithelial components are necessary parts of clitoral urethra." []
 comment: order=1 for EMAPA:28747.
 synonym: "external urethra of female" RELATED []
 relationship: ends_at TS28 ! TS28
@@ -43424,7 +43420,7 @@ name: urethral plate of female
 namespace: anatomical_structure
 comment: order=3 for EMAPA:30917.
 relationship: ends_at TS24 ! TS24
-relationship: part_of EMAPA:30917 ! phallic urethra of female
+relationship: part_of EMAPA:30917 ! clitoral urethra
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -43436,11 +43432,11 @@ is_obsolete: true
 
 [Term]
 id: EMAPA:30930
-name: urothelium of phallic urethra of female
+name: epithelium of clitoral urethra
 namespace: anatomical_structure
 comment: order=0 for EMAPA:30917.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:30917 ! phallic urethra of female
+relationship: part_of EMAPA:30917 ! clitoral urethra
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -43449,7 +43445,7 @@ name: mesenchymal layer of phallic urethra of female
 namespace: anatomical_structure
 comment: order=1 for EMAPA:30917.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:30917 ! phallic urethra of female
+relationship: part_of EMAPA:30917 ! clitoral urethra
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -43457,9 +43453,7 @@ id: EMAPA:30938
 name: muscle layer of phallic urethra of female
 namespace: anatomical_structure
 comment: order=2 for EMAPA:30917.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:30917 ! phallic urethra of female
-relationship: starts_at TS25 ! TS25
+is_obsolete: true
 
 [Term]
 id: EMAPA:30942
@@ -43481,34 +43475,30 @@ comment: order=3 for EMAPA:18692.
 synonym: "external urethra of male" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18692 ! urethra of male
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:30946
-name: urothelium of penile urethra
+name: epithelium of penile urethra
 namespace: anatomical_structure
 comment: order=0 for EMAPA:30944.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30944 ! penile urethra
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:30948
 name: mesenchymal layer of penile urethra
 namespace: anatomical_structure
 comment: order=1 for EMAPA:30944.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:30944 ! penile urethra
-relationship: starts_at TS28 ! TS28
+is_obsolete: true
 
 [Term]
 id: EMAPA:30950
 name: muscle layer of penile urethra
 namespace: anatomical_structure
 comment: order=2 for EMAPA:30944.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:30944 ! penile urethra
-relationship: starts_at TS28 ! TS28
+is_obsolete: true
 
 [Term]
 id: EMAPA:30952
@@ -44758,17 +44748,6 @@ relationship: part_of EMAPA:28703 ! mesenchymal layer of pelvic urethra of male
 relationship: starts_at TS23 ! TS23
 
 [Term]
-id: EMAPA:31551
-name: nerve of phallic urethra of female
-namespace: anatomical_structure
-comment: order=4 for EMAPA:30917.\norder=4 for EMAPA:31569.
-is_a: EMAPA:35948 ! nerve of urinary system
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:30917 ! phallic urethra of female
-relationship: part_of EMAPA:31569 ! nerve of urethra
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:31552
 name: mesenchymal layer of dorsal pelvic urethra of male
 namespace: anatomical_structure
@@ -44859,17 +44838,6 @@ comment: order=4 for EMAPA:28753.\norder=1 for EMAPA:31569.
 is_a: EMAPA:35948 ! nerve of urinary system
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28753 ! pelvic urethra of female
-relationship: part_of EMAPA:31569 ! nerve of urethra
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:31568
-name: nerve of phallic urethra of male
-namespace: anatomical_structure
-comment: order=4 for EMAPA:17956.\norder=5 for EMAPA:31569.
-is_a: EMAPA:35948 ! nerve of urinary system
-relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:17956 ! phallic urethra of male
 relationship: part_of EMAPA:31569 ! nerve of urethra
 relationship: starts_at TS23 ! TS23
 
@@ -49010,7 +48978,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35044
 name: nerve of clitoris
 namespace: anatomical_structure
-comment: order=3 for EMAPA:30819.
+alt_id: EMAPA:31551
 is_a: EMAPA:35946 ! nerve of female reproductive system
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30819 ! clitoris
@@ -49020,6 +48988,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:35045
 name: nerve of genital tubercle of female
 namespace: anatomical_structure
+def: "nerve of genital tubercle of female (TS22-24): nerve located in the genital tubercle of female, dorsal to the phallic urethra of female. Becomes dorsal nerve of clitoris (TS25-28)." []
 comment: order=10 for EMAPA:18680.
 is_a: EMAPA:35946 ! nerve of female reproductive system
 relationship: ends_at TS27 ! TS27
@@ -49130,6 +49099,7 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35056
 name: nerve of genital tubercle of male
 namespace: anatomical_structure
+def: "nerve of genital tubercle of male (TS22-TS24): nerve located in the genital tubercle of male, dorsal to the phallic urethra of male. Becomes dorsal nerve of penis (TS25-TS28)." []
 comment: order=10 for EMAPA:17969.
 is_a: EMAPA:35947 ! nerve of male reproductive system
 relationship: ends_at TS24 ! TS24
@@ -49140,6 +49110,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:35057
 name: nerve of penis
 namespace: anatomical_structure
+alt_id: EMAPA:31568
 comment: order=5 for EMAPA:18682.
 is_a: EMAPA:35947 ! nerve of male reproductive system
 relationship: ends_at TS28 ! TS28
@@ -61211,6 +61182,16 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36429 ! bulbourethral gland of female
 relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36433
+name: phallic urethra of female
+namespace: anatomical_structure
+def: "phallic urethra of female (TS21-TS24): part of the genital tubercle of female and part of the urethra of female. Comprised of epithelium and anatomically located within the genital tubercle of female. From TS25, as the genital tubercle becomes the penis and clitoris, the phallic urethra becomes the penile or clitoral urethra in male and females respectively. The phallic urethra is anatomically located within the genital tubercle and is surrounded by the tissue of the genital tubercle, therefore only the epithelial components are necessary parts of phallic urethra." []
+relationship: ends_at TS24 ! TS24
+relationship: part_of EMAPA:18680 ! genital tubercle of female
+relationship: part_of EMAPA:28747 ! urethra of female
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: group_term
