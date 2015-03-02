@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 27:02:2015 16:50
+date: 02:03:2015 15:02
 saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -4820,10 +4820,11 @@ name: nephric duct
 namespace: anatomical_structure
 alt_id: EMAPA:28425
 alt_id: EMAPA:28429
-def: "nd: nephric duct (syn: Wolffian duct) (TS14-TS18): paired epithelial ducts which develop early in development (TS14) in the cranial/anterior intermediate mesoderm and extend caudally down the rostro-caudal axis of the embryo to terminate at the cloaca. The nephric duct is subdivided along its anterior-posterior length, into the pronephric portion, mesonephric portion (part of the mesonephros) and metanephric portion. These regions are stage-dependant, with the pronephric portion present at TS14 in the pronephros, the mesonpehric portion from TS15 in the mesonephros and posterior to these, the metanephric portion from TS17. Becomes the nephric duct (TS19-20) part of the urinary system." []
+def: "nephric duct (syn: mesonephric duct, Wolffian duct) (TS14-TS24): paired epithelial ducts which develop early in development (TS14) in the cranial/anterior intermediate mesoderm and extend caudally down the rostro-caudal axis of the embryo to terminate at the cloaca. The nephric duct is subdivided along its anterior-posterior length, into the pronephric portion, mesonephric portion (part of the mesonephros) (located in mesonephros, anterior), metanephric portion (adjacent to the metanephros) and common nephric duct (posterior portion below the metanephros). These regions are stage-dependant, with the pronephric portion present at TS14 in the pronephros, the mesonpehric portion from TS15 in the mesonephros and posterior to these, the metanerphric portion from TS17. The regions are part of either the urinary or reproductive system. After the urogenital sinus extends from the cloaca, the nephric duct connects to the dorsal side of the caudal urogenital sinus at the urogenital sinus ridge. The ducts are marked by Cdh1 and Hoxb7. As the ontology becomes gender-specific, the nephric duct becomes the nephric duct of male/female (from TS20)." []
 comment: order=2 for EMAPA:16367.
+synonym: "mesonephric duct" RELATED []
 synonym: "Wolffian duct" RELATED []
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:16367 ! genitourinary system
 relationship: starts_at TS14 ! TS14
 
@@ -53610,10 +53611,12 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35590
 name: nephric duct of female
 namespace: anatomical_structure
+def: "nephric duct of female (syn: mesonephric duct of female, Wolffian duct of female) (TS20-TS24): paired epithelial ducts which develop early in development in the cranial/anterior intermediate mesoderm and extend caudally down the rostro-caudal axis of the embryo to terminate at the urogenital sinus/pelvic urethra. Part of the reproductive system from TS20. Develops from the nephric duct (TS19), and is located in mesonephros (anterior) and then at its caudal end (posterior), connects to the dorsal, anterior urogenital sinus (caudal urogenital sinus) at the urogenital sinus ridge. Marked by Cdh1, Pax2 (also seen in the paramesonephric duct) and Hoxb7 (specific to the nephric duct). From TS20-24, is comprised of epithelium of nephric duct of female and mesenchyme of nephric duct of female (the mesenchyme surrounding the epithelial duct). In females, the nephric duct degenerates in a rostral to caudal wave beginning at TS22 and complete by TS25, with only remnants seen at TS24." []
 comment: order=23 for EMAPA:17959.
 synonym: "mesonephric duct of female" RELATED []
-synonym: "wolffian duct of female" RELATED []
-relationship: ends_at TS22 ! TS22
+synonym: "Wolffian duct of female" RELATED []
+is_a: EMAPA:16577 ! nephric duct
+relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: starts_at TS20 ! TS20
 
@@ -53621,10 +53624,12 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:35591
 name: nephric duct of male
 namespace: anatomical_structure
+def: "nephric duct of male (syn: mesonephric duct of male, Wolffian duct of male) (TS20-TS23): paired epithelial ducts which develop early in development in the cranial/anterior intermediate mesoderm and extend caudally down the rostro-caudal axis of the embryo to terminate at the urogenital sinus/pelvic urethra. Part of the reproductive system from TS20. Develops from the nephric duct (TS19), and is located in mesonephros (anterior) and then at its caudal end (posterior), connects to the dorsal, anterior urogenital sinus (caudal urogenital sinus) at the urogenital sinus ridge. Marked by Cdh1, Pax2 (also seen in the paramesonephric duct) and Hoxb7 (specific to the nephric duct). From TS20-TS23, is comprised of epithelium of nephric duct of male and mesenchyme of nephric duct of male (the mesenchyme surrounding the epithelial duct). In males, the nephric duct of male becomes seminal vesicle, ductus deferens and epididymis from TS24." []
 comment: order=36 for EMAPA:17968.
 synonym: "mesonephric duct of male" RELATED []
-synonym: "wolffian duct of male" RELATED []
-relationship: ends_at TS22 ! TS22
+synonym: "Wolffian duct of male" RELATED []
+is_a: EMAPA:16577 ! nephric duct
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17968 ! male reproductive system
 relationship: starts_at TS20 ! TS20
 
@@ -58308,8 +58313,10 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:36101
 name: common nephric duct
 namespace: anatomical_structure
-def: "common nephric duct (cnd) (syn: posterior/caudal Wolffian duct) (TS19-TS22): the caudal portion of the paired epithelial nephric ducts, between the ureteric bud stalk/ureter attachment site (anterior/cranial end) and the site of insertion into the urogenital sinus at the urogenital sinus ridge (posterior/caudal end). Regresses after TS21 due to remodelling and apoptosis and at TS22 only a few cells are visible. Marked by Cdh1, Hoxb7 and Ret." []
+def: "common nephric duct (syn: common mesonephric duct, common Wolffian duct) (TS19-TS22): the caudal portion of the paired epithelial nephric ducts, between the ureteric bud stalk/ureter attachment site (anterior/cranial end) and the site of insertion into the urogenital sinus at the urogenital sinus ridge (posterior/caudal end). Regresses after TS21 due to remodelling and apoptosis and at TS22 only a few cells are visible. Marked by Cdh1, Hoxb7 and Ret." []
 comment: order=3 for EMAPA:16577.\norder=30 for EMAPA:17366.
+synonym: "common mesonephric duct" RELATED []
+synonym: "common Wolffian duct" RELATED []
 synonym: "posterior/caudal Wolffian duct" RELATED []
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:16577 ! nephric duct
