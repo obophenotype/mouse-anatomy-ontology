@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 02:03:2015 15:02
+date: 04:03:2015 16:43
 saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -16819,15 +16819,6 @@ relationship: part_of EMAPA:30977 ! male external genitalia
 relationship: starts_at TS20 ! TS20
 
 [Term]
-id: EMAPA:17970
-name: nephric duct of male, mesonephric portion
-namespace: anatomical_structure
-comment: order=0 for EMAPA:29138.
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:29138 ! mesonephros of male
-relationship: starts_at TS20 ! TS20
-
-[Term]
 id: EMAPA:17971
 name: mesorchium
 namespace: anatomical_structure
@@ -23710,7 +23701,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:18986
 name: vagina
 namespace: anatomical_structure
-def: "vagina (TS24-TS28): the developing vagina is subdivided into upper vagina and sinovaginal bulb (or lower vagina), however only the upper vagina will become the vagina in the adult (Kurita 2010). The sinovaginal bulb is a transient structure only seen during development. The sinovaginal bulb is derived from the urogenital sinus epithelium (and is therefore often called the sinus vagina). The vagina (TS28) is derived from the upper vagina (TS24-TS27), and is derived from the paramesonephric duct of female." []
+def: "vagina (TS24-TS28): comprised of epithelium, lamina propria, muscle, adventitia, vasculature and nerve of vagina. The developing vagina is subdivided into upper vagina and sinovaginal bulb (or lower vagina), however only the upper vagina will become the vagina in the adult (Kurita 2010). The sinovaginal bulb is a transient structure only seen during development. The sinovaginal bulb is derived from the urogenital sinus epithelium (and is therefore often called the sinus vagina). The adult vagina (TS28) is derived from the upper vagina (TS24-TS27), and is derived from the paramesonephric duct of female." []
 comment: order=9 for EMAPA:17959.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
@@ -38342,6 +38333,7 @@ name: nephric duct, metanephric portion
 namespace: anatomical_structure
 alt_id: EMAPA:17377
 comment: order=10 for EMAPA:17366.\norder=2 for EMAPA:16577.
+synonym: "mesonephric duct, metanephric portion" RELATED []
 synonym: "Wolffian duct, metanephric portion" RELATED []
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16577 ! nephric duct
@@ -38353,6 +38345,7 @@ id: EMAPA:27602
 name: nephric duct, pronephric portion
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16579.\norder=0 for EMAPA:16577.
+synonym: "mesonephric duct, pronephric portion" RELATED []
 synonym: "Wolffian duct, pronephric portion" RELATED []
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16577 ! nephric duct
@@ -38472,6 +38465,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:27665
 name: paramesonephric duct
 namespace: anatomical_structure
+def: "paramesonephric duct (pnd) (syn: Mullerian duct) (TS19): paired epithelial ducts which develop laterally adjacent to the nephric ducts in the anterior mesonephros and extend caudally down the rostro-caudal length of the nephric ducts. Later, at TS21, they will terminate at the urogenital sinus/pelvic urethra. Part of the reproductive system. The ducts are marked by Cdh1 and Pax2. As the ontology becomes gender-specific, the paramesonephric duct becomes the paramesonephric duct of male/female (from TS20)." []
 comment: order=7 for EMAPA:17381.
 synonym: "Mullerian duct" RELATED []
 relationship: ends_at TS26 ! TS26
@@ -40158,15 +40152,6 @@ relationship: part_of EMAPA:28909 ! mesonephros of female
 relationship: starts_at TS20 ! TS20
 
 [Term]
-id: EMAPA:28924
-name: nephric duct of female, mesonephric portion
-namespace: anatomical_structure
-comment: order=3 for EMAPA:28909.
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:28909 ! mesonephros of female
-relationship: starts_at TS20 ! TS20
-
-[Term]
 id: EMAPA:28929
 name: rete ovarii of mesonephros
 namespace: anatomical_structure
@@ -40209,33 +40194,28 @@ relationship: part_of EMAPA:35660 ! paramesonephric duct of female
 relationship: starts_at TS20 ! TS20
 
 [Term]
-id: EMAPA:28945
-name: nephric duct of female, rest of
+id: EMAPA:28949
+name: epithelium of nephric duct of female
 namespace: anatomical_structure
-comment: order=1 for EMAPA:17959.
+comment: order=0 for EMAPA:28945.
+synonym: "epithelium of mesonephric duct of female" RELATED []
+synonym: "epithelium of Wolffian duct of female" RELATED []
+is_a: EMAPA:35962 ! female reproductive system epithelium
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17959 ! female reproductive system
+relationship: part_of EMAPA:35590 ! nephric duct of female
 relationship: starts_at TS20 ! TS20
 
 [Term]
-id: EMAPA:28949
-name: epithelium of rest of nephric duct of female
-namespace: anatomical_structure
-comment: order=0 for EMAPA:28945.
-is_a: EMAPA:35962 ! female reproductive system epithelium
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:28945 ! nephric duct of female, rest of
-relationship: starts_at TS21 ! TS21
-
-[Term]
 id: EMAPA:28953
-name: mesenchyme of rest of nephric duct of female
+name: mesenchyme of nephric duct of female
 namespace: anatomical_structure
 comment: order=1 for EMAPA:28945.
+synonym: "mesenchyme of mesonephric duct of female" RELATED []
+synonym: "mesenchyme of Wolffian duct of female" RELATED []
 is_a: EMAPA:35974 ! female reproductive system mesenchyme
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:28945 ! nephric duct of female, rest of
-relationship: starts_at TS21 ! TS21
+relationship: part_of EMAPA:35590 ! nephric duct of female
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:28957
@@ -40572,33 +40552,28 @@ relationship: part_of EMAPA:17969 ! genital tubercle of male
 relationship: starts_at TS20 ! TS20
 
 [Term]
-id: EMAPA:29173
-name: nephric duct of male, rest of
+id: EMAPA:29177
+name: mesenchyme of nephric duct of male
 namespace: anatomical_structure
-comment: order=3 for EMAPA:17968.
+comment: order=1 for EMAPA:29173.
+synonym: "mesenchyme of mesonephric duct of male" RELATED []
+synonym: "mesenchyme of Wolffian duct of male" RELATED []
+is_a: EMAPA:35975 ! male reproductive system mesenchyme
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17968 ! male reproductive system
+relationship: part_of EMAPA:35591 ! nephric duct of male
 relationship: starts_at TS20 ! TS20
 
 [Term]
-id: EMAPA:29177
-name: mesenchyme of rest of nephric duct of male
-namespace: anatomical_structure
-comment: order=1 for EMAPA:29173.
-is_a: EMAPA:35975 ! male reproductive system mesenchyme
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:29173 ! nephric duct of male, rest of
-relationship: starts_at TS21 ! TS21
-
-[Term]
 id: EMAPA:29181
-name: epithelium of rest of nephric duct of male
+name: epithelium of nephric duct of male
 namespace: anatomical_structure
 comment: order=0 for EMAPA:29173.
+synonym: " epithelium of Wolffian duct of male" RELATED []
+synonym: "epithelium of mesonephric duct of male" RELATED []
 is_a: EMAPA:35963 ! male reproductive system epithelium
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:29173 ! nephric duct of male, rest of
-relationship: starts_at TS21 ! TS21
+relationship: part_of EMAPA:35591 ! nephric duct of male
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:29185
@@ -53611,19 +53586,24 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35590
 name: nephric duct of female
 namespace: anatomical_structure
-def: "nephric duct of female (syn: mesonephric duct of female, Wolffian duct of female) (TS20-TS24): paired epithelial ducts which develop early in development in the cranial/anterior intermediate mesoderm and extend caudally down the rostro-caudal axis of the embryo to terminate at the urogenital sinus/pelvic urethra. Part of the reproductive system from TS20. Develops from the nephric duct (TS19), and is located in mesonephros (anterior) and then at its caudal end (posterior), connects to the dorsal, anterior urogenital sinus (caudal urogenital sinus) at the urogenital sinus ridge. Marked by Cdh1, Pax2 (also seen in the paramesonephric duct) and Hoxb7 (specific to the nephric duct). From TS20-24, is comprised of epithelium of nephric duct of female and mesenchyme of nephric duct of female (the mesenchyme surrounding the epithelial duct). In females, the nephric duct degenerates in a rostral to caudal wave beginning at TS22 and complete by TS25, with only remnants seen at TS24." []
+alt_id: EMAPA:28924
+alt_id: EMAPA:28945
+def: "nephric duct of female (syn: mesonephric duct of female, Wolffian duct of female) (TS20-TS24): paired epithelial ducts which develop early in development in the cranial/anterior intermediate mesoderm and extend caudally down the rostro-caudal axis of the embryo to terminate at the urogenital sinus/pelvic urethra. Part of the reproductive system from TS20. Develops from the nephric duct (TS19), and is located in mesonephros (anterior) and then at its caudal end (posterior), connects to the dorsal, anterior urogenital sinus (caudal urogenital sinus) at the urogenital sinus ridge. Marked by Cdh1, Pax2 (also seen in the paramesonephric duct) and Hoxb7 (specific to the nephric duct). From TS20-TS24, is comprised of epithelium of nephric duct of female and mesenchyme of nephric duct of female (the mesenchyme surrounding the epithelial duct). In females, the nephric duct degenerates in a rostral to caudal wave beginning at TS22 and complete by TS25, with only remnants seen at TS24." []
 comment: order=23 for EMAPA:17959.
 synonym: "mesonephric duct of female" RELATED []
 synonym: "Wolffian duct of female" RELATED []
 is_a: EMAPA:16577 ! nephric duct
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:17959 ! female reproductive system
+relationship: part_of EMAPA:28909 ! mesonephros of female
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35591
 name: nephric duct of male
 namespace: anatomical_structure
+alt_id: EMAPA:17970
+alt_id: EMAPA:29173
 def: "nephric duct of male (syn: mesonephric duct of male, Wolffian duct of male) (TS20-TS23): paired epithelial ducts which develop early in development in the cranial/anterior intermediate mesoderm and extend caudally down the rostro-caudal axis of the embryo to terminate at the urogenital sinus/pelvic urethra. Part of the reproductive system from TS20. Develops from the nephric duct (TS19), and is located in mesonephros (anterior) and then at its caudal end (posterior), connects to the dorsal, anterior urogenital sinus (caudal urogenital sinus) at the urogenital sinus ridge. Marked by Cdh1, Pax2 (also seen in the paramesonephric duct) and Hoxb7 (specific to the nephric duct). From TS20-TS23, is comprised of epithelium of nephric duct of male and mesenchyme of nephric duct of male (the mesenchyme surrounding the epithelial duct). In males, the nephric duct of male becomes seminal vesicle, ductus deferens and epididymis from TS24." []
 comment: order=36 for EMAPA:17968.
 synonym: "mesonephric duct of male" RELATED []
@@ -53631,6 +53611,7 @@ synonym: "Wolffian duct of male" RELATED []
 is_a: EMAPA:16577 ! nephric duct
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17968 ! male reproductive system
+relationship: part_of EMAPA:29138 ! mesonephros of male
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -54247,8 +54228,9 @@ id: EMAPA:35660
 name: paramesonephric duct of female
 namespace: anatomical_structure
 alt_id: EMAPA:35341
+def: "paramesonephric duct of female (syn: Mullerian duct of female) (TS20-TS23): paired epithelial ducts which develop laterally adjacent to the nephric ducts in the anterior mesonephros and extend caudally down the rostro-caudal length of the nephric ducts to terminate at the urogenital sinus/pelvic urethra. Part of the reproductive system. They connect at the caudal end, to the dorsal, anterior urogenital sinus (caudal urogenital sinus) at the urogenital sinus ridge at TS21, crossing over the nephric ducts, such that they connect to the urethra medially, with the nephric ducts located on either side.  The ducts are marked by Cdh1 and Pax2. They are comprised of epithelium and mesenchyme of paramesonephric duct of female. The epithelium is marked by Cdh1 and Pax2. Derives from the paramesonephric duct (syn: Mullerian duct, TS19). In females from TS24, becomes part of the oviduct, ureterus, cervix, uterine horn and upper vagina." []
 comment: order=20 for EMAPA:17959.
-synonym: "female paramesonephric duct" RELATED []
+synonym: "Mullerian duct of female" RELATED []
 is_a: EMAPA:27665 ! paramesonephric duct
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17959 ! female reproductive system
@@ -54258,7 +54240,9 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:35661
 name: paramesonephric duct of male
 namespace: anatomical_structure
+def: "paramesonephric duct of male (syn: Mullerian duct of male) (TS20-TS24 in males): paired epithelial ducts which develop laterally adjacent to the nephric ducts in the anterior mesonephros and extend caudally down the rostro-caudal length of the nephric ducts to terminate at the urogenital sinus/pelvic urethra. Part of the reproductive system. They connect at the caudal end, to the dorsal, anterior urogenital sinus (caudal urogenital sinus) at the urogenital sinus ridge at TS21, crossing over the nephric ducts, such that they connect to the urethra medially, with the nephric ducts located on either side.  The ducts are marked by Cdh1 and Pax2. They are comprised of epithelium and mesenchyme of paramesonephric duct of female. The epithelium is marked by Cdh1 and Pax2. Derives from the paramesonephric duct (syn: Mullerian duct, TS19). In males from TS22, the ducts begin to degenerate with only remnants of the ducts present at TS24 in males." []
 comment: order=33 for EMAPA:17968.
+synonym: "Mullerian duct of male" RELATED []
 is_a: EMAPA:27665 ! paramesonephric duct
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17968 ! male reproductive system
@@ -56455,9 +56439,10 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:35902
-name: vagina stroma
+name: lamina propria of vagina
 namespace: anatomical_structure
 comment: order=8 for EMAPA:18986.
+synonym: "vagina stroma" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18986 ! vagina
 relationship: starts_at TS28 ! TS28
@@ -58317,7 +58302,6 @@ def: "common nephric duct (syn: common mesonephric duct, common Wolffian duct) (
 comment: order=3 for EMAPA:16577.\norder=30 for EMAPA:17366.
 synonym: "common mesonephric duct" RELATED []
 synonym: "common Wolffian duct" RELATED []
-synonym: "posterior/caudal Wolffian duct" RELATED []
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:16577 ! nephric duct
 relationship: part_of EMAPA:17366 ! urinary system
