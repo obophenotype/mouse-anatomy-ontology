@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 11:03:2015 15:58
+date: 13:03:2015 17:35
 saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -9908,10 +9908,11 @@ id: EMAPA:17212
 name: urorectal septum
 namespace: anatomical_structure
 alt_id: EMAPA:17380
+def: "urorectal septum (urs) (TS19-TS27): the mesenchyme located between the hindgut (dorsal) and urogenital sinus (ventral) (TS19-21) and later the colon/rectum and bladder/urethra. Derived from mesoderm." []
 comment: order=22 for EMAPA:17366.
-relationship: ends_at TS28 ! TS28
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:17366 ! urinary system
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:17213
@@ -39936,7 +39937,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:28709
 name: muscle layer of pelvic urethra of male
 namespace: anatomical_structure
+def: "muscle layer of pelvic urethra of male (syn: muscularis propria of pelvic urethra of male) (TS23-TS28): the thicker layer of smooth muscle towards the outside of the pelvic urethra. Subdivided into dorsal/ventral (to TS27). Marked by proteins expressed by smooth muscle cells, such as smooth muscle alpha actin (Acta2)." []
 comment: order=2 for EMAPA:18995.
+synonym: "muscularis propria of pelvic urethra of male" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18995 ! pelvic urethra of male
 relationship: starts_at TS23 ! TS23
@@ -39988,8 +39991,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:28771
 name: muscle layer of pelvic urethra of female
 namespace: anatomical_structure
-def: "muscle layer of pelvic urethra of female (syn: muscularis propria of pelvic urethra) (TS23-TS28): the thicker layer of smooth muscle towards the outside of the pelvic urethra. Subdivided into dorsal/ventral (to TS27). At TS28, subdivided into smooth muscle layer of pelvic urethra of female and rhabdosphincter of female (syn: striated muscle layer of pelvic urethra of female)." []
+def: "muscle layer of pelvic urethra of female (syn: muscularis propria of pelvic urethra of female) (TS23-TS28): the thicker layer of smooth muscle towards the outside of the pelvic urethra. Subdivided into dorsal/ventral (to TS27). At TS28, subdivided into smooth muscle layer of pelvic urethra of female and rhabdosphincter of female (syn: striated muscle layer of pelvic urethra of female)." []
 comment: order=2 for EMAPA:28753.
+synonym: "muscularis propria of pelvic urethra of female" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28753 ! pelvic urethra of female
 relationship: starts_at TS23 ! TS23
@@ -43309,7 +43313,7 @@ id: EMAPA:30901
 name: urethra
 namespace: anatomical_structure
 alt_id: EMAPA:30891
-def: "urethra: (TS21 and TS22): the urethra links the primitive bladder/bladder to the outside of the embryo. At TS21 it is part of the urinary system. It is subdivided into pelvic urethra (located within the body of the embryo) and phallic urethra of male/female (located within the genital tubercle). Pelvic urethra is derived from the caudal urogenital sinus and phallic urethra is derived from urethral plate epithelium." []
+def: "urethra: (TS21-TS28): the urethra links the primitive bladder/bladder to the outside of the embryo. At TS21 it is part of the urinary system. The urethra becomes sex-specific from TS23. It is subdivided into pelvic urethra (located within the body of the embryo) and phallic urethra of male/female (located within the genital tubercle). Pelvic urethra is derived from the caudal urogenital sinus and phallic urethra is derived from urethral plate epithelium." []
 comment: order=16 for EMAPA:17366.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
@@ -44579,6 +44583,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:31531
 name: proximal urethral meatus of female
 namespace: anatomical_structure
+def: "proximal urethral meatus of female (syn: proximal urethral opening of female, urethral duct) (TS21-TS24): the proximal opening in the epithelium of female phallic urethra (TS21 to TS24).  In females, it becomes the proximal urethral meatus of clitoral urethra, part of the epithelium of clitoral urethra from TS25 to TS28, and is present to P7. By P8, the proximal urethral meatus is closed in females and the urethra opens at the urethral meatus." []
 comment: order=2 for EMAPA:30470.
 synonym: "proximal urethral opening of female" RELATED []
 synonym: "urethral duct" RELATED []
@@ -44631,6 +44636,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:31536
 name: urethral plate epithelium of female
 namespace: anatomical_structure
+def: "urethral plate epithelium of female (syn: urethral plate of female, distal urethral epithelium of female) (TS20-26 in females; TS20-24 in males); a bilaminar epithelium, which at TS20 is located  along the ventral mid-line of the genital tubercle of male/female. Derived from the urethral plate epithelium (TS19). This bilayered epithelium often called the urethral plate, is marked by Shh, and continues to grow distally as  the genital tubercle grows distally. At TS20 is part of the genital tubercle of male/female and from TS21 is part of the epithelium of phallic urethra of male/female, which is part of genital tubercle of male/female and is also part of the phallic urethra of male/female.  From TS21-24 it is located at the distal end of the phallic urethra of male/female. At TS25 in males, the urethra has completely canalised (is fully patent); the urethral plate is no longer seen, the urethra opens at the urethral meatus and the proximal urethral meatus has closed. The urethral plate epithelium is only present in females from this TS25.  From TS26, the urethral plate epithelium of female is part of the clitoris, located distally, and part of the epithelium of clitoral urethra. At TS27 it is no longer seen in females." []
 comment: order=0 for EMAPA:30470.
 synonym: "distal urethral epithelium of female" RELATED []
 synonym: "urethral plate of female" RELATED []
@@ -45164,6 +45170,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:32300.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32300 ! epithelium of dorsal pelvic urethra of male
+relationship: part_of EMAPA:36122 ! basal cell layer of pelvic urethra of male
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -45173,6 +45180,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:32258.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32258 ! epithelium of ventral pelvic urethra of male
+relationship: part_of EMAPA:36122 ! basal cell layer of pelvic urethra of male
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -45191,6 +45199,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:32300.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32300 ! epithelium of dorsal pelvic urethra of male
+relationship: part_of EMAPA:36120 ! superficial cell layer of pelvic urethra of male
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -45218,6 +45227,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:32264.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32264 ! epithelium of dorsal pelvic urethra of female
+relationship: part_of EMAPA:36105 ! superficial cell layer of pelvic urethra of female
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -45227,6 +45237,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:32264.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32264 ! epithelium of dorsal pelvic urethra of female
+relationship: part_of EMAPA:36107 ! basal cell layer of pelvic urethra of female
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -45345,6 +45356,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:32280
 name: mesenchymal pad of pelvic urethra of male
 namespace: anatomical_structure
+def: "mesenchymal pad of pelvic urethra of male (TS24-TS27): three distinct clusters of condensed mesenchyme, centred on the midline of the pelvic urethra develop in the mesenchymal layer of the pelvic urethra of male and can be seen from TS24 to birth (TS27). Subdivided into anterior mesenchymal pad of pelvic urethra, dorsal mesenchymal pad of pelvic urethra and ventral mesenchymal pad of pelvic urethra of male. The mesenchymal pads are located where the prostate buds develop in males and are thought to play a role in prostate differentiation. Female mesenchymal pads are smaller and more elongated than those in the male. The pads are visible in haematoxylin and eosin stained tissue and are marked by certain genes; all 3 pads are marked at E17 by Fgf10 mRNA (also present in non-mesenchymal pad mesenchyme) and Scmh1 mRNA specifically marks the ventral mesenchyma pad of pelvic urethra of male/female." []
 comment: order=5 for EMAPA:28703.
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:28703 ! mesenchymal layer of pelvic urethra of male
@@ -45385,6 +45397,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:32258.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32258 ! epithelium of ventral pelvic urethra of male
+relationship: part_of EMAPA:36120 ! superficial cell layer of pelvic urethra of male
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -45450,6 +45463,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:32282.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32282 ! epithelium of ventral pelvic urethra of female
+relationship: part_of EMAPA:36105 ! superficial cell layer of pelvic urethra of female
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -45459,65 +45473,77 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:32282.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32282 ! epithelium of ventral pelvic urethra of female
+relationship: part_of EMAPA:36107 ! basal cell layer of pelvic urethra of female
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:32293
 name: submucosa of dorsal pelvic urethra of male
 namespace: anatomical_structure
+def: "submucosa of dorsal pelvic urethra of male (TS25-TS28): the mesenchymal layer located below the muscularis mucosa of pelvic urethra, between the muscularis mucosa and muscle layer of pelvic urethra, comprised of mesenchymal/fibroblastic cells. Marked by Foxf1a mRNA at E17. Can be distinguished from the lamina propria of pelvic urethra as it does not express Snai1 mRNA at E17." []
 comment: order=2 for EMAPA:31552.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31552 ! mesenchymal layer of dorsal pelvic urethra of male
+relationship: part_of EMAPA:36127 ! submucosa of pelvic urethra of male
 relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:32294
 name: lamina propria of ventral pelvic urethra of male
 namespace: anatomical_structure
+def: "lamina propria of ventral pelvic urethra of male (syn: peri-epithelial mesenchymal layer of ventral pelvic urethra of male, sub-epithelial mesenchymal layer of ventral pelvic urethra of male) (TS25-TS28): the thin mesenchymal/fibroblastic/stromal cell layer of the pelvic urethra located immediately adjacent to the epithelium, between the epithelium and the muscularis mucosa. Contains connective tissue, marked by pro-collagen. Marked by Snai1, Bmp2 and Foxf1a mRNA at E17. Foxf1a is a marker present in both lamina propria and submucosa of pelvic urethra at E17." []
 comment: order=0 for EMAPA:31550.
 synonym: "peri-epithelial mesenchymal layer of ventral pelvic urethra of male" RELATED []
 synonym: "sub-epithelial mesenchymal layer of ventral pelvic urethra of male" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31550 ! mesenchymal layer of ventral pelvic urethra of male
+relationship: part_of EMAPA:36125 ! lamina propria of pelvic urethra of male
 relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:32295
 name: muscularis mucosa of dorsal pelvic urethra of female
 namespace: anatomical_structure
+def: "muscularis mucosa of dorsal pelvic urethra of female (TS25-TS28): a thin, discontinuous layer comprised of wisps of smooth muscle, located between the lamina propria and the submucosa. Expresses markers of smooth muscle including ACTA2-protein and smooth muscle alpha actin (Acta2), desmin and actin." []
 comment: order=1 for EMAPA:31554.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31554 ! mesenchymal layer of dorsal pelvic urethra of female
+relationship: part_of EMAPA:36111 ! muscularis mucosa of pelvic urethra of female
 relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:32296
 name: lamina propria of dorsal pelvic urethra of female
 namespace: anatomical_structure
-def: "lamina propria of dorsal pelvic urethra of female (TS25-TS28): the thin mesenchymal/fibroblastic/stromal cell layer of the pelvic urethra located immediately adjacent to the epithelium, between the epithelium and the muscularis mucosa. Contains connective tissue, marked by pro-collagen. Marked by Snai1, Bmp2 and Foxf1a mRNA at E17. Foxf1a is a marker present in both lamina propria and submucosa of pelvic urethra at E17." []
+def: "lamina propria of dorsal pelvic urethra of female (syn: peri-epithelial mesenchymal layer of dorsal pelvic urethra of female, sub-epithelial mesenchymal layer of dorsal pelvic urethra of female) (TS25-TS28): the thin mesenchymal/fibroblastic/stromal cell layer of the pelvic urethra located immediately adjacent to the epithelium, between the epithelium and the muscularis mucosa. Contains connective tissue, marked by pro-collagen. Marked by Snai1, Bmp2 and Foxf1a mRNA at E17. Foxf1a is a marker present in both lamina propria and submucosa of pelvic urethra at E17." []
 comment: order=0 for EMAPA:31554.
 synonym: "peri-epithelial mesenchymal layer of dorsal pelvic urethra of female" RELATED []
 synonym: "sub-epithelial mesenchymal layer of dorsal pelvic urethra of female" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31554 ! mesenchymal layer of dorsal pelvic urethra of female
+relationship: part_of EMAPA:36110 ! lamina propria of pelvic urethra of female
 relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:32297
 name: muscularis mucosa of ventral pelvic urethra of male
 namespace: anatomical_structure
+def: "muscularis mucosa of ventral pelvic urethra of male (TS25-TS28): a thin, discontinuous layer comprised of wisps of smooth muscle, located between the lamina propria and the submucosa. Expresses markers of smooth muscle including ACTA2-protein and smooth muscle alpha actin (Acta2), desmin and actin." []
 comment: order=1 for EMAPA:31550.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31550 ! mesenchymal layer of ventral pelvic urethra of male
+relationship: part_of EMAPA:36126 ! muscularis mucosa of pelvic urethra of male
 relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:32298
 name: submucosa of ventral pelvic urethra of male
 namespace: anatomical_structure
+def: "submucosa of ventral pelvic urethra of male (TS25-TS28): the mesenchymal layer located below the muscularis mucosa of pelvic urethra, between the muscularis mucosa and muscle layer of pelvic urethra, comprised of mesenchymal/fibroblastic cells. Marked by Foxf1a mRNA at E17. Can be distinguished from the lamina propria of pelvic urethra as it does not express Snai1 mRNA at E17." []
 comment: order=2 for EMAPA:31550.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31550 ! mesenchymal layer of ventral pelvic urethra of male
+relationship: part_of EMAPA:36127 ! submucosa of pelvic urethra of male
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -45582,6 +45608,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:32282.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32282 ! epithelium of ventral pelvic urethra of female
+relationship: part_of EMAPA:36106 ! intermediate cell layer of pelvic urethra of female
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -45591,6 +45618,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:32264.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32264 ! epithelium of dorsal pelvic urethra of female
+relationship: part_of EMAPA:36106 ! intermediate cell layer of pelvic urethra of female
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -45600,65 +45628,77 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:32300.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32300 ! epithelium of dorsal pelvic urethra of male
+relationship: part_of EMAPA:36121 ! intermediate cell layer of pelvic urethra of male
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:32308
 name: submucosa of ventral pelvic urethra of female
 namespace: anatomical_structure
+def: "submucosa of ventral pelvic urethra of female (TS25-TS28): the mesenchymal layer located below the muscularis mucosa of pelvic urethra, between the muscularis mucosa and muscle layer of pelvic urethra, comprised of mesenchymal/fibroblastic cells. Marked by Foxf1a mRNA at E17. Can be distinguished from the lamina propria of pelvic urethra as it does not express Snai1 mRNA at E17." []
 comment: order=2 for EMAPA:31553.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31553 ! mesenchymal layer of ventral pelvic urethra of female
+relationship: part_of EMAPA:36112 ! submucosa of pelvic urethra of female
 relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:32309
 name: muscularis mucosa of ventral pelvic urethra of female
 namespace: anatomical_structure
+def: "muscularis mucosa of ventral pelvic urethra of female (TS25-TS28): a thin, discontinuous layer comprised of wisps of smooth muscle, located between the lamina propria and the submucosa. Expresses markers of smooth muscle including ACTA2-protein and smooth muscle alpha actin (Acta2), desmin and actin." []
 comment: order=1 for EMAPA:31553.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31553 ! mesenchymal layer of ventral pelvic urethra of female
+relationship: part_of EMAPA:36111 ! muscularis mucosa of pelvic urethra of female
 relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:32310
 name: lamina propria of ventral pelvic urethra of female
 namespace: anatomical_structure
-def: "lamina propria of ventral pelvic urethra of female (TS25-TS28): the thin mesenchymal/fibroblastic/stromal cell layer of the pelvic urethra located immediately adjacent to the epithelium, between the epithelium and the muscularis mucosa. Contains connective tissue, marked by pro-collagen. Marked by Snai1, Bmp2 and Foxf1a mRNA at E17. Foxf1a is a marker present in both lamina propria and submucosa of pelvic urethra at E17." []
+def: "lamina propria of ventral pelvic urethra of female (syn: peri-epithelial mesenchymal layer of ventral pelvic urethra of female, sub-epithelial mesenchymal layer of ventral pelvic urethra of female) (TS25-TS28): the thin mesenchymal/fibroblastic/stromal cell layer of the pelvic urethra located immediately adjacent to the epithelium, between the epithelium and the muscularis mucosa. Contains connective tissue, marked by pro-collagen. Marked by Snai1, Bmp2 and Foxf1a mRNA at E17. Foxf1a is a marker present in both lamina propria and submucosa of pelvic urethra at E17." []
 comment: order=0 for EMAPA:31553.
 synonym: "peri-epithelial mesenchymal layer of ventral pelvic urethra of female" RELATED []
 synonym: "sub-epithelial mesenchymal layer of ventral pelvic urethra of female" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31553 ! mesenchymal layer of ventral pelvic urethra of female
+relationship: part_of EMAPA:36110 ! lamina propria of pelvic urethra of female
 relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:32311
 name: lamina propria of dorsal pelvic urethra of male
 namespace: anatomical_structure
+def: "lamina propria of dorsal pelvic urethra of male (syn: peri-epithelial mesenchymal layer of dorsal pelvic urethra of male, sub-epithelial mesenchymal layer of dorsal pelvic urethra of male) (TS25-TS28): the thin mesenchymal/fibroblastic/stromal cell layer of the pelvic urethra located immediately adjacent to the epithelium, between the epithelium and the muscularis mucosa. Contains connective tissue, marked by pro-collagen. Marked by Snai1, Bmp2 and Foxf1a mRNA at E17. Foxf1a is a marker present in both lamina propria and submucosa of pelvic urethra at E17." []
 comment: order=0 for EMAPA:31552.
 synonym: "peri-epithelial mesenchymal layer of dorsal pelvic urethra of male" RELATED []
 synonym: "sub-epithelial mesenchymal layer of dorsal pelvic urethra of male" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31552 ! mesenchymal layer of dorsal pelvic urethra of male
+relationship: part_of EMAPA:36125 ! lamina propria of pelvic urethra of male
 relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:32312
 name: muscularis mucosa of dorsal pelvic urethra of male
 namespace: anatomical_structure
+def: "muscularis mucosa of dorsal pelvic urethra of male (TS25-TS28): a thin, discontinuous layer comprised of wisps of smooth muscle, located between the lamina propria and the submucosa. Expresses markers of smooth muscle including ACTA2-protein and smooth muscle alpha actin (Acta2), desmin and actin." []
 comment: order=1 for EMAPA:31552.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31552 ! mesenchymal layer of dorsal pelvic urethra of male
+relationship: part_of EMAPA:36126 ! muscularis mucosa of pelvic urethra of male
 relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:32313
 name: submucosa of dorsal pelvic urethra of female
 namespace: anatomical_structure
+def: "submucosa of dorsal pelvic urethra of female (TS25-TS28): the mesenchymal layer located below the muscularis mucosa of pelvic urethra, between the muscularis mucosa and muscle layer of pelvic urethra, comprised of mesenchymal/fibroblastic cells. Marked by Foxf1a mRNA at E17. Can be distinguished from the lamina propria of pelvic urethra as it does not express Snai1 mRNA at E17." []
 comment: order=2 for EMAPA:31554.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31554 ! mesenchymal layer of dorsal pelvic urethra of female
+relationship: part_of EMAPA:36112 ! submucosa of pelvic urethra of female
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -45668,6 +45708,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:32258.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32258 ! epithelium of ventral pelvic urethra of male
+relationship: part_of EMAPA:36121 ! intermediate cell layer of pelvic urethra of male
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -58402,7 +58443,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36110
 name: lamina propria of pelvic urethra of female
 namespace: anatomical_structure
-def: "lamina propria of pelvic urethra of female (TS25-TS28): the thin mesenchymal/fibroblastic/stromal cell layer of the pelvic urethra located immediately adjacent to the epithelium, between the epithelium and the muscularis mucosa. Contains connective tissue, marked by pro-collagen. Marked by Snai1, Bmp2 and Foxf1a mRNA at E17. Foxf1a is a marker present in both lamina propria and submucosa of pelvic urethra at E17." []
+def: "lamina propria of pelvic urethra of female (syn: peri-epithelial mesenchymal layer of pelvic urethra of female, sub-epithelial mesenchymal layer of pelvic urethra of female) (TS25-TS28): the thin mesenchymal/fibroblastic/stromal cell layer of the pelvic urethra located immediately adjacent to the epithelium, between the epithelium and the muscularis mucosa. Contains connective tissue, marked by pro-collagen. Marked by Snai1, Bmp2 and Foxf1a mRNA at E17. Foxf1a is a marker present in both lamina propria and submucosa of pelvic urethra at E17." []
 comment: order=0 for EMAPA:28765.
 synonym: "peri-epithelial mesenchymal layer of pelvic urethra of female" RELATED []
 synonym: "sub-epithelial mesenchymal layer of pelvic urethra of female" RELATED []
@@ -58414,6 +58455,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:36111
 name: muscularis mucosa of pelvic urethra of female
 namespace: anatomical_structure
+def: "muscularis mucosa of pelvic urethra of female (TS25-TS28): a thin, discontinuous layer comprised of wisps of smooth muscle, located between the lamina propria and the submucosa. Expresses markers of smooth muscle including ACTA2-protein and smooth muscle alpha actin (Acta2), desmin and actin." []
 comment: order=1 for EMAPA:28765.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28765 ! mesenchymal layer of pelvic urethra of female
@@ -58423,6 +58465,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:36112
 name: submucosa of pelvic urethra of female
 namespace: anatomical_structure
+def: "submucosa of pelvic urethra of female (TS25-TS28): the mesenchymal layer located below the muscularis mucosa of pelvic urethra, between the muscularis mucosa and muscle layer of pelvic urethra, comprised of mesenchymal/fibroblastic cells. Marked by Foxf1a mRNA at E17. Can be distinguished from the lamina propria of pelvic urethra as it does not express Snai1 mRNA at E17." []
 comment: order=2 for EMAPA:28765.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28765 ! mesenchymal layer of pelvic urethra of female
@@ -58543,6 +58586,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36125
 name: lamina propria of pelvic urethra of male
 namespace: anatomical_structure
+def: "lamina propria of pelvic urethra of male (syn: peri-epithelial mesenchymal layer of pelvic urethra of male, sub-epithelial mesenchymal layer of pelvic urethra of male) (TS25-TS28): the thin mesenchymal/fibroblastic/stromal cell layer of the pelvic urethra located immediately adjacent to the epithelium, between the epithelium and the muscularis mucosa. Contains connective tissue, marked by pro-collagen. Marked by Snai1, Bmp2 and Foxf1a mRNA at E17. Foxf1a is a marker present in both lamina propria and submucosa of pelvic urethra at E17." []
 comment: order=0 for EMAPA:28703.
 synonym: "peri-epithelial mesenchymal layer of pelvic urethra of male" RELATED []
 synonym: "sub-epithelial mesenchymal layer of pelvic urethra of male" RELATED []
@@ -58554,6 +58598,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:36126
 name: muscularis mucosa of pelvic urethra of male
 namespace: anatomical_structure
+def: "muscularis mucosa of pelvic urethra of male (TS25-TS28): a thin, discontinuous layer comprised of wisps of smooth muscle, located between the lamina propria and the submucosa. Expresses markers of smooth muscle including ACTA2-protein and smooth muscle alpha actin (Acta2), desmin and actin." []
 comment: order=1 for EMAPA:28703.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28703 ! mesenchymal layer of pelvic urethra of male
@@ -58563,6 +58608,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:36127
 name: submucosa of pelvic urethra of male
 namespace: anatomical_structure
+def: "submucosa of pelvic urethra of male (TS25-TS28): the mesenchymal layer located below the muscularis mucosa of pelvic urethra, between the muscularis mucosa and muscle layer of pelvic urethra, comprised of mesenchymal/fibroblastic cells. Marked by Foxf1a mRNA at E17. Can be distinguished from the lamina propria of pelvic urethra as it does not express Snai1 mRNA at E17." []
 comment: order=2 for EMAPA:28703.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28703 ! mesenchymal layer of pelvic urethra of male
@@ -61216,8 +61262,6 @@ synonym: "urethral opening of penile urethra" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30946 ! epithelium of penile urethra
 relationship: starts_at TS25 ! TS25
-created_by: jarm
-creation_date: 2015-03-11T11:00:02Z
 
 [Term]
 id: group_term
