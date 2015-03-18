@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:03:2015 17:35
+date: 18:03:2015 16:30
 saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -4820,7 +4820,7 @@ name: nephric duct
 namespace: anatomical_structure
 alt_id: EMAPA:28425
 alt_id: EMAPA:28429
-def: "nephric duct (syn: mesonephric duct, Wolffian duct) (TS14-TS24): paired epithelial ducts which develop early in development (TS14) in the cranial/anterior intermediate mesoderm and extend caudally down the rostro-caudal axis of the embryo to terminate at the cloaca. The nephric duct is subdivided along its anterior-posterior length, into the pronephric portion, mesonephric portion (part of the mesonephros) (located in mesonephros, anterior), metanephric portion (adjacent to the metanephros) and common nephric duct (posterior portion below the metanephros). These regions are stage-dependant, with the pronephric portion present at TS14 in the pronephros, the mesonpehric portion from TS15 in the mesonephros and posterior to these, the metanerphric portion from TS17. The regions are part of either the urinary or reproductive system. After the urogenital sinus extends from the cloaca, the nephric duct connects to the dorsal side of the caudal urogenital sinus at the urogenital sinus ridge. The ducts are marked by Cdh1 and Hoxb7. As the ontology becomes gender-specific, the nephric duct becomes the nephric duct of male/female (from TS20)." []
+def: "nephric duct (nd) (syn: mesonephric duct, Wolffian duct) (TS14-TS24): paired epithelial ducts which develop early in development (TS14) in the cranial/anterior intermediate mesoderm and extend caudally down the rostro-caudal axis of the embryo to terminate at the cloaca. The nephric duct is subdivided along its anterior-posterior length, into the pronephric portion, mesonephric portion (part of the mesonephros) (located in mesonephros, anterior), metanephric portion (adjacent to the metanephros) and common nephric duct (posterior portion below the metanephros). These regions are stage-dependant, with the pronephric portion present at TS14 in the pronephros, the mesonpehric portion from TS15 in the mesonephros and posterior to these, the metanerphric portion from TS17. The regions are part of either the urinary or reproductive system. After the urogenital sinus extends from the cloaca, the nephric duct connects to the dorsal side of the caudal urogenital sinus at the urogenital sinus ridge. The ducts are marked by Cdh1 and Hoxb7. As the ontology becomes gender-specific, the nephric duct becomes the nephric duct of male/female (from TS20)." []
 comment: order=2 for EMAPA:16367.
 synonym: "mesonephric duct" RELATED []
 synonym: "Wolffian duct" RELATED []
@@ -11412,7 +11412,7 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:17382
 name: genital tubercle
 namespace: anatomical_structure
-def: "genital tubercle (TS19): a medial swelling seen at the level of the hind limb buds, adjacent to the cloaca and posterior/caudal to the urogenital sinus (UGS). At TS19 the genital tubercle can be subdivided into a dorsal genital swelling and two ventrolateral genital swellings, which have merged into a single genital tubercle. At TS19, is comprised of urethral plate epithelium and surface ectoderm of genital tubercle. The urethral plate epithelium and surface ectoderm together are known as the cloacal membrane. Derives from the TS17-TS18 genital swelling. From TS20, the genital tubercle becomes genital tubercle of male/female." []
+def: "genital tubercle (GT) (TS19): a medial swelling seen at the level of the hind limb buds, adjacent to the cloaca and posterior/caudal to the urogenital sinus (UGS). At TS19 the genital tubercle can be subdivided into a dorsal genital swelling and two ventrolateral genital swellings, which have merged into a single genital tubercle. At TS19, is comprised of urethral plate epithelium and surface ectoderm of genital tubercle. The urethral plate epithelium and surface ectoderm together are known as the cloacal membrane. Derives from the TS17-TS18 genital swelling. From TS20, the genital tubercle becomes genital tubercle of male/female." []
 comment: order=4 for EMAPA:17381.
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:17381 ! reproductive system
@@ -16723,7 +16723,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17956
 name: phallic urethra of male
 namespace: anatomical_structure
-def: "phallic urethra of male (syn: external urethra of male) (TS21-TS24): part of the genital tubercle of male and part of the urethra of male. Comprised of epithelium and anatomically located within the genital tubercle of male. From TS25, as the genital tubercle becomes the penis and clitoris, the phallic urethra becomes the penile or clitoral urethra in male and females respectively. The phallic urethra is anatomically located within the genital tubercle and is surrounded by the tissue of the genital tubercle, therefore only the epithelial components are necessary parts of phallic urethra." []
+def: "phallic urethra of male (PHUR) (syn: external urethra of male) (TS21-TS24): part of the genital tubercle of male and part of the urethra of male. Comprised of epithelium and anatomically located within the genital tubercle of male. From TS25, as the genital tubercle becomes the penis and clitoris, the phallic urethra becomes the penile or clitoral urethra in male and females respectively. The phallic urethra is anatomically located within the genital tubercle and is surrounded by the tissue of the genital tubercle, therefore only the epithelial components are necessary parts of phallic urethra." []
 comment: order=2 for EMAPA:18692.
 synonym: "external urethra of male" RELATED []
 relationship: ends_at TS27 ! TS27
@@ -16809,7 +16809,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17969
 name: genital tubercle of male
 namespace: anatomical_structure
-def: "genital tubercle of male (syn: penis anlage) (TS20): a medial swelling seen at the level of the hind limb buds, adjacent to the cloaca and posterior/caudal to the urogenital sinus. The genital tubercle is separated into male and female, therefore you must know the sex of the embryo. At TS20, the genital tubercle of male is comprised of genital tubercle mesenchyme of male, urethral plate epithelium of male, skin of genital tubercle of male, the urogenital membrane of male, and developing vasculature of male genital tubercle. The urethral plate epithelium and skin together, where they are in direct contact, are known as the urogenital membrane. After TS20, the genital tubercle becomes further subdivided. Will become the penis at TS26." []
+def: "genital tubercle of male (GT) (syn: penis anlage) (TS20): a medial swelling seen at the level of the hind limb buds, adjacent to the cloaca and posterior/caudal to the urogenital sinus. The genital tubercle is separated into male and female, therefore you must know the sex of the embryo. At TS20, the genital tubercle of male is comprised of genital tubercle mesenchyme of male, urethral plate epithelium of male, skin of genital tubercle of male, the urogenital membrane of male, and developing vasculature of male genital tubercle. The urethral plate epithelium and skin together, where they are in direct contact, are known as the urogenital membrane. After TS20, the genital tubercle becomes further subdivided. Will become the penis at TS26." []
 comment: order=20 for EMAPA:17968.\norder=0 for EMAPA:28533.\norder=0 for EMAPA:30977.
 synonym: "penis anlage" RELATED []
 is_a: EMAPA:17382 ! genital tubercle
@@ -19985,7 +19985,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18321
 name: bladder
 namespace: anatomical_structure
-def: "bladder (bl) (TS22-TS28): comprised of urothelium of bladder (subdivided into layers and cell types), lamina propria of bladder (subdivided into layers), detrusor muscle of bladder and surrounded by an outer layer of bladder (subdivided into serosa of bladder or adventitia of bladder). Also includes vasculature of bladder and nerve of bladder. Derived from primitive bladder (TS19-21). Bladder is also subdivided into regions; bladder fundus and bladder neck (subdivided into bladder trigone and ventral bladder neck). Part of the urogenital sinus and part of the urinary system." []
+def: "bladder (BL) (TS22-TS28): comprised of urothelium of bladder (subdivided into layers and cell types), lamina propria of bladder (subdivided into layers), detrusor muscle of bladder and surrounded by an outer layer of bladder (subdivided into serosa of bladder or adventitia of bladder). Also includes vasculature of bladder and nerve of bladder. Derived from primitive bladder (TS19-21). Bladder is also subdivided into regions; bladder fundus and bladder neck (subdivided into bladder trigone and ventral bladder neck). Part of the urogenital sinus and part of the urinary system." []
 comment: order=14 for EMAPA:17366.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
@@ -22410,7 +22410,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:18680
 name: genital tubercle of female
 namespace: anatomical_structure
-def: "genital tubercle of female (syn: clitoris anlage) (TS20): a medial swelling seen at the level of the hind limb buds, adjacent to the cloaca and posterior/caudal to the urogenital sinus. The genital tubercle is separated into male and female, therefore you must know the sex of the embryo. At TS20, the genital tubercle of female is comprised of genital tubercle mesenchyme of female, urethral plate epithelium of female, skin of genital tubercle of female, the urogenital membrane of female, and developing vasculature of female genital tubercle. The urethral plate epithelium and skin together, where they are in direct contact, are known as the urogenital membrane. After TS20, the genital tubercle becomes further subdivided. Will become the clitoris at TS26." []
+def: "genital tubercle of female (GT) (syn: clitoris anlage) (TS20): a medial swelling seen at the level of the hind limb buds, adjacent to the cloaca and posterior/caudal to the urogenital sinus. The genital tubercle is separated into male and female, therefore you must know the sex of the embryo. At TS20, the genital tubercle of female is comprised of genital tubercle mesenchyme of female, urethral plate epithelium of female, skin of genital tubercle of female, the urogenital membrane of female, and developing vasculature of female genital tubercle. The urethral plate epithelium and skin together, where they are in direct contact, are known as the urogenital membrane. After TS20, the genital tubercle becomes further subdivided. Will become the clitoris at TS26." []
 comment: order=10 for EMAPA:17959.\norder=2 for EMAPA:28540.\norder=0 for EMAPA:30984.
 synonym: "clitoris anlage" RELATED []
 is_a: EMAPA:17382 ! genital tubercle
@@ -22424,7 +22424,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:18681
 name: ductus deferens
 namespace: anatomical_structure
-def: "ductus deferens (syn: vas deferens) (TS24-TS28): derives from nephric duct of male (TS23). Connected to the dorsal anterior pelvic urethra via the ejaculatory duct. Comprised of epithelium, lamina propria and muscle and surrounded by serosa of ductus deferens. Also contains vasculature (TS24-TS28) and nerves are seen from birth (TS27-TS28)." []
+def: "ductus deferens (dd) (syn: vas deferens) (TS24-TS28): derives from nephric duct of male (TS23). Connected to the dorsal anterior pelvic urethra via the ejaculatory duct. Comprised of epithelium, lamina propria and muscle and surrounded by serosa of ductus deferens. Also contains vasculature (TS24-TS28) and nerves are seen from birth (TS27-TS28)." []
 comment: order=13 for EMAPA:17968.\norder=3 for EMAPA:28533.
 synonym: "vas deferens" RELATED []
 relationship: ends_at TS28 ! TS28
@@ -23716,7 +23716,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:18987
 name: upper vagina
 namespace: anatomical_structure
-def: "upper vagina (syn: Mullerian vagina, upper part of vagina) (TS24-TS27): comprised of epithelium, lamina propria, muscle and adventitia. Also contains vasculature (TS24-TS27) and nerves are seen from birth (TS27). Derived from paramesonephric duct of female." []
+def: "upper vagina (uv) (syn: Mullerian vagina, upper part of vagina) (TS24-TS27): comprised of epithelium, lamina propria, muscle and adventitia. Also contains vasculature (TS24-TS27) and nerves are seen from birth (TS27). Derived from paramesonephric duct of female." []
 comment: order=1 for EMAPA:18986.
 synonym: "Mullerian vagina" RELATED []
 synonym: "upper part of vagina" RELATED []
@@ -23728,7 +23728,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:18988
 name: glans penis
 namespace: anatomical_structure
-def: "glans penis (syn: penile glans) (TS25-TS28): the distal part of the penis. The glans penis lies internally within the preputial space and externally is completely surrounded by the prepuce. The glans can be exposed when the prepuce is retracted. The distal part of the penile urethra is located within the glans penis. From TS25-TS27, is comprised of skin and mesenchyme of glans penis. At TS28, is comprised of corpus cavernosum glandis (two, linear corpora cavernosa, dorsally and ventrally located within the glans penis), corpus cavernosum urethra (linear erectile tissue ventral to the urethra), male urogenital mating protuberance (MUMP), os penis and lamina propria (stroma or connective tissue) and covered with skin. The glans penis is comprised of regions; the MUMP ridge (which encircles the glans and is comprised of a ridge (distal) and a groove (proximal) the MUMP ridge groove), and proximal to the ridge is the glandular ridge. The urethral meatus (the opening of the male penile urethra) is located at a ventral midline cleft in the MUMP ridge close to the distal tip of the glans penis (~1mm from the tip)." []
+def: "glans penis (glp) (syn: penile glans) (TS25-TS28): the distal part of the penis. The glans penis lies internally within the preputial space and externally is completely surrounded by the prepuce. The glans can be exposed when the prepuce is retracted. The distal part of the penile urethra is located within the glans penis. From TS25-TS27, is comprised of skin and mesenchyme of glans penis. At TS28, is comprised of corpus cavernosum glandis (two, linear corpora cavernosa, dorsally and ventrally located within the glans penis), corpus cavernosum urethra (linear erectile tissue ventral to the urethra), male urogenital mating protuberance (MUMP), os penis and lamina propria (stroma or connective tissue) and covered with skin. The glans penis is comprised of regions; the MUMP ridge (which encircles the glans and is comprised of a ridge (distal) and a groove (proximal) the MUMP ridge groove), and proximal to the ridge is the glandular ridge. The urethral meatus (the opening of the male penile urethra) is located at a ventral midline cleft in the MUMP ridge close to the distal tip of the glans penis (~1mm from the tip)." []
 comment: order=0 for EMAPA:18682.
 synonym: "penile glans" RELATED []
 relationship: ends_at TS28 ! TS28
@@ -23740,7 +23740,7 @@ id: EMAPA:18989
 name: prepuce of male
 namespace: anatomical_structure
 alt_id: EMAPA:30634
-def: "prepuce of male (TS24-TS28): the external part of the penis that completely surrounds the glans penis. The glans can be exposed when the prepuce is retracted.  Contains the preputial glands and mesenchyme of prepuce and surrounded by skin. Part of the genital tubercle of male (TS24) and from TS25 part of penis. Derived from preputial swelling of male (TS21-TS23). The preputial gland ducts drain into the preputial space. From TS28, prepuce is comprised of skin containing hair follicles, preputial gland (paired), which drain into the preputial space and prepuce lamina propria (stroma or connective tissue)." []
+def: "prepuce of male (pce) (TS24-TS28): the external part of the penis that completely surrounds the glans penis. The glans can be exposed when the prepuce is retracted.  Contains the preputial glands and mesenchyme of prepuce and surrounded by skin. Part of the genital tubercle of male (TS24) and from TS25 part of penis. Derived from preputial swelling of male (TS21-TS23). The preputial gland ducts drain into the preputial space. From TS28, prepuce is comprised of skin containing hair follicles, preputial gland (paired), which drain into the preputial space and prepuce lamina propria (stroma or connective tissue)." []
 comment: order=2 for EMAPA:18682.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17969 ! genital tubercle of male
@@ -23761,7 +23761,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:18995
 name: pelvic urethra of male
 namespace: anatomical_structure
-def: "pelvic urethra of male (TS23-TS28): part of urethra of male. Cranially joined to the bladder and caudally joined to the phallic urethra of male (TS23-TS27) which becomes the penile urethra (TS28). Comprised of epithelium (subdivided into 3 layers), mesenchymal layer (subdivided into lamina propria, muscularis mucosa, submucosa (TS25-TS28) and also contains mesenchymal pad of male (TS25-TS27)), muscle layer and adventitia. Also contains vasculature and nerve of pelvic urethra of male, and neural crest derivative of pelvic urethra of male (TS25-TS27). Also contains ventral epithelial bud of male and male urethral gland bud (TS24-TS26), which become urethral gland of male pelvic urethra (TS27), which develop from the epithelium of pelvic urethra of male. The pelvic urethra of female (TS28) also contains a rhabdosphincter as part of the muscle layer of pelvic uretha of female. In the TS28 male, the rhabdophincter is part of the prostatic urethra." []
+def: "pelvic urethra of male (PLUR) (TS23-TS28): part of urethra of male. Cranially joined to the bladder and caudally joined to the phallic urethra of male (TS23-TS27) which becomes the penile urethra (TS28). Comprised of epithelium (subdivided into 3 layers), mesenchymal layer (subdivided into lamina propria, muscularis mucosa, submucosa (TS25-TS28) and also contains mesenchymal pad of male (TS25-TS27)), muscle layer and adventitia. Also contains vasculature and nerve of pelvic urethra of male, and neural crest derivative of pelvic urethra of male (TS25-TS27). Also contains ventral epithelial bud of male and male urethral gland bud (TS24-TS26), which become urethral gland of male pelvic urethra (TS27), which develop from the epithelium of pelvic urethra of male. The pelvic urethra of female (TS28) also contains a rhabdosphincter as part of the muscle layer of pelvic uretha of female. In the TS28 male, the rhabdophincter is part of the prostatic urethra." []
 comment: order=0 for EMAPA:18692.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18692 ! urethra of male
@@ -23780,7 +23780,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:18999
 name: sinovaginal bulb
 namespace: anatomical_structure
-def: "sinovaginal bulb (syn: sinus vagina, vaginal bulb, lower vagina) (TS24-TS27): comprised of epithelium, lamina propria, muscle, adventita and developing vasculature. A solid epithelial cord derived from the urogenital sinus ridge, located adjacent to the dorsal epithelium of the pelvic urethra and connects the epithelium of the pelvic urethra to the epithelium of the paramesonephric duct-derived upper vagina. Part of pelvic urethra of female and part of vagina. In males, androgens stop the caudal growth of the nephric ducts. In females, the remaining cells of the nephric duct and the paramesonephric duct-derived upper vagina continue to migrate down the pelvic urethra and have fused to the sinovaginal bulb by E18 (TS26). In newborn mice, the nonpatent, vagina is comprised of the sinovaginal bulb and PND-derived vaginal epithelium fused together. By P3, the proportion of PND-derived vaginal epithelium is larger than the proportion made up by the sinovaginal bulb and the downward migration of the upper vagina continues along the pelvic urethra. Throughout this time, the sinovaginal bulb is a solid, flat epithelial cord. The vagina reaches the perineum by P8 and opens during puberty (~P28). The entire vaginal epithelium of adult is derived from Hoxb7-Cre expressing PND and does not contain epithelia derived from the sinovaginal bulb or nephric duct epithelium. Vulvar epithelium does contain cells derived from urogenital sinus. The solid cord of the vagina canalises at the time of vaginal opening and the sinovaginal bulb becomes part of the vulvar epithelium." []
+def: "sinovaginal bulb (svb) (syn: sinus vagina, vaginal bulb, lower vagina) (TS24-TS27): comprised of epithelium, lamina propria, muscle, adventita and developing vasculature. A solid epithelial cord derived from the urogenital sinus ridge, located adjacent to the dorsal epithelium of the pelvic urethra and connects the epithelium of the pelvic urethra to the epithelium of the paramesonephric duct-derived upper vagina. Part of pelvic urethra of female and part of vagina. In males, androgens stop the caudal growth of the nephric ducts. In females, the remaining cells of the nephric duct and the paramesonephric duct-derived upper vagina continue to migrate down the pelvic urethra and have fused to the sinovaginal bulb by E18 (TS26). In newborn mice, the nonpatent, vagina is comprised of the sinovaginal bulb and PND-derived vaginal epithelium fused together. By P3, the proportion of PND-derived vaginal epithelium is larger than the proportion made up by the sinovaginal bulb and the downward migration of the upper vagina continues along the pelvic urethra. Throughout this time, the sinovaginal bulb is a solid, flat epithelial cord. The vagina reaches the perineum by P8 and opens during puberty (~P28). The entire vaginal epithelium of adult is derived from Hoxb7-Cre expressing PND and does not contain epithelia derived from the sinovaginal bulb or nephric duct epithelium. Vulvar epithelium does contain cells derived from urogenital sinus. The solid cord of the vagina canalises at the time of vaginal opening and the sinovaginal bulb becomes part of the vulvar epithelium." []
 comment: order=0 for EMAPA:18986.
 synonym: "lower vagina" RELATED []
 synonym: "sinus vagina" RELATED []
@@ -24444,7 +24444,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19088
 name: ejaculatory duct
 namespace: anatomical_structure
-def: "ejaculatory duct (TS24-TS28): comprised of epithelium, lamina propria and muscle of ejaculatory duct and surrounded by adventitia. Also contains vasculature (TS24-TS28) and nerves are seen from birth (TS27). Epithelium is marked by Krt14, lamina propria by Foxf1a and muscle of ejaculatory duct is marked by Crabp1 at E17 (Abler et al, 2011). Connects the seminal vesicle and ductus deferens to the pelvic urethra. Derived from the nephric duct." []
+def: "ejaculatory duct (ed) (TS24-TS28): comprised of epithelium, lamina propria and muscle of ejaculatory duct and surrounded by adventitia. Also contains vasculature (TS24-TS28) and nerves are seen from birth (TS27). Epithelium is marked by Krt14, lamina propria by Foxf1a and muscle of ejaculatory duct is marked by Crabp1 at E17 (Abler et al, 2011). Connects the seminal vesicle and ductus deferens to the pelvic urethra. Derived from the nephric duct." []
 comment: order=16 for EMAPA:17968.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
@@ -25291,7 +25291,7 @@ id: EMAPA:19180
 name: seminal vesicle
 namespace: anatomical_structure
 alt_id: EMAPA:35920
-def: "seminal vesicle (syn: vesicular gland) (TS24-TS28): by E16.5 circulating androgens have initiated seminal vesicle formation in the male, and paired seminal vesicle buds develop from the nephric ducts close to where they have fused with the epithelium of the pelvic urethra of male, at the verumontanum (which develops from the urogenital sinus ridge).  Comprised of epithelium, lamina propria, muscle and surrounded by serosa of seminal vesicle. Also contains vasculature (TS24-TS28) and nerves are seen from birth (TS27). Connected to the dorsal anterior pelvic urethra via the ejaculatory duct. Seminal vesicle epithelium is marked by Wnt9b at E17 and seminal vesicle mesenchyme and smooth muscle are marked by Crabp1 at E17 (Abler et al, 2011). Develops from the nephric ducts." []
+def: "seminal vesicle (sv) (syn: vesicular gland, vesicular seminalis) (TS24-TS28): by E16.5 circulating androgens have initiated seminal vesicle formation in the male, and paired seminal vesicle buds develop from the nephric ducts close to where they have fused with the epithelium of the pelvic urethra of male, at the verumontanum (which develops from the urogenital sinus ridge).  Comprised of epithelium, lamina propria, muscle and surrounded by serosa of seminal vesicle. Also contains vasculature (TS24-TS28) and nerves are seen from birth (TS27). Connected to the dorsal anterior pelvic urethra via the ejaculatory duct. Seminal vesicle epithelium is marked by Wnt9b at E17 and seminal vesicle mesenchyme and smooth muscle are marked by Crabp1 at E17 (Abler et al, 2011). Develops from the nephric ducts." []
 synonym: "vesicular gland" EXACT []
 synonym: "vesicular seminalis" RELATED []
 relationship: ends_at TS28 ! TS28
@@ -26208,9 +26208,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19286
 name: bulbourethral gland of male
 namespace: anatomical_structure
-def: "bulbourethral gland of male (syn: Cowper's gland of male) (TS23-TS28): paired epithelial secretory glands develop at the junction of the phallic/penile/clitoral and pelvic urethra in males and females. First seen at E15.5 (TS23), budding out from the epithelium of the urethra in both sexes. They are larger in the male. Growth is dependant on androgens and in males, they canalise after birth (TS27, P1) opening into the urethra and then branch and enlarge during the neonatal period. Comprised of epithelium and a thin interstitium (or connective tissue) which also contains the vasculature (blood vessels). The epithelium of bulbourethral gland is derived from cloacal endoderm. Part of urethra of male/female, and also part of male/female accessory gland. Also called Cowper's gland in human males and not present in human females. It is likely they remain only rudimentary in the adult female mouse." []
+def: "bulbourethral gland of male (bugl) (syn: Cowper's gland) (TS23-TS28): paired epithelial secretory glands develop at the junction of the phallic/penile/clitoral and pelvic urethra in males and females. First seen at E15.5 (TS23), budding out from the epithelium of the urethra in both sexes. They are larger in the male. Growth is dependant on androgens and in males, they canalise after birth (TS27, P1) opening into the urethra and then branch and enlarge during the neonatal period. Comprised of epithelium and a thin interstitium (or connective tissue) which also contains the vasculature (blood vessels). The epithelium of bulbourethral gland is derived from cloacal endoderm. Part of urethra of male/female, and also part of male/female accessory gland. Also called Cowper's gland in human males and not present in human females. It is likely they remain only rudimentary in the adult female mouse." []
 comment: order=29 for EMAPA:17968.
-synonym: "Cowper's gland of male" RELATED []
+synonym: "Cowper's gland" RELATED []
 is_a: EMAPA:35327 ! exocrine gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18692 ! urethra of male
@@ -26221,7 +26221,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19287
 name: prostate gland
 namespace: anatomical_structure
-def: "prostate gland (TS24-TS28): part of the urethra of male and part of the male accessory gland. Divided into layers (epithelium of prostate gland and peri-prostatic mesenchyme of prostate gland), developmental stages (prostate bud and prostate gland) and regions by location (anterior, dorsal, ventral and lateral). From TS24-TS27, the glands are called prostate buds, subdivided into anterior, dorsal (TS24-TS27) and ventral and lateral prostate bud (TS25-TS27). At TS28, the prostate gland is divided into anterior, dorsal, ventral and lateral prostate gland." []
+def: "prostate gland (pr) (TS24-TS28): part of the urethra of male and part of the male accessory gland. Divided into layers (epithelium of prostate gland and peri-prostatic mesenchyme of prostate gland), developmental stages (prostate bud and prostate gland) and regions by location (anterior, dorsal, ventral and lateral). From TS24-TS27, the glands are called prostate buds, subdivided into anterior, dorsal (TS24-TS27) and ventral and lateral prostate bud (TS25-TS27). At TS28, the prostate gland is divided into anterior, dorsal, ventral and lateral prostate gland." []
 comment: order=31 for EMAPA:17968.
 is_a: EMAPA:35327 ! exocrine gland
 relationship: ends_at TS28 ! TS28
@@ -38311,7 +38311,7 @@ id: EMAPA:27581
 name: cloaca associated mesenchyme
 namespace: anatomical_structure
 alt_id: EMAPA:27642
-def: "cloaca associated mesenchyme (TS17-TS20): the mesenchyme surrounding the cloacal epithelium of the cloaca, an epithelial lined cavity derived from endoderm, seen early in embryonic development located at the posterior end of the embryo." []
+def: "cloaca associated mesenchyme (clam) (TS17-TS20): the mesenchyme surrounding the cloacal epithelium of the cloaca, an epithelial lined cavity derived from endoderm, seen early in embryonic development located at the posterior end of the embryo." []
 comment: order=1 for EMAPA:27573.
 is_a: EMAPA:16576 ! genitourinary system mesenchyme
 is_a: EMAPA:35898 ! urinary system mesenchyme
@@ -39927,7 +39927,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:28703
 name: mesenchymal layer of pelvic urethra of male
 namespace: anatomical_structure
-def: "mesenchymal layer of pelvic urethra of male (TS23-TS28): the mesenchymal layer of the pelvic urethra located between the epithelium and muscle layers. Contains smooth muscle cells and mesenchymal/fibroblastic/stromal cells, blood vessels and nerves and mesenchymal pads of male (TS25-TS27). Subdivided from TS23-28 into dorsal and ventral. Subdivided from TS25-TS28, into lamina propria, musclaris mucosa and submucosa." []
+def: "mesenchymal layer of pelvic urethra of male (mlplur) (TS23-TS28): the mesenchymal layer of the pelvic urethra located between the epithelium and muscle layers. Contains smooth muscle cells and mesenchymal/fibroblastic/stromal cells, blood vessels and nerves and mesenchymal pads of male (TS25-TS27). Subdivided from TS23-28 into dorsal and ventral. Subdivided from TS25-TS28, into lamina propria, muscularis mucosa and submucosa." []
 comment: order=1 for EMAPA:18995.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18995 ! pelvic urethra of male
@@ -39937,7 +39937,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:28709
 name: muscle layer of pelvic urethra of male
 namespace: anatomical_structure
-def: "muscle layer of pelvic urethra of male (syn: muscularis propria of pelvic urethra of male) (TS23-TS28): the thicker layer of smooth muscle towards the outside of the pelvic urethra. Subdivided into dorsal/ventral (to TS27). Marked by proteins expressed by smooth muscle cells, such as smooth muscle alpha actin (Acta2)." []
+def: "muscle layer of pelvic urethra of male (muplur) (syn: muscularis propria of pelvic urethra of male) (TS23-TS28): the thicker layer of smooth muscle towards the outside of the pelvic urethra. Subdivided into dorsal/ventral (to TS27). Marked by proteins expressed by smooth muscle cells, such as smooth muscle alpha actin (Acta2)." []
 comment: order=2 for EMAPA:18995.
 synonym: "muscularis propria of pelvic urethra of male" RELATED []
 relationship: ends_at TS28 ! TS28
@@ -39959,7 +39959,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:28753
 name: pelvic urethra of female
 namespace: anatomical_structure
-def: "pelvic urethra of female (syn: cranial urethra, internal urethra) (TS23-TS28): part of urethra of female. Cranially joined to the bladder and caudally joined to the phallic urethra of female (TS23-TS27) which becomes the clitoral urethra (TS28). Comprised of epithelium (subdivided into 3 layers), mesenchymal layer (subdivided into lamina propria, muscularis mucosa, submucosa (TS25-28) and also contains mesenchymal pad of female (TS25-TS27)), muscle layer and adventitia. Also contains vasculature and nerve of pelvic urethra of female, and neural crest derivative of pelvic urethra of female (TS25-TS27). Also contains ventral epithelial bud of female and female urethral gland bud (TS24-TS26), which become urethral gland of female pelvic urethra (TS27), which develop from the epithelium of pelvic urethra of female. The pelvic urethra of female (TS28) also contains a rhabdosphincter as part of the muscle layer of pelvic uretha of female. In the TS28 male, the rhabdophincter is part of the prostatic urethra." []
+def: "pelvic urethra of female (PLUR) (syn: cranial urethra, internal urethra) (TS23-TS28): part of urethra of female. Cranially joined to the bladder and caudally joined to the phallic urethra of female (TS23-TS27) which becomes the clitoral urethra (TS28). Comprised of epithelium (subdivided into 3 layers), mesenchymal layer (subdivided into lamina propria, muscularis mucosa, submucosa (TS25-28) and also contains mesenchymal pad of female (TS25-TS27)), muscle layer and adventitia. Also contains vasculature and nerve of pelvic urethra of female, and neural crest derivative of pelvic urethra of female (TS25-TS27). Also contains ventral epithelial bud of female and female urethral gland bud (TS24-TS26), which become urethral gland of female pelvic urethra (TS27), which develop from the epithelium of pelvic urethra of female. The pelvic urethra of female (TS28) also contains a rhabdosphincter as part of the muscle layer of pelvic uretha of female. In the TS28 male, the rhabdophincter is part of the prostatic urethra." []
 comment: order=0 for EMAPA:28747.
 synonym: "cranial urethra" RELATED []
 synonym: "internal urethra" RELATED []
@@ -39981,7 +39981,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:28765
 name: mesenchymal layer of pelvic urethra of female
 namespace: anatomical_structure
-def: "mesenchymal layer of pelvic urethra of female (TS23-TS28): the mesenchymal layer of the pelvic urethra located between the epithelium and muscle layers. Contains smooth muscle cells and mesenchymal/fibroblastic/stromal cells, blood vessels and nerves and mesenchymal pads of female (TS25-TS27). Subdivided from TS23-TS28 into dorsal and ventral. Subdivided from TS25-TS28, into lamina propria, musclaris mucosa and submucosa." []
+def: "mesenchymal layer of pelvic urethra of female (mlplur) (TS23-TS28): the mesenchymal layer of the pelvic urethra located between the epithelium and muscle layers. Contains smooth muscle cells and mesenchymal/fibroblastic/stromal cells, blood vessels and nerves and mesenchymal pads of female (TS25-TS27). Subdivided from TS23-TS28 into dorsal and ventral. Subdivided from TS25-TS28, into lamina propria, muscularis mucosa and submucosa." []
 comment: order=1 for EMAPA:28753.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28753 ! pelvic urethra of female
@@ -39991,7 +39991,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:28771
 name: muscle layer of pelvic urethra of female
 namespace: anatomical_structure
-def: "muscle layer of pelvic urethra of female (syn: muscularis propria of pelvic urethra of female) (TS23-TS28): the thicker layer of smooth muscle towards the outside of the pelvic urethra. Subdivided into dorsal/ventral (to TS27). At TS28, subdivided into smooth muscle layer of pelvic urethra of female and rhabdosphincter of female (syn: striated muscle layer of pelvic urethra of female)." []
+def: "muscle layer of pelvic urethra of female (muplur) (syn: muscularis propria of pelvic urethra of female) (TS23-TS28): the thicker layer of smooth muscle towards the outside of the pelvic urethra. Subdivided into dorsal/ventral (to TS27). At TS28, subdivided into smooth muscle layer of pelvic urethra of female and rhabdosphincter of female (syn: striated muscle layer of pelvic urethra of female)." []
 comment: order=2 for EMAPA:28753.
 synonym: "muscularis propria of pelvic urethra of female" RELATED []
 relationship: ends_at TS28 ! TS28
@@ -40542,7 +40542,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:29167
 name: genital tubercle mesenchyme of male
 namespace: anatomical_structure
-def: "genital tubercle mesenchyme of male (TS20-TS20): the mesenchyme of the genital tubercle surrounding the epithelium of phallic urethra of male." []
+def: "genital tubercle mesenchyme of male (gtm) (TS20-TS20): the mesenchyme of the genital tubercle surrounding the epithelium of phallic urethra of male." []
 comment: order=1 for EMAPA:17969.
 is_a: EMAPA:35975 ! male reproductive system mesenchyme
 is_a: EMAPA:36384 ! genital tubercle mesenchyme
@@ -40679,7 +40679,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:29220
 name: preputial swelling of male
 namespace: anatomical_structure
-def: "preputial swelling of male (syn: preputial fold of male, early prepuce of male) (TS21-TS23) : two lateral swellings develop on the sides of the genital tubercle at TS21 and grow medially and ventrally. These swellings enclose the preputial glands. Comprised of skin of male preputial swelling, preputial gland of male, and mesenchyme of male preputial swelling.  At TS24, when the two preputial swellings join/fuse together at the ventral midline of the genital tubercle of male, they become the prepuce of male." []
+def: "preputial swelling of male (pps) (syn: preputial fold of male, early prepuce of male) (TS21-TS23) : two lateral swellings develop on the sides of the genital tubercle at TS21 and grow medially and ventrally. These swellings enclose the preputial glands. Comprised of skin of male preputial swelling, preputial gland of male, and mesenchyme of male preputial swelling.  At TS24, when the two preputial swellings join/fuse together at the ventral midline of the genital tubercle of male, they become the prepuce of male." []
 comment: order=7 for EMAPA:17969.
 synonym: "early prepuce of male" RELATED []
 synonym: "preputial fold of male" RELATED []
@@ -40807,7 +40807,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:29316
 name: scrotal fold
 namespace: anatomical_structure
-def: "scrotal fold (TS24-TS27): two lateral scrotal folds are located ventrally at the base of the genital tubercle of male/penis, comprised of scrotal fold mesenchyme, skin and developing vasculature. Develop from scrotal swellings. The scotal folds join at the ventral midline (or perineal seam) at around TS25, at the septum of scrotal fold. Become the scrotum at TS28. Part of the male external genitalia and male reproductive system. Scrotal fold is larger than labial fold in female." []
+def: "scrotal fold (scr fold) (TS24-TS27): two lateral scrotal folds are located ventrally at the base of the genital tubercle of male/penis, comprised of scrotal fold mesenchyme, skin and developing vasculature. Develop from scrotal swellings. The scotal folds join at the ventral midline (or perineal seam) at around TS25, at the septum of scrotal fold. Become the scrotum at TS28. Part of the male external genitalia and male reproductive system. Scrotal fold is larger than labial fold in female." []
 comment: order=22 for EMAPA:17968.\norder=3 for EMAPA:30977.
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:17968 ! male reproductive system
@@ -40836,7 +40836,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:29621
 name: genital tubercle mesenchyme of female
 namespace: anatomical_structure
-def: "genital tubercle mesenchyme of female (TS20-TS20): the mesenchyme of the genital tubercle surrounding the epithelium of phallic urethra of female." []
+def: "genital tubercle mesenchyme of female (gtm) (TS20-TS20): the mesenchyme of the genital tubercle surrounding the epithelium of phallic urethra of female." []
 comment: order=1 for EMAPA:18680.
 is_a: EMAPA:35974 ! female reproductive system mesenchyme
 is_a: EMAPA:36384 ! genital tubercle mesenchyme
@@ -40904,7 +40904,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29645
 name: male urethral gland
 namespace: anatomical_structure
-def: "male urethral gland (TS27-TS28): numerous epithelial urethral glands develop from the epithelium of the urethra. Develop from male urethral gland bud (TS24-26). Part of the urethra of male, subdivided into urethral gland of pelvic urethra of male (part of the pelvic urethra) and urethral gland of penile urethra (part of the penile urethra)." []
+def: "male urethral gland (ur gland) (TS27-TS28): numerous epithelial urethral glands develop from the epithelium of the urethra. Develop from male urethral gland bud (TS24-26). Part of the urethra of male, subdivided into urethral gland of male pelvic urethra (part of the pelvic urethra) and urethral gland of penile urethra (part of the penile urethra)." []
 comment: order=6 for EMAPA:18692.
 is_a: EMAPA:35327 ! exocrine gland
 relationship: ends_at TS28 ! TS28
@@ -40915,7 +40915,7 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:29653
 name: female urethral gland
 namespace: anatomical_structure
-def: "female urethral gland (syn: Skene's gland) (TS27-TS28): epithelial urethral glands develop from the epithelium of the urethra. Develop from female urethral gland bud (TS24-TS26). Part of the urethra of female, subdivided into urethral gland of pelvic urethra of female (part of the pelvic urethra) and urethral gland of clitoral urethra (part of the clitoral urethra)." []
+def: "female urethral gland (ur gland) (syn: Skene's gland) (TS27-TS28): epithelial urethral glands develop from the epithelium of the urethra. Develop from female urethral gland bud (TS24-TS26). Part of the urethra of female, subdivided into urethral gland of pelvic urethra of female (part of the pelvic urethra) and urethral gland of clitoral urethra (part of the clitoral urethra)." []
 comment: order=2 for EMAPA:28747.
 synonym: "Skene's gland" RELATED []
 is_a: EMAPA:35327 ! exocrine gland
@@ -41327,7 +41327,7 @@ id: EMAPA:29794
 name: anterior prostate gland
 namespace: anatomical_structure
 alt_id: EMAPA:35245
-def: "anterior prostate gland (syn: coagulating gland) (TS28-TS28): prostate glands are subdivided into four bilaterally symmetrical regions (known as lobes in the human); anterior, dorsal, lateral and ventral prostate gland. The regions have different morphology and gene expression profiles which are specified during development via both common and region-specific genetic pathways. The 3D anatomy of the prostate gland is extremely complex." []
+def: "anterior prostate gland (aprgl) (syn: coagulating gland) (TS28-TS28): prostate glands are subdivided into four bilaterally symmetrical regions (known as lobes in the human); anterior, dorsal, lateral and ventral prostate gland. The regions have different morphology and gene expression profiles which are specified during development via both common and region-specific genetic pathways. The 3D anatomy of the prostate gland is extremely complex." []
 comment: order=2 for EMAPA:19287.
 synonym: "coagulating gland" RELATED []
 is_a: EMAPA:35712 ! prostate gland lobe
@@ -41397,7 +41397,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29808
 name: dorsal prostate gland
 namespace: anatomical_structure
-def: "dorsal prostate gland (TS28-TS28): prostate glands are subdivided into four bilaterally symmetrical regions (known as lobes in the human); anterior, dorsal, lateral and ventral prostate gland. The regions have different morphology and gene expression profiles which are specified during development via both common and region-specific genetic pathways. The 3D anatomy of the prostate gland is extremely complex." []
+def: "dorsal prostate gland (dprgl) (TS28-TS28): prostate glands are subdivided into four bilaterally symmetrical regions (known as lobes in the human); anterior, dorsal, lateral and ventral prostate gland. The regions have different morphology and gene expression profiles which are specified during development via both common and region-specific genetic pathways. The 3D anatomy of the prostate gland is extremely complex." []
 comment: order=3 for EMAPA:19287.\norder=0 for EMAPA:35710.
 is_a: EMAPA:35712 ! prostate gland lobe
 relationship: ends_at TS28 ! TS28
@@ -41467,7 +41467,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29822
 name: lateral prostate gland
 namespace: anatomical_structure
-def: "lateral prostate gland (TS28-TS28): prostate glands are subdivided into four bilaterally symmetrical regions (known as lobes in the human); anterior, dorsal, lateral and ventral prostate gland. The regions have different morphology and gene expression profiles which are specified during development via both common and region-specific genetic pathways. The 3D anatomy of the prostate gland is extremely complex." []
+def: "lateral prostate gland (lprgl) (TS28-TS28): prostate glands are subdivided into four bilaterally symmetrical regions (known as lobes in the human); anterior, dorsal, lateral and ventral prostate gland. The regions have different morphology and gene expression profiles which are specified during development via both common and region-specific genetic pathways. The 3D anatomy of the prostate gland is extremely complex." []
 comment: order=4 for EMAPA:19287.\norder=1 for EMAPA:35710.
 is_a: EMAPA:35712 ! prostate gland lobe
 relationship: ends_at TS28 ! TS28
@@ -41537,7 +41537,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29836
 name: ventral prostate gland
 namespace: anatomical_structure
-def: "ventral prostate gland (TS28-TS28): prostate glands are subdivided into four bilaterally symmetrical regions (known as lobes in the human); anterior, dorsal, lateral and ventral prostate gland. The regions have different morphology and gene expression profiles which are specified during development via both common and region-specific genetic pathways. The 3D anatomy of the prostate gland is extremely complex." []
+def: "ventral prostate gland (vprgl) (TS28-TS28): prostate glands are subdivided into four bilaterally symmetrical regions (known as lobes in the human); anterior, dorsal, lateral and ventral prostate gland. The regions have different morphology and gene expression profiles which are specified during development via both common and region-specific genetic pathways. The 3D anatomy of the prostate gland is extremely complex." []
 comment: order=5 for EMAPA:19287.
 is_a: EMAPA:35712 ! prostate gland lobe
 relationship: ends_at TS28 ! TS28
@@ -42149,7 +42149,7 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:30077
 name: dorsal genital swelling
 namespace: anatomical_structure
-def: "dorsal genital swelling (syn: anterior genital swelling, dorsal genital tubercle) (TS18-TS19): seen as a swelling on the surface of the embryo at the level of the hind limb buds, adjacent to the urogenital sinus and anterior/cranial to the ventrolateral genital swellings and cloaca. Will fuse with the ventrolateral genital swellings to form part of a single genital tubercle at TS19." []
+def: "dorsal genital swelling (dgs) (syn: anterior genital swelling, dorsal genital tubercle) (TS18-TS19): seen as a swelling on the surface of the embryo at the level of the hind limb buds, adjacent to the urogenital sinus and anterior/cranial to the ventrolateral genital swellings and cloaca. Will fuse with the ventrolateral genital swellings to form part of a single genital tubercle at TS19." []
 comment: order=0 for EMAPA:17382.
 synonym: "anterior genital swelling" RELATED []
 synonym: "dorsal genital tubercle" RELATED []
@@ -42161,7 +42161,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:30079
 name: ventrolateral genital swelling
 namespace: anatomical_structure
-def: "ventrolateral genital swelling (syn: lateral plate mesoderm buds, ventrolateral genital tubercle) (TS18-TS19): seen as paired lateral swellings on the surface of the embryo at the level of the hind limb buds, adjacent to the cloaca. Will fuse together and with the dorsal genital swelling, to form part of a single genital tubercle at TS19." []
+def: "ventrolateral genital swelling (vlgs) (syn: lateral plate mesoderm buds, ventrolateral genital tubercle) (TS18-TS19): seen as paired lateral swellings on the surface of the embryo at the level of the hind limb buds, adjacent to the cloaca. Will fuse together and with the dorsal genital swelling, to form part of a single genital tubercle at TS19." []
 comment: order=1 for EMAPA:17382.
 synonym: "lateral plate mesoderm buds" RELATED []
 synonym: "ventrolateral genital tubercle" RELATED []
@@ -42183,7 +42183,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:30088
 name: lamina propria of bladder
 namespace: anatomical_structure
-def: "lamina propria of bladder (lpb) (TS22-TS28): the thick mesenchymal cell layer of the bladder located  between the urothelium and the detrusor muscle of bladder. Contains loose to dense (depending on region) connective tissue (marked by pro-collagen) many small blood vessels and nerves and thin, discontinuous wisps of smooth muscle (marked by smooth muscle markers; smooth muscle actin, desmin and actin). Contains nerve of lamina propria of bladder and is subdivided into suburothelial lamina propria of bladder (syn: suburothelial stroma of bladder, suburothelial mesenchyme of bladder, inner lamina propria of bladder) and outer lamina propria of bladder (syn: muscularis mesenchyme of bladder). These layers differ in their gene expression profile, presence of smooth muscle cells, vascularisation density and proliferation rates. During development the lamina propria of bladder is radially patterned into these two layers due to differentiation of the outer mesenchyme into smooth muscle." []
+def: "lamina propria of bladder (lpbl) (TS22-TS28): the thick mesenchymal cell layer of the bladder located  between the urothelium and the detrusor muscle of bladder. Contains loose to dense (depending on region) connective tissue (marked by pro-collagen) many small blood vessels and nerves and thin, discontinuous wisps of smooth muscle (marked by smooth muscle markers; smooth muscle actin, desmin and actin). Contains nerve of lamina propria of bladder and is subdivided into suburothelial lamina propria of bladder (syn: suburothelial stroma of bladder, suburothelial mesenchyme of bladder, inner lamina propria of bladder) and outer lamina propria of bladder (syn: muscularis mesenchyme of bladder). These layers differ in their gene expression profile, presence of smooth muscle cells, vascularisation density and proliferation rates. During development the lamina propria of bladder is radially patterned into these two layers due to differentiation of the outer mesenchyme into smooth muscle." []
 comment: order=1 for EMAPA:18321.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
@@ -42268,7 +42268,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:30423
 name: labial swelling
 namespace: anatomical_structure
-def: "labial swelling (TS22-TS23): two lateral swellings develop ventrally, at the base of the genital tubercle of female. Comprised of skin, mesenchyme and developing vasculature of labial swelling. At TS24, becomes the labial fold and then labia at TS28. Part of the female external genitalia and female reproductive system. Scrotal swellings are larger than labial swellings." []
+def: "labial swelling (LSW) (TS22-TS23): two lateral swellings develop ventrally, at the base of the genital tubercle of female. Comprised of skin, mesenchyme and developing vasculature of labial swelling. At TS24, becomes the labial fold. Part of the female external genitalia and female reproductive system. Scrotal swellings are larger than labial swellings." []
 comment: order=12 for EMAPA:17959.\norder=2 for EMAPA:30984.
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17959 ! female reproductive system
@@ -42357,7 +42357,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:30467
 name: epithelium of phallic urethra of male
 namespace: anatomical_structure
-def: "epithelium of phallic urethra of male (TS20-TS24): derived from cloacal endoderm and derived from the urethral plate epithelium (TS19). Located within the genital tubercle of male. At TS20, the urethral plate epithelium has not canalised and only the plate is seen. At TS21, as the plate begins to canalise and form a tube, it is subdivided into the urethral plate epithelium of male (syn: urethral plate), the bilaminar epithelium located distally, and into the phallic urethral tube epithelium (syn: proximal phallic urethral epithelium) which is the part of the urethral epithelium that has septated into a canalised tube proximally, and it is open at the proximal urethral meatus. The proximal urethral meatus closes in males, a process which begins around TS23 and is not present in males at TS25. In females, the proximal urethral meatus remains open to TS27 (closed by TS28, P8). The epithelium of phallic urethra of male/female becomes the epithelium of penile urethra/clitoral urethra at TS25." []
+def: "epithelium of phallic urethra of male (ephur) (TS20-TS24): derived from cloacal endoderm and derived from the urethral plate epithelium (TS19). Located within the genital tubercle of male. At TS20, the urethral plate epithelium has not canalised and only the plate is seen. At TS21, as the plate begins to canalise and form a tube, it is subdivided into the urethral plate epithelium of male (syn: urethral plate), the bilaminar epithelium located distally, and into the phallic urethral tube epithelium (syn: proximal phallic urethral epithelium) which is the part of the urethral epithelium that has septated into a canalised tube proximally, and it is open at the proximal urethral meatus. The proximal urethral meatus closes in males, a process which begins around TS23 and is not present in males at TS25. In females, the proximal urethral meatus remains open to TS27 (closed by TS28, P8). The epithelium of phallic urethra of male/female becomes the epithelium of penile urethra/clitoral urethra at TS25." []
 comment: order=2 for EMAPA:17969.
 is_a: EMAPA:31518 ! urethral plate epithelium
 is_a: EMAPA:35963 ! male reproductive system epithelium
@@ -42370,7 +42370,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:30470
 name: epithelium of phallic urethra of female
 namespace: anatomical_structure
-def: "epithelium of phallic urethra of female (TS20-24): derived from cloacal endoderm and derived from the urethral plate epithelium (TS19). Located within the genital tubercle of male/female. At TS20, the urethral plate epithelium has not canalised and only the plate is seen. At TS21, as the plate begins to canalise and form a tube, it is subdivided into the urethral plate epithelium of male/female (syn: urethral plate), the bilaminar epithelium located distally, and into the phallic urethral tube epithelium (syn: proximal phallic urethral epithelium) which is the part of the urethral epithelium that has septated into a canalised tube proximally, and it is open at the proximal urethral meatus. The proximal urethral meatus closes in males, a process which begins around TS23 and is not present in males at TS25. In females, the proximal urethral meatus remains open to TS27 (closed by TS28, p8). The epithelium of phallic urethra of male/female becomes the epithelium of penile urethra/clitoral urethra at TS25." []
+def: "epithelium of phallic urethra of female (ephur) (TS20-TS24): derived from cloacal endoderm and derived from the urethral plate epithelium (TS19). Located within the genital tubercle of male/female. At TS20, the urethral plate epithelium has not canalised and only the plate is seen. At TS21, as the plate begins to canalise and form a tube, it is subdivided into the urethral plate epithelium of male/female (syn: urethral plate), the bilaminar epithelium located distally, and into the phallic urethral tube epithelium (syn: proximal phallic urethral epithelium) which is the part of the urethral epithelium that has septated into a canalised tube proximally, and it is open at the proximal urethral meatus. The proximal urethral meatus closes in males, a process which begins around TS23 and is not present in males at TS25. In females, the proximal urethral meatus remains open to TS27 (closed by TS28, p8). The epithelium of phallic urethra of male/female becomes the epithelium of penile urethra/clitoral urethra at TS25." []
 comment: order=2 for EMAPA:18680.
 is_a: EMAPA:31518 ! urethral plate epithelium
 is_a: EMAPA:35962 ! female reproductive system epithelium
@@ -42383,7 +42383,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:30478
 name: preputial swelling of female
 namespace: anatomical_structure
-def: "preputial swelling of female (syn: preputial fold of female, early prepuce of female) (TS21-TS23): two lateral swellings develop on the sides of the genital tubercle at TS21 and grow medially and ventrally. These swellings enclose the preputial glands. Comprised of skin of female preputial swelling, preputial gland of female, and mesenchyme of female preputial swelling.  At TS24, when the two preputial swellings join/fuse together at the ventral midline of the genital tubercle of female, they become the prepuce of female." []
+def: "preputial swelling of female (pps) (syn: preputial fold of female, early prepuce of female) (TS21-TS23): two lateral swellings develop on the sides of the genital tubercle at TS21 and grow medially and ventrally. These swellings enclose the preputial glands. Comprised of skin of female preputial swelling, preputial gland of female, and mesenchyme of female preputial swelling.  At TS24, when the two preputial swellings join/fuse together at the ventral midline of the genital tubercle of female, they become the prepuce of female." []
 comment: order=3 for EMAPA:18680.
 synonym: "early prepuce of female" RELATED []
 synonym: "preputial fold of female" RELATED []
@@ -42446,7 +42446,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:30509
 name: scrotal swelling
 namespace: anatomical_structure
-def: "scrotal swelling (TS22-TS23): two lateral swellings develop ventrally, at the base of the genital tubercle of male. Comprised of skin, mesenchyme and developing vasculature of scrotal swelling. At TS24, becomes the scrotal fold and then scrotum at TS28. Part of the male external genitalia and male reproductive system. Scrotal swellings are larger than labial swellings in female." []
+def: "scrotal swelling (SSW) (TS22-TS23): two lateral swellings develop ventrally, at the base of the genital tubercle of male. Comprised of skin, mesenchyme and developing vasculature of scrotal swelling. At TS24, becomes the scrotal fold and then scrotum at TS28. Part of the male external genitalia and male reproductive system. Scrotal swellings are larger than labial swellings in female." []
 comment: order=23 for EMAPA:17968.\norder=2 for EMAPA:30977.
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17968 ! male reproductive system
@@ -42743,7 +42743,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:30699
 name: prepuce of female
 namespace: anatomical_structure
-def: "prepuce of female (TS25-TS28): the prepuce of female surrounds the glans clitoris and body of clitoris, but does not contain a preputial space. TS25-TS27 prepuce of female is comprised of skin, preputial glands and mesenchyme of prepuce. From TS28, prepuce of female is comprised of skin, preputial glands and lamina propria of prepuce." []
+def: "prepuce of female (pce) (TS25-TS28): the prepuce of female surrounds the glans clitoris and body of clitoris, but does not contain a preputial space. TS25-TS27 prepuce of female is comprised of skin, preputial glands and mesenchyme of prepuce. From TS28, prepuce of female is comprised of skin, preputial glands and lamina propria of prepuce." []
 comment: order=8 for EMAPA:18680.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18680 ! genital tubercle of female
@@ -43137,7 +43137,7 @@ id: EMAPA:30829
 name: glans clitoris
 namespace: anatomical_structure
 alt_id: EMAPA:19170
-def: "glans clitoris (syn: clitoral glans) (TS25-TS28): the distal part of the clitoris. The glans clitoris is surrounded by the prepuce but it does not lie within a preputial space. The distal part of the clitoral urethra is located within the glans clitoris. An opening forms in the clitoral urethra in the glans clitoris, seen at birth. The urethra forms a large, U-shaped urethral cleft that extends to the tips of the glans clitoris, surrounded by a solid, U-shaped lamina propria and then surrounded by the lamina propria of prepuce. From TS25-TS27, is comprised of epithelium and mesenchyme of glans clitoris. At TS28, is comprised of epithelium and lamina propria of glans clitoris. The epithelium of glans clitoris located dorsally in the clitoris and in direct contact with urethral epithelium. The distal end of the glans clitoris is located just proximal to the urethral opening. The lamina propria contains many diffuse blood vessels." []
+def: "glans clitoris (glcl) (syn: clitoral glans) (TS25-TS28): the distal part of the clitoris. The glans clitoris is surrounded by the prepuce but it does not lie within a preputial space. The distal part of the clitoral urethra is located within the glans clitoris. An opening forms in the clitoral urethra in the glans clitoris, seen at birth. The urethra forms a large, U-shaped urethral cleft that extends to the tips of the glans clitoris, surrounded by a solid, U-shaped lamina propria and then surrounded by the lamina propria of prepuce. From TS25-TS27, is comprised of epithelium and mesenchyme of glans clitoris. At TS28, is comprised of epithelium and lamina propria of glans clitoris. The epithelium of glans clitoris located dorsally in the clitoris and in direct contact with urethral epithelium. The distal end of the glans clitoris is located just proximal to the urethral opening. The lamina propria contains many diffuse blood vessels." []
 comment: order=1 for EMAPA:30819.
 synonym: "clitoral glans" RELATED []
 relationship: ends_at TS28 ! TS28
@@ -43180,46 +43180,35 @@ name: labia
 namespace: anatomical_structure
 def: "labia (TS28-TS28): located at the base of the clitoris and comprised of skin, gland, lamina propria, vasculature and nerve of labia. Derived from labial fold (TS24-TS27)." []
 comment: order=14 for EMAPA:17959.\norder=4 for EMAPA:30984.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17959 ! female reproductive system
-relationship: part_of EMAPA:30984 ! female external genitalia
-relationship: starts_at TS28 ! TS28
+is_obsolete: true
 
 [Term]
 id: EMAPA:30839
 name: labia skin
 namespace: anatomical_structure
 comment: order=0 for EMAPA:30837.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:30837 ! labia
-relationship: starts_at TS28 ! TS28
+is_obsolete: true
 
 [Term]
 id: EMAPA:30841
 name: lamina propria of labia
 namespace: anatomical_structure
 comment: order=2 for EMAPA:30837.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:30837 ! labia
-relationship: starts_at TS28 ! TS28
+is_obsolete: true
 
 [Term]
 id: EMAPA:30843
 name: gland of labia
 namespace: anatomical_structure
 comment: order=1 for EMAPA:30837.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:30837 ! labia
-relationship: starts_at TS28 ! TS28
+is_obsolete: true
 
 [Term]
 id: EMAPA:30845
 name: vasculature of labia
 namespace: anatomical_structure
 comment: order=3 for EMAPA:30837.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:30837 ! labia
-relationship: starts_at TS28 ! TS28
+is_obsolete: true
 
 [Term]
 id: EMAPA:30850
@@ -43271,7 +43260,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:30879
 name: caudal urogenital sinus
 namespace: anatomical_structure
-def: "caudal urogenital sinus (syn: primitive pelvic urethra) (TS19-TS20): the posterior/caudal part of the urogenital sinus including the urogenital sinus ridge where the common nephric ducts/nephric ducts join the urogenital sinus. Comprised of the urogenital sinus ridge, rest of caudal urogenital sinus epithelium and surrounded by the caudal urogenital sinus mesenchyme. Becomes the pelvic urethra at TS21, which together with the primitive bladder makes up the urogenital sinus." []
+def: "caudal urogenital sinus (syn: primitive pelvic urethra) (TS19-TS20): the posterior/caudal part of the urogenital sinus including the urogenital sinus ridge where the common nephric ducts/nephric ducts join the urogenital sinus. Comprised of the urogenital sinus ridge, rest of caudal urogenital sinus epithelium and surrounded by the caudal urogenital sinus mesenchyme. Becomes the pelvic urethra at TS21, which together with the primitive bladder makes up the urogenital sinus.\n\ncaudal urogenital sinus (CUGS) (syn: primitive pelvic urethra) (TS19-TS20): the posterior/caudal part of the urogenital sinus including the urogenital sinus ridge where the common nephric ducts/nephric ducts join the urogenital sinus. Comprised of the urogenital sinus ridge, rest of caudal urogenital sinus epithelium and surrounded by the caudal urogenital sinus mesenchyme. Becomes the pelvic urethra at TS21, which together with the primitive bladder makes up the urogenital sinus." []
 comment: order=7 for EMAPA:17379.
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:17379 ! urogenital sinus
@@ -43324,7 +43313,7 @@ id: EMAPA:30903
 name: pelvic urethra
 namespace: anatomical_structure
 alt_id: EMAPA:30893
-def: "pelvic urethra (PLUR) (TS21-TS22): comprised of epithelium of pelvic urethra (eplur, subdivided into urogenital sinus ridge (sr) and rest of epithelium of pelvic urethra), mesenchymal layer of pelvic urethra (mplur; divided into dorsal and ventral), nerve, developing vasculature, adventitia and from TS22 muscle layer (muplur; divided into dorsal and ventral). Pelvic urethra is a part of the urinary system and is part of the urethra. The epithelium of pelvic urethra is contiguous with the epithelium of phallic urethra (caudally) and bladder urothelium (cranially). Derived from the caudal urogenital sinus (TS20). Becomes the pelvic urethra of male/female from TS23." []
+def: "pelvic urethra (PLUR) (TS21-TS22): comprised of epithelium of pelvic urethra (eplur, subdivided into urogenital sinus ridge (UGS ridge) and rest of epithelium of pelvic urethra), mesenchymal layer of pelvic urethra (mlplur; divided into dorsal and ventral), nerve, developing vasculature, adventitia and from TS22 muscle layer (muplur; divided into dorsal and ventral). Pelvic urethra is a part of the urinary system and is part of the urethra. The epithelium of pelvic urethra is contiguous with the epithelium of phallic urethra (caudally) and bladder urothelium (cranially). Derived from the caudal urogenital sinus (TS20). Becomes the pelvic urethra of male/female from TS23." []
 comment: order=0 for EMAPA:30901.\norder=6 for EMAPA:17379.
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17379 ! urogenital sinus
@@ -43386,7 +43375,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:30917
 name: clitoral urethra
 namespace: anatomical_structure
-def: "clitoral urethra (syn: external urethra of female) (TS25-TS28): comprised of epithelium of clitoral urethra. Epithelium of clitoral urethra (TS25-28) derived from epithelium of phallic urethra of male/female (TS21-24). At TS25, the epithelium is subdivided into along its distal-proximal length into urethral plate epithelium (distal) and urethral tube epithelium (proximal). The urethral plate epithelium of female (syn: distal urethral epithelium of female; urethral plate of female) is no longer present from TS26. The clitoral urethra is open proximally at the proximal urethral meatus (present to P7) (syn: proximal urethral opening of female or urethral duct) located at the base of the clitoris. The proximal urethral meatus closes after birth (closed by P8). In adults and from birth, the urethra of female is open externally at the urethral meatus of clitoral urethra (syn: distal urethral opening of female) which is anatomically located within the clitoris. (This is different to humans, where the urethral opening is located between the clitoris and vagina.) The clitoral urethra is anatomically located ventrally within the clitoris and is surrounded by the tissue of the clitoris, therefore only the epithelial components are necessary parts of clitoral urethra." []
+def: "clitoral urethra (CLUR) (syn: external urethra of female) (TS25-TS28): comprised of epithelium of clitoral urethra. Epithelium of clitoral urethra (TS25-28) derived from epithelium of phallic urethra of male/female (TS21-24). At TS25, the epithelium is subdivided into along its distal-proximal length into urethral plate epithelium (distal) and urethral tube epithelium (proximal). The urethral plate epithelium of female (syn: distal urethral epithelium of female; urethral plate of female) is no longer present from TS26. The clitoral urethra is open proximally at the proximal urethral meatus (present to P7) (syn: proximal urethral opening of female or urethral duct) located at the base of the clitoris. The proximal urethral meatus closes after birth (closed by P8). In adults and from birth, the urethra of female is open externally at the urethral meatus of clitoral urethra (syn: distal urethral opening of female) which is anatomically located within the clitoris. (This is different to humans, where the urethral opening is located between the clitoris and vagina.) The clitoral urethra is anatomically located ventrally within the clitoris and is surrounded by the tissue of the clitoris, therefore only the epithelial components are necessary parts of clitoral urethra." []
 comment: order=1 for EMAPA:28747.
 synonym: "external urethra of female" RELATED []
 relationship: ends_at TS28 ! TS28
@@ -43444,7 +43433,7 @@ is_obsolete: true
 id: EMAPA:30942
 name: prostatic urethra
 namespace: anatomical_structure
-def: "prostatic urethra (TS28-TS28): the subregion of the urethra of male where the prostate glands enter the urethra. Cranially joined to the bladder and caudally joined to the pelvic urethra of male. Comprised of epithelium (subdivided into 3 layers and into dorsal and ventral), mesenchymal layer (subdivided into lamina propria, muscularis mucosa, submucosa), muscle layer (subdivided into smooth muscle and rhabdosphincter) and adventitia. Also contains vasculature and nerve of prostatic urethra. The verumontanum (the raised portion of the dorsal epithelium of prostatic urethra where the ejaculatory duct orifices enter the urethra) is also part of the prostatic urethra." []
+def: "prostatic urethra (PRUR) (TS28-TS28): the subregion of the urethra of male where the prostate glands enter the urethra. Cranially joined to the bladder and caudally joined to the pelvic urethra of male. Comprised of epithelium (subdivided into 3 layers and into dorsal and ventral), mesenchymal layer (subdivided into lamina propria, muscularis mucosa, submucosa), muscle layer (subdivided into smooth muscle and rhabdosphincter) and adventitia. Also contains vasculature and nerve of prostatic urethra. The verumontanum (the raised portion of the dorsal epithelium of prostatic urethra where the ejaculatory duct orifices enter the urethra) is also part of the prostatic urethra." []
 comment: order=1 for EMAPA:18692.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18692 ! urethra of male
@@ -43455,7 +43444,7 @@ id: EMAPA:30944
 name: penile urethra
 namespace: anatomical_structure
 alt_id: EMAPA:29641
-def: "penile urethra (syn: external urethra of male) (TS25-TS28): comprised of epithelium of penile urethra. Epithelium of penile urethra (TS25-TS28) derived from epithelium of phallic urethra of male/female (TS21-TS24). The urethral plate epithelium of male (syn: distal urethral epithelium of male; urethral plate) completely canalises by TS25 and the plate is no longer present in males from TS25. By TS25, the penile urethra opens at the urethral meatus of penile urethra (syn: urethral opening of male) and the proximal urethral meatus has closed. The penile urethra is anatomically located, centrally within the penis and is surrounded by the tissue of the penis, therefore only the epithelial components are necessary parts of penile urethra." []
+def: "penile urethra (PNUR) (syn: external urethra of male) (TS25-TS28): comprised of epithelium of penile urethra. Epithelium of penile urethra (TS25-TS28) derived from epithelium of phallic urethra of male/female (TS21-TS24). The urethral plate epithelium of male (syn: distal urethral epithelium of male; urethral plate) completely canalises by TS25 and the plate is no longer present in males from TS25. By TS25, the penile urethra opens at the urethral meatus of penile urethra (syn: urethral opening of male) and the proximal urethral meatus has closed. The penile urethra is anatomically located, centrally within the penis and is surrounded by the tissue of the penis, therefore only the epithelial components are necessary parts of penile urethra." []
 comment: order=3 for EMAPA:18692.
 synonym: "external urethra of male" RELATED []
 relationship: ends_at TS28 ! TS28
@@ -43489,7 +43478,7 @@ is_obsolete: true
 id: EMAPA:30952
 name: epithelium of prostatic urethra
 namespace: anatomical_structure
-def: "epithelium of prostatic urethra (TS28-TS28): the innermost layer of the prostatic urethra, a stratified epithelium lining the lumen. It is subdivided into dorsal and ventral. It is also subdivided into three epithelial cell layers; superficial, intermediate and basal cell layer of prostatic urethra. The raised, dorsal portion of the male urethra where the prostate glands and orifices of the ejaculatory ducts enter the urethra is the verumontanum (syn: seminal colliluculus)." []
+def: "epithelium of prostatic urethra (eprur) (TS28-TS28): the innermost layer of the prostatic urethra, a stratified epithelium lining the lumen. It is subdivided into dorsal and ventral. It is also subdivided into three epithelial cell layers; superficial, intermediate and basal cell layer of prostatic urethra. The raised, dorsal portion of the male urethra where the prostate glands and orifices of the ejaculatory ducts enter the urethra is the verumontanum (syn: seminal colliculus)." []
 comment: order=0 for EMAPA:30942.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30942 ! prostatic urethra
@@ -43499,7 +43488,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:30954
 name: mesenchymal layer of prostatic urethra
 namespace: anatomical_structure
-def: "mesenchymal layer of prostatic urethra (TS28-TS28): the mesenchymal layer of the prostatic urethra located between the epithelium and muscle layers. Contains smooth muscle cells and mesenchymal/fibroblastic/stromal cells, blood vessels and nerves. Subdivided into lamina propria, musclaris mucosa and submucosa." []
+def: "mesenchymal layer of prostatic urethra (mlprur) (TS28-TS28): the mesenchymal layer of the prostatic urethra located between the epithelium and muscle layers. Contains smooth muscle cells and mesenchymal/fibroblastic/stromal cells, blood vessels and nerves. Subdivided into lamina propria, muscularis mucosa and submucosa." []
 comment: order=1 for EMAPA:30942.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30942 ! prostatic urethra
@@ -43509,7 +43498,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:30956
 name: muscle layer of prostatic urethra
 namespace: anatomical_structure
-def: "muscle layer of prostatic urethra (TS28-TS28): the thick layer of muscle towards the outside of the prostatic urethra. Subdivided into smooth muscle layer of prostatic urethra and rhabdosphincter of male (syn: striated muscle layer of prostatic urethra)." []
+def: "muscle layer of prostatic urethra (muprur) (TS28-TS28): the thick layer of muscle towards the outside of the prostatic urethra. Subdivided into smooth muscle layer of prostatic urethra and rhabdosphincter of male (syn: striated muscle layer of prostatic urethra)." []
 comment: order=2 for EMAPA:30942.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30942 ! prostatic urethra
@@ -44286,7 +44275,7 @@ id: EMAPA:31500
 name: mesenchyme of urogenital sinus
 namespace: anatomical_structure
 alt_id: EMAPA:31519
-def: "mesenchyme of urogenital sinus: the mesenchyme surrounding the urogenital sinus epithelium. Marked by Gli1, Ptch1, Bmp4, Raldh2. Derived from mesoderm. Subdivided into mesenchymal layer of primitive bladder (rostral/anterior), mesenchyme of primitive bladder-caudal urogenital sinus transition zone and caudal urogenital sinus mesenchyme (caudal/posterior)." []
+def: "mesenchyme of urogenital sinus (mugs): the mesenchyme surrounding the urogenital sinus epithelium. Marked by Gli1, Ptch1, Bmp4, Raldh2. Derived from mesoderm. Subdivided into mesenchymal layer of primitive bladder (rostral/anterior), mesenchyme of primitive bladder-caudal urogenital sinus transition zone and caudal urogenital sinus mesenchyme (caudal/posterior)." []
 comment: order=1 for EMAPA:17379.
 is_a: EMAPA:16576 ! genitourinary system mesenchyme
 is_a: EMAPA:35898 ! urinary system mesenchyme
@@ -44338,7 +44327,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:31505
 name: proximal urethral meatus of male
 namespace: anatomical_structure
-def: "proximal urethral meatus of male (syn: proximal urethral opening of male or urethral duct) (TS21-TS24): the proximal opening in the epithelium of male phallic urethra. In males, the proximal urethral meatus of male, is only present up to TS24. In males from TS25, the penile urethra has completely canalised and opens at the urethral meatus of penile urethra (syn: urethral opening of male) and the proximal urethral meatus has closed." []
+def: "proximal urethral meatus of male (prox ur me) (syn: proximal urethral opening of male, urethral duct) (TS21-TS24): the proximal opening in the epithelium of male phallic urethra. In males, the proximal urethral meatus of male, is only present up to TS24. In males from TS25, the penile urethra has completely canalised and opens at the urethral meatus of penile urethra (syn: urethral opening of male) and the proximal urethral meatus has closed." []
 comment: order=2 for EMAPA:30467.
 synonym: "proximal urethral opening of male" RELATED []
 synonym: "urethral duct" RELATED []
@@ -44360,7 +44349,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:31507
 name: urethral plate epithelium of male
 namespace: anatomical_structure
-def: "urethral plate epithelium of male (syn: distal urethral epithelium of male, urethral plate) (TS20-TS26 in females; TS20-TS24 in males); a bilaminar epithelium, which at TS20 is located  along the ventral mid-line of the genital tubercle of male/female. Derived from the urethral plate epithelium (TS19). This bilayered epithelium often called the urethral plate, is marked by Shh, and continues to grow distally as the genital tubercle grows distally. At TS20 is part of the genital tubercle of male and from TS21 is part of the epithelium of phallic urethra of male, which is part of genital tubercle of male and is also part of the phallic urethra of male.  From TS21-TS24 it is located at the distal end of the phallic urethra of male. At TS25 in males, the urethra has completely canalised (is fully patent); the urethral plate is no longer seen, the urethra opens at the urethral meatus and the proximal urethral meatus has closed. The urethral plate epithelium is only present in females from this TS25.  From TS26, the urethral plate epithelium of female is part of the clitoris, located distally, and part of the epithelium of clitoral urethra. At TS27 it is no longer seen in females." []
+def: "urethral plate epithelium of male (upe) (syn: distal urethral epithelium of male, urethral plate of male) (TS20-TS26 in females; TS20-TS24 in males); a bilaminar epithelium, which at TS20 is located  along the ventral mid-line of the genital tubercle of male/female. Derived from the urethral plate epithelium (TS19). This bilayered epithelium often called the urethral plate, is marked by Shh, and continues to grow distally as  the genital tubercle grows distally. At TS20 is part of the genital tubercle of male and from TS21 is part of the epithelium of phallic urethra of male, which is part of genital tubercle of male and is also part of the phallic urethra of male.  From TS21-TS24 it is located at the distal end of the phallic urethra of male. At TS25 in males, the urethra has completely canalised (is fully patent); the urethral plate is no longer seen, the urethra opens at the urethral meatus and the proximal urethral meatus has closed. The urethral plate epithelium is only present in females from this TS25.  From TS26, the urethral plate epithelium of female is part of the clitoris, located distally, and part of the epithelium of clitoral urethra. At TS27 it is no longer seen in females." []
 comment: order=0 for EMAPA:30467.
 synonym: "distal urethral epithelium of male" RELATED []
 synonym: "urethral plate of male" RELATED []
@@ -44386,7 +44375,7 @@ id: EMAPA:31509
 name: epithelium of urogenital sinus
 namespace: anatomical_structure
 alt_id: EMAPA:31520
-def: "epithelium of urogenital sinus: the epithelium lining the lumen, marked by Cdh1 (E-cadherin), Osr1 and Shh. Derived from cloacal endoderm.  Subdivided into urothelium of primitive bladder (cranial/anterior), epithelium of pimitive bladder-caudal urogenital sinus transition zone and caudal urogenital sinus epithelium (caudal/posterior)." []
+def: "epithelium of urogenital sinus (eugs): the epithelium lining the lumen, marked by Cdh1 (E-cadherin), Osr1 and Shh. Derived from cloacal endoderm. Subdivided into urothelium of primitive bladder (cranial/anterior), epithelium of primitive bladder-caudal urogenital sinus transition zone and caudal urogenital sinus epithelium (caudal/posterior)." []
 comment: order=0 for EMAPA:17379.
 is_a: EMAPA:35953 ! urinary system epithelium
 is_a: EMAPA:35954 ! genitourinary system epithelium
@@ -44479,7 +44468,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:31518
 name: urethral plate epithelium
 namespace: anatomical_structure
-def: "urethral plate epithelium (syn: urethral plate) (TS19): a bilaminar epithelial extension of the cloacal epithelium that grows out from the cloaca, between the ventrolateral genital swellings. Derived from cloacal endoderm. This bilayered epithelium often called the urethral plate, marked by Shh, continues to grow distally with the genital tubercle. At TS19 is part of the genital tubercle and from TS20 as the ontology becomes gender-specific it becomes part of the genital tubercle of male/female and from TS21 it is also part of the phallic urethra epithelium, which is part of genital tubercle of male/female and part of the phallic urethra." []
+def: "urethral plate epithelium (upe) (syn: urethral plate) (TS19): a bilaminar epithelial extension of the cloacal epithelium that grows out from the cloaca, between the ventrolateral genital swellings. Derived from cloacal endoderm. This bilayered epithelium often called the urethral plate, marked by Shh, continues to grow distally with the genital tubercle. At TS19 is part of the genital tubercle and from TS20 as the ontology becomes gender-specific it becomes part of the genital tubercle of male/female and from TS21 it is also part of the phallic urethra epithelium, which is part of genital tubercle of male/female and part of the phallic urethra." []
 comment: order=2 for EMAPA:17382.
 synonym: "urethral plate" RELATED []
 is_a: EMAPA:35951 ! reproductive system epithelium
@@ -44583,7 +44572,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:31531
 name: proximal urethral meatus of female
 namespace: anatomical_structure
-def: "proximal urethral meatus of female (syn: proximal urethral opening of female, urethral duct) (TS21-TS24): the proximal opening in the epithelium of female phallic urethra (TS21 to TS24).  In females, it becomes the proximal urethral meatus of clitoral urethra, part of the epithelium of clitoral urethra from TS25 to TS28, and is present to P7. By P8, the proximal urethral meatus is closed in females and the urethra opens at the urethral meatus." []
+def: "proximal urethral meatus of female (prox ur me) (syn: proximal urethral opening of female, urethral duct) (TS21-TS24): the proximal opening in the epithelium of female phallic urethra (TS21 to TS24).  In females, it becomes the proximal urethral meatus of clitoral urethra, part of the epithelium of clitoral urethra from TS25 to TS28, and is present to P7. By P8, the proximal urethral meatus is closed in females and the urethra opens at the urethral meatus." []
 comment: order=2 for EMAPA:30470.
 synonym: "proximal urethral opening of female" RELATED []
 synonym: "urethral duct" RELATED []
@@ -44636,7 +44625,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:31536
 name: urethral plate epithelium of female
 namespace: anatomical_structure
-def: "urethral plate epithelium of female (syn: urethral plate of female, distal urethral epithelium of female) (TS20-26 in females; TS20-24 in males); a bilaminar epithelium, which at TS20 is located  along the ventral mid-line of the genital tubercle of male/female. Derived from the urethral plate epithelium (TS19). This bilayered epithelium often called the urethral plate, is marked by Shh, and continues to grow distally as  the genital tubercle grows distally. At TS20 is part of the genital tubercle of male/female and from TS21 is part of the epithelium of phallic urethra of male/female, which is part of genital tubercle of male/female and is also part of the phallic urethra of male/female.  From TS21-24 it is located at the distal end of the phallic urethra of male/female. At TS25 in males, the urethra has completely canalised (is fully patent); the urethral plate is no longer seen, the urethra opens at the urethral meatus and the proximal urethral meatus has closed. The urethral plate epithelium is only present in females from this TS25.  From TS26, the urethral plate epithelium of female is part of the clitoris, located distally, and part of the epithelium of clitoral urethra. At TS27 it is no longer seen in females." []
+def: "urethral plate epithelium of female (upe) (syn: urethral plate of female, distal urethral epithelium of female) (TS20-TS26 in females; TS20-TS24 in males); a bilaminar epithelium, which at TS20 is located  along the ventral mid-line of the genital tubercle of male/female. Derived from the urethral plate epithelium (TS19). This bilayered epithelium often called the urethral plate, is marked by Shh, and continues to grow distally as  the genital tubercle grows distally. At TS20 is part of the genital tubercle of male/female and from TS21 is part of the epithelium of phallic urethra of male/female, which is part of genital tubercle of male/female and is also part of the phallic urethra of male/female.  From TS21-24 it is located at the distal end of the phallic urethra of male/female. At TS25 in males, the urethra has completely canalised (is fully patent); the urethral plate is no longer seen, the urethra opens at the urethral meatus and the proximal urethral meatus has closed. The urethral plate epithelium is only present in females from this TS25.  From TS26, the urethral plate epithelium of female is part of the clitoris, located distally, and part of the epithelium of clitoral urethra. At TS27 it is no longer seen in females." []
 comment: order=0 for EMAPA:30470.
 synonym: "distal urethral epithelium of female" RELATED []
 synonym: "urethral plate of female" RELATED []
@@ -45568,7 +45557,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:32301
 name: submucosa of prostatic urethra
 namespace: anatomical_structure
-def: "submucosa of prostatic urethra (TS8-TS28): the mesenchymal layer located below the muscularis mucosa of prostatic urethra, between the muscularis mucosa and muscle layer of prostatic urethra, comprised of mesenchymal/fibroblastic cells." []
+def: "submucosa of prostatic urethra (smprur) (TS8-TS28): the mesenchymal layer located below the muscularis mucosa of prostatic urethra, between the muscularis mucosa and muscle layer of prostatic urethra, comprised of mesenchymal/fibroblastic cells." []
 comment: order=2 for EMAPA:30954.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30954 ! mesenchymal layer of prostatic urethra
@@ -45578,7 +45567,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:32302
 name: muscularis mucosa of prostatic urethra
 namespace: anatomical_structure
-def: "muscularis mucosa of prostatic urethra (TS28-TS28): a thin, discontinuous layer comprised of wisps of smooth muscle, located between the lamina propria and the submucosa. Expresses markers of smooth muscle including ACTA2-protein and smooth muscle alpha actin (Acta2)." []
+def: "muscularis mucosa of prostatic urethra (mmprur) (TS28-TS28): a thin, discontinuous layer comprised of wisps of smooth muscle, located between the lamina propria and the submucosa. Expresses markers of smooth muscle including ACTA2-protein and smooth muscle alpha actin (Acta2)." []
 comment: order=1 for EMAPA:30954.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30954 ! mesenchymal layer of prostatic urethra
@@ -45588,7 +45577,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:32303
 name: lamina propria of prostatic urethra
 namespace: anatomical_structure
-def: "lamina propria of prostatic urethra (TS28-TS28): the thin mesenchymal/fibroblastic/stromal cell layer of the prostatic urethra located immediately adjacent to the epithelium, between the epithelium and the muscularis mucosa. Contains connective tissue, marked by pro-collagen." []
+def: "lamina propria of prostatic urethra (lprur) (TS28-TS28): the thin mesenchymal/fibroblastic/stromal cell layer of the prostatic urethra located immediately adjacent to the epithelium, between the epithelium and the muscularis mucosa. Contains connective tissue, marked by pro-collagen." []
 comment: order=0 for EMAPA:30954.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30954 ! mesenchymal layer of prostatic urethra
@@ -49004,10 +48993,7 @@ id: EMAPA:35043
 name: nerve of labia
 namespace: anatomical_structure
 comment: order=4 for EMAPA:30837.
-is_a: EMAPA:35946 ! nerve of female reproductive system
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:30837 ! labia
-relationship: starts_at TS28 ! TS28
+is_obsolete: true
 
 [Term]
 id: EMAPA:35044
@@ -53647,7 +53633,7 @@ name: nephric duct of female
 namespace: anatomical_structure
 alt_id: EMAPA:28924
 alt_id: EMAPA:28945
-def: "nephric duct of female (syn: mesonephric duct of female, Wolffian duct of female) (TS20-TS24): paired epithelial ducts which develop early in development in the cranial/anterior intermediate mesoderm and extend caudally down the rostro-caudal axis of the embryo to terminate at the urogenital sinus/pelvic urethra. Part of the reproductive system from TS20. Develops from the nephric duct (TS19), and is located in mesonephros (anterior) and then at its caudal end (posterior), connects to the dorsal, anterior urogenital sinus (caudal urogenital sinus) at the urogenital sinus ridge. Marked by Cdh1, Pax2 (also seen in the paramesonephric duct) and Hoxb7 (specific to the nephric duct). From TS20-TS24, is comprised of epithelium of nephric duct of female and mesenchyme of nephric duct of female (the mesenchyme surrounding the epithelial duct). In females, the nephric duct degenerates in a rostral to caudal wave beginning at TS22 and complete by TS25, with only remnants seen at TS24." []
+def: "nephric duct of female (nd) (syn: mesonephric duct of female, Wolffian duct of female) (TS20-TS24): paired epithelial ducts which develop early in development in the cranial/anterior intermediate mesoderm and extend caudally down the rostro-caudal axis of the embryo to terminate at the urogenital sinus/pelvic urethra. Part of the reproductive system from TS20. Develops from the nephric duct (TS19), and is located in mesonephros (anterior) and then at its caudal end (posterior), connects to the dorsal, anterior urogenital sinus (caudal urogenital sinus) at the urogenital sinus ridge. Marked by Cdh1, Pax2 (also seen in the paramesonephric duct) and Hoxb7 (specific to the nephric duct). From TS20-24, is comprised of epithelium of nephric duct of female and mesenchyme of nephric duct of female (the mesenchyme surrounding the epithelial duct). In females, the nephric duct degenerates in a rostral to caudal wave beginning at TS22 and complete by TS25, with only remnants seen at TS24." []
 comment: order=23 for EMAPA:17959.
 synonym: "mesonephric duct of female" RELATED []
 synonym: "Wolffian duct of female" RELATED []
@@ -53663,7 +53649,7 @@ name: nephric duct of male
 namespace: anatomical_structure
 alt_id: EMAPA:17970
 alt_id: EMAPA:29173
-def: "nephric duct of male (syn: mesonephric duct of male, Wolffian duct of male) (TS20-TS23): paired epithelial ducts which develop early in development in the cranial/anterior intermediate mesoderm and extend caudally down the rostro-caudal axis of the embryo to terminate at the urogenital sinus/pelvic urethra. Part of the reproductive system from TS20. Develops from the nephric duct (TS19), and is located in mesonephros (anterior) and then at its caudal end (posterior), connects to the dorsal, anterior urogenital sinus (caudal urogenital sinus) at the urogenital sinus ridge. Marked by Cdh1, Pax2 (also seen in the paramesonephric duct) and Hoxb7 (specific to the nephric duct). From TS20-TS23, is comprised of epithelium of nephric duct of male and mesenchyme of nephric duct of male (the mesenchyme surrounding the epithelial duct). In males, the nephric duct of male becomes seminal vesicle, ductus deferens and epididymis from TS24." []
+def: "nephric duct of male (nd) (syn: mesonephric duct of male, Wolffian duct of male) (TS20-TS23): paired epithelial ducts which develop early in development in the cranial/anterior intermediate mesoderm and extend caudally down the rostro-caudal axis of the embryo to terminate at the urogenital sinus/pelvic urethra. Part of the reproductive system from TS20. Develops from the nephric duct (TS19), and is located in mesonephros (anterior) and then at its caudal end (posterior), connects to the dorsal, anterior urogenital sinus (caudal urogenital sinus) at the urogenital sinus ridge. Marked by Cdh1, Pax2 (also seen in the paramesonephric duct) and Hoxb7 (specific to the nephric duct). From TS20-TS23, is comprised of epithelium of nephric duct of male and mesenchyme of nephric duct of male (the mesenchyme surrounding the epithelial duct). In males, the nephric duct of male becomes seminal vesicle, ductus deferens and epididymis from TS24." []
 comment: order=36 for EMAPA:17968.
 synonym: "mesonephric duct of male" RELATED []
 synonym: "Wolffian duct of male" RELATED []
@@ -54287,7 +54273,7 @@ id: EMAPA:35660
 name: paramesonephric duct of female
 namespace: anatomical_structure
 alt_id: EMAPA:35341
-def: "paramesonephric duct of female (syn: Mullerian duct of female) (TS20-TS23): paired epithelial ducts which develop laterally adjacent to the nephric ducts in the anterior mesonephros and extend caudally down the rostro-caudal length of the nephric ducts to terminate at the urogenital sinus/pelvic urethra. Part of the reproductive system. They connect at the caudal end, to the dorsal, anterior urogenital sinus (caudal urogenital sinus) at the urogenital sinus ridge at TS21, crossing over the nephric ducts, such that they connect to the urethra medially, with the nephric ducts located on either side.  The ducts are marked by Cdh1 and Pax2. They are comprised of epithelium and mesenchyme of paramesonephric duct of female. The epithelium is marked by Cdh1 and Pax2. Derives from the paramesonephric duct (syn: Mullerian duct, TS19). In females from TS24, becomes part of the oviduct, ureterus, cervix, uterine horn and upper vagina." []
+def: "paramesonephric duct of female (pnd) (syn: Mullerian duct of female) (TS20-TS23): paired epithelial ducts which develop laterally adjacent to the nephric ducts in the anterior mesonephros and extend caudally down the rostro-caudal length of the nephric ducts to terminate at the urogenital sinus/pelvic urethra. Part of the reproductive system. They connect at the caudal end, to the dorsal, anterior urogenital sinus (caudal urogenital sinus) at the urogenital sinus ridge at TS21, crossing over the nephric ducts, such that they connect to the urethra medially, with the nephric ducts located on either side.  The ducts are marked by Cdh1 and Pax2. They are comprised of epithelium and mesenchyme of paramesonephric duct of female. The epithelium is marked by Cdh1 and Pax2. Derives from the paramesonephric duct (syn: Mullerian duct, TS19). In females from TS24, becomes part of the oviduct, uterus, cervix, uterine horn and upper vagina." []
 comment: order=20 for EMAPA:17959.
 synonym: "Mullerian duct of female" RELATED []
 is_a: EMAPA:27665 ! paramesonephric duct
@@ -54299,7 +54285,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:35661
 name: paramesonephric duct of male
 namespace: anatomical_structure
-def: "paramesonephric duct of male (syn: Mullerian duct of male) (TS20-TS24 in males): paired epithelial ducts which develop laterally adjacent to the nephric ducts in the anterior mesonephros and extend caudally down the rostro-caudal length of the nephric ducts to terminate at the urogenital sinus/pelvic urethra. Part of the reproductive system. They connect at the caudal end, to the dorsal, anterior urogenital sinus (caudal urogenital sinus) at the urogenital sinus ridge at TS21, crossing over the nephric ducts, such that they connect to the urethra medially, with the nephric ducts located on either side.  The ducts are marked by Cdh1 and Pax2. They are comprised of epithelium and mesenchyme of paramesonephric duct of female. The epithelium is marked by Cdh1 and Pax2. Derives from the paramesonephric duct (syn: Mullerian duct, TS19). In males from TS22, the ducts begin to degenerate with only remnants of the ducts present at TS24 in males." []
+def: "paramesonephric duct of male (pnd) (syn: Mullerian duct of male) (TS20-TS24 in males): paired epithelial ducts which develop laterally adjacent to the nephric ducts in the anterior mesonephros and extend caudally down the rostro-caudal length of the nephric ducts to terminate at the urogenital sinus/pelvic urethra. Part of the reproductive system. They connect at the caudal end, to the dorsal, anterior urogenital sinus (caudal urogenital sinus) at the urogenital sinus ridge at TS21, crossing over the nephric ducts, such that they connect to the urethra medially, with the nephric ducts located on either side.  The ducts are marked by Cdh1 and Pax2. They are comprised of epithelium and mesenchyme of paramesonephric duct of female. The epithelium is marked by Cdh1 and Pax2. Derives from the paramesonephric duct (syn: Mullerian duct, TS19). In males from TS22, the ducts begin to degenerate with only remnants of the ducts present at TS24 in males." []
 comment: order=33 for EMAPA:17968.
 synonym: "Mullerian duct of male" RELATED []
 is_a: EMAPA:27665 ! paramesonephric duct
@@ -58094,7 +58080,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36075
 name: suburothelial lamina propria of bladder
 namespace: anatomical_structure
-def: "suburothelial lamina propria of bladder (sulpb) (syn: suburothelial stroma of bladder, suburothelial mesenchyme of bladder, inner lamina propria of bladder) (TS22-TS28): a thin layer of mesenchymal (or stromal) cells located immediately adjacent to the urothelium. Numerous blood vessels and an absence of smooth muscle cells are characteristic of this layer and therefore it does not express markers of smooth muscle (such as smooth muscle actins (alpha-actin and gamma-actin) or smooth muscle myosins (myosin heavy chain) or Tgfb1). At E14-16, the suburothelial lamina propria expresses higher levels of Ptch1, Gli1 and is marked by Snai1 at E17. Contains nerve of suburothelial lamina propria of bladder (TS22-28)." []
+def: "suburothelial lamina propria of bladder (sulpbl) (syn: suburothelial stroma of bladder, suburothelial mesenchyme of bladder, inner lamina propria of bladder) (TS22-TS28): a thin layer of mesenchymal (or stromal) cells located immediately adjacent to the urothelium. Numerous blood vessels and an absence of smooth muscle cells are characteristic of this layer and therefore it does not express markers of smooth muscle (such as smooth muscle actins (alpha-actin and gamma-actin) or smooth muscle myosins (myosin heavy chain) or Tgfb1). At E14-16, the suburothelial lamina propria expresses higher levels of Ptch1, Gli1 and is marked by Snai1 at E17. Contains nerve of suburothelial lamina propria of bladder (TS22-28)." []
 comment: order=0 for EMAPA:30088.
 synonym: "inner lamina propria of bladder" RELATED []
 synonym: "suburothelial mesenchyme of bladder" RELATED []
@@ -58107,7 +58093,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:36076
 name: outer lamina propria of bladder
 namespace: anatomical_structure
-def: "outer lamina propria of bladder (olpb) (syn: muscularis mesenchyme of bladder) (TS22-TS28): the outer mesenchymal layer or outer lamina propria layer of the bladder located adjacent to the detrusor muscle of bladder. Contains loosely organised connective tissue, many small blood vessels and nerves, and discontinuous  wisps of smooth muscle cells marked by smooth muscle alpha actin. At E14-E16 this layer is marked by Gli3 and Myocd (DeSouza et al 2013). Contains nerve of outer lamina propria of bladder (TS22-28)." []
+def: "outer lamina propria of bladder (olpbl) (syn: muscularis mesenchyme of bladder) (TS22-TS28): the outer mesenchymal layer or outer lamina propria layer of the bladder located adjacent to the detrusor muscle of bladder. Contains loosely organised connective tissue, many small blood vessels and nerves, and discontinuous  wisps of smooth muscle cells marked by smooth muscle alpha actin. At E14-E16 this layer is marked by Gli3 and Myocd (DeSouza et al 2013). Contains nerve of outer lamina propria of bladder (TS22-28)." []
 comment: order=1 for EMAPA:30088.
 synonym: "muscularis mesenchyme of bladder" RELATED []
 relationship: ends_at TS28 ! TS28
@@ -58118,7 +58104,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:36077
 name: outer layer of bladder
 namespace: anatomical_structure
-def: "outer layer of bladder (TS22-TS28): the outermost layer of the bladder subdivided into serosa of bladder (TS22-28) and adventitia of bladder (TS22-28). Most of the bladder is covered by serosa, a serous-fluid-secreting outer epithelial surface of the bladder in contact with the coelomic cavity. The fundus (or dome) is surrounded by serosa, the rest of the bladder, in contact with the adjacent connective tissue, is covered by adventitia. The adventitia refers to the outer part of the bladder that is not exposed to the peritoneal cavity but is a connective tissue layer that binds it to the adventitia of adjacent organs. The proportion of the bladder covered by serosa and adventitia is stage dependant, with adventita covering more of the bladder early in development, and the majority covered by serosa later in development. Contains nerve of bladder serosa/adventitia (TS22-28)." []
+def: "outer layer of bladder (olbl) (TS22-TS28): the outermost layer of the bladder subdivided into serosa of bladder (TS22-28) and adventitia of bladder (TS22-28). Most of the bladder is covered by serosa, a serous-fluid-secreting outer epithelial surface of the bladder in contact with the coelomic cavity. The fundus (or dome) is surrounded by serosa, the rest of the bladder, in contact with the adjacent connective tissue, is covered by adventitia. The adventitia refers to the outer part of the bladder that is not exposed to the peritoneal cavity but is a connective tissue layer that binds it to the adventitia of adjacent organs. The proportion of the bladder covered by serosa and adventitia is stage dependant, with adventita covering more of the bladder early in development, and the majority covered by serosa later in development. Contains nerve of bladder serosa/adventitia (TS22-28)." []
 comment: order=3 for EMAPA:18321.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
@@ -58336,7 +58322,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:36099
 name: urogenital sinus ridge
 namespace: anatomical_structure
-def: "urogenital sinus ridge (sr) (syn: sinus ridge) (TS19-TS22): part of the urogenital sinus (TS19-TS21), and part of the caudal urogenital sinus (TS19-TS20), then part of pelvic urethra (TS21-TS22). The thickened and raised, dorsal portion of the urogenital sinus or epithelium of pelvic urethra located at the site where the common nephric duct/nephric duct or reproductive ducts join the urogenital sinus/pelvic urethra. From TS19-TS22 the urogenital sinus ridge surrounds the common nephric duct. Marked by Cdh1 (E-cadherin) and derived from cloacal endoderm.  It is a signalling centre, important for regulating common nephric duct remodelling and apoptosis during ureter maturation and repositioning, and later in development, may be a source of inductive signals regulating vaginal outgrowth. At TS23, it becomes the urogenital sinus ridge of male/female and is part of the pelvic urethra of male/female. At TS24, it becomes the verumontanum in males and sinovaginal bulb in females, the protrusion of the pelvic urethra where the reproductive ducts join." []
+def: "urogenital sinus ridge (UGS ridge) (syn: sinus ridge) (TS19-TS22): part of the urogenital sinus (TS19-TS21), and part of the caudal urogenital sinus (TS19-TS20), then part of pelvic urethra (TS21-TS22). The thickened and raised, dorsal portion of the urogenital sinus or epithelium of pelvic urethra located at the site where the common nephric duct/nephric duct or reproductive ducts join the urogenital sinus/pelvic urethra. From TS19-TS22 the urogenital sinus ridge surrounds the common nephric duct. Marked by Cdh1 (E-cadherin) and derived from cloacal endoderm.  It is a signalling centre, important for regulating common nephric duct remodelling and apoptosis during ureter maturation and repositioning, and later in development, may be a source of inductive signals regulating vaginal outgrowth. At TS23, it becomes the urogenital sinus ridge of male/female and is part of the pelvic urethra of male/female. At TS24, it becomes the verumontanum in males and sinovaginal bulb in females, the protrusion of the pelvic urethra where the reproductive ducts join." []
 comment: order=0 for EMAPA:30882.\norder=0 for EMAPA:30905.
 synonym: "sinus ridge" RELATED []
 relationship: ends_at TS22 ! TS22
@@ -58357,7 +58343,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:36101
 name: common nephric duct
 namespace: anatomical_structure
-def: "common nephric duct (syn: common mesonephric duct, common Wolffian duct) (TS19-TS22): the caudal portion of the paired epithelial nephric ducts, between the ureteric bud stalk/ureter attachment site (anterior/cranial end) and the site of insertion into the urogenital sinus at the urogenital sinus ridge (posterior/caudal end). Regresses after TS21 due to remodelling and apoptosis and at TS22 only a few cells are visible. Marked by Cdh1, Hoxb7 and Ret." []
+def: "common nephric duct (cnd) (syn: common mesonephric duct, common Wolffian duct) (TS19-TS22): the caudal portion of the paired epithelial nephric ducts, between the ureteric bud stalk/ureter attachment site (anterior/cranial end) and the site of insertion into the urogenital sinus at the urogenital sinus ridge (posterior/caudal end). Regresses after TS21 due to remodelling and apoptosis and at TS22 only a few cells are visible. Marked by Cdh1, Hoxb7 and Ret." []
 comment: order=3 for EMAPA:16577.\norder=30 for EMAPA:17366.
 synonym: "common mesonephric duct" RELATED []
 synonym: "common Wolffian duct" RELATED []
@@ -58424,7 +58410,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36108
 name: urogenital sinus ridge of female
 namespace: anatomical_structure
-def: "urogenital sinus ridge of female (TS23-TS23): part of the epithelium of pelvic urethra of female (TS23). The thickened and raised, dorsal portion of the epithelium of dorsal pelvic urethra of female located at the site where the nephric and paramesonephric ducts join the pelvic urethra. Derived from the urogenital sinus ridge, part of the pelvic urethra (TS21-TS22) (derived from cloacal endoderm). In females, the urogenital sinus ridge blocks the originally patent opening of the nephric ducts to the urethra, and assists in the caudal migration of the paramesonephric ducts and later the vagina, towards the clitoris. It may be a source of inductive signals regulating vaginal outgrowth. At TS24, it becomes the sinovaginal bulb (syn: vaginal bulb, lower vagina, sinus vagina)." []
+def: "urogenital sinus ridge of female (UGS ridge) (TS23-TS23): part of the epithelium of pelvic urethra of female (TS23). The thickened and raised, dorsal portion of the epithelium of dorsal pelvic urethra of female located at the site where the nephric and paramesonephric ducts join the pelvic urethra. Derived from the urogenital sinus ridge, part of the pelvic urethra (TS21-TS22) (derived from cloacal endoderm). In females, the urogenital sinus ridge blocks the originally patent opening of the nephric ducts to the urethra, and assists in the caudal migration of the paramesonephric ducts and later the vagina, towards the clitoris. It may be a source of inductive signals regulating vaginal outgrowth. At TS24, it becomes the sinovaginal bulb (syn: vaginal bulb, lower vagina, sinus vagina)." []
 comment: order=0 for EMAPA:32264.
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:32264 ! epithelium of dorsal pelvic urethra of female
@@ -58443,7 +58429,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36110
 name: lamina propria of pelvic urethra of female
 namespace: anatomical_structure
-def: "lamina propria of pelvic urethra of female (syn: peri-epithelial mesenchymal layer of pelvic urethra of female, sub-epithelial mesenchymal layer of pelvic urethra of female) (TS25-TS28): the thin mesenchymal/fibroblastic/stromal cell layer of the pelvic urethra located immediately adjacent to the epithelium, between the epithelium and the muscularis mucosa. Contains connective tissue, marked by pro-collagen. Marked by Snai1, Bmp2 and Foxf1a mRNA at E17. Foxf1a is a marker present in both lamina propria and submucosa of pelvic urethra at E17." []
+def: "lamina propria of pelvic urethra of female (lplur) (syn: peri-epithelial mesenchymal layer of pelvic urethra of female, sub-epithelial mesenchymal layer of pelvic urethra of female) (TS25-TS28): the thin mesenchymal/fibroblastic/stromal cell layer of the pelvic urethra located immediately adjacent to the epithelium, between the epithelium and the muscularis mucosa. Contains connective tissue, marked by pro-collagen. Marked by Snai1, Bmp2 and Foxf1a mRNA at E17. Foxf1a is a marker present in both lamina propria and submucosa of pelvic urethra at E17." []
 comment: order=0 for EMAPA:28765.
 synonym: "peri-epithelial mesenchymal layer of pelvic urethra of female" RELATED []
 synonym: "sub-epithelial mesenchymal layer of pelvic urethra of female" RELATED []
@@ -58455,7 +58441,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:36111
 name: muscularis mucosa of pelvic urethra of female
 namespace: anatomical_structure
-def: "muscularis mucosa of pelvic urethra of female (TS25-TS28): a thin, discontinuous layer comprised of wisps of smooth muscle, located between the lamina propria and the submucosa. Expresses markers of smooth muscle including ACTA2-protein and smooth muscle alpha actin (Acta2), desmin and actin." []
+def: "muscularis mucosa of pelvic urethra of female (mmplur) (TS25-TS28): a thin, discontinuous layer comprised of wisps of smooth muscle, located between the lamina propria and the submucosa. Expresses markers of smooth muscle including ACTA2-protein and smooth muscle alpha actin (Acta2), desmin and actin." []
 comment: order=1 for EMAPA:28765.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28765 ! mesenchymal layer of pelvic urethra of female
@@ -58465,7 +58451,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:36112
 name: submucosa of pelvic urethra of female
 namespace: anatomical_structure
-def: "submucosa of pelvic urethra of female (TS25-TS28): the mesenchymal layer located below the muscularis mucosa of pelvic urethra, between the muscularis mucosa and muscle layer of pelvic urethra, comprised of mesenchymal/fibroblastic cells. Marked by Foxf1a mRNA at E17. Can be distinguished from the lamina propria of pelvic urethra as it does not express Snai1 mRNA at E17." []
+def: "submucosa of pelvic urethra of female (smplur) (TS25-TS28): the mesenchymal layer located below the muscularis mucosa of pelvic urethra, between the muscularis mucosa and muscle layer of pelvic urethra, comprised of mesenchymal/fibroblastic cells. Marked by Foxf1a mRNA at E17. Can be distinguished from the lamina propria of pelvic urethra as it does not express Snai1 mRNA at E17." []
 comment: order=2 for EMAPA:28765.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28765 ! mesenchymal layer of pelvic urethra of female
@@ -58523,7 +58509,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36118
 name: adventitia of pelvic urethra of female
 namespace: anatomical_structure
-def: "adventitia of pelvic urethra of female (TS23-TS28): the outer connective tissue layer of the pelvic urethra. The pelvic urethra is not surrounded by an outer serous membrane or serosa." []
+def: "adventitia of pelvic urethra of female (aplur) (TS23-TS28): the outer connective tissue layer of the pelvic urethra. The pelvic urethra is not surrounded by an outer serous membrane or serosa." []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28753 ! pelvic urethra of female
 relationship: starts_at TS23 ! TS23
@@ -58567,7 +58553,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36123
 name: urogenital sinus ridge of male
 namespace: anatomical_structure
-def: "urogenital sinus ridge of male (TS23-TS23): part of the epithelium of pelvic urethra of male (TS23). The thickened and raised, dorsal portion of the epithelium of dorsal pelvic urethra of male located at the site where the nephric ducts join the pelvic urethra. Derived from the urogenital sinus ridge, part of the pelvic urethra (TS21-TS22) (derived from cloacal endoderm). At TS24, it becomes the verumontanum (syn: seminal colliculus), the protrusion of the urethra where the prostate gland and ejaculatory ducts join." []
+def: "urogenital sinus ridge of male (UGS ridge) (TS23-TS23): part of the epithelium of pelvic urethra of male (TS23). The thickened and raised, dorsal portion of the epithelium of dorsal pelvic urethra of male located at the site where the nephric ducts join the pelvic urethra. Derived from the urogenital sinus ridge, part of the pelvic urethra (TS21-TS22) (derived from cloacal endoderm). At TS24, it becomes the verumontanum (syn: seminal colliculus), the protrusion of the urethra where the prostate gland and ejaculatory ducts join." []
 comment: order=0 for EMAPA:32300.
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:32300 ! epithelium of dorsal pelvic urethra of male
@@ -58586,7 +58572,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36125
 name: lamina propria of pelvic urethra of male
 namespace: anatomical_structure
-def: "lamina propria of pelvic urethra of male (syn: peri-epithelial mesenchymal layer of pelvic urethra of male, sub-epithelial mesenchymal layer of pelvic urethra of male) (TS25-TS28): the thin mesenchymal/fibroblastic/stromal cell layer of the pelvic urethra located immediately adjacent to the epithelium, between the epithelium and the muscularis mucosa. Contains connective tissue, marked by pro-collagen. Marked by Snai1, Bmp2 and Foxf1a mRNA at E17. Foxf1a is a marker present in both lamina propria and submucosa of pelvic urethra at E17." []
+def: "lamina propria of pelvic urethra of male (lplur) (syn: peri-epithelial mesenchymal layer of pelvic urethra of male, sub-epithelial mesenchymal layer of pelvic urethra of male) (TS25-TS28): the thin mesenchymal/fibroblastic/stromal cell layer of the pelvic urethra located immediately adjacent to the epithelium, between the epithelium and the muscularis mucosa. Contains connective tissue, marked by pro-collagen. Marked by Snai1, Bmp2 and Foxf1a mRNA at E17. Foxf1a is a marker present in both lamina propria and submucosa of pelvic urethra at E17." []
 comment: order=0 for EMAPA:28703.
 synonym: "peri-epithelial mesenchymal layer of pelvic urethra of male" RELATED []
 synonym: "sub-epithelial mesenchymal layer of pelvic urethra of male" RELATED []
@@ -58598,7 +58584,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:36126
 name: muscularis mucosa of pelvic urethra of male
 namespace: anatomical_structure
-def: "muscularis mucosa of pelvic urethra of male (TS25-TS28): a thin, discontinuous layer comprised of wisps of smooth muscle, located between the lamina propria and the submucosa. Expresses markers of smooth muscle including ACTA2-protein and smooth muscle alpha actin (Acta2), desmin and actin." []
+def: "muscularis mucosa of pelvic urethra of male (mmplur) (TS25-TS28): a thin, discontinuous layer comprised of wisps of smooth muscle, located between the lamina propria and the submucosa. Expresses markers of smooth muscle including ACTA2-protein and smooth muscle alpha actin (Acta2), desmin and actin." []
 comment: order=1 for EMAPA:28703.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28703 ! mesenchymal layer of pelvic urethra of male
@@ -58608,7 +58594,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:36127
 name: submucosa of pelvic urethra of male
 namespace: anatomical_structure
-def: "submucosa of pelvic urethra of male (TS25-TS28): the mesenchymal layer located below the muscularis mucosa of pelvic urethra, between the muscularis mucosa and muscle layer of pelvic urethra, comprised of mesenchymal/fibroblastic cells. Marked by Foxf1a mRNA at E17. Can be distinguished from the lamina propria of pelvic urethra as it does not express Snai1 mRNA at E17." []
+def: "submucosa of pelvic urethra of male (smplur) (TS25-TS28): the mesenchymal layer located below the muscularis mucosa of pelvic urethra, between the muscularis mucosa and muscle layer of pelvic urethra, comprised of mesenchymal/fibroblastic cells. Marked by Foxf1a mRNA at E17. Can be distinguished from the lamina propria of pelvic urethra as it does not express Snai1 mRNA at E17." []
 comment: order=2 for EMAPA:28703.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28703 ! mesenchymal layer of pelvic urethra of male
@@ -58645,7 +58631,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:36131
 name: adventitia of pelvic urethra of male
 namespace: anatomical_structure
-def: "adventitia of pelvic urethra of male (TS23-TS28): the outer connective tissue layer of the pelvic urethra. The pelvic urethra is not surrounded by an outer serous membrane or serosa." []
+def: "adventitia of pelvic urethra of male (aplur) (TS23-TS28): the outer connective tissue layer of the pelvic urethra. The pelvic urethra is not surrounded by an outer serous membrane or serosa." []
 comment: order=3 for EMAPA:18995.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18995 ! pelvic urethra of male
@@ -58655,7 +58641,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36132
 name: ventral epithelial bud of female
 namespace: anatomical_structure
-def: "ventral epithelial bud of female (TS24-TS26): part of urethra of female and part of the pelvic urethra of female. In female mice, epithelial buds develop from the epithelium of the pelvic urethra. These buds develop in the ventral pelvic urethra in females, anterior to the sinovaginal bulb connection to the pelvic urethra in the same location as ventral prostate buds in the male. At birth, these buds are short, only a few cells in diameter and extend out from the epithelium of pelvic urethra, however they are more numerous than the ventral epithelial bud of male. Unlike in the male, where some of these ventral epithelial buds are ventral prostate buds and develop into the ventral prostate gland, in the female, these buds do not elongate. Female mice can develop functional prostate glands if exposed to exogenous androgens. Sometimes these buds are called rudimentary prostate buds or female prostate buds. However during normal female development, they most likely develop into urethral gland of female pelvic urethra (syn: Skene's gland of pelvic urethra, TS27)." []
+def: "ventral epithelial bud of female (veb) (TS24-TS26): part of urethra of female and part of the pelvic urethra of female. In female mice, epithelial buds develop from the epithelium of the pelvic urethra. These buds develop in the ventral pelvic urethra in females, anterior to the sinovaginal bulb connection to the pelvic urethra in the same location as ventral prostate buds in the male. At birth, these buds are short, only a few cells in diameter and extend out from the epithelium of pelvic urethra, however they are more numerous than the ventral epithelial bud of male. Unlike in the male, where some of these ventral epithelial buds are ventral prostate buds and develop into the ventral prostate gland, in the female, these buds do not elongate. Female mice can develop functional prostate glands if exposed to exogenous androgens. Sometimes these buds are called rudimentary prostate buds or female prostate buds. However during normal female development, they most likely develop into urethral gland of female pelvic urethra (syn: Skene's gland of pelvic urethra, TS27)." []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:28753 ! pelvic urethra of female
 relationship: starts_at TS24 ! TS24
@@ -58685,7 +58671,7 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:36135
 name: ventral epithelial bud of male
 namespace: anatomical_structure
-def: "ventral epithelial bud of male (TS24-TS26): part of urethra of male, part of the pelvic urethra of male. Epithelial glands that bud from the pelvic urethra of male, develop from the cloacal endoderm-derived epithelium located in the ventral, anterior pelvic urethra, close to the bladder neck. In male mice, these buds represent both anterior male urethral gland buds and ventral prostate buds, which will develop into male urethral glands and ventral prostate glands respectively (TS27). These two gland types are grouped together because, during development, urethral and prostate glands cannot be distinguished from each other and both express the same markers, such as the early prostate marker, Nkx3-1.  Edar and Wnt10b mRNA staining intensity can be used to separate prostatic gland buds (High Edar and Wnt10b mRNA expression) from urethral gland buds (Low to not detectable Edar and Wnt10b mRNA) in male mice during development. By TS27 (birth), ventral prostate buds can be distinguished from male urethral gland buds as they are longer, having started to enlongate, and are seen in two lateral rows, with the smaller, shorter male urethral gland buds present medially and not aligned into rows. Ventral prostate bud is also part of the prostate bud (TS24-TS26, part of prostate gland) and becomes ventral prostate gland (TS27). Anterior male urethral gland buds become urethral gland of male pelvic urethra (TS27)." []
+def: "ventral epithelial bud of male (veb) (TS24-TS26): part of urethra of male, part of the pelvic urethra of male. Epithelial glands that bud from the pelvic urethra of male, develop from the cloacal endoderm-derived epithelium located in the ventral, anterior pelvic urethra, close to the bladder neck. In male mice, these buds represent both anterior male urethral gland buds and ventral prostate buds, which will develop into male urethral glands and ventral prostate glands respectively (TS27). These two gland types are grouped together because, during development, urethral and prostate glands cannot be distinguished from each other and both express the same markers, such as the early prostate marker, Nkx3-1.  Edar and Wnt10b mRNA staining intensity can be used to separate prostatic gland buds (High Edar and Wnt10b mRNA expression) from urethral gland buds (Low to not detectable Edar and Wnt10b mRNA) in male mice during development. By TS27 (birth), ventral prostate buds can be distinguished from male urethral gland buds as they are longer, having started to enlongate, and are seen in two lateral rows, with the smaller, shorter male urethral gland buds present medially and not aligned into rows. Ventral prostate bud is also part of the prostate bud (TS24-TS26, part of prostate gland) and becomes ventral prostate gland (TS27). Anterior male urethral gland buds become urethral gland of male pelvic urethra (TS27)." []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18995 ! pelvic urethra of male
 relationship: starts_at TS24 ! TS24
@@ -58703,7 +58689,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36137
 name: verumontanum
 namespace: anatomical_structure
-def: "verumontanum (syn: seminal colliculus) (TS24-TS28): the raised, dorsal portion of the male urethra where the prostate glands and orifices of the ejaculatory ducts enter the urethra. Part of the pelvic urethra of male (TS24-TS27), and in the adult is part of the prostatic urethra (TS28). Also part of the male urethra. Derived from the urogenital sinus ridge of male (TS23)." []
+def: "verumontanum (ver) (syn: seminal colliculus) (TS24-TS28): the raised, dorsal portion of the male urethra where the prostate glands and orifices of the ejaculatory ducts enter the urethra. Part of the pelvic urethra of male (TS24-TS27), and in the adult is part of the prostatic urethra (TS28). Also part of the male urethra. Derived from the urogenital sinus ridge of male (TS23)." []
 comment: order=0 for EMAPA:36136.
 synonym: "seminal colliculus" RELATED []
 relationship: ends_at TS28 ! TS28
@@ -58732,7 +58718,7 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:36140
-name: adventitia of prostatic urethra of male
+name: adventitia of prostatic urethra
 namespace: anatomical_structure
 def: "adventitia of prostatic urethra (TS28-TS28): the outer connective tissue layer of the prostatic urethra. The prostatic urethra is not surrounded by an outer serous membrane or serosa." []
 comment: order=3 for EMAPA:30942.
@@ -60983,7 +60969,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36404
 name: male urogenital mating protuberance ridge groove
 namespace: anatomical_structure
-def: "male urogenital mating protuberance ridge groove (syn: MUMP ridge) (TS28-TS28): a groove that encircles the distal glans penis and defines the boundary of the MUMP." []
+def: "male urogenital mating protuberance ridge groove (MUMP rg) (syn: MUMP ridge) (TS28-TS28): a groove that encircles the distal glans penis and defines the boundary of the MUMP." []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36398 ! male urogenital mating protuberance
 relationship: starts_at TS28 ! TS28
@@ -61132,7 +61118,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:36421
 name: urethral seam
 namespace: anatomical_structure
-def: "urethral seam (syn: urethral raphe, ventral seam) (TS24-TS28): in the male, growth from mesenchyme ventral to the phallic urethra closes the proximal urethral meatus and septates the epithelium of phallic urethra. This results in the centrally positioned phallic urethra and the ventrally positioned urethral seam. The urethral seam is a solid epithelial cord present underneath the skin along the ventral midline of the penis. Septation moves in a proximal to distal direction along the penis during development and the urethral seam is retained in the adult penis. Part of the genital tubercle of male (TS24), part of the penis (TS25-TS28) and also part of phallic urethra of male (TS24) and penile urethra." []
+def: "urethral seam (urseam) (syn: urethral raphe, ventral seam) (TS24 -TS28): in the male, growth from mesenchyme ventral to the phallic urethra closes the proximal urethral meatus and septates the epithelium of phallic urethra. This results in the centrally positioned phallic urethra and the ventrally positioned urethral seam. The urethral seam is a solid epithelial cord present underneath the skin along the ventral midline of the penis. Septation moves in a proximal to distal direction along the penis during development and the urethral seam is retained in the adult penis. Part of the genital tubercle of male (TS24), part of the penis (TS25-TS28) and also part of phallic urethra of male (TS24) and penile urethra." []
 synonym: "urethral raphe" RELATED []
 synonym: "ventral seam" RELATED []
 relationship: ends_at TS28 ! TS28
@@ -61175,7 +61161,7 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:36425
 name: male urethral gland bud
 namespace: anatomical_structure
-def: "male urethral gland bud (TS24-TS26): numerous epithelial urethral glands bud from the epithelium of the pelvic urethra. Part of the urethra of male and pelvic urethra of male. Subdivided into anterior and posterior male urethral gland bud (in the male only). In males, anterior male urethral gland buds are also a part of ventral epithelial bud of male, because at early stages, they cannot be distinguished from ventral prostate buds. These two gland types both express the early prostate marker, Nkx3-1.  Edar and Wnt10b mRNA staining intensity can be used to separate prostatic gland buds (High Edar and Wnt10b mRNA expression) from urethral gland buds (Low to not detectable Edar and Wnt10b mRNA) in male mice during development. At TS27, develop into urethral gland of male pelvic urethra." []
+def: "male urethral gland bud (ugbud) (TS24-TS26): numerous epithelial urethral glands bud from the epithelium of the pelvic urethra. Part of the urethra of male and pelvic urethra of male. Subdivided into anterior and posterior male urethral gland bud (in the male only). In males, anterior male urethral gland buds are also a part of ventral epithelial bud of male, because at early stages, they cannot be distinguished from ventral prostate buds. These two gland types both express the early prostate marker, Nkx3-1.  Edar and Wnt10b mRNA staining intensity can be used to separate prostatic gland buds (High Edar and Wnt10b mRNA expression) from urethral gland buds (Low to not detectable Edar and Wnt10b mRNA) in male mice during development. At TS27, develop into urethral gland of male pelvic urethra." []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18692 ! urethra of male
 relationship: part_of EMAPA:18995 ! pelvic urethra of male
@@ -61210,8 +61196,8 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36429
 name: bulbourethral gland of female
 namespace: anatomical_structure
-def: "bulbourethral gland of female (syn: Cowper's gland of female) (TS23-TS28): paired epithelial secretory glands develop at the junction of the phallic/penile/clitoral and pelvic urethra in males and females. First seen at E15.5 (TS23), budding out from the epithelium of the urethra in both sexes. They are larger in the male. Growth is dependant on androgens and in males, they canalise after birth (TS27, P1) opening into the urethra and then branch and enlarge during the neonatal period. Comprised of epithelium and a thin interstitium (or connective tissue) which also contains the vasculature (blood vessels). The epithelium of bulbourethral gland is derived from cloacal endoderm. Part of urethra of male/female, and also part of male/female accessory gland. Also called Cowper's gland in human males and not present in human females. It is likely they remain only rudimentary in the adult female mouse." []
-synonym: "Cowper's gland of female" RELATED []
+def: "bulbourethral gland of female (bugl) (syn: Bartholin's gland) (TS23-TS28): paired epithelial secretory glands develop at the junction of the phallic/penile/clitoral and pelvic urethra in males and females. First seen at E15.5 (TS23), budding out from the epithelium of the urethra in both sexes. They are larger in the male. Growth is dependant on androgens and in males, they canalise after birth (TS27, P1) opening into the urethra and then branch and enlarge during the neonatal period. Comprised of epithelium and a thin interstitium (or connective tissue) which also contains the vasculature (blood vessels). The epithelium of bulbourethral gland is derived from cloacal endoderm. Part of urethra of male/female, and also part of male/female accessory gland. Also called Cowper's gland in human males and not present in human females. It is likely they remain only rudimentary in the adult female mouse." []
+synonym: "Bartholin's gland" RELATED []
 is_a: EMAPA:36428 ! female accessory gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
@@ -61245,7 +61231,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36433
 name: phallic urethra of female
 namespace: anatomical_structure
-def: "phallic urethra of female (syn: external urethra of female) (TS21-TS24): part of the genital tubercle of female and part of the urethra of female. Comprised of epithelium and anatomically located within the genital tubercle of female. From TS25, as the genital tubercle becomes the penis and clitoris, the phallic urethra becomes the penile or clitoral urethra in male and females respectively. The phallic urethra is anatomically located within the genital tubercle and is surrounded by the tissue of the genital tubercle, therefore only the epithelial components are necessary parts of phallic urethra." []
+def: "phallic urethra of female (PHUR) (syn: external urethra of female) (TS21-TS24): part of the genital tubercle of female and part of the urethra of female. Comprised of epithelium and anatomically located within the genital tubercle of female. From TS25, as the genital tubercle becomes the penis and clitoris, the phallic urethra becomes the penile or clitoral urethra in male and females respectively. The phallic urethra is anatomically located within the genital tubercle and is surrounded by the tissue of the genital tubercle, therefore only the epithelial components are necessary parts of phallic urethra." []
 synonym: "external urethra of female" RELATED []
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:18680 ! genital tubercle of female
