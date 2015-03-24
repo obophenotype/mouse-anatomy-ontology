@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 23:03:2015 22:26
+date: 24:03:2015 15:13
 saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -38267,17 +38267,17 @@ relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:27566
-name: anterior gonadal mesenchyme
+name: anterior gonad primordium mesenchyme
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16858.
-synonym: "rostral gonadal mesenchyme" RELATED []
+synonym: "rostral gonad primordium mesenchyme" RELATED []
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16858 ! gonad primordium mesenchyme
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:27568
-name: central gonadal mesenchyme
+name: central gonad primordium mesenchyme
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16858.
 relationship: ends_at TS18 ! TS18
@@ -38286,10 +38286,10 @@ relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:27570
-name: posterior gonadal mesenchyme
+name: posterior gonad primordium mesenchyme
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16858.
-synonym: "caudal gonadal mesenchyme" RELATED []
+synonym: "caudal gonad primordium mesenchyme" RELATED []
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16858 ! gonad primordium mesenchyme
 relationship: starts_at TS17 ! TS17
@@ -41995,16 +41995,16 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:29052.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29052 ! epithelium of upper vagina
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:29943
-name: rest of epithelial layer of upper vagina
+name: rest of epithelium of upper vagina
 namespace: anatomical_structure
 comment: order=1 for EMAPA:29052.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29052 ! epithelium of upper vagina
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:29945
@@ -42708,6 +42708,7 @@ id: EMAPA:30646
 name: glans penis skin
 namespace: anatomical_structure
 alt_id: EMAPA:29858
+def: "glans penis skin (syn: surface epithelium of glans penis) (TS25-TS28): the glans penis is covered with skin that contains keratinized epithelial spines." []
 comment: order=0 for EMAPA:18988.
 synonym: "surface epithelium of glans penis" RELATED []
 is_a: EMAPA:35963 ! male reproductive system epithelium
@@ -45443,12 +45444,13 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:32286
-name: neural crest derivative of pelvic urethra of male
+name: presumptive neural crest derivative of pelvic urethra of male
 namespace: anatomical_structure
+def: "presumptive neural crest derivative of pelvic urethra of male (TS23-TS27): lineage tracing with a neural crest Cre driver has not been carried out but likely to be neural crest derived given location and presence in both male and female." []
 comment: order=6 for EMAPA:18995.
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18995 ! pelvic urethra of male
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:32287
@@ -45462,12 +45464,13 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:32288
-name: neural crest derivative of pelvic urethra of female
+name: presumptive neural crest derivative of pelvic urethra of female
 namespace: anatomical_structure
+def: "presumptive neural crest derivative of pelvic urethra of female (TS23-TS27): lineage tracing with a neural crest Cre driver has not been carried out but likely to be neural crest derived given location and presence in both male and female." []
 comment: order=5 for EMAPA:28753.
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:28753 ! pelvic urethra of female
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:32289
@@ -61010,6 +61013,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36406
 name: corpus cavernosum glandis
 namespace: anatomical_structure
+def: "corpus cavernosum glandis (syn: corpora cavernosa glandis) (TS28-TS28): two, linear corpora cavernosa erectile tissue located dorsally and ventrally within the glans penis." []
 synonym: "corpora cavernosa glandis" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29856 ! corpus cavernosum of glans penis
@@ -61271,6 +61275,26 @@ synonym: "urethral opening of penile urethra" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30946 ! epithelium of penile urethra
 relationship: starts_at TS25 ! TS25
+
+[Term]
+id: EMAPA:36435
+name: urogenital membrane of female
+namespace: anatomical_structure
+def: "urogenital membrane of female (TS20-TS26): comprised of the urethral plate epithelium (cloacal endoderm-derived) and the skin (ectoderm-derived), where the two different epithelia are in direct contact. (Note: distinct to the cloacal membrane, which is comprised of the regions of surface ectoderm and cloacal epithelium in contact with each other and part of the cloaca). The urogenital membrane is part of the genital tubercle at TS19. Then becomes part of the genital tubercle of male/female from TS20-25 and part of the penis/clitoris at TS26. At TS27 it is no longer seen in males and females, as the urethral plate is no longer present." []
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:18680 ! genital tubercle of female
+relationship: part_of EMAPA:30819 ! clitoris
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36436
+name: urogenital membrane of male
+namespace: anatomical_structure
+def: "urogenital membrane of male (TS20-TS26): comprised of the urethral plate epithelium (cloacal endoderm-derived) and the skin (ectoderm-derived), where the two different epithelia are in direct contact. (Note: distinct to the cloacal membrane, which is comprised of the regions of surface ectoderm and cloacal epithelium in contact with each other and part of the cloaca). Urogenital membrane is part of the genital tubercle at TS19. Then becomes part of the genital tubercle of male/female from TS20-25 and part of the penis/clitoris at TS26. At TS27 it is no longer seen in males and females, as the urethral plate is no longer present." []
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:17969 ! genital tubercle of male
+relationship: part_of EMAPA:18682 ! penis
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: group_term
