@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 24:03:2015 15:13
-saved-by: jarm
+date: 25:03:2015 17:23
+saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -11372,7 +11372,7 @@ alt_id: EMAPA:29990
 comment: order=2 for EMAPA:17373.\norder=1 for EMAPA:17366.
 synonym: "kidney mesenchyme" RELATED []
 is_a: EMAPA:35898 ! urinary system mesenchyme
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: part_of EMAPA:17373 ! metanephros
 relationship: starts_at TS17 ! TS17
@@ -16479,7 +16479,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:17918.
 is_a: EMAPA:32868 ! lower jaw tooth epithelium
 is_a: EMAPA:32890 ! incisor epithelium
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17918 ! lower jaw incisor
 relationship: starts_at TS21 ! TS21
 
@@ -16490,7 +16490,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:17918.
 is_a: EMAPA:32876 ! lower jaw tooth mesenchyme
 is_a: EMAPA:32894 ! incisor mesenchyme
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17918 ! lower jaw incisor
 relationship: starts_at TS21 ! TS21
 
@@ -16511,7 +16511,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:17921.
 is_a: EMAPA:32868 ! lower jaw tooth epithelium
 is_a: EMAPA:32878 ! molar epithelium
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17921 ! lower jaw molar
 relationship: starts_at TS21 ! TS21
 
@@ -16522,7 +16522,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:17921.
 is_a: EMAPA:32876 ! lower jaw tooth mesenchyme
 is_a: EMAPA:32881 ! molar mesenchyme
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17921 ! lower jaw molar
 relationship: starts_at TS21 ! TS21
 
@@ -16611,7 +16611,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:17939.
 is_a: EMAPA:32865 ! upper jaw tooth epithelium
 is_a: EMAPA:32890 ! incisor epithelium
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17939 ! upper jaw incisor
 relationship: starts_at TS21 ! TS21
 
@@ -16622,7 +16622,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:17939.
 is_a: EMAPA:32864 ! upper jaw tooth mesenchyme
 is_a: EMAPA:32894 ! incisor mesenchyme
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17939 ! upper jaw incisor
 relationship: starts_at TS21 ! TS21
 
@@ -16643,7 +16643,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:17942.
 is_a: EMAPA:32865 ! upper jaw tooth epithelium
 is_a: EMAPA:32878 ! molar epithelium
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17942 ! upper jaw molar
 relationship: starts_at TS21 ! TS21
 
@@ -16654,7 +16654,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:17942.
 is_a: EMAPA:32864 ! upper jaw tooth mesenchyme
 is_a: EMAPA:32881 ! molar mesenchyme
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17942 ! upper jaw molar
 relationship: starts_at TS21 ! TS21
 
@@ -19710,7 +19710,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:17919.
 is_a: EMAPA:32877 ! lower jaw tooth dental lamina
 is_a: EMAPA:32896 ! incisor dental lamina
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17919 ! lower jaw incisor epithelium
 relationship: starts_at TS22 ! TS22
 
@@ -19721,7 +19721,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:17919.
 is_a: EMAPA:32875 ! lower jaw tooth enamel organ
 is_a: EMAPA:32895 ! incisor enamel organ
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17919 ! lower jaw incisor epithelium
 relationship: starts_at TS22 ! TS22
 
@@ -19732,7 +19732,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:17920.
 is_a: EMAPA:32863 ! lower jaw tooth dental papilla
 is_a: EMAPA:32893 ! incisor dental papilla
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17920 ! lower jaw incisor mesenchyme
 relationship: starts_at TS22 ! TS22
 
@@ -19743,7 +19743,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:17922.
 is_a: EMAPA:32877 ! lower jaw tooth dental lamina
 is_a: EMAPA:32879 ! molar dental lamina
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17922 ! lower jaw molar epithelium
 relationship: starts_at TS22 ! TS22
 
@@ -19754,7 +19754,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:17922.
 is_a: EMAPA:32875 ! lower jaw tooth enamel organ
 is_a: EMAPA:32880 ! molar enamel organ
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17922 ! lower jaw molar epithelium
 relationship: starts_at TS22 ! TS22
 
@@ -19765,7 +19765,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:17923.
 is_a: EMAPA:32863 ! lower jaw tooth dental papilla
 is_a: EMAPA:32882 ! molar dental papilla
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17923 ! lower jaw molar mesenchyme
 relationship: starts_at TS22 ! TS22
 
@@ -19776,7 +19776,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:17940.
 is_a: EMAPA:32859 ! upper jaw tooth dental lamina
 is_a: EMAPA:32896 ! incisor dental lamina
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17940 ! upper jaw incisor epithelium
 relationship: starts_at TS22 ! TS22
 
@@ -19787,7 +19787,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:17940.
 is_a: EMAPA:32858 ! upper jaw tooth enamel organ
 is_a: EMAPA:32895 ! incisor enamel organ
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17940 ! upper jaw incisor epithelium
 relationship: starts_at TS22 ! TS22
 
@@ -19798,7 +19798,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:17941.
 is_a: EMAPA:32861 ! upper jaw tooth dental papilla
 is_a: EMAPA:32893 ! incisor dental papilla
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17941 ! upper jaw incisor mesenchyme
 relationship: starts_at TS22 ! TS22
 
@@ -19809,7 +19809,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:17943.
 is_a: EMAPA:32859 ! upper jaw tooth dental lamina
 is_a: EMAPA:32879 ! molar dental lamina
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17943 ! upper jaw molar epithelium
 relationship: starts_at TS22 ! TS22
 
@@ -19820,7 +19820,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:17943.
 is_a: EMAPA:32858 ! upper jaw tooth enamel organ
 is_a: EMAPA:32880 ! molar enamel organ
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17943 ! upper jaw molar epithelium
 relationship: starts_at TS22 ! TS22
 
@@ -19831,7 +19831,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:17944.
 is_a: EMAPA:32861 ! upper jaw tooth dental papilla
 is_a: EMAPA:32882 ! molar dental papilla
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17944 ! upper jaw molar mesenchyme
 relationship: starts_at TS22 ! TS22
 
@@ -38437,7 +38437,6 @@ synonym: "condensed mesenchyme" RELATED []
 is_a: EMAPA:35898 ! urinary system mesenchyme
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17373 ! metanephros
-relationship: part_of EMAPA:17375 ! metanephric mesenchyme
 relationship: part_of EMAPA:27721 ! nephrogenic zone
 relationship: starts_at TS19 ! TS19
 
@@ -42791,7 +42790,7 @@ comment: order=8 for EMAPA:18680.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18680 ! genital tubercle of female
 relationship: part_of EMAPA:30819 ! clitoris
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:30703
@@ -43427,14 +43426,14 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:30924
-name: urethral plate epithelium of female
+name: urethral plate epithelium of clitoral urethra
 namespace: anatomical_structure
 comment: order=3 for EMAPA:30917.
 synonym: "distal urethral epithelium of female" RELATED []
 synonym: "urethral plate of female" RELATED []
-relationship: ends_at TS24 ! TS24
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30930 ! epithelium of clitoral urethra
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:30927
@@ -44666,7 +44665,7 @@ relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:31536
-name: urethral plate epithelium of female
+name: urethral plate epithelium of phallic urethra of female
 namespace: anatomical_structure
 def: "urethral plate epithelium of female (upe) (syn: urethral plate of female, distal urethral epithelium of female) (TS20-TS26 in females; TS20-TS24 in males); a bilaminar epithelium, which at TS20 is located  along the ventral mid-line of the genital tubercle of male/female. Derived from the urethral plate epithelium (TS19). This bilayered epithelium often called the urethral plate, is marked by Shh, and continues to grow distally as  the genital tubercle grows distally. At TS20 is part of the genital tubercle of male/female and from TS21 is part of the epithelium of phallic urethra of male/female, which is part of genital tubercle of male/female and is also part of the phallic urethra of male/female.  From TS21-24 it is located at the distal end of the phallic urethra of male/female. At TS25 in males, the urethra has completely canalised (is fully patent); the urethral plate is no longer seen, the urethra opens at the urethral meatus and the proximal urethral meatus has closed. The urethral plate epithelium is only present in females from this TS25.  From TS26, the urethral plate epithelium of female is part of the clitoris, located distally, and part of the epithelium of clitoral urethra. At TS27 it is no longer seen in females." []
 comment: order=0 for EMAPA:30470.
@@ -50194,8 +50193,8 @@ id: EMAPA:35203
 name: cementum
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35872.
+is_a: EMAPA:35872 ! tooth substance
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35872 ! tooth substance
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -50924,8 +50923,8 @@ id: EMAPA:35281
 name: dentin
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35872.
+is_a: EMAPA:35872 ! tooth substance
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35872 ! tooth substance
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -50983,7 +50982,7 @@ name: distal urethral epithelium
 namespace: anatomical_structure
 def: "urethral plate epithelium (syn: urethral plate) (TS19): a bilaminar epithelial extension of the cloacal epithelium that grows out from the cloaca, between the ventrolateral genital swellings. Derived from cloacal endoderm. This bilayered epithelium often called the urethral plate, marked by Shh, continues to grow distally with the genital tubercle. At TS19 is part of the genital tubercle and from TS20 as the ontology becomes gender-specific it becomes part of the genital tubercle of male/female and from TS21 it is also part of the phallic urethra epithelium, which is part of genital tubercle of male/female and part of the phallic urethra." []
 comment: order=0 for EMAPA:31518.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:31518 ! urethral plate epithelium
 relationship: starts_at TS21 ! TS21
 
@@ -53038,7 +53037,7 @@ id: EMAPA:35517
 name: lower jaw incisor dental follicle
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17918.
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17918 ! lower jaw incisor
 relationship: starts_at TS22 ! TS22
 
@@ -53047,7 +53046,7 @@ id: EMAPA:35518
 name: lower jaw molar dental follicle
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17921.
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17921 ! lower jaw molar
 relationship: starts_at TS22 ! TS22
 
@@ -56236,7 +56235,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:32906.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32906 ! tooth
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35873
@@ -57114,7 +57113,7 @@ id: EMAPA:35964
 name: proximal urethral epithelium
 namespace: anatomical_structure
 comment: order=1 for EMAPA:31518.
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:31518 ! urethral plate epithelium
 relationship: starts_at TS21 ! TS21
 
@@ -57205,7 +57204,7 @@ name: cardiovascular system mesenchyme
 namespace: anatomical_structure
 comment: order=4 for EMAPA:16104.
 is_a: EMAPA:35961 ! embryo mesenchyme
-relationship: ends_at TS17 ! TS17
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16104 ! cardiovascular system
 relationship: starts_at TS12 ! TS12
 
@@ -61295,6 +61294,47 @@ relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17969 ! genital tubercle of male
 relationship: part_of EMAPA:18682 ! penis
 relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36437
+name: mesenchyme of metanephros
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:17373 ! metanephros
+relationship: starts_at TS18 ! TS18
+created_by: terryh
+creation_date: 2015-03-25T12:47:57Z
+
+[Term]
+id: EMAPA:36438
+name: heart mesenchyme
+namespace: anatomical_structure
+is_a: EMAPA:35973 ! cardiovascular system mesenchyme
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16105 ! heart
+relationship: starts_at TS12 ! TS12
+created_by: terryh
+creation_date: 2015-03-25T14:04:01Z
+
+[Term]
+id: EMAPA:36439
+name: predentin
+namespace: anatomical_structure
+is_a: EMAPA:35872 ! tooth substance
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS26 ! TS26
+created_by: terryh
+creation_date: 2015-03-25T15:16:52Z
+
+[Term]
+id: EMAPA:36440
+name: tooth basement membrane
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32906 ! tooth
+relationship: starts_at TS21 ! TS21
+created_by: terryh
+creation_date: 2015-03-25T15:22:13Z
 
 [Term]
 id: group_term
