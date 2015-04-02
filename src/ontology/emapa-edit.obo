@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 25:03:2015 17:23
-saved-by: terryh
+date: 02:04:2015 20:18
+saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -22443,7 +22443,7 @@ synonym: "vas deferens" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
 relationship: part_of EMAPA:28533 ! male associated reproductive structure
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:18682
@@ -22454,7 +22454,7 @@ comment: order=21 for EMAPA:17968.\norder=1 for EMAPA:30977.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
 relationship: part_of EMAPA:30977 ! male external genitalia
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:18685
@@ -40690,7 +40690,7 @@ id: EMAPA:29205
 name: distal genital tubercle of male
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17969.
-synonym: "glans of male" RELATED []
+synonym: "early glans of male" RELATED []
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17969 ! genital tubercle of male
 relationship: starts_at TS21 ! TS21
@@ -40730,9 +40730,10 @@ relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:29223
-name: surface epithelium of male preputial swelling
+name: skin of male preputial swelling
 namespace: anatomical_structure
 comment: order=0 for EMAPA:29220.
+synonym: "surface epithelium of male preputial swelling" RELATED []
 is_a: EMAPA:35963 ! male reproductive system epithelium
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:29220 ! preputial swelling of male
@@ -40752,10 +40753,10 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:29252
 name: glans of male genital tubercle
 namespace: anatomical_structure
+alt_id: EMAPA:29288
+def: "glans of male genital tubercle (TS23-TS24): the distal part of the genital tubercle of male, comprised of skin and mesenchyme of glans of male genital tubercle. Derived from distal genital tubercle of male. The distal end of the phallic urethra of male is located within the glans, including the urethral plate epithelium of male and part of the urethral tube epithelium of male. Becomes the glans penis at TS25, when genital tubercle of male becomes penis." []
 comment: order=5 for EMAPA:17969.
-synonym: "distal genital tubercle of male" RELATED []
-synonym: "penis anlage" RELATED []
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:17969 ! genital tubercle of male
 relationship: starts_at TS23 ! TS23
 
@@ -40763,20 +40764,23 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:29254
 name: mesenchyme of glans of male genital tubercle
 namespace: anatomical_structure
+alt_id: EMAPA:30630
 comment: order=1 for EMAPA:29252.
 is_a: EMAPA:29167 ! genital tubercle mesenchyme of male
 is_a: EMAPA:35975 ! male reproductive system mesenchyme
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:29252 ! glans of male genital tubercle
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:29256
-name: surface epithelium of glans of male genital tubercle
+name: skin of glans of male genital tubercle
 namespace: anatomical_structure
+alt_id: EMAPA:30632
 comment: order=0 for EMAPA:29252.
+synonym: "surface epithelium of glans of male genital tubercle" RELATED []
 is_a: EMAPA:35963 ! male reproductive system epithelium
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:29252 ! glans of male genital tubercle
 relationship: starts_at TS23 ! TS23
 
@@ -40797,15 +40801,6 @@ comment: order=0 for EMAPA:18681.
 is_a: EMAPA:35963 ! male reproductive system epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18681 ! ductus deferens
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:29288
-name: glans penis
-namespace: anatomical_structure
-comment: order=6 for EMAPA:17969.
-relationship: ends_at TS24 ! TS24
-relationship: part_of EMAPA:17969 ! genital tubercle of male
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -41962,18 +41957,14 @@ id: EMAPA:29935
 name: gland of lower vaginal epithelium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:29058.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:29058 ! epithelium of sinovaginal bulb
-relationship: starts_at TS28 ! TS28
+is_obsolete: true
 
 [Term]
 id: EMAPA:29937
 name: rest of epithelial layer of lower vagina
 namespace: anatomical_structure
 comment: order=1 for EMAPA:29058.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:29058 ! epithelium of sinovaginal bulb
-relationship: starts_at TS28 ! TS28
+is_obsolete: true
 
 [Term]
 id: EMAPA:29939
@@ -42673,26 +42664,6 @@ relationship: part_of EMAPA:29316 ! scrotal fold
 relationship: starts_at TS24 ! TS24
 
 [Term]
-id: EMAPA:30630
-name: glans mesenchyme of male
-namespace: anatomical_structure
-comment: order=1 for EMAPA:29288.
-is_a: EMAPA:35975 ! male reproductive system mesenchyme
-relationship: ends_at TS24 ! TS24
-relationship: part_of EMAPA:29288 ! glans penis
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:30632
-name: glans surface epithelium of male
-namespace: anatomical_structure
-comment: order=0 for EMAPA:29288.
-is_a: EMAPA:35963 ! male reproductive system epithelium
-relationship: ends_at TS24 ! TS24
-relationship: part_of EMAPA:29288 ! glans penis
-relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:30642
 name: mesenchyme of glans penis
 namespace: anatomical_structure
@@ -42785,7 +42756,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:30699
 name: prepuce of female
 namespace: anatomical_structure
-def: "prepuce of female (pce) (TS25-TS28): the prepuce of female surrounds the glans clitoris and body of clitoris, but does not contain a preputial space. TS25-TS27 prepuce of female is comprised of skin, preputial glands and mesenchyme of prepuce. From TS28, prepuce of female is comprised of skin, preputial glands and lamina propria of prepuce." []
+def: "prepuce of female (pce) (TS24-TS28): the prepuce of female surrounds the glans clitoris and body of clitoris, but does not contain a preputial space. TS24-TS27 prepuce of female is comprised of skin, preputial glands and mesenchyme of prepuce. From TS28, prepuce of female is comprised of skin, preputial glands and lamina propria of prepuce. Part of the genital tubercle of female (TS24) and from TS25-TS28 part of the clitoris. Derived from preputial swelling of female (TS21-TS23)." []
 comment: order=8 for EMAPA:18680.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18680 ! genital tubercle of female
@@ -42800,7 +42771,7 @@ comment: order=2 for EMAPA:30699.
 is_a: EMAPA:35974 ! female reproductive system mesenchyme
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:30699 ! prepuce of female
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:30707
@@ -42810,7 +42781,7 @@ comment: order=0 for EMAPA:30699.
 is_a: EMAPA:35962 ! female reproductive system epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30699 ! prepuce of female
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:30711
@@ -43146,7 +43117,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:30823
 name: os clitoridis
 namespace: anatomical_structure
-def: "os clitoridis: tiny bone, variable in size (between 581-1840 um long, dependant on strain), located within the clitoris." []
+def: "os clitoridis (TS28-TS28): tiny bone, variable in size (between 581-1840 um long, dependant on strain), located within the clitoris." []
 comment: order=2 for EMAPA:30821.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30821 ! body of clitoris
