@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 03:04:2015 15:18
-saved-by: jarm
+date: 03:04:2015 14:11
+saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -50143,6 +50143,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:32768.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32768 ! hippocampus CA1
+relationship: part_of EMAPA:35409 ! hippocampus pyramidal cell layer
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -51985,8 +51986,8 @@ id: EMAPA:35406
 name: hippocampus granule cell layer
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35407.
+is_a: EMAPA:35407 ! hippocampus layer
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35407 ! hippocampus layer
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -52003,8 +52004,8 @@ id: EMAPA:35408
 name: hippocampus molecular layer
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35407.
+is_a: EMAPA:35407 ! hippocampus layer
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35407 ! hippocampus layer
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -52012,8 +52013,8 @@ id: EMAPA:35409
 name: hippocampus pyramidal cell layer
 namespace: anatomical_structure
 comment: order=2 for EMAPA:35407.
+is_a: EMAPA:35407 ! hippocampus layer
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35407 ! hippocampus layer
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -52021,8 +52022,8 @@ id: EMAPA:35410
 name: hippocampus stratum lacunosum
 namespace: anatomical_structure
 comment: order=3 for EMAPA:35407.
+is_a: EMAPA:35407 ! hippocampus layer
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35407 ! hippocampus layer
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -52030,8 +52031,8 @@ id: EMAPA:35411
 name: hippocampus stratum lucidum
 namespace: anatomical_structure
 comment: order=4 for EMAPA:35407.
+is_a: EMAPA:35407 ! hippocampus layer
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35407 ! hippocampus layer
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -52039,8 +52040,8 @@ id: EMAPA:35412
 name: hippocampus stratum oriens
 namespace: anatomical_structure
 comment: order=5 for EMAPA:35407.
+is_a: EMAPA:35407 ! hippocampus layer
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35407 ! hippocampus layer
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -52048,8 +52049,8 @@ id: EMAPA:35413
 name: hippocampus stratum radiatum
 namespace: anatomical_structure
 comment: order=6 for EMAPA:35407.
+is_a: EMAPA:35407 ! hippocampus layer
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35407 ! hippocampus layer
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -54761,7 +54762,7 @@ name: primary visual cortex
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35604.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35604 ! occipital cortex
+relationship: part_of EMAPA:36446 ! visual cortex
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -55201,7 +55202,7 @@ name: secondary visual cortex
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35604.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35604 ! occipital cortex
+relationship: part_of EMAPA:36446 ! visual cortex
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -61159,8 +61160,6 @@ relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:32735 ! mesenchyme derived from neural crest
 relationship: part_of EMAPA:32737 ! neural crest
 relationship: starts_at TS12 ! TS12
-created_by: terryh
-creation_date: 2015-02-25T14:18:59Z
 
 [Term]
 id: EMAPA:36423
@@ -61364,6 +61363,31 @@ namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:36436 ! urogenital membrane of male
 relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36446
+name: visual cortex
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35604 ! occipital cortex
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36447
+name: prelimbic area
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32842 ! neocortex
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36448
+name: CA3 pyramidal cell layer
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32770 ! hippocampus CA3
+relationship: part_of EMAPA:35409 ! hippocampus pyramidal cell layer
+relationship: starts_at TS28 ! TS28
 
 [Term]
 id: group_term
