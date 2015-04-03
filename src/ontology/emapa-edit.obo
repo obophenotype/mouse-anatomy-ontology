@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 02:04:2015 20:18
+date: 03:04:2015 15:18
 saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -11413,7 +11413,7 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:17382
 name: genital tubercle
 namespace: anatomical_structure
-def: "genital tubercle (GT) (TS19): a medial swelling seen at the level of the hind limb buds, adjacent to the cloaca and posterior/caudal to the urogenital sinus (UGS). At TS19 the genital tubercle can be subdivided into a dorsal genital swelling and two ventrolateral genital swellings, which have merged into a single genital tubercle. At TS19, is comprised of urethral plate epithelium and surface ectoderm of genital tubercle. The urethral plate epithelium and surface ectoderm together are known as the cloacal membrane. Derives from the TS17-TS18 genital swelling. From TS20, the genital tubercle becomes genital tubercle of male/female." []
+def: "genital tubercle (GT): a medial swelling seen at the level of the hind limb buds, adjacent to the cloaca and posterior/caudal to the urogenital sinus (UGS). At TS19 the genital tubercle can be subdivided into a dorsal genital swelling and two ventrolateral genital swellings, which have merged into a single genital tubercle. At TS19, is comprised of urethral plate epithelium and surface ectoderm of genital tubercle. The urethral plate epithelium and surface ectoderm together are known as the cloacal membrane. Derives from the TS17-TS18 genital swelling. From TS20, the genital tubercle becomes genital tubercle of male/female." []
 comment: order=4 for EMAPA:17381.
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:17381 ! reproductive system
@@ -16810,7 +16810,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17969
 name: genital tubercle of male
 namespace: anatomical_structure
-def: "genital tubercle of male (GT) (syn: penis anlage) (TS20): a medial swelling seen at the level of the hind limb buds, adjacent to the cloaca and posterior/caudal to the urogenital sinus. The genital tubercle is separated into male and female, therefore you must know the sex of the embryo. At TS20, the genital tubercle of male is comprised of genital tubercle mesenchyme of male, urethral plate epithelium of male, skin of genital tubercle of male, the urogenital membrane of male, and developing vasculature of male genital tubercle. The urethral plate epithelium and skin together, where they are in direct contact, are known as the urogenital membrane. After TS20, the genital tubercle becomes further subdivided. Will become the penis at TS26." []
+def: "genital tubercle of male (GT) (syn: penis anlage): a medial swelling seen at the level of the hind limb buds, adjacent to the cloaca and posterior/caudal to the urogenital sinus (UGS). The genital tubercle is separated into male and female, therefore you must know the sex of the embryo. At TS20, the genital tubercle of male is comprised of genital tubercle mesenchyme of male, urethral plate epithelium of male, skin of genital tubercle of male, the urogenital membrane of male, and developing vasculature of male genital tubercle. The urethral plate epithelium and skin together, where they are in direct contact, are known as the urogenital membrane. After TS20, the genital tubercle becomes further subdivided. At TS21 the genital tubercle of male is subdivided into distal genital tubercle of male (TS21-TS22) (syn: early glans of male), proximal genital tubercle of male (TS21-TS22) and preputial swelling of male. Also contains phallic urethra of male and nerve of male genital tubercle (from TS22). From TS23, it is subdivided into glans of male genital tubercle (located distally) and preputial swelling of male (located proximally and becoming prepuce of male at TS24). Will become the penis at TS25." []
 comment: order=20 for EMAPA:17968.\norder=0 for EMAPA:28533.\norder=0 for EMAPA:30977.
 synonym: "penis anlage" RELATED []
 is_a: EMAPA:17382 ! genital tubercle
@@ -22423,7 +22423,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:18680
 name: genital tubercle of female
 namespace: anatomical_structure
-def: "genital tubercle of female (GT) (syn: clitoris anlage) (TS20): a medial swelling seen at the level of the hind limb buds, adjacent to the cloaca and posterior/caudal to the urogenital sinus. The genital tubercle is separated into male and female, therefore you must know the sex of the embryo. At TS20, the genital tubercle of female is comprised of genital tubercle mesenchyme of female, urethral plate epithelium of female, skin of genital tubercle of female, the urogenital membrane of female, and developing vasculature of female genital tubercle. The urethral plate epithelium and skin together, where they are in direct contact, are known as the urogenital membrane. After TS20, the genital tubercle becomes further subdivided. Will become the clitoris at TS26." []
+def: "genital tubercle of female (GT) (syn: clitoris anlage): a medial swelling seen at the level of the hind limb buds, adjacent to the cloaca and posterior/caudal to the urogenital sinus (UGS). The genital tubercle is separated into male and female, therefore you must know the sex of the embryo. At TS20, the genital tubercle of female is comprised of genital tubercle mesenchyme of female, urethral plate epithelium of female, skin of genital tubercle of female, the urogenital membrane of female, and developing vasculature of female genital tubercle. The urethral plate epithelium and skin together, where they are in direct contact, are known as the urogenital membrane. After TS20, the genital tubercle becomes further subdivided. At TS21 the genital tubercle of female is subdivided into distal genital tubercle of female (TS21-TS22) (syn: early glans of female), proximal genital tubercle of female (TS21-TS22) and preputial swelling of female. Also contains phallic urethra of female and nerve of female genital tubercle (from TS22). From TS23, it is subdivided into glans of female genital tubercle (located distally) and preputial swelling of female (located proximally and becoming prepuce of female at TS24). Will become the clitoris at TS25." []
 comment: order=10 for EMAPA:17959.\norder=2 for EMAPA:28540.\norder=0 for EMAPA:30984.
 synonym: "clitoris anlage" RELATED []
 is_a: EMAPA:17382 ! genital tubercle
@@ -25231,6 +25231,16 @@ comment: order=0 for EMAPA:17798.
 synonym: "trigeminal nerve lingual branch" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17798 ! trigeminal V nerve mandibular division
+relationship: starts_at TS25 ! TS25
+
+[Term]
+id: EMAPA:19170
+name: glans of female genital tubercle
+namespace: anatomical_structure
+def: "glans of female genital tubercle (TS23-TS24): the distal part of the genital tubercle of female, comprised of skin and mesenchyme of glans of female genital tubercle. Derived from distal genital tubercle of female. The distal end of the phallic urethra of female is located within the glans, including the urethral plate epithelium of female and part of the urethral tube epithelium of female. Becomes the glans clitoris at TS25, when genital tubercle of female becomes clitoris." []
+comment: order=6 for EMAPA:18680.
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:18680 ! genital tubercle of female
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -40584,9 +40594,10 @@ relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:29170
-name: genital tubercle surface epithelium of male
+name: genital tubercle skin of male
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17969.
+synonym: "genital tubercle surface epithelium of male" RELATED []
 is_a: EMAPA:35963 ! male reproductive system epithelium
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:17969 ! genital tubercle of male
@@ -40708,9 +40719,10 @@ relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:29209
-name: surface epithelium of distal genital tubercle of male
+name: skin of distal genital tubercle of male
 namespace: anatomical_structure
 comment: order=0 for EMAPA:29205.
+synonym: "surface epithelium of distal genital tubercle of male" RELATED []
 is_a: EMAPA:35962 ! female reproductive system epithelium
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:29205 ! distal genital tubercle of male
@@ -40882,9 +40894,10 @@ relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:29626
-name: genital tubercle surface epithelium of female
+name: genital tubercle skin of female
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18680.
+synonym: "genital tubercle surface epithelium of female" RELATED []
 is_a: EMAPA:35962 ! female reproductive system epithelium
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:18680 ! genital tubercle of female
@@ -42428,7 +42441,7 @@ id: EMAPA:30484
 name: distal genital tubercle of female
 namespace: anatomical_structure
 comment: order=4 for EMAPA:18680.
-synonym: "glans of female" RELATED []
+synonym: "early glans of female" RELATED []
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:18680 ! genital tubercle of female
 relationship: starts_at TS21 ! TS21
@@ -42466,9 +42479,10 @@ relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:30496
-name: surface epithelium of female preputial swelling
+name: skin of female preputial swelling
 namespace: anatomical_structure
 comment: order=0 for EMAPA:30478.
+synonym: "surface epithelium of female preputial swelling" RELATED []
 is_a: EMAPA:35962 ! female reproductive system epithelium
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:30478 ! preputial swelling of female
@@ -42803,6 +42817,16 @@ comment: order=1 for EMAPA:30829.
 is_a: EMAPA:35974 ! female reproductive system mesenchyme
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:30829 ! glans clitoris
+relationship: starts_at TS25 ! TS25
+
+[Term]
+id: EMAPA:30720
+name: skin of glans of female genital tubercle
+namespace: anatomical_structure
+comment: order=0 for EMAPA:19170.
+is_a: EMAPA:35962 ! female reproductive system epithelium
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:19170 ! glans of female genital tubercle
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -43149,12 +43173,10 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:30829
 name: glans clitoris
 namespace: anatomical_structure
-alt_id: EMAPA:19170
 def: "glans clitoris (glcl) (syn: clitoral glans) (TS25-TS28): the distal part of the clitoris. The glans clitoris is surrounded by the prepuce but it does not lie within a preputial space. The distal part of the clitoral urethra is located within the glans clitoris. An opening forms in the clitoral urethra in the glans clitoris, seen at birth. The urethra forms a large, U-shaped urethral cleft that extends to the tips of the glans clitoris, surrounded by a solid, U-shaped lamina propria and then surrounded by the lamina propria of prepuce. From TS25-TS27, is comprised of epithelium and mesenchyme of glans clitoris. At TS28, is comprised of epithelium and lamina propria of glans clitoris. The epithelium of glans clitoris located dorsally in the clitoris and in direct contact with urethral epithelium. The distal end of the glans clitoris is located just proximal to the urethral opening. The lamina propria contains many diffuse blood vessels." []
 comment: order=1 for EMAPA:30819.
 synonym: "clitoral glans" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18680 ! genital tubercle of female
 relationship: part_of EMAPA:30819 ! clitoris
 relationship: starts_at TS25 ! TS25
 
@@ -43162,7 +43184,6 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:30831
 name: epithelium of glans clitoris
 namespace: anatomical_structure
-alt_id: EMAPA:30720
 comment: order=0 for EMAPA:30829.
 is_a: EMAPA:35962 ! female reproductive system epithelium
 relationship: ends_at TS28 ! TS28
@@ -44309,9 +44330,10 @@ relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:31502
-name: surface epithelium of proximal genital tubercle of male
+name: skin of proximal genital tubercle of male
 namespace: anatomical_structure
 comment: order=0 for EMAPA:31504.
+synonym: "surface epithelium of proximal genital tubercle of male" RELATED []
 is_a: EMAPA:35963 ! male reproductive system epithelium
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:31504 ! proximal genital tubercle of male
@@ -44368,6 +44390,7 @@ synonym: "distal urethral epithelium of male" RELATED []
 synonym: "urethral plate of male" RELATED []
 is_a: EMAPA:35288 ! distal urethral epithelium
 relationship: ends_at TS24 ! TS24
+relationship: part_of EMAPA:17969 ! genital tubercle of male
 relationship: part_of EMAPA:30467 ! epithelium of phallic urethra of male
 relationship: starts_at TS20 ! TS20
 
@@ -44375,6 +44398,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:31508
 name: urethral tube epithelium of male
 namespace: anatomical_structure
+def: "urethral tube epithelium of male (syn: proximal urethral epithelium of male) (TS21-TS25): the open, proximal part of the epithelium of phallic urethra of male that has canalised into a tube. This structure is distinct from the urethral plate epithelium: when the urethral plate epithelium opens, forming a lumen, it is referred to as the urethral tube epithelium. During development, the tube progresses distally as canalisation progresses distally. First seen at TS21 in the proximal genital tubercle of male." []
 comment: order=1 for EMAPA:30467.
 synonym: "proximal urethral epithelium of male" RELATED []
 is_a: EMAPA:35964 ! proximal urethral epithelium
@@ -44574,6 +44598,7 @@ is_obsolete: true
 id: EMAPA:31530
 name: urethral tube epithelium of female
 namespace: anatomical_structure
+def: "urethral tube epithelium of female (syn: proximal urethral epithelium of female): the open, proximal part of the epithelium of phallic urethra of female that has canalised into a tube. This structure is distinct from the urethral plate epithelium: when the urethral plate epithelium opens, forming a lumen, it is referred to as the urethral tube epithelium. During development, the tube progresses distally as canalisation progresses distally. First seen at TS21 in the proximal genital tubercle of female." []
 comment: order=1 for EMAPA:30470.
 synonym: "proximal urethral epithelium of female" RELATED []
 is_a: EMAPA:35964 ! proximal urethral epithelium
@@ -44636,7 +44661,7 @@ relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:31536
-name: urethral plate epithelium of phallic urethra of female
+name: urethral plate epithelium of female
 namespace: anatomical_structure
 def: "urethral plate epithelium of female (upe) (syn: urethral plate of female, distal urethral epithelium of female) (TS20-TS26 in females; TS20-TS24 in males); a bilaminar epithelium, which at TS20 is located  along the ventral mid-line of the genital tubercle of male/female. Derived from the urethral plate epithelium (TS19). This bilayered epithelium often called the urethral plate, is marked by Shh, and continues to grow distally as  the genital tubercle grows distally. At TS20 is part of the genital tubercle of male/female and from TS21 is part of the epithelium of phallic urethra of male/female, which is part of genital tubercle of male/female and is also part of the phallic urethra of male/female.  From TS21-24 it is located at the distal end of the phallic urethra of male/female. At TS25 in males, the urethra has completely canalised (is fully patent); the urethral plate is no longer seen, the urethra opens at the urethral meatus and the proximal urethral meatus has closed. The urethral plate epithelium is only present in females from this TS25.  From TS26, the urethral plate epithelium of female is part of the clitoris, located distally, and part of the epithelium of clitoral urethra. At TS27 it is no longer seen in females." []
 comment: order=0 for EMAPA:30470.
@@ -44644,6 +44669,7 @@ synonym: "distal urethral epithelium of female" RELATED []
 synonym: "urethral plate of female" RELATED []
 is_a: EMAPA:35288 ! distal urethral epithelium
 relationship: ends_at TS24 ! TS24
+relationship: part_of EMAPA:18680 ! genital tubercle of female
 relationship: part_of EMAPA:30470 ! epithelium of phallic urethra of female
 relationship: starts_at TS21 ! TS21
 
@@ -61273,8 +61299,6 @@ namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17373 ! metanephros
 relationship: starts_at TS18 ! TS18
-created_by: terryh
-creation_date: 2015-03-25T12:47:57Z
 
 [Term]
 id: EMAPA:36438
@@ -61284,8 +61308,6 @@ is_a: EMAPA:35973 ! cardiovascular system mesenchyme
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16105 ! heart
 relationship: starts_at TS12 ! TS12
-created_by: terryh
-creation_date: 2015-03-25T14:04:01Z
 
 [Term]
 id: EMAPA:36439
@@ -61294,8 +61316,6 @@ namespace: anatomical_structure
 is_a: EMAPA:35872 ! tooth substance
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS26 ! TS26
-created_by: terryh
-creation_date: 2015-03-25T15:16:52Z
 
 [Term]
 id: EMAPA:36440
@@ -61304,8 +61324,46 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32906 ! tooth
 relationship: starts_at TS21 ! TS21
-created_by: terryh
-creation_date: 2015-03-25T15:22:13Z
+
+[Term]
+id: EMAPA:36441
+name: mesenchyme of glans of female genital tubercle
+namespace: anatomical_structure
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:19170 ! glans of female genital tubercle
+relationship: starts_at TS25 ! TS25
+
+[Term]
+id: EMAPA:36442
+name: urethral plate epithelium of urogenital membrane of female
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:36435 ! urogenital membrane of female
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36443
+name: skin of urogenital membrane of female
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:36435 ! urogenital membrane of female
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36444
+name: urethral plate epithelium of urogenital membrane of male
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:36436 ! urogenital membrane of male
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36445
+name: skin of urogenital membrane of male
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:36436 ! urogenital membrane of male
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: group_term
