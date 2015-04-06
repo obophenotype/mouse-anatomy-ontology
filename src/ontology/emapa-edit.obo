@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 03:04:2015 14:11
-saved-by: terryh
+date: 06:04:2015 16:32
+saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -23798,7 +23798,7 @@ comment: order=0 for EMAPA:18986.
 synonym: "lower vagina" RELATED []
 synonym: "sinus vagina" RELATED []
 synonym: "vaginal bulb" RELATED []
-relationship: ends_at TS28 ! TS28
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18986 ! vagina
 relationship: part_of EMAPA:28753 ! pelvic urethra of female
 relationship: starts_at TS24 ! TS24
@@ -25239,9 +25239,9 @@ name: glans of female genital tubercle
 namespace: anatomical_structure
 def: "glans of female genital tubercle (TS23-TS24): the distal part of the genital tubercle of female, comprised of skin and mesenchyme of glans of female genital tubercle. Derived from distal genital tubercle of female. The distal end of the phallic urethra of female is located within the glans, including the urethral plate epithelium of female and part of the urethral tube epithelium of female. Becomes the glans clitoris at TS25, when genital tubercle of female becomes clitoris." []
 comment: order=6 for EMAPA:18680.
-relationship: ends_at TS27 ! TS27
+relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:18680 ! genital tubercle of female
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19171
@@ -38447,6 +38447,7 @@ synonym: "condensed mesenchyme" RELATED []
 is_a: EMAPA:35898 ! urinary system mesenchyme
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17373 ! metanephros
+relationship: part_of EMAPA:17375 ! metanephric mesenchyme
 relationship: part_of EMAPA:27721 ! nephrogenic zone
 relationship: starts_at TS19 ! TS19
 
@@ -40411,9 +40412,9 @@ namespace: anatomical_structure
 def: "muscle of upper vagina (syn: muscular layer of upper part of vagina) (TS24-TS27): the smooth muscle layer of the upper vagina. Marked by Crabp1 at E17 (Abler et al, 2011) and alpha smooth muscle actin and gamma smooth muscle actin." []
 comment: order=2 for EMAPA:18987.\norder=1 for EMAPA:30997.
 synonym: "muscular layer of upper part of vagina" RELATED []
-relationship: ends_at TS28 ! TS28
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18987 ! upper vagina
-relationship: part_of EMAPA:30997 ! muscular layer of vagina
+relationship: part_of EMAPA:30997 ! muscle of vagina
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -40423,7 +40424,7 @@ namespace: anatomical_structure
 def: "epithelium of sinovaginal bulb: (syn: vaginal bulb epithelium, epithelium of lower vagina, vaginal plate) (TS24-TS27): the epithelium of the sinovaginal bulb. Krt14 at E17 is specific to the epithelial layer of sinovaginal bulb (Krt14 also present in urothelium of bladder, but absent from epithelial layer of upper vagina) (Abler et al, 2011)." []
 comment: order=0 for EMAPA:18999.\norder=0 for EMAPA:30991.
 synonym: "epithelial layer of lower vagina" RELATED []
-relationship: ends_at TS28 ! TS28
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18999 ! sinovaginal bulb
 relationship: part_of EMAPA:30991 ! epithelium of vagina
 relationship: starts_at TS24 ! TS24
@@ -40435,9 +40436,9 @@ namespace: anatomical_structure
 def: "muscle of sinovaginal bulb (syn: muscular layer of lower vagina) (TS24-TS27) : marked by Crabp1 E17 (Abler et al, 2011) and alpha smooth muscle actin and gamma smooth muscle actin." []
 comment: order=2 for EMAPA:18999.\norder=0 for EMAPA:30997.
 synonym: "muscular layer of lower vagina" RELATED []
-relationship: ends_at TS28 ! TS28
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18999 ! sinovaginal bulb
-relationship: part_of EMAPA:30997 ! muscular layer of vagina
+relationship: part_of EMAPA:30997 ! muscle of vagina
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -41983,10 +41984,10 @@ is_obsolete: true
 id: EMAPA:29939
 name: adventitia of sinovaginal bulb
 namespace: anatomical_structure
-def: "adventitia of sinovaginal bulb (syn: adventitia of lower vagina) (TS24-TS28): the outer layer of the sinovaginal bulb." []
+def: "adventitia of sinovaginal bulb (syn: adventitia of lower vagina) (TS24-TS27): the outer layer of the sinovaginal bulb." []
 comment: order=3 for EMAPA:18999.\norder=0 for EMAPA:31003.
 synonym: "adventitia of lower vagina" RELATED []
-relationship: ends_at TS28 ! TS28
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18999 ! sinovaginal bulb
 relationship: part_of EMAPA:31003 ! adventitia of vagina
 relationship: starts_at TS24 ! TS24
@@ -42016,7 +42017,7 @@ namespace: anatomical_structure
 def: "adventitia of upper vagina (syn: adventitia of upper part of vagina) (TS24-TS27): the outer layer of the upper vagina." []
 comment: order=3 for EMAPA:18987.\norder=1 for EMAPA:31003.
 synonym: "adventitia of upper part of vagina" RELATED []
-relationship: ends_at TS28 ! TS28
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18987 ! upper vagina
 relationship: part_of EMAPA:31003 ! adventitia of vagina
 relationship: starts_at TS24 ! TS24
@@ -42442,7 +42443,7 @@ name: distal genital tubercle of female
 namespace: anatomical_structure
 comment: order=4 for EMAPA:18680.
 synonym: "early glans of female" RELATED []
-relationship: ends_at TS24 ! TS24
+relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:18680 ! genital tubercle of female
 relationship: starts_at TS21 ! TS21
 
@@ -42453,17 +42454,18 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:30484.
 is_a: EMAPA:29621 ! genital tubercle mesenchyme of female
 is_a: EMAPA:35974 ! female reproductive system mesenchyme
-relationship: ends_at TS24 ! TS24
+relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:30484 ! distal genital tubercle of female
 relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:30490
-name: surface epithelium of distal genital tubercle of female
+name: skin of distal genital tubercle of female
 namespace: anatomical_structure
 comment: order=0 for EMAPA:30484.
+synonym: "surface epithelium of distal genital tubercle of female" RELATED []
 is_a: EMAPA:35962 ! female reproductive system epithelium
-relationship: ends_at TS24 ! TS24
+relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:30484 ! distal genital tubercle of female
 relationship: starts_at TS21 ! TS21
 
@@ -42825,9 +42827,9 @@ name: skin of glans of female genital tubercle
 namespace: anatomical_structure
 comment: order=0 for EMAPA:19170.
 is_a: EMAPA:35962 ! female reproductive system epithelium
-relationship: ends_at TS27 ! TS27
+relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:19170 ! glans of female genital tubercle
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:30745
@@ -43577,8 +43579,9 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:30997
-name: muscular layer of vagina
+name: muscle of vagina
 namespace: anatomical_structure
+def: "muscle of vagina (TS24-TS28): the smooth muscle layer of the vagina. Marked by alpha smooth muscle actin." []
 comment: order=4 for EMAPA:18986.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18986 ! vagina
@@ -43588,10 +43591,11 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:31003
 name: adventitia of vagina
 namespace: anatomical_structure
+def: "adventitia of vagina (TS24-TS28): the outer layer of the vagina." []
 comment: order=5 for EMAPA:18986.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18986 ! vagina
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:31017
@@ -44651,9 +44655,10 @@ relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:31535
-name: surface epithelium of proximal genital tubercle of female
+name: skin of proximal genital tubercle of female
 namespace: anatomical_structure
 comment: order=0 for EMAPA:31506.
+synonym: "surface epithelium of proximal genital tubercle of female" RELATED []
 is_a: EMAPA:35962 ! female reproductive system epithelium
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:31506 ! proximal genital tubercle of female
@@ -45189,6 +45194,7 @@ comment: order=1 for EMAPA:18999.
 synonym: "mesenchyme of sinovaginal bulb" RELATED []
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18999 ! sinovaginal bulb
+relationship: part_of EMAPA:35902 ! lamina propria of vagina
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -45317,6 +45323,7 @@ comment: order=1 for EMAPA:18987.
 synonym: "mesenchymal layer of upper part of vagina" RELATED []
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18987 ! upper vagina
+relationship: part_of EMAPA:35902 ! lamina propria of vagina
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -56522,11 +56529,12 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35902
 name: lamina propria of vagina
 namespace: anatomical_structure
+def: "lamina propria of vagina (TS24-TS28): the lamina propria, connective tissue layer located between the epithelial layer and the muscular layer of the vagina." []
 comment: order=8 for EMAPA:18986.
 synonym: "vagina stroma" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18986 ! vagina
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35903
@@ -61328,9 +61336,9 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:36441
 name: mesenchyme of glans of female genital tubercle
 namespace: anatomical_structure
-relationship: ends_at TS27 ! TS27
+relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:19170 ! glans of female genital tubercle
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:36442
