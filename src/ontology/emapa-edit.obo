@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 06:04:2015 16:32
-saved-by: jarm
+date: 07:04:2015 17:31
+saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -47391,7 +47391,7 @@ name: pretectum
 namespace: anatomical_structure
 comment: order=9 for EMAPA:16974.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16974 ! midbrain
+relationship: part_of EMAPA:36449 ! forebrain-midbrain boundary region
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -54647,7 +54647,8 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35189.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35189 ! brainstem white matter
-relationship: starts_at TS27 ! TS27
+relationship: part_of EMAPA:36449 ! forebrain-midbrain boundary region
+relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:35696
@@ -55819,8 +55820,8 @@ name: subcommissural organ
 namespace: anatomical_structure
 comment: order=1 for EMAPA:19051.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19051 ! tectum
-relationship: starts_at TS27 ! TS27
+relationship: part_of EMAPA:36449 ! forebrain-midbrain boundary region
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35829
@@ -61396,6 +61397,22 @@ relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32770 ! hippocampus CA3
 relationship: part_of EMAPA:35409 ! hippocampus pyramidal cell layer
 relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36449
+name: forebrain-midbrain boundary region
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16894 ! brain
+relationship: starts_at TS16 ! TS16
+
+[Term]
+id: EMAPA:36450
+name: subcommissural organ primordium
+namespace: anatomical_structure
+relationship: ends_at TS21 ! TS21
+relationship: part_of EMAPA:36449 ! forebrain-midbrain boundary region
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: group_term
