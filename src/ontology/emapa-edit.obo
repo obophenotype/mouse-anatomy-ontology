@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 07:04:2015 17:31
-saved-by: terryh
+date: 09:04:2015 17:38
+saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -16727,10 +16727,10 @@ namespace: anatomical_structure
 def: "phallic urethra of male (PHUR) (syn: external urethra of male) (TS21-TS24): part of the genital tubercle of male and part of the urethra of male. Comprised of epithelium and anatomically located within the genital tubercle of male. From TS25, as the genital tubercle becomes the penis and clitoris, the phallic urethra becomes the penile or clitoral urethra in male and females respectively. The phallic urethra is anatomically located within the genital tubercle and is surrounded by the tissue of the genital tubercle, therefore only the epithelial components are necessary parts of phallic urethra." []
 comment: order=2 for EMAPA:18692.
 synonym: "external urethra of male" RELATED []
-relationship: ends_at TS27 ! TS27
+relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:17969 ! genital tubercle of male
 relationship: part_of EMAPA:18692 ! urethra of male
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:17959
@@ -23733,7 +23733,7 @@ def: "upper vagina (uv) (syn: Mullerian vagina, upper part of vagina) (TS24-TS27
 comment: order=1 for EMAPA:18986.
 synonym: "Mullerian vagina" RELATED []
 synonym: "upper part of vagina" RELATED []
-relationship: ends_at TS28 ! TS28
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18986 ! vagina
 relationship: starts_at TS24 ! TS24
 
@@ -23778,15 +23778,6 @@ def: "pelvic urethra of male (PLUR) (TS23-TS28): part of urethra of male. Crania
 comment: order=0 for EMAPA:18692.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18692 ! urethra of male
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:18998
-name: urethral plate of male
-namespace: anatomical_structure
-comment: order=3 for EMAPA:17956.
-relationship: ends_at TS24 ! TS24
-relationship: part_of EMAPA:17956 ! phallic urethra of male
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -40098,15 +40089,6 @@ relationship: part_of EMAPA:17950 ! ureter
 relationship: starts_at TS25 ! TS25
 
 [Term]
-id: EMAPA:28853
-name: urothelium of phallic urethra of male
-namespace: anatomical_structure
-comment: order=0 for EMAPA:17956.
-relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:17956 ! phallic urethra of male
-relationship: starts_at TS25 ! TS25
-
-[Term]
 id: EMAPA:28856
 name: mesenchymal layer of phallic urethra of male
 namespace: anatomical_structure
@@ -40400,7 +40382,7 @@ namespace: anatomical_structure
 def: "epithelium of upper vagina (syn: epithelial layer of upper part of vagina) (TS24-TS27): the epithelial layer of upper vagina is selectively marked by Wnt7a at E17 (absent from sinovaginal bulb epithelium) (Abler et al, 2011)." []
 comment: order=0 for EMAPA:18987.\norder=1 for EMAPA:30991.
 synonym: "epithelial layer of upper part of vagina" RELATED []
-relationship: ends_at TS28 ! TS28
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18987 ! upper vagina
 relationship: part_of EMAPA:30991 ! epithelium of vagina
 relationship: starts_at TS24 ! TS24
@@ -41997,7 +41979,7 @@ id: EMAPA:29941
 name: gland of upper vaginal epithelium
 namespace: anatomical_structure
 comment: order=0 for EMAPA:29052.
-relationship: ends_at TS28 ! TS28
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:29052 ! epithelium of upper vagina
 relationship: starts_at TS24 ! TS24
 
@@ -42006,7 +41988,7 @@ id: EMAPA:29943
 name: rest of epithelium of upper vagina
 namespace: anatomical_structure
 comment: order=1 for EMAPA:29052.
-relationship: ends_at TS28 ! TS28
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:29052 ! epithelium of upper vagina
 relationship: starts_at TS24 ! TS24
 
@@ -42364,10 +42346,12 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:30443
 name: adventitia of epididymis
 namespace: anatomical_structure
+alt_id: EMAPA:30749
 comment: order=10 for EMAPA:19290.
+synonym: "outer layer of epididymis" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19290 ! epididymis
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:30445
@@ -42403,8 +42387,9 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:30467
 name: epithelium of phallic urethra of male
 namespace: anatomical_structure
+alt_id: EMAPA:28853
 def: "epithelium of phallic urethra of male (ephur) (TS20-TS24): derived from cloacal endoderm and derived from the urethral plate epithelium (TS19). Located within the genital tubercle of male. At TS20, the urethral plate epithelium has not canalised and only the plate is seen. At TS21, as the plate begins to canalise and form a tube, it is subdivided into the urethral plate epithelium of male (syn: urethral plate), the bilaminar epithelium located distally, and into the phallic urethral tube epithelium (syn: proximal phallic urethral epithelium) which is the part of the urethral epithelium that has septated into a canalised tube proximally, and it is open at the proximal urethral meatus. The proximal urethral meatus closes in males, a process which begins around TS23 and is not present in males at TS25. In females, the proximal urethral meatus remains open to TS27 (closed by TS28, P8). The epithelium of phallic urethra of male/female becomes the epithelium of penile urethra/clitoral urethra at TS25." []
-comment: order=2 for EMAPA:17969.
+comment: MERGED COMMENT:\nTARGET COMMENT: order=2 for EMAPA:17969.\n--------------------\nSOURCE COMMENT: order=0 for EMAPA:17956.
 is_a: EMAPA:31518 ! urethral plate epithelium
 is_a: EMAPA:35963 ! male reproductive system epithelium
 relationship: ends_at TS24 ! TS24
@@ -42848,15 +42833,6 @@ namespace: anatomical_structure
 alt_id: EMAPA:30447
 comment: order=3 for EMAPA:19290.
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19290 ! epididymis
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:30749
-name: outer layer of epididymis
-namespace: anatomical_structure
-comment: order=4 for EMAPA:19290.
-relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:19290 ! epididymis
 relationship: starts_at TS23 ! TS23
 
@@ -43411,12 +43387,13 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:30917
 name: clitoral urethra
 namespace: anatomical_structure
-def: "clitoral urethra (CLUR) (syn: external urethra of female) (TS25-TS28): comprised of epithelium of clitoral urethra. Epithelium of clitoral urethra (TS25-28) derived from epithelium of phallic urethra of male/female (TS21-24). At TS25, the epithelium is subdivided into along its distal-proximal length into urethral plate epithelium (distal) and urethral tube epithelium (proximal). The urethral plate epithelium of female (syn: distal urethral epithelium of female; urethral plate of female) is no longer present from TS26. The clitoral urethra is open proximally at the proximal urethral meatus (present to P7) (syn: proximal urethral opening of female or urethral duct) located at the base of the clitoris. The proximal urethral meatus closes after birth (closed by P8). In adults and from birth, the urethra of female is open externally at the urethral meatus of clitoral urethra (syn: distal urethral opening of female) which is anatomically located within the clitoris. (This is different to humans, where the urethral opening is located between the clitoris and vagina.) The clitoral urethra is anatomically located ventrally within the clitoris and is surrounded by the tissue of the clitoris, therefore only the epithelial components are necessary parts of clitoral urethra." []
+def: "clitoral urethra (CLUR) (syn: external urethra of female) (TS25-TS28): comprised of epithelium of clitoral urethra. Epithelium of clitoral urethra (TS25-28) derived from epithelium of phallic urethra of male/female (TS21-24). At TS25, the epithelium is subdivided into along its distal-proximal length into urethral plate epithelium (distal) and urethral tube epithelium (proximal). The urethral plate epithelium of female (syn: distal urethral epithelium of female; urethral plate of female) is no longer present from TS26. The clitoral urethra is open proximally at the proximal urethral meatus (present to P7) (syn: proximal urethral opening of female or urethral duct) located at the base of the clitoris. The proximal urethral meatus closes after birth (closed by P8). In adults and from birth, the urethra of female is open externally at the urethral meatus of clitoral urethra (syn: distal urethral opening of female) which is anatomically located within the clitoris. (This is different to humans, where the urethral opening is located between the clitoris and vagina). The clitoral urethra is anatomically located ventrally within the clitoris and is surrounded by the tissue of the clitoris, therefore only the epithelial components are necessary parts of clitoral urethra." []
 comment: order=1 for EMAPA:28747.
 synonym: "external urethra of female" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28747 ! urethra of female
-relationship: starts_at TS23 ! TS23
+relationship: part_of EMAPA:30819 ! clitoris
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:30924
@@ -43425,7 +43402,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:30917.
 synonym: "distal urethral epithelium of female" RELATED []
 synonym: "urethral plate of female" RELATED []
-relationship: ends_at TS28 ! TS28
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:30930 ! epithelium of clitoral urethra
 relationship: starts_at TS25 ! TS25
 
@@ -43454,9 +43431,7 @@ id: EMAPA:30934
 name: mesenchymal layer of phallic urethra of female
 namespace: anatomical_structure
 comment: order=1 for EMAPA:30917.
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:30917 ! clitoral urethra
-relationship: starts_at TS25 ! TS25
+is_obsolete: true
 
 [Term]
 id: EMAPA:30938
@@ -43480,10 +43455,11 @@ id: EMAPA:30944
 name: penile urethra
 namespace: anatomical_structure
 alt_id: EMAPA:29641
-def: "penile urethra (PNUR) (syn: external urethra of male) (TS25-TS28): comprised of epithelium of penile urethra. Epithelium of penile urethra (TS25-TS28) derived from epithelium of phallic urethra of male/female (TS21-TS24). The urethral plate epithelium of male (syn: distal urethral epithelium of male; urethral plate) completely canalises by TS25 and the plate is no longer present in males from TS25. By TS25, the penile urethra opens at the urethral meatus of penile urethra (syn: urethral opening of male) and the proximal urethral meatus has closed. The penile urethra is anatomically located, centrally within the penis and is surrounded by the tissue of the penis, therefore only the epithelial components are necessary parts of penile urethra." []
+def: "penile urethra (PNUR) (syn: external urethra of male) (TS25-TS28): comprised of epithelium of penile urethra. Epithelium of penile urethra (TS25-TS28) derived from epithelium of phallic urethra of male (TS21-TS24). The urethral plate epithelium of male (syn: distal urethral epithelium of male; urethral plate) completely canalises by TS25 and the plate is no longer present in males from TS25. By TS25, the penile urethra opens at the urethral meatus of penile urethra (syn: urethral opening of male) and the proximal urethral meatus has closed. The penile urethra is anatomically located, centrally within the penis and is surrounded by the tissue of the penis, therefore only the epithelial components are necessary parts of penile urethra." []
 comment: order=3 for EMAPA:18692.
 synonym: "external urethra of male" RELATED []
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18682 ! penis
 relationship: part_of EMAPA:18692 ! urethra of male
 relationship: starts_at TS25 ! TS25
 
@@ -43743,15 +43719,6 @@ relationship: part_of EMAPA:32757 ! paraxial mesenchyme
 relationship: starts_at TS12 ! TS12
 
 [Term]
-id: EMAPA:31182
-name: developing vasculature of epididymis
-namespace: anatomical_structure
-comment: order=5 for EMAPA:19290.
-relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:19290 ! epididymis
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:31194
 name: developing vasculature of cauda epididymis
 namespace: anatomical_structure
@@ -43832,10 +43799,10 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:31235
 name: developing vasculature system of epididymis
 namespace: anatomical_structure
-comment: order=11 for EMAPA:19290.
+alt_id: EMAPA:31182
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:19290 ! epididymis
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:31240
@@ -44388,8 +44355,8 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:31507
 name: urethral plate epithelium of male
 namespace: anatomical_structure
-def: "urethral plate epithelium of male (upe) (syn: distal urethral epithelium of male, urethral plate of male) (TS20-TS26 in females; TS20-TS24 in males); a bilaminar epithelium, which at TS20 is located  along the ventral mid-line of the genital tubercle of male/female. Derived from the urethral plate epithelium (TS19). This bilayered epithelium often called the urethral plate, is marked by Shh, and continues to grow distally as  the genital tubercle grows distally. At TS20 is part of the genital tubercle of male and from TS21 is part of the epithelium of phallic urethra of male, which is part of genital tubercle of male and is also part of the phallic urethra of male.  From TS21-TS24 it is located at the distal end of the phallic urethra of male. At TS25 in males, the urethra has completely canalised (is fully patent); the urethral plate is no longer seen, the urethra opens at the urethral meatus and the proximal urethral meatus has closed. The urethral plate epithelium is only present in females from this TS25.  From TS26, the urethral plate epithelium of female is part of the clitoris, located distally, and part of the epithelium of clitoral urethra. At TS27 it is no longer seen in females." []
-comment: order=0 for EMAPA:30467.
+alt_id: EMAPA:18998
+def: "urethral plate epithelium of male (upe) (syn: distal urethral epithelium of male, urethral plate of male) (TS20-TS26 in females; TS20-TS24 in males); a bilaminar epithelium, which at TS20 is located  along the ventral mid-line of the genital tubercle of male/female. Derived from the urethral plate epithelium (TS19). This bilayered epithelium often called the urethral plate, is marked by Shh, and continues to grow distally as  the genital tubercle grows distally. At TS20 is part of the genital tubercle of male and from TS21 is part of the epithelium of phallic urethra of male, which is part of genital tubercle of male and is also part of the phallic urethra of male.  From TS21-TS24 it is located at the distal end of the phallic urethra of male. At TS25 in males, the urethra has completely canalised (is fully patent); the urethral plate is no longer seen, the urethra opens at the urethral meatus and the proximal urethral meatus has closed. The urethral plate epithelium is only present in females from TS25. From TS25, the urethral plate epithelium of female is part of the clitoris and is termed the urethral plate epithelium of clitoral urethra, located distally, and part of the epithelium of clitoral urethra. At TS27 it is no longer seen in females." []
 synonym: "distal urethral epithelium of male" RELATED []
 synonym: "urethral plate of male" RELATED []
 is_a: EMAPA:35288 ! distal urethral epithelium
@@ -44402,13 +44369,12 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:31508
 name: urethral tube epithelium of male
 namespace: anatomical_structure
-def: "urethral tube epithelium of male (syn: proximal urethral epithelium of male) (TS21-TS25): the open, proximal part of the epithelium of phallic urethra of male that has canalised into a tube. This structure is distinct from the urethral plate epithelium: when the urethral plate epithelium opens, forming a lumen, it is referred to as the urethral tube epithelium. During development, the tube progresses distally as canalisation progresses distally. First seen at TS21 in the proximal genital tubercle of male." []
+def: "urethral tube epithelium of male (syn: proximal urethral epithelium of male) (TS21-TS24): the open, proximal part of the epithelium of phallic urethra of male that has canalised into a tube. This structure is distinct from the urethral plate epithelium: when the urethral plate epithelium opens, forming a lumen, it is referred to as the urethral tube epithelium. During development, the tube progresses distally as canalisation progresses distally. First seen at TS21 in the proximal genital tubercle of male." []
 comment: order=1 for EMAPA:30467.
 synonym: "proximal urethral epithelium of male" RELATED []
 is_a: EMAPA:35964 ! proximal urethral epithelium
-relationship: ends_at TS25 ! TS25
+relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:30467 ! epithelium of phallic urethra of male
-relationship: part_of EMAPA:30946 ! epithelium of penile urethra
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -44668,7 +44634,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:31536
 name: urethral plate epithelium of female
 namespace: anatomical_structure
-def: "urethral plate epithelium of female (upe) (syn: urethral plate of female, distal urethral epithelium of female) (TS20-TS26 in females; TS20-TS24 in males); a bilaminar epithelium, which at TS20 is located  along the ventral mid-line of the genital tubercle of male/female. Derived from the urethral plate epithelium (TS19). This bilayered epithelium often called the urethral plate, is marked by Shh, and continues to grow distally as  the genital tubercle grows distally. At TS20 is part of the genital tubercle of male/female and from TS21 is part of the epithelium of phallic urethra of male/female, which is part of genital tubercle of male/female and is also part of the phallic urethra of male/female.  From TS21-24 it is located at the distal end of the phallic urethra of male/female. At TS25 in males, the urethra has completely canalised (is fully patent); the urethral plate is no longer seen, the urethra opens at the urethral meatus and the proximal urethral meatus has closed. The urethral plate epithelium is only present in females from this TS25.  From TS26, the urethral plate epithelium of female is part of the clitoris, located distally, and part of the epithelium of clitoral urethra. At TS27 it is no longer seen in females." []
+def: "urethral plate epithelium of female (upe) (syn: urethral plate of female, distal urethral epithelium of female) (TS20-TS26 in females; TS20-TS24 in males); a bilaminar epithelium, which at TS20 is located  along the ventral mid-line of the genital tubercle of male/female. Derived from the urethral plate epithelium (TS19). This bilayered epithelium often called the urethral plate, is marked by Shh, and continues to grow distally as  the genital tubercle grows distally. At TS20 is part of the genital tubercle of male/female and from TS21 is part of the epithelium of phallic urethra of male/female, which is part of genital tubercle of male/female and is also part of the phallic urethra of male/female.  From TS21-24 it is located at the distal end of the phallic urethra of male/female. At TS25 in males, the urethra has completely canalised (is fully patent); the urethral plate is no longer seen, the urethra opens at the urethral meatus and the proximal urethral meatus has closed. The urethral plate epithelium is only present in females from TS25.  From TS25, the urethral plate epithelium of female is part of the clitoris and is termed the urethral plate epithelium of clitoral urethra, located distally, and part of the epithelium of clitoral urethra. At TS27 it is no longer seen in females." []
 comment: order=0 for EMAPA:30470.
 synonym: "distal urethral epithelium of female" RELATED []
 synonym: "urethral plate of female" RELATED []
@@ -44676,7 +44642,7 @@ is_a: EMAPA:35288 ! distal urethral epithelium
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:18680 ! genital tubercle of female
 relationship: part_of EMAPA:30470 ! epithelium of phallic urethra of female
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:31537
@@ -50985,7 +50951,6 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35288
 name: distal urethral epithelium
 namespace: anatomical_structure
-def: "urethral plate epithelium (syn: urethral plate) (TS19): a bilaminar epithelial extension of the cloacal epithelium that grows out from the cloaca, between the ventrolateral genital swellings. Derived from cloacal endoderm. This bilayered epithelium often called the urethral plate, marked by Shh, continues to grow distally with the genital tubercle. At TS19 is part of the genital tubercle and from TS20 as the ontology becomes gender-specific it becomes part of the genital tubercle of male/female and from TS21 it is also part of the phallic urethra epithelium, which is part of genital tubercle of male/female and part of the phallic urethra." []
 comment: order=0 for EMAPA:31518.
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:31518 ! urethral plate epithelium
@@ -58696,6 +58661,7 @@ comment: order=1 for EMAPA:29653.
 synonym: "Skene's gland of clitoral urethra" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29653 ! female urethral gland
+relationship: part_of EMAPA:30917 ! clitoral urethra
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -61413,6 +61379,60 @@ namespace: anatomical_structure
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:36449 ! forebrain-midbrain boundary region
 relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:36451
+name: urethral tube epithelium of clitoral urethra
+namespace: anatomical_structure
+synonym: "proximal urethral epithelium of female" RELATED []
+relationship: ends_at TS25 ! TS25
+relationship: part_of EMAPA:30930 ! epithelium of clitoral urethra
+relationship: starts_at TS25 ! TS25
+
+[Term]
+id: EMAPA:36452
+name: proximal urethral meatus of clitoral urethra
+namespace: anatomical_structure
+synonym: "proximal urethral opening of female" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:30930 ! epithelium of clitoral urethra
+relationship: starts_at TS25 ! TS25
+
+[Term]
+id: EMAPA:36453
+name: urethral meatus of clitoral urethra
+namespace: anatomical_structure
+def: "urethral meatus of clitoral urethra (syn: urethral opening of clitoral urethra, distal urethral opening of female) (TS27-TS28): the opening of the clitoral urethra, located within the clitoris. The clitoral urethra is open proximally at the proximal urethral meatus (present to P7) (syn: proximal urethral opening of female or urethral duct) located at the base of the clitoris. The proximal urethral meatus closes after birth (closed by P8). In adults and from birth, the urethra of female is open externally at the urethral meatus of clitoral urethra (syn: distal urethral opening of female) which is anatomically located within the clitoris. (This is different to humans, where the urethral opening is located between the clitoris and vagina)." []
+synonym: "distal urethral opening of female" RELATED []
+synonym: "urethral opening of clitoral urethra" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:30930 ! epithelium of clitoral urethra
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36454
+name: urethral tube epithelium of penile urethra
+namespace: anatomical_structure
+synonym: "proximal urethral epithelium of male" RELATED []
+relationship: ends_at TS25 ! TS25
+relationship: part_of EMAPA:30946 ! epithelium of penile urethra
+relationship: starts_at TS25 ! TS25
+
+[Term]
+id: EMAPA:36455
+name: gland of vaginal epithelium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:30991 ! epithelium of vagina
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36456
+name: rest of epithelium of vagina
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:30991 ! epithelium of vagina
+relationship: starts_at TS28 ! TS28
 
 [Term]
 id: group_term
