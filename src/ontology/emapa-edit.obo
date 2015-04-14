@@ -42394,7 +42394,7 @@ name: epithelium of phallic urethra of male
 namespace: anatomical_structure
 alt_id: EMAPA:28853
 def: "epithelium of phallic urethra of male (ephur) (TS20-TS24): derived from cloacal endoderm and derived from the urethral plate epithelium (TS19). Located within the genital tubercle of male. At TS20, the urethral plate epithelium has not canalised and only the plate is seen. At TS21, as the plate begins to canalise and form a tube, it is subdivided into the urethral plate epithelium of male (syn: urethral plate), the bilaminar epithelium located distally, and into the phallic urethral tube epithelium (syn: proximal phallic urethral epithelium) which is the part of the urethral epithelium that has septated into a canalised tube proximally, and it is open at the proximal urethral meatus. The proximal urethral meatus closes in males, a process which begins around TS23 and is not present in males at TS25. In females, the proximal urethral meatus remains open to TS27 (closed by TS28, P8). The epithelium of phallic urethra of male/female becomes the epithelium of penile urethra/clitoral urethra at TS25." []
-comment: MERGED COMMENT:\nTARGET COMMENT: order=2 for EMAPA:17969.\n--------------------\nSOURCE COMMENT: order=0 for EMAPA:17956.
+comment: order=2 for EMAPA:17969.\norder=0 for EMAPA:17956.
 is_a: EMAPA:31518 ! urethral plate epithelium
 is_a: EMAPA:35963 ! male reproductive system epithelium
 relationship: ends_at TS24 ! TS24
