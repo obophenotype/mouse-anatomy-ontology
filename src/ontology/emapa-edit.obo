@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:04:2015 17:16
+date: 15:04:2015 14:43
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -20920,7 +20920,6 @@ comment: order=0 for EMAPA:35306.
 synonym: "suprarenal gland" RELATED []
 is_a: EMAPA:35999 ! endocrine gland
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35306 ! endocrine system
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -21204,10 +21203,10 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:18507
-name: plantar pads
+name: plantar pad
 namespace: anatomical_structure
 comment: order=4 for EMAPA:18504.
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18504 ! foot skin
 relationship: starts_at TS23 ! TS23
 
@@ -23079,7 +23078,7 @@ id: EMAPA:18778
 name: pineal gland
 namespace: anatomical_structure
 comment: order=5 for EMAPA:17532.
-is_a: EMAPA:18425 ! gland
+is_a: EMAPA:35999 ! endocrine gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17532 ! epithalamus
 relationship: starts_at TS24 ! TS24
@@ -46506,7 +46505,6 @@ synonym: "myocardium" RELATED []
 is_a: EMAPA:36390 ! striated muscle tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16105 ! heart
-relationship: part_of EMAPA:35577 ! musculature
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -46769,6 +46767,7 @@ namespace: anatomical_structure
 comment: order=25 for EMAPA:25765.
 is_a: EMAPA:35868 ! tissue
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35577 ! musculature
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -46788,7 +46787,6 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:32715.
 is_a: EMAPA:32715 ! muscle tissue
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35577 ! musculature
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -46981,6 +46979,7 @@ namespace: anatomical_structure
 comment: order=9 for EMAPA:16039.\norder=16 for EMAPA:25765.
 is_a: EMAPA:35868 ! tissue
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16039 ! embryo
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -50631,6 +50630,7 @@ namespace: anatomical_structure
 comment: order=8 for EMAPA:25765.
 is_a: EMAPA:35868 ! tissue
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16039 ! embryo
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -53558,6 +53558,7 @@ id: EMAPA:35580
 name: nail
 namespace: anatomical_structure
 comment: order=5 for EMAPA:17524.
+synonym: "claw" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17524 ! integumental system
 relationship: starts_at TS24 ! TS24
