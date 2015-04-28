@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 15:04:2015 14:43
+date: 28:04:2015 17:13
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -61449,6 +61449,22 @@ is_a: EMAPA:35580 ! nail
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:32649 ! hindlimb digit
 relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36458
+name: myometrium inner circular smooth muscle layer
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:29923 ! myometrium
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36459
+name: myometrium outer longitudinal smooth muscle layer
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:29923 ! myometrium
+relationship: starts_at TS28 ! TS28
 
 [Term]
 id: group_term
