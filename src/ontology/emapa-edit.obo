@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 28:04:2015 17:13
+date: 30:04:2015 17:21
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -4966,21 +4966,22 @@ relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16591
-name: parietal peritoneum
+name: peritoneum parietal mesothelium
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16139.
-synonym: "peritoneal parietal mesothelium" RELATED []
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16139 ! peritoneum
+synonym: "parietal peritoneum" RELATED []
+is_a: EMAPA:16139 ! peritoneum
+relationship: ends_at TS26 ! TS26
 relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16592
-name: visceral peritoneum
+name: peritoneum visceral mesothelium
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16139.
-relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16139 ! peritoneum
+synonym: "visceral peritoneum" RELATED []
+is_a: EMAPA:16139 ! peritoneum
+relationship: ends_at TS26 ! TS26
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -7760,6 +7761,7 @@ name: greater sac parietal mesothelium
 namespace: anatomical_structure
 alt_id: EMAPA:18456
 comment: order=0 for EMAPA:16887.
+is_a: EMAPA:16591 ! peritoneum parietal mesothelium
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16887 ! greater sac mesothelium
 relationship: starts_at TS17 ! TS17
@@ -7792,6 +7794,7 @@ name: omental bursa parietal mesothelium
 namespace: anatomical_structure
 alt_id: EMAPA:18460
 comment: order=0 for EMAPA:16890.
+is_a: EMAPA:16591 ! peritoneum parietal mesothelium
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16890 ! omental bursa mesothelium
 relationship: starts_at TS17 ! TS17
@@ -20817,6 +20820,7 @@ name: greater sac visceral mesothelium
 namespace: anatomical_structure
 alt_id: EMAPA:18457
 comment: order=1 for EMAPA:16887.
+is_a: EMAPA:16592 ! peritoneum visceral mesothelium
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16887 ! greater sac mesothelium
 relationship: starts_at TS17 ! TS17
