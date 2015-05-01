@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 30:04:2015 17:21
+date: 01:05:2015 17:06
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -50223,7 +50223,7 @@ name: central nervous system vascular element
 namespace: anatomical_structure
 comment: order=4 for EMAPA:16470.
 is_a: EMAPA:35993 ! vascular element
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16470 ! central nervous system
 relationship: starts_at TS17 ! TS17
 
@@ -52936,7 +52936,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:35503.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35503 ! long bone
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35509
@@ -55518,7 +55518,7 @@ name: spinal cord vascular element
 namespace: anatomical_structure
 comment: order=10 for EMAPA:17577.
 is_a: EMAPA:35208 ! central nervous system vascular element
-relationship: ends_at TS20 ! TS20
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17577 ! spinal cord
 relationship: starts_at TS20 ! TS20
 
@@ -57774,7 +57774,7 @@ namespace: anatomical_structure
 is_a: EMAPA:32730 ! cartilage
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18010 ! rib
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:36037
