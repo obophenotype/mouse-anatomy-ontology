@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 01:05:2015 17:06
+date: 08:05:2015 16:05
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -21263,8 +21263,8 @@ alt_id: EMAPA:35436
 comment: order=3 for EMAPA:18166.
 synonym: "intercostales" EXACT []
 is_a: EMAPA:18167 ! axial muscle
-is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35888 ! trunk musculature
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -50031,7 +50031,7 @@ comment: order=11 for EMAPA:16894.
 is_a: EMAPA:35927 ! white matter
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16894 ! brain
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35188
@@ -50490,7 +50490,7 @@ synonym: "cerebellar white matter" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17787 ! cerebellum
 relationship: part_of EMAPA:35187 ! brain white matter
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35236
@@ -52501,6 +52501,7 @@ id: EMAPA:35463
 name: lacrimal gland
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35462.
+synonym: "lachrymal gland" RELATED []
 is_a: EMAPA:35327 ! exocrine gland
 is_a: EMAPA:35334 ! eye gland
 relationship: ends_at TS28 ! TS28
@@ -52512,6 +52513,7 @@ id: EMAPA:35464
 name: lacrimal gland bud
 namespace: anatomical_structure
 comment: order=21 for EMAPA:16198.
+synonym: "lachrymal gland bud" RELATED []
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:16198 ! eye
 relationship: starts_at TS22 ! TS22
@@ -56741,7 +56743,7 @@ namespace: anatomical_structure
 comment: order=12 for EMAPA:16470.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16470 ! central nervous system
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35928
