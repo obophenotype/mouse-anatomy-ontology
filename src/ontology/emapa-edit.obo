@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 08:05:2015 16:05
+date: 11:05:2015 14:41
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -46733,7 +46733,7 @@ id: EMAPA:32711
 name: cortical plate
 namespace: anatomical_structure
 comment: order=9 for EMAPA:17544.
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:17544 ! cerebral cortex
 relationship: starts_at TS20 ! TS20
 
@@ -49476,7 +49476,7 @@ namespace: anatomical_structure
 comment: order=0 for EMAPA:35589.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35589 ! neocortex region
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35131
@@ -51579,7 +51579,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:35589.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35589 ! neocortex region
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35358
@@ -52215,7 +52215,7 @@ namespace: anatomical_structure
 comment: order=2 for EMAPA:35589.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35589 ! neocortex region
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35433
@@ -53652,7 +53652,7 @@ namespace: anatomical_structure
 comment: order=1 for EMAPA:32842.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32842 ! neocortex
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35590
@@ -53804,7 +53804,7 @@ namespace: anatomical_structure
 comment: order=3 for EMAPA:35589.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35589 ! neocortex region
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35605
@@ -54369,7 +54369,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:35589.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35589 ! neocortex region
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35668
@@ -54514,7 +54514,7 @@ namespace: anatomical_structure
 comment: order=5 for EMAPA:35589.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35589 ! neocortex region
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35683
@@ -55076,7 +55076,7 @@ namespace: anatomical_structure
 comment: order=6 for EMAPA:35589.
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35589 ! neocortex region
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35747
