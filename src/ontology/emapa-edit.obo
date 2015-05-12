@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:05:2015 15:42
+date: 12:05:2015 16:29
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -8777,7 +8777,7 @@ name: stomach vascular element
 namespace: anatomical_structure
 comment: order=8 for EMAPA:17021.
 is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS20 ! TS20
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17021 ! stomach
 relationship: starts_at TS17 ! TS17
 
@@ -13791,7 +13791,7 @@ name: stomach glandular region vascular element
 namespace: anatomical_structure
 alt_id: EMAPA:18897
 comment: order=7 for EMAPA:17623.
-is_a: EMAPA:35994 ! alimentary system vascular element
+is_a: EMAPA:17027 ! stomach vascular element
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17623 ! stomach glandular region
 relationship: starts_at TS20 ! TS20
@@ -13839,7 +13839,7 @@ name: stomach proventricular region vascular element
 namespace: anatomical_structure
 alt_id: EMAPA:18914
 comment: order=7 for EMAPA:17627.
-is_a: EMAPA:35994 ! alimentary system vascular element
+is_a: EMAPA:17027 ! stomach vascular element
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17627 ! stomach proventricular region
 relationship: starts_at TS20 ! TS20
@@ -13885,7 +13885,7 @@ name: stomach pyloric region vascular element
 namespace: anatomical_structure
 alt_id: EMAPA:18920
 comment: order=8 for EMAPA:17631.
-is_a: EMAPA:35994 ! alimentary system vascular element
+is_a: EMAPA:17027 ! stomach vascular element
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17631 ! stomach pyloric region
 relationship: starts_at TS20 ! TS20
@@ -16229,7 +16229,7 @@ name: stomach fundus vascular element
 namespace: anatomical_structure
 alt_id: EMAPA:18891
 comment: order=8 for EMAPA:17886.
-is_a: EMAPA:35994 ! alimentary system vascular element
+is_a: EMAPA:17027 ! stomach vascular element
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17886 ! stomach fundus
 relationship: starts_at TS21 ! TS21
