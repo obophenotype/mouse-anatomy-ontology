@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 11:05:2015 14:41
+date: 12:05:2015 15:42
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -8579,8 +8579,8 @@ namespace: anatomical_structure
 comment: order=45 for EMAPA:16201.
 is_a: EMAPA:32867 ! lung vascular element
 is_a: EMAPA:35147 ! artery
+is_a: EMAPA:36460 ! heart great vessel
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -20831,8 +20831,8 @@ name: vena cava
 namespace: anatomical_structure
 comment: order=51 for EMAPA:16240.
 is_a: EMAPA:35932 ! venous blood vessel
+is_a: EMAPA:36460 ! heart great vessel
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -20840,8 +20840,8 @@ id: EMAPA:18416
 name: inferior vena cava
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18415.
+is_a: EMAPA:18415 ! vena cava
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18415 ! vena cava
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -20849,8 +20849,8 @@ id: EMAPA:18417
 name: superior vena cava
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18415.
+is_a: EMAPA:18415 ! vena cava
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18415 ! vena cava
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -21832,8 +21832,9 @@ id: EMAPA:18601
 name: aorta
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16201.
+is_a: EMAPA:35144 ! arterial blood vessel
+is_a: EMAPA:36460 ! heart great vessel
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -22162,8 +22163,8 @@ namespace: anatomical_structure
 comment: order=38 for EMAPA:16240.
 is_a: EMAPA:32867 ! lung vascular element
 is_a: EMAPA:35906 ! vein
+is_a: EMAPA:36460 ! heart great vessel
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -49627,8 +49628,8 @@ id: EMAPA:35146
 name: arteriole
 namespace: anatomical_structure
 comment: order=0 for EMAPA:35144.
+is_a: EMAPA:35144 ! arterial blood vessel
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35144 ! arterial blood vessel
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -49636,8 +49637,8 @@ id: EMAPA:35147
 name: artery
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35144.
+is_a: EMAPA:35144 ! arterial blood vessel
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35144 ! arterial blood vessel
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -56549,7 +56550,6 @@ namespace: anatomical_structure
 comment: order=50 for EMAPA:16240.
 is_a: EMAPA:35932 ! venous blood vessel
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -61471,6 +61471,14 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29923 ! myometrium
 relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36460
+name: heart great vessel
+namespace: anatomical_structure
+is_a: EMAPA:32743 ! blood vessel
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: group_term
