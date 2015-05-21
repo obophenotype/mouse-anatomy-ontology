@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:05:2015 16:29
+date: 21:05:2015 17:11
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -188,6 +188,7 @@ id: EMAPA:16050
 name: epiblast
 namespace: anatomical_structure
 comment: order=8 for EMAPA:16039.\norder=15 for EMAPA:25765.
+synonym: "primitive ectoderm" RELATED []
 relationship: ends_at TS08 ! TS08
 relationship: part_of EMAPA:16039 ! embryo
 relationship: part_of EMAPA:36035 ! blastocyst
@@ -225,6 +226,7 @@ id: EMAPA:16053
 name: parietal endoderm
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16052.
+synonym: "distal endoderm" RELATED []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16052 ! extraembryonic endoderm
 relationship: part_of EMAPA:36035 ! blastocyst
@@ -343,7 +345,7 @@ name: primary trophoblast giant cell
 namespace: anatomical_structure
 alt_id: EMAPA:31874
 comment: order=0 for EMAPA:16047.\norder=0 for EMAPA:31877.
-synonym: "primary trophoblast giant cell" EXACT []
+synonym: "primary trophoblastic giant cell" EXACT []
 is_a: EMAPA:31877 ! trophoblast giant cell
 relationship: ends_at TS15 ! TS15
 relationship: part_of EMAPA:16047 ! mural trophectoderm
@@ -490,6 +492,7 @@ id: EMAPA:16081
 name: exocoelomic cavity
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16054.
+synonym: "extraembryonic coelomic cavity" RELATED []
 is_a: EMAPA:16054 ! extraembryonic component cavity
 relationship: ends_at TS18 ! TS18
 relationship: starts_at TS10 ! TS10
@@ -558,6 +561,7 @@ id: EMAPA:16090
 name: future brain neural fold
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16089.
+synonym: "cephalic neural fold" RELATED []
 is_a: EMAPA:32732 ! neural fold
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16089 ! future brain
@@ -600,6 +604,7 @@ id: EMAPA:16096
 name: surface ectoderm
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16069.
+synonym: "surface epithelium" RELATED []
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16069 ! embryo ectoderm
 relationship: starts_at TS11 ! TS11
@@ -697,6 +702,7 @@ id: EMAPA:16107
 name: allantois
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16042.
+synonym: "allantoic bud" RELATED []
 relationship: ends_at TS15 ! TS15
 relationship: part_of EMAPA:16042 ! extraembryonic component
 relationship: starts_at TS10 ! TS10
@@ -1002,6 +1008,7 @@ id: EMAPA:16137
 name: peritoneal component
 namespace: anatomical_structure
 comment: order=7 for EMAPA:16088.
+synonym: "lesser sac" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16088 ! intraembryonic coelom
 relationship: starts_at TS12 ! TS12
@@ -1315,6 +1322,7 @@ name: neural lumen
 namespace: anatomical_structure
 alt_id: EMAPA:16533
 comment: order=2 for EMAPA:16164.\norder=0 for EMAPA:16530.
+synonym: "future spinal canal" RELATED []
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16164 ! neural tube
 relationship: starts_at TS12 ! TS12
@@ -1632,6 +1640,7 @@ id: EMAPA:16199
 name: optic sulcus
 namespace: anatomical_structure
 comment: order=31 for EMAPA:16198.
+synonym: "optic evagination" RELATED []
 relationship: ends_at TS12 ! TS12
 relationship: part_of EMAPA:16198 ! eye
 relationship: starts_at TS12 ! TS12
@@ -1836,6 +1845,7 @@ id: EMAPA:16244
 name: vitelline vein embryonic part
 namespace: anatomical_structure
 comment: order=56 for EMAPA:16240.\norder=2 for EMAPA:36021.
+synonym: "omphalomesenteric vein" RELATED []
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16240 ! venous system
@@ -1877,6 +1887,7 @@ id: EMAPA:16248
 name: foregut diverticulum
 namespace: anatomical_structure
 comment: order=4 for EMAPA:16247.
+synonym: "foregut pocket" RELATED []
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16247 ! gut
 relationship: starts_at TS12 ! TS12
@@ -1906,6 +1917,7 @@ id: EMAPA:16251
 name: hindgut diverticulum
 namespace: anatomical_structure
 comment: order=15 for EMAPA:16247.
+synonym: "hindgut pocket" RELATED []
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16247 ! gut
 relationship: starts_at TS12 ! TS12
@@ -2178,6 +2190,7 @@ id: EMAPA:16282
 name: pericardio-peritoneal canal
 namespace: anatomical_structure
 comment: order=4 for EMAPA:16088.
+synonym: "pericardio-peritoneal channel" RELATED []
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:16088 ! intraembryonic coelom
 relationship: starts_at TS13 ! TS13
@@ -2638,6 +2651,7 @@ id: EMAPA:16325
 name: optic pit
 namespace: anatomical_structure
 comment: order=29 for EMAPA:16198.
+synonym: "optic evagination" RELATED []
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16198 ! eye
 relationship: starts_at TS13 ! TS13
@@ -2760,6 +2774,7 @@ name: bulbus cordis caudal half cardiac muscle
 namespace: anatomical_structure
 alt_id: EMAPA:16220
 comment: order=1 for EMAPA:16217.\norder=4 for EMAPA:32688.
+synonym: "bulbus cordis caudal half myocardium" RELATED []
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16334 ! bulbus cordis caudal half
 relationship: part_of EMAPA:32688 ! cardiac muscle tissue
@@ -2941,6 +2956,7 @@ name: primitive ventricle cardiac muscle
 namespace: anatomical_structure
 alt_id: EMAPA:16236
 comment: order=1 for EMAPA:16350.\norder=10 for EMAPA:32688.\norder=1 for EMAPA:16233.\norder=8 for EMAPA:32688.
+synonym: "primitive ventricle myocardium" RELATED []
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16350 ! primitive ventricle
 relationship: part_of EMAPA:32688 ! cardiac muscle tissue
@@ -5458,6 +5474,7 @@ id: EMAPA:16653
 name: telencephalic vesicle
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16652.
+synonym: "future lateral ventricle" RELATED []
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16910 ! telencephalon
 relationship: starts_at TS15 ! TS15
@@ -5564,6 +5581,7 @@ id: EMAPA:16665
 name: peripheral nervous system
 namespace: anatomical_structure
 comment: order=3 for EMAPA:16469.
+synonym: "PNS" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16469 ! nervous system
 relationship: starts_at TS15 ! TS15
@@ -5673,6 +5691,7 @@ id: EMAPA:16676
 name: optic cup intraretinal space
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16674.
+synonym: "optic cup intra-retinal space" RELATED []
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16674 ! optic cup
 relationship: starts_at TS15 ! TS15
@@ -6029,6 +6048,7 @@ name: gallbladder primordium
 namespace: anatomical_structure
 alt_id: EMAPA:16842
 comment: order=2 for EMAPA:16561.\norder=4 for EMAPA:16840.
+synonym: "cystic primordium" RELATED []
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16561 ! biliary bud
 relationship: part_of EMAPA:16840 ! liver and biliary system
@@ -6688,6 +6708,8 @@ id: EMAPA:16778
 name: forelimb bud apical ectodermal ridge
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16407.
+synonym: "forelimb bud AER" RELATED []
+xref: XX:<new xref>
 is_a: EMAPA:32744 ! apical ectodermal ridge
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16407 ! forelimb bud ectoderm
@@ -6893,6 +6915,7 @@ id: EMAPA:16800
 name: olfactory pit
 namespace: anatomical_structure
 comment: order=12 for EMAPA:16542.
+synonym: "nasal pit" RELATED []
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16542 ! nose
 relationship: starts_at TS16 ! TS16
@@ -7879,6 +7902,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:16515
 alt_id: EMAPA:16642
 comment: order=0 for EMAPA:16896.\norder=0 for EMAPA:16641.\norder=0 for EMAPA:16514.
+synonym: "diencephalic vesicle" RELATED []
 synonym: "third ventricle" RELATED []
 is_a: EMAPA:32674 ! brain ventricle
 relationship: ends_at TS28 ! TS28
@@ -7904,6 +7928,7 @@ name: optic recess
 namespace: anatomical_structure
 alt_id: EMAPA:16644
 comment: order=2 for EMAPA:16900.\norder=1 for EMAPA:16642.
+synonym: "lumen of optic stalk" RELATED []
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16900 ! 3rd ventricle
 relationship: starts_at TS15 ! TS15
@@ -8063,6 +8088,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:16479
 comment: order=0 for EMAPA:16916.\norder=0 for EMAPA:16478.
 synonym: "fourth ventricle" RELATED []
+synonym: "rhombencephalic vesicle" RELATED []
 is_a: EMAPA:32674 ! brain ventricle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16148 ! future hindbrain
@@ -8358,6 +8384,7 @@ id: EMAPA:16986
 name: peripheral nerve trunk
 namespace: anatomical_structure
 comment: order=4 for EMAPA:16665.
+synonym: "peripheral nerve chain" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16665 ! peripheral nervous system
 relationship: starts_at TS17 ! TS17
@@ -8435,6 +8462,7 @@ name: endolymphatic appendage
 namespace: anatomical_structure
 alt_id: EMAPA:17283
 comment: order=0 for EMAPA:16669.\norder=0 for EMAPA:16194.
+synonym: "endolymphatic diverticulum" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16194 ! inner ear
 relationship: part_of EMAPA:16669 ! otocyst
@@ -8682,6 +8710,7 @@ id: EMAPA:17018
 name: principal vein of forelimb
 namespace: anatomical_structure
 comment: order=36 for EMAPA:16240.
+synonym: "axial vein of forelimb" RELATED []
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16240 ! venous system
@@ -9593,6 +9622,7 @@ id: EMAPA:17170
 name: intraretinal space
 namespace: anatomical_structure
 comment: order=2 for EMAPA:17168.
+synonym: "intra-retinal space" RELATED []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17168 ! retina
 relationship: starts_at TS18 ! TS18
@@ -9612,6 +9642,7 @@ id: EMAPA:17172
 name: pigmented retinal epithelium
 namespace: anatomical_structure
 comment: order=6 for EMAPA:17168.
+synonym: "retinal pigmented epithelium" RELATED []
 is_a: EMAPA:35738 ! retina epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17168 ! retina
@@ -10261,6 +10292,7 @@ id: EMAPA:17247
 name: handplate apical ectodermal ridge
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17246.
+synonym: "handplate AER" RELATED []
 is_a: EMAPA:32744 ! apical ectodermal ridge
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:17246 ! handplate ectoderm
@@ -11043,6 +11075,8 @@ id: EMAPA:17333
 name: interventricular septum
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17331.
+synonym: "ependymal septum" RELATED []
+synonym: "ventricular septum" RELATED []
 is_a: EMAPA:35400 ! heart septum
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17331 ! heart ventricle
@@ -11063,6 +11097,7 @@ id: EMAPA:17335
 name: interventricular septum cardiac muscle
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17333.\norder=0 for EMAPA:32748.
+synonym: "interventricular septum myocardium" RELATED []
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17333 ! interventricular septum
 relationship: part_of EMAPA:32748 ! ventricle cardiac muscle
@@ -11784,6 +11819,7 @@ id: EMAPA:17420
 name: radius-ulna pre-cartilage condensation
 namespace: anatomical_structure
 comment: order=4 for EMAPA:17419.
+synonym: "radio-ulna pre-cartilage condensation" RELATED []
 is_a: EMAPA:32625 ! forelimb pre-cartilage condensation
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:17419 ! forearm mesenchyme
@@ -12220,6 +12256,7 @@ id: EMAPA:17463
 name: hindlimb digit 2
 namespace: anatomical_structure
 comment: order=9 for EMAPA:17459.
+synonym: "second toe" RELATED []
 is_a: EMAPA:32649 ! hindlimb digit
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
@@ -12249,6 +12286,7 @@ id: EMAPA:17466
 name: hindlimb digit 3
 namespace: anatomical_structure
 comment: order=10 for EMAPA:17459.
+synonym: "third toe" RELATED []
 is_a: EMAPA:32649 ! hindlimb digit
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
@@ -12278,6 +12316,7 @@ id: EMAPA:17469
 name: hindlimb digit 4
 namespace: anatomical_structure
 comment: order=11 for EMAPA:17459.
+synonym: "fourth toe" RELATED []
 is_a: EMAPA:32649 ! hindlimb digit
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
@@ -12307,6 +12346,7 @@ id: EMAPA:17472
 name: hindlimb digit 5
 namespace: anatomical_structure
 comment: order=12 for EMAPA:17459.
+synonym: "fifth toe" RELATED []
 is_a: EMAPA:32649 ! hindlimb digit
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
@@ -12797,6 +12837,7 @@ id: EMAPA:17520
 name: neurohypophysis infundibulum
 namespace: anatomical_structure
 comment: order=1 for EMAPA:17519.
+synonym: "pituitary stalk" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17519 ! neurohypophysis
 relationship: starts_at TS20 ! TS20
@@ -13534,6 +13575,7 @@ namespace: anatomical_structure
 comment: order=5 for EMAPA:17000.
 synonym: "auditory tube" RELATED []
 synonym: "Eustachian tube" RELATED []
+synonym: "Eustacian tube" RELATED []
 synonym: "pharyngotympanic tube" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17000 ! middle ear
@@ -13971,6 +14013,7 @@ name: primary palate
 namespace: anatomical_structure
 alt_id: EMAPA:17934
 comment: order=0 for EMAPA:17641.
+synonym: "intermaxillary segment" RELATED []
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17641 ! premaxilla
 relationship: starts_at TS20 ! TS20
@@ -14328,6 +14371,7 @@ id: EMAPA:17683
 name: temporal bone petrous part
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17682.
+synonym: "temporal bone non-squamous part" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17681 ! chondrocranium
 relationship: part_of EMAPA:17682 ! temporal bone
@@ -14566,6 +14610,7 @@ id: EMAPA:17707
 name: pleuro-peritoneal canal
 namespace: anatomical_structure
 comment: order=7 for EMAPA:17701.
+synonym: "pleuro-peritoneal channel" RELATED []
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17701 ! diaphragm
 relationship: starts_at TS20 ! TS20
@@ -14585,6 +14630,7 @@ id: EMAPA:17709
 name: pleuro-peritoneal membrane
 namespace: anatomical_structure
 comment: order=8 for EMAPA:17701.
+synonym: "pleuro-peritoneal folds" RELATED []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17701 ! diaphragm
 relationship: starts_at TS20 ! TS20
@@ -14603,6 +14649,7 @@ id: EMAPA:17711
 name: radius-ulna cartilage condensation
 namespace: anatomical_structure
 comment: order=3 for EMAPA:17419.
+synonym: "radio-ulna cartilage condensation" RELATED []
 is_a: EMAPA:32626 ! forelimb cartilage condensation
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17419 ! forearm mesenchyme
@@ -16092,6 +16139,7 @@ id: EMAPA:17871
 name: mitral valve
 namespace: anatomical_structure
 comment: order=2 for EMAPA:17869.
+synonym: "bicuspid valve" RELATED []
 is_a: EMAPA:35154 ! atrioventricular valve
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS21 ! TS21
@@ -18573,6 +18621,7 @@ id: EMAPA:18155
 name: tibia cartilage condensation
 namespace: anatomical_structure
 comment: order=4 for EMAPA:17498.
+synonym: "tibial cartilage condensation" RELATED []
 is_a: EMAPA:32632 ! hindlimb cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17498 ! lower leg mesenchyme
@@ -18774,6 +18823,7 @@ id: EMAPA:18179
 name: pectoralis major
 namespace: anatomical_structure
 comment: order=6 for EMAPA:17747.
+synonym: "pectoralis superficialis" RELATED []
 is_a: EMAPA:35670 ! pectoralis
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS22 ! TS22
@@ -18783,6 +18833,7 @@ id: EMAPA:18180
 name: pectoralis minor
 namespace: anatomical_structure
 comment: order=7 for EMAPA:17747.
+synonym: "pectoralis profundus" RELATED []
 is_a: EMAPA:35670 ! pectoralis
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS22 ! TS22
@@ -19065,6 +19116,9 @@ id: EMAPA:18223
 name: paraganglion of Zuckerkandl
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18221.
+synonym: "<new synonym>" RELATED []
+synonym: "organ of Zuckerkandl" RELATED []
+synonym: "para-aortic body" RELATED []
 is_a: EMAPA:18221 ! autonomic ganglion
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS22 ! TS22
@@ -19095,7 +19149,7 @@ comment: order=1 for EMAPA:17157.
 synonym: "stellate ganglion" RELATED []
 is_a: EMAPA:17157 ! sympathetic ganglion
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:18227
@@ -19207,6 +19261,7 @@ name: optic disc
 namespace: anatomical_structure
 alt_id: EMAPA:25088
 comment: order=5 for EMAPA:17168.\norder=0 for EMAPA:16678.
+synonym: "optic disk" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16678 ! optic stalk
 relationship: part_of EMAPA:17168 ! retina
@@ -20140,6 +20195,7 @@ id: EMAPA:18341
 name: supraoccipital cartilage condensation
 namespace: anatomical_structure
 comment: order=23 for EMAPA:17681.
+synonym: "supraoccipital bone non-squamous part" RELATED []
 is_a: EMAPA:32802 ! chondrocranium cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17681 ! chondrocranium
@@ -20431,6 +20487,8 @@ id: EMAPA:18370
 name: tail peripheral nervous system
 namespace: anatomical_structure
 comment: order=8 for EMAPA:16665.\norder=1 for EMAPA:16753.
+synonym: "tail PNS" RELATED []
+xref: XX:<new xref>
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16665 ! peripheral nervous system
 relationship: part_of EMAPA:16753 ! tail nervous system
@@ -20849,6 +20907,7 @@ id: EMAPA:18417
 name: superior vena cava
 namespace: anatomical_structure
 comment: order=1 for EMAPA:18415.
+synonym: "cranial vena cava" RELATED []
 is_a: EMAPA:18415 ! vena cava
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
@@ -21393,6 +21452,7 @@ id: EMAPA:18542
 name: epithalamic recess
 namespace: anatomical_structure
 comment: order=0 for EMAPA:17532.
+synonym: "pineal recess" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17532 ! epithalamus
 relationship: starts_at TS23 ! TS23
@@ -21422,6 +21482,7 @@ id: EMAPA:18546
 name: interthalamic adhesion
 namespace: anatomical_structure
 comment: order=1 for EMAPA:17540.
+synonym: "massa intermedia" RELATED []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17540 ! thalamus
 relationship: starts_at TS23 ! TS23
@@ -22123,6 +22184,7 @@ id: EMAPA:18641
 name: internal thoracic vein
 namespace: anatomical_structure
 comment: order=23 for EMAPA:16240.
+synonym: "mammary vein" RELATED []
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16240 ! venous system
@@ -22182,6 +22244,7 @@ id: EMAPA:18647
 name: testicular vein
 namespace: anatomical_structure
 comment: order=47 for EMAPA:16240.
+synonym: "pampiniform plexus" RELATED []
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16240 ! venous system
@@ -22527,6 +22590,7 @@ id: EMAPA:18696
 name: cricoid cartilage
 namespace: anatomical_structure
 comment: order=1 for EMAPA:35977.
+synonym: "6th arch cartilage" RELATED []
 is_a: EMAPA:18694 ! respiratory system cartilage
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35977 ! respiratory system connective tissue
@@ -22548,6 +22612,7 @@ id: EMAPA:18698
 name: thyroid cartilage
 namespace: anatomical_structure
 comment: order=2 for EMAPA:35977.
+synonym: "4th arch cartilage" RELATED []
 is_a: EMAPA:18694 ! respiratory system cartilage
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35977 ! respiratory system connective tissue
@@ -22652,6 +22717,7 @@ id: EMAPA:18716
 name: optic foramen
 namespace: anatomical_structure
 comment: order=5 for EMAPA:18022.
+synonym: "optic canal" RELATED []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18022 ! viscerocranium
 relationship: starts_at TS23 ! TS23
@@ -23083,6 +23149,7 @@ id: EMAPA:18778
 name: pineal gland
 namespace: anatomical_structure
 comment: order=5 for EMAPA:17532.
+synonym: "epiphysis cerebri" RELATED []
 is_a: EMAPA:35999 ! endocrine gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17532 ! epithalamus
@@ -23246,6 +23313,7 @@ id: EMAPA:18802
 name: axillary nerve
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16988.
+synonym: "circumflex nerve" RELATED []
 is_a: EMAPA:32815 ! peripheral nerve
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16988 ! brachial plexus
@@ -23956,6 +24024,7 @@ id: EMAPA:19017
 name: inter-parietal bone
 namespace: anatomical_structure
 comment: order=2 for EMAPA:18016.
+synonym: "supraoccipital bone squamous part" RELATED []
 is_a: EMAPA:35996 ! head bone
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18016 ! vault of skull
@@ -24092,6 +24161,7 @@ id: EMAPA:19036
 name: pineal gland stalk
 namespace: anatomical_structure
 comment: order=0 for EMAPA:18778.
+synonym: "pineal peduncle" RELATED []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18778 ! pineal gland
 relationship: starts_at TS25 ! TS25
@@ -24184,6 +24254,7 @@ id: EMAPA:19047
 name: cerebellum dorsal part
 namespace: anatomical_structure
 comment: order=1 for EMAPA:17787.
+synonym: "cerebellum vermis" RELATED []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17787 ! cerebellum
 relationship: starts_at TS25 ! TS25
@@ -24221,13 +24292,14 @@ id: EMAPA:19051
 name: tectum
 namespace: anatomical_structure
 comment: order=1 for EMAPA:16981.
+synonym: "midbrain roof plate rostral part" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16981 ! midbrain roof plate
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:19052
-name: midbrain rest of roof plate
+name: midbrain roof plate caudal part
 namespace: anatomical_structure
 comment: order=0 for EMAPA:16981.
 relationship: ends_at TS26 ! TS26
@@ -25560,6 +25632,7 @@ id: EMAPA:19205
 name: radio-carpal joint
 namespace: anatomical_structure
 comment: order=1 for EMAPA:19204.
+synonym: "wrist joint" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19204 ! forelimb joint
 relationship: starts_at TS24 ! TS24
@@ -30296,6 +30369,7 @@ id: EMAPA:25093
 name: turbinate bone
 namespace: anatomical_structure
 comment: order=8 for EMAPA:18022.
+synonym: "nasal concha" RELATED []
 is_a: EMAPA:19202 ! nasal bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18022 ! viscerocranium
@@ -36276,6 +36350,7 @@ id: EMAPA:26535
 name: odontoid process
 namespace: anatomical_structure
 comment: order=2 for EMAPA:19432.
+synonym: "dens of axis" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19432 ! C2 vertebra
 relationship: starts_at TS26 ! TS26
@@ -46818,6 +46893,7 @@ id: EMAPA:32720
 name: phalanx pre-cartilage condensation
 namespace: anatomical_structure
 comment: order=2 for EMAPA:32719.
+synonym: "phalangeal pre-cartilage condensation" RELATED []
 is_a: EMAPA:32706 ! limb pre-cartilage condensation
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:32719 ! digit mesenchyme
@@ -46828,6 +46904,7 @@ id: EMAPA:32721
 name: phalanx cartilage condensation
 namespace: anatomical_structure
 comment: order=1 for EMAPA:32719.
+synonym: "phalangeal cartilage condensation" RELATED []
 is_a: EMAPA:32701 ! limb cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:32719 ! digit mesenchyme
@@ -46992,6 +47069,7 @@ id: EMAPA:32739
 name: intervertebral disc
 namespace: anatomical_structure
 comment: order=5 for EMAPA:17214.
+synonym: "intervertebral disk" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17214 ! axial skeleton
 relationship: starts_at TS21 ! TS21
