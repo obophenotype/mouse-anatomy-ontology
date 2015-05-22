@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 21:05:2015 17:11
+date: 22:05:2015 16:59
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -445,7 +445,7 @@ id: EMAPA:16076
 name: amniotic fold
 namespace: anatomical_structure
 comment: order=2 for EMAPA:16042.
-relationship: ends_at TS10 ! TS10
+relationship: ends_at TS11 ! TS11
 relationship: part_of EMAPA:16042 ! extraembryonic component
 relationship: starts_at TS10 ! TS10
 
@@ -2787,8 +2787,10 @@ namespace: anatomical_structure
 alt_id: EMAPA:16221
 comment: order=1 for EMAPA:16333.\norder=1 for EMAPA:16216.
 synonym: "conotruncus" RELATED []
+synonym: "outflow tract proximal part" RELATED []
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16333 ! bulbus cordis
+relationship: part_of EMAPA:16346 ! outflow tract
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -5843,7 +5845,7 @@ synonym: "ependymal groove" RELATED []
 synonym: "ependymal sulcus" RELATED []
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16105 ! heart
-relationship: starts_at TS15 ! TS15
+relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16694
@@ -56443,8 +56445,8 @@ id: EMAPA:35887
 name: truncus arteriosus
 namespace: anatomical_structure
 comment: order=4 for EMAPA:16215.
-relationship: ends_at TS12 ! TS12
-relationship: part_of EMAPA:16215 ! primitive heart tube
+relationship: ends_at TS13 ! TS13
+relationship: part_of EMAPA:36462 ! outflow tract distal part
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -56610,7 +56612,7 @@ namespace: anatomical_structure
 comment: order=4 for EMAPA:35905.
 is_a: EMAPA:35993 ! vascular element
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS19 ! TS19
+relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:35905
@@ -60392,7 +60394,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35904 ! vascular plexus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16240 ! venous system
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:36328
@@ -61460,6 +61462,7 @@ id: EMAPA:36449
 name: forebrain-midbrain boundary region
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16089 ! future brain
 relationship: part_of EMAPA:16894 ! brain
 relationship: starts_at TS16 ! TS16
 
@@ -61557,6 +61560,62 @@ namespace: anatomical_structure
 is_a: EMAPA:32743 ! blood vessel
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS17 ! TS17
+
+[Term]
+id: EMAPA:36461
+name: aortic sac
+namespace: anatomical_structure
+relationship: ends_at TS19 ! TS19
+relationship: part_of EMAPA:36462 ! outflow tract distal part
+relationship: starts_at TS12 ! TS12
+
+[Term]
+id: EMAPA:36462
+name: outflow tract distal part
+namespace: anatomical_structure
+relationship: ends_at TS19 ! TS19
+relationship: part_of EMAPA:16346 ! outflow tract
+relationship: starts_at TS12 ! TS12
+
+[Term]
+id: EMAPA:36463
+name: anterior amniotic fold
+namespace: anatomical_structure
+relationship: ends_at TS11 ! TS11
+relationship: part_of EMAPA:16076 ! amniotic fold
+relationship: starts_at TS11 ! TS11
+
+[Term]
+id: EMAPA:36464
+name: posterior amniotic fold
+namespace: anatomical_structure
+relationship: ends_at TS11 ! TS11
+relationship: part_of EMAPA:16076 ! amniotic fold
+relationship: starts_at TS11 ! TS11
+
+[Term]
+id: EMAPA:36465
+name: perioptic vascular plexus
+namespace: anatomical_structure
+is_a: EMAPA:35904 ! vascular plexus
+relationship: ends_at TS19 ! TS19
+relationship: starts_at TS14 ! TS14
+
+[Term]
+id: EMAPA:36466
+name: cerebral venous plexus
+namespace: anatomical_structure
+is_a: EMAPA:36327 ! venous plexus
+relationship: ends_at TS21 ! TS21
+relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:36467
+name: anterior cerebral vein
+namespace: anatomical_structure
+is_a: EMAPA:35906 ! vein
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: group_term
