@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 22:05:2015 16:59
+date: 01:06:2015 15:26
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -61616,6 +61616,14 @@ namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36468
+name: paracardiac ganglion
+namespace: anatomical_structure
+is_a: EMAPA:32813 ! parasympathetic ganglion
+relationship: ends_at TS21 ! TS21
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: group_term
