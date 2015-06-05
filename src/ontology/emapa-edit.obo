@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 03:06:2015 14:54
-saved-by: mwicks
-auto-generated-by: OBO-Edit 2.3
+date: 05:06:2015 17:06
+saved-by: terryh
+auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
@@ -43198,6 +43198,7 @@ synonym: "Ammon's horn" RELATED []
 synonym: "cornu ammonis" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16910 ! telencephalon
+relationship: part_of EMAPA:35405 ! hippocampal formation
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -44778,7 +44779,7 @@ name: auditory cortex
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18797 ! temporal lobe
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35157
@@ -55446,7 +55447,7 @@ name: visual cortex
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35604 ! occipital cortex
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:36447
@@ -55632,6 +55633,30 @@ namespace: anatomical_structure
 is_a: EMAPA:32813 ! parasympathetic ganglion
 relationship: ends_at TS21 ! TS21
 relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:36469
+name: dentate gyrus primordium
+namespace: anatomical_structure
+relationship: ends_at TS24 ! TS24
+relationship: part_of EMAPA:16910 ! telencephalon
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36470
+name: prospective hippocampal fissure
+namespace: anatomical_structure
+relationship: ends_at TS23 ! TS23
+relationship: part_of EMAPA:16910 ! telencephalon
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36471
+name: hippocampal fissure
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35405 ! hippocampal formation
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: group_term
