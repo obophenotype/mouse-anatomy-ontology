@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 05:06:2015 17:06
+date: 12:06:2015 14:49
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -110,8 +110,8 @@ relationship: starts_at TS03 ! TS03
 id: EMAPA:16041
 name: inner cell mass
 namespace: anatomical_structure
+is_a: EMAPA:16039 ! embryo
 relationship: ends_at TS05 ! TS05
-relationship: part_of EMAPA:16039 ! embryo
 relationship: part_of EMAPA:36035 ! blastocyst
 relationship: starts_at TS04 ! TS04
 
@@ -173,8 +173,8 @@ id: EMAPA:16050
 name: epiblast
 namespace: anatomical_structure
 synonym: "primitive ectoderm" RELATED []
+is_a: EMAPA:16039 ! embryo
 relationship: ends_at TS08 ! TS08
-relationship: part_of EMAPA:16039 ! embryo
 relationship: part_of EMAPA:36035 ! blastocyst
 relationship: part_of EMAPA:36119 ! egg cylinder
 relationship: starts_at TS06 ! TS06
@@ -362,7 +362,7 @@ name: embryo mesoderm
 namespace: anatomical_structure
 synonym: "embryonic mesoderm" RELATED []
 is_a: EMAPA:35987 ! mesoderm
-relationship: ends_at TS13 ! TS13
+relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:16039 ! embryo
 relationship: starts_at TS09 ! TS09
 
@@ -582,7 +582,7 @@ id: EMAPA:16101
 name: notochordal plate
 namespace: anatomical_structure
 relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16039 ! embryo
+relationship: part_of EMAPA:16071 ! embryo mesoderm
 relationship: starts_at TS11 ! TS11
 
 [Term]
@@ -590,7 +590,7 @@ id: EMAPA:16102
 name: notochordal process
 namespace: anatomical_structure
 relationship: ends_at TS11 ! TS11
-relationship: part_of EMAPA:16039 ! embryo
+relationship: part_of EMAPA:16071 ! embryo mesoderm
 relationship: starts_at TS11 ! TS11
 
 [Term]
@@ -1305,8 +1305,8 @@ id: EMAPA:16179
 name: lateral plate mesoderm
 namespace: anatomical_structure
 synonym: "lateral plate mesenchyme" RELATED []
-is_a: EMAPA:16071 ! embryo mesoderm
 relationship: ends_at TS13 ! TS13
+relationship: part_of EMAPA:16071 ! embryo mesoderm
 relationship: part_of EMAPA:16177 ! trunk mesenchyme
 relationship: starts_at TS12 ! TS12
 
@@ -1412,7 +1412,7 @@ id: EMAPA:16191
 name: notochord
 namespace: anatomical_structure
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:16039 ! embryo
+relationship: part_of EMAPA:16071 ! embryo mesoderm
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -9877,6 +9877,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17320
 name: left atrium cardiac muscle
 namespace: anatomical_structure
+relationship: develops_in TS28 ! TS28
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17315 ! left atrium
 relationship: part_of EMAPA:32746 ! atrium cardiac muscle
@@ -47874,17 +47875,19 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:35534
 name: macula of saccule
 namespace: anatomical_structure
+is_a: EMAPA:36472 ! macula of vestbular component
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17290 ! saccule
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35535
 name: macula of utricle
 namespace: anatomical_structure
+is_a: EMAPA:36472 ! macula of vestbular component
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17293 ! utricle
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35536
@@ -49792,8 +49795,9 @@ id: EMAPA:35772
 name: sinoatrial node
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16237 ! sinus venosus
 relationship: part_of EMAPA:35428 ! impulse conducting system
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:35773
@@ -51249,7 +51253,6 @@ name: organ
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16039 ! embryo
-relationship: part_of EMAPA:16103 ! organ system
 relationship: part_of EMAPA:25765 ! mouse
 relationship: starts_at TS11 ! TS11
 
@@ -51969,7 +51972,7 @@ name: early embryo
 namespace: anatomical_structure
 relationship: ends_at TS04 ! TS04
 relationship: part_of EMAPA:25765 ! mouse
-relationship: part_of EMAPA:36040 ! conceptus
+relationship: part_of EMAPA:36473 ! early conceptus
 relationship: starts_at TS01 ! TS01
 
 [Term]
@@ -52042,7 +52045,7 @@ relationship: starts_at TS01 ! TS01
 id: EMAPA:36041
 name: 1-cell stage conceptus
 namespace: anatomical_structure
-is_a: EMAPA:36040 ! conceptus
+is_a: EMAPA:36473 ! early conceptus
 relationship: ends_at TS01 ! TS01
 relationship: starts_at TS01 ! TS01
 
@@ -52050,7 +52053,7 @@ relationship: starts_at TS01 ! TS01
 id: EMAPA:36042
 name: 2-cell stage conceptus
 namespace: anatomical_structure
-is_a: EMAPA:36040 ! conceptus
+is_a: EMAPA:36473 ! early conceptus
 relationship: ends_at TS02 ! TS02
 relationship: starts_at TS02 ! TS02
 
@@ -52058,8 +52061,8 @@ relationship: starts_at TS02 ! TS02
 id: EMAPA:36043
 name: 4-cell stage conceptus
 namespace: anatomical_structure
-is_a: EMAPA:36040 ! conceptus
 is_a: EMAPA:36063 ! 4-8 cell stage conceptus
+is_a: EMAPA:36473 ! early conceptus
 relationship: ends_at TS03 ! TS03
 relationship: starts_at TS03 ! TS03
 
@@ -52067,8 +52070,8 @@ relationship: starts_at TS03 ! TS03
 id: EMAPA:36044
 name: 8-cell stage conceptus
 namespace: anatomical_structure
-is_a: EMAPA:36040 ! conceptus
 is_a: EMAPA:36063 ! 4-8 cell stage conceptus
+is_a: EMAPA:36473 ! early conceptus
 relationship: ends_at TS03 ! TS03
 relationship: starts_at TS03 ! TS03
 
@@ -52076,7 +52079,7 @@ relationship: starts_at TS03 ! TS03
 id: EMAPA:36045
 name: morula-stage conceptus
 namespace: anatomical_structure
-is_a: EMAPA:36040 ! conceptus
+is_a: EMAPA:36473 ! early conceptus
 relationship: ends_at TS04 ! TS04
 relationship: starts_at TS03 ! TS03
 
@@ -52084,7 +52087,7 @@ relationship: starts_at TS03 ! TS03
 id: EMAPA:36046
 name: blastocyst-stage conceptus
 namespace: anatomical_structure
-is_a: EMAPA:36040 ! conceptus
+is_a: EMAPA:36473 ! early conceptus
 relationship: ends_at TS06 ! TS06
 relationship: starts_at TS04 ! TS04
 
@@ -52226,7 +52229,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:36063
 name: 4-8 cell stage conceptus
 namespace: anatomical_structure
-is_a: EMAPA:36040 ! conceptus
+is_a: EMAPA:36473 ! early conceptus
 relationship: ends_at TS03 ! TS03
 relationship: starts_at TS03 ! TS03
 
@@ -52705,8 +52708,8 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36119
 name: egg cylinder
 namespace: anatomical_structure
+is_a: EMAPA:36473 ! early conceptus
 relationship: ends_at TS08 ! TS08
-relationship: part_of EMAPA:36040 ! conceptus
 relationship: starts_at TS07 ! TS07
 
 [Term]
@@ -55657,6 +55660,22 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35405 ! hippocampal formation
 relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36472
+name: macula of vestbular component
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17286 ! inner ear vestibular component
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36473
+name: early conceptus
+namespace: anatomical_structure
+is_a: EMAPA:36040 ! conceptus
+relationship: ends_at TS08 ! TS08
+relationship: starts_at TS01 ! TS01
 
 [Term]
 id: group_term
