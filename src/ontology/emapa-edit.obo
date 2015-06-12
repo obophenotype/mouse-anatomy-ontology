@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:06:2015 14:49
+date: 12:06:2015 16:59
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -15182,7 +15182,7 @@ synonym: "oogonia" RELATED []
 synonym: "premeiotic germ cell" RELATED []
 is_a: EMAPA:36000 ! germ cell of gonad
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17962 ! ovary
+relationship: part_of EMAPA:35627 ! ovary follicle
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -36419,6 +36419,7 @@ id: EMAPA:29067
 name: follicle cell of primary follicle
 namespace: anatomical_structure
 synonym: "granulosa cell of primary follicle" RELATED []
+is_a: EMAPA:36474 ! ovary follicle cell
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35631 ! ovary primary follicle
 relationship: starts_at TS27 ! TS27
@@ -37553,6 +37554,7 @@ id: EMAPA:29866
 name: follicle cell of secondary follicle
 namespace: anatomical_structure
 synonym: "granulosa cell of secondary follicle" RELATED []
+is_a: EMAPA:36474 ! ovary follicle cell
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35632 ! ovary secondary follicle
 relationship: starts_at TS28 ! TS28
@@ -38621,6 +38623,7 @@ id: EMAPA:30767
 name: follicle cell of tertiary follicle
 namespace: anatomical_structure
 synonym: "granulosa cell of tertiary follicle" RELATED []
+is_a: EMAPA:36474 ! ovary follicle cell
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30763 ! ovary tertiary follicle
 relationship: starts_at TS28 ! TS28
@@ -39266,6 +39269,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:31025
 name: meiotic oocyte
 namespace: anatomical_structure
+is_a: EMAPA:28965 ! meiotic germ cell of ovary
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17962 ! ovary
 relationship: part_of EMAPA:31058 ! ovigerous cord
@@ -39466,6 +39470,7 @@ name: follicle cell of primordial follicle
 namespace: anatomical_structure
 alt_id: EMAPA:30759
 synonym: "granulosa cell" RELATED []
+is_a: EMAPA:36474 ! ovary follicle cell
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30755 ! ovary primordial follicle
 relationship: starts_at TS27 ! TS27
@@ -55676,6 +55681,14 @@ namespace: anatomical_structure
 is_a: EMAPA:36040 ! conceptus
 relationship: ends_at TS08 ! TS08
 relationship: starts_at TS01 ! TS01
+
+[Term]
+id: EMAPA:36474
+name: ovary follicle cell
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35627 ! ovary follicle
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: group_term
