@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:06:2015 16:15
+date: 17:06:2015 16:21
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -13,7 +13,7 @@ namespace: anatomical_structure
 
 [Term]
 id: EMAPA:16032
-name: first polar body LORN SAUSAGES
+name: first polar body
 namespace: anatomical_structure
 synonym: "1st polar body" RELATED []
 is_a: EMAPA:31859 ! polar body
