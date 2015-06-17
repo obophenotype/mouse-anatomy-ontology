@@ -13,7 +13,7 @@ namespace: anatomical_structure
 
 [Term]
 id: EMAPA:16032
-name: first polar body
+name: first polar body MORE SAUSAGES 
 namespace: anatomical_structure
 synonym: "1st polar body" RELATED []
 is_a: EMAPA:31859 ! polar body
