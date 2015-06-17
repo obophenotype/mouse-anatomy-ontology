@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 16:06:2015 20:23
-saved-by: jarm
+date: 17:06:2015 16:21
+saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -13,7 +13,7 @@ namespace: anatomical_structure
 
 [Term]
 id: EMAPA:16032
-name: first polar body 
+name: first polar body
 namespace: anatomical_structure
 synonym: "1st polar body" RELATED []
 is_a: EMAPA:31859 ! polar body
@@ -9870,8 +9870,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17320
 name: left atrium cardiac muscle
 namespace: anatomical_structure
-relationship: develops_in TS28 ! TS28
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17315 ! left atrium
 relationship: part_of EMAPA:32746 ! atrium cardiac muscle
 relationship: starts_at TS19 ! TS19
@@ -46983,7 +46982,7 @@ name: impulse conducting system
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16105 ! heart
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35429
@@ -47883,7 +47882,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:35534
 name: macula of saccule
 namespace: anatomical_structure
-is_a: EMAPA:36472 ! macula of vestbular component
+is_a: EMAPA:36472 ! macula of vestibular component
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17290 ! saccule
 relationship: starts_at TS22 ! TS22
@@ -47892,7 +47891,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:35535
 name: macula of utricle
 namespace: anatomical_structure
-is_a: EMAPA:36472 ! macula of vestbular component
+is_a: EMAPA:36472 ! macula of vestibular component
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17293 ! utricle
 relationship: starts_at TS22 ! TS22
@@ -55684,7 +55683,7 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:36472
-name: macula of vestbular component
+name: macula of vestibular component
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17286 ! inner ear vestibular component
