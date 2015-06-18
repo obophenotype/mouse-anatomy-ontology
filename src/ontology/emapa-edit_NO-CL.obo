@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:06:2015 16:21
+date: 18:06:2015 16:13
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -21958,7 +21958,9 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19061
 name: organ of Corti
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+alt_id: EMAPA:19151
+synonym: "spiral organ of Corti" EXACT []
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17597 ! cochlea
 relationship: starts_at TS24 ! TS24
 
@@ -22655,14 +22657,6 @@ name: midbrain cisterna chiasmatica
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:19055 ! midbrain subarachnoid space
-relationship: starts_at TS25 ! TS25
-
-[Term]
-id: EMAPA:19151
-name: spiral organ of Corti
-namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16194 ! inner ear
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -49516,7 +49510,7 @@ id: EMAPA:35735
 name: reticular lamina
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19151 ! spiral organ of Corti
+relationship: part_of EMAPA:19061 ! organ of Corti
 relationship: starts_at TS28 ! TS28
 
 [Term]
