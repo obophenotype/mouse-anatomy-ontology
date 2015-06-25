@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 18:06:2015 16:13
+date: 25:06:2015 16:32
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -18562,6 +18562,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18894
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17886 ! stomach fundus
+relationship: part_of EMAPA:18395 ! stomach lumen
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -18571,6 +18572,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18900
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17623 ! stomach glandular region
+relationship: part_of EMAPA:18395 ! stomach lumen
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -18580,6 +18582,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18913
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17627 ! stomach proventricular region
+relationship: part_of EMAPA:18395 ! stomach lumen
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -18589,6 +18592,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18918
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17631 ! stomach pyloric region
+relationship: part_of EMAPA:18395 ! stomach lumen
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -18670,7 +18674,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18395
 name: stomach lumen
 namespace: anatomical_structure
-relationship: ends_at TS20 ! TS20
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17021 ! stomach
 relationship: starts_at TS17 ! TS17
 
@@ -42057,7 +42061,7 @@ id: EMAPA:32708
 name: limb ectoderm
 namespace: anatomical_structure
 is_a: EMAPA:16069 ! embryo ectoderm
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16405 ! limb
 relationship: starts_at TS14 ! TS14
 
