@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 25:06:2015 16:32
-saved-by: terryh
+date: 29:06:2015 18:38
+saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -36996,9 +36996,9 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29693
 name: epithelium of cauda of epididymis
 namespace: anatomical_structure
-is_a: EMAPA:30445 ! epithelium of epididymis
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19292 ! cauda epididymis
+relationship: part_of EMAPA:30445 ! epithelium of epididymis
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -37106,9 +37106,9 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29751
 name: muscle layer of cauda of epididymis
 namespace: anatomical_structure
-is_a: EMAPA:30747 ! muscle layer of epididymis
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19292 ! cauda epididymis
+relationship: part_of EMAPA:30747 ! muscle layer of epididymis
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -37124,18 +37124,18 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:29755
 name: epithelium of corpus epididymis
 namespace: anatomical_structure
-is_a: EMAPA:30445 ! epithelium of epididymis
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19293 ! corpus epididymis
+relationship: part_of EMAPA:30445 ! epithelium of epididymis
 relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:29757
 name: muscle layer of corpus of epididymis
 namespace: anatomical_structure
-is_a: EMAPA:30747 ! muscle layer of epididymis
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19293 ! corpus epididymis
+relationship: part_of EMAPA:30747 ! muscle layer of epididymis
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -37151,18 +37151,18 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:29761
 name: epithelium of caput of epididymis
 namespace: anatomical_structure
-is_a: EMAPA:30445 ! epithelium of epididymis
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19291 ! caput epididymis
+relationship: part_of EMAPA:30445 ! epithelium of epididymis
 relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:29763
 name: muscle layer of caput of epididymis
 namespace: anatomical_structure
-is_a: EMAPA:30747 ! muscle layer of epididymis
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19291 ! caput epididymis
+relationship: part_of EMAPA:30747 ! muscle layer of epididymis
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -38134,8 +38134,10 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:30443
 name: adventitia of epididymis
 namespace: anatomical_structure
+alt_id: EMAPA:30745
 alt_id: EMAPA:30749
 synonym: "outer layer of epididymis" RELATED []
+synonym: "surface epithelium of epididymis" EXACT []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19290 ! epididymis
 relationship: starts_at TS23 ! TS23
@@ -38441,6 +38443,7 @@ synonym: "surface epithelium of glans penis" RELATED []
 is_a: EMAPA:35963 ! male reproductive system epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18988 ! glans penis
+relationship: part_of EMAPA:35675 ! penis skin
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -38462,6 +38465,7 @@ synonym: "prepuce surface epithelium of male" RELATED []
 is_a: EMAPA:35963 ! male reproductive system epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18989 ! prepuce of male
+relationship: part_of EMAPA:35675 ! penis skin
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -38493,6 +38497,7 @@ alt_id: EMAPA:29852
 is_a: EMAPA:35963 ! male reproductive system epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19294 ! penile body
+relationship: part_of EMAPA:35675 ! penis skin
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -38558,15 +38563,6 @@ namespace: anatomical_structure
 is_a: EMAPA:35962 ! female reproductive system epithelium
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:19170 ! glans of female genital tubercle
-relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:30745
-name: surface epithelium of epididymis
-namespace: anatomical_structure
-is_a: EMAPA:35963 ! male reproductive system epithelium
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:19290 ! epididymis
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -38825,7 +38821,6 @@ alt_id: EMAPA:19169
 def: "body of clitoris (syn: clitoral body) (TS25-TS28): the proximal part of the clitoris, contains epithelium, lamina propria, os clitoridis and part of the clitoral urethra. The lamina propria contains many diffuse blood vessels and a larger midline dorsal vein in the body of clitoris. The clitoral urethra forms a large, U-shaped urethral cleft that extends from the body of clitoris to the glans clitoris, surrounded by a solid, U-shaped lamina propria, which are both surrounded by the prepuce." [PMID:25968320]
 synonym: "clitoral body" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18680 ! genital tubercle of female
 relationship: part_of EMAPA:30819 ! clitoris
 relationship: starts_at TS25 ! TS25
 
@@ -39929,7 +39924,7 @@ namespace: anatomical_structure
 def: "proximal urethral meatus of male (prox ur me) (syn: proximal urethral opening of male, urethral duct) (TS21-TS24): the proximal opening in the epithelium of male phallic urethra. In males, the proximal urethral meatus of male, is only present up to TS24. In males from TS25, the penile urethra has completely canalised and opens at the urethral meatus of penile urethra (syn: urethral opening of male) and the proximal urethral meatus has closed." [PMID:25968320]
 synonym: "proximal urethral opening of male" RELATED []
 synonym: "urethral duct" RELATED []
-is_a: EMAPA:35965 ! urethral opening
+is_a: EMAPA:35965 ! proximal urethral meatus
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:30467 ! epithelium of phallic urethra of male
 relationship: starts_at TS21 ! TS21
@@ -40116,6 +40111,7 @@ id: EMAPA:31527
 name: pelvic ganglion
 namespace: anatomical_structure
 alt_id: EMAPA:31522
+def: "pelvic ganglion (TS20-TS28): the pelvic ganglia provide autonomic innervation to the organs of the genitourinary system and lower bowel and are comprised of both sympathetic and parasympathetic neurons. In the mouse they are paired, morphologically discrete, major ganglia in the pelvic region positioned on either side of the urethra where the urethra meets the bladder neck. The pelvic ganglia are derived from the sacral neural crest progenitors that migrate ventrally from the level of somites X-Y ventrally into the urogenital sinus where they form aggregates between the hind gut and the urogenital sinus during organogenesis. In the GUDMAP database, the pelvic ganglia are considered part of the genitourinary system, although some of the sympathetic and parasympathetic neurons project instead to the lower bowel." [PMID:22988430, PMID:25968320]
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: part_of EMAPA:31533 ! nerves of urogenital sinus
@@ -40154,7 +40150,7 @@ namespace: anatomical_structure
 def: "proximal urethral meatus of female (prox ur me) (syn: proximal urethral opening of female, urethral duct) (TS21-TS24): the proximal opening in the epithelium of female phallic urethra (TS21 to TS24).  In females, it becomes the proximal urethral meatus of clitoral urethra, part of the epithelium of clitoral urethra from TS25 to TS28, and is present to P7. By P8, the proximal urethral meatus is closed in females and the urethra opens at the urethral meatus." [PMID:25968320]
 synonym: "proximal urethral opening of female" RELATED []
 synonym: "urethral duct" RELATED []
-is_a: EMAPA:35965 ! urethral opening
+is_a: EMAPA:35965 ! proximal urethral meatus
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:30470 ! epithelium of phallic urethra of female
 relationship: starts_at TS21 ! TS21
@@ -40935,14 +40931,6 @@ name: muscle of ejaculatory duct
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19088 ! ejaculatory duct
-relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:32290
-name: epithelium of prostate gland
-namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19287 ! prostate gland
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -46105,6 +46093,7 @@ id: EMAPA:35316
 name: epididymal fat pad
 namespace: anatomical_structure
 is_a: EMAPA:35340 ! fat pad
+relationship: attached_to EMAPA:19089 ! gubernaculum
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19290 ! epididymis
 relationship: starts_at TS28 ! TS28
@@ -49023,7 +49012,7 @@ name: penis skin
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18682 ! penis
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:35676
@@ -49315,10 +49304,11 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35711
 name: prostate gland epithelium
 namespace: anatomical_structure
+alt_id: EMAPA:32290
 is_a: EMAPA:35963 ! male reproductive system epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19287 ! prostate gland
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35712
@@ -50814,7 +50804,7 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:35896
-name: urethra urothelium
+name: urethra epithelium
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30901 ! urethra
@@ -51399,8 +51389,9 @@ relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35965
-name: urethral opening
+name: proximal urethral meatus
 namespace: anatomical_structure
+synonym: "proximal urethral opening" RELATED []
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:31518 ! urethral plate epithelium
 relationship: starts_at TS21 ! TS21
@@ -52349,7 +52340,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:36077
 name: outer layer of bladder
 namespace: anatomical_structure
-def: "outer layer of bladder (olbl) (TS22-TS28): the outermost layer of the bladder subdivided into serosa of bladder (TS22-28) and adventitia of bladder (TS22-28). Most of the bladder is covered by serosa, a serous-fluid-secreting outer epithelial surface of the bladder in contact with the coelomic cavity. The fundus (or dome) is surrounded by serosa, the rest of the bladder, in contact with the adjacent connective tissue, is covered by adventitia. The adventitia refers to the outer part of the bladder that is not exposed to the peritoneal cavity but is a connective tissue layer that binds it to the adventitia of adjacent organs. The proportion of the bladder covered by serosa and adventitia is stage dependant, with adventitia covering more of the bladder early in development, and the majority covered by serosa later in development. Contains nerve of bladder serosa/adventitia (TS22-28)." [PMID:25968320]
+def: "outer layer of bladder (olbl) (TS22-TS28): the outermost layer of the bladder subdivided into serosa of bladder (TS22-TS28) and adventitia of bladder (TS22-TS28). Most of the bladder is covered by serosa, a serous-fluid-secreting outer epithelial surface of the bladder in contact with the coelomic cavity. The fundus (or dome) is surrounded by serosa, the rest of the bladder, in contact with the adjacent connective tissue, is covered by adventitia. The adventitia refers to the outer part of the bladder that is not exposed to the peritoneal cavity but is a connective tissue layer that binds it to the adventitia of adjacent organs. The proportion of the bladder covered by serosa and adventitia is stage dependant, with adventitia covering more of the bladder early in development, and the majority covered by serosa later in development. Contains nerve of outer layer of bladder (TS22-TS28)." [PMID:25968320]
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
 relationship: starts_at TS22 ! TS22
@@ -55315,7 +55306,6 @@ namespace: anatomical_structure
 def: "bulbourethral gland of female (bugl) (syn: Bartholin's gland) (TS23-TS28): paired epithelial secretory glands develop at the junction of the phallic/penile/clitoral and pelvic urethra in males and females. First seen at E15.5 (TS23), budding out from the epithelium of the urethra in both sexes. They are larger in the male. Growth is dependant on androgens and in males, they canalise after birth (TS27, P1) opening into the urethra and then branch and enlarge during the neonatal period. Comprised of epithelium and a thin interstitium (or connective tissue) which also contains the vasculature (blood vessels). The epithelium of bulbourethral gland is derived from cloacal endoderm. Part of urethra of male/female, and also part of male/female accessory gland. Also called Cowper's gland in human males and not present in human females. It is likely they remain only rudimentary in the adult female mouse." [PMID:25968320]
 synonym: "Bartholin's gland" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: part_of EMAPA:36428 ! female accessory gland
 relationship: starts_at TS23 ! TS23
 
@@ -55457,6 +55447,7 @@ id: EMAPA:36445
 name: skin of urogenital membrane of male
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:35675 ! penis skin
 relationship: part_of EMAPA:36436 ! urogenital membrane of male
 relationship: starts_at TS20 ! TS20
 
@@ -55702,6 +55693,22 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35627 ! ovary follicle
 relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36475
+name: mesenchyme of preputial swelling
+namespace: anatomical_structure
+relationship: ends_at TS22 ! TS22
+relationship: part_of EMAPA:35702 ! preputial swelling
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:36476
+name: skin of preputial swelling
+namespace: anatomical_structure
+relationship: ends_at TS22 ! TS22
+relationship: part_of EMAPA:35702 ! preputial swelling
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: group_term
