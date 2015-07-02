@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 29:06:2015 18:38
+date: 02:07:2015 12:50
 saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -38947,6 +38947,9 @@ synonym: "epithelial layer of primitive bladder" RELATED []
 synonym: "epithelium of primitive bladder" RELATED []
 is_a: EMAPA:31509 ! epithelium of urogenital sinus
 relationship: ends_at TS21 ! TS21
+relationship: has_part CLTEMP:00003 ! undifferentiated epithelial cell of urothelium of primitive bladder
+relationship: has_part CLTEMP:00004 ! intermediate cell of urothelium of primitive bladder
+relationship: has_part CLTEMP:00005 ! P-0 cell of urothelium of primitive bladder
 relationship: part_of EMAPA:30870 ! primitive bladder
 relationship: starts_at TS19 ! TS19
 
@@ -40798,6 +40801,11 @@ namespace: anatomical_structure
 def: "superficial cell layer of bladder urothelium (TS22-TS28) (syn: luminal cell layer of bladder urothelium): the epithelial layer of cells lining the bladder lumen, comprised of superficial cells and intermediate cells of bladder urothelium from TS22-28." [PMID:25968320]
 synonym: "luminal cell layer of bladder urothelium" RELATED []
 relationship: ends_at TS28 ! TS28
+relationship: has_part CLTEMP:00001 ! superficial cell of bladder urothelium
+relationship: has_part CLTEMP:00008 ! intermediate cell of bladder urothelium
+relationship: has_part CLTEMP:00009 ! intermediate cell of superficial cell layer of bladder urothelium
+relationship: has_part CLTEMP:00010 ! intermediate cell of intermediate cell layer of bladder urothelium
+relationship: has_part CLTEMP:00011 ! intermediate cell of basal cell layer of bladder urothelium
 relationship: part_of EMAPA:28601 ! urothelium of bladder
 relationship: starts_at TS22 ! TS22
 
@@ -40807,6 +40815,7 @@ name: basal cell layer of bladder urothelium
 namespace: anatomical_structure
 def: "basal cell layer of bladder urothelium (TS22-TS28): the cell layer at the base of the urothelium adjacent to the basement membrane, comprised of different cell types dependant on stage. At TS22, is comprised solely of intermediate cells (prior to the identification of Krt5-expressing basal cells), from TS23-24 is comprised of intermediate and Krt5-expressing basal cells of bladder urothelium, and from TS25-28 is comprised solely of Krt5-expressing basal cells of bladder urothelium." [PMID:25968320]
 relationship: ends_at TS28 ! TS28
+relationship: has_part CLTEMP:00002 ! Krt5-expressing basal cell of bladder urothelium
 relationship: part_of EMAPA:28601 ! urothelium of bladder
 relationship: starts_at TS22 ! TS22
 
@@ -52303,6 +52312,8 @@ namespace: anatomical_structure
 def: "intermediate cell layer of bladder urothelium (TS22-TS28) (syn: suprabasal cell layer of  bladder urothelium): the 1-2 cell epithelial layer located between the superficial layer and the basal layers, comprised of intermediate cells of bladder urothelium at TS22. From TS23-28 is comprised of intermediate cells and Krt5-expressing basal cells of bladder urothelium." [PMID:25968320]
 synonym: "suprabasal cell layer of  bladder urothelium" RELATED []
 relationship: ends_at TS28 ! TS28
+relationship: has_part CLTEMP:00002 ! Krt5-expressing basal cell of bladder urothelium
+relationship: has_part CLTEMP:00008 ! intermediate cell of bladder urothelium
 relationship: part_of EMAPA:28601 ! urothelium of bladder
 relationship: starts_at TS22 ! TS22
 
@@ -52442,6 +52453,8 @@ namespace: anatomical_structure
 def: "outer mesenchymal layer of primitive bladder (ompbl) (syn: peripheral mesenchyme of primitive bladder) (TS20-TS21): the outer zone of the mesenchyme of the primitive bladder adjacent to the serosa/adventitia of primitive bladder. Inner mesenchymal zone markers Gli1, Gli2, Ptch1, Bmp4 are not expressed at high levels. From TS21, is marked by Gli3 and Myocd, which are absent in the inner layer and from TS21 contains smooth muscle cells (marked by smooth muscle actins and myosins such as smooth muscle alpha-actin, smooth muscle gamma-actin, smooth muscle myosin heavy chain, and Tgfb1) and mesenchymal cells of outer mesenchymal layer of primitive bladder." [PMID:25968320]
 synonym: "peripheral mesenchyme of primitive bladder" RELATED []
 relationship: ends_at TS21 ! TS21
+relationship: has_part CLTEMP:00006 ! smooth muscle cell of outer mesenchymal layer of primitive bladder
+relationship: has_part CLTEMP:00007 ! mesenchymal cell of outer mesenchymal layer of primitive bladder
 relationship: part_of EMAPA:30876 ! mesenchymal layer of primitive bladder
 relationship: starts_at TS20 ! TS20
 
