@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 08:07:2015 11:14
+date: 08:07:2015 11:38
 saved-by: mwicks
 auto-generated-by: OBO-Edit 2.3
 remark: Version 012
@@ -501,7 +501,7 @@ alt_id: EMAPA:16471
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16073 ! neural ectoderm
 relationship: part_of EMAPA:16470 ! central nervous system
-relationship: part_of EMAPA:31858 ! head
+relationship: part_of EMAPA:31858 ! SAUSAGE head
 relationship: starts_at TS11 ! TS11
 
 [Term]
@@ -566,7 +566,7 @@ name: head mesenchyme
 namespace: anatomical_structure
 is_a: EMAPA:35961 ! embryo mesenchyme
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:31858 ! head
+relationship: part_of EMAPA:31858 ! SAUSAGE head
 relationship: starts_at TS11 ! TS11
 
 [Term]
@@ -1429,7 +1429,7 @@ name: ear
 namespace: anatomical_structure
 is_a: EMAPA:35955 ! sensory organ
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:31858 ! head
+relationship: part_of EMAPA:31858 ! SAUSAGE head
 relationship: part_of EMAPA:36002 ! auditory system
 relationship: starts_at TS12 ! TS12
 
@@ -1473,7 +1473,7 @@ name: eye
 namespace: anatomical_structure
 is_a: EMAPA:35955 ! sensory organ
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:31858 ! head
+relationship: part_of EMAPA:31858 ! SAUSAGE head
 relationship: part_of EMAPA:36003 ! visual system
 relationship: starts_at TS12 ! TS12
 
@@ -4124,7 +4124,7 @@ name: nose
 namespace: anatomical_structure
 is_a: EMAPA:35955 ! sensory organ
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:31858 ! head
+relationship: part_of EMAPA:31858 ! SAUSAGE head
 relationship: part_of EMAPA:36004 ! olfactory system
 relationship: starts_at TS14 ! TS14
 
@@ -7081,7 +7081,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35949 ! organ
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16470 ! central nervous system
-relationship: part_of EMAPA:31858 ! head
+relationship: part_of EMAPA:31858 ! SAUSAGE head
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -12928,7 +12928,7 @@ namespace: anatomical_structure
 synonym: "skull" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17213 ! skeleton
-relationship: part_of EMAPA:31858 ! head
+relationship: part_of EMAPA:31858 ! SAUSAGE head
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -16937,7 +16937,7 @@ alt_id: EMAPA:35396
 synonym: "head muscle" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18171 ! cranial musculature
-relationship: part_of EMAPA:31858 ! head
+relationship: part_of EMAPA:31858 ! SAUSAGE head
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -40494,7 +40494,7 @@ relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:31858
-name: head
+name: SAUSAGE head
 namespace: anatomical_structure
 is_a: EMAPA:36031 ! body region
 relationship: ends_at TS28 ! TS28
@@ -42519,7 +42519,7 @@ id: EMAPA:32763
 name: face
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:31858 ! head
+relationship: part_of EMAPA:31858 ! SAUSAGE head
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -42793,7 +42793,7 @@ id: EMAPA:32796
 name: future pituitary
 namespace: anatomical_structure
 relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:31858 ! head
+relationship: part_of EMAPA:31858 ! SAUSAGE head
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -51669,7 +51669,7 @@ name: head bone
 namespace: anatomical_structure
 is_a: EMAPA:32782 ! bone
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:31858 ! head
+relationship: part_of EMAPA:31858 ! SAUSAGE head
 relationship: starts_at TS20 ! TS20
 
 [Term]
