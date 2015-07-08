@@ -54841,7 +54841,6 @@ relationship: part_of EMAPA:28661 ! serosa of bladder
 relationship: part_of EMAPA:36346 ! nerve of outer layer of bladder
 relationship: starts_at TS22 ! TS22
 
-[Term]
 id: EMAPA:36376
 name: nerve of adventitia of bladder neck
 namespace: anatomical_structure
@@ -54849,20 +54848,13 @@ relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28826 ! adventitia of bladder
 relationship: part_of EMAPA:36346 ! nerve of outer layer of bladder
 relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36377
 name: nerve of adventitia of bladder trigone
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36376 ! nerve of adventitia of bladder neck
-relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36378
 name: nerve of adventitia of ventral bladder neck
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36376 ! nerve of adventitia of bladder neck
 relationship: starts_at TS22 ! TS22
 
@@ -54926,49 +54918,36 @@ is_a: EMAPA:35951 ! reproductive system epithelium
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:17382 ! genital tubercle
 relationship: starts_at TS20 ! TS20
-
-[Term]
 id: EMAPA:36387
 name: digit dermis
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:32615 ! digit skin
 relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36388
 name: digit epidermis
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:32615 ! digit skin
 relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36389
 name: tail dermatome
 namespace: anatomical_structure
 is_a: EMAPA:32838 ! dermatome
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:29703 ! tail dermomyotome
-relationship: starts_at TS19 ! TS19
-
-[Term]
 id: EMAPA:36390
 name: striated muscle tissue
 namespace: anatomical_structure
 is_a: EMAPA:32715 ! muscle tissue
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS12 ! TS12
-
-[Term]
 id: EMAPA:36391
 name: sigmoid colon
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18939 ! colon
 relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:36392
 name: back skin
 namespace: anatomical_structure
@@ -54987,10 +54966,8 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:36394
 name: nerve of bladder neck
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31526 ! nerve of bladder
 relationship: part_of EMAPA:36078 ! bladder neck
-relationship: starts_at TS22 ! TS22
 
 id: EMAPA:36395
 name: nerve of bladder trigone
@@ -55232,13 +55209,10 @@ relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18995 ! pelvic urethra of male
 relationship: part_of EMAPA:29645 ! male urethral gland
 relationship: starts_at TS27 ! TS27
-
-[Term]
 id: EMAPA:36424
 name: urethral gland of penile urethra
 namespace: anatomical_structure
 def: "urethral gland of penile urethra (TS27-TS28): numerous epithelial urethral glands develop from the epithelium of the urethra. Develop from male urethral gland bud (TS24-26) and become male urethral gland (TS27-TS28) which is subdivided into urethral gland of male pelvic urethra (part of the pelvic urethra) and urethral gland of penile urethra (part of the penile urethra)." [PMID:25968320]
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29645 ! male urethral gland
 relationship: part_of EMAPA:30944 ! penile urethra
 relationship: starts_at TS27 ! TS27
@@ -55355,13 +55329,10 @@ is_a: EMAPA:35973 ! cardiovascular system mesenchyme
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16105 ! heart
 relationship: starts_at TS12 ! TS12
-
-[Term]
 id: EMAPA:36439
 name: predentin
 namespace: anatomical_structure
 is_a: EMAPA:35872 ! tooth substance
-relationship: ends_at TS28 ! TS28
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -55369,12 +55340,9 @@ id: EMAPA:36440
 name: tooth basement membrane
 namespace: anatomical_structure
 relationship: part_of EMAPA:32906 ! tooth
-
-[Term]
 id: EMAPA:36441
 name: mesenchyme of glans of female genital tubercle
 namespace: anatomical_structure
-relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:19170 ! glans of female genital tubercle
 id: EMAPA:36442
 name: urethral plate epithelium of urogenital membrane of female
@@ -55813,7 +55781,6 @@ id: has_part
 name: has_part
 namespace: mouse_ontology
 is_transitive: true
-
 [Typedef]
 id: is_a
 name: is_a
