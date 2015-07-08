@@ -55082,7 +55082,6 @@ relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36398 ! male urogenital mating protuberance
 relationship: starts_at TS28 ! TS28
 
-[Term]
 id: EMAPA:36405
 name: male urogenital mating protuberance skin
 namespace: anatomical_structure
@@ -55135,8 +55134,6 @@ synonym: "female prepuce stroma" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30699 ! prepuce of female
 relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:36411
 name: scrotum skin
 namespace: anatomical_structure
@@ -55150,7 +55147,6 @@ name: lamina propria of scrotum
 namespace: anatomical_structure
 synonym: "scrotum connective tissue" RELATED []
 synonym: "scrotum stroma" RELATED []
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19296 ! scrotum
 relationship: starts_at TS28 ! TS28
 
@@ -55193,9 +55189,6 @@ name: developing vasculature of labial swelling
 namespace: anatomical_structure
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:30423 ! labial swelling
-relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36418
 name: lamina propria of seminal vesicle
 namespace: anatomical_structure
@@ -55329,11 +55322,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36432
 name: vasculature of bulbourethral gland of female
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36429 ! bulbourethral gland of female
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36433
 name: phallic urethra of female
 namespace: anatomical_structure
@@ -55401,16 +55390,11 @@ namespace: anatomical_structure
 is_a: EMAPA:35872 ! tooth substance
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS26 ! TS26
-
-[Term]
 id: EMAPA:36440
 name: tooth basement membrane
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32906 ! tooth
-relationship: starts_at TS21 ! TS21
-
-[Term]
 id: EMAPA:36441
 name: mesenchyme of glans of female genital tubercle
 namespace: anatomical_structure
@@ -55489,11 +55473,7 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:36450
 name: subcommissural organ primordium
 namespace: anatomical_structure
-relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:36449 ! forebrain-midbrain boundary region
-relationship: starts_at TS19 ! TS19
-
-[Term]
 id: EMAPA:36451
 name: urethral tube epithelium of clitoral urethra
 namespace: anatomical_structure
@@ -55627,7 +55607,6 @@ id: EMAPA:36466
 name: cerebral venous plexus
 namespace: anatomical_structure
 is_a: EMAPA:36327 ! venous plexus
-relationship: ends_at TS21 ! TS21
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -55637,16 +55616,10 @@ namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
-
-[Term]
 id: EMAPA:36468
 name: paracardiac ganglion
 namespace: anatomical_structure
 is_a: EMAPA:32813 ! parasympathetic ganglion
-relationship: ends_at TS21 ! TS21
-relationship: starts_at TS21 ! TS21
-
-[Term]
 id: EMAPA:36469
 name: dentate gyrus primordium
 namespace: anatomical_structure
@@ -55666,19 +55639,12 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36471
 name: hippocampal fissure
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35405 ! hippocampal formation
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36472
 name: macula of vestibular component
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17286 ! inner ear vestibular component
-relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36473
 name: early conceptus
 namespace: anatomical_structure
@@ -55690,7 +55656,6 @@ relationship: starts_at TS01 ! TS01
 id: EMAPA:36474
 name: ovary follicle cell
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35627 ! ovary follicle
 relationship: starts_at TS27 ! TS27
 
@@ -55887,8 +55852,6 @@ id: TS28
 name: TS28
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
-[Term]
 id: TS:0
 name: Theiler stage
 namespace: theiler_stage
@@ -55936,7 +55899,6 @@ id: part_of
 name: part_of
 namespace: mouse_ontology
 is_transitive: true
-
 [Typedef]
 id: starts_at
 name: starts_at
