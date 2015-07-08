@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 08:07:2015 11:38
+date: 08:07:2015 11:55
 saved-by: mwicks
 auto-generated-by: OBO-Edit 2.3
 remark: Version 012
@@ -501,7 +501,7 @@ alt_id: EMAPA:16471
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16073 ! neural ectoderm
 relationship: part_of EMAPA:16470 ! central nervous system
-relationship: part_of EMAPA:31858 ! SAUSAGE head
+relationship: part_of EMAPA:31858 ! head
 relationship: starts_at TS11 ! TS11
 
 [Term]
@@ -566,7 +566,7 @@ name: head mesenchyme
 namespace: anatomical_structure
 is_a: EMAPA:35961 ! embryo mesenchyme
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:31858 ! SAUSAGE head
+relationship: part_of EMAPA:31858 ! head
 relationship: starts_at TS11 ! TS11
 
 [Term]
@@ -1429,7 +1429,7 @@ name: ear
 namespace: anatomical_structure
 is_a: EMAPA:35955 ! sensory organ
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:31858 ! SAUSAGE head
+relationship: part_of EMAPA:31858 ! head
 relationship: part_of EMAPA:36002 ! auditory system
 relationship: starts_at TS12 ! TS12
 
@@ -1473,7 +1473,7 @@ name: eye
 namespace: anatomical_structure
 is_a: EMAPA:35955 ! sensory organ
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:31858 ! SAUSAGE head
+relationship: part_of EMAPA:31858 ! head
 relationship: part_of EMAPA:36003 ! visual system
 relationship: starts_at TS12 ! TS12
 
@@ -4124,7 +4124,7 @@ name: nose
 namespace: anatomical_structure
 is_a: EMAPA:35955 ! sensory organ
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:31858 ! SAUSAGE head
+relationship: part_of EMAPA:31858 ! head
 relationship: part_of EMAPA:36004 ! olfactory system
 relationship: starts_at TS14 ! TS14
 
@@ -7081,7 +7081,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35949 ! organ
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16470 ! central nervous system
-relationship: part_of EMAPA:31858 ! SAUSAGE head
+relationship: part_of EMAPA:31858 ! head
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -12928,7 +12928,7 @@ namespace: anatomical_structure
 synonym: "skull" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17213 ! skeleton
-relationship: part_of EMAPA:31858 ! SAUSAGE head
+relationship: part_of EMAPA:31858 ! head
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -16937,7 +16937,7 @@ alt_id: EMAPA:35396
 synonym: "head muscle" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18171 ! cranial musculature
-relationship: part_of EMAPA:31858 ! SAUSAGE head
+relationship: part_of EMAPA:31858 ! head
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -40494,7 +40494,7 @@ relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:31858
-name: SAUSAGE head
+name: head
 namespace: anatomical_structure
 is_a: EMAPA:36031 ! body region
 relationship: ends_at TS28 ! TS28
@@ -42519,7 +42519,7 @@ id: EMAPA:32763
 name: face
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:31858 ! SAUSAGE head
+relationship: part_of EMAPA:31858 ! head
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -42793,7 +42793,7 @@ id: EMAPA:32796
 name: future pituitary
 namespace: anatomical_structure
 relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:31858 ! SAUSAGE head
+relationship: part_of EMAPA:31858 ! head
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -51669,7 +51669,7 @@ name: head bone
 namespace: anatomical_structure
 is_a: EMAPA:32782 ! bone
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:31858 ! SAUSAGE head
+relationship: part_of EMAPA:31858 ! head
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -55082,6 +55082,7 @@ relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36398 ! male urogenital mating protuberance
 relationship: starts_at TS28 ! TS28
 
+[Term]
 id: EMAPA:36405
 name: male urogenital mating protuberance skin
 namespace: anatomical_structure
@@ -55134,6 +55135,8 @@ synonym: "female prepuce stroma" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30699 ! prepuce of female
 relationship: starts_at TS28 ! TS28
+
+[Term]
 id: EMAPA:36411
 name: scrotum skin
 namespace: anatomical_structure
@@ -55189,6 +55192,8 @@ name: developing vasculature of labial swelling
 namespace: anatomical_structure
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:30423 ! labial swelling
+
+[Term]
 id: EMAPA:36418
 name: lamina propria of seminal vesicle
 namespace: anatomical_structure
@@ -55323,6 +55328,8 @@ id: EMAPA:36432
 name: vasculature of bulbourethral gland of female
 namespace: anatomical_structure
 relationship: part_of EMAPA:36429 ! bulbourethral gland of female
+
+[Term]
 id: EMAPA:36433
 name: phallic urethra of female
 namespace: anatomical_structure
@@ -55390,11 +55397,15 @@ namespace: anatomical_structure
 is_a: EMAPA:35872 ! tooth substance
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS26 ! TS26
+
+[Term]
 id: EMAPA:36440
 name: tooth basement membrane
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32906 ! tooth
+
+[Term]
 id: EMAPA:36441
 name: mesenchyme of glans of female genital tubercle
 namespace: anatomical_structure
@@ -55474,6 +55485,8 @@ id: EMAPA:36450
 name: subcommissural organ primordium
 namespace: anatomical_structure
 relationship: part_of EMAPA:36449 ! forebrain-midbrain boundary region
+
+[Term]
 id: EMAPA:36451
 name: urethral tube epithelium of clitoral urethra
 namespace: anatomical_structure
@@ -55616,10 +55629,14 @@ namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
+
+[Term]
 id: EMAPA:36468
 name: paracardiac ganglion
 namespace: anatomical_structure
 is_a: EMAPA:32813 ! parasympathetic ganglion
+
+[Term]
 id: EMAPA:36469
 name: dentate gyrus primordium
 namespace: anatomical_structure
@@ -55641,10 +55658,14 @@ name: hippocampal fissure
 namespace: anatomical_structure
 relationship: part_of EMAPA:35405 ! hippocampal formation
 relationship: starts_at TS24 ! TS24
+
+[Term]
 id: EMAPA:36472
 name: macula of vestibular component
 namespace: anatomical_structure
 relationship: part_of EMAPA:17286 ! inner ear vestibular component
+
+[Term]
 id: EMAPA:36473
 name: early conceptus
 namespace: anatomical_structure
@@ -55852,6 +55873,8 @@ id: TS28
 name: TS28
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
+
+[Term]
 id: TS:0
 name: Theiler stage
 namespace: theiler_stage
@@ -55899,6 +55922,7 @@ id: part_of
 name: part_of
 namespace: mouse_ontology
 is_transitive: true
+
 [Typedef]
 id: starts_at
 name: starts_at
