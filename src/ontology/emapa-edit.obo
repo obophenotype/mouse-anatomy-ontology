@@ -55009,7 +55009,6 @@ relationship: part_of EMAPA:31526 ! nerve of bladder
 relationship: part_of EMAPA:36078 ! bladder neck
 relationship: starts_at TS22 ! TS22
 
-[Term]
 id: EMAPA:36395
 name: nerve of bladder trigone
 namespace: anatomical_structure
@@ -55017,17 +55016,11 @@ relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35174 ! bladder trigone
 relationship: part_of EMAPA:36394 ! nerve of bladder neck
 relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36396
 name: nerve of ventral bladder neck
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36079 ! ventral bladder neck
 relationship: part_of EMAPA:36394 ! nerve of bladder neck
-relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36397
 name: glandular ridge
 namespace: anatomical_structure
@@ -55400,7 +55393,6 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:36440
 name: tooth basement membrane
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32906 ! tooth
 
 [Term]
@@ -55409,9 +55401,6 @@ name: mesenchyme of glans of female genital tubercle
 namespace: anatomical_structure
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:19170 ! glans of female genital tubercle
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36442
 name: urethral plate epithelium of urogenital membrane of female
 namespace: anatomical_structure
@@ -55608,7 +55597,6 @@ id: EMAPA:36466
 name: cerebral venous plexus
 namespace: anatomical_structure
 is_a: EMAPA:36327 ! venous plexus
-relationship: starts_at TS19 ! TS19
 id: EMAPA:36467
 name: anterior cerebral vein
 namespace: anatomical_structure
@@ -55646,39 +55634,27 @@ id: EMAPA:36472
 name: macula of vestibular component
 namespace: anatomical_structure
 relationship: part_of EMAPA:17286 ! inner ear vestibular component
-
-[Term]
 id: EMAPA:36473
 name: early conceptus
 namespace: anatomical_structure
 is_a: EMAPA:36040 ! conceptus
 relationship: ends_at TS08 ! TS08
 relationship: starts_at TS01 ! TS01
-
-[Term]
 id: EMAPA:36474
 name: ovary follicle cell
 namespace: anatomical_structure
 relationship: part_of EMAPA:35627 ! ovary follicle
 relationship: starts_at TS27 ! TS27
-
-[Term]
 id: EMAPA:36475
 name: mesenchyme of preputial swelling
 namespace: anatomical_structure
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:35702 ! preputial swelling
-relationship: starts_at TS21 ! TS21
-
-[Term]
 id: EMAPA:36476
 name: skin of preputial swelling
 namespace: anatomical_structure
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:35702 ! preputial swelling
-relationship: starts_at TS21 ! TS21
-
-[Term]
 id: group_term
 name: Group term
 namespace: mouse_ontology
@@ -55843,20 +55819,14 @@ id: TS26
 name: TS26
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
-[Term]
 id: TS27
 name: TS27
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
-[Term]
 id: TS28
 name: TS28
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
-[Term]
 id: TS:0
 name: Theiler stage
 namespace: theiler_stage
@@ -55898,7 +55868,6 @@ is_transitive: true
 id: located_in
 name: located_in
 namespace: mouse_ontology
-
 [Typedef]
 id: part_of
 name: part_of
