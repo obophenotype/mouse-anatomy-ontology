@@ -54991,7 +54991,6 @@ relationship: part_of EMAPA:17525 ! skin
 relationship: part_of EMAPA:35162 ! back of trunk
 relationship: starts_at TS20 ! TS20
 
-[Term]
 id: EMAPA:36393
 name: nerve of bladder fundus
 namespace: anatomical_structure
@@ -54999,8 +54998,6 @@ relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31526 ! nerve of bladder
 relationship: part_of EMAPA:35173 ! bladder fundus
 relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36394
 name: nerve of bladder neck
 namespace: anatomical_structure
@@ -55012,10 +55009,8 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:36395
 name: nerve of bladder trigone
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35174 ! bladder trigone
 relationship: part_of EMAPA:36394 ! nerve of bladder neck
-relationship: starts_at TS22 ! TS22
 id: EMAPA:36396
 name: nerve of ventral bladder neck
 namespace: anatomical_structure
@@ -55306,16 +55301,10 @@ synonym: "Bartholin's gland" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36428 ! female accessory gland
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36430
 name: epithelium of bulbourethral gland of female
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36429 ! bulbourethral gland of female
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36431
 name: lamina propria of bulbourethral gland of female
 namespace: anatomical_structure
@@ -55457,8 +55446,6 @@ relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32770 ! hippocampus CA3
 relationship: part_of EMAPA:35409 ! hippocampus pyramidal cell layer
 relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:36449
 name: forebrain-midbrain boundary region
 namespace: anatomical_structure
@@ -55466,14 +55453,10 @@ relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16089 ! future brain
 relationship: part_of EMAPA:16894 ! brain
 relationship: starts_at TS16 ! TS16
-
-[Term]
 id: EMAPA:36450
 name: subcommissural organ primordium
 namespace: anatomical_structure
 relationship: part_of EMAPA:36449 ! forebrain-midbrain boundary region
-
-[Term]
 id: EMAPA:36451
 name: urethral tube epithelium of clitoral urethra
 namespace: anatomical_structure
@@ -55482,8 +55465,6 @@ synonym: "proximal urethral epithelium of female" RELATED []
 relationship: ends_at TS25 ! TS25
 relationship: part_of EMAPA:30930 ! epithelium of clitoral urethra
 relationship: starts_at TS25 ! TS25
-
-[Term]
 id: EMAPA:36452
 name: proximal urethral meatus of clitoral urethra
 namespace: anatomical_structure
@@ -55492,15 +55473,12 @@ synonym: "proximal urethral opening of female" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30930 ! epithelium of clitoral urethra
 relationship: starts_at TS25 ! TS25
-
-[Term]
 id: EMAPA:36453
 name: urethral meatus of clitoral urethra
 namespace: anatomical_structure
 def: "urethral meatus of clitoral urethra (syn: urethral opening of clitoral urethra, distal urethral opening of female) (TS27-TS28): the opening of the clitoral urethra, located within the clitoris. The clitoral urethra is open proximally at the proximal urethral meatus (present to P7) (syn: proximal urethral opening of female or urethral duct) located at the base of the clitoris. The proximal urethral meatus closes after birth (closed by P8). In adults and from birth, the urethra of female is open externally at the urethral meatus of clitoral urethra (syn: distal urethral opening of female) which is anatomically located within the clitoris. (This is different to humans, where the urethral opening is located between the clitoris and vagina)." [PMID:25968320]
 synonym: "distal urethral opening of female" RELATED []
 synonym: "urethral opening of clitoral urethra" RELATED []
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30930 ! epithelium of clitoral urethra
 relationship: starts_at TS27 ! TS27
 
@@ -55512,20 +55490,14 @@ synonym: "proximal urethral epithelium of male" RELATED []
 relationship: ends_at TS25 ! TS25
 relationship: part_of EMAPA:30946 ! epithelium of penile urethra
 relationship: starts_at TS25 ! TS25
-
-[Term]
 id: EMAPA:36455
 name: gland of vaginal epithelium
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30991 ! epithelium of vagina
 relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:36456
 name: rest of epithelium of vagina
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30991 ! epithelium of vagina
 relationship: starts_at TS28 ! TS28
 id: EMAPA:36457
@@ -55813,8 +55785,6 @@ id: TS25
 name: TS25
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
-[Term]
 id: TS26
 name: TS26
 namespace: theiler_stage
@@ -55863,7 +55833,6 @@ id: is_a
 name: is_a
 namespace: mouse_ontology
 is_transitive: true
-
 [Typedef]
 id: located_in
 name: located_in
