@@ -54726,13 +54726,10 @@ relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36352 ! nerve of lamina propria of bladder neck
 relationship: starts_at TS22 ! TS22
 
-[Term]
 id: EMAPA:36359
 name: nerve of blood vessel of suburothelial lamina propria of bladder fundus
 namespace: anatomical_structure
 is_obsolete: true
-
-[Term]
 id: EMAPA:36360
 name: nerve of blood vessel of outer lamina propria of bladder fundus
 namespace: anatomical_structure
@@ -54782,15 +54779,10 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:36367
 name: nerve of detrusor muscle of bladder trigone
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36366 ! nerve of detrusor muscle of bladder neck
-relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36368
 name: nerve of detrusor muscle of ventral bladder neck
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36366 ! nerve of detrusor muscle of bladder neck
 relationship: starts_at TS22 ! TS22
 
@@ -54799,40 +54791,28 @@ id: EMAPA:36369
 name: nerve of blood vessel of detrusor of bladder fundus
 namespace: anatomical_structure
 is_obsolete: true
-
-[Term]
 id: EMAPA:36370
 name: nerve of blood vessel of detrusor of bladder neck
 namespace: anatomical_structure
 is_obsolete: true
-
-[Term]
 id: EMAPA:36371
 name: nerve of blood vessel of detrusor of trigone
 namespace: anatomical_structure
 is_obsolete: true
-
-[Term]
 id: EMAPA:36372
 name: nerve of blood vessel of detrusor of ventral bladder neck
 namespace: anatomical_structure
 is_obsolete: true
-
-[Term]
 id: EMAPA:36373
 name: nerve of nonvascular tissue of outer layer of bladder
 namespace: anatomical_structure
 synonym: "nerve of nonvascular tissue of serosa/adventitia of bladder" RELATED []
 is_obsolete: true
-
-[Term]
 id: EMAPA:36374
 name: nerve of blood vessel of outer layer of bladder
 namespace: anatomical_structure
 synonym: "nerve of blood vessel of serosa/adventitia of bladder" RELATED []
 is_obsolete: true
-
-[Term]
 id: EMAPA:36375
 name: nerve of serosa of bladder fundus
 namespace: anatomical_structure
@@ -54844,10 +54824,8 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:36376
 name: nerve of adventitia of bladder neck
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28826 ! adventitia of bladder
 relationship: part_of EMAPA:36346 ! nerve of outer layer of bladder
-relationship: starts_at TS22 ! TS22
 id: EMAPA:36377
 name: nerve of adventitia of bladder trigone
 namespace: anatomical_structure
@@ -54900,8 +54878,6 @@ is_a: EMAPA:35728 ! reproductive system mesenchyme
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:17382 ! genital tubercle
 relationship: starts_at TS20 ! TS20
-
-[Term]
 id: EMAPA:36385
 name: small intestine mesenchyme
 namespace: anatomical_structure
@@ -54959,10 +54935,8 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:36393
 name: nerve of bladder fundus
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31526 ! nerve of bladder
 relationship: part_of EMAPA:35173 ! bladder fundus
-relationship: starts_at TS22 ! TS22
 id: EMAPA:36394
 name: nerve of bladder neck
 namespace: anatomical_structure
@@ -55176,15 +55150,12 @@ synonym: "mesenchyme of ductus deferens" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18681 ! ductus deferens
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36421
 name: urethral seam
 namespace: anatomical_structure
 def: "urethral seam (urseam) (syn: urethral raphe, ventral seam) (TS24-TS28): in the male, growth from mesenchyme ventral to the phallic urethra closes the proximal urethral meatus and septates the epithelium of phallic urethra. This results in the centrally positioned phallic urethra and the ventrally positioned urethral seam. The urethral seam is a solid epithelial cord present underneath the skin along the ventral midline of the penis. Septation moves in a proximal to distal direction along the penis during development and the urethral seam is retained in the adult penis. Part of the genital tubercle of male (TS24), part of the penis (TS25-TS28) and also part of phallic urethra of male (TS24) and penile urethra." [PMID:25968320]
 synonym: "urethral raphe" RELATED []
 synonym: "ventral seam" RELATED []
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17956 ! phallic urethra of male
 relationship: part_of EMAPA:17969 ! genital tubercle of male
 relationship: part_of EMAPA:18682 ! penis
@@ -55251,8 +55222,6 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36429
 name: bulbourethral gland of female
 namespace: anatomical_structure
@@ -55278,7 +55247,6 @@ name: phallic urethra of female
 namespace: anatomical_structure
 def: "phallic urethra of female (PHUR) (syn: external urethra of female) (TS21-TS24): part of the genital tubercle of female and part of the urethra of female. Comprised of epithelium and anatomically located within the genital tubercle of female. From TS25, as the genital tubercle becomes the penis and clitoris, the phallic urethra becomes the penile or clitoral urethra in male and females respectively. The phallic urethra is anatomically located within the genital tubercle and is surrounded by the tissue of the genital tubercle, therefore only the epithelial components are necessary parts of phallic urethra." [PMID:25968320]
 synonym: "external urethra of female" RELATED []
-relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:18680 ! genital tubercle of female
 relationship: part_of EMAPA:28747 ! urethra of female
 id: EMAPA:36434
@@ -55775,7 +55743,6 @@ namespace: mouse_ontology
 id: ends_at
 name: ends_at
 namespace: mouse_ontology
-
 [Typedef]
 id: has_part
 name: has_part
