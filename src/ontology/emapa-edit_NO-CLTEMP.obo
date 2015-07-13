@@ -54564,7 +54564,6 @@ is_a: EMAPA:32949 ! foot joint
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS22 ! TS22
 
-[Term]
 id: EMAPA:36339
 name: bronchiole smooth muscle
 namespace: anatomical_structure
@@ -54606,26 +54605,17 @@ relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28601 ! urothelium of bladder
 relationship: part_of EMAPA:31526 ! nerve of bladder
 relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36344
 name: nerve of lamina propria of bladder
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30088 ! lamina propria of bladder
 relationship: part_of EMAPA:31526 ! nerve of bladder
-relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36345
 name: nerve of detrusor muscle of bladder
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28637 ! detrusor muscle of bladder
 relationship: part_of EMAPA:31526 ! nerve of bladder
 relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36346
 name: nerve of outer layer of bladder
 namespace: anatomical_structure
@@ -54633,56 +54623,38 @@ relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31526 ! nerve of bladder
 relationship: part_of EMAPA:36077 ! outer layer of bladder
 relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36347
 name: nerve of urothelium of bladder fundus
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36343 ! nerve of urothelium of bladder
 relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36348
 name: nerve of urothelium of bladder neck
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36343 ! nerve of urothelium of bladder
 relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36349
 name: nerve of urothelium of bladder trigone
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36348 ! nerve of urothelium of bladder neck
 relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36350
 name: nerve of urothelium of ventral bladder neck
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36348 ! nerve of urothelium of bladder neck
 relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36351
 name: nerve of lamina propria of bladder fundus
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36344 ! nerve of lamina propria of bladder
-relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36352
 name: nerve of lamina propria of bladder neck
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36344 ! nerve of lamina propria of bladder
-relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36353
 name: nerve of blood vessel of lamina propria of bladder fundus
 namespace: anatomical_structure
@@ -54712,7 +54684,6 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:36358
 name: nerve of lamina propria of ventral bladder neck
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36352 ! nerve of lamina propria of bladder neck
 relationship: starts_at TS22 ! TS22
 
@@ -54803,9 +54774,6 @@ id: EMAPA:36378
 name: nerve of adventitia of ventral bladder neck
 namespace: anatomical_structure
 relationship: part_of EMAPA:36376 ! nerve of adventitia of bladder neck
-relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36379
 name: nerve of blood vessel of serosa of bladder fundus
 namespace: anatomical_structure
@@ -54858,7 +54826,6 @@ id: EMAPA:36386
 name: genital tubercle epithelium
 namespace: anatomical_structure
 is_a: EMAPA:35951 ! reproductive system epithelium
-relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:17382 ! genital tubercle
 relationship: starts_at TS20 ! TS20
 id: EMAPA:36387
@@ -54866,7 +54833,6 @@ name: digit dermis
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:32615 ! digit skin
-relationship: starts_at TS22 ! TS22
 id: EMAPA:36388
 name: digit epidermis
 namespace: anatomical_structure
@@ -55699,7 +55665,6 @@ id: develops_from
 name: develops_from
 namespace: mouse_ontology
 is_transitive: true
-
 [Typedef]
 id: develops_in
 name: develops_in
