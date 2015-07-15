@@ -54429,7 +54429,6 @@ relationship: part_of EMAPA:18653 ! hyoid body
 relationship: part_of EMAPA:36319 ! Reichert's cartilage
 relationship: starts_at TS23 ! TS23
 
-[Term]
 id: EMAPA:36322
 name: chordae tendinae
 namespace: anatomical_structure
@@ -54437,52 +54436,37 @@ def: "Cord-like tendons connecting the papillary muscles to the leaflets of the 
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17331 ! heart ventricle
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36323
 name: hepatic venous plexus
 namespace: anatomical_structure
 xref: XX:<new xref>
 is_a: EMAPA:35501 ! liver vascular element
 is_a: EMAPA:36327 ! venous plexus
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36324
 name: lingual artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
-relationship: ends_at TS28 ! TS28
 relationship: starts_at TS25 ! TS25
-
-[Term]
 id: EMAPA:36325
 name: thymic vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS26 ! TS26
-
-[Term]
 id: EMAPA:36326
 name: liver lobar interzone
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16846 ! liver
 relationship: starts_at TS25 ! TS25
-
-[Term]
 id: EMAPA:36327
 name: venous plexus
 namespace: anatomical_structure
 is_a: EMAPA:35904 ! vascular plexus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16240 ! venous system
-relationship: starts_at TS19 ! TS19
-
-[Term]
 id: EMAPA:36328
 name: vertebral venous plexus
 namespace: anatomical_structure
@@ -54497,16 +54481,12 @@ namespace: anatomical_structure
 is_a: EMAPA:36328 ! vertebral venous plexus
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS25 ! TS25
-
-[Term]
 id: EMAPA:36330
 name: internal vertebral venous plexus
 namespace: anatomical_structure
 is_a: EMAPA:36328 ! vertebral venous plexus
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS25 ! TS25
-
-[Term]
 id: EMAPA:36331
 name: tailgut
 namespace: anatomical_structure
@@ -54551,18 +54531,11 @@ id: EMAPA:36337
 name: hindlimb digit inter-phalangeal joint
 namespace: anatomical_structure
 is_a: EMAPA:32949 ! foot joint
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32649 ! hindlimb digit
-relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36338
 name: hindlimb digit metacarpo-phalangeal joint
 namespace: anatomical_structure
 is_a: EMAPA:32949 ! foot joint
-relationship: ends_at TS28 ! TS28
-relationship: starts_at TS22 ! TS22
-
 id: EMAPA:36339
 name: bronchiole smooth muscle
 namespace: anatomical_structure
@@ -54570,7 +54543,6 @@ relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32697 ! bronchiole
 relationship: starts_at TS28 ! TS28
 
-[Term]
 id: EMAPA:36340
 name: hair follicle of male prepuce
 namespace: anatomical_structure
@@ -54588,7 +54560,6 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36342
 name: preputial space of male
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18989 ! prepuce of male
 relationship: starts_at TS28 ! TS28
 id: EMAPA:36343
@@ -54631,7 +54602,6 @@ name: nerve of urothelium of bladder trigone
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36348 ! nerve of urothelium of bladder neck
-relationship: starts_at TS22 ! TS22
 id: EMAPA:36350
 name: nerve of urothelium of ventral bladder neck
 namespace: anatomical_structure
@@ -55036,8 +55006,6 @@ namespace: anatomical_structure
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18329 ! labial fold
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36417
 name: developing vasculature of labial swelling
 namespace: anatomical_structure
@@ -55636,7 +55604,6 @@ is_a: TS:0 ! Theiler stage
 id: TS:0
 name: Theiler stage
 namespace: theiler_stage
-
 [Typedef]
 id: attached_to
 name: attached_to
