@@ -54316,7 +54316,6 @@ relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35906 ! vein
 relationship: starts_at TS24 ! TS24
 
-[Term]
 id: EMAPA:36310
 name: vein tunica adventitia
 namespace: anatomical_structure
@@ -54348,12 +54347,9 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36312 ! lymphatic vessel tunica media
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36314
 name: lymphatic vessel tunica adventitia
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35532 ! lymphatic vessel
 relationship: starts_at TS24 ! TS24
 
@@ -54371,9 +54367,6 @@ name: palatine vasculature
 namespace: anatomical_structure
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17362 ! palatal shelf
-relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36317
 name: Reichert's cartilage pre-cartilage condensation
 namespace: anatomical_structure
@@ -54410,10 +54403,8 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36321
 name: hyoid body upper part
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18653 ! hyoid body
 relationship: part_of EMAPA:36319 ! Reichert's cartilage
-relationship: starts_at TS23 ! TS23
 
 id: EMAPA:36322
 name: chordae tendinae
@@ -54459,8 +54450,6 @@ namespace: anatomical_structure
 is_a: EMAPA:36327 ! venous plexus
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS25 ! TS25
-
-[Term]
 id: EMAPA:36329
 name: external vertebral venous plexus
 namespace: anatomical_structure
@@ -54479,7 +54468,6 @@ namespace: anatomical_structure
 def: "tailgut (tg) (TS19): a blind-ended, caudal/posterior epithelial extension from the cloacal epithelium." [PMID:25968320]
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:17366 ! urinary system
-relationship: starts_at TS19 ! TS19
 
 id: EMAPA:36332
 name: bladder-urethra transition zone
@@ -55131,8 +55119,6 @@ synonym: "urethral opening of penile urethra" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30946 ! epithelium of penile urethra
 relationship: starts_at TS25 ! TS25
-
-[Term]
 id: EMAPA:36435
 name: urogenital membrane of female
 namespace: anatomical_structure
@@ -55191,24 +55177,18 @@ namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:36435 ! urogenital membrane of female
 relationship: starts_at TS20 ! TS20
-
-[Term]
 id: EMAPA:36443
 name: skin of urogenital membrane of female
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:36435 ! urogenital membrane of female
 relationship: starts_at TS20 ! TS20
-
-[Term]
 id: EMAPA:36444
 name: urethral plate epithelium of urogenital membrane of male
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:36436 ! urogenital membrane of male
 relationship: starts_at TS20 ! TS20
-
-[Term]
 id: EMAPA:36445
 name: skin of urogenital membrane of male
 namespace: anatomical_structure
@@ -55216,24 +55196,16 @@ relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:35675 ! penis skin
 relationship: part_of EMAPA:36436 ! urogenital membrane of male
 relationship: starts_at TS20 ! TS20
-
-[Term]
 id: EMAPA:36446
 name: visual cortex
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35604 ! occipital cortex
 relationship: starts_at TS27 ! TS27
-
-[Term]
 id: EMAPA:36447
 name: prelimbic area
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32842 ! neocortex
 relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:36448
 name: CA3 pyramidal cell layer
 namespace: anatomical_structure
@@ -55265,7 +55237,6 @@ name: proximal urethral meatus of clitoral urethra
 namespace: anatomical_structure
 def: "proximal urethral meatus of clitoral urethra (syn: proximal urethral opening of female) (TS25-TS28): the proximal opening in the epithelium of clitoral urethra.  Develops from the proximal urethral meatus of female (TS21-TS24, part of the epithelium of phallic urethra of female).  In females, the proximal urethral meatus remains open to TS27 (closed by TS28, p8) and the urethra opens at the urethral meatus." [PMID:25968320]
 synonym: "proximal urethral opening of female" RELATED []
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30930 ! epithelium of clitoral urethra
 relationship: starts_at TS25 ! TS25
 id: EMAPA:36453
@@ -55559,13 +55530,10 @@ id: TS22
 name: TS22
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
-[Term]
 id: TS23
 name: TS23
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
 [Term]
 id: TS24
 name: TS24
