@@ -54241,7 +54241,6 @@ is_a: EMAPA:36296 ! blood vessel layer
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS24 ! TS24
 
-[Term]
 id: EMAPA:36300
 name: blood vessel elastic tissue
 namespace: anatomical_structure
@@ -54345,20 +54344,14 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35532 ! lymphatic vessel
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36312
 name: lymphatic vessel tunica media
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35532 ! lymphatic vessel
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36313
 name: lymphatic vessel smooth muscle
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36312 ! lymphatic vessel tunica media
 relationship: starts_at TS24 ! TS24
 id: EMAPA:36314
@@ -54366,16 +54359,11 @@ name: lymphatic vessel tunica adventitia
 namespace: anatomical_structure
 relationship: part_of EMAPA:35532 ! lymphatic vessel
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36315
 name: surface ectoderm of genital tubercle
 namespace: anatomical_structure
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:17382 ! genital tubercle
-relationship: starts_at TS19 ! TS19
-
-[Term]
 id: EMAPA:36316
 name: palatine vasculature
 namespace: anatomical_structure
@@ -54387,24 +54375,18 @@ namespace: anatomical_structure
 is_a: EMAPA:32736 ! pre-cartilage condensation
 relationship: ends_at TS19 ! TS19
 relationship: starts_at TS19 ! TS19
-
-[Term]
 id: EMAPA:36318
 name: Reichert's cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32731 ! cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: starts_at TS20 ! TS20
-
-[Term]
 id: EMAPA:36319
 name: Reichert's cartilage
 namespace: anatomical_structure
 is_a: EMAPA:36062 ! cranium bone primordium
 relationship: ends_at TS26 ! TS26
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36320
 name: styloid process of temporal bone
 namespace: anatomical_structure
@@ -54412,8 +54394,6 @@ relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17682 ! temporal bone
 relationship: part_of EMAPA:36319 ! Reichert's cartilage
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36321
 name: hyoid body upper part
 namespace: anatomical_structure
@@ -54462,7 +54442,6 @@ id: EMAPA:36328
 name: vertebral venous plexus
 namespace: anatomical_structure
 is_a: EMAPA:36327 ! venous plexus
-relationship: ends_at TS28 ! TS28
 relationship: starts_at TS25 ! TS25
 id: EMAPA:36329
 name: external vertebral venous plexus
@@ -54574,7 +54553,6 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31526 ! nerve of bladder
 relationship: part_of EMAPA:36077 ! outer layer of bladder
-relationship: starts_at TS22 ! TS22
 id: EMAPA:36347
 name: nerve of urothelium of bladder fundus
 namespace: anatomical_structure
@@ -55089,8 +55067,6 @@ namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:36425 ! male urethral gland bud
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36428
 name: female accessory gland
 namespace: anatomical_structure
@@ -55130,7 +55106,6 @@ namespace: anatomical_structure
 def: "urethral meatus of penile urethra (syn: urethral opening of penile urethra, distal urethral opening of male) (TS25-TS28): the opening in the penile urethra, located near the distal tip of the penis." [PMID:25968320]
 synonym: "distal urethral opening of male" RELATED []
 synonym: "urethral opening of penile urethra" RELATED []
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30946 ! epithelium of penile urethra
 relationship: starts_at TS25 ! TS25
 id: EMAPA:36435
@@ -55175,8 +55150,6 @@ name: predentin
 namespace: anatomical_structure
 is_a: EMAPA:35872 ! tooth substance
 relationship: starts_at TS26 ! TS26
-
-[Term]
 id: EMAPA:36440
 name: tooth basement membrane
 namespace: anatomical_structure
@@ -55223,7 +55196,6 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36448
 name: CA3 pyramidal cell layer
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32770 ! hippocampus CA3
 relationship: part_of EMAPA:35409 ! hippocampus pyramidal cell layer
 relationship: starts_at TS28 ! TS28
@@ -55532,13 +55504,10 @@ id: TS20
 name: TS20
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
-[Term]
 id: TS21
 name: TS21
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
 [Term]
 id: TS22
 name: TS22
