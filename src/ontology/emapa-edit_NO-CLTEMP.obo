@@ -54186,7 +54186,6 @@ relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35147 ! artery
 relationship: starts_at TS24 ! TS24
 
-[Term]
 id: EMAPA:36295
 name: artery tunica adventitia
 namespace: anatomical_structure
@@ -54218,8 +54217,6 @@ namespace: anatomical_structure
 is_a: EMAPA:36296 ! blood vessel layer
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36299
 name: tunica adventitia
 namespace: anatomical_structure
@@ -54230,20 +54227,14 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:36300
 name: blood vessel elastic tissue
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32743 ! blood vessel
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36301
 name: internal elastic lamina
 namespace: anatomical_structure
 is_a: EMAPA:36300 ! blood vessel elastic tissue
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36297 ! tunica intima
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36302
 name: external elastic lamina
 namespace: anatomical_structure
@@ -54251,8 +54242,6 @@ is_a: EMAPA:36300 ! blood vessel elastic tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36298 ! tunica media
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36303
 name: artery internal elastic lamina
 namespace: anatomical_structure
@@ -54260,8 +54249,6 @@ is_a: EMAPA:36301 ! internal elastic lamina
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36293 ! artery tunica intima
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36304
 name: artery external elastic lamina
 namespace: anatomical_structure
@@ -54269,8 +54256,6 @@ is_a: EMAPA:36302 ! external elastic lamina
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36294 ! artery tunica media
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36305
 name: arteriole tunica intima
 namespace: anatomical_structure
@@ -54278,8 +54263,6 @@ is_a: EMAPA:36297 ! tunica intima
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35146 ! arteriole
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36306
 name: arteriole tunica media
 namespace: anatomical_structure
@@ -54287,26 +54270,18 @@ is_a: EMAPA:36298 ! tunica media
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35146 ! arteriole
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36307
 name: arteriole tunica adventitia
 namespace: anatomical_structure
 is_a: EMAPA:36299 ! tunica adventitia
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35146 ! arteriole
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36308
 name: vein tunica intima
 namespace: anatomical_structure
 is_a: EMAPA:36297 ! tunica intima
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35906 ! vein
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36309
 name: vein tunica media
 namespace: anatomical_structure
@@ -54319,11 +54294,8 @@ id: EMAPA:36310
 name: vein tunica adventitia
 namespace: anatomical_structure
 is_a: EMAPA:36299 ! tunica adventitia
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35906 ! vein
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36311
 name: lymphatic vessel tunica intima
 namespace: anatomical_structure
@@ -54471,7 +54443,6 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:36335
 name: remnant of mesonephric tubule of male
 namespace: anatomical_structure
-relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:17968 ! male reproductive system
 relationship: starts_at TS24 ! TS24
 id: EMAPA:36336
@@ -54581,7 +54552,6 @@ id: EMAPA:36355
 name: nerve of suburothelial lamina propria of bladder fundus
 namespace: anatomical_structure
 relationship: part_of EMAPA:36351 ! nerve of lamina propria of bladder fundus
-relationship: starts_at TS22 ! TS22
 id: EMAPA:36356
 name: nerve of outer lamina propria of bladder fundus
 namespace: anatomical_structure
@@ -55484,7 +55454,6 @@ id: TS19
 name: TS19
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
 [Term]
 id: TS20
 name: TS20
