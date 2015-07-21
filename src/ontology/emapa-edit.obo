@@ -54216,15 +54216,12 @@ relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32743 ! blood vessel
 relationship: starts_at TS24 ! TS24
 
-[Term]
 id: EMAPA:36297
 name: tunica intima
 namespace: anatomical_structure
 is_a: EMAPA:36296 ! blood vessel layer
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36298
 name: tunica media
 namespace: anatomical_structure
@@ -54542,7 +54539,6 @@ relationship: part_of EMAPA:36348 ! nerve of urothelium of bladder neck
 id: EMAPA:36350
 name: nerve of urothelium of ventral bladder neck
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36348 ! nerve of urothelium of bladder neck
 relationship: starts_at TS22 ! TS22
 id: EMAPA:36351
@@ -54612,9 +54608,6 @@ id: EMAPA:36366
 name: nerve of detrusor muscle of bladder neck
 namespace: anatomical_structure
 relationship: part_of EMAPA:36345 ! nerve of detrusor muscle of bladder
-relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36367
 name: nerve of detrusor muscle of bladder trigone
 namespace: anatomical_structure
@@ -54895,7 +54888,6 @@ name: female prepuce lamina propria
 namespace: anatomical_structure
 synonym: "female prepuce connective tissue" RELATED []
 synonym: "female prepuce stroma" RELATED []
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30699 ! prepuce of female
 relationship: starts_at TS28 ! TS28
 id: EMAPA:36411
@@ -54934,8 +54926,6 @@ namespace: anatomical_structure
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:29316 ! scrotal fold
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36416
 name: developing vasculature of labial fold
 namespace: anatomical_structure
@@ -54947,8 +54937,6 @@ name: developing vasculature of labial swelling
 namespace: anatomical_structure
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:30423 ! labial swelling
-
-[Term]
 id: EMAPA:36418
 name: lamina propria of seminal vesicle
 namespace: anatomical_structure
@@ -54956,16 +54944,12 @@ synonym: "mesenchyme of seminal vesicle" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19180 ! seminal vesicle
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36419
 name: adventitia of ejaculatory duct
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19088 ! ejaculatory duct
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36420
 name: lamina propria of ductus deferens
 namespace: anatomical_structure
@@ -54984,8 +54968,6 @@ relationship: part_of EMAPA:17969 ! genital tubercle of male
 relationship: part_of EMAPA:18682 ! penis
 relationship: part_of EMAPA:30944 ! penile urethra
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36422
 name: migrating neural crest
 namespace: anatomical_structure
@@ -54993,13 +54975,10 @@ relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:32735 ! mesenchyme derived from neural crest
 relationship: part_of EMAPA:32737 ! neural crest
 relationship: starts_at TS12 ! TS12
-
-[Term]
 id: EMAPA:36423
 name: urethral gland of pelvic urethra of male
 namespace: anatomical_structure
 def: "urethral gland of pelvic urethra of male (TS27-TS28): numerous epithelial urethral glands develop from the epithelium of the urethra. Develop from male urethral gland bud (TS24-26) and become male urethral gland (TS27-TS28) which is subdivided into urethral gland of male pelvic urethra (part of the pelvic urethra) and urethral gland of penile urethra (part of the penile urethra)." [PMID:25968320]
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18995 ! pelvic urethra of male
 relationship: part_of EMAPA:29645 ! male urethral gland
 relationship: starts_at TS27 ! TS27
@@ -55029,8 +55008,6 @@ relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:36135 ! ventral epithelial bud of male
 relationship: part_of EMAPA:36425 ! male urethral gland bud
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36427
 name: posterior male urethral gland bud
 namespace: anatomical_structure
@@ -55048,7 +55025,6 @@ name: bulbourethral gland of female
 namespace: anatomical_structure
 def: "bulbourethral gland of female (bugl) (syn: Bartholin's gland) (TS23-TS28): paired epithelial secretory glands develop at the junction of the phallic/penile/clitoral and pelvic urethra in males and females. First seen at E15.5 (TS23), budding out from the epithelium of the urethra in both sexes. They are larger in the male. Growth is dependant on androgens and in males, they canalise after birth (TS27, P1) opening into the urethra and then branch and enlarge during the neonatal period. Comprised of epithelium and a thin interstitium (or connective tissue) which also contains the vasculature (blood vessels). The epithelium of bulbourethral gland is derived from cloacal endoderm. Part of urethra of male/female, and also part of male/female accessory gland. Also called Cowper's gland in human males and not present in human females. It is likely they remain only rudimentary in the adult female mouse." [PMID:25968320]
 synonym: "Bartholin's gland" RELATED []
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36428 ! female accessory gland
 relationship: starts_at TS23 ! TS23
 id: EMAPA:36430
@@ -55106,8 +55082,6 @@ namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17373 ! metanephros
 relationship: starts_at TS18 ! TS18
-
-[Term]
 id: EMAPA:36438
 name: heart mesenchyme
 namespace: anatomical_structure
@@ -55172,7 +55146,6 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36449
 name: forebrain-midbrain boundary region
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16089 ! future brain
 relationship: part_of EMAPA:16894 ! brain
 relationship: starts_at TS16 ! TS16
@@ -55456,13 +55429,10 @@ id: TS17
 name: TS17
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
-[Term]
 id: TS18
 name: TS18
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
 [Term]
 id: TS19
 name: TS19
