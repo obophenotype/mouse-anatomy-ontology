@@ -53972,7 +53972,6 @@ relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17563 ! pons
 relationship: starts_at TS22 ! TS22
 
-[Term]
 id: EMAPA:36269
 name: serratus dorsalis
 namespace: anatomical_structure
@@ -53980,16 +53979,10 @@ synonym: "serratus posterior" RELATED []
 is_a: EMAPA:35769 ! serratus muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS25 ! TS25
-
-[Term]
 id: EMAPA:36270
 name: medullary velum
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16917 ! 4th ventricle
-relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36271
 name: vertebral vein
 namespace: anatomical_structure
@@ -54029,10 +54022,7 @@ synonym: "Meckel's ganglion" RELATED []
 synonym: "nasal ganglion" RELATED []
 synonym: "pterygopalatine ganglion" RELATED []
 is_a: EMAPA:32813 ! parasympathetic ganglion
-relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
-
-[Term]
 id: EMAPA:36276
 name: submandibular ganglion
 namespace: anatomical_structure
@@ -54040,17 +54030,12 @@ synonym: "submaxillary ganglion" RELATED []
 is_a: EMAPA:32813 ! parasympathetic ganglion
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
-
-[Term]
 id: EMAPA:36277
 name: right lung accessory lobe vascular element
 namespace: anatomical_structure
 is_a: EMAPA:17668 ! right lung vascular element
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17981 ! right lung accessory lobe
-relationship: starts_at TS21 ! TS21
-
-[Term]
 id: EMAPA:36278
 name: right lung caudal lobe vascular element
 namespace: anatomical_structure
@@ -54058,26 +54043,18 @@ is_a: EMAPA:17668 ! right lung vascular element
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17986 ! right lung caudal lobe
 relationship: starts_at TS21 ! TS21
-
-[Term]
 id: EMAPA:36279
 name: right lung cranial lobe vascular element
 namespace: anatomical_structure
 is_a: EMAPA:17668 ! right lung vascular element
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17991 ! right lung cranial lobe
-relationship: starts_at TS21 ! TS21
-
-[Term]
 id: EMAPA:36280
 name: right lung middle lobe vascular element
 namespace: anatomical_structure
 is_a: EMAPA:17668 ! right lung vascular element
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17997 ! right lung middle lobe
-relationship: starts_at TS21 ! TS21
-
-[Term]
 id: EMAPA:36281
 name: lung lobe
 namespace: anatomical_structure
@@ -54474,7 +54451,6 @@ is_a: EMAPA:32949 ! foot joint
 id: EMAPA:36339
 name: bronchiole smooth muscle
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32697 ! bronchiole
 relationship: starts_at TS28 ! TS28
 
@@ -54530,7 +54506,6 @@ name: nerve of urothelium of bladder neck
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36343 ! nerve of urothelium of bladder
-relationship: starts_at TS22 ! TS22
 id: EMAPA:36349
 name: nerve of urothelium of bladder trigone
 namespace: anatomical_structure
@@ -54829,13 +54804,10 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36398 ! male urogenital mating protuberance
 relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:36404
 name: male urogenital mating protuberance ridge groove
 namespace: anatomical_structure
 def: "male urogenital mating protuberance ridge groove (MUMP rg) (syn: MUMP ridge) (TS28): a groove that encircles the distal glans penis and defines the boundary of the MUMP." [PMID:25968320]
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36398 ! male urogenital mating protuberance
 relationship: starts_at TS28 ! TS28
 
@@ -54999,8 +54971,6 @@ relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18692 ! urethra of male
 relationship: part_of EMAPA:18995 ! pelvic urethra of male
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36426
 name: anterior male urethral gland bud
 namespace: anatomical_structure
@@ -55017,7 +54987,6 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:36428
 name: female accessory gland
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: starts_at TS23 ! TS23
 id: EMAPA:36429
@@ -55417,13 +55386,10 @@ id: TS15
 name: TS15
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
-[Term]
 id: TS16
 name: TS16
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
 [Term]
 id: TS17
 name: TS17
