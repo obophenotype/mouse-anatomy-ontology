@@ -53942,21 +53942,16 @@ is_a: EMAPA:19146 ! quadriceps femoris muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
-[Term]
 id: EMAPA:36267
 name: triceps surae muscle
 namespace: anatomical_structure
 is_a: EMAPA:19318 ! lower leg muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36268
 name: median sulcus
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17563 ! pons
-relationship: starts_at TS22 ! TS22
 
 id: EMAPA:36269
 name: serratus dorsalis
@@ -53983,24 +53978,17 @@ namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17674 ! cervical vertebra
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36273
 name: uterus lumen
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29915 ! uterus
 relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:36274
 name: otic ganglion
 namespace: anatomical_structure
 is_a: EMAPA:32813 ! parasympathetic ganglion
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
-
-[Term]
 id: EMAPA:36275
 name: sphenopalatine ganglion
 namespace: anatomical_structure
@@ -54028,7 +54016,6 @@ namespace: anatomical_structure
 is_a: EMAPA:17668 ! right lung vascular element
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17986 ! right lung caudal lobe
-relationship: starts_at TS21 ! TS21
 id: EMAPA:36279
 name: right lung cranial lobe vascular element
 namespace: anatomical_structure
@@ -54091,8 +54078,6 @@ is_a: EMAPA:35176 ! blood vessel endothelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36305 ! arteriole tunica intima
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36287
 name: arteriole smooth muscle
 namespace: anatomical_structure
@@ -54306,7 +54291,6 @@ name: Reichert's cartilage pre-cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32736 ! pre-cartilage condensation
 relationship: ends_at TS19 ! TS19
-relationship: starts_at TS19 ! TS19
 id: EMAPA:36318
 name: Reichert's cartilage condensation
 namespace: anatomical_structure
@@ -54766,8 +54750,6 @@ synonym: "proximal hyaline cartilage" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29769 ! os penis
 relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:36401
 name: male urogenital mating protuberance cartilage
 namespace: anatomical_structure
@@ -54805,8 +54787,6 @@ synonym: "MUMP epithelia" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36398 ! male urogenital mating protuberance
 relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:36406
 name: corpus cavernosum glandis
 namespace: anatomical_structure
@@ -54815,17 +54795,12 @@ synonym: "corpora cavernosa glandis" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29856 ! corpus cavernosum of glans penis
 relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:36407
 name: corpus cavernosum urethra
 namespace: anatomical_structure
 def: "corpus cavernosum urethra (TS28): the band of erectile tissue that runs ventral to the penile urethra. Located within the penis, partly within the glans penis and partly within the body of the penis. Erectile tissue is derived from condensations that form from the mesenchyme of the penis." [PMID:25968320]
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29856 ! corpus cavernosum of glans penis
 relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:36408
 name: male urogenital mating protuberance corpus cavernosum
 namespace: anatomical_structure
@@ -54836,7 +54811,6 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36409
 name: female prepuce hair follicle
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30699 ! prepuce of female
 relationship: starts_at TS28 ! TS28
 
@@ -54876,8 +54850,6 @@ synonym: "scrotal seam" RELATED []
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:29316 ! scrotal fold
 relationship: starts_at TS25 ! TS25
-
-[Term]
 id: EMAPA:36415
 name: developing vasculature of scrotal fold
 namespace: anatomical_structure
@@ -54905,7 +54877,6 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:36419
 name: adventitia of ejaculatory duct
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19088 ! ejaculatory duct
 relationship: starts_at TS24 ! TS24
 id: EMAPA:36420
@@ -55360,13 +55331,10 @@ id: TS13
 name: TS13
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
-[Term]
 id: TS14
 name: TS14
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
 [Term]
 id: TS15
 name: TS15
