@@ -53931,24 +53931,18 @@ is_a: EMAPA:36160 ! foot muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
-[Term]
 id: EMAPA:36264
 name: quadratus plantae
 namespace: anatomical_structure
 is_a: EMAPA:36160 ! foot muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36265
 name: tensor aponeurosis plantaris
 namespace: anatomical_structure
 synonym: "tensor fasciae pedis" RELATED []
 is_a: EMAPA:36160 ! foot muscle
-relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36266
 name: rectus femoris
 namespace: anatomical_structure
@@ -53960,8 +53954,6 @@ id: EMAPA:36267
 name: triceps surae muscle
 namespace: anatomical_structure
 is_a: EMAPA:19318 ! lower leg muscle
-relationship: ends_at TS28 ! TS28
-relationship: starts_at TS23 ! TS23
 id: EMAPA:36268
 name: median sulcus
 namespace: anatomical_structure
@@ -54108,8 +54100,6 @@ is_a: EMAPA:35176 ! blood vessel endothelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36308 ! vein tunica intima
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36289
 name: vein smooth muscle
 namespace: anatomical_structure
@@ -54126,16 +54116,12 @@ is_a: EMAPA:35176 ! blood vessel endothelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35917 ! venule
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36291
 name: capillary bed
 namespace: anatomical_structure
 is_a: EMAPA:35993 ! vascular element
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36292
 name: capillary endothelium
 namespace: anatomical_structure
@@ -54143,8 +54129,6 @@ is_a: EMAPA:35176 ! blood vessel endothelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35198 ! capillary
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36293
 name: artery tunica intima
 namespace: anatomical_structure
@@ -54152,8 +54136,6 @@ is_a: EMAPA:36297 ! tunica intima
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35147 ! artery
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36294
 name: artery tunica media
 namespace: anatomical_structure
@@ -54169,8 +54151,6 @@ is_a: EMAPA:36299 ! tunica adventitia
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35147 ! artery
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36296
 name: blood vessel layer
 namespace: anatomical_structure
@@ -54334,7 +54314,6 @@ id: EMAPA:36322
 name: chordae tendinae
 namespace: anatomical_structure
 def: "Cord-like tendons connecting the papillary muscles to the leaflets of the mitral and tricuspid valves." []
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17331 ! heart ventricle
 relationship: starts_at TS24 ! TS24
 id: EMAPA:36323
@@ -54533,7 +54512,6 @@ id: EMAPA:36358
 name: nerve of lamina propria of ventral bladder neck
 namespace: anatomical_structure
 relationship: part_of EMAPA:36352 ! nerve of lamina propria of bladder neck
-relationship: starts_at TS22 ! TS22
 
 id: EMAPA:36359
 name: nerve of blood vessel of suburothelial lamina propria of bladder fundus
@@ -54778,8 +54756,6 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36398 ! male urogenital mating protuberance
 relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:36403
 name: male urogenital mating protuberance surface epithelium
 namespace: anatomical_structure
@@ -54806,7 +54782,6 @@ name: corpus cavernosum glandis
 namespace: anatomical_structure
 def: "corpus cavernosum glandis (syn: corpora cavernosa glandis) (TS28): two, linear corpora cavernosa erectile tissue located dorsally and ventrally within the glans penis." [PMID:25968320]
 synonym: "corpora cavernosa glandis" RELATED []
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29856 ! corpus cavernosum of glans penis
 relationship: starts_at TS28 ! TS28
 id: EMAPA:36407
@@ -54850,8 +54825,6 @@ synonym: "scrotum connective tissue" RELATED []
 synonym: "scrotum stroma" RELATED []
 relationship: part_of EMAPA:19296 ! scrotum
 relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:36413
 name: developing vasculature of scrotal swelling
 namespace: anatomical_structure
@@ -54897,7 +54870,6 @@ id: EMAPA:36420
 name: lamina propria of ductus deferens
 namespace: anatomical_structure
 synonym: "mesenchyme of ductus deferens" RELATED []
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18681 ! ductus deferens
 relationship: starts_at TS24 ! TS24
 id: EMAPA:36421
@@ -55333,13 +55305,10 @@ id: TS11
 name: TS11
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
-[Term]
 id: TS12
 name: TS12
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
 [Term]
 id: TS13
 name: TS13
