@@ -53777,7 +53777,6 @@ is_a: EMAPA:19146 ! quadriceps femoris muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
-[Term]
 id: EMAPA:36246
 name: extensor hallucis longus
 namespace: anatomical_structure
@@ -53914,16 +53913,11 @@ synonym: "peroneus digiti minimi" RELATED []
 is_a: EMAPA:36251 ! peroneus muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36262
 name: interosseus muscle of foot
 namespace: anatomical_structure
 is_a: EMAPA:36160 ! foot muscle
-relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36263
 name: lumbrical muscle of foot
 namespace: anatomical_structure
@@ -53947,8 +53941,6 @@ id: EMAPA:36266
 name: rectus femoris
 namespace: anatomical_structure
 is_a: EMAPA:19146 ! quadriceps femoris muscle
-relationship: ends_at TS28 ! TS28
-relationship: starts_at TS23 ! TS23
 
 id: EMAPA:36267
 name: triceps surae muscle
@@ -54040,8 +54032,6 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16728 ! lung
 relationship: starts_at TS20 ! TS20
-
-[Term]
 id: EMAPA:36282
 name: terminal bronchiole
 namespace: anatomical_structure
@@ -54057,8 +54047,6 @@ is_a: EMAPA:32693 ! bronchiole epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36282 ! terminal bronchiole
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36284
 name: bronchial vein
 namespace: anatomical_structure
@@ -54066,8 +54054,6 @@ is_a: EMAPA:32867 ! lung vascular element
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36285
 name: artery smooth muscle
 namespace: anatomical_structure
@@ -54075,8 +54061,6 @@ is_a: EMAPA:35177 ! blood vessel smooth muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36294 ! artery tunica media
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36286
 name: arteriole endothelium
 namespace: anatomical_structure
@@ -54091,8 +54075,6 @@ is_a: EMAPA:35177 ! blood vessel smooth muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36306 ! arteriole tunica media
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36288
 name: vein endothelium
 namespace: anatomical_structure
@@ -54107,8 +54089,6 @@ is_a: EMAPA:35177 ! blood vessel smooth muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36309 ! vein tunica media
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36290
 name: venule endothelium
 namespace: anatomical_structure
@@ -54199,7 +54179,6 @@ id: EMAPA:36303
 name: artery internal elastic lamina
 namespace: anatomical_structure
 is_a: EMAPA:36301 ! internal elastic lamina
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36293 ! artery tunica intima
 relationship: starts_at TS24 ! TS24
 id: EMAPA:36304
@@ -54442,7 +54421,6 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28601 ! urothelium of bladder
 relationship: part_of EMAPA:31526 ! nerve of bladder
-relationship: starts_at TS22 ! TS22
 id: EMAPA:36344
 name: nerve of lamina propria of bladder
 namespace: anatomical_structure
@@ -54715,14 +54693,11 @@ def: "glandular ridge (TS28): ridge on the outside of the glans penis, encircles
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18988 ! glans penis
 relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:36398
 name: male urogenital mating protuberance
 namespace: anatomical_structure
 def: "male urogenital mating protuberance (syn: MUMP) (TS28): a tapered extension of the os penis, located at the distal end of the glans penis. The MUMP is ~1.7 mm long, comprised of a fibrocartilage core called MUMP cartilage, surrounded by two MUMP corpus cavernosum (lie on lateral sides of the MUMP fibrocartilage core), and covered with skin. The MUMP boundary is defined by the MUMP ridge, a groove that encircles the distal glans penis." [PMID:25968320]
 synonym: "MUMP" RELATED []
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18988 ! glans penis
 relationship: starts_at TS28 ! TS28
 
@@ -54816,8 +54791,6 @@ name: scrotum skin
 namespace: anatomical_structure
 relationship: part_of EMAPA:19296 ! scrotum
 relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:36412
 name: lamina propria of scrotum
 namespace: anatomical_structure
@@ -54858,7 +54831,6 @@ id: EMAPA:36418
 name: lamina propria of seminal vesicle
 namespace: anatomical_structure
 synonym: "mesenchyme of seminal vesicle" RELATED []
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19180 ! seminal vesicle
 relationship: starts_at TS24 ! TS24
 id: EMAPA:36419
@@ -55293,13 +55265,10 @@ id: TS09
 name: TS09
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
-[Term]
 id: TS10
 name: TS10
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
 [Term]
 id: TS11
 name: TS11
