@@ -53849,7 +53849,6 @@ is_a: EMAPA:19318 ! lower leg muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
-[Term]
 id: EMAPA:36255
 name: tibialis posterior
 namespace: anatomical_structure
@@ -53857,35 +53856,24 @@ synonym: "tibialis caudalis" RELATED []
 is_a: EMAPA:35867 ! tibialis muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36256
 name: abductor digiti quinti of foot
 namespace: anatomical_structure
 synonym: "abductor digiti V" RELATED []
 is_a: EMAPA:36160 ! foot muscle
-relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36257
 name: adductor indicis
 namespace: anatomical_structure
 synonym: "adductor digit secundi" RELATED []
 synonym: "adductor digiti II" RELATED []
 is_a: EMAPA:36160 ! foot muscle
-relationship: ends_at TS28 ! TS28
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36258
 name: extensor digitorum brevis
 namespace: anatomical_structure
 is_a: EMAPA:36160 ! foot muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36259
 name: flexor digiti primi brevis of foot
 namespace: anatomical_structure
@@ -53894,8 +53882,6 @@ synonym: "flexor hallucis brevis" RELATED []
 is_a: EMAPA:36160 ! foot muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36260
 name: peroneus digiti quarti
 namespace: anatomical_structure
@@ -53903,8 +53889,6 @@ synonym: "peroneus digiti IV" RELATED []
 is_a: EMAPA:36251 ! peroneus muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36261
 name: peroneus digiti quinti
 namespace: anatomical_structure
@@ -53968,8 +53952,6 @@ namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36272
 name: foramen transversarium
 namespace: anatomical_structure
@@ -54038,8 +54020,6 @@ namespace: anatomical_structure
 is_a: EMAPA:32697 ! bronchiole
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS24 ! TS24
-
-[Term]
 id: EMAPA:36283
 name: terminal bronchiole epithelium
 namespace: anatomical_structure
@@ -54113,7 +54093,6 @@ id: EMAPA:36293
 name: artery tunica intima
 namespace: anatomical_structure
 is_a: EMAPA:36297 ! tunica intima
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35147 ! artery
 relationship: starts_at TS24 ! TS24
 id: EMAPA:36294
@@ -54456,7 +54435,6 @@ id: EMAPA:36350
 name: nerve of urothelium of ventral bladder neck
 namespace: anatomical_structure
 relationship: part_of EMAPA:36348 ! nerve of urothelium of bladder neck
-relationship: starts_at TS22 ! TS22
 id: EMAPA:36351
 name: nerve of lamina propria of bladder fundus
 namespace: anatomical_structure
@@ -54723,12 +54701,9 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36398 ! male urogenital mating protuberance
 relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:36402
 name: male urogenital mating protuberance corpus cavernosum
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36398 ! male urogenital mating protuberance
 relationship: starts_at TS28 ! TS28
 id: EMAPA:36403
@@ -54743,13 +54718,10 @@ namespace: anatomical_structure
 def: "male urogenital mating protuberance ridge groove (MUMP rg) (syn: MUMP ridge) (TS28): a groove that encircles the distal glans penis and defines the boundary of the MUMP." [PMID:25968320]
 relationship: part_of EMAPA:36398 ! male urogenital mating protuberance
 relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:36405
 name: male urogenital mating protuberance skin
 namespace: anatomical_structure
 synonym: "MUMP epithelia" RELATED []
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36398 ! male urogenital mating protuberance
 relationship: starts_at TS28 ! TS28
 id: EMAPA:36406
@@ -55253,13 +55225,10 @@ id: TS07
 name: TS07
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
-[Term]
 id: TS08
 name: TS08
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
 [Term]
 id: TS09
 name: TS09
