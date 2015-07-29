@@ -53755,7 +53755,6 @@ is_a: EMAPA:19146 ! quadriceps femoris muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
-[Term]
 id: EMAPA:36245
 name: vastus medialis
 namespace: anatomical_structure
@@ -53770,64 +53769,45 @@ synonym: "extensor hallucis proprius" RELATED []
 is_a: EMAPA:19318 ! lower leg muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36247
 name: flexor digitorum brevis
 namespace: anatomical_structure
 is_a: EMAPA:19318 ! lower leg muscle
-relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36248
 name: flexor digitorum longus
 namespace: anatomical_structure
 is_a: EMAPA:36160 ! foot muscle
-relationship: ends_at TS28 ! TS28
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36249
 name: lateral head of gastrocnemius
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35375 ! gastrocnemius muscle
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36250
 name: medial head of gastrocnemius
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35375 ! gastrocnemius muscle
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36251
 name: peroneus muscle
 namespace: anatomical_structure
 is_a: EMAPA:19318 ! lower leg muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36252
 name: peroneus brevis
 namespace: anatomical_structure
 is_a: EMAPA:36251 ! peroneus muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36253
 name: peroneus longus
 namespace: anatomical_structure
 is_a: EMAPA:36251 ! peroneus muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36254
 name: plantaris
 namespace: anatomical_structure
@@ -54004,7 +53984,6 @@ id: EMAPA:36282
 name: terminal bronchiole
 namespace: anatomical_structure
 is_a: EMAPA:32697 ! bronchiole
-relationship: ends_at TS28 ! TS28
 relationship: starts_at TS24 ! TS24
 id: EMAPA:36283
 name: terminal bronchiole epithelium
@@ -54396,7 +54375,6 @@ name: nerve of detrusor muscle of bladder
 namespace: anatomical_structure
 relationship: part_of EMAPA:28637 ! detrusor muscle of bladder
 relationship: part_of EMAPA:31526 ! nerve of bladder
-relationship: starts_at TS22 ! TS22
 id: EMAPA:36346
 name: nerve of outer layer of bladder
 namespace: anatomical_structure
@@ -54664,16 +54642,11 @@ def: "male urogenital mating protuberance (syn: MUMP) (TS28): a tapered extensio
 synonym: "MUMP" RELATED []
 relationship: part_of EMAPA:18988 ! glans penis
 relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:36399
 name: bone of os penis
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29769 ! os penis
 relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:36400
 name: hyaline cartilage of os penis
 namespace: anatomical_structure
@@ -54684,7 +54657,6 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36401
 name: male urogenital mating protuberance cartilage
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36398 ! male urogenital mating protuberance
 relationship: starts_at TS28 ! TS28
 id: EMAPA:36402
@@ -55199,13 +55171,10 @@ id: TS05
 name: TS05
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
-[Term]
 id: TS06
 name: TS06
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
 [Term]
 id: TS07
 name: TS07
