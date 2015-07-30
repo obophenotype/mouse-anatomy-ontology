@@ -53675,79 +53675,56 @@ is_a: EMAPA:36231 ! gracilis muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
-[Term]
 id: EMAPA:36235
 name: obturator muscle
 namespace: anatomical_structure
 is_a: EMAPA:18186 ! gluteal muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36236
 name: obturator externus
 namespace: anatomical_structure
 is_a: EMAPA:36235 ! obturator muscle
-relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36237
 name: obturator internus
 namespace: anatomical_structure
 is_a: EMAPA:36235 ! obturator muscle
-relationship: ends_at TS28 ! TS28
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36238
 name: pectineus
 namespace: anatomical_structure
 is_a: EMAPA:19144 ! upper leg muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36239
 name: piriformis
 namespace: anatomical_structure
 is_a: EMAPA:18186 ! gluteal muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36240
 name: popliteus
 namespace: anatomical_structure
 is_a: EMAPA:19144 ! upper leg muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36241
 name: quadratus femoris
 namespace: anatomical_structure
 is_a: EMAPA:18186 ! gluteal muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36242
 name: semimembranosus
 namespace: anatomical_structure
 is_a: EMAPA:19145 ! hamstring muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36243
 name: vastus intermedius
 namespace: anatomical_structure
 is_a: EMAPA:19146 ! quadriceps femoris muscle
-relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36244
 name: vastus lateralis
 namespace: anatomical_structure
@@ -53906,7 +53883,6 @@ name: serratus dorsalis
 namespace: anatomical_structure
 synonym: "serratus posterior" RELATED []
 is_a: EMAPA:35769 ! serratus muscle
-relationship: ends_at TS28 ! TS28
 relationship: starts_at TS25 ! TS25
 id: EMAPA:36270
 name: medullary velum
@@ -54313,7 +54289,6 @@ name: mesenchyme of bladder-urethra transition zone
 namespace: anatomical_structure
 def: "mesenchyme of bladder-urethra transition zone (TS22-TS28): the mesenchyme surrounding the epithelium in the zone or region of the where the bladder neck meets the urethra/pelvic urethra. It is similar to transitional zones in other organs, such as the female cervix and the Z-line in the oesophagus. It is located close to where the nephric duct attaches to the urogenital sinus. Part of the bladder-urethra transition zone and part of the urogenital sinus and part of the urinary system. Use this term to annotate expression in the mesenchyme where the bladder neck meets the pelvic urethra, when the tissue cannot be identified as being either part of the bladder or part of the pelvic urethra." [PMID:25968320]
 relationship: part_of EMAPA:36332 ! bladder-urethra transition zone
-relationship: starts_at TS22 ! TS22
 id: EMAPA:36335
 name: remnant of mesonephric tubule of male
 namespace: anatomical_structure
@@ -54563,8 +54538,6 @@ is_a: EMAPA:32872 ! intestine mesenchyme
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:32834 ! small intestine
 relationship: starts_at TS18 ! TS18
-
-[Term]
 id: EMAPA:36386
 name: genital tubercle epithelium
 namespace: anatomical_structure
@@ -54667,7 +54640,6 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36403
 name: male urogenital mating protuberance surface epithelium
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36398 ! male urogenital mating protuberance
 relationship: starts_at TS28 ! TS28
 id: EMAPA:36404
@@ -55159,13 +55131,10 @@ id: TS03
 name: TS03
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
-[Term]
 id: TS04
 name: TS04
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
 [Term]
 id: TS05
 name: TS05
