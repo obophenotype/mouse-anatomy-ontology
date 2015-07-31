@@ -53527,7 +53527,6 @@ is_a: EMAPA:32644 ! hand muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
-[Term]
 id: EMAPA:36213
 name: adductor pollicis
 namespace: anatomical_structure
@@ -53615,48 +53614,33 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35170 ! biceps femoris
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36225
 name: posterior head of biceps femoris
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35170 ! biceps femoris
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36226
 name: caudofemoralis
 namespace: anatomical_structure
 is_a: EMAPA:19144 ! upper leg muscle
-relationship: ends_at TS28 ! TS28
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36227
 name: gemellus muscle
 namespace: anatomical_structure
 is_a: EMAPA:19144 ! upper leg muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36228
 name: gemellus inferior
 namespace: anatomical_structure
 is_a: EMAPA:36227 ! gemellus muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36229
 name: gemellus superior
 namespace: anatomical_structure
 is_a: EMAPA:36227 ! gemellus muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36230
 name: gluteus minimus
 namespace: anatomical_structure
@@ -53664,24 +53648,17 @@ synonym: "gluteus profundus" RELATED []
 is_a: EMAPA:18186 ! gluteal muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36231
 name: gracilis muscle
 namespace: anatomical_structure
 is_a: EMAPA:19144 ! upper leg muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36232
 name: gracilis anticus
 namespace: anatomical_structure
 is_a: EMAPA:36231 ! gracilis muscle
-relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36233
 name: gracilis posticus
 namespace: anatomical_structure
@@ -53863,7 +53840,6 @@ id: EMAPA:36263
 name: lumbrical muscle of foot
 namespace: anatomical_structure
 is_a: EMAPA:36160 ! foot muscle
-relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
 id: EMAPA:36264
@@ -54292,7 +54268,6 @@ synonym: "bladder-urethra junction" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: part_of EMAPA:17379 ! urogenital sinus
-relationship: starts_at TS22 ! TS22
 id: EMAPA:36333
 name: epithelium of bladder-urethra transition zone
 namespace: anatomical_structure
@@ -54516,8 +54491,6 @@ id: EMAPA:36380
 name: nerve of blood vessel of adventitia of bladder neck
 namespace: anatomical_structure
 is_obsolete: true
-
-[Term]
 id: EMAPA:36381
 name: nerve of blood vessel of adventitia of trigone
 namespace: anatomical_structure
@@ -54684,7 +54657,6 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36408
 name: male urogenital mating protuberance corpus cavernosum
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29856 ! corpus cavernosum of glans penis
 relationship: starts_at TS28 ! TS28
 
@@ -55133,13 +55105,10 @@ id: TS01
 name: TS01
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
-[Term]
 id: TS02
 name: TS02
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
-
 [Term]
 id: TS03
 name: TS03
