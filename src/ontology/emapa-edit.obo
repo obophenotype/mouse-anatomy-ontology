@@ -53535,79 +53535,56 @@ is_a: EMAPA:32644 ! hand muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
-[Term]
 id: EMAPA:36214
 name: flexor digiti primi brevis of hand
 namespace: anatomical_structure
 is_a: EMAPA:32644 ! hand muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36215
 name: flexor digiti quinti brevis
 namespace: anatomical_structure
 is_a: EMAPA:32644 ! hand muscle
-relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36216
 name: interosseus muscle of hand
 namespace: anatomical_structure
 is_a: EMAPA:32644 ! hand muscle
-relationship: ends_at TS28 ! TS28
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36217
 name: lumbrical muscle of hand
 namespace: anatomical_structure
 is_a: EMAPA:32644 ! hand muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36218
 name: opponens digiti quinti
 namespace: anatomical_structure
 is_a: EMAPA:32644 ! hand muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36219
 name: adductor brevis
 namespace: anatomical_structure
 is_a: EMAPA:19166 ! adductor muscle of leg
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36220
 name: adductor longus
 namespace: anatomical_structure
 is_a: EMAPA:19166 ! adductor muscle of leg
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36221
 name: adductor magnus
 namespace: anatomical_structure
 is_a: EMAPA:19166 ! adductor muscle of leg
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36223
 name: accessory head of biceps femoris
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35170 ! biceps femoris
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36224
 name: anterior head of biceps femoris
 namespace: anatomical_structure
@@ -54352,7 +54329,6 @@ relationship: part_of EMAPA:36343 ! nerve of urothelium of bladder
 id: EMAPA:36348
 name: nerve of urothelium of bladder neck
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36343 ! nerve of urothelium of bladder
 id: EMAPA:36349
 name: nerve of urothelium of bladder trigone
@@ -54501,8 +54477,6 @@ id: EMAPA:36382
 name: nerve of blood vessel of adventitia of ventral bladder neck
 namespace: anatomical_structure
 is_obsolete: true
-
-[Term]
 id: EMAPA:36383
 name: duodenum mesenchyme
 namespace: anatomical_structure
@@ -54592,7 +54566,6 @@ id: EMAPA:36397
 name: glandular ridge
 namespace: anatomical_structure
 def: "glandular ridge (TS28): ridge on the outside of the glans penis, encircles the distal glans penis." [PMID:25968320]
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18988 ! glans penis
 relationship: starts_at TS28 ! TS28
 id: EMAPA:36398
@@ -55094,12 +55067,9 @@ relationship: part_of EMAPA:35702 ! preputial swelling
 id: group_term
 name: Group term
 namespace: mouse_ontology
-
-[Term]
 id: Tmp_new_group
 name: Tmp new group
 namespace: mouse_ontology
-
 [Term]
 id: TS01
 name: TS01
