@@ -53365,79 +53365,56 @@ is_a: EMAPA:32622 ! forearm muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
-[Term]
 id: EMAPA:36193
 name: extensor indicis proprius
 namespace: anatomical_structure
 is_a: EMAPA:32622 ! forearm muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36194
 name: extensor pollicis
 namespace: anatomical_structure
 is_a: EMAPA:32622 ! forearm muscle
-relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36195
 name: extensor pollicis brevis
 namespace: anatomical_structure
 is_a: EMAPA:36194 ! extensor pollicis
-relationship: ends_at TS28 ! TS28
-relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36196
 name: extensor pollicis longus
 namespace: anatomical_structure
 is_a: EMAPA:36194 ! extensor pollicis
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36197
 name: flexor carpi radialis
 namespace: anatomical_structure
 is_a: EMAPA:32622 ! forearm muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36198
 name: flexor carpi ulnaris
 namespace: anatomical_structure
 is_a: EMAPA:32622 ! forearm muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36199
 name: humeral head of flexor digitorum profundus
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19319 ! flexor digitorum profundus
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36200
 name: radial head of flexor digitorum profundus
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19319 ! flexor digitorum profundus
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36201
 name: ulnar head of flexor digitorum profundus
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19319 ! flexor digitorum profundus
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36202
 name: flexor digitorum superficialis
 namespace: anatomical_structure
@@ -54295,7 +54272,6 @@ relationship: part_of EMAPA:31526 ! nerve of bladder
 id: EMAPA:36346
 name: nerve of outer layer of bladder
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31526 ! nerve of bladder
 relationship: part_of EMAPA:36077 ! outer layer of bladder
 id: EMAPA:36347
@@ -54437,8 +54413,6 @@ id: EMAPA:36379
 name: nerve of blood vessel of serosa of bladder fundus
 namespace: anatomical_structure
 is_obsolete: true
-
-[Term]
 id: EMAPA:36380
 name: nerve of blood vessel of adventitia of bladder neck
 namespace: anatomical_structure
@@ -54504,7 +54478,6 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:36391
 name: sigmoid colon
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18939 ! colon
 relationship: starts_at TS28 ! TS28
 id: EMAPA:36392
@@ -54984,8 +54957,6 @@ name: anterior cerebral vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: starts_at TS20 ! TS20
-
-[Term]
 id: EMAPA:36468
 name: paracardiac ganglion
 namespace: anatomical_structure
@@ -54995,7 +54966,6 @@ name: dentate gyrus primordium
 namespace: anatomical_structure
 relationship: part_of EMAPA:16910 ! telencephalon
 relationship: starts_at TS23 ! TS23
-
 [Term]
 id: EMAPA:36470
 name: prospective hippocampal fissure
