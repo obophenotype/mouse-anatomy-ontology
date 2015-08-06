@@ -161,15 +161,12 @@ relationship: ends_at TS12 ! TS12
 relationship: part_of EMAPA:16046 ! trophectoderm
 relationship: starts_at TS04 ! TS04
 
-[Term]
 id: EMAPA:16048
 name: polar trophectoderm
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16046 ! trophectoderm
 relationship: starts_at TS04 ! TS04
-
-[Term]
 id: EMAPA:16050
 name: epiblast
 namespace: anatomical_structure
@@ -263,17 +260,12 @@ namespace: anatomical_structure
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16048 ! polar trophectoderm
 relationship: starts_at TS07 ! TS07
-
-[Term]
 id: EMAPA:16060
 name: body cavity or lining
 namespace: anatomical_structure
 is_a: EMAPA:36037 ! cavity or lining
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16039 ! embryo
 relationship: starts_at TS08 ! TS08
-
-[Term]
 id: EMAPA:16061
 name: proamniotic cavity embryonic part
 namespace: anatomical_structure
@@ -281,14 +273,11 @@ is_a: EMAPA:16060 ! body cavity or lining
 relationship: ends_at TS10 ! TS10
 relationship: part_of EMAPA:36038 ! proamniotic cavity
 relationship: starts_at TS08 ! TS08
-
-[Term]
 id: EMAPA:16062
 name: embryo endoderm
 namespace: anatomical_structure
 synonym: "embryonic endoderm" RELATED []
 is_a: EMAPA:35986 ! endoderm
-relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:16039 ! embryo
 relationship: starts_at TS08 ! TS08
 
@@ -356,14 +345,11 @@ namespace: anatomical_structure
 relationship: ends_at TS11 ! TS11
 relationship: part_of EMAPA:16062 ! embryo endoderm
 relationship: starts_at TS09 ! TS09
-
-[Term]
 id: EMAPA:16071
 name: embryo mesoderm
 namespace: anatomical_structure
 synonym: "embryonic mesoderm" RELATED []
 is_a: EMAPA:35987 ! mesoderm
-relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:16039 ! embryo
 relationship: starts_at TS09 ! TS09
 
@@ -852,8 +838,6 @@ is_a: EMAPA:32751 ! branchial arch mesenchyme derived from head mesoderm
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16128 ! 1st branchial arch mesenchyme
 relationship: starts_at TS12 ! TS12
-
-[Term]
 id: EMAPA:16131
 name: pericardial component
 namespace: anatomical_structure
@@ -861,8 +845,6 @@ alt_id: EMAPA:18447
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16088 ! intraembryonic coelom
 relationship: starts_at TS12 ! TS12
-
-[Term]
 id: EMAPA:16132
 name: pericardial cavity
 namespace: anatomical_structure
@@ -870,8 +852,6 @@ alt_id: EMAPA:18448
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16131 ! pericardial component
 relationship: starts_at TS12 ! TS12
-
-[Term]
 id: EMAPA:16133
 name: pericardium
 namespace: anatomical_structure
@@ -879,7 +859,6 @@ alt_id: EMAPA:17174
 alt_id: EMAPA:18449
 synonym: "pericardial mesothelium" EXACT []
 is_a: EMAPA:32856 ! mesothelium
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16131 ! pericardial component
 relationship: starts_at TS12 ! TS12
 
@@ -907,13 +886,10 @@ is_a: EMAPA:32856 ! mesothelium
 relationship: ends_at TS12 ! TS12
 relationship: part_of EMAPA:16134 ! pericardio-peritoneal component
 relationship: starts_at TS12 ! TS12
-
-[Term]
 id: EMAPA:16137
 name: peritoneal component
 namespace: anatomical_structure
 synonym: "lesser sac" RELATED []
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16088 ! intraembryonic coelom
 relationship: starts_at TS12 ! TS12
 
@@ -924,15 +900,12 @@ namespace: anatomical_structure
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16137 ! peritoneal component
 relationship: starts_at TS12 ! TS12
-
-[Term]
 id: EMAPA:16139
 name: peritoneum
 namespace: anatomical_structure
 alt_id: EMAPA:18452
 synonym: "peritoneal mesothelium" RELATED []
 is_a: EMAPA:32856 ! mesothelium
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16137 ! peritoneal component
 relationship: starts_at TS12 ! TS12
 
@@ -1132,15 +1105,12 @@ is_a: EMAPA:16156 ! future hindbrain neural crest
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16159 ! posterior pro-rhombomere neural fold
 relationship: starts_at TS12 ! TS12
-
-[Term]
 id: EMAPA:16161
 name: pre-otic sulcus
 namespace: anatomical_structure
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16148 ! future hindbrain
 relationship: starts_at TS12 ! TS12
-
 [Term]
 id: EMAPA:16162
 name: future spinal cord neural fold
