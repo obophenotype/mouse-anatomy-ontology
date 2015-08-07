@@ -463,7 +463,6 @@ relationship: part_of EMAPA:16052 ! extraembryonic endoderm
 relationship: part_of EMAPA:16085 ! yolk sac
 relationship: starts_at TS10 ! TS10
 
-[Term]
 id: EMAPA:16087
 name: yolk sac mesoderm
 namespace: anatomical_structure
@@ -471,13 +470,10 @@ is_a: EMAPA:31862 ! extraembryonic mesoderm
 relationship: ends_at TS11 ! TS11
 relationship: part_of EMAPA:16085 ! yolk sac
 relationship: starts_at TS10 ! TS10
-
-[Term]
 id: EMAPA:16088
 name: intraembryonic coelom
 namespace: anatomical_structure
 is_a: EMAPA:16060 ! body cavity or lining
-relationship: ends_at TS28 ! TS28
 relationship: starts_at TS11 ! TS11
 
 [Term]
@@ -538,16 +534,12 @@ synonym: "surface epithelium" RELATED []
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16069 ! embryo ectoderm
 relationship: starts_at TS11 ! TS11
-
-[Term]
 id: EMAPA:16097
 name: mesenchyme
 namespace: anatomical_structure
 is_a: EMAPA:35868 ! tissue
 relationship: ends_at TS26 ! TS26
 relationship: starts_at TS11 ! TS11
-
-[Term]
 id: EMAPA:16098
 name: head mesenchyme
 namespace: anatomical_structure
@@ -555,32 +547,24 @@ is_a: EMAPA:35961 ! embryo mesenchyme
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:31858 ! head
 relationship: starts_at TS11 ! TS11
-
-[Term]
 id: EMAPA:16099
 name: mesenchyme derived from head mesoderm
 namespace: anatomical_structure
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16098 ! head mesenchyme
 relationship: starts_at TS11 ! TS11
-
-[Term]
 id: EMAPA:16101
 name: notochordal plate
 namespace: anatomical_structure
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16071 ! embryo mesoderm
 relationship: starts_at TS11 ! TS11
-
-[Term]
 id: EMAPA:16102
 name: notochordal process
 namespace: anatomical_structure
 relationship: ends_at TS11 ! TS11
 relationship: part_of EMAPA:16071 ! embryo mesoderm
 relationship: starts_at TS11 ! TS11
-
-[Term]
 id: EMAPA:16103
 name: organ system
 namespace: anatomical_structure
@@ -588,22 +572,16 @@ relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16039 ! embryo
 relationship: part_of EMAPA:25765 ! mouse
 relationship: starts_at TS11 ! TS11
-
-[Term]
 id: EMAPA:16104
 name: cardiovascular system
 namespace: anatomical_structure
 is_a: EMAPA:16103 ! organ system
-relationship: ends_at TS28 ! TS28
 relationship: starts_at TS11 ! TS11
-
-[Term]
 id: EMAPA:16105
 name: heart
 namespace: anatomical_structure
 synonym: "cardium" RELATED []
 is_a: EMAPA:35949 ! organ
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16104 ! cardiovascular system
 relationship: starts_at TS11 ! TS11
 
@@ -829,8 +807,6 @@ is_a: EMAPA:32756 ! branchial arch mesenchyme derived from neural crest
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16128 ! 1st branchial arch mesenchyme
 relationship: starts_at TS12 ! TS12
-
-[Term]
 id: EMAPA:16130
 name: 1st branchial arch mesenchyme derived from head mesoderm
 namespace: anatomical_structure
@@ -842,7 +818,6 @@ id: EMAPA:16131
 name: pericardial component
 namespace: anatomical_structure
 alt_id: EMAPA:18447
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16088 ! intraembryonic coelom
 relationship: starts_at TS12 ! TS12
 id: EMAPA:16132
@@ -1224,8 +1199,6 @@ is_a: EMAPA:16172 ! head somite
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16171 ! head paraxial mesenchyme
 relationship: starts_at TS12 ! TS12
-
-[Term]
 id: EMAPA:16174
 name: somite 02
 namespace: anatomical_structure
@@ -1233,7 +1206,6 @@ is_a: EMAPA:16172 ! head somite
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16171 ! head paraxial mesenchyme
 relationship: starts_at TS12 ! TS12
-
 [Term]
 id: EMAPA:16175
 name: somite 03
