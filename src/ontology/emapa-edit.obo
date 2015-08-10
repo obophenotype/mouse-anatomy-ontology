@@ -53283,23 +53283,17 @@ is_a: EMAPA:36187 ! extensor carpi radialis
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
-[Term]
 id: EMAPA:36190
 name: extensor carpi ulnaris
 namespace: anatomical_structure
 is_a: EMAPA:32622 ! forearm muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36191
 name: extensor digitorum communis
 namespace: anatomical_structure
 is_a: EMAPA:32622 ! forearm muscle
-relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
-
-[Term]
 id: EMAPA:36192
 name: extensor digitorum lateralis
 namespace: anatomical_structure
@@ -54062,10 +54056,8 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36320
 name: styloid process of temporal bone
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17682 ! temporal bone
 relationship: part_of EMAPA:36319 ! Reichert's cartilage
-relationship: starts_at TS23 ! TS23
 id: EMAPA:36321
 name: hyoid body upper part
 namespace: anatomical_structure
@@ -54526,8 +54518,6 @@ name: female prepuce hair follicle
 namespace: anatomical_structure
 relationship: part_of EMAPA:30699 ! prepuce of female
 relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:36410
 name: female prepuce lamina propria
 namespace: anatomical_structure
@@ -54625,8 +54615,6 @@ def: "urethral gland of penile urethra (TS27-TS28): numerous epithelial urethral
 relationship: part_of EMAPA:29645 ! male urethral gland
 relationship: part_of EMAPA:30944 ! penile urethra
 relationship: starts_at TS27 ! TS27
-
-[Term]
 id: EMAPA:36425
 name: male urethral gland bud
 namespace: anatomical_structure
@@ -54696,8 +54684,6 @@ relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18680 ! genital tubercle of female
 relationship: part_of EMAPA:30819 ! clitoris
 relationship: starts_at TS20 ! TS20
-
-[Term]
 id: EMAPA:36436
 name: urogenital membrane of male
 namespace: anatomical_structure
@@ -54707,8 +54693,6 @@ relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17969 ! genital tubercle of male
 relationship: part_of EMAPA:18682 ! penis
 relationship: starts_at TS20 ! TS20
-
-[Term]
 id: EMAPA:36437
 name: mesenchyme of metanephros
 namespace: anatomical_structure
@@ -54848,47 +54832,36 @@ name: heart great vessel
 namespace: anatomical_structure
 is_a: EMAPA:32743 ! blood vessel
 relationship: starts_at TS17 ! TS17
-
-[Term]
 id: EMAPA:36461
 name: aortic sac
 namespace: anatomical_structure
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:36462 ! outflow tract distal part
 relationship: starts_at TS12 ! TS12
-
-[Term]
 id: EMAPA:36462
 name: outflow tract distal part
 namespace: anatomical_structure
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16346 ! outflow tract
 relationship: starts_at TS12 ! TS12
-
-[Term]
 id: EMAPA:36463
 name: anterior amniotic fold
 namespace: anatomical_structure
 relationship: ends_at TS11 ! TS11
 relationship: part_of EMAPA:16076 ! amniotic fold
 relationship: starts_at TS11 ! TS11
-
-[Term]
 id: EMAPA:36464
 name: posterior amniotic fold
 namespace: anatomical_structure
 relationship: ends_at TS11 ! TS11
 relationship: part_of EMAPA:16076 ! amniotic fold
 relationship: starts_at TS11 ! TS11
-
-[Term]
 id: EMAPA:36465
 name: perioptic vascular plexus
 namespace: anatomical_structure
 is_a: EMAPA:35904 ! vascular plexus
 relationship: ends_at TS19 ! TS19
 relationship: starts_at TS14 ! TS14
-
 [Term]
 id: EMAPA:36466
 name: cerebral venous plexus
