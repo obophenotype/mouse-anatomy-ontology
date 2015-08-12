@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 11:08:2015 14:40
-saved-by: mwicks
-auto-generated-by: OBO-Edit 2.3
+date: 12:08:2015 13:55
+saved-by: jarm
+auto-generated-by: OBO-Edit 2.3.1
 remark: Version 012
 ontology: emapa
 
@@ -27704,7 +27704,7 @@ id: EMAPA:25144
 name: C1 dorsal root ganglion
 namespace: anatomical_structure
 is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -55118,6 +55118,7 @@ relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29856 ! corpus cavernosum of glans penis
 relationship: starts_at TS28 ! TS28
 
+[Term]
 id: EMAPA:36409
 name: female prepuce hair follicle
 namespace: anatomical_structure
@@ -55134,6 +55135,8 @@ synonym: "female prepuce stroma" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30699 ! prepuce of female
 relationship: starts_at TS28 ! TS28
+
+[Term]
 id: EMAPA:36411
 name: scrotum skin
 namespace: anatomical_structure
@@ -55155,6 +55158,8 @@ name: developing vasculature of scrotal swelling
 namespace: anatomical_structure
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:30509 ! scrotal swelling
+
+[Term]
 id: EMAPA:36414
 name: septum of scrotal fold
 namespace: anatomical_structure
@@ -55313,10 +55318,14 @@ id: EMAPA:36431
 name: lamina propria of bulbourethral gland of female
 namespace: anatomical_structure
 relationship: part_of EMAPA:36429 ! bulbourethral gland of female
+
+[Term]
 id: EMAPA:36432
 name: vasculature of bulbourethral gland of female
 namespace: anatomical_structure
 relationship: part_of EMAPA:36429 ! bulbourethral gland of female
+
+[Term]
 id: EMAPA:36433
 name: phallic urethra of female
 namespace: anatomical_structure
@@ -55325,6 +55334,8 @@ synonym: "external urethra of female" RELATED []
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:18680 ! genital tubercle of female
 relationship: part_of EMAPA:28747 ! urethra of female
+
+[Term]
 id: EMAPA:36434
 name: urethral meatus of penile urethra
 namespace: anatomical_structure
@@ -55525,6 +55536,8 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30991 ! epithelium of vagina
 relationship: starts_at TS28 ! TS28
+
+[Term]
 id: EMAPA:36457
 name: hindlimb claw
 namespace: anatomical_structure
@@ -55532,17 +55545,23 @@ is_a: EMAPA:35580 ! nail
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:32649 ! hindlimb digit
 relationship: starts_at TS24 ! TS24
+
+[Term]
 id: EMAPA:36458
 name: myometrium inner circular smooth muscle layer
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29923 ! myometrium
 relationship: starts_at TS28 ! TS28
+
+[Term]
 id: EMAPA:36459
 name: myometrium outer longitudinal smooth muscle layer
 namespace: anatomical_structure
 relationship: part_of EMAPA:29923 ! myometrium
 relationship: starts_at TS28 ! TS28
+
+[Term]
 id: EMAPA:36460
 name: heart great vessel
 namespace: anatomical_structure
@@ -55595,6 +55614,8 @@ name: cerebral venous plexus
 namespace: anatomical_structure
 is_a: EMAPA:36327 ! venous plexus
 relationship: starts_at TS19 ! TS19
+
+[Term]
 id: EMAPA:36467
 name: anterior cerebral vein
 namespace: anatomical_structure
@@ -55606,6 +55627,8 @@ id: EMAPA:36468
 name: paracardiac ganglion
 namespace: anatomical_structure
 is_a: EMAPA:32813 ! parasympathetic ganglion
+
+[Term]
 id: EMAPA:36469
 name: dentate gyrus primordium
 namespace: anatomical_structure
@@ -55890,6 +55913,7 @@ id: part_of
 name: part_of
 namespace: mouse_ontology
 is_transitive: true
+
 [Typedef]
 id: starts_at
 name: starts_at
