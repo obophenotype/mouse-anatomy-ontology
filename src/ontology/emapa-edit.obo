@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 12:08:2015 13:55
-saved-by: jarm
-auto-generated-by: OBO-Edit 2.3.1
+date: 08:07:2015 11:55
+saved-by: mwicks
+auto-generated-by: OBO-Edit 2.3
 default-namespace: file:/Users/mwicks/Documents/ChrisMungall/mouse-anatomy-ontology/src/ontology/CLTEMP.obo
 remark: Version 012
 ontology: emapa
@@ -27705,7 +27705,7 @@ id: EMAPA:25144
 name: C1 dorsal root ganglion
 namespace: anatomical_structure
 is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS28 ! TS28
+relationship: ends_at TS26 ! TS26
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -55154,6 +55154,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36411
 name: scrotum skin
 namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19296 ! scrotum
 relationship: starts_at TS28 ! TS28
 
@@ -55172,6 +55173,7 @@ name: developing vasculature of scrotal swelling
 namespace: anatomical_structure
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:30509 ! scrotal swelling
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:36414
@@ -55331,7 +55333,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36431
 name: lamina propria of bulbourethral gland of female
 namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36429 ! bulbourethral gland of female
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:36432
@@ -55348,6 +55352,7 @@ synonym: "external urethra of female" RELATED []
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:18680 ! genital tubercle of female
 relationship: part_of EMAPA:28747 ! urethra of female
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:36434
@@ -55572,6 +55577,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36459
 name: myometrium outer longitudinal smooth muscle layer
 namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29923 ! myometrium
 relationship: starts_at TS28 ! TS28
 
@@ -55580,6 +55586,7 @@ id: EMAPA:36460
 name: heart great vessel
 namespace: anatomical_structure
 is_a: EMAPA:32743 ! blood vessel
+relationship: ends_at TS28 ! TS28
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -55634,6 +55641,7 @@ id: EMAPA:36467
 name: anterior cerebral vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
+relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -55646,6 +55654,7 @@ is_a: EMAPA:32813 ! parasympathetic ganglion
 id: EMAPA:36469
 name: dentate gyrus primordium
 namespace: anatomical_structure
+relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:16910 ! telencephalon
 relationship: starts_at TS23 ! TS23
 
