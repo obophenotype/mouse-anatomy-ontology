@@ -104,3 +104,4 @@ def: "intermediate cell of basal cell layer of bladder urothelium: are present f
 relationship: ends_at TS24 ! TS24
 relationship: is_a CLTEMP:00008 ! intermediate cell of bladder urothelium
 relationship: starts_at TS22 ! TS22
+
