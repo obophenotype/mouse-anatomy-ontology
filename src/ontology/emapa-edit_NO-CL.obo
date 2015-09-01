@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 29:06:2015 18:38
-saved-by: jarm
+date: 01:09:2015 11:02
+saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -11634,6 +11634,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17529
 name: vibrissa
 namespace: anatomical_structure
+synonym: "whisker" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17525 ! skin
 relationship: starts_at TS20 ! TS20
@@ -20831,7 +20832,7 @@ id: EMAPA:18770
 name: hair bulb
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18769 ! hair
+relationship: part_of EMAPA:18771 ! hair follicle
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -20847,7 +20848,7 @@ id: EMAPA:18772
 name: hair root sheath
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18769 ! hair
+relationship: part_of EMAPA:18771 ! hair follicle
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -33255,14 +33256,18 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26716
 name: vibrissa bulb
 namespace: anatomical_structure
+alt_id: EMAPA:26753
+synonym: "sinus hair bulb" EXACT []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17529 ! vibrissa
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:26720
 name: vibrissa follicle
 namespace: anatomical_structure
+alt_id: EMAPA:26759
+synonym: "sinus hair follicle" EXACT []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17529 ! vibrissa
 relationship: starts_at TS20 ! TS20
@@ -33271,51 +33276,32 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:26724
 name: vibrissa root sheath
 namespace: anatomical_structure
+alt_id: EMAPA:26765
+synonym: "sinus hair root sheath" EXACT []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17529 ! vibrissa
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:26747
-name: sinus hair
+name: vibrissa hair
 namespace: anatomical_structure
+synonym: "sinus hair" RELATED []
 is_a: EMAPA:18769 ! hair
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:17525 ! skin
-relationship: starts_at TS22 ! TS22
-
-[Term]
-id: EMAPA:26753
-name: sinus hair bulb
-namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:26747 ! sinus hair
-relationship: starts_at TS22 ! TS22
-
-[Term]
-id: EMAPA:26759
-name: sinus hair follicle
-namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18771 ! hair follicle
-relationship: starts_at TS22 ! TS22
-
-[Term]
-id: EMAPA:26765
-name: sinus hair root sheath
-namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:26747 ! sinus hair
+relationship: part_of EMAPA:17529 ! vibrissa
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:26771
 name: vibrissa arrector pili muscle
 namespace: anatomical_structure
+alt_id: EMAPA:26779
+synonym: "sinus hair arrector pili muscle" EXACT []
 is_a: EMAPA:18187 ! integumental system muscle
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17529 ! vibrissa
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:26775
@@ -33323,17 +33309,7 @@ name: hair arrector pili muscle
 namespace: anatomical_structure
 is_a: EMAPA:18187 ! integumental system muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18769 ! hair
 relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:26779
-name: sinus hair arrector pili muscle
-namespace: anatomical_structure
-is_a: EMAPA:18187 ! integumental system muscle
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:26747 ! sinus hair
-relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:26913
@@ -41953,7 +41929,7 @@ name: bronchiole
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16728 ! lung
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:32698
@@ -42006,7 +41982,7 @@ name: cortical subplate
 namespace: anatomical_structure
 alt_id: EMAPA:32833
 synonym: "cerebral cortex subplate" EXACT []
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:17544 ! cerebral cortex
 relationship: starts_at TS20 ! TS20
 
@@ -44818,7 +44794,7 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35162 ! back of trunk
 relationship: part_of EMAPA:35888 ! trunk musculature
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:35162
@@ -45541,8 +45517,8 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35246
 name: coat hair follicle
 namespace: anatomical_structure
+is_a: EMAPA:18771 ! hair follicle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18771 ! hair follicle
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -46062,7 +46038,7 @@ namespace: anatomical_structure
 is_a: EMAPA:18221 ! autonomic ganglion
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:26922 ! enteric nervous system
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35313
@@ -48210,7 +48186,7 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32714 ! musculoskeletal system
 relationship: part_of EMAPA:35577 ! musculature
-relationship: starts_at TS20 ! TS20
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:35580
@@ -49889,7 +49865,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35443 ! intestine smooth muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35785 ! small intestine wall
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35784
@@ -49897,7 +49873,7 @@ name: small intestine villus
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32834 ! small intestine
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35785
@@ -49906,7 +49882,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35444 ! intestine wall
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32834 ! small intestine
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35786
@@ -50737,7 +50713,7 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31857 ! trunk
 relationship: part_of EMAPA:35578 ! skeletal musculature
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:35889
@@ -55709,6 +55685,98 @@ namespace: anatomical_structure
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:35702 ! preputial swelling
 relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:36477
+name: vibrissa inner root sheath
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:26724 ! vibrissa root sheath
+relationship: starts_at TS24 ! TS24
+created_by: terryh
+creation_date: 2015-08-31T14:31:17Z
+
+[Term]
+id: EMAPA:36478
+name: vibrissa outer root sheath
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:26724 ! vibrissa root sheath
+relationship: starts_at TS24 ! TS24
+created_by: terryh
+creation_date: 2015-08-31T14:32:39Z
+
+[Term]
+id: EMAPA:36479
+name: hair germ
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18771 ! hair follicle
+relationship: starts_at TS23 ! TS23
+created_by: terryh
+creation_date: 2015-08-31T15:21:23Z
+
+[Term]
+id: EMAPA:36480
+name: CA2 pyramidal cell layer
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32769 ! hippocampus CA2
+relationship: part_of EMAPA:35409 ! hippocampus pyramidal cell layer
+relationship: starts_at TS28 ! TS28
+created_by: terryh
+creation_date: 2015-08-31T15:23:50Z
+
+[Term]
+id: EMAPA:36481
+name: hair epidermal placode
+namespace: anatomical_structure
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:18771 ! hair follicle
+relationship: starts_at TS22 ! TS22
+created_by: terryh
+creation_date: 2015-08-31T15:27:22Z
+
+[Term]
+id: EMAPA:36482
+name: vibrissa root sheath matrix
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:26724 ! vibrissa root sheath
+relationship: starts_at TS24 ! TS24
+created_by: terryh
+creation_date: 2015-08-31T15:29:40Z
+
+[Term]
+id: EMAPA:36483
+name: vibrissa dermal papilla
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17529 ! vibrissa
+relationship: starts_at TS24 ! TS24
+created_by: terryh
+creation_date: 2015-08-31T15:32:15Z
+
+[Term]
+id: EMAPA:36484
+name: hair follicle dermal papilla
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18771 ! hair follicle
+relationship: starts_at TS23 ! TS23
+created_by: terryh
+creation_date: 2015-08-31T15:34:38Z
+
+[Term]
+id: EMAPA:36485
+name: pelage hair
+namespace: anatomical_structure
+synonym: "coat hair" RELATED []
+is_a: EMAPA:18769 ! hair
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
+created_by: terryh
+creation_date: 2015-09-01T09:47:46Z
 
 [Term]
 id: group_term
