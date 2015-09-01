@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 01:09:2015 11:05
+date: 01:09:2015 11:15
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -55732,6 +55732,8 @@ id: EMAPA:36482
 name: vibrissa root sheath matrix
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:26724 ! vibrissa root sheath
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:36483
