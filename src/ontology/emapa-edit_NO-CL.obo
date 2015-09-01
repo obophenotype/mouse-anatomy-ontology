@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 01:09:2015 11:02
+date: 01:09:2015 11:05
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -55693,8 +55693,6 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:26724 ! vibrissa root sheath
 relationship: starts_at TS24 ! TS24
-created_by: terryh
-creation_date: 2015-08-31T14:31:17Z
 
 [Term]
 id: EMAPA:36478
@@ -55703,8 +55701,6 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:26724 ! vibrissa root sheath
 relationship: starts_at TS24 ! TS24
-created_by: terryh
-creation_date: 2015-08-31T14:32:39Z
 
 [Term]
 id: EMAPA:36479
@@ -55713,8 +55709,6 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18771 ! hair follicle
 relationship: starts_at TS23 ! TS23
-created_by: terryh
-creation_date: 2015-08-31T15:21:23Z
 
 [Term]
 id: EMAPA:36480
@@ -55724,8 +55718,6 @@ relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32769 ! hippocampus CA2
 relationship: part_of EMAPA:35409 ! hippocampus pyramidal cell layer
 relationship: starts_at TS28 ! TS28
-created_by: terryh
-creation_date: 2015-08-31T15:23:50Z
 
 [Term]
 id: EMAPA:36481
@@ -55734,18 +55726,12 @@ namespace: anatomical_structure
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18771 ! hair follicle
 relationship: starts_at TS22 ! TS22
-created_by: terryh
-creation_date: 2015-08-31T15:27:22Z
 
 [Term]
 id: EMAPA:36482
 name: vibrissa root sheath matrix
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:26724 ! vibrissa root sheath
-relationship: starts_at TS24 ! TS24
-created_by: terryh
-creation_date: 2015-08-31T15:29:40Z
 
 [Term]
 id: EMAPA:36483
@@ -55754,8 +55740,6 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17529 ! vibrissa
 relationship: starts_at TS24 ! TS24
-created_by: terryh
-creation_date: 2015-08-31T15:32:15Z
 
 [Term]
 id: EMAPA:36484
@@ -55764,8 +55748,6 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18771 ! hair follicle
 relationship: starts_at TS23 ! TS23
-created_by: terryh
-creation_date: 2015-08-31T15:34:38Z
 
 [Term]
 id: EMAPA:36485
@@ -55775,8 +55757,6 @@ synonym: "coat hair" RELATED []
 is_a: EMAPA:18769 ! hair
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS27 ! TS27
-created_by: terryh
-creation_date: 2015-09-01T09:47:46Z
 
 [Term]
 id: group_term
