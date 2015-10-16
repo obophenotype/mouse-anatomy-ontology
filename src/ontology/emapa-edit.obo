@@ -1,11 +1,10 @@
 format-version: 1.2
-date: 14:08:2015 13:12
-saved-by: mwicks
-auto-generated-by: OBO-Edit 2.3
-default-namespace: file:/Users/mwicks/Documents/ChrisMungall/mouse-anatomy-ontology/src/ontology/CLTEMP.obo
+date: 16:10:2015 16:13
+saved-by: terryh
+auto-generated-by: OBO-Edit 2.3.1
+default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
-
 
 [Term]
 id: EMAPA:0
@@ -921,7 +920,7 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:16138
 name: peritoneal cavity
 namespace: anatomical_structure
-relationship: ends_at TS16 ! TS16
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16137 ! peritoneal component
 relationship: starts_at TS12 ! TS12
 
@@ -1533,7 +1532,7 @@ id: EMAPA:16207
 name: vitelline artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
-is_a: EMAPA:36034 ! umbilical or vitelline vessel
+is_a: EMAPA:36494 ! vitelline blood vessel
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS12 ! TS12
@@ -1560,9 +1559,9 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:16211
 name: primitive heart tube cardiac muscle
 namespace: anatomical_structure
+is_a: EMAPA:32688 ! cardiac muscle tissue
 relationship: ends_at TS12 ! TS12
 relationship: part_of EMAPA:16215 ! primitive heart tube
-relationship: part_of EMAPA:32688 ! cardiac muscle tissue
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -2487,9 +2486,9 @@ id: EMAPA:16335
 name: bulbus cordis caudal half cardiac jelly
 namespace: anatomical_structure
 alt_id: EMAPA:16218
-is_a: EMAPA:32687 ! cardiac jelly
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16334 ! bulbus cordis caudal half
+relationship: part_of EMAPA:36489 ! bulbus cordis cardiac jelly
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -2497,9 +2496,9 @@ id: EMAPA:16336
 name: bulbus cordis caudal half endocardial tube
 namespace: anatomical_structure
 alt_id: EMAPA:16219
-is_a: EMAPA:32685 ! endocardial tube
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16334 ! bulbus cordis caudal half
+relationship: part_of EMAPA:36486 ! bulbus cordis endocardial tube
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -2510,7 +2509,7 @@ alt_id: EMAPA:16220
 synonym: "bulbus cordis caudal half myocardium" RELATED []
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16334 ! bulbus cordis caudal half
-relationship: part_of EMAPA:32688 ! cardiac muscle tissue
+relationship: part_of EMAPA:36488 ! bulbus cordis cardiac muscle
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -2530,9 +2529,9 @@ id: EMAPA:16339
 name: bulbus cordis rostral half cardiac jelly
 namespace: anatomical_structure
 alt_id: EMAPA:16222
-is_a: EMAPA:32687 ! cardiac jelly
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16338 ! bulbus cordis rostral half
+relationship: part_of EMAPA:36489 ! bulbus cordis cardiac jelly
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -2540,9 +2539,9 @@ id: EMAPA:16340
 name: bulbus cordis rostral half endocardial tube
 namespace: anatomical_structure
 alt_id: EMAPA:16223
-is_a: EMAPA:32685 ! endocardial tube
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16338 ! bulbus cordis rostral half
+relationship: part_of EMAPA:36486 ! bulbus cordis endocardial tube
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -2552,7 +2551,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:16224
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16338 ! bulbus cordis rostral half
-relationship: part_of EMAPA:32688 ! cardiac muscle tissue
+relationship: part_of EMAPA:36488 ! bulbus cordis cardiac muscle
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -2594,9 +2593,9 @@ name: common atrial chamber cardiac muscle
 namespace: anatomical_structure
 alt_id: EMAPA:16228
 alt_id: EMAPA:16692
+is_a: EMAPA:32688 ! cardiac muscle tissue
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16342 ! common atrial chamber
-relationship: part_of EMAPA:32688 ! cardiac muscle tissue
 relationship: part_of EMAPA:32746 ! atrium cardiac muscle
 relationship: starts_at TS12 ! TS12
 
@@ -2676,9 +2675,9 @@ name: primitive ventricle cardiac muscle
 namespace: anatomical_structure
 alt_id: EMAPA:16236
 synonym: "primitive ventricle myocardium" RELATED []
+is_a: EMAPA:32688 ! cardiac muscle tissue
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16350 ! primitive ventricle
-relationship: part_of EMAPA:32688 ! cardiac muscle tissue
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -5284,18 +5283,18 @@ relationship: starts_at TS14 ! TS14
 id: EMAPA:16694
 name: bulbus cordis caudal half endocardial lining
 namespace: anatomical_structure
-is_a: EMAPA:32686 ! endocardial lining
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16334 ! bulbus cordis caudal half
+relationship: part_of EMAPA:36487 ! bulbus cordis endocardial lining
 relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16695
 name: bulbus cordis rostral half endocardial lining
 namespace: anatomical_structure
-is_a: EMAPA:32686 ! endocardial lining
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16338 ! bulbus cordis rostral half
+relationship: part_of EMAPA:36487 ! bulbus cordis endocardial lining
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -11635,6 +11634,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17529
 name: vibrissa
 namespace: anatomical_structure
+synonym: "whisker" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17525 ! skin
 relationship: starts_at TS20 ! TS20
@@ -19061,7 +19061,7 @@ id: EMAPA:18444
 name: vomeronasal organ epithelium
 namespace: anatomical_structure
 is_a: EMAPA:35958 ! nose epithelium
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:17612 ! vomeronasal organ
 relationship: starts_at TS20 ! TS20
 
@@ -19070,7 +19070,7 @@ id: EMAPA:18445
 name: vomeronasal organ mesenchyme
 namespace: anatomical_structure
 is_a: EMAPA:35584 ! nasal mesenchyme
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:17612 ! vomeronasal organ
 relationship: starts_at TS20 ! TS20
 
@@ -20832,7 +20832,7 @@ id: EMAPA:18770
 name: hair bulb
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18769 ! hair
+relationship: part_of EMAPA:18771 ! hair follicle
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -20841,14 +20841,14 @@ name: hair follicle
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17525 ! skin
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:18772
 name: hair root sheath
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18769 ! hair
+relationship: part_of EMAPA:18771 ! hair follicle
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -27705,7 +27705,7 @@ id: EMAPA:25144
 name: C1 dorsal root ganglion
 namespace: anatomical_structure
 is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS28 ! TS28
+relationship: ends_at TS26 ! TS26
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -33256,14 +33256,18 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26716
 name: vibrissa bulb
 namespace: anatomical_structure
+alt_id: EMAPA:26753
+synonym: "sinus hair bulb" EXACT []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17529 ! vibrissa
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:26720
 name: vibrissa follicle
 namespace: anatomical_structure
+alt_id: EMAPA:26759
+synonym: "sinus hair follicle" EXACT []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17529 ! vibrissa
 relationship: starts_at TS20 ! TS20
@@ -33272,51 +33276,32 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:26724
 name: vibrissa root sheath
 namespace: anatomical_structure
+alt_id: EMAPA:26765
+synonym: "sinus hair root sheath" EXACT []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17529 ! vibrissa
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:26747
-name: sinus hair
+name: vibrissa hair
 namespace: anatomical_structure
+synonym: "sinus hair" RELATED []
 is_a: EMAPA:18769 ! hair
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:17525 ! skin
-relationship: starts_at TS22 ! TS22
-
-[Term]
-id: EMAPA:26753
-name: sinus hair bulb
-namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:26747 ! sinus hair
-relationship: starts_at TS22 ! TS22
-
-[Term]
-id: EMAPA:26759
-name: sinus hair follicle
-namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18771 ! hair follicle
-relationship: starts_at TS22 ! TS22
-
-[Term]
-id: EMAPA:26765
-name: sinus hair root sheath
-namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:26747 ! sinus hair
+relationship: part_of EMAPA:17529 ! vibrissa
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:26771
 name: vibrissa arrector pili muscle
 namespace: anatomical_structure
+alt_id: EMAPA:26779
+synonym: "sinus hair arrector pili muscle" EXACT []
 is_a: EMAPA:18187 ! integumental system muscle
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17529 ! vibrissa
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:26775
@@ -33324,17 +33309,7 @@ name: hair arrector pili muscle
 namespace: anatomical_structure
 is_a: EMAPA:18187 ! integumental system muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18769 ! hair
 relationship: starts_at TS24 ! TS24
-
-[Term]
-id: EMAPA:26779
-name: sinus hair arrector pili muscle
-namespace: anatomical_structure
-is_a: EMAPA:18187 ! integumental system muscle
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:26747 ! sinus hair
-relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:26913
@@ -38948,9 +38923,6 @@ synonym: "epithelial layer of primitive bladder" RELATED []
 synonym: "epithelium of primitive bladder" RELATED []
 is_a: EMAPA:31509 ! epithelium of urogenital sinus
 relationship: ends_at TS21 ! TS21
-relationship: has_part CLTEMP:00003 ! undifferentiated epithelial cell of urothelium of primitive bladder
-relationship: has_part CLTEMP:00004 ! intermediate cell of urothelium of primitive bladder
-relationship: has_part CLTEMP:00005 ! P-0 cell of urothelium of primitive bladder
 relationship: part_of EMAPA:30870 ! primitive bladder
 relationship: starts_at TS19 ! TS19
 
@@ -40802,11 +40774,6 @@ namespace: anatomical_structure
 def: "superficial cell layer of bladder urothelium (TS22-TS28) (syn: luminal cell layer of bladder urothelium): the epithelial layer of cells lining the bladder lumen, comprised of superficial cells and intermediate cells of bladder urothelium from TS22-28." [PMID:25968320]
 synonym: "luminal cell layer of bladder urothelium" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: has_part CLTEMP:00001 ! superficial cell of bladder urothelium
-relationship: has_part CLTEMP:00008 ! intermediate cell of bladder urothelium
-relationship: has_part CLTEMP:00009 ! intermediate cell of superficial cell layer of bladder urothelium
-relationship: has_part CLTEMP:00010 ! intermediate cell of intermediate cell layer of bladder urothelium
-relationship: has_part CLTEMP:00011 ! intermediate cell of basal cell layer of bladder urothelium
 relationship: part_of EMAPA:28601 ! urothelium of bladder
 relationship: starts_at TS22 ! TS22
 
@@ -40816,7 +40783,6 @@ name: basal cell layer of bladder urothelium
 namespace: anatomical_structure
 def: "basal cell layer of bladder urothelium (TS22-TS28): the cell layer at the base of the urothelium adjacent to the basement membrane, comprised of different cell types dependant on stage. At TS22, is comprised solely of intermediate cells (prior to the identification of Krt5-expressing basal cells), from TS23-24 is comprised of intermediate and Krt5-expressing basal cells of bladder urothelium, and from TS25-28 is comprised solely of Krt5-expressing basal cells of bladder urothelium." [PMID:25968320]
 relationship: ends_at TS28 ! TS28
-relationship: has_part CLTEMP:00002 ! Krt5-expressing basal cell of bladder urothelium
 relationship: part_of EMAPA:28601 ! urothelium of bladder
 relationship: starts_at TS22 ! TS22
 
@@ -41963,7 +41929,7 @@ name: bronchiole
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16728 ! lung
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:32698
@@ -42016,7 +41982,7 @@ name: cortical subplate
 namespace: anatomical_structure
 alt_id: EMAPA:32833
 synonym: "cerebral cortex subplate" EXACT []
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:17544 ! cerebral cortex
 relationship: starts_at TS20 ! TS20
 
@@ -42380,9 +42346,9 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:32746
 name: atrium cardiac muscle
 namespace: anatomical_structure
+is_a: EMAPA:32688 ! cardiac muscle tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16688 ! heart atrium
-relationship: part_of EMAPA:32688 ! cardiac muscle tissue
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -42398,9 +42364,9 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:32748
 name: ventricle cardiac muscle
 namespace: anatomical_structure
+is_a: EMAPA:32688 ! cardiac muscle tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17331 ! heart ventricle
-relationship: part_of EMAPA:32688 ! cardiac muscle tissue
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -44828,7 +44794,7 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35162 ! back of trunk
 relationship: part_of EMAPA:35888 ! trunk musculature
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:35162
@@ -45551,8 +45517,8 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35246
 name: coat hair follicle
 namespace: anatomical_structure
+is_a: EMAPA:18771 ! hair follicle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18771 ! hair follicle
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -46072,7 +46038,7 @@ namespace: anatomical_structure
 is_a: EMAPA:18221 ! autonomic ganglion
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:26922 ! enteric nervous system
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35313
@@ -48220,7 +48186,7 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32714 ! musculoskeletal system
 relationship: part_of EMAPA:35577 ! musculature
-relationship: starts_at TS20 ! TS20
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:35580
@@ -48589,9 +48555,9 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35623
 name: outflow tract cardiac muscle
 namespace: anatomical_structure
+is_a: EMAPA:32688 ! cardiac muscle tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16346 ! outflow tract
-relationship: part_of EMAPA:32688 ! cardiac muscle tissue
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -49899,7 +49865,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35443 ! intestine smooth muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35785 ! small intestine wall
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35784
@@ -49907,7 +49873,7 @@ name: small intestine villus
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32834 ! small intestine
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35785
@@ -49916,7 +49882,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35444 ! intestine wall
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32834 ! small intestine
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35786
@@ -50747,7 +50713,7 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31857 ! trunk
 relationship: part_of EMAPA:35578 ! skeletal musculature
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:35889
@@ -51854,7 +51820,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:36017
 name: umbilical artery
 namespace: anatomical_structure
-is_a: EMAPA:36034 ! umbilical or vitelline vessel
+is_a: EMAPA:36493 ! umbilical blood vessel
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS13 ! TS13
 
@@ -51862,7 +51828,7 @@ relationship: starts_at TS13 ! TS13
 id: EMAPA:36018
 name: umbilical vein
 namespace: anatomical_structure
-is_a: EMAPA:36034 ! umbilical or vitelline vessel
+is_a: EMAPA:36493 ! umbilical blood vessel
 relationship: ends_at TS26 ! TS26
 relationship: starts_at TS12 ! TS12
 
@@ -51886,7 +51852,7 @@ relationship: starts_at TS13 ! TS13
 id: EMAPA:36021
 name: vitelline vein
 namespace: anatomical_structure
-is_a: EMAPA:36034 ! umbilical or vitelline vessel
+is_a: EMAPA:36494 ! vitelline blood vessel
 relationship: ends_at TS26 ! TS26
 relationship: starts_at TS12 ! TS12
 
@@ -52313,8 +52279,6 @@ namespace: anatomical_structure
 def: "intermediate cell layer of bladder urothelium (TS22-TS28) (syn: suprabasal cell layer of  bladder urothelium): the 1-2 cell epithelial layer located between the superficial layer and the basal layers, comprised of intermediate cells of bladder urothelium at TS22. From TS23-28 is comprised of intermediate cells and Krt5-expressing basal cells of bladder urothelium." [PMID:25968320]
 synonym: "suprabasal cell layer of  bladder urothelium" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: has_part CLTEMP:00002 ! Krt5-expressing basal cell of bladder urothelium
-relationship: has_part CLTEMP:00008 ! intermediate cell of bladder urothelium
 relationship: part_of EMAPA:28601 ! urothelium of bladder
 relationship: starts_at TS22 ! TS22
 
@@ -52454,8 +52418,6 @@ namespace: anatomical_structure
 def: "outer mesenchymal layer of primitive bladder (ompbl) (syn: peripheral mesenchyme of primitive bladder) (TS20-TS21): the outer zone of the mesenchyme of the primitive bladder adjacent to the serosa/adventitia of primitive bladder. Inner mesenchymal zone markers Gli1, Gli2, Ptch1, Bmp4 are not expressed at high levels. From TS21, is marked by Gli3 and Myocd, which are absent in the inner layer and from TS21 contains smooth muscle cells (marked by smooth muscle actins and myosins such as smooth muscle alpha-actin, smooth muscle gamma-actin, smooth muscle myosin heavy chain, and Tgfb1) and mesenchymal cells of outer mesenchymal layer of primitive bladder." [PMID:25968320]
 synonym: "peripheral mesenchyme of primitive bladder" RELATED []
 relationship: ends_at TS21 ! TS21
-relationship: has_part CLTEMP:00006 ! smooth muscle cell of outer mesenchymal layer of primitive bladder
-relationship: has_part CLTEMP:00007 ! mesenchymal cell of outer mesenchymal layer of primitive bladder
 relationship: part_of EMAPA:30876 ! mesenchymal layer of primitive bladder
 relationship: starts_at TS20 ! TS20
 
@@ -55253,7 +55215,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:36422
 name: migrating neural crest
 namespace: anatomical_structure
-relationship: ends_at TS16 ! TS16
+relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:32735 ! mesenchyme derived from neural crest
 relationship: part_of EMAPA:32737 ! neural crest
 relationship: starts_at TS12 ! TS12
@@ -55725,14 +55687,163 @@ relationship: part_of EMAPA:35702 ! preputial swelling
 relationship: starts_at TS21 ! TS21
 
 [Term]
+id: EMAPA:36477
+name: vibrissa inner root sheath
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:26724 ! vibrissa root sheath
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36478
+name: vibrissa outer root sheath
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:26724 ! vibrissa root sheath
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36479
+name: hair germ
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18771 ! hair follicle
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36480
+name: CA2 pyramidal cell layer
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32769 ! hippocampus CA2
+relationship: part_of EMAPA:35409 ! hippocampus pyramidal cell layer
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36481
+name: hair epidermal placode
+namespace: anatomical_structure
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:18771 ! hair follicle
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36482
+name: vibrissa root sheath matrix
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:26724 ! vibrissa root sheath
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36483
+name: vibrissa dermal papilla
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17529 ! vibrissa
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36484
+name: hair follicle dermal papilla
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18771 ! hair follicle
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36485
+name: pelage hair
+namespace: anatomical_structure
+synonym: "coat hair" RELATED []
+is_a: EMAPA:18769 ! hair
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36486
+name: bulbus cordis endocardial tube
+namespace: anatomical_structure
+is_a: EMAPA:32685 ! endocardial tube
+relationship: ends_at TS14 ! TS14
+relationship: part_of EMAPA:16333 ! bulbus cordis
+relationship: starts_at TS12 ! TS12
+
+[Term]
+id: EMAPA:36487
+name: bulbus cordis endocardial lining
+namespace: anatomical_structure
+is_a: EMAPA:32686 ! endocardial lining
+relationship: ends_at TS18 ! TS18
+relationship: part_of EMAPA:16333 ! bulbus cordis
+relationship: starts_at TS15 ! TS15
+
+[Term]
+id: EMAPA:36488
+name: bulbus cordis cardiac muscle
+namespace: anatomical_structure
+is_a: EMAPA:32688 ! cardiac muscle tissue
+relationship: ends_at TS18 ! TS18
+relationship: part_of EMAPA:16333 ! bulbus cordis
+relationship: starts_at TS12 ! TS12
+
+[Term]
+id: EMAPA:36489
+name: bulbus cordis cardiac jelly
+namespace: anatomical_structure
+is_a: EMAPA:32687 ! cardiac jelly
+relationship: ends_at TS17 ! TS17
+relationship: part_of EMAPA:16333 ! bulbus cordis
+relationship: starts_at TS11 ! TS11
+
+[Term]
+id: EMAPA:36490
+name: costo-chondral joint
+namespace: anatomical_structure
+is_a: EMAPA:35456 ! joint
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS25 ! TS25
+
+[Term]
+id: EMAPA:36491
+name: ventral ectodermal ridge
+namespace: anatomical_structure
+relationship: ends_at TS17 ! TS17
+relationship: part_of EMAPA:16580 ! tail bud
+relationship: part_of EMAPA:32773 ! tail ectoderm
+relationship: starts_at TS14 ! TS14
+
+[Term]
+id: EMAPA:36492
+name: intersomitic artery
+namespace: anatomical_structure
+is_a: EMAPA:35147 ! artery
+relationship: ends_at TS19 ! TS19
+relationship: starts_at TS15 ! TS15
+
+[Term]
+id: EMAPA:36493
+name: umbilical blood vessel
+namespace: anatomical_structure
+is_a: EMAPA:36034 ! umbilical or vitelline vessel
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS12 ! TS12
+
+[Term]
+id: EMAPA:36494
+name: vitelline blood vessel
+namespace: anatomical_structure
+is_a: EMAPA:36034 ! umbilical or vitelline vessel
+relationship: ends_at TS26 ! TS26
+relationship: starts_at TS12 ! TS12
+
+[Term]
 id: group_term
 name: Group term
-namespace: mouse_ontology
 
 [Term]
 id: Tmp_new_group
 name: Tmp new group
-namespace: mouse_ontology
 
 [Term]
 id: TS01
@@ -55910,48 +56021,40 @@ namespace: theiler_stage
 [Typedef]
 id: attached_to
 name: attached_to
-namespace: mouse_ontology
 
 [Typedef]
 id: develops_from
 name: develops_from
-namespace: mouse_ontology
 is_transitive: true
 
 [Typedef]
 id: develops_in
 name: develops_in
-namespace: mouse_ontology
 
 [Typedef]
 id: ends_at
 name: ends_at
-namespace: mouse_ontology
 
 [Typedef]
 id: has_part
 name: has_part
-namespace: mouse_ontology
 is_transitive: true
 
 [Typedef]
 id: is_a
 name: is_a
-namespace: mouse_ontology
 is_transitive: true
 
 [Typedef]
 id: located_in
 name: located_in
-namespace: mouse_ontology
 
 [Typedef]
 id: part_of
 name: part_of
-namespace: mouse_ontology
 is_transitive: true
 
 [Typedef]
 id: starts_at
 name: starts_at
-namespace: mouse_ontology
+
