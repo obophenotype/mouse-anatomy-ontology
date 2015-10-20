@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 16:10:2015 16:13
+date: 20:10:2015 16:47
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -6768,7 +6768,7 @@ namespace: anatomical_structure
 is_a: EMAPA:31169 ! somite
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:16751 ! tail paraxial mesenchyme
-relationship: starts_at TS16 ! TS16
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16861
@@ -14749,7 +14749,7 @@ name: rectum mesenchyme
 namespace: anatomical_structure
 alt_id: EMAPA:35723
 is_a: EMAPA:16716 ! hindgut mesenchyme
-is_a: EMAPA:32909 ! gut mesenchyme
+is_a: EMAPA:36496 ! large intestine mesenchyme
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17896 ! rectum
 relationship: starts_at TS21 ! TS21
@@ -15549,7 +15549,7 @@ name: vault of skull
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17680 ! cranium
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:18017
@@ -15558,7 +15558,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36062 ! cranium bone primordium
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:18016 ! vault of skull
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:18018
@@ -23460,8 +23460,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:19255
 name: midgut derived large intestine mesenchyme
 namespace: anatomical_structure
-is_a: EMAPA:32872 ! intestine mesenchyme
 is_a: EMAPA:32909 ! gut mesenchyme
+is_a: EMAPA:36496 ! large intestine mesenchyme
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:19253 ! midgut derived large intestine
 relationship: starts_at TS26 ! TS26
@@ -23470,8 +23470,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:19256
 name: hindgut derived large intestine mesenchyme
 namespace: anatomical_structure
-is_a: EMAPA:32872 ! intestine mesenchyme
 is_a: EMAPA:32909 ! gut mesenchyme
+is_a: EMAPA:36496 ! large intestine mesenchyme
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:19254 ! hindgut derived large intestine
 relationship: starts_at TS26 ! TS26
@@ -52195,7 +52195,7 @@ name: cranium bone primordium
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17680 ! cranium
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:36063
@@ -55220,6 +55220,7 @@ relationship: part_of EMAPA:32735 ! mesenchyme derived from neural crest
 relationship: part_of EMAPA:32737 ! neural crest
 relationship: starts_at TS12 ! TS12
 
+[Term]
 id: EMAPA:36423
 name: urethral gland of pelvic urethra of male
 namespace: anatomical_structure
@@ -55291,15 +55292,24 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36429 ! bulbourethral gland of female
 relationship: starts_at TS23 ! TS23
+
+[Term]
 id: EMAPA:36431
 name: lamina propria of bulbourethral gland of female
 namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36429 ! bulbourethral gland of female
 relationship: starts_at TS23 ! TS23
+
+[Term]
 id: EMAPA:36432
 name: vasculature of bulbourethral gland of female
 namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36429 ! bulbourethral gland of female
+relationship: starts_at TS23 ! TS23
+
+[Term]
 id: EMAPA:36433
 name: phallic urethra of female
 namespace: anatomical_structure
@@ -55367,11 +55377,16 @@ namespace: anatomical_structure
 is_a: EMAPA:35872 ! tooth substance
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS26 ! TS26
+
+[Term]
 id: EMAPA:36440
 name: tooth basement membrane
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32906 ! tooth
+relationship: starts_at TS21 ! TS21
+
+[Term]
 id: EMAPA:36441
 name: mesenchyme of glans of female genital tubercle
 namespace: anatomical_structure
@@ -55450,7 +55465,11 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:36450
 name: subcommissural organ primordium
 namespace: anatomical_structure
+relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:36449 ! forebrain-midbrain boundary region
+relationship: starts_at TS19 ! TS19
+
+[Term]
 id: EMAPA:36451
 name: urethral tube epithelium of clitoral urethra
 namespace: anatomical_structure
@@ -55584,6 +55603,7 @@ id: EMAPA:36466
 name: cerebral venous plexus
 namespace: anatomical_structure
 is_a: EMAPA:36327 ! venous plexus
+relationship: ends_at TS21 ! TS21
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -55593,10 +55613,16 @@ namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
+
+[Term]
 id: EMAPA:36468
 name: paracardiac ganglion
 namespace: anatomical_structure
 is_a: EMAPA:32813 ! parasympathetic ganglion
+relationship: ends_at TS21 ! TS21
+relationship: starts_at TS21 ! TS21
+
+[Term]
 id: EMAPA:36469
 name: dentate gyrus primordium
 namespace: anatomical_structure
@@ -55616,6 +55642,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36471
 name: hippocampal fissure
 namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35405 ! hippocampal formation
 relationship: starts_at TS24 ! TS24
 
@@ -55625,6 +55652,9 @@ name: macula of vestibular component
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17286 ! inner ear vestibular component
+relationship: starts_at TS22 ! TS22
+
+[Term]
 id: EMAPA:36473
 name: early conceptus
 namespace: anatomical_structure
@@ -55684,6 +55714,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36480
 name: CA2 pyramidal cell layer
 namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32769 ! hippocampus CA2
 relationship: part_of EMAPA:35409 ! hippocampus pyramidal cell layer
 relationship: starts_at TS28 ! TS28
@@ -55694,6 +55725,9 @@ name: hair epidermal placode
 namespace: anatomical_structure
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18771 ! hair follicle
+relationship: starts_at TS22 ! TS22
+
+[Term]
 id: EMAPA:36482
 name: vibrissa root sheath matrix
 namespace: anatomical_structure
@@ -55713,6 +55747,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:36484
 name: hair follicle dermal papilla
 namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18771 ! hair follicle
 relationship: starts_at TS23 ! TS23
 
@@ -55783,7 +55818,7 @@ id: EMAPA:36492
 name: intersomitic artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
-relationship: ends_at TS19 ! TS19
+relationship: ends_at TS20 ! TS20
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -55801,6 +55836,23 @@ namespace: anatomical_structure
 is_a: EMAPA:36034 ! umbilical or vitelline vessel
 relationship: ends_at TS26 ! TS26
 relationship: starts_at TS12 ! TS12
+
+[Term]
+id: EMAPA:36495
+name: perirenal fat
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35112 ! adipose tissue
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36496
+name: large intestine mesenchyme
+namespace: anatomical_structure
+is_a: EMAPA:32872 ! intestine mesenchyme
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:19252 ! large intestine
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: group_term
@@ -55977,6 +56029,8 @@ id: TS28
 name: TS28
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
+
+[Term]
 id: TS:0
 name: Theiler stage
 namespace: theiler_stage
@@ -56020,3 +56074,4 @@ is_transitive: true
 [Typedef]
 id: starts_at
 name: starts_at
+
