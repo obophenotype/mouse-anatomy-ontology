@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 22:10:2015 17:01
+date: 27:10:2015 09:04
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -5061,6 +5061,7 @@ name: spinal ganglion
 namespace: anatomical_structure
 is_a: EMAPA:32814 ! peripheral nervous system ganglion
 is_a: EMAPA:35796 ! spinal ganglion or nerve
+is_a: EMAPA:36596 ! sensory ganglion
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16666 ! spinal component of peripheral nervous system
 relationship: starts_at TS15 ! TS15
@@ -12859,7 +12860,7 @@ id: EMAPA:17672
 name: nasopharynx epithelium
 namespace: anatomical_structure
 is_a: EMAPA:35894 ! upper respiratory tract epithelium
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17670 ! nasopharynx
 relationship: starts_at TS20 ! TS20
 
@@ -19064,7 +19065,7 @@ id: EMAPA:18444
 name: vomeronasal organ epithelium
 namespace: anatomical_structure
 is_a: EMAPA:35958 ! nose epithelium
-relationship: ends_at TS27 ! TS27
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17612 ! vomeronasal organ
 relationship: starts_at TS20 ! TS20
 
@@ -21821,7 +21822,7 @@ namespace: anatomical_structure
 is_a: EMAPA:16913 ! telencephalon ventricular layer
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:32845 ! hippocampus
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:19044
@@ -33359,6 +33360,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:26937
 name: oral mucosa
 namespace: anatomical_structure
+is_a: EMAPA:36591 ! alimentary system mucosa
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16262 ! oral region
 relationship: starts_at TS23 ! TS23
@@ -33376,6 +33378,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:26947
 name: oral lamina propria
 namespace: anatomical_structure
+is_a: EMAPA:36592 ! alimentary system lamina propria
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:26937 ! oral mucosa
 relationship: starts_at TS23 ! TS23
@@ -33394,6 +33397,7 @@ id: EMAPA:26957
 name: pharynx mucosa
 namespace: anatomical_structure
 alt_id: EMAPA:26965
+is_a: EMAPA:36591 ! alimentary system mucosa
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16706 ! pharynx
 relationship: starts_at TS23 ! TS23
@@ -33413,6 +33417,7 @@ id: EMAPA:26963
 name: pharynx lamina propria
 namespace: anatomical_structure
 alt_id: EMAPA:26977
+is_a: EMAPA:36592 ! alimentary system lamina propria
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:26957 ! pharynx mucosa
 relationship: starts_at TS23 ! TS23
@@ -33422,6 +33427,7 @@ id: EMAPA:26981
 name: esophagus mucosa
 namespace: anatomical_structure
 alt_id: EMAPA:26991
+is_a: EMAPA:36591 ! alimentary system mucosa
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16833 ! esophagus
 relationship: starts_at TS23 ! TS23
@@ -33442,6 +33448,7 @@ name: esophagus lamina propria
 namespace: anatomical_structure
 alt_id: EMAPA:27003
 synonym: "esophageal lamina propria" RELATED []
+is_a: EMAPA:36592 ! alimentary system lamina propria
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:26981 ! esophagus mucosa
 relationship: starts_at TS23 ! TS23
@@ -33616,6 +33623,7 @@ id: EMAPA:27053
 name: perineal body mucosa
 namespace: anatomical_structure
 alt_id: EMAPA:27291
+is_a: EMAPA:36591 ! alimentary system mucosa
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17892 ! perineal body
 relationship: starts_at TS23 ! TS23
@@ -33653,6 +33661,7 @@ id: EMAPA:27063
 name: perineal body lamina propria
 namespace: anatomical_structure
 alt_id: EMAPA:27311
+is_a: EMAPA:36592 ! alimentary system lamina propria
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27053 ! perineal body mucosa
 relationship: starts_at TS23 ! TS23
@@ -33670,6 +33679,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27067
 name: rest of hindgut mucosa
 namespace: anatomical_structure
+is_a: EMAPA:36591 ! alimentary system mucosa
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17900 ! rest of hindgut
 relationship: starts_at TS23 ! TS23
@@ -33703,6 +33713,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27077
 name: rest of hindgut lamina propria
 namespace: anatomical_structure
+is_a: EMAPA:36592 ! alimentary system lamina propria
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:27067 ! rest of hindgut mucosa
 relationship: starts_at TS23 ! TS23
@@ -33720,6 +33731,7 @@ id: EMAPA:27081
 name: rectum mucosa
 namespace: anatomical_structure
 alt_id: EMAPA:27319
+is_a: EMAPA:35467 ! large intestine mucosa
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17896 ! rectum
 relationship: starts_at TS23 ! TS23
@@ -33757,6 +33769,7 @@ id: EMAPA:27091
 name: rectum lamina propria
 namespace: anatomical_structure
 alt_id: EMAPA:27339
+is_a: EMAPA:36592 ! alimentary system lamina propria
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27081 ! rectum mucosa
 relationship: starts_at TS23 ! TS23
@@ -33827,6 +33840,7 @@ id: EMAPA:27109
 name: jejunum mucosa
 namespace: anatomical_structure
 alt_id: EMAPA:27347
+is_a: EMAPA:35780 ! small intestine mucosa
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18666 ! jejunum
 relationship: starts_at TS23 ! TS23
@@ -33881,6 +33895,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27123
 name: midgut loop mucosa
 namespace: anatomical_structure
+is_a: EMAPA:36591 ! alimentary system mucosa
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17036 ! midgut loop
 relationship: starts_at TS23 ! TS23
@@ -33914,6 +33929,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27133
 name: midgut loop lamina propria
 namespace: anatomical_structure
+is_a: EMAPA:36592 ! alimentary system lamina propria
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:27123 ! midgut loop mucosa
 relationship: starts_at TS23 ! TS23
@@ -33930,6 +33946,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27137
 name: rest of midgut mucosa
 namespace: anatomical_structure
+is_a: EMAPA:36591 ! alimentary system mucosa
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17042 ! rest of midgut
 relationship: starts_at TS23 ! TS23
@@ -33963,6 +33980,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27147
 name: rest of midgut lamina propria
 namespace: anatomical_structure
+is_a: EMAPA:36592 ! alimentary system lamina propria
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:27137 ! rest of midgut mucosa
 relationship: starts_at TS23 ! TS23
@@ -33980,6 +33998,7 @@ id: EMAPA:27151
 name: stomach fundus mucosa
 namespace: anatomical_structure
 alt_id: EMAPA:27403
+is_a: EMAPA:35817 ! stomach mucosa
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17886 ! stomach fundus
 relationship: starts_at TS23 ! TS23
@@ -34028,6 +34047,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:27423
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27151 ! stomach fundus mucosa
+relationship: part_of EMAPA:36593 ! stomach lamina propria
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -34046,6 +34066,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:27435
 alt_id: EMAPA:35815
 synonym: "stomach glandular region glandular mucous membrane" EXACT []
+is_a: EMAPA:35817 ! stomach mucosa
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17623 ! stomach glandular region
 relationship: starts_at TS23 ! TS23
@@ -34085,6 +34106,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:27455
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27167 ! stomach glandular region mucosa
+relationship: part_of EMAPA:36593 ! stomach lamina propria
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -34110,6 +34132,7 @@ id: EMAPA:27183
 name: stomach proventricular region mucosa
 namespace: anatomical_structure
 alt_id: EMAPA:27467
+is_a: EMAPA:35817 ! stomach mucosa
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17627 ! stomach proventricular region
 relationship: starts_at TS23 ! TS23
@@ -34149,6 +34172,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:27487
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27183 ! stomach proventricular region mucosa
+relationship: part_of EMAPA:36593 ! stomach lamina propria
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -34174,6 +34198,7 @@ id: EMAPA:27199
 name: stomach pyloric region mucosa
 namespace: anatomical_structure
 alt_id: EMAPA:27499
+is_a: EMAPA:35817 ! stomach mucosa
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17631 ! stomach pyloric region
 relationship: starts_at TS23 ! TS23
@@ -34203,6 +34228,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:27519
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27199 ! stomach pyloric region mucosa
+relationship: part_of EMAPA:36593 ! stomach lamina propria
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -34254,6 +34280,7 @@ name: anal canal caudal part lamina propria
 namespace: anatomical_structure
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:27215 ! anal canal caudal part mucosa
+relationship: part_of EMAPA:27547 ! anal canal lamina propria
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -34279,6 +34306,7 @@ name: anal canal rostral part lamina propria
 namespace: anatomical_structure
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:27225 ! anal canal rostral part mucosa
+relationship: part_of EMAPA:27547 ! anal canal lamina propria
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -34293,6 +34321,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27235
 name: duodenum mucosa
 namespace: anatomical_structure
+is_a: EMAPA:35780 ! small intestine mucosa
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18852 ! duodenum
 relationship: starts_at TS23 ! TS23
@@ -34342,6 +34371,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27375
 name: colon mucosa
 namespace: anatomical_structure
+is_a: EMAPA:35467 ! large intestine mucosa
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18939 ! colon
 relationship: starts_at TS24 ! TS24
@@ -34375,6 +34405,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:27395
 name: colon lamina propria
 namespace: anatomical_structure
+is_a: EMAPA:36592 ! alimentary system lamina propria
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:27375 ! colon mucosa
 relationship: starts_at TS24 ! TS24
@@ -34391,6 +34422,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:27531
 name: anal canal mucosa
 namespace: anatomical_structure
+is_a: EMAPA:36591 ! alimentary system mucosa
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18256 ! anal canal
 relationship: starts_at TS23 ! TS23
@@ -34415,9 +34447,10 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:27547
 name: anal canal lamina propria
 namespace: anatomical_structure
+is_a: EMAPA:36592 ! alimentary system lamina propria
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27531 ! anal canal mucosa
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27564
@@ -42876,8 +42909,10 @@ relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:32809
-name: olfactory bulb
+name: main olfactory bulb
 namespace: anatomical_structure
+synonym: "olfactory bulb" RELATED []
+synonym: "primary olfactory bulb" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17778 ! olfactory lobe
 relationship: starts_at TS21 ! TS21
@@ -44326,7 +44361,7 @@ name: accessory olfactory bulb
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17778 ! olfactory lobe
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35107
@@ -44342,7 +44377,7 @@ name: accessory olfactory bulb glomerular layer
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35106 ! accessory olfactory bulb
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35109
@@ -44366,7 +44401,7 @@ name: accessory olfactory bulb mitral cell layer
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35106 ! accessory olfactory bulb
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35112
@@ -45273,7 +45308,7 @@ name: cerebellum external granule cell layer
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35217 ! cerebellum granule cell layer
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35217
@@ -45282,7 +45317,7 @@ namespace: anatomical_structure
 synonym: "cerebellar granule cell layer" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35212 ! cerebellum layer
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35218
@@ -45329,7 +45364,7 @@ relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35223
-name: cerebellum purkinje cell layer
+name: cerebellum Purkinje cell layer
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35212 ! cerebellum layer
@@ -45459,7 +45494,7 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16910 ! telencephalon
 relationship: part_of EMAPA:35187 ! brain white matter
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35238
@@ -45588,7 +45623,7 @@ name: corpus callosum
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35435 ! intercerebral commissure
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35254
@@ -45739,7 +45774,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17787 ! cerebellum
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35273
@@ -46053,7 +46088,7 @@ name: entorhinal cortex
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35745 ! retrohippocampal cortex
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35314
@@ -47013,15 +47048,15 @@ name: intercerebral commissure
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35237 ! cerebral white matter
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35437
-name: internal capsule
+name: cerebral internal capsule
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35237 ! cerebral white matter
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35438
@@ -47045,6 +47080,7 @@ id: EMAPA:35440
 name: intestine mucosa
 namespace: anatomical_structure
 synonym: "intestinal mucosa" RELATED []
+is_a: EMAPA:36591 ! alimentary system mucosa
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32874 ! intestine
 relationship: part_of EMAPA:35444 ! intestine wall
@@ -48279,7 +48315,7 @@ name: neocortex region
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32842 ! neocortex
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35590
@@ -48373,7 +48409,7 @@ id: EMAPA:35599
 name: nucleus of lateral olfactory tract
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32809 ! olfactory bulb
+relationship: part_of EMAPA:32809 ! main olfactory bulb
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -48430,51 +48466,51 @@ relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35607
-name: olfactory bulb external plexiform layer
+name: main olfactory bulb external plexiform layer
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32809 ! olfactory bulb
-relationship: starts_at TS27 ! TS27
+relationship: part_of EMAPA:32809 ! main olfactory bulb
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35608
-name: olfactory bulb glomerular layer
+name: main olfactory bulb glomerular layer
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32809 ! olfactory bulb
-relationship: starts_at TS27 ! TS27
+relationship: part_of EMAPA:32809 ! main olfactory bulb
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35609
-name: olfactory bulb granule cell layer
+name: main olfactory bulb granule cell layer
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32809 ! olfactory bulb
+relationship: part_of EMAPA:32809 ! main olfactory bulb
 relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35610
-name: olfactory bulb internal plexiform layer
+name: main olfactory bulb internal plexiform layer
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32809 ! olfactory bulb
-relationship: starts_at TS27 ! TS27
+relationship: part_of EMAPA:32809 ! main olfactory bulb
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35611
-name: olfactory bulb mitral cell layer
+name: main olfactory bulb mitral cell layer
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32809 ! olfactory bulb
-relationship: starts_at TS27 ! TS27
+relationship: part_of EMAPA:32809 ! main olfactory bulb
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35612
-name: olfactory bulb subependymal zone
+name: main olfactory bulb subependymal zone
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32809 ! olfactory bulb
-relationship: starts_at TS28 ! TS28
+relationship: part_of EMAPA:32809 ! main olfactory bulb
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35613
@@ -48490,7 +48526,7 @@ id: EMAPA:35614
 name: olfactory nerve layer
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32809 ! olfactory bulb
+relationship: part_of EMAPA:32809 ! main olfactory bulb
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -48499,7 +48535,7 @@ name: olfactory tract
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17779 ! olfactory cortex
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35616
@@ -49558,7 +49594,7 @@ name: retrohippocampal cortex
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35589 ! neocortex region
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35747
@@ -50121,9 +50157,10 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35817
 name: stomach mucosa
 namespace: anatomical_structure
+is_a: EMAPA:36591 ! alimentary system mucosa
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35826 ! stomach wall
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35818
@@ -50189,7 +50226,7 @@ name: stomach wall
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17021 ! stomach
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35827
@@ -50366,7 +50403,7 @@ id: EMAPA:35847
 name: taenia tecta
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32809 ! olfactory bulb
+relationship: part_of EMAPA:32809 ! main olfactory bulb
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -55895,6 +55932,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36500
 name: leg blood vessel
 namespace: anatomical_structure
+is_a: EMAPA:36598 ! limb blood vessel
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17489 ! leg
 relationship: starts_at TS28 ! TS28
@@ -56075,10 +56113,13 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36522
 name: Brunner's gland
 namespace: anatomical_structure
+is_a: EMAPA:18815 ! gut gland
+is_a: EMAPA:35327 ! exocrine gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32834 ! small intestine
 relationship: starts_at TS28 ! TS28
 
+[Term]
 id: EMAPA:36523
 name: esophagus skeletal muscle
 namespace: anatomical_structure
@@ -56253,6 +56294,8 @@ namespace: anatomical_structure
 is_a: EMAPA:36543 ! seminal fluid
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
+
+[Term]
 id: EMAPA:36545
 name: prostate gland secretion
 namespace: anatomical_structure
@@ -56394,6 +56437,10 @@ id: EMAPA:36562
 name: glomerular mesangium
 namespace: anatomical_structure
 is_a: EMAPA:36561 ! mesangium
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
+
+[Term]
 id: EMAPA:36563
 name: parotid duct
 namespace: anatomical_structure
@@ -56447,46 +56494,67 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36569
 name: cochlear labyrinth
 namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17597 ! cochlea
 relationship: starts_at TS28 ! TS28
+
+[Term]
 id: EMAPA:36570
 name: zygomatic arch
 namespace: anatomical_structure
 is_a: EMAPA:35238 ! chondrocranium bone
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
+
+[Term]
 id: EMAPA:36571
 name: temporal bone round window
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17683 ! temporal bone petrous part
 relationship: starts_at TS28 ! TS28
+
+[Term]
 id: EMAPA:36572
 name: mandible condylar process
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:25100 ! mandible ramus
 relationship: starts_at TS28 ! TS28
+
+[Term]
 id: EMAPA:36573
 name: trabeculae carneae cardiac muscle
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18626 ! trabeculae carneae
 relationship: starts_at TS28 ! TS28
+
+[Term]
 id: EMAPA:36574
 name: trachea gland
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16853 ! trachea
 relationship: starts_at TS28 ! TS28
+
+[Term]
 id: EMAPA:36575
 name: dorsal striatum
 namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17549 ! corpus striatum
+relationship: starts_at TS22 ! TS22
+
+[Term]
 id: EMAPA:36576
 name: ventral striatum
 namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17549 ! corpus striatum
+relationship: starts_at TS22 ! TS22
+
+[Term]
 id: EMAPA:36577
 name: exorbital lacrimal gland
 namespace: anatomical_structure
@@ -56539,6 +56607,7 @@ id: EMAPA:36583
 name: trunk bone
 namespace: anatomical_structure
 is_a: EMAPA:32782 ! bone
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31857 ! trunk
 relationship: starts_at TS23 ! TS23
 
@@ -56546,13 +56615,146 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36584
 name: accessory olfactory bulb anlage
 namespace: anatomical_structure
-relationship: ends_at TS25 ! TS25
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17778 ! olfactory lobe
+relationship: starts_at TS22 ! TS22
+
+[Term]
 id: EMAPA:36585
 name: accessory olfactory bulb anlage mitral cell layer
 namespace: anatomical_structure
-relationship: ends_at TS25 ! TS25
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:36584 ! accessory olfactory bulb anlage
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36586
+name: main olfactory bulb ventricular layer
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32809 ! main olfactory bulb
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:36587
+name: main olfactory bulb prospective glomerular layer
+namespace: anatomical_structure
+relationship: ends_at TS25 ! TS25
+relationship: part_of EMAPA:32809 ! main olfactory bulb
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36588
+name: body of vertebra
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32740 ! vertebra
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36589
+name: left kidney
+namespace: anatomical_structure
+is_a: EMAPA:17373 ! metanephros
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36590
+name: right kidney
+namespace: anatomical_structure
+is_a: EMAPA:17373 ! metanephros
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36591
+name: alimentary system mucosa
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16246 ! alimentary system
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36592
+name: alimentary system lamina propria
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36591 ! alimentary system mucosa
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36593
+name: stomach lamina propria
+namespace: anatomical_structure
+is_a: EMAPA:36592 ! alimentary system lamina propria
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35817 ! stomach mucosa
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36594
+name: eye anterior segment
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16198 ! eye
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36595
+name: eye posterior segment
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16198 ! eye
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36596
+name: sensory ganglion
+namespace: anatomical_structure
+is_a: EMAPA:32846 ! ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS15 ! TS15
+
+[Term]
+id: EMAPA:36597
+name: baroreceptor
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32743 ! blood vessel
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36598
+name: limb blood vessel
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16405 ! limb
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36599
+name: main olfactory bulb prospective granule cell layer
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:32809 ! main olfactory bulb
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36600
+name: corticospinal tract
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35927 ! white matter
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36601
+name: cerebellum Purkinje cell cluster
+namespace: anatomical_structure
+relationship: ends_at TS25 ! TS25
+relationship: part_of EMAPA:17787 ! cerebellum
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: group_term
@@ -56774,3 +56976,4 @@ is_transitive: true
 [Typedef]
 id: starts_at
 name: starts_at
+
