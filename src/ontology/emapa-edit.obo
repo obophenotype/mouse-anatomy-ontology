@@ -56424,23 +56424,16 @@ is_a: EMAPA:30043 ! renal medullary capillary
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
 
-[Term]
 id: EMAPA:36561
 name: mesangium
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28518 ! renal interstitium
 relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36562
 name: glomerular mesangium
 namespace: anatomical_structure
 is_a: EMAPA:36561 ! mesangium
-relationship: ends_at TS28 ! TS28
-relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36563
 name: parotid duct
 namespace: anatomical_structure
@@ -56494,67 +56487,46 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36569
 name: cochlear labyrinth
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17597 ! cochlea
 relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:36570
 name: zygomatic arch
 namespace: anatomical_structure
 is_a: EMAPA:35238 ! chondrocranium bone
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:36571
 name: temporal bone round window
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17683 ! temporal bone petrous part
 relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:36572
 name: mandible condylar process
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:25100 ! mandible ramus
 relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:36573
 name: trabeculae carneae cardiac muscle
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18626 ! trabeculae carneae
 relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:36574
 name: trachea gland
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16853 ! trachea
 relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:36575
 name: dorsal striatum
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17549 ! corpus striatum
-relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36576
 name: ventral striatum
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17549 ! corpus striatum
-relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36577
 name: exorbital lacrimal gland
 namespace: anatomical_structure
@@ -56607,7 +56579,6 @@ id: EMAPA:36583
 name: trunk bone
 namespace: anatomical_structure
 is_a: EMAPA:32782 ! bone
-relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31857 ! trunk
 relationship: starts_at TS23 ! TS23
 
@@ -56617,15 +56588,11 @@ name: accessory olfactory bulb anlage
 namespace: anatomical_structure
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17778 ! olfactory lobe
-relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:36585
 name: accessory olfactory bulb anlage mitral cell layer
 namespace: anatomical_structure
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:36584 ! accessory olfactory bulb anlage
-relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:36586
@@ -56976,4 +56943,3 @@ is_transitive: true
 [Typedef]
 id: starts_at
 name: starts_at
-
