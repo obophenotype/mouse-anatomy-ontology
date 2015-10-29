@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 27:10:2015 09:04
+date: 29:10:2015 16:12
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -573,7 +573,7 @@ relationship: starts_at TS11 ! TS11
 id: EMAPA:16099
 name: mesenchyme derived from head mesoderm
 namespace: anatomical_structure
-relationship: ends_at TS19 ! TS19
+relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16098 ! head mesenchyme
 relationship: starts_at TS11 ! TS11
 
@@ -1216,7 +1216,7 @@ name: head mesenchyme derived from neural crest
 namespace: anatomical_structure
 alt_id: EMAPA:16100
 is_a: EMAPA:32735 ! mesenchyme derived from neural crest
-relationship: ends_at TS19 ! TS19
+relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16098 ! head mesenchyme
 relationship: starts_at TS11 ! TS11
 
@@ -42056,6 +42056,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:32707
 name: cerebral cortex ventricular zone
 namespace: anatomical_structure
+is_a: EMAPA:32804 ! brain subventricular zone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17544 ! cerebral cortex
 relationship: starts_at TS25 ! TS25
@@ -42762,7 +42763,7 @@ synonym: "brain stem nucleus" RELATED []
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32678 ! brainstem
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:32791
@@ -42792,6 +42793,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:32794
 name: olfactory cortex subventricular zone
 namespace: anatomical_structure
+is_a: EMAPA:32804 ! brain subventricular zone
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17779 ! olfactory cortex
 relationship: starts_at TS26 ! TS26
@@ -46653,7 +46655,7 @@ name: habenula
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17532 ! epithalamus
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35387
@@ -47073,7 +47075,7 @@ namespace: anatomical_structure
 is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18215 ! tegmentum
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35440
@@ -47433,7 +47435,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35386 ! habenula
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35480
@@ -48004,7 +48006,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35386 ! habenula
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35548
@@ -49544,7 +49546,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35915 ! ventral thalamus
+relationship: part_of EMAPA:35915 ! prethalamus
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -50332,7 +50334,7 @@ name: subthalamic nucleus
 namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35915 ! ventral thalamus
+relationship: part_of EMAPA:35915 ! prethalamus
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -50991,11 +50993,12 @@ relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35915
-name: ventral thalamus
+name: prethalamus
 namespace: anatomical_structure
+synonym: "ventral thalamus" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17540 ! thalamus
-relationship: starts_at TS27 ! TS27
+relationship: part_of EMAPA:16896 ! diencephalon
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:35916
@@ -51113,8 +51116,8 @@ id: EMAPA:35930
 name: zona incerta
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35915 ! ventral thalamus
-relationship: starts_at TS27 ! TS27
+relationship: part_of EMAPA:35915 ! prethalamus
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35931
@@ -56424,16 +56427,23 @@ is_a: EMAPA:30043 ! renal medullary capillary
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
 
+[Term]
 id: EMAPA:36561
 name: mesangium
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28518 ! renal interstitium
 relationship: starts_at TS22 ! TS22
+
+[Term]
 id: EMAPA:36562
 name: glomerular mesangium
 namespace: anatomical_structure
 is_a: EMAPA:36561 ! mesangium
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
+
+[Term]
 id: EMAPA:36563
 name: parotid duct
 namespace: anatomical_structure
@@ -56487,46 +56497,67 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36569
 name: cochlear labyrinth
 namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17597 ! cochlea
 relationship: starts_at TS28 ! TS28
+
+[Term]
 id: EMAPA:36570
 name: zygomatic arch
 namespace: anatomical_structure
 is_a: EMAPA:35238 ! chondrocranium bone
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
+
+[Term]
 id: EMAPA:36571
 name: temporal bone round window
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17683 ! temporal bone petrous part
 relationship: starts_at TS28 ! TS28
+
+[Term]
 id: EMAPA:36572
 name: mandible condylar process
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:25100 ! mandible ramus
 relationship: starts_at TS28 ! TS28
+
+[Term]
 id: EMAPA:36573
 name: trabeculae carneae cardiac muscle
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18626 ! trabeculae carneae
 relationship: starts_at TS28 ! TS28
+
+[Term]
 id: EMAPA:36574
 name: trachea gland
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16853 ! trachea
 relationship: starts_at TS28 ! TS28
+
+[Term]
 id: EMAPA:36575
 name: dorsal striatum
 namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17549 ! corpus striatum
+relationship: starts_at TS22 ! TS22
+
+[Term]
 id: EMAPA:36576
 name: ventral striatum
 namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17549 ! corpus striatum
+relationship: starts_at TS22 ! TS22
+
+[Term]
 id: EMAPA:36577
 name: exorbital lacrimal gland
 namespace: anatomical_structure
@@ -56579,6 +56610,7 @@ id: EMAPA:36583
 name: trunk bone
 namespace: anatomical_structure
 is_a: EMAPA:32782 ! bone
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31857 ! trunk
 relationship: starts_at TS23 ! TS23
 
@@ -56588,11 +56620,15 @@ name: accessory olfactory bulb anlage
 namespace: anatomical_structure
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17778 ! olfactory lobe
+relationship: starts_at TS22 ! TS22
+
+[Term]
 id: EMAPA:36585
 name: accessory olfactory bulb anlage mitral cell layer
 namespace: anatomical_structure
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:36584 ! accessory olfactory bulb anlage
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:36586
@@ -56722,6 +56758,32 @@ namespace: anatomical_structure
 relationship: ends_at TS25 ! TS25
 relationship: part_of EMAPA:17787 ! cerebellum
 relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36602
+name: hypothalamus subventricular zone
+namespace: anatomical_structure
+is_a: EMAPA:32804 ! brain subventricular zone
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17536 ! hypothalamus
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36603
+name: thalamus subventricular zone
+namespace: anatomical_structure
+is_a: EMAPA:32804 ! brain subventricular zone
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17540 ! thalamus
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36604
+name: zona limitans intrathalamica
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16896 ! diencephalon
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: group_term
@@ -56943,3 +57005,4 @@ is_transitive: true
 [Typedef]
 id: starts_at
 name: starts_at
+
