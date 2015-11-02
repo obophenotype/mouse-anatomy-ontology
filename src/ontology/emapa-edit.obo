@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 29:10:2015 16:12
+date: 02:11:2015 16:36
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -37880,7 +37880,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:30019
 name: smooth muscle layer of renal vein
 namespace: anatomical_structure
-is_a: EMAPA:35177 ! blood vessel smooth muscle
+is_a: EMAPA:36289 ! vein smooth muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28376 ! renal vein
 relationship: starts_at TS21 ! TS21
@@ -40850,6 +40850,7 @@ name: smooth muscle layer of prostatic urethra
 namespace: anatomical_structure
 def: "smooth muscle layer of prostatic urethra (TS28): the smooth muscle layer towards the outside of the prostatic urethra. Part of the prostatic urethra, part of the urethra of male. Marked by proteins expressed by smooth muscle cells, such as smooth muscle alpha actin (Acta2)." [PMID:25968320]
 is_a: EMAPA:32717 ! smooth muscle tissue
+is_a: EMAPA:36630 ! smooth muscle of urethra
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30956 ! muscle layer of prostatic urethra
 relationship: starts_at TS28 ! TS28
@@ -44720,6 +44721,7 @@ name: artery endothelium
 namespace: anatomical_structure
 is_a: EMAPA:35176 ! blood vessel endothelium
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35147 ! artery
 relationship: part_of EMAPA:36293 ! artery tunica intima
 relationship: starts_at TS28 ! TS28
 
@@ -45597,8 +45599,8 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:35250
 name: compact bone
 namespace: anatomical_structure
+is_a: EMAPA:35179 ! bone tissue
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35179 ! bone tissue
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -46012,8 +46014,8 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35304
 name: endochondral bone
 namespace: anatomical_structure
+is_a: EMAPA:35179 ! bone tissue
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35179 ! bone tissue
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -49804,8 +49806,9 @@ id: EMAPA:35771
 name: sesamoid bone of gastrocnemius
 namespace: anatomical_structure
 is_a: EMAPA:35934 ! hindlimb bone
+is_a: EMAPA:36620 ! sesamoid bone
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32633 ! hindlimb skeleton
+relationship: part_of EMAPA:17489 ! leg
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -52707,6 +52710,7 @@ id: EMAPA:36116
 name: smooth muscle layer of pelvic urethra of female
 namespace: anatomical_structure
 def: "smooth muscle layer of pelvic urethra of female (TS28): the smooth muscle layer towards the outside of the pelvic urethra. Part of the pelvic urethra, part of the urethra of female. Marked by proteins expressed by smooth muscle cells, such as smooth muscle alpha actin (Acta2)." [PMID:25968320]
+is_a: EMAPA:36630 ! smooth muscle of urethra
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28771 ! muscle layer of pelvic urethra of female
 relationship: starts_at TS28 ! TS28
@@ -54165,10 +54169,11 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:36289
 name: vein smooth muscle
 namespace: anatomical_structure
-is_a: EMAPA:35177 ! blood vessel smooth muscle
+is_a: EMAPA:36613 ! venous system smooth muscle
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35906 ! vein
 relationship: part_of EMAPA:36309 ! vein tunica media
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:36290
@@ -56784,6 +56789,311 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16896 ! diencephalon
 relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:36605
+name: nerve fiber tract
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35927 ! white matter
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36606
+name: fasciculus retroflexus
+namespace: anatomical_structure
+synonym: "habenulointerpeduncular tract" RELATED []
+is_a: EMAPA:36605 ! nerve fiber tract
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36607
+name: stria medullaris
+namespace: anatomical_structure
+is_a: EMAPA:36605 ! nerve fiber tract
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36608
+name: choroid plexus epithelium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32741 ! choroid plexus
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36609
+name: choroid plexus stroma
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32741 ! choroid plexus
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36610
+name: head blood vessel
+namespace: anatomical_structure
+is_a: EMAPA:32743 ! blood vessel
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:31858 ! head
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36611
+name: cornea blood vessel
+namespace: anatomical_structure
+is_a: EMAPA:32743 ! blood vessel
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17161 ! cornea
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36612
+name: spiral artery
+namespace: anatomical_structure
+is_a: EMAPA:35147 ! artery
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35689 ! placenta
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36613
+name: venous system smooth muscle
+namespace: anatomical_structure
+is_a: EMAPA:35177 ! blood vessel smooth muscle
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16240 ! venous system
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:36614
+name: vertebral arch
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32740 ! vertebra
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36615
+name: intramembranous bone
+namespace: anatomical_structure
+is_a: EMAPA:35179 ! bone tissue
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36616
+name: presphenoid bone
+namespace: anatomical_structure
+is_a: EMAPA:35238 ! chondrocranium bone
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36617
+name: pterygoid bone
+namespace: anatomical_structure
+is_a: EMAPA:35238 ! chondrocranium bone
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36618
+name: supraoccipital bone
+namespace: anatomical_structure
+is_a: EMAPA:35238 ! chondrocranium bone
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36619
+name: palatine bone
+namespace: anatomical_structure
+is_a: EMAPA:35924 ! viscerocranium bone
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36620
+name: sesamoid bone
+namespace: anatomical_structure
+is_a: EMAPA:35494 ! limb bone
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36621
+name: ulnar sesamoid bone
+namespace: anatomical_structure
+is_a: EMAPA:35933 ! forelimb bone
+is_a: EMAPA:36620 ! sesamoid bone
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17428 ! hand
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36622
+name: nucleus prepositus
+namespace: anatomical_structure
+is_a: EMAPA:32790 ! brainstem nucleus
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17550 ! medulla oblongata
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36623
+name: lower back
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35104 ! abdominal segment of trunk
+relationship: part_of EMAPA:35162 ! back of trunk
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36624
+name: lower back nerve
+namespace: anatomical_structure
+is_a: EMAPA:32815 ! peripheral nerve
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36623 ! lower back
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36625
+name: saphenous nerve
+namespace: anatomical_structure
+is_a: EMAPA:32815 ! peripheral nerve
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36626
+name: geniohyoid
+namespace: anatomical_structure
+is_a: EMAPA:18963 ! pharynx skeletal muscle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36627
+name: levator auris longus
+namespace: anatomical_structure
+is_a: EMAPA:35988 ! skeletal muscle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36628
+name: perineum
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35104 ! abdominal segment of trunk
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36629
+name: perineal muscle
+namespace: anatomical_structure
+is_a: EMAPA:35988 ! skeletal muscle
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36628 ! perineum
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36630
+name: smooth muscle of urethra
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:30901 ! urethra
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36631
+name: pudendum of female
+namespace: anatomical_structure
+synonym: "vulva" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:30984 ! female external genitalia
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36632
+name: corpus cavernosum of penis
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18682 ! penis
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36633
+name: thoracic mammary gland
+namespace: anatomical_structure
+is_a: EMAPA:17759 ! mammary gland
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35862 ! thoracic segment of trunk
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36634
+name: mammary gland lobule
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17759 ! mammary gland
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36635
+name: left lung respiratory bronchiole
+namespace: anatomical_structure
+is_a: EMAPA:19000 ! left lung bronchiole
+is_a: EMAPA:35729 ! respiratory bronchiole
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36636
+name: left lung terminal bronchiole
+namespace: anatomical_structure
+is_a: EMAPA:19000 ! left lung bronchiole
+is_a: EMAPA:36282 ! terminal bronchiole
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36637
+name: right lung respiratory bronchiole
+namespace: anatomical_structure
+is_a: EMAPA:35425 ! right lung bronchiole
+is_a: EMAPA:35729 ! respiratory bronchiole
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36638
+name: right lung terminal bronchiole
+namespace: anatomical_structure
+is_a: EMAPA:35425 ! right lung bronchiole
+is_a: EMAPA:36282 ! terminal bronchiole
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36639
+name: awl hair
+namespace: anatomical_structure
+is_a: EMAPA:36485 ! pelage hair
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36640
+name: zigzag hair
+namespace: anatomical_structure
+is_a: EMAPA:36485 ! pelage hair
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
 
 [Term]
 id: group_term
