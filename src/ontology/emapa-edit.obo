@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 02:11:2015 16:36
+date: 17:11:2015 17:01
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -717,7 +717,7 @@ relationship: starts_at TS11 ! TS11
 
 [Term]
 id: EMAPA:16116
-name: primordial germ cell
+name: primordial germ cell of yolk sac
 namespace: anatomical_structure
 relationship: ends_at TS11 ! TS11
 relationship: part_of EMAPA:16087 ! yolk sac mesoderm
@@ -1309,7 +1309,7 @@ synonym: "lateral plate mesenchyme" RELATED []
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16071 ! embryo mesoderm
 relationship: part_of EMAPA:16177 ! trunk mesenchyme
-relationship: starts_at TS12 ! TS12
+relationship: starts_at TS11 ! TS11
 
 [Term]
 id: EMAPA:16180
@@ -1317,7 +1317,7 @@ name: somatopleure
 namespace: anatomical_structure
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16179 ! lateral plate mesoderm
-relationship: starts_at TS12 ! TS12
+relationship: starts_at TS11 ! TS11
 
 [Term]
 id: EMAPA:16181
@@ -1325,7 +1325,7 @@ name: splanchnopleure
 namespace: anatomical_structure
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16179 ! lateral plate mesoderm
-relationship: starts_at TS12 ! TS12
+relationship: starts_at TS11 ! TS11
 
 [Term]
 id: EMAPA:16182
@@ -1402,7 +1402,7 @@ relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16190
-name: primordial germ cell
+name: primordial germ cell of trunk mesenchyme
 namespace: anatomical_structure
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16177 ! trunk mesenchyme
@@ -1756,7 +1756,7 @@ relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16254
-name: primordial germ cell
+name: primordial germ cell of hindgut 
 namespace: anatomical_structure
 relationship: ends_at TS12 ! TS12
 relationship: part_of EMAPA:16251 ! hindgut diverticulum
@@ -4381,7 +4381,7 @@ relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16578
-name: primordial germ cell
+name: primordial germ cell of gonad
 namespace: anatomical_structure
 alt_id: EMAPA:16859
 alt_id: EMAPA:17386
@@ -14331,7 +14331,6 @@ namespace: anatomical_structure
 is_a: EMAPA:18172 ! cranial muscle
 is_a: EMAPA:35335 ! eye muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16198 ! eye
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -19882,7 +19881,7 @@ name: trabeculae carneae
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16105 ! heart
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:18627
@@ -21036,7 +21035,6 @@ namespace: anatomical_structure
 is_a: EMAPA:32717 ! smooth muscle tissue
 is_a: EMAPA:35335 ! eye muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16198 ! eye
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -39594,6 +39592,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:31312
 name: renal cortical lymphatics
 namespace: anatomical_structure
+is_a: EMAPA:36641 ! renal lymphatic
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17952 ! renal cortex
 relationship: starts_at TS23 ! TS23
@@ -39636,6 +39635,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:31347
 name: renal medullary lymphatics
 namespace: anatomical_structure
+is_a: EMAPA:36641 ! renal lymphatic
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19279 ! renal medulla
 relationship: starts_at TS23 ! TS23
@@ -42520,7 +42520,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:32761
 name: body wall
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31857 ! trunk
 relationship: starts_at TS17 ! TS17
 
@@ -43443,7 +43443,7 @@ name: intestine mesenchyme
 namespace: anatomical_structure
 synonym: "intestinal mesenchyme" RELATED []
 is_a: EMAPA:32909 ! gut mesenchyme
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:32874 ! intestine
 relationship: starts_at TS18 ! TS18
 
@@ -43570,7 +43570,7 @@ id: EMAPA:32886
 name: alimentary system mesenchyme
 namespace: anatomical_structure
 is_a: EMAPA:35961 ! embryo mesenchyme
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:16246 ! alimentary system
 relationship: starts_at TS12 ! TS12
 
@@ -43769,7 +43769,7 @@ id: EMAPA:32909
 name: gut mesenchyme
 namespace: anatomical_structure
 is_a: EMAPA:32886 ! alimentary system mesenchyme
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:16247 ! gut
 relationship: starts_at TS12 ! TS12
 
@@ -45921,7 +45921,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35478 ! lateral geniculate nucleus
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35291
@@ -45966,7 +45966,7 @@ name: dorsal thalamus
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17540 ! thalamus
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35296
@@ -46590,7 +46590,7 @@ name: geniculate thalamic group
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35295 ! dorsal thalamus
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35377
@@ -47134,7 +47134,7 @@ name: intralaminar thalamic group
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35295 ! dorsal thalamus
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35446
@@ -47428,7 +47428,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35376 ! geniculate thalamic group
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35479
@@ -47505,7 +47505,7 @@ name: lateral thalamic group
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35295 ! dorsal thalamus
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:35488
@@ -48890,7 +48890,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35445 ! intralaminar thalamic group
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35660
@@ -49210,7 +49210,7 @@ name: posterior thalamic group
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35295 ! dorsal thalamus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35698
@@ -49220,7 +49220,7 @@ is_a: EMAPA:35185 ! brain nucleus
 is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35697 ! posterior thalamic group
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35699
@@ -50938,7 +50938,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35478 ! lateral geniculate nucleus
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35909
@@ -50957,7 +50957,7 @@ is_a: EMAPA:35185 ! brain nucleus
 is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35912 ! ventral posterior thalamic group
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35911
@@ -50967,7 +50967,7 @@ is_a: EMAPA:35185 ! brain nucleus
 is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35912 ! ventral posterior thalamic group
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35912
@@ -50975,7 +50975,7 @@ name: ventral posterior thalamic group
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35295 ! dorsal thalamus
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35913
@@ -54927,9 +54927,8 @@ is_obsolete: true
 id: EMAPA:36383
 name: duodenum mesenchyme
 namespace: anatomical_structure
-is_a: EMAPA:32909 ! gut mesenchyme
 is_a: EMAPA:36385 ! small intestine mesenchyme
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18852 ! duodenum
 relationship: starts_at TS18 ! TS18
 
@@ -54947,7 +54946,7 @@ id: EMAPA:36385
 name: small intestine mesenchyme
 namespace: anatomical_structure
 is_a: EMAPA:32872 ! intestine mesenchyme
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:32834 ! small intestine
 relationship: starts_at TS18 ! TS18
 
@@ -55907,7 +55906,7 @@ id: EMAPA:36496
 name: large intestine mesenchyme
 namespace: anatomical_structure
 is_a: EMAPA:32872 ! intestine mesenchyme
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:19252 ! large intestine
 relationship: starts_at TS21 ! TS21
 
@@ -57094,6 +57093,118 @@ namespace: anatomical_structure
 is_a: EMAPA:36485 ! pelage hair
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36641
+name: renal lymphatic
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17373 ! metanephros
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36642
+name: pontine reticular nucleus
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35693 ! pontine reticular formation
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36643
+name: lateral vestibular nucleus
+namespace: anatomical_structure
+is_a: EMAPA:35923 ! vestibular VIII nucleus
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36644
+name: cardiac ganglion
+namespace: anatomical_structure
+is_a: EMAPA:32813 ! parasympathetic ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36645
+name: cardiac fibrous skeleton
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16105 ! heart
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36646
+name: cardiac interstitium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16105 ! heart
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36647
+name: prosomere 1
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16896 ! diencephalon
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36648
+name: prosomere 2
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16896 ! diencephalon
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36649
+name: prosomere 3
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16896 ! diencephalon
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36650
+name: spleen marginal zone
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18767 ! spleen
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36651
+name: eyelid muscle
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17829 ! eyelid
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36652
+name: levator palpebrae superioris
+namespace: anatomical_structure
+is_a: EMAPA:36651 ! eyelid muscle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36653
+name: primordial germ cell of extraembryonic mesoderm
+namespace: anatomical_structure
+is_a: EMAPA:31862 ! extraembryonic mesoderm
+relationship: ends_at TS10 ! TS10
+relationship: starts_at TS10 ! TS10
+
+[Term]
+id: EMAPA:36654
+name: ventral lateral thalamic nucleus
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35487 ! lateral thalamic group
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: group_term
