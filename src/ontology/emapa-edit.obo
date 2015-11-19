@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:11:2015 17:01
+date: 19:11:2015 14:54
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -1756,7 +1756,7 @@ relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16254
-name: primordial germ cell of hindgut 
+name: primordial germ cell of hindgut
 namespace: anatomical_structure
 relationship: ends_at TS12 ! TS12
 relationship: part_of EMAPA:16251 ! hindgut diverticulum
@@ -5179,7 +5179,7 @@ name: nasal process
 namespace: anatomical_structure
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16542 ! nose
-relationship: starts_at TS15 ! TS15
+relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16681
@@ -5187,7 +5187,7 @@ name: fronto-nasal process
 namespace: anatomical_structure
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16680 ! nasal process
-relationship: starts_at TS15 ! TS15
+relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16682
@@ -44870,7 +44870,6 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:35165
 name: basal ventral medial thalamic nucleus
 namespace: anatomical_structure
-is_a: EMAPA:35185 ! brain nucleus
 is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35296 ! medial thalamic group
@@ -45221,7 +45220,6 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35206
 name: central medial thalamic nucleus
 namespace: anatomical_structure
-is_a: EMAPA:35185 ! brain nucleus
 is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35296 ! medial thalamic group
@@ -45256,7 +45254,6 @@ relationship: starts_at TS14 ! TS14
 id: EMAPA:35210
 name: central thalamic nucleus
 namespace: anatomical_structure
-is_a: EMAPA:35185 ! brain nucleus
 is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35445 ! intralaminar thalamic group
@@ -46905,7 +46902,7 @@ name: hypothalamus lateral zone
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17536 ! hypothalamus
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35419
@@ -46913,7 +46910,7 @@ name: hypothalamus medial zone
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17536 ! hypothalamus
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35420
@@ -47470,7 +47467,7 @@ name: lateral preoptic area
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35418 ! hypothalamus lateral zone
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35484
@@ -47978,7 +47975,6 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35544
 name: medial dorsal thalamic nucleus
 namespace: anatomical_structure
-is_a: EMAPA:35185 ! brain nucleus
 is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35296 ! medial thalamic group
@@ -48025,12 +48021,12 @@ name: medial preoptic nucleus
 namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35550 ! medial preoptic region
+relationship: part_of EMAPA:35550 ! medial preoptic area
 relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35550
-name: medial preoptic region
+name: medial preoptic area
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35419 ! hypothalamus medial zone
@@ -48191,7 +48187,7 @@ name: midline thalamic group
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35295 ! dorsal thalamus
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35574
@@ -48952,11 +48948,10 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35666
 name: paraventricular thalamic nucleus
 namespace: anatomical_structure
-is_a: EMAPA:35185 ! brain nucleus
 is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35573 ! midline thalamic group
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35667
@@ -49216,7 +49211,6 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:35698
 name: posterior thalamic nucleus
 namespace: anatomical_structure
-is_a: EMAPA:35185 ! brain nucleus
 is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35697 ! posterior thalamic group
@@ -49545,11 +49539,10 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35737
 name: reticular thalamic nucleus
 namespace: anatomical_structure
-is_a: EMAPA:35185 ! brain nucleus
 is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35915 ! prethalamus
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35738
@@ -50513,7 +50506,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17540 ! thalamus
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35860
@@ -50953,7 +50946,6 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35910
 name: ventral posterior lateral thalamic nucleus
 namespace: anatomical_structure
-is_a: EMAPA:35185 ! brain nucleus
 is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35912 ! ventral posterior thalamic group
@@ -50963,7 +50955,6 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:35911
 name: ventral posterior medial thalamic nucleus
 namespace: anatomical_structure
-is_a: EMAPA:35185 ! brain nucleus
 is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35912 ! ventral posterior thalamic group
@@ -55875,7 +55866,7 @@ name: intersomitic artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS20 ! TS20
-relationship: starts_at TS15 ! TS15
+relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:36493
@@ -57205,6 +57196,26 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35487 ! lateral thalamic group
 relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36655
+name: preoptic area
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17536 ! hypothalamus
+relationship: starts_at TS22 ! TS22
+created_by: terryh
+creation_date: 2015-11-19T11:33:45Z
+
+[Term]
+id: EMAPA:36656
+name: lateral preoptic nucleus
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35483 ! lateral preoptic area
+relationship: starts_at TS24 ! TS24
+created_by: terryh
+creation_date: 2015-11-19T11:54:51Z
 
 [Term]
 id: group_term
