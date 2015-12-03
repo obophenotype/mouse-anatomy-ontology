@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 02:12:2015 16:03
-saved-by: jarm
+date: 03:12:2015 16:49
+saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -9372,7 +9372,7 @@ name: pancreas primordium ventral bud
 namespace: anatomical_structure
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:17066 ! pancreas primordium
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:17257
@@ -57204,8 +57204,6 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17536 ! hypothalamus
 relationship: starts_at TS22 ! TS22
-created_by: terryh
-creation_date: 2015-11-19T11:33:45Z
 
 [Term]
 id: EMAPA:36656
@@ -57214,8 +57212,15 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35483 ! lateral preoptic area
 relationship: starts_at TS24 ! TS24
-created_by: terryh
-creation_date: 2015-11-19T11:54:51Z
+
+[Term]
+id: EMAPA:36657
+name: face skin
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17525 ! skin
+relationship: part_of EMAPA:32763 ! face
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: group_term
