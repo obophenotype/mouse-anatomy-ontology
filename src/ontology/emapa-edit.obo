@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 03:12:2015 16:49
+date: 10:12:2015 16:45
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -8580,7 +8580,6 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:17156
 name: superior vagus X ganglion
 namespace: anatomical_structure
-synonym: "Gasserian ganglion" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16798 ! vagus X ganglion
 relationship: starts_at TS18 ! TS18
@@ -14024,7 +14023,7 @@ id: EMAPA:17803
 name: vestibulocochlear VIII nerve vestibular component
 namespace: anatomical_structure
 synonym: "vestibular nerve" RELATED []
-synonym: "vestibulocochlear nerve cochlear component" RELATED []
+synonym: "vestibulocochlear nerve vestibular component" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17801 ! vestibulocochlear VIII nerve
 relationship: starts_at TS21 ! TS21
@@ -17230,7 +17229,6 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18223
 name: paraganglion of Zuckerkandl
 namespace: anatomical_structure
-synonym: "<new synonym>" RELATED []
 synonym: "organ of Zuckerkandl" RELATED []
 synonym: "para-aortic body" RELATED []
 is_a: EMAPA:18221 ! autonomic ganglion
@@ -21928,21 +21926,23 @@ relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:19056
-name: hindbrain basal cistern
+name: interpeduncular cistern
 namespace: anatomical_structure
+alt_id: EMAPA:19149
+synonym: "basal cistern" RELATED []
 synonym: "cisterna interpeduncularis" RELATED []
-synonym: "interpeduncular cistern" RELATED []
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18211 ! hindbrain subarachnoid space
+relationship: part_of EMAPA:32666 ! brain subarachnoid space
 relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:19057
-name: diencephalon cisterna chiasmatica
+name: cisterna chiasmatica
 namespace: anatomical_structure
+alt_id: EMAPA:19150
 alt_id: EMAPA:25081
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19053 ! diencephalon subarachnoid space
+relationship: part_of EMAPA:32666 ! brain subarachnoid space
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -22456,7 +22456,7 @@ id: EMAPA:19127
 name: hindlimb digit 3 metatarsal
 namespace: anatomical_structure
 alt_id: EMAPA:18494
-synonym: "hindlimb digit 3 metatarsal" RELATED []
+synonym: "hindlimb digit 3 metatarsus" RELATED []
 is_a: EMAPA:36159 ! metatarsal bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17466 ! hindlimb digit 3
@@ -22646,24 +22646,6 @@ namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17537 ! hypothalamus mantle layer
-relationship: starts_at TS25 ! TS25
-
-[Term]
-id: EMAPA:19149
-name: midbrain basal cistern
-namespace: anatomical_structure
-synonym: "cisterna interpeduncularis" RELATED []
-synonym: "interpeduncular cistern" RELATED []
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19055 ! midbrain subarachnoid space
-relationship: starts_at TS25 ! TS25
-
-[Term]
-id: EMAPA:19150
-name: midbrain cisterna chiasmatica
-namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19055 ! midbrain subarachnoid space
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -33275,6 +33257,7 @@ name: vibrissa follicle
 namespace: anatomical_structure
 alt_id: EMAPA:26759
 synonym: "sinus hair follicle" EXACT []
+is_a: EMAPA:18771 ! hair follicle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17529 ! vibrissa
 relationship: starts_at TS20 ! TS20
@@ -36212,7 +36195,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:28937
 name: paramesonephric duct of female, mesonephric portion
 namespace: anatomical_structure
-synonym: "Mullerian duct of female" RELATED []
+synonym: "mesonephric portion of Mullerian duct of female" RELATED []
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:28909 ! mesonephros of female
 relationship: part_of EMAPA:35660 ! paramesonephric duct of female
@@ -36222,8 +36205,8 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:28940
 name: paramesonephric duct of female, rest of
 namespace: anatomical_structure
-synonym: "Mullerian duct of female" RELATED []
 synonym: "rest of" RELATED []
+synonym: "rest of Mullerian duct of female" RELATED []
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:35660 ! paramesonephric duct of female
 relationship: starts_at TS20 ! TS20
@@ -36524,8 +36507,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:29158
 name: paramesonephric duct of male, mesonephric portion
 namespace: anatomical_structure
-synonym: "mesonephric portion of male" RELATED []
-synonym: "Mullerian duct of male" RELATED []
+synonym: "mesonephric portion of Mullerian duct of male" RELATED []
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:29138 ! mesonephros of male
 relationship: part_of EMAPA:35661 ! paramesonephric duct of male
@@ -36535,7 +36517,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:29161
 name: degenerating mesonephric portion of male paramesonephric duct
 namespace: anatomical_structure
-synonym: "Mullerian duct" RELATED []
+synonym: "mesonephric portion of degenerating Mullerian duct of male" RELATED []
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:29138 ! mesonephros of male
 relationship: part_of EMAPA:35661 ! paramesonephric duct of male
@@ -36623,7 +36605,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:29196
 name: degenerating rest of paramesonephric duct of male
 namespace: anatomical_structure
-synonym: "degenerating Mullerian duct" RELATED []
+synonym: "rest of degenerating Mullerian duct of male" RELATED []
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:35661 ! paramesonephric duct of male
 relationship: starts_at TS22 ! TS22
@@ -37280,8 +37262,8 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29798
 name: glandular epithelium of anterior prostate
 namespace: anatomical_structure
-synonym: "luminal epithelium" RELATED []
-synonym: "secretory epithelium" RELATED []
+synonym: "luminal epithelium of anterior prostate" RELATED []
+synonym: "secretory epithelium of anterior prostate" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29796 ! anterior prostatic epithelium
 relationship: starts_at TS28 ! TS28
@@ -37343,8 +37325,8 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29812
 name: glandular epithelium of dorsal prostate
 namespace: anatomical_structure
-synonym: "luminal epithelium" RELATED []
-synonym: "secretory epithelium" RELATED []
+synonym: "luminal epithelium of dorsal prostate" RELATED []
+synonym: "secretory epithelium of dorsal prostate" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29810 ! dorsal prostatic epithelium
 relationship: starts_at TS28 ! TS28
@@ -37406,8 +37388,8 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29826
 name: glandular epithelium of lateral prostate
 namespace: anatomical_structure
-synonym: "luminal epithelium" RELATED []
-synonym: "secretory epithelium" RELATED []
+synonym: "luminal epithelium of lateral prostate" RELATED []
+synonym: "secretory epithelium of lateral prostate" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29824 ! lateral prostatic epithelium
 relationship: starts_at TS28 ! TS28
@@ -37468,8 +37450,8 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29840
 name: glandular epithelium of ventral prostate
 namespace: anatomical_structure
-synonym: "luminal epithelium" RELATED []
-synonym: "secretory epithelium" RELATED []
+synonym: "luminal epithelium of ventral prostate" RELATED []
+synonym: "secretory epithelium of ventral prostate" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29838 ! ventral prostatic epithelium
 relationship: starts_at TS28 ! TS28
@@ -39939,7 +39921,7 @@ name: proximal urethral meatus of male
 namespace: anatomical_structure
 def: "proximal urethral meatus of male (prox ur me) (syn: proximal urethral opening of male, urethral duct) (TS21-TS24): the proximal opening in the epithelium of male phallic urethra. In males, the proximal urethral meatus of male, is only present up to TS24. In males from TS25, the penile urethra has completely canalised and opens at the urethral meatus of penile urethra (syn: urethral opening of male) and the proximal urethral meatus has closed." [PMID:25968320]
 synonym: "proximal urethral opening of male" RELATED []
-synonym: "urethral duct" RELATED []
+synonym: "urethral duct of male" RELATED []
 is_a: EMAPA:35965 ! proximal urethral meatus
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:30467 ! epithelium of phallic urethra of male
@@ -40165,7 +40147,7 @@ name: proximal urethral meatus of female
 namespace: anatomical_structure
 def: "proximal urethral meatus of female (prox ur me) (syn: proximal urethral opening of female, urethral duct) (TS21-TS24): the proximal opening in the epithelium of female phallic urethra (TS21 to TS24).  In females, it becomes the proximal urethral meatus of clitoral urethra, part of the epithelium of clitoral urethra from TS25 to TS28, and is present to P7. By P8, the proximal urethral meatus is closed in females and the urethra opens at the urethral meatus." [PMID:25968320]
 synonym: "proximal urethral opening of female" RELATED []
-synonym: "urethral duct" RELATED []
+synonym: "urethral duct of female" RELATED []
 is_a: EMAPA:35965 ! proximal urethral meatus
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:30470 ! epithelium of phallic urethra of female
@@ -51413,6 +51395,7 @@ id: EMAPA:35965
 name: proximal urethral meatus
 namespace: anatomical_structure
 synonym: "proximal urethral opening" RELATED []
+synonym: "urethral duct" RELATED []
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:31518 ! urethral plate epithelium
 relationship: starts_at TS21 ! TS21
@@ -55796,7 +55779,7 @@ name: hair follicle dermal papilla
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18771 ! hair follicle
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:36485
