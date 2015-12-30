@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 11:12:2015 15:59
-saved-by: jarm
+date: 30:12:2015 12:29
+saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -17162,7 +17162,7 @@ name: tegmentum
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16974 ! midbrain
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:18216
@@ -19519,7 +19519,7 @@ name: dorsal grey horn
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17581 ! alar columns
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:18575
@@ -19527,7 +19527,7 @@ name: ventral grey horn
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17582 ! basal columns
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:18576
@@ -42090,7 +42090,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:32713
 name: cerebral cortex marginal zone
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:17544 ! cerebral cortex
 relationship: starts_at TS25 ! TS25
 
@@ -49135,7 +49135,7 @@ name: spinal cord intermediate grey
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35792 ! spinal cord grey matter
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35692
@@ -49965,7 +49965,7 @@ name: spinal cord grey matter
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17577 ! spinal cord
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35793
@@ -50331,7 +50331,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35419 ! hypothalamus medial zone
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:35842
