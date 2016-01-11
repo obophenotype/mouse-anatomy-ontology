@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 30:12:2015 12:29
+date: 11:01:2016 17:12
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -46714,7 +46714,7 @@ synonym: "cardiac blood vessel" RELATED []
 is_a: EMAPA:32743 ! blood vessel
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16105 ! heart
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35399
@@ -49991,7 +49991,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35927 ! white matter
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17577 ! spinal cord
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35796
@@ -51068,7 +51068,7 @@ name: white matter
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16470 ! central nervous system
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35928
@@ -54978,8 +54978,8 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36392
 name: back skin
 namespace: anatomical_structure
+is_a: EMAPA:17525 ! skin
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17525 ! skin
 relationship: part_of EMAPA:35162 ! back of trunk
 relationship: starts_at TS20 ! TS20
 
@@ -55931,9 +55931,9 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:36502
 name: tail skin
 namespace: anatomical_structure
+is_a: EMAPA:17525 ! skin
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16748 ! tail
-relationship: part_of EMAPA:17525 ! skin
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -57200,9 +57200,19 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:36657
 name: face skin
 namespace: anatomical_structure
+is_a: EMAPA:17525 ! skin
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17525 ! skin
 relationship: part_of EMAPA:32763 ! face
+relationship: part_of EMAPA:36658 ! head skin
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36658
+name: head skin
+namespace: anatomical_structure
+is_a: EMAPA:17525 ! skin
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:31858 ! head
 relationship: starts_at TS20 ! TS20
 
 [Term]
