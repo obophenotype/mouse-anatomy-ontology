@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 15:01:2016 16:46
+date: 19:01:2016 11:14
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -12461,7 +12461,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18899
 alt_id: EMAPA:27175
 is_a: EMAPA:17023 ! stomach epithelium
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17623 ! stomach glandular region
 relationship: part_of EMAPA:27167 ! stomach glandular region mucosa
 relationship: starts_at TS20 ! TS20
@@ -12481,6 +12481,8 @@ id: EMAPA:17627
 name: stomach proventricular region
 namespace: anatomical_structure
 alt_id: EMAPA:18910
+alt_id: EMAPA:35351
+synonym: "forestomach" EXACT []
 synonym: "stomach cutaneous region" RELATED []
 synonym: "stomach ependymal region" RELATED []
 synonym: "stomach non-glandular region" RELATED []
@@ -12505,7 +12507,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18912
 alt_id: EMAPA:27191
 is_a: EMAPA:17023 ! stomach epithelium
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17627 ! stomach proventricular region
 relationship: part_of EMAPA:27183 ! stomach proventricular region mucosa
 relationship: starts_at TS20 ! TS20
@@ -42090,7 +42092,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:32713
 name: cerebral cortex marginal zone
 namespace: anatomical_structure
-relationship: ends_at TS27 ! TS27
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17544 ! cerebral cortex
 relationship: starts_at TS25 ! TS25
 
@@ -44844,7 +44846,7 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35164
 name: basal forebrain
 namespace: anatomical_structure
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16910 ! telencephalon
 relationship: starts_at TS22 ! TS22
 
@@ -46378,14 +46380,6 @@ is_a: EMAPA:35933 ! forelimb bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32623 ! forelimb skeleton
 relationship: starts_at TS23 ! TS23
-
-[Term]
-id: EMAPA:35351
-name: forestomach
-namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17021 ! stomach
-relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35352
@@ -57214,6 +57208,14 @@ is_a: EMAPA:17525 ! skin
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31858 ! head
 relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36659
+name: basal magnocellular complex
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35164 ! basal forebrain
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: group_term
