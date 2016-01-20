@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 19:01:2016 11:14
+date: 20:01:2016 16:59
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -36654,7 +36654,7 @@ id: EMAPA:29209
 name: skin of distal genital tubercle of male
 namespace: anatomical_structure
 synonym: "surface epithelium of distal genital tubercle of male" RELATED []
-is_a: EMAPA:35962 ! female reproductive system epithelium
+is_a: EMAPA:35963 ! male reproductive system epithelium
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:29205 ! distal genital tubercle of male
 relationship: starts_at TS21 ! TS21
