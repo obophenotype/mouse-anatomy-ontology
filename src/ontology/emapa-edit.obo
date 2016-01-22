@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 20:01:2016 16:59
+date: 22:01:2016 13:39
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -47441,6 +47441,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35483
 name: lateral preoptic area
 namespace: anatomical_structure
+is_a: EMAPA:36655 ! preoptic area
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35418 ! hypothalamus lateral zone
 relationship: starts_at TS22 ! TS22
@@ -48004,6 +48005,7 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35550
 name: medial preoptic area
 namespace: anatomical_structure
+is_a: EMAPA:36655 ! preoptic area
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35419 ! hypothalamus medial zone
 relationship: starts_at TS27 ! TS27
@@ -57216,6 +57218,62 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35164 ! basal forebrain
 relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36660
+name: anterior entopeduncular area
+namespace: anatomical_structure
+relationship: ends_at TS24 ! TS24
+relationship: part_of EMAPA:35164 ! basal forebrain
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36661
+name: vomeronasal branch of olfactory I nerve
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17797 ! olfactory I nerve
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:36662
+name: vomeronasal organ sensory epithelium
+namespace: anatomical_structure
+is_a: EMAPA:18444 ! vomeronasal organ epithelium
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:36663
+name: vomeronasal organ non-sensory epithelium
+namespace: anatomical_structure
+is_a: EMAPA:18444 ! vomeronasal organ epithelium
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36664
+name: vomeronasal organ vascular pump anlage
+namespace: anatomical_structure
+relationship: ends_at TS25 ! TS25
+relationship: part_of EMAPA:17612 ! vomeronasal organ
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36665
+name: vomeronasal organ vascular pump
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17612 ! vomeronasal organ
+relationship: starts_at TS26 ! TS26
+
+[Term]
+id: EMAPA:36666
+name: vomeronasal organ glandular tissue
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17612 ! vomeronasal organ
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: group_term
