@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 22:01:2016 13:39
+date: 25:01:2016 17:20
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -10450,6 +10450,7 @@ name: axial skeleton thoracic region
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17214 ! axial skeleton
+relationship: part_of EMAPA:18025 ! thoracic segment skeleton
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -15500,6 +15501,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35503 ! long bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17396 ! axial skeleton thoracic region
+relationship: part_of EMAPA:36667 ! rib cage
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -15620,10 +15622,12 @@ relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:18025
-name: pectoral girdle and thoracic body wall skeleton
+name: thoracic segment skeleton
 namespace: anatomical_structure
+synonym: "pectoral girdle and thoracic body wall skeleton" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17213 ! skeleton
+relationship: part_of EMAPA:35862 ! thoracic segment of trunk
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -15632,7 +15636,7 @@ name: clavicle pre-cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:35983 ! pectoral-thoracic pre-cartilage condensation
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:18025 ! pectoral girdle and thoracic body wall skeleton
+relationship: part_of EMAPA:18025 ! thoracic segment skeleton
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -15641,7 +15645,7 @@ name: scapula pre-cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:35983 ! pectoral-thoracic pre-cartilage condensation
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:18025 ! pectoral girdle and thoracic body wall skeleton
+relationship: part_of EMAPA:18025 ! thoracic segment skeleton
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -18213,7 +18217,7 @@ name: clavicle cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:35980 ! pectoral-thoracic cartilage condensation
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:18025 ! pectoral girdle and thoracic body wall skeleton
+relationship: part_of EMAPA:18025 ! thoracic segment skeleton
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -18222,7 +18226,7 @@ name: scapula cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:35980 ! pectoral-thoracic cartilage condensation
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:18025 ! pectoral girdle and thoracic body wall skeleton
+relationship: part_of EMAPA:18025 ! thoracic segment skeleton
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -18231,7 +18235,7 @@ name: sternum
 namespace: anatomical_structure
 is_a: EMAPA:32782 ! bone
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18025 ! pectoral girdle and thoracic body wall skeleton
+relationship: part_of EMAPA:36667 ! rib cage
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -21677,7 +21681,7 @@ alt_id: EMAPA:19208
 is_a: EMAPA:35456 ! joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17396 ! axial skeleton thoracic region
-relationship: part_of EMAPA:18025 ! pectoral girdle and thoracic body wall skeleton
+relationship: part_of EMAPA:18025 ! thoracic segment skeleton
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -48954,7 +48958,7 @@ id: EMAPA:35669
 name: pectoral girdle skeleton
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18025 ! pectoral girdle and thoracic body wall skeleton
+relationship: part_of EMAPA:18025 ! thoracic segment skeleton
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -51530,7 +51534,7 @@ name: pectoral-thoracic cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32731 ! cartilage condensation
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:18025 ! pectoral girdle and thoracic body wall skeleton
+relationship: part_of EMAPA:18025 ! thoracic segment skeleton
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -51557,7 +51561,7 @@ name: pectoral-thoracic pre-cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32736 ! pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:18025 ! pectoral girdle and thoracic body wall skeleton
+relationship: part_of EMAPA:18025 ! thoracic segment skeleton
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -57274,6 +57278,14 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17612 ! vomeronasal organ
 relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36667
+name: rib cage
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18025 ! thoracic segment skeleton
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: group_term
