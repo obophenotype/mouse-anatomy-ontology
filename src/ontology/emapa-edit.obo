@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:01:2016 17:20
+date: 26:01:2016 15:27
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -15624,6 +15624,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:18025
 name: thoracic segment skeleton
 namespace: anatomical_structure
+synonym: "chest bone" RELATED []
 synonym: "pectoral girdle and thoracic body wall skeleton" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17213 ! skeleton
@@ -18084,6 +18085,7 @@ def: "The bladder (BL) (TS22-TS28) is comprised of urothelium of bladder (subdiv
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: part_of EMAPA:17379 ! urogenital sinus
+relationship: part_of EMAPA:36670 ! lower urinary tract
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -33358,8 +33360,9 @@ name: oral epithelium
 namespace: anatomical_structure
 is_a: EMAPA:16839 ! oral region epithelium
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16262 ! oral region
 relationship: part_of EMAPA:26937 ! oral mucosa
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:26947
@@ -39009,6 +39012,7 @@ alt_id: EMAPA:30891
 def: "The urethra (TS21-TS28) links the primitive bladder/bladder to the outside of the embryo. At TS21 it is part of the urinary system. The urethra becomes sex-specific from TS23. It is subdivided into pelvic urethra (located within the body of the embryo) and phallic urethra of male/female (located within the genital tubercle). Pelvic urethra is derived from the caudal urogenital sinus and phallic urethra is derived from urethral plate epithelium." [PMID:25968320]
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
+relationship: part_of EMAPA:36670 ! lower urinary tract
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -54517,6 +54521,7 @@ synonym: "bladder-urethra junction" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: part_of EMAPA:17379 ! urogenital sinus
+relationship: part_of EMAPA:36670 ! lower urinary tract
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -57286,6 +57291,30 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18025 ! thoracic segment skeleton
 relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36668
+name: gonadal fat pad
+namespace: anatomical_structure
+is_a: EMAPA:35340 ! fat pad
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36669
+name: mesenteric adipose tissue
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35112 ! adipose tissue
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36670
+name: lower urinary tract
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17366 ! urinary system
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: group_term
