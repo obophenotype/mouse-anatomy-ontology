@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 26:01:2016 15:27
+date: 29:01:2016 16:53
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -57315,6 +57315,15 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:36671
+name: follicle cell of antral follicle
+namespace: anatomical_structure
+is_a: EMAPA:36474 ! ovary follicle cell
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35625 ! ovary antral follicle
+relationship: starts_at TS28 ! TS28
 
 [Term]
 id: group_term
