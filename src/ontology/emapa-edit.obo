@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 29:01:2016 16:53
+date: 01:02:2016 17:20
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -50133,9 +50133,9 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35814
 name: stomach glandular epithelium
 namespace: anatomical_structure
+is_a: EMAPA:17023 ! stomach epithelium
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17023 ! stomach epithelium
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35817
@@ -50192,9 +50192,9 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35824
 name: stomach squamous epithelium
 namespace: anatomical_structure
+is_a: EMAPA:17023 ! stomach epithelium
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17023 ! stomach epithelium
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35825
