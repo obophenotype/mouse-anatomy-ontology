@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 10:02:2016 12:37
-saved-by: terryh
+date: 11:02:2016 16:43
+saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -34919,8 +34919,11 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:27790
 name: renal connecting tubule of capillary loop nephron
 namespace: anatomical_structure
-relationship: ends_at TS21 ! TS21
+alt_id: EMAPA:31515
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:27782 ! renal tubule
+relationship: part_of EMAPA:28011 ! renal connecting tubule
+relationship: part_of EMAPA:31571 ! cortical renal tubule of capillary loop nephron group
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -35035,16 +35038,20 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:28003
 name: early proximal tubule
 namespace: anatomical_structure
-relationship: ends_at TS24 ! TS24
+alt_id: EMAPA:28284
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18976 ! cortical renal tubule
+relationship: part_of EMAPA:28281 ! renal proximal tubule
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:28007
 name: early distal tubule
 namespace: anatomical_structure
-relationship: ends_at TS24 ! TS24
+alt_id: EMAPA:28390
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18976 ! cortical renal tubule
+relationship: part_of EMAPA:28387 ! renal distal tubule
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -35358,7 +35365,7 @@ relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:28251
-name: glomerular basement membrane
+name: glomerular basement membrane of mature renal corpuscle
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28239 ! glomerular tuft
@@ -35457,14 +35464,6 @@ namespace: anatomical_structure
 synonym: "kidney proximal tubule" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18976 ! cortical renal tubule
-relationship: starts_at TS25 ! TS25
-
-[Term]
-id: EMAPA:28284
-name: early proximal tubule
-namespace: anatomical_structure
-relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:28281 ! renal proximal tubule
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -35639,14 +35638,6 @@ name: renal distal tubule
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18976 ! cortical renal tubule
-relationship: starts_at TS25 ! TS25
-
-[Term]
-id: EMAPA:28390
-name: early distal tubule
-namespace: anatomical_structure
-relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:28387 ! renal distal tubule
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -36858,7 +36849,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29639
 name: bulbar part of urethra of male
 namespace: anatomical_structure
-def: "The bulbar part of urethra of male (TS28-TS28) is the portion of male urethra that drains the bulbourethral glands and is positioned between the pelvic and penile portions of urethra." [PMID:25968320]
+def: "The bulbar part of urethra of male (TS28) is the portion of male urethra that drains the bulbourethral glands and is positioned between the pelvic and penile portions of urethra." [PMID:25968320]
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18692 ! urethra of male
 relationship: starts_at TS28 ! TS28
@@ -37249,7 +37240,7 @@ id: EMAPA:29794
 name: anterior prostate gland
 namespace: anatomical_structure
 alt_id: EMAPA:35245
-def: "The anterior prostate gland (aprgl) (syn: coagulating gland) (TS28-TS28). Prostate glands are subdivided into four bilaterally symmetrical regions (known as lobes in the human); anterior, dorsal, lateral and ventral prostate gland. The regions have different morphology and gene expression profiles which are specified during development via both common and region-specific genetic pathways. The 3D anatomy of the prostate gland is extremely complex." [PMID:25968320]
+def: "The anterior prostate gland (aprgl) (syn: coagulating gland) (TS28). Prostate glands are subdivided into four bilaterally symmetrical regions (known as lobes in the human); anterior, dorsal, lateral and ventral prostate gland. The regions have different morphology and gene expression profiles which are specified during development via both common and region-specific genetic pathways. The 3D anatomy of the prostate gland is extremely complex." [PMID:25968320]
 synonym: "coagulating gland" RELATED []
 is_a: EMAPA:35712 ! prostate gland lobe
 relationship: ends_at TS28 ! TS28
@@ -37312,7 +37303,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29808
 name: dorsal prostate gland
 namespace: anatomical_structure
-def: "The dorsal prostate gland (dprgl) (TS28-TS28). Prostate glands are subdivided into four bilaterally symmetrical regions (known as lobes in the human); anterior, dorsal, lateral and ventral prostate gland. The regions have different morphology and gene expression profiles which are specified during development via both common and region-specific genetic pathways. The 3D anatomy of the prostate gland is extremely complex." [PMID:25968320]
+def: "The dorsal prostate gland (dprgl) (TS28). Prostate glands are subdivided into four bilaterally symmetrical regions (known as lobes in the human); anterior, dorsal, lateral and ventral prostate gland. The regions have different morphology and gene expression profiles which are specified during development via both common and region-specific genetic pathways. The 3D anatomy of the prostate gland is extremely complex." [PMID:25968320]
 is_a: EMAPA:35712 ! prostate gland lobe
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19287 ! prostate gland
@@ -37500,7 +37491,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29850
 name: corpus cavernosum of penile body
 namespace: anatomical_structure
-def: "The corpus cavernosum of penile body (syn: corpora cavernosa, crus, crura) (TS28-TS28). Located within the penile body, paired erectile tissues that extend laterally from the base of the penis towards the pubic bone, and are anchored to the pubic bone on each ischial tuberosity." [PMID:25968320]
+def: "The corpus cavernosum of penile body (syn: corpora cavernosa, crus, crura) (TS28). Located within the penile body, paired erectile tissues that extend laterally from the base of the penis towards the pubic bone, and are anchored to the pubic bone on each ischial tuberosity." [PMID:25968320]
 synonym: "corpora cavernosa" RELATED []
 synonym: "crura" RELATED []
 synonym: "crus" RELATED []
@@ -38821,7 +38812,7 @@ id: EMAPA:30821
 name: body of clitoris
 namespace: anatomical_structure
 alt_id: EMAPA:19169
-def: "The body of clitoris (syn: clitoral body) (TS28-TS28) is the proximal part of the clitoris, contains epithelium, lamina propria, os clitoridis and part of the clitoral urethra. The lamina propria contains many diffuse blood vessels and a larger midline dorsal vein in the body of clitoris. The clitoral urethra forms a large, U-shaped urethral cleft that extends from the body of clitoris to the glans clitoris, surrounded by a solid, U-shaped lamina propria, which are both surrounded by the prepuce." [PMID:25968320]
+def: "The body of clitoris (syn: clitoral body) (TS28) is the proximal part of the clitoris, contains epithelium, lamina propria, os clitoridis and part of the clitoral urethra. The lamina propria contains many diffuse blood vessels and a larger midline dorsal vein in the body of clitoris. The clitoral urethra forms a large, U-shaped urethral cleft that extends from the body of clitoris to the glans clitoris, surrounded by a solid, U-shaped lamina propria, which are both surrounded by the prepuce." [PMID:25968320]
 synonym: "clitoral body" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30819 ! clitoris
@@ -39167,7 +39158,7 @@ is_obsolete: true
 id: EMAPA:30952
 name: epithelium of prostatic urethra
 namespace: anatomical_structure
-def: "The epithelium of prostatic urethra (eprur) (TS28-TS28) is the innermost layer of the prostatic urethra, a stratified epithelium lining the lumen. It is subdivided into dorsal and ventral. It is also subdivided into three epithelial cell layers; superficial, intermediate and basal cell layer of prostatic urethra. The raised, dorsal portion of the male urethra where the prostate glands and orifices of the ejaculatory ducts enter the urethra is the verumontanum (syn: seminal colliculus)." [PMID:25968320]
+def: "The epithelium of prostatic urethra (eprur) (TS28) is the innermost layer of the prostatic urethra, a stratified epithelium lining the lumen. It is subdivided into dorsal and ventral. It is also subdivided into three epithelial cell layers; superficial, intermediate and basal cell layer of prostatic urethra. The raised, dorsal portion of the male urethra where the prostate glands and orifices of the ejaculatory ducts enter the urethra is the verumontanum (syn: seminal colliculus)." [PMID:25968320]
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30942 ! prostatic urethra
 relationship: starts_at TS28 ! TS28
@@ -39192,7 +39183,7 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:30965
-name: glomerular basement membrane
+name: glomerular basement membrane of maturing renal corpuscle
 namespace: anatomical_structure
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:27949 ! maturing glomerular tuft
@@ -39993,46 +39984,21 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:31511
 name: early distal tubule of capillary loop nephron
 namespace: anatomical_structure
+alt_id: EMAPA:31521
 synonym: "anlage of distal tubule" RELATED []
-relationship: ends_at TS24 ! TS24
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:28007 ! early distal tubule
 relationship: part_of EMAPA:31571 ! cortical renal tubule of capillary loop nephron group
 relationship: starts_at TS22 ! TS22
-
-[Term]
-id: EMAPA:31512
-name: early proximal tubule of maturing nephron
-namespace: anatomical_structure
-relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:28284 ! early proximal tubule
-relationship: part_of EMAPA:31570 ! cortical renal tubule of maturing nephron group
-relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:31513
 name: early distal tubule of maturing nephron
 namespace: anatomical_structure
-relationship: ends_at TS24 ! TS24
+alt_id: EMAPA:31514
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:28007 ! early distal tubule
 relationship: part_of EMAPA:31570 ! cortical renal tubule of maturing nephron group
-relationship: starts_at TS22 ! TS22
-
-[Term]
-id: EMAPA:31514
-name: early distal tubule of maturing nephron
-namespace: anatomical_structure
-relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:28390 ! early distal tubule
-relationship: part_of EMAPA:31570 ! cortical renal tubule of maturing nephron group
-relationship: starts_at TS25 ! TS25
-
-[Term]
-id: EMAPA:31515
-name: renal connecting tubule of capillary loop nephron
-namespace: anatomical_structure
-relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:28011 ! renal connecting tubule
-relationship: part_of EMAPA:31571 ! cortical renal tubule of capillary loop nephron group
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -40063,16 +40029,6 @@ is_a: EMAPA:35951 ! reproductive system epithelium
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:17382 ! genital tubercle
 relationship: starts_at TS19 ! TS19
-
-[Term]
-id: EMAPA:31521
-name: early distal tubule of capillary loop nephron
-namespace: anatomical_structure
-synonym: "anlage of distal tubule" RELATED []
-relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:28390 ! early distal tubule
-relationship: part_of EMAPA:31571 ! cortical renal tubule of capillary loop nephron group
-relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:31523
@@ -40252,27 +40208,19 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:31542
 name: early proximal tubule of maturing nephron
 namespace: anatomical_structure
-relationship: ends_at TS24 ! TS24
+alt_id: EMAPA:31512
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:28003 ! early proximal tubule
 relationship: part_of EMAPA:31570 ! cortical renal tubule of maturing nephron group
 relationship: starts_at TS22 ! TS22
 
 [Term]
-id: EMAPA:31543
-name: early proximal tubule of capillary loop nephron
-namespace: anatomical_structure
-synonym: "anlage of proximal tubule" RELATED []
-relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:28284 ! early proximal tubule
-relationship: part_of EMAPA:31571 ! cortical renal tubule of capillary loop nephron group
-relationship: starts_at TS25 ! TS25
-
-[Term]
 id: EMAPA:31544
 name: early proximal tubule of capillary loop nephron
 namespace: anatomical_structure
+alt_id: EMAPA:31543
 synonym: "anlage of proximal tubule" RELATED []
-relationship: ends_at TS24 ! TS24
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:28003 ! early proximal tubule
 relationship: part_of EMAPA:31571 ! cortical renal tubule of capillary loop nephron group
 relationship: starts_at TS22 ! TS22
@@ -52904,7 +52852,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36140
 name: adventitia of prostatic urethra
 namespace: anatomical_structure
-def: "The adventitia of prostatic urethra (TS28-TS28) is the outer connective tissue layer of the prostatic urethra. The prostatic urethra is not surrounded by an outer serous membrane or serosa." [PMID:25968320]
+def: "The adventitia of prostatic urethra (TS28) is the outer connective tissue layer of the prostatic urethra. The prostatic urethra is not surrounded by an outer serous membrane or serosa." [PMID:25968320]
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30942 ! prostatic urethra
 relationship: starts_at TS28 ! TS28
@@ -55104,7 +55052,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36406
 name: corpus cavernosum glandis
 namespace: anatomical_structure
-def: "The corpus cavernosum glandis (syn: corpora cavernosa glandis) (TS28-TS28). Two, linear corpora cavernosa erectile tissue located dorsally and ventrally within the glans penis." [PMID:25968320]
+def: "The corpus cavernosum glandis (syn: corpora cavernosa glandis) (TS28). Two, linear corpora cavernosa erectile tissue located dorsally and ventrally within the glans penis." [PMID:25968320]
 synonym: "corpora cavernosa glandis" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29856 ! corpus cavernosum of glans penis
@@ -55114,7 +55062,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36407
 name: corpus cavernosum urethra
 namespace: anatomical_structure
-def: "The corpus cavernosum urethra (TS28-TS28) is the band of erectile tissue that runs ventral to the penile urethra. Located within the penis, partly within the glans penis and partly within the body of the penis. Erectile tissue is derived from condensations that form from the mesenchyme of the penis." [PMID:25968320]
+def: "The corpus cavernosum urethra (TS28) is the band of erectile tissue that runs ventral to the penile urethra. Located within the penis, partly within the glans penis and partly within the body of the penis. Erectile tissue is derived from condensations that form from the mesenchyme of the penis." [PMID:25968320]
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29856 ! corpus cavernosum of glans penis
 relationship: starts_at TS28 ! TS28
