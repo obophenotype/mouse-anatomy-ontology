@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 11:02:2016 16:43
-saved-by: jarm
+date: 12:02:2016 16:17
+saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -2051,8 +2051,6 @@ alt_id: EMAPA:16918
 alt_id: EMAPA:17092
 is_a: EMAPA:32820 ! rhombomere
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16148 ! future hindbrain
-relationship: part_of EMAPA:16916 ! hindbrain
 relationship: part_of EMAPA:17071 ! metencephalon
 relationship: starts_at TS13 ! TS13
 
@@ -2088,8 +2086,6 @@ alt_id: EMAPA:16925
 alt_id: EMAPA:17099
 is_a: EMAPA:32820 ! rhombomere
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16148 ! future hindbrain
-relationship: part_of EMAPA:16916 ! hindbrain
 relationship: part_of EMAPA:17071 ! metencephalon
 relationship: starts_at TS13 ! TS13
 
@@ -2134,8 +2130,6 @@ alt_id: EMAPA:16932
 alt_id: EMAPA:17106
 is_a: EMAPA:32820 ! rhombomere
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16148 ! future hindbrain
-relationship: part_of EMAPA:16916 ! hindbrain
 relationship: part_of EMAPA:17082 ! myelencephalon
 relationship: starts_at TS13 ! TS13
 
@@ -2180,8 +2174,6 @@ alt_id: EMAPA:16939
 alt_id: EMAPA:17113
 is_a: EMAPA:32820 ! rhombomere
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16148 ! future hindbrain
-relationship: part_of EMAPA:16916 ! hindbrain
 relationship: part_of EMAPA:17082 ! myelencephalon
 relationship: starts_at TS13 ! TS13
 
@@ -2226,8 +2218,6 @@ alt_id: EMAPA:16946
 alt_id: EMAPA:17120
 is_a: EMAPA:32820 ! rhombomere
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16148 ! future hindbrain
-relationship: part_of EMAPA:16916 ! hindbrain
 relationship: part_of EMAPA:17082 ! myelencephalon
 relationship: starts_at TS13 ! TS13
 
@@ -3826,8 +3816,6 @@ alt_id: EMAPA:16953
 alt_id: EMAPA:17127
 is_a: EMAPA:32820 ! rhombomere
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16148 ! future hindbrain
-relationship: part_of EMAPA:16916 ! hindbrain
 relationship: part_of EMAPA:17082 ! myelencephalon
 relationship: starts_at TS14 ! TS14
 
@@ -3873,8 +3861,6 @@ alt_id: EMAPA:16960
 alt_id: EMAPA:17134
 is_a: EMAPA:32820 ! rhombomere
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16148 ! future hindbrain
-relationship: part_of EMAPA:16916 ! hindbrain
 relationship: part_of EMAPA:17082 ! myelencephalon
 relationship: starts_at TS14 ! TS14
 
@@ -3920,8 +3906,6 @@ alt_id: EMAPA:16967
 alt_id: EMAPA:17141
 is_a: EMAPA:32820 ! rhombomere
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16148 ! future hindbrain
-relationship: part_of EMAPA:16916 ! hindbrain
 relationship: part_of EMAPA:17082 ! myelencephalon
 relationship: starts_at TS14 ! TS14
 
@@ -42963,8 +42947,6 @@ alt_id: EMAPA:35943
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16148 ! future hindbrain
 relationship: part_of EMAPA:16916 ! hindbrain
-relationship: part_of EMAPA:17071 ! metencephalon
-relationship: part_of EMAPA:17082 ! myelencephalon
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -43847,7 +43829,7 @@ synonym: "pancreatic islet" EXACT []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32925 ! pancreas parenchyma
 relationship: part_of EMAPA:35305 ! endocrine pancreas
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:32928
@@ -45960,7 +45942,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35999 ! endocrine gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17503 ! pancreas
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35306
