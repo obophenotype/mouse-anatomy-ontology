@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 16:02:2016 17:10
+date: 18:02:2016 16:19
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -22672,7 +22672,7 @@ alt_id: EMAPA:35740
 synonym: "neural retina inner nuclear layer" EXACT []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18592 ! retina nuclear layer
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:19156
@@ -22691,7 +22691,7 @@ alt_id: EMAPA:35743
 synonym: "neural retina outer nuclear layer" EXACT []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18592 ! retina nuclear layer
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:19159
@@ -39439,7 +39439,7 @@ id: EMAPA:31247
 name: follicle cell of primordial follicle
 namespace: anatomical_structure
 alt_id: EMAPA:30759
-synonym: "granulosa cell" RELATED []
+synonym: "granulosa cell of primordial follicle" RELATED []
 is_a: EMAPA:36474 ! ovary follicle cell
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30755 ! ovary primordial follicle
@@ -55629,6 +55629,7 @@ relationship: starts_at TS01 ! TS01
 id: EMAPA:36474
 name: ovary follicle cell
 namespace: anatomical_structure
+synonym: "ovary granulosa cell" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35627 ! ovary follicle
 relationship: starts_at TS27 ! TS27
