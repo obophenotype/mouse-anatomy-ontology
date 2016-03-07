@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 26:02:2016 09:07
+date: 07:03:2016 14:06
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -627,7 +627,7 @@ namespace: anatomical_structure
 synonym: "cardiac crescent" RELATED []
 synonym: "heart rudiment" RELATED []
 synonym: "myocardial plate" RELATED []
-relationship: ends_at TS12 ! TS12
+relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16105 ! heart
 relationship: starts_at TS11 ! TS11
 
@@ -13711,7 +13711,7 @@ is_a: EMAPA:32741 ! choroid plexus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16914 ! lateral ventricle
 relationship: part_of EMAPA:17548 ! choroid invagination
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17770
@@ -56695,7 +56695,7 @@ name: zona limitans intrathalamica
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16896 ! diencephalon
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:36605
