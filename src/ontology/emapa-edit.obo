@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 07:03:2016 14:06
-saved-by: terryh
+date: 18:03:2016 16:30
+saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -23742,7 +23742,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19296
 name: scrotum
 namespace: anatomical_structure
-def: "The scrotum (TS28-TS28) is located at the base of the penis and comprised of skin (epidermal layer of scrotum (comprised of basal layer and stratified layer), dermal layer of scrotum (comprised of hair follicle and sweat gland), septum of scrotum (syn: scrotal seam)), vasculature and nerve of scrotum. Derived from scrotal fold (TS24-TS27)." [PMID:25968320]
+def: "The scrotum (TS28-28) is located at the base of the penis and comprised of skin (epidermal layer of scrotum (comprised of basal layer and stratified layer), dermal layer of scrotum (comprised of hair follicle and sweat gland), septum of scrotum (syn: scrotal seam)), vasculature and nerve of scrotum. Derived from scrotal fold (TS24-TS27)." [PMID:25968320]
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
 relationship: part_of EMAPA:30977 ! male external genitalia
@@ -34691,10 +34691,12 @@ id: EMAPA:27697
 name: ureteric trunk
 namespace: anatomical_structure
 alt_id: EMAPA:28405
+alt_id: EMAPA:28494
 synonym: "ureteric stalk" RELATED []
-relationship: ends_at TS21 ! TS21
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17373 ! metanephros
 relationship: part_of EMAPA:17646 ! primitive collecting duct
+relationship: part_of EMAPA:28407 ! collecting duct
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -35095,7 +35097,7 @@ name: medullary collecting duct
 namespace: anatomical_structure
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:19279 ! renal medulla
-relationship: part_of EMAPA:28494 ! ureteric trunk
+relationship: part_of EMAPA:27697 ! ureteric trunk
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -35184,7 +35186,7 @@ name: cortical collecting duct
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17952 ! renal cortex
-relationship: part_of EMAPA:28494 ! ureteric trunk
+relationship: part_of EMAPA:27697 ! ureteric trunk
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -35519,8 +35521,8 @@ id: EMAPA:28346
 name: outer medullary collecting duct
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:27697 ! ureteric trunk
 relationship: part_of EMAPA:28310 ! outer renal medulla
-relationship: part_of EMAPA:28494 ! ureteric trunk
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -35584,8 +35586,8 @@ name: inner medullary collecting duct
 namespace: anatomical_structure
 synonym: "papillary collecting duct" RELATED []
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:27697 ! ureteric trunk
 relationship: part_of EMAPA:28349 ! inner renal medulla
-relationship: part_of EMAPA:28494 ! ureteric trunk
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -35705,16 +35707,6 @@ relationship: part_of EMAPA:17373 ! metanephros
 relationship: starts_at TS25 ! TS25
 
 [Term]
-id: EMAPA:28494
-name: ureteric trunk
-namespace: anatomical_structure
-synonym: "ureteric stalk" RELATED []
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17373 ! metanephros
-relationship: part_of EMAPA:28407 ! collecting duct
-relationship: starts_at TS22 ! TS22
-
-[Term]
 id: EMAPA:28500
 name: early tubule
 namespace: anatomical_structure
@@ -35767,8 +35759,9 @@ relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:28547
-name: allantois
+name: allantois of the embryonic urinary system
 namespace: anatomical_structure
+synonym: "remnant of allantois in embryo" RELATED []
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS20 ! TS20
@@ -36509,7 +36502,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:29167
 name: genital tubercle mesenchyme of male
 namespace: anatomical_structure
-def: "The genital tubercle mesenchyme of male (gtm) (TS20-TS20) is the mesenchyme of the genital tubercle surrounding the epithelium of phallic urethra of male." [PMID:25968320]
+def: "The genital tubercle mesenchyme of male (gtm) (TS20-20) is the mesenchyme of the genital tubercle surrounding the epithelium of phallic urethra of male." [PMID:25968320]
 is_a: EMAPA:35975 ! male reproductive system mesenchyme
 is_a: EMAPA:36384 ! genital tubercle mesenchyme
 relationship: ends_at TS23 ! TS23
@@ -36780,7 +36773,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:29621
 name: genital tubercle mesenchyme of female
 namespace: anatomical_structure
-def: "The genital tubercle mesenchyme of female (gtm) (TS20-TS20) is the mesenchyme of the genital tubercle surrounding the epithelium of phallic urethra of female." [PMID:25968320]
+def: "The genital tubercle mesenchyme of female (gtm) (TS20-20) is the mesenchyme of the genital tubercle surrounding the epithelium of phallic urethra of female." [PMID:25968320]
 is_a: EMAPA:35974 ! female reproductive system mesenchyme
 is_a: EMAPA:36384 ! genital tubercle mesenchyme
 relationship: ends_at TS24 ! TS24
@@ -37165,7 +37158,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:29769
 name: os penis
 namespace: anatomical_structure
-def: "The os penis (TS28-TS28). Bone and cartilage located in the centre of the glans penis, dorsal to the penile urethra. The os penis is ~3.8mm long (although its size is variable) and overlaps the proximal end of the MUMP, located from the MUMP ridge groove to the junction of the glans penis and body of the penis. Comprised of proximal hyaline cartilage of os penis (proximally), which undergoes calcification to form the bone of os penis, distally, at ~6 months age." [PMID:25968320]
+def: "The os penis (TS28-28). Bone and cartilage located in the centre of the glans penis, dorsal to the penile urethra. The os penis is ~3.8mm long (although its size is variable) and overlaps the proximal end of the MUMP, located from the MUMP ridge groove to the junction of the glans penis and body of the penis. Comprised of proximal hyaline cartilage of os penis (proximally), which undergoes calcification to form the bone of os penis, distally, at ~6 months age." [PMID:25968320]
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18988 ! glans penis
 relationship: starts_at TS28 ! TS28
@@ -37350,7 +37343,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29822
 name: lateral prostate gland
 namespace: anatomical_structure
-def: "The lateral prostate gland (lprgl) (TS28-TS28). Prostate glands are subdivided into four bilaterally symmetrical regions (known as lobes in the human); anterior, dorsal, lateral and ventral prostate gland. The regions have different morphology and gene expression profiles which are specified during development via both common and region-specific genetic pathways. The 3D anatomy of the prostate gland is extremely complex." [PMID:25968320]
+def: "The lateral prostate gland (lprgl) (TS28-28). Prostate glands are subdivided into four bilaterally symmetrical regions (known as lobes in the human); anterior, dorsal, lateral and ventral prostate gland. The regions have different morphology and gene expression profiles which are specified during development via both common and region-specific genetic pathways. The 3D anatomy of the prostate gland is extremely complex." [PMID:25968320]
 is_a: EMAPA:35712 ! prostate gland lobe
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19287 ! prostate gland
@@ -37413,7 +37406,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29836
 name: ventral prostate gland
 namespace: anatomical_structure
-def: "The ventral prostate gland (vprgl) (TS28-TS28). Prostate glands are subdivided into four bilaterally symmetrical regions (known as lobes in the human); anterior, dorsal, lateral and ventral prostate gland. The regions have different morphology and gene expression profiles which are specified during development via both common and region-specific genetic pathways. The 3D anatomy of the prostate gland is extremely complex." [PMID:25968320]
+def: "The ventral prostate gland (vprgl) (TS28-28). Prostate glands are subdivided into four bilaterally symmetrical regions (known as lobes in the human); anterior, dorsal, lateral and ventral prostate gland. The regions have different morphology and gene expression profiles which are specified during development via both common and region-specific genetic pathways. The 3D anatomy of the prostate gland is extremely complex." [PMID:25968320]
 is_a: EMAPA:35712 ! prostate gland lobe
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19287 ! prostate gland
@@ -38806,7 +38799,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:30823
 name: os clitoridis
 namespace: anatomical_structure
-def: "The os clitoridis (TS28-TS28) is a tiny bone, variable in size (between 581-1840 um long, dependant on strain), located within the clitoris." [PMID:25968320]
+def: "The os clitoridis (TS28-28) is a tiny bone, variable in size (between 581-1840 um long, dependant on strain), located within the clitoris." [PMID:25968320]
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30821 ! body of clitoris
 relationship: starts_at TS28 ! TS28
@@ -39101,7 +39094,7 @@ is_obsolete: true
 id: EMAPA:30942
 name: prostatic urethra
 namespace: anatomical_structure
-def: "The prostatic urethra (PRUR) (TS28-TS28) is the sub-region of the urethra of male where the prostate glands enter the urethra. Cranially joined to the bladder and caudally joined to the pelvic urethra of male. Comprised of epithelium (subdivided into 3 layers and into dorsal and ventral), mesenchymal layer (subdivided into lamina propria, muscularis mucosa, submucosa), muscle layer (subdivided into smooth muscle and rhabdosphincter) and adventitia. Also contains vasculature and nerve of prostatic urethra. The verumontanum (the raised portion of the dorsal epithelium of prostatic urethra where the ejaculatory duct orifices enter the urethra) is also part of the prostatic urethra." [PMID:25968320]
+def: "The prostatic urethra (PRUR) (TS28-28) is the sub-region of the urethra of male where the prostate glands enter the urethra. Cranially joined to the bladder and caudally joined to the pelvic urethra of male. Comprised of epithelium (subdivided into 3 layers and into dorsal and ventral), mesenchymal layer (subdivided into lamina propria, muscularis mucosa, submucosa), muscle layer (subdivided into smooth muscle and rhabdosphincter) and adventitia. Also contains vasculature and nerve of prostatic urethra. The verumontanum (the raised portion of the dorsal epithelium of prostatic urethra where the ejaculatory duct orifices enter the urethra) is also part of the prostatic urethra." [PMID:25968320]
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18692 ! urethra of male
 relationship: starts_at TS28 ! TS28
@@ -39151,7 +39144,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:30954
 name: mesenchymal layer of prostatic urethra
 namespace: anatomical_structure
-def: "The mesenchymal layer of prostatic urethra (mlprur) (TS28-TS28) is the mesenchymal layer of the prostatic urethra located between the epithelium and muscle layers. Contains smooth muscle cells and mesenchymal/fibroblastic/stromal cells, blood vessels and nerves. Subdivided into lamina propria, muscularis mucosa and submucosa." [PMID:25968320]
+def: "The mesenchymal layer of prostatic urethra (mlprur) (TS28-28) is the mesenchymal layer of the prostatic urethra located between the epithelium and muscle layers. Contains smooth muscle cells and mesenchymal/fibroblastic/stromal cells, blood vessels and nerves. Subdivided into lamina propria, muscularis mucosa and submucosa." [PMID:25968320]
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30942 ! prostatic urethra
 relationship: starts_at TS28 ! TS28
@@ -39160,7 +39153,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:30956
 name: muscle layer of prostatic urethra
 namespace: anatomical_structure
-def: "The muscle layer of prostatic urethra (muprur) (TS28-TS28) is the thick layer of muscle towards the outside of the prostatic urethra. Subdivided into smooth muscle layer of prostatic urethra and rhabdosphincter of male (syn: striated muscle layer of prostatic urethra)." [PMID:25968320]
+def: "The muscle layer of prostatic urethra (muprur) (TS28-28) is the thick layer of muscle towards the outside of the prostatic urethra. Subdivided into smooth muscle layer of prostatic urethra and rhabdosphincter of male (syn: striated muscle layer of prostatic urethra)." [PMID:25968320]
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30942 ! prostatic urethra
 relationship: starts_at TS28 ! TS28
@@ -40695,7 +40688,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:32269
 name: rhabdosphincter of male
 namespace: anatomical_structure
-def: "The rhabdosphincter of male (syn: striated muscle layer of prostatic urethra) (TS28-TS28) is the striated muscle layer towards the outside of the prostatic urethra. Part of the prostatic urethra, part of the urethra of male. Marked by proteins expressed by skeletal muscle cells, such as skeletal muscle alpha actin (Acta1)." [PMID:25968320]
+def: "The rhabdosphincter of male (syn: striated muscle layer of prostatic urethra) (TS28-28) is the striated muscle layer towards the outside of the prostatic urethra. Part of the prostatic urethra, part of the urethra of male. Marked by proteins expressed by skeletal muscle cells, such as skeletal muscle alpha actin (Acta1)." [PMID:25968320]
 synonym: "striated muscle layer of prostatic urethra" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30956 ! muscle layer of prostatic urethra
@@ -40770,7 +40763,7 @@ is_obsolete: true
 id: EMAPA:32278
 name: smooth muscle layer of prostatic urethra
 namespace: anatomical_structure
-def: "The smooth muscle layer of prostatic urethra (TS28-TS28) is the smooth muscle layer towards the outside of the prostatic urethra. Part of the prostatic urethra, part of the urethra of male. Marked by proteins expressed by smooth muscle cells, such as smooth muscle alpha actin (Acta2)." [PMID:25968320]
+def: "The smooth muscle layer of prostatic urethra (TS28-28) is the smooth muscle layer towards the outside of the prostatic urethra. Part of the prostatic urethra, part of the urethra of male. Marked by proteins expressed by smooth muscle cells, such as smooth muscle alpha actin (Acta2)." [PMID:25968320]
 is_a: EMAPA:32717 ! smooth muscle tissue
 is_a: EMAPA:36630 ! smooth muscle of urethra
 relationship: ends_at TS28 ! TS28
@@ -40974,7 +40967,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:32301
 name: submucosa of prostatic urethra
 namespace: anatomical_structure
-def: "The submucosa of prostatic urethra (smprur) (TS28-TS28) is the mesenchymal layer located below the muscularis mucosa of prostatic urethra, between the muscularis mucosa and muscle layer of prostatic urethra, comprised of mesenchymal/fibroblastic cells." [PMID:25968320]
+def: "The submucosa of prostatic urethra (smprur) (TS28-28) is the mesenchymal layer located below the muscularis mucosa of prostatic urethra, between the muscularis mucosa and muscle layer of prostatic urethra, comprised of mesenchymal/fibroblastic cells." [PMID:25968320]
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30954 ! mesenchymal layer of prostatic urethra
 relationship: starts_at TS28 ! TS28
@@ -40983,7 +40976,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:32302
 name: muscularis mucosa of prostatic urethra
 namespace: anatomical_structure
-def: "The muscularis mucosa of prostatic urethra (mmprur) (TS28-TS28) is a thin, discontinuous layer comprised of wisps of smooth muscle, located between the lamina propria and the submucosa. Expresses markers of smooth muscle including ACTA2-protein and smooth muscle alpha actin (Acta2)." [PMID:25968320]
+def: "The muscularis mucosa of prostatic urethra (mmprur) (TS28-28) is a thin, discontinuous layer comprised of wisps of smooth muscle, located between the lamina propria and the submucosa. Expresses markers of smooth muscle including ACTA2-protein and smooth muscle alpha actin (Acta2)." [PMID:25968320]
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30954 ! mesenchymal layer of prostatic urethra
 relationship: starts_at TS28 ! TS28
@@ -40992,7 +40985,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:32303
 name: lamina propria of prostatic urethra
 namespace: anatomical_structure
-def: "The lamina propria of prostatic urethra (lprur) (TS28-TS28) is the thin mesenchymal/fibroblastic/stromal cell layer of the prostatic urethra located immediately adjacent to the epithelium, between the epithelium and the muscularis mucosa. Contains connective tissue, marked by pro-collagen." [PMID:25968320]
+def: "The lamina propria of prostatic urethra (lprur) (TS28-28) is the thin mesenchymal/fibroblastic/stromal cell layer of the prostatic urethra located immediately adjacent to the epithelium, between the epithelium and the muscularis mucosa. Contains connective tissue, marked by pro-collagen." [PMID:25968320]
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30954 ! mesenchymal layer of prostatic urethra
 relationship: starts_at TS28 ! TS28
@@ -52615,7 +52608,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:36116
 name: smooth muscle layer of pelvic urethra of female
 namespace: anatomical_structure
-def: "The smooth muscle layer of pelvic urethra of female (TS28-TS28) is the smooth muscle layer towards the outside of the pelvic urethra. Part of the pelvic urethra, part of the urethra of female. Marked by proteins expressed by smooth muscle cells, such as smooth muscle alpha actin (Acta2)." [PMID:25968320]
+def: "The smooth muscle layer of pelvic urethra of female (TS28-28) is the smooth muscle layer towards the outside of the pelvic urethra. Part of the pelvic urethra, part of the urethra of female. Marked by proteins expressed by smooth muscle cells, such as smooth muscle alpha actin (Acta2)." [PMID:25968320]
 is_a: EMAPA:36630 ! smooth muscle of urethra
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28771 ! muscle layer of pelvic urethra of female
@@ -54956,7 +54949,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:36397
 name: glandular ridge
 namespace: anatomical_structure
-def: "The glandular ridge (TS28-TS28) is the ridge on the outside of the glans penis, encircles the distal glans penis." [PMID:25968320]
+def: "The glandular ridge (TS28-28) is the ridge on the outside of the glans penis, encircles the distal glans penis." [PMID:25968320]
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18988 ! glans penis
 relationship: starts_at TS28 ! TS28
@@ -54965,7 +54958,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36398
 name: male urogenital mating protuberance
 namespace: anatomical_structure
-def: "The male urogenital mating protuberance (syn: MUMP) (TS28-TS28) is a tapered extension of the os penis, located at the distal end of the glans penis. The MUMP is ~1.7 mm long, comprised of a fibrocartilage core called MUMP cartilage, surrounded by two MUMP corpus cavernosum (lie on lateral sides of the MUMP fibrocartilage core), and covered with skin. The MUMP boundary is defined by the MUMP ridge, a groove that encircles the distal glans penis." [PMID:25968320]
+def: "The male urogenital mating protuberance (syn: MUMP) (TS28-28) is a tapered extension of the os penis, located at the distal end of the glans penis. The MUMP is ~1.7 mm long, comprised of a fibrocartilage core called MUMP cartilage, surrounded by two MUMP corpus cavernosum (lie on lateral sides of the MUMP fibrocartilage core), and covered with skin. The MUMP boundary is defined by the MUMP ridge, a groove that encircles the distal glans penis." [PMID:25968320]
 synonym: "MUMP" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18988 ! glans penis
@@ -55000,7 +54993,9 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36402
 name: male urogenital mating protuberance corpus cavernosum
 namespace: anatomical_structure
+alt_id: EMAPA:36408
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:29856 ! corpus cavernosum of glans penis
 relationship: part_of EMAPA:36398 ! male urogenital mating protuberance
 relationship: starts_at TS28 ! TS28
 
@@ -55016,7 +55011,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36404
 name: male urogenital mating protuberance ridge groove
 namespace: anatomical_structure
-def: "The male urogenital mating protuberance ridge groove (MUMP rg) (syn: MUMP ridge) (TS28-TS28) is a groove that encircles the distal glans penis and defines the boundary of the MUMP." [PMID:25968320]
+def: "The male urogenital mating protuberance ridge groove (MUMP rg) (syn: MUMP ridge) (TS28-28) is a groove that encircles the distal glans penis and defines the boundary of the MUMP." [PMID:25968320]
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36398 ! male urogenital mating protuberance
 relationship: starts_at TS28 ! TS28
@@ -55044,15 +55039,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36407
 name: corpus cavernosum urethra
 namespace: anatomical_structure
-def: "The corpus cavernosum urethra (TS28) is the band of erectile tissue that runs ventral to the penile urethra. Located within the penis, partly within the glans penis and partly within the body of the penis. Erectile tissue is derived from condensations that form from the mesenchyme of the penis." [PMID:25968320]
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:29856 ! corpus cavernosum of glans penis
-relationship: starts_at TS28 ! TS28
-
-[Term]
-id: EMAPA:36408
-name: male urogenital mating protuberance corpus cavernosum
-namespace: anatomical_structure
+def: "The corpus cavernosum urethra (TS28-28) is the band of erectile tissue that runs ventral to the penile urethra. Located within the penis, partly within the glans penis and partly within the body of the penis. Erectile tissue is derived from condensations that form from the mesenchyme of the penis." [PMID:25968320]
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29856 ! corpus cavernosum of glans penis
 relationship: starts_at TS28 ! TS28
