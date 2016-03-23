@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 22:03:2016 15:06
+date: 23:03:2016 13:56
 saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -234,7 +234,7 @@ relationship: starts_at TS07 ! TS07
 id: EMAPA:16056
 name: intermediate endoderm
 namespace: anatomical_structure
-def: "Cells with transitional morphology at boundary zone between embryonic and extraembryonic endoderm. (Kaufman, 1995; Plates 3 and 4)" []
+def: "Cells with transitional morphology at boundary zone between embryonic and extraembryonic endoderm. (Kaufman, 1995; Plates 3 and 4)." []
 relationship: ends_at TS11 ! TS11
 relationship: part_of EMAPA:35986 ! endoderm
 relationship: starts_at TS07 ! TS07
@@ -10293,7 +10293,7 @@ id: EMAPA:17379
 name: urogenital sinus
 namespace: anatomical_structure
 alt_id: EMAPA:17211
-def: "The urogenital sinus (UGS) (TS18-TS28) is the epithelial lined cavity seen extending from the anterior cloaca. The epithelium is derived from cloacal endoderm. At TS19, the paired nephric ducts are attached to its dorsolateral sides. Comprised of epithelium of urogenital sinus epithelium lining the lumen and the surrounding mesenchyme of urogenital sinus. The UGS is subdivided into the primitive bladder (cranial/anterior), the primitive bladder-caudal urogenital sinus transition zone, and caudal urogenital sinus (caudal/posterior), at the connection site of the common nephric ducts (which connect the nephric ducts to the UGS at the urogenital sinus ridge). From TS20 the UGS also includes developing vasculature of urogenital sinus and nerves of urogenital sinus. The primitive bladder will develop into the bladder and the caudal urogenital sinus into the pelvic urethra. From TS19-21 is comprised of three major regions; primitive bladder, primitive bladder-caudal urogenital sinus transition zone and caudal urogenital sinus. From TS22-28 it is comprised of three major regions; bladder, bladder-urethra transition zone and pelvic urethra." [PMID:25968320]
+def: "The urogenital sinus (UGS) (TS18-TS28) is the epithelial lined cavity seen extending from the anterior cloaca. The epithelium is derived from cloacal endoderm. At TS19, the paired nephric ducts are attached to its dorsolateral sides. Comprised of epithelium of urogenital sinus epithelium lining the lumen and the surrounding mesenchyme of urogenital sinus. The UGS is subdivided into the primitive bladder (cranial/anterior), the primitive bladder-caudal urogenital sinus transition zone, and caudal urogenital sinus (caudal/posterior), at the connection site of the common nephric ducts (which connect the nephric ducts to the UGS at the urogenital sinus ridge). From TS20 the UGS also includes developing vasculature of urogenital sinus and nerves of urogenital sinus. The primitive bladder will develop into the bladder and the caudal urogenital sinus into the pelvic urethra. From TS19-21 is comprised of three major regions; primitive bladder, primitive bladder-caudal urogenital sinus transition zone and caudal urogenital sinus. From TS22-TS28 it is comprised of three major regions; pelvic urethra, bladder-urethra transition zone and bladder." [PMID:25968320]
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS18 ! TS18
@@ -20278,7 +20278,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:18682
 name: penis
 namespace: anatomical_structure
-def: "The penis (TS25-TS28) is comprised of glans penis (distally), penile body (proximally) and surrounded by the prepuce. The penis contains within it, erectile tissues (corpora cavernosa glandis, urethra and MUMP corpus cavernosum), cartilage (hyaline cartilage of os penis and MUMP cartilage), bone (bone of os penis), nerves, vasculature and lamina propria (connective tissue) and is surrounded by skin. The penis is mobile. The penis also contains within it the penile urethra, located along the length of the penis and the urethral seam, located underneath the ventral midline skin of the penis. The glans penis is positioned at a right angle bend to the penile body, following the bend of the urethra. Derived from the genital tubercle of male." [PMID:25968320]
+def: "The penis (TS25-TS28) is comprised of glans penis (distally), penile body (proximally) and surrounded by the prepuce. The penis contains within it, erectile tissues (corpora cavernosa glandis, urethra and MUMP corpus cavernosum), cartilage (hyaline cartilage of os penis and MUMP cartilage), bone tissue (bone of os penis), nerves, vasculature and lamina propria (connective tissue) and is surrounded by skin. The penis is mobile. The penis also contains within it the penile urethra, located along the length of the penis and the urethral seam, located underneath the ventral midline skin of the penis. The glans penis is positioned at a right angle bend to the penile body, following the bend of the urethra. Derived from the genital tubercle of male." [PMID:25968320]
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
 relationship: part_of EMAPA:30977 ! male external genitalia
@@ -38975,7 +38975,7 @@ id: EMAPA:30901
 name: urethra
 namespace: anatomical_structure
 alt_id: EMAPA:30891
-def: "The urethra (TS21-TS28) links the primitive bladder/bladder to the outside of the embryo. At TS21 it is part of the urinary system. The urethra becomes sex-specific from TS23. It is subdivided into pelvic urethra (located within the body of the embryo) and phallic urethra of male/female (located within the genital tubercle). Pelvic urethra is derived from the caudal urogenital sinus and phallic urethra is derived from urethral plate epithelium." [PMID:25968320]
+def: "The urethra (TS21-TS28) links the bladder/primitive bladder to the outside of the embryo. At TS21 it is part of the urinary system. The urethra becomes sex-specific from TS23. It is subdivided into pelvic urethra (located within the body of the embryo) and phallic urethra of male/female (located within the genital tubercle). Pelvic urethra is derived from the caudal urogenital sinus and phallic urethra is derived from urethral plate epithelium." [PMID:25968320]
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: part_of EMAPA:36670 ! lower urinary tract
