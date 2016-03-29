@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 23:03:2016 13:56
-saved-by: jarm
+date: 29:03:2016 16:05
+saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -1297,7 +1297,7 @@ name: intermediate mesenchyme
 namespace: anatomical_structure
 synonym: "intermediate mesoderm" RELATED []
 synonym: "intermediate plate" RELATED []
-relationship: ends_at TS14 ! TS14
+relationship: ends_at TS15 ! TS15
 relationship: part_of EMAPA:16177 ! trunk mesenchyme
 relationship: starts_at TS12 ! TS12
 
@@ -57041,25 +57041,25 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36647
 name: prosomere 1
 namespace: anatomical_structure
+is_a: EMAPA:36675 ! prosomere
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16896 ! diencephalon
-relationship: starts_at TS20 ! TS20
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:36648
 name: prosomere 2
 namespace: anatomical_structure
+is_a: EMAPA:36675 ! prosomere
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16896 ! diencephalon
-relationship: starts_at TS20 ! TS20
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:36649
 name: prosomere 3
 namespace: anatomical_structure
+is_a: EMAPA:36675 ! prosomere
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16896 ! diencephalon
-relationship: starts_at TS20 ! TS20
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:36650
@@ -57266,6 +57266,14 @@ namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:36672 ! rhombic lip
 relationship: starts_at TS18 ! TS18
+
+[Term]
+id: EMAPA:36675
+name: prosomere
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16896 ! diencephalon
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: group_term
