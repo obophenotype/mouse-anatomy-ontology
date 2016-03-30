@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 29:03:2016 16:05
-saved-by: terryh
+date: 30:03:2016 15:09
+saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -27683,8 +27683,8 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:25144
 name: C1 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36676 ! cervical dorsal root ganglion
+relationship: ends_at TS28 ! TS28
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -27765,49 +27765,49 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25155
 name: C2 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+is_a: EMAPA:36676 ! cervical dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:25156
 name: C3 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+is_a: EMAPA:36676 ! cervical dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:25157
 name: C4 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+is_a: EMAPA:36676 ! cervical dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:25158
 name: C5 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+is_a: EMAPA:36676 ! cervical dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:25159
 name: C6 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+is_a: EMAPA:36676 ! cervical dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:25160
 name: C7 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+is_a: EMAPA:36676 ! cervical dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:25164
@@ -27862,32 +27862,32 @@ id: EMAPA:25170
 name: S1 dorsal root ganglion
 namespace: anatomical_structure
 is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:25171
 name: S2 dorsal root ganglion
 namespace: anatomical_structure
 is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:25172
 name: S3 dorsal root ganglion
 namespace: anatomical_structure
 is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:25173
 name: S4 dorsal root ganglion
 namespace: anatomical_structure
 is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:25174
@@ -57274,6 +57274,38 @@ namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16896 ! diencephalon
 relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:36676
+name: cervical dorsal root ganglion
+namespace: anatomical_structure
+is_a: EMAPA:16668 ! dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS15 ! TS15
+
+[Term]
+id: EMAPA:36677
+name: thoracic dorsal root ganglion
+namespace: anatomical_structure
+is_a: EMAPA:16668 ! dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS17 ! TS17
+
+[Term]
+id: EMAPA:36678
+name: lumbar dorsal root ganglion
+namespace: anatomical_structure
+is_a: EMAPA:16668 ! dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36679
+name: sacral dorsal root ganglion
+namespace: anatomical_structure
+is_a: EMAPA:16668 ! dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: group_term
