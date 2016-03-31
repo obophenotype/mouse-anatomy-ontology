@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 30:03:2016 15:09
-saved-by: jarm
+date: 31:03:2016 17:22
+saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -279,7 +279,7 @@ namespace: anatomical_structure
 is_a: EMAPA:16060 ! body cavity or lining
 relationship: ends_at TS10 ! TS10
 relationship: part_of EMAPA:36038 ! proamniotic cavity
-relationship: starts_at TS08 ! TS08
+relationship: starts_at TS07 ! TS07
 
 [Term]
 id: EMAPA:16062
@@ -581,7 +581,7 @@ relationship: starts_at TS11 ! TS11
 id: EMAPA:16101
 name: notochordal plate
 namespace: anatomical_structure
-relationship: ends_at TS13 ! TS13
+relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16071 ! embryo mesoderm
 relationship: starts_at TS11 ! TS11
 
@@ -1534,7 +1534,7 @@ name: vitelline artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 is_a: EMAPA:36494 ! vitelline blood vessel
-relationship: ends_at TS18 ! TS18
+relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS12 ! TS12
 
@@ -1668,7 +1668,7 @@ name: vitelline vein embryonic part
 namespace: anatomical_structure
 synonym: "omphalomesenteric vein" RELATED []
 is_a: EMAPA:35906 ! vein
-relationship: ends_at TS18 ! TS18
+relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16240 ! venous system
 relationship: part_of EMAPA:36021 ! vitelline vein
 relationship: starts_at TS12 ! TS12
@@ -1705,7 +1705,7 @@ id: EMAPA:16248
 name: foregut diverticulum
 namespace: anatomical_structure
 synonym: "foregut pocket" RELATED []
-relationship: ends_at TS13 ! TS13
+relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16247 ! gut
 relationship: starts_at TS12 ! TS12
 
@@ -1839,7 +1839,7 @@ synonym: "oral pit" RELATED []
 synonym: "stomatodaeum" RELATED []
 synonym: "stomodaeum" RELATED []
 synonym: "stomodeum" RELATED []
-relationship: ends_at TS16 ! TS16
+relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16262 ! oral region
 relationship: starts_at TS12 ! TS12
 
@@ -2338,7 +2338,7 @@ name: septum transversum
 namespace: anatomical_structure
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16177 ! trunk mesenchyme
-relationship: starts_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16319
@@ -2387,7 +2387,7 @@ id: EMAPA:16325
 name: optic pit
 namespace: anatomical_structure
 synonym: "optic evagination" RELATED []
-relationship: ends_at TS13 ! TS13
+relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16198 ! eye
 relationship: starts_at TS13 ! TS13
 
@@ -2451,7 +2451,7 @@ name: blood
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16104 ! cardiovascular system
-relationship: starts_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16333
@@ -2966,7 +2966,7 @@ relationship: starts_at TS14 ! TS14
 id: EMAPA:16388
 name: 1st branchial arch maxillary component
 namespace: anatomical_structure
-relationship: ends_at TS18 ! TS18
+relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16118 ! 1st branchial arch
 relationship: starts_at TS14 ! TS14
 
@@ -4154,7 +4154,7 @@ name: vessels connecting internal carotid artery to primary head veins
 namespace: anatomical_structure
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16240 ! venous system
-relationship: starts_at TS14 ! TS14
+relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16548
@@ -5065,7 +5065,7 @@ id: EMAPA:16669
 name: otocyst
 namespace: anatomical_structure
 synonym: "otic vesicle" RELATED []
-relationship: ends_at TS18 ! TS18
+relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16194 ! inner ear
 relationship: starts_at TS15 ! TS15
 
@@ -5083,7 +5083,7 @@ id: EMAPA:16671
 name: otocyst epithelium
 namespace: anatomical_structure
 is_a: EMAPA:32883 ! inner ear epithelium
-relationship: ends_at TS18 ! TS18
+relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16669 ! otocyst
 relationship: starts_at TS15 ! TS15
 
@@ -5091,7 +5091,7 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:16672
 name: lens placode
 namespace: anatomical_structure
-relationship: ends_at TS15 ! TS15
+relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16198 ! eye
 relationship: starts_at TS15 ! TS15
 
@@ -5221,7 +5221,7 @@ namespace: anatomical_structure
 synonym: "2nd aortic arch artery" RELATED []
 synonym: "2nd branchial arch artery" RELATED []
 synonym: "2nd pharyngeal arch artery" RELATED []
-relationship: ends_at TS18 ! TS18
+relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16684 ! branchial arch artery
 relationship: starts_at TS14 ! TS14
 
@@ -5232,7 +5232,7 @@ namespace: anatomical_structure
 synonym: "3rd aortic arch artery" RELATED []
 synonym: "3rd branchial arch artery" RELATED []
 synonym: "3rd pharyngeal arch artery" RELATED []
-relationship: ends_at TS19 ! TS19
+relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16684 ! branchial arch artery
 relationship: starts_at TS15 ! TS15
 
@@ -5262,9 +5262,9 @@ synonym: "bulbo-ventricular groove" RELATED []
 synonym: "bulbo-ventricular sulcus" RELATED []
 synonym: "ependymal groove" RELATED []
 synonym: "ependymal sulcus" RELATED []
-relationship: ends_at TS18 ! TS18
+relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16105 ! heart
-relationship: starts_at TS14 ! TS14
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16694
@@ -6039,7 +6039,6 @@ id: EMAPA:16778
 name: forelimb bud apical ectodermal ridge
 namespace: anatomical_structure
 synonym: "forelimb bud AER" RELATED []
-xref: XX:<new xref>
 is_a: EMAPA:32744 ! apical ectodermal ridge
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16407 ! forelimb bud ectoderm
@@ -6488,7 +6487,7 @@ id: EMAPA:16829
 name: subcardinal vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
-relationship: ends_at TS20 ! TS20
+relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS16 ! TS16
 
@@ -6703,7 +6702,7 @@ name: trachea
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16738 ! lower respiratory tract
-relationship: starts_at TS16 ! TS16
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16854
@@ -7022,7 +7021,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18458
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16137 ! peritoneal component
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:16890
@@ -7717,9 +7716,9 @@ namespace: anatomical_structure
 synonym: "4th aortic arch artery" RELATED []
 synonym: "4th branchial arch artery" RELATED []
 synonym: "4th pharyngeal arch artery" RELATED []
-relationship: ends_at TS19 ! TS19
+relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16684 ! branchial arch artery
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:17005
@@ -7833,7 +7832,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16240 ! venous system
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:17017
@@ -7842,7 +7841,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16240 ! venous system
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:17018
@@ -8013,7 +8012,7 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:17036
 name: midgut loop
 namespace: anatomical_structure
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:16255 ! midgut
 relationship: starts_at TS17 ! TS17
 
@@ -8607,7 +8606,7 @@ name: lens vesicle
 namespace: anatomical_structure
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16198 ! eye
-relationship: starts_at TS18 ! TS18
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:17164
@@ -8649,7 +8648,7 @@ name: retina
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
-relationship: starts_at TS18 ! TS18
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:17169
@@ -9451,7 +9450,7 @@ namespace: anatomical_structure
 synonym: "glossopharyngeal nerve" RELATED []
 is_a: EMAPA:17264 ! cranial nerve
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS19 ! TS19
+relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:17269
@@ -9699,7 +9698,7 @@ name: hyaloid cavity
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
-relationship: starts_at TS19 ! TS19
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:17303
@@ -10565,9 +10564,9 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17411
 name: oral cavity
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16262 ! oral region
-relationship: starts_at TS20 ! TS20
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:17412
@@ -13990,7 +13989,7 @@ synonym: "statoacoustic nerve" RELATED []
 synonym: "vestibulocochlear nerve" RELATED []
 is_a: EMAPA:17264 ! cranial nerve
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17802
@@ -14055,7 +14054,7 @@ name: phrenic nerve
 namespace: anatomical_structure
 is_a: EMAPA:16989 ! spinal nerve
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:17815
@@ -14473,7 +14472,7 @@ namespace: anatomical_structure
 synonym: "ostium secundum" RELATED []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17013 ! septum primum
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17864
@@ -17411,7 +17410,7 @@ name: interventricular septum muscular part
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17333 ! interventricular septum
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:18248
@@ -17479,7 +17478,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16240 ! venous system
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:18256
@@ -17585,9 +17584,8 @@ name: gastro-esophageal junction
 namespace: anatomical_structure
 alt_id: EMAPA:18855
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16247 ! gut
 relationship: part_of EMAPA:16548 ! foregut
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:18268
@@ -17712,7 +17710,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18885
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17883 ! tongue muscle
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:18281
@@ -18076,7 +18074,7 @@ name: urachus
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:18326
@@ -18453,7 +18451,6 @@ id: EMAPA:18370
 name: tail peripheral nervous system
 namespace: anatomical_structure
 synonym: "tail PNS" RELATED []
-xref: XX:<new xref>
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16665 ! peripheral nervous system
 relationship: part_of EMAPA:16753 ! tail nervous system
@@ -18506,7 +18503,7 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:18377
 name: midgut lumen
 namespace: anatomical_structure
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS25 ! TS25
 relationship: part_of EMAPA:16255 ! midgut
 relationship: part_of EMAPA:32908 ! gut lumen
 relationship: starts_at TS12 ! TS12
@@ -19402,7 +19399,7 @@ name: medullary raphe
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17557 ! medulla oblongata basal plate
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:18555
@@ -19756,7 +19753,7 @@ is_a: EMAPA:32867 ! lung vascular element
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16201 ! arterial system
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:18609
@@ -20100,7 +20097,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18874
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17185 ! tongue
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:18660
@@ -20711,7 +20708,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16201 ! arterial system
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:18758
@@ -21041,7 +21038,7 @@ namespace: anatomical_structure
 is_a: EMAPA:17751 ! salivary gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16262 ! oral region
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:18810
@@ -21069,7 +21066,7 @@ synonym: "submaxillary gland" RELATED []
 is_a: EMAPA:17751 ! salivary gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16262 ! oral region
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:18813
@@ -21135,7 +21132,7 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16247 ! gut
 relationship: part_of EMAPA:32834 ! small intestine
-relationship: starts_at TS18 ! TS18
+relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:18873
@@ -46130,7 +46127,6 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:35328
 name: exocrine pancreas
 namespace: anatomical_structure
-xref: XX:<new xref>
 is_a: EMAPA:35327 ! exocrine gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17503 ! pancreas
@@ -51947,7 +51943,7 @@ id: EMAPA:36038
 name: proamniotic cavity
 namespace: anatomical_structure
 is_a: EMAPA:36037 ! cavity or lining
-relationship: ends_at TS10 ! TS10
+relationship: ends_at TS11 ! TS11
 relationship: starts_at TS07 ! TS07
 
 [Term]
@@ -54360,7 +54356,6 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:36323
 name: hepatic venous plexus
 namespace: anatomical_structure
-xref: XX:<new xref>
 is_a: EMAPA:35501 ! liver vascular element
 is_a: EMAPA:36327 ! venous plexus
 relationship: ends_at TS28 ! TS28
