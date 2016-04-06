@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 01:04:2016 16:48
+date: 06:04:2016 16:32
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -33739,7 +33739,7 @@ id: EMAPA:27091
 name: rectum lamina propria
 namespace: anatomical_structure
 alt_id: EMAPA:27339
-is_a: EMAPA:36592 ! alimentary system lamina propria
+is_a: EMAPA:36696 ! large intestine lamina propria
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27081 ! rectum mucosa
 relationship: starts_at TS23 ! TS23
@@ -34375,7 +34375,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:27395
 name: colon lamina propria
 namespace: anatomical_structure
-is_a: EMAPA:36592 ! alimentary system lamina propria
+is_a: EMAPA:36696 ! large intestine lamina propria
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:27375 ! colon mucosa
 relationship: starts_at TS24 ! TS24
@@ -41970,7 +41970,6 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:32707
 name: cerebral cortex ventricular zone
 namespace: anatomical_structure
-is_a: EMAPA:32804 ! brain subventricular zone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17544 ! cerebral cortex
 relationship: starts_at TS25 ! TS25
@@ -47228,7 +47227,7 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35440 ! intestine mucosa
 relationship: part_of EMAPA:35470 ! large intestine wall
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35468
@@ -47254,7 +47253,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35444 ! intestine wall
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19252 ! large intestine
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35471
@@ -49778,6 +49777,7 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:35779
 name: small intestine lamina propria
 namespace: anatomical_structure
+is_a: EMAPA:36695 ! intestine lamina propria
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35780 ! small intestine mucosa
 relationship: starts_at TS27 ! TS27
@@ -57422,6 +57422,24 @@ namespace: anatomical_structure
 is_a: EMAPA:35854 ! tendon
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS25 ! TS25
+
+[Term]
+id: EMAPA:36695
+name: intestine lamina propria
+namespace: anatomical_structure
+is_a: EMAPA:36592 ! alimentary system lamina propria
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35440 ! intestine mucosa
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36696
+name: large intestine lamina propria
+namespace: anatomical_structure
+is_a: EMAPA:36695 ! intestine lamina propria
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35467 ! large intestine mucosa
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: group_term
