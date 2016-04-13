@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 08:04:2016 16:42
+date: 13:04:2016 12:16
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -5148,6 +5148,7 @@ name: optic stalk
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
+relationship: part_of EMAPA:17575 ! optic nerve
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -9418,10 +9419,14 @@ relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:17265
-name: accessory XI nerve
+name: accessory nerve
 namespace: anatomical_structure
 alt_id: EMAPA:17159
-synonym: "accessory nerve" RELATED []
+synonym: "11th cranial nerve" RELATED []
+synonym: "accessory XI nerve" RELATED []
+synonym: "cranial nerve XI" RELATED []
+synonym: "eleventh cranial nerve" RELATED []
+synonym: "spinal accessory nerve" RELATED []
 is_a: EMAPA:16989 ! spinal nerve
 is_a: EMAPA:17264 ! cranial nerve
 relationship: ends_at TS28 ! TS28
@@ -9429,35 +9434,41 @@ relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:17266
-name: accessory XI nerve cranial component
+name: accessory nerve cranial component
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17265 ! accessory XI nerve
+relationship: part_of EMAPA:17265 ! accessory nerve
 relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:17267
-name: accessory XI nerve spinal component
+name: accessory nerve spinal component
 namespace: anatomical_structure
 alt_id: EMAPA:17160
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17265 ! accessory XI nerve
+relationship: part_of EMAPA:17265 ! accessory nerve
 relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:17268
-name: glossopharyngeal IX nerve
+name: glossopharyngeal nerve
 namespace: anatomical_structure
-synonym: "glossopharyngeal nerve" RELATED []
+synonym: "9th cranial nerve" RELATED []
+synonym: "cranial nerve IX" RELATED []
+synonym: "glossopharyngeal IX nerve" RELATED []
+synonym: "ninth cranial nerve" RELATED []
 is_a: EMAPA:17264 ! cranial nerve
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:17269
-name: hypoglossal XII nerve
+name: hypoglossal nerve
 namespace: anatomical_structure
-synonym: "hypoglossal nerve" RELATED []
+synonym: "12th cranial nerve" RELATED []
+synonym: "cranial nerve XII" RELATED []
+synonym: "hypoglossal XII nerve" RELATED []
+synonym: "twelfth cranial nerve" RELATED []
 is_a: EMAPA:17264 ! cranial nerve
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS19 ! TS19
@@ -11999,26 +12010,38 @@ relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17574
-name: oculomotor III nerve
+name: oculomotor nerve
 namespace: anatomical_structure
-synonym: "oculomotor nerve" RELATED []
+synonym: "3rd cranial nerve" RELATED []
+synonym: "cranial nerve III" RELATED []
+synonym: "oculomotor III nerve" RELATED []
+synonym: "third cranial nerve" RELATED []
 is_a: EMAPA:17264 ! cranial nerve
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17575
-name: optic II nerve
+name: optic nerve
 namespace: anatomical_structure
+alt_id: EMAPA:17846
+synonym: "2nd cranial nerve" RELATED []
+synonym: "cranial nerve II" RELATED []
+synonym: "optic II nerve" RELATED []
+synonym: "second cranial nerve" RELATED []
 is_a: EMAPA:17264 ! cranial nerve
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36003 ! visual system
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17576
-name: trigeminal V nerve
+name: trigeminal nerve
 namespace: anatomical_structure
-synonym: "trigeminal nerve" RELATED []
+synonym: "5th cranial nerve" RELATED []
+synonym: "cranial nerve V" RELATED []
+synonym: "fifth cranial nerve" RELATED []
+synonym: "trigeminal V nerve" RELATED []
 is_a: EMAPA:17264 ! cranial nerve
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS18 ! TS18
@@ -13939,80 +13962,85 @@ relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:17796
-name: facial VII nerve
+name: facial nerve
 namespace: anatomical_structure
-synonym: "facial nerve" RELATED []
+synonym: "7th cranial nerve" RELATED []
+synonym: "cranial nerve VII" RELATED []
+synonym: "facial VII nerve" RELATED []
+synonym: "seventh cranial nerve" RELATED []
 is_a: EMAPA:17264 ! cranial nerve
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17797
-name: olfactory I nerve
+name: olfactory nerve
 namespace: anatomical_structure
-synonym: "olfactory nerve" RELATED []
+synonym: "1st cranial nerve" RELATED []
+synonym: "cranial nerve I" RELATED []
+synonym: "first cranial nerve" RELATED []
+synonym: "olfactory I nerve" RELATED []
 is_a: EMAPA:17264 ! cranial nerve
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS21 ! TS21
+relationship: part_of EMAPA:36004 ! olfactory system
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17798
-name: trigeminal V nerve mandibular division
+name: trigeminal nerve mandibular division
 namespace: anatomical_structure
-synonym: "trigeminal nerve mandibular division" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17576 ! trigeminal V nerve
+relationship: part_of EMAPA:17576 ! trigeminal nerve
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17799
-name: trigeminal V nerve maxillary division
+name: trigeminal nerve maxillary division
 namespace: anatomical_structure
-synonym: "trigeminal nerve maxillary division" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17576 ! trigeminal V nerve
+relationship: part_of EMAPA:17576 ! trigeminal nerve
 relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:17800
-name: trigeminal V nerve ophthalmic division
+name: trigeminal nerve ophthalmic division
 namespace: anatomical_structure
-synonym: "trigeminal nerve ophthalmic division" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17576 ! trigeminal V nerve
+relationship: part_of EMAPA:17576 ! trigeminal nerve
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17801
-name: vestibulocochlear VIII nerve
+name: vestibulocochlear nerve
 namespace: anatomical_structure
+synonym: "8th cranial nerve" RELATED []
 synonym: "acoustic nerve" RELATED []
 synonym: "cochleovestibular nerve" RELATED []
+synonym: "cranial nerve VIII" RELATED []
+synonym: "eighth cranial nerve" RELATED []
 synonym: "statoacoustic nerve" RELATED []
-synonym: "vestibulocochlear nerve" RELATED []
+synonym: "vestibulocochlear VIII nerve" RELATED []
 is_a: EMAPA:17264 ! cranial nerve
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17802
-name: vestibulocochlear VIII nerve cochlear component
+name: vestibulocochlear nerve cochlear component
 namespace: anatomical_structure
 synonym: "auditory nerve" RELATED []
 synonym: "cochlear nerve" RELATED []
-synonym: "vestibulocochlear nerve cochlear component" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17801 ! vestibulocochlear VIII nerve
+relationship: part_of EMAPA:17801 ! vestibulocochlear nerve
 relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:17803
-name: vestibulocochlear VIII nerve vestibular component
+name: vestibulocochlear nerve vestibular component
 namespace: anatomical_structure
 synonym: "vestibular nerve" RELATED []
-synonym: "vestibulocochlear nerve vestibular component" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17801 ! vestibulocochlear VIII nerve
+relationship: part_of EMAPA:17801 ! vestibulocochlear nerve
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -14325,14 +14353,6 @@ name: extrinsic ocular pre-muscle mass
 namespace: anatomical_structure
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17844 ! eye skeletal muscle
-relationship: starts_at TS21 ! TS21
-
-[Term]
-id: EMAPA:17846
-name: optic nerve
-namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16678 ! optic stalk
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -17157,28 +17177,32 @@ relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:18216
-name: abducent VI nerve
+name: abducens nerve
 namespace: anatomical_structure
-synonym: "abducens nerve" RELATED []
+synonym: "6th cranial nerve" RELATED []
 synonym: "abducent nerve" RELATED []
-synonym: "abducents VI nerve" RELATED []
+synonym: "cranial nerve VI" RELATED []
+synonym: "sixth cranial nerve" RELATED []
 is_a: EMAPA:17264 ! cranial nerve
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:18217
-name: facial VII nerve chorda tympani branch
+name: facial nerve chorda tympani branch
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17796 ! facial VII nerve
+relationship: part_of EMAPA:17796 ! facial nerve
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:18218
-name: trochlear IV nerve
+name: trochlear nerve
 namespace: anatomical_structure
-synonym: "trochlear nerve" RELATED []
+synonym: "4th cranial nerve" RELATED []
+synonym: "cranial nerve IV" RELATED []
+synonym: "fourth cranial nerve" RELATED []
+synonym: "trochlear IV nerve" RELATED []
 is_a: EMAPA:17264 ! cranial nerve
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS22 ! TS22
@@ -22760,11 +22784,10 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19168
-name: trigeminal V nerve lingual branch
+name: trigeminal nerve lingual branch
 namespace: anatomical_structure
-synonym: "trigeminal nerve lingual branch" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17798 ! trigeminal V nerve mandibular division
+relationship: part_of EMAPA:17798 ! trigeminal nerve mandibular division
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -48458,7 +48481,7 @@ id: EMAPA:35617
 name: optic tract
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17575 ! optic II nerve
+relationship: part_of EMAPA:17575 ! optic nerve
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -57151,7 +57174,7 @@ id: EMAPA:36661
 name: vomeronasal branch of olfactory I nerve
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17797 ! olfactory I nerve
+relationship: part_of EMAPA:17797 ! olfactory nerve
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -57443,6 +57466,22 @@ is_a: EMAPA:36695 ! intestine lamina propria
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35467 ! large intestine mucosa
 relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36697
+name: olfactory migratory mass
+namespace: anatomical_structure
+relationship: ends_at TS20 ! TS20
+relationship: part_of EMAPA:16542 ! nose
+relationship: starts_at TS17 ! TS17
+
+[Term]
+id: EMAPA:36698
+name: nerve to soleus
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36512 ! tibial nerve
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: group_term
