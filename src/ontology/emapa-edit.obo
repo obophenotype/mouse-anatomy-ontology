@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 18:04:2016 15:54
+date: 22:04:2016 14:21
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -6240,7 +6240,6 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:16801
 name: nasal pit epithelium
 namespace: anatomical_structure
-synonym: "olfactory epithelium" RELATED []
 is_a: EMAPA:35958 ! nasal epithelium
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16800 ! nasal pit
