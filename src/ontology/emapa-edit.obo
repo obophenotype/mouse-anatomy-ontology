@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 22:04:2016 14:21
+date: 26:04:2016 16:53
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -720,8 +720,8 @@ id: EMAPA:16116
 name: primordial germ cell of yolk sac
 namespace: anatomical_structure
 is_a: EMAPA:36699 ! primordial germ cell
-relationship: ends_at TS11 ! TS11
-relationship: part_of EMAPA:16087 ! yolk sac mesoderm
+relationship: ends_at TS13 ! TS13
+relationship: part_of EMAPA:16085 ! yolk sac
 relationship: starts_at TS11 ! TS11
 
 [Term]
@@ -1406,7 +1406,7 @@ id: EMAPA:16190
 name: primordial germ cell of trunk mesenchyme
 namespace: anatomical_structure
 is_a: EMAPA:36699 ! primordial germ cell
-relationship: ends_at TS13 ! TS13
+relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16177 ! trunk mesenchyme
 relationship: starts_at TS12 ! TS12
 
@@ -1761,7 +1761,7 @@ id: EMAPA:16254
 name: primordial germ cell of hindgut
 namespace: anatomical_structure
 is_a: EMAPA:36699 ! primordial germ cell
-relationship: ends_at TS13 ! TS13
+relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16251 ! hindgut diverticulum
 relationship: starts_at TS12 ! TS12
 
@@ -57109,7 +57109,7 @@ id: EMAPA:36653
 name: primordial germ cell of extraembryonic mesoderm
 namespace: anatomical_structure
 is_a: EMAPA:36699 ! primordial germ cell
-relationship: ends_at TS10 ! TS10
+relationship: ends_at TS11 ! TS11
 relationship: part_of EMAPA:31862 ! extraembryonic mesoderm
 relationship: starts_at TS10 ! TS10
 
@@ -57492,7 +57492,15 @@ name: primordial germ cell
 namespace: anatomical_structure
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:36040 ! conceptus
-relationship: starts_at TS10 ! TS10
+relationship: starts_at TS07 ! TS07
+
+[Term]
+id: EMAPA:36700
+name: synovial joint
+namespace: anatomical_structure
+is_a: EMAPA:35456 ! joint
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
 
 [Term]
 id: group_term
