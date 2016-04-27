@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 26:04:2016 16:53
+date: 27:04:2016 17:11
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -1403,11 +1403,12 @@ relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16190
-name: primordial germ cell of trunk mesenchyme
+name: primordial germ cell of dorsal mesentery
 namespace: anatomical_structure
 is_a: EMAPA:36699 ! primordial germ cell
 relationship: ends_at TS17 ! TS17
-relationship: part_of EMAPA:16177 ! trunk mesenchyme
+relationship: part_of EMAPA:16719 ! hindgut dorsal mesentery
+relationship: part_of EMAPA:32910 ! gut dorsal mesentery
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -1762,7 +1763,8 @@ name: primordial germ cell of hindgut
 namespace: anatomical_structure
 is_a: EMAPA:36699 ! primordial germ cell
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16251 ! hindgut diverticulum
+relationship: part_of EMAPA:16715 ! hindgut
+relationship: part_of EMAPA:36702 ! primitive hindgut
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -4378,6 +4380,7 @@ relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:16367 ! genitourinary system
 relationship: part_of EMAPA:16857 ! gonad primordium
 relationship: part_of EMAPA:17383 ! gonad
+relationship: part_of EMAPA:35899 ! urogenital ridge
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -5426,7 +5429,7 @@ relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16710
-name: rest of foregut mesentery
+name: foregut mesentery
 namespace: anatomical_structure
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16553 ! rest of foregut
@@ -5435,10 +5438,10 @@ relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16711
-name: rest of foregut dorsal mesentery
+name: foregut dorsal mesentery
 namespace: anatomical_structure
 relationship: ends_at TS17 ! TS17
-relationship: part_of EMAPA:16710 ! rest of foregut mesentery
+relationship: part_of EMAPA:16710 ! foregut mesentery
 relationship: part_of EMAPA:32910 ! gut dorsal mesentery
 relationship: starts_at TS15 ! TS15
 
@@ -5447,7 +5450,7 @@ id: EMAPA:16712
 name: rest of foregut ventral mesentery
 namespace: anatomical_structure
 relationship: ends_at TS17 ! TS17
-relationship: part_of EMAPA:16710 ! rest of foregut mesentery
+relationship: part_of EMAPA:16710 ! foregut mesentery
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -5499,7 +5502,7 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:16718
 name: hindgut mesentery
 namespace: anatomical_structure
-relationship: ends_at TS20 ! TS20
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:16715 ! hindgut
 relationship: part_of EMAPA:32911 ! gut mesentery
 relationship: starts_at TS15 ! TS15
@@ -5510,7 +5513,7 @@ name: hindgut dorsal mesentery
 namespace: anatomical_structure
 synonym: "dorsal mesocolon" RELATED []
 synonym: "dorsal mesorectum" RELATED []
-relationship: ends_at TS20 ! TS20
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:16718 ! hindgut mesentery
 relationship: part_of EMAPA:32910 ! gut dorsal mesentery
 relationship: starts_at TS15 ! TS15
@@ -14821,6 +14824,7 @@ id: EMAPA:17903
 name: rest of hindgut mesentery
 namespace: anatomical_structure
 relationship: ends_at TS23 ! TS23
+relationship: part_of EMAPA:16718 ! hindgut mesentery
 relationship: part_of EMAPA:17900 ! rest of hindgut
 relationship: starts_at TS21 ! TS21
 
@@ -14829,6 +14833,7 @@ id: EMAPA:17904
 name: rest of hindgut dorsal mesentery
 namespace: anatomical_structure
 relationship: ends_at TS23 ! TS23
+relationship: part_of EMAPA:16719 ! hindgut dorsal mesentery
 relationship: part_of EMAPA:17903 ! rest of hindgut mesentery
 relationship: starts_at TS21 ! TS21
 
@@ -35784,7 +35789,7 @@ relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:28547
-name: allantois of the embryonic urinary system
+name: allantois of embryonic urinary system
 namespace: anatomical_structure
 synonym: "remnant of allantois in embryo" RELATED []
 relationship: ends_at TS21 ! TS21
@@ -43716,7 +43721,7 @@ name: gut dorsal mesentery
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:32911 ! gut mesentery
-relationship: starts_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:32911
@@ -57501,6 +57506,23 @@ namespace: anatomical_structure
 is_a: EMAPA:35456 ! joint
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36701
+name: primordial germ cell of base of allantois
+namespace: anatomical_structure
+is_a: EMAPA:36699 ! primordial germ cell
+relationship: ends_at TS13 ! TS13
+relationship: part_of EMAPA:16107 ! allantois
+relationship: starts_at TS11 ! TS11
+
+[Term]
+id: EMAPA:36702
+name: primitive hindgut
+namespace: anatomical_structure
+relationship: ends_at TS16 ! TS16
+relationship: part_of EMAPA:16251 ! hindgut diverticulum
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: group_term
