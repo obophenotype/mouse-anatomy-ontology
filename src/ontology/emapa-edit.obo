@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 27:04:2016 17:11
+date: 28:04:2016 16:39
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -249,7 +249,7 @@ relationship: starts_at TS07 ! TS07
 
 [Term]
 id: EMAPA:16058
-name: visceral extraembryonic endoderm
+name: extraembryonic visceral endoderm
 namespace: anatomical_structure
 relationship: ends_at TS12 ! TS12
 relationship: part_of EMAPA:16052 ! extraembryonic endoderm
@@ -1403,12 +1403,11 @@ relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16190
-name: primordial germ cell of dorsal mesentery
+name: primordial germ cell of trunk mesenchyme
 namespace: anatomical_structure
 is_a: EMAPA:36699 ! primordial germ cell
-relationship: ends_at TS17 ! TS17
-relationship: part_of EMAPA:16719 ! hindgut dorsal mesentery
-relationship: part_of EMAPA:32910 ! gut dorsal mesentery
+relationship: ends_at TS18 ! TS18
+relationship: part_of EMAPA:16177 ! trunk mesenchyme
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -5516,7 +5515,7 @@ synonym: "dorsal mesorectum" RELATED []
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:16718 ! hindgut mesentery
 relationship: part_of EMAPA:32910 ! gut dorsal mesentery
-relationship: starts_at TS15 ! TS15
+relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16720
@@ -52218,7 +52217,7 @@ relationship: starts_at TS07 ! TS07
 
 [Term]
 id: EMAPA:36069
-name: rest of primitive endoderm
+name: posterior visceral endoderm
 namespace: anatomical_structure
 relationship: ends_at TS12 ! TS12
 relationship: part_of EMAPA:16051 ! primitive endoderm
@@ -57523,6 +57522,17 @@ namespace: anatomical_structure
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16251 ! hindgut diverticulum
 relationship: starts_at TS12 ! TS12
+
+[Term]
+id: EMAPA:36703
+name: primordial germ cell of dorsal mesentery
+namespace: anatomical_structure
+is_a: EMAPA:36699 ! primordial germ cell
+relationship: ends_at TS18 ! TS18
+relationship: part_of EMAPA:16719 ! hindgut dorsal mesentery
+relationship: starts_at TS14 ! TS14
+created_by: terryh
+creation_date: 2016-04-28T08:46:49Z
 
 [Term]
 id: group_term
