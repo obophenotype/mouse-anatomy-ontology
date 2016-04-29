@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 28:04:2016 16:39
+date: 29:04:2016 16:15
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -2725,7 +2725,7 @@ id: EMAPA:16360
 name: foregut diverticulum gland
 namespace: anatomical_structure
 is_a: EMAPA:18815 ! gut gland
-relationship: ends_at TS13 ! TS13
+relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16248 ! foregut diverticulum
 relationship: starts_at TS13 ! TS13
 
@@ -4165,6 +4165,8 @@ relationship: starts_at TS13 ! TS13
 id: EMAPA:16548
 name: foregut
 namespace: anatomical_structure
+alt_id: EMAPA:16553
+synonym: "rest of foregut" EXACT []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16247 ! gut
 relationship: starts_at TS14 ! TS14
@@ -4205,38 +4207,12 @@ relationship: part_of EMAPA:16549 ! pharyngeal region
 relationship: starts_at TS14 ! TS14
 
 [Term]
-id: EMAPA:16553
-name: rest of foregut
-namespace: anatomical_structure
-relationship: ends_at TS17 ! TS17
-relationship: part_of EMAPA:16548 ! foregut
-relationship: starts_at TS14 ! TS14
-
-[Term]
-id: EMAPA:16554
-name: rest of foregut mesenchyme
-namespace: anatomical_structure
-is_a: EMAPA:32923 ! foregut mesenchyme
-relationship: ends_at TS17 ! TS17
-relationship: part_of EMAPA:16553 ! rest of foregut
-relationship: starts_at TS14 ! TS14
-
-[Term]
-id: EMAPA:16555
-name: rest of foregut epithelium
-namespace: anatomical_structure
-is_a: EMAPA:32922 ! foregut epithelium
-relationship: ends_at TS17 ! TS17
-relationship: part_of EMAPA:16553 ! rest of foregut
-relationship: starts_at TS14 ! TS14
-
-[Term]
 id: EMAPA:16556
-name: rest of foregut vascular element
+name: foregut vascular element
 namespace: anatomical_structure
 is_a: EMAPA:35994 ! alimentary system vascular element
 relationship: ends_at TS17 ! TS17
-relationship: part_of EMAPA:16553 ! rest of foregut
+relationship: part_of EMAPA:16548 ! foregut
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -5334,7 +5310,7 @@ namespace: anatomical_structure
 synonym: "esophagus region" RELATED []
 relationship: ends_at TS15 ! TS15
 relationship: part_of EMAPA:16548 ! foregut
-relationship: starts_at TS15 ! TS15
+relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16701
@@ -5431,7 +5407,7 @@ id: EMAPA:16710
 name: foregut mesentery
 namespace: anatomical_structure
 relationship: ends_at TS17 ! TS17
-relationship: part_of EMAPA:16553 ! rest of foregut
+relationship: part_of EMAPA:16548 ! foregut
 relationship: part_of EMAPA:32911 ! gut mesentery
 relationship: starts_at TS15 ! TS15
 
@@ -5446,7 +5422,7 @@ relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16712
-name: rest of foregut ventral mesentery
+name: foregut ventral mesentery
 namespace: anatomical_structure
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16710 ! foregut mesentery
@@ -18735,10 +18711,10 @@ relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:18400
-name: rest of foregut lumen
+name: foregut lumen
 namespace: anatomical_structure
 relationship: ends_at TS17 ! TS17
-relationship: part_of EMAPA:16553 ! rest of foregut
+relationship: part_of EMAPA:16548 ! foregut
 relationship: part_of EMAPA:32908 ! gut lumen
 relationship: starts_at TS14 ! TS14
 
@@ -43818,6 +43794,8 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:32922
 name: foregut epithelium
 namespace: anatomical_structure
+alt_id: EMAPA:16555
+synonym: "rest of foregut epithelium" EXACT []
 is_a: EMAPA:32928 ! gut epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16548 ! foregut
@@ -43827,6 +43805,8 @@ relationship: starts_at TS14 ! TS14
 id: EMAPA:32923
 name: foregut mesenchyme
 namespace: anatomical_structure
+alt_id: EMAPA:16554
+synonym: "rest of foregut mesenchyme" EXACT []
 is_a: EMAPA:32909 ! gut mesenchyme
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16548 ! foregut
@@ -57531,8 +57511,6 @@ is_a: EMAPA:36699 ! primordial germ cell
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16719 ! hindgut dorsal mesentery
 relationship: starts_at TS14 ! TS14
-created_by: terryh
-creation_date: 2016-04-28T08:46:49Z
 
 [Term]
 id: group_term
