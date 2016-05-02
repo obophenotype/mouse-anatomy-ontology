@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 29:04:2016 16:15
+date: 02:05:2016 17:14
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -1770,6 +1770,7 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:16255
 name: midgut
 namespace: anatomical_structure
+alt_id: EMAPA:17042
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16247 ! gut
 relationship: starts_at TS12 ! TS12
@@ -1778,6 +1779,7 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:16256
 name: midgut mesenchyme
 namespace: anatomical_structure
+alt_id: EMAPA:17043
 is_a: EMAPA:32909 ! gut mesenchyme
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:16255 ! midgut
@@ -4166,7 +4168,6 @@ id: EMAPA:16548
 name: foregut
 namespace: anatomical_structure
 alt_id: EMAPA:16553
-synonym: "rest of foregut" EXACT []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16247 ! gut
 relationship: starts_at TS14 ! TS14
@@ -4290,17 +4291,21 @@ relationship: starts_at TS14 ! TS14
 id: EMAPA:16569
 name: midgut epithelium
 namespace: anatomical_structure
+alt_id: EMAPA:17044
+alt_id: EMAPA:27145
 is_a: EMAPA:32928 ! gut epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16255 ! midgut
+relationship: part_of EMAPA:27137 ! midgut mucosa
 relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16570
 name: midgut vascular element
 namespace: anatomical_structure
+alt_id: EMAPA:17047
 is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS17 ! TS17
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:16255 ! midgut
 relationship: starts_at TS14 ! TS14
 
@@ -5506,7 +5511,8 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:16721
 name: midgut mesentery
 namespace: anatomical_structure
-relationship: ends_at TS16 ! TS16
+alt_id: EMAPA:17045
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:16255 ! midgut
 relationship: part_of EMAPA:32911 ! gut mesentery
 relationship: starts_at TS15 ! TS15
@@ -5515,7 +5521,8 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:16722
 name: midgut dorsal mesentery
 namespace: anatomical_structure
-relationship: ends_at TS16 ! TS16
+alt_id: EMAPA:17046
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:16721 ! midgut mesentery
 relationship: part_of EMAPA:32910 ! gut dorsal mesentery
 relationship: starts_at TS15 ! TS15
@@ -8042,59 +8049,6 @@ namespace: anatomical_structure
 is_a: EMAPA:35994 ! alimentary system vascular element
 relationship: ends_at TS25 ! TS25
 relationship: part_of EMAPA:17036 ! midgut loop
-relationship: starts_at TS17 ! TS17
-
-[Term]
-id: EMAPA:17042
-name: rest of midgut
-namespace: anatomical_structure
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:16255 ! midgut
-relationship: starts_at TS17 ! TS17
-
-[Term]
-id: EMAPA:17043
-name: rest of midgut mesenchyme
-namespace: anatomical_structure
-is_a: EMAPA:16256 ! midgut mesenchyme
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17042 ! rest of midgut
-relationship: starts_at TS17 ! TS17
-
-[Term]
-id: EMAPA:17044
-name: rest of midgut epithelium
-namespace: anatomical_structure
-alt_id: EMAPA:27145
-is_a: EMAPA:16569 ! midgut epithelium
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17042 ! rest of midgut
-relationship: part_of EMAPA:27137 ! rest of midgut mucosa
-relationship: starts_at TS17 ! TS17
-
-[Term]
-id: EMAPA:17045
-name: rest of midgut mesentery
-namespace: anatomical_structure
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17042 ! rest of midgut
-relationship: starts_at TS17 ! TS17
-
-[Term]
-id: EMAPA:17046
-name: rest of midgut dorsal mesentery
-namespace: anatomical_structure
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17045 ! rest of midgut mesentery
-relationship: starts_at TS17 ! TS17
-
-[Term]
-id: EMAPA:17047
-name: rest of midgut vascular element
-namespace: anatomical_structure
-is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17042 ! rest of midgut
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -18512,6 +18466,7 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:18377
 name: midgut lumen
 namespace: anatomical_structure
+alt_id: EMAPA:18392
 relationship: ends_at TS25 ! TS25
 relationship: part_of EMAPA:16255 ! midgut
 relationship: part_of EMAPA:32908 ! gut lumen
@@ -18641,15 +18596,6 @@ name: midgut loop lumen
 namespace: anatomical_structure
 relationship: ends_at TS25 ! TS25
 relationship: part_of EMAPA:17036 ! midgut loop
-relationship: starts_at TS17 ! TS17
-
-[Term]
-id: EMAPA:18392
-name: rest of midgut lumen
-namespace: anatomical_structure
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17042 ! rest of midgut
-relationship: part_of EMAPA:18377 ! midgut lumen
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -33921,53 +33867,53 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27137
-name: rest of midgut mucosa
+name: midgut mucosa
 namespace: anatomical_structure
 is_a: EMAPA:36591 ! alimentary system mucosa
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17042 ! rest of midgut
+relationship: part_of EMAPA:16255 ! midgut
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27139
-name: rest of midgut submucosa
+name: midgut submucosa
 namespace: anatomical_structure
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17042 ! rest of midgut
+relationship: part_of EMAPA:16255 ! midgut
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27141
-name: rest of midgut muscularis
+name: midgut muscularis
 namespace: anatomical_structure
 is_a: EMAPA:35385 ! gut muscularis
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17042 ! rest of midgut
+relationship: part_of EMAPA:16255 ! midgut
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27143
-name: rest of midgut serosa
+name: midgut serosa
 namespace: anatomical_structure
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17042 ! rest of midgut
+relationship: part_of EMAPA:16255 ! midgut
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27147
-name: rest of midgut lamina propria
+name: midgut lamina propria
 namespace: anatomical_structure
 is_a: EMAPA:36592 ! alimentary system lamina propria
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:27137 ! rest of midgut mucosa
+relationship: part_of EMAPA:27137 ! midgut mucosa
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27149
-name: rest of midgut muscularis mucosa
+name: midgut muscularis mucosa
 namespace: anatomical_structure
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:27137 ! rest of midgut mucosa
+relationship: part_of EMAPA:27137 ! midgut mucosa
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -43806,7 +43752,6 @@ id: EMAPA:32923
 name: foregut mesenchyme
 namespace: anatomical_structure
 alt_id: EMAPA:16554
-synonym: "rest of foregut mesenchyme" EXACT []
 is_a: EMAPA:32909 ! gut mesenchyme
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16548 ! foregut
