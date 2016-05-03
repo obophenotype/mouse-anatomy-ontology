@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 02:05:2016 17:14
+date: 03:05:2016 16:41
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -4961,53 +4961,55 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:16659
 name: cranial ganglion
 namespace: anatomical_structure
+synonym: "cranial nerve ganglion" RELATED []
+synonym: "ganglion of cranial nerve" RELATED []
+is_a: EMAPA:16658 ! central nervous system ganglion
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16658 ! central nervous system ganglion
 relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:16660
-name: facio-acoustic VII-VIII preganglion complex
+name: facio-acoustic preganglion complex
 namespace: anatomical_structure
-synonym: "facio-acoustic preganglion complex" RELATED []
+synonym: "facio-acoustic VII-VIII preganglion complex" RELATED []
+is_a: EMAPA:36064 ! cranial preganglion
 relationship: ends_at TS15 ! TS15
-relationship: part_of EMAPA:36064 ! cranial preganglion
 relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16661
-name: glossopharyngeal IX preganglion
+name: glossopharyngeal preganglion
 namespace: anatomical_structure
-synonym: "glossopharyngeal preganglion" RELATED []
+synonym: "glossopharyngeal IX preganglion" RELATED []
+is_a: EMAPA:36064 ! cranial preganglion
 relationship: ends_at TS15 ! TS15
-relationship: part_of EMAPA:36064 ! cranial preganglion
 relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16662
-name: glossopharyngeal-vagus IX-X preganglion complex
+name: glossopharyngeal-vagus preganglion complex
 namespace: anatomical_structure
-synonym: "glossopharyngeal-vagus preganglion complex" RELATED []
+synonym: "glossopharyngeal-vagus IX-X preganglion complex" RELATED []
+is_a: EMAPA:36064 ! cranial preganglion
 relationship: ends_at TS15 ! TS15
-relationship: part_of EMAPA:36064 ! cranial preganglion
 relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16663
-name: trigeminal V preganglion
+name: trigeminal preganglion
 namespace: anatomical_structure
-synonym: "trigeminal preganglion" RELATED []
+synonym: "trigeminal V preganglion" RELATED []
+is_a: EMAPA:36064 ! cranial preganglion
 relationship: ends_at TS15 ! TS15
-relationship: part_of EMAPA:36064 ! cranial preganglion
 relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16664
-name: vagus X preganglion
+name: vagus preganglion
 namespace: anatomical_structure
-synonym: "vagus preganglion" RELATED []
+synonym: "vagus V preganglion" RELATED []
+is_a: EMAPA:36064 ! cranial preganglion
 relationship: ends_at TS15 ! TS15
-relationship: part_of EMAPA:36064 ! cranial preganglion
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -5456,6 +5458,7 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:16715
 name: hindgut
 namespace: anatomical_structure
+alt_id: EMAPA:17900
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16247 ! gut
 relationship: starts_at TS15 ! TS15
@@ -5464,6 +5467,7 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:16716
 name: hindgut mesenchyme
 namespace: anatomical_structure
+alt_id: EMAPA:17901
 is_a: EMAPA:32909 ! gut mesenchyme
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:16715 ! hindgut
@@ -5473,15 +5477,19 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:16717
 name: hindgut epithelium
 namespace: anatomical_structure
+alt_id: EMAPA:17902
+alt_id: EMAPA:27075
 is_a: EMAPA:32928 ! gut epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16715 ! hindgut
+relationship: part_of EMAPA:27067 ! hindgut mucosa
 relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16718
 name: hindgut mesentery
 namespace: anatomical_structure
+alt_id: EMAPA:17903
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:16715 ! hindgut
 relationship: part_of EMAPA:32911 ! gut mesentery
@@ -5491,6 +5499,7 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:16719
 name: hindgut dorsal mesentery
 namespace: anatomical_structure
+alt_id: EMAPA:17904
 synonym: "dorsal mesocolon" RELATED []
 synonym: "dorsal mesorectum" RELATED []
 relationship: ends_at TS23 ! TS23
@@ -5502,8 +5511,9 @@ relationship: starts_at TS14 ! TS14
 id: EMAPA:16720
 name: hindgut vascular element
 namespace: anatomical_structure
+alt_id: EMAPA:17905
 is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS20 ! TS20
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:16715 ! hindgut
 relationship: starts_at TS15 ! TS15
 
@@ -6160,48 +6170,54 @@ relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:16794
-name: facio-acoustic VII-VIII ganglion complex
+name: facio-acoustic ganglion complex
 namespace: anatomical_structure
-synonym: "facio-acoustic ganglion complex" RELATED []
+synonym: "facio-acoustic VII-VIII ganglion complex" RELATED []
+is_a: EMAPA:16659 ! cranial ganglion
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16659 ! cranial ganglion
 relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:16795
-name: glossopharyngeal IX ganglion
+name: glossopharyngeal ganglion
 namespace: anatomical_structure
-synonym: "glossopharyngeal ganglion" RELATED []
+synonym: "glossopharyngeal IX ganglion" RELATED []
+is_a: EMAPA:16659 ! cranial ganglion
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16659 ! cranial ganglion
 relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:16796
-name: glossopharyngeal-vagus IX-X ganglion complex
+name: glossopharyngeal-vagus ganglion complex
 namespace: anatomical_structure
-synonym: "glossopharyngeal-vagus ganglion complex" RELATED []
+synonym: "glossopharyngeal-vagus IX-X ganglion complex" RELATED []
+is_a: EMAPA:16659 ! cranial ganglion
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16659 ! cranial ganglion
 relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:16797
-name: trigeminal V ganglion
+name: trigeminal ganglion
 namespace: anatomical_structure
+synonym: "cranial ganglion V" RELATED []
+synonym: "ganglion of 5th cranial nerve" RELATED []
+synonym: "ganglion of cranial nerve V" RELATED []
+synonym: "ganglion of trigeminal nerve" RELATED []
 synonym: "Gasserian ganglion" RELATED []
 synonym: "semilunar ganglion" RELATED []
-synonym: "trigeminal ganglion" RELATED []
+synonym: "trigeminal V ganglion" RELATED []
+is_a: EMAPA:16659 ! cranial ganglion
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16659 ! cranial ganglion
 relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:16798
-name: vagus X ganglion
+name: vagus ganglion
 namespace: anatomical_structure
+synonym: "vagal ganglion" RELATED []
+synonym: "vagus X ganglion" RELATED []
+is_a: EMAPA:16659 ! cranial ganglion
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16659 ! cranial ganglion
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -7516,11 +7532,15 @@ relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:16982
-name: acoustic VIII ganglion
+name: acoustic ganglion
 namespace: anatomical_structure
-synonym: "acoustic ganglion" RELATED []
+synonym: "acoustic VIII ganglion" RELATED []
+synonym: "cranial ganglion VIII" RELATED []
+synonym: "ganglion of cranial nerve VIII" RELATED []
+synonym: "ganglion of eighth cranial nerve" RELATED []
+synonym: "stato-acoustic ganglion" RELATED []
+is_a: EMAPA:16659 ! cranial ganglion
 relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16659 ! cranial ganglion
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -8466,40 +8486,42 @@ relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:17153
-name: inferior glossopharyngeal IX ganglion
+name: inferior glossopharyngeal ganglion
 namespace: anatomical_structure
-synonym: "glossopharyngeal inferior ganglion" RELATED []
 synonym: "glossopharyngeal IX inferior ganglion" RELATED []
 synonym: "petrosal ganglion" RELATED []
+is_a: EMAPA:16795 ! glossopharyngeal ganglion
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16795 ! glossopharyngeal IX ganglion
 relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:17154
-name: superior glossopharyngeal IX ganglion
+name: superior glossopharyngeal ganglion
 namespace: anatomical_structure
+synonym: "Ehrenritter's ganglion" RELATED []
 synonym: "glossopharyngeal IX superior ganglion" RELATED []
 synonym: "glossopharyngeal superior ganglion" RELATED []
+is_a: EMAPA:16795 ! glossopharyngeal ganglion
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16795 ! glossopharyngeal IX ganglion
 relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:17155
-name: inferior vagus X ganglion
+name: inferior vagus ganglion
 namespace: anatomical_structure
-synonym: "inferior vagus ganglion" RELATED []
+synonym: "inferior vagus V ganglion" RELATED []
+synonym: "nodose ganglion" RELATED []
+is_a: EMAPA:16798 ! vagus ganglion
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16798 ! vagus X ganglion
 relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:17156
-name: superior vagus X ganglion
+name: superior vagus ganglion
 namespace: anatomical_structure
+synonym: "jugular ganglion" RELATED []
+is_a: EMAPA:16798 ! vagus ganglion
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16798 ! vagus X ganglion
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -8770,7 +8792,7 @@ relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:17193
-name: midgut duodenum
+name: midgut derived duodenum
 namespace: anatomical_structure
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:16255 ! midgut
@@ -8782,7 +8804,7 @@ id: EMAPA:17194
 name: duodenum caudal part
 namespace: anatomical_structure
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17193 ! midgut duodenum
+relationship: part_of EMAPA:17193 ! midgut derived duodenum
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -11898,49 +11920,54 @@ relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17569
-name: facial VII ganglion
+name: facial ganglion
 namespace: anatomical_structure
 alt_id: EMAPA:16983
-synonym: "facial ganglion" RELATED []
+synonym: "cranial ganglion VII" RELATED []
+synonym: "facial VII ganglion" RELATED []
+synonym: "ganglion of 7th cranial nerve" RELATED []
+synonym: "ganglion of cranial nerve VII" RELATED []
+synonym: "geniculate ganglion" RELATED []
+is_a: EMAPA:16659 ! cranial ganglion
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16659 ! cranial ganglion
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:17570
-name: vestibulo-cochlear VIII ganglion complex
+name: vestibulo-cochlear ganglion complex
 namespace: anatomical_structure
+synonym: "vestibulo-cochlear VIII ganglion complex" RELATED []
+is_a: EMAPA:16659 ! cranial ganglion
 relationship: ends_at TS20 ! TS20
-relationship: part_of EMAPA:16659 ! cranial ganglion
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17571
-name: vestibulocochlear VIII ganglion
+name: vestibulo-cochlear ganglion
 namespace: anatomical_structure
-synonym: "vestibulocochlear ganglion" RELATED []
+synonym: "vestibulo-cochlear VIII ganglion" RELATED []
+is_a: EMAPA:16659 ! cranial ganglion
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16659 ! cranial ganglion
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17572
-name: vestibulocochlear VIII ganglion cochlear component
+name: cochlear ganglion
 namespace: anatomical_structure
-synonym: "vestibulocochlear ganglion cochlear component" RELATED []
+synonym: "spiral ganglion" RELATED []
+synonym: "vestibulo-cochlear ganglion cochlear component" RELATED []
+is_a: EMAPA:17571 ! vestibulo-cochlear ganglion
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17571 ! vestibulocochlear VIII ganglion
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17573
-name: vestibulocochlear VIII ganglion vestibular component
+name: vestibular ganglion
 namespace: anatomical_structure
 synonym: "Scarpa's ganglion" RELATED []
-synonym: "vestibular ganglion" RELATED []
-synonym: "vestibulocochlear ganglion vestibular component" RELATED []
+synonym: "vestibulo-cochlear ganglion vestibular component" RELATED []
+is_a: EMAPA:17571 ! vestibulo-cochlear ganglion
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17571 ! vestibulocochlear VIII ganglion
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -14718,61 +14745,6 @@ alt_id: EMAPA:18931
 is_a: EMAPA:35994 ! alimentary system vascular element
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17896 ! rectum
-relationship: starts_at TS21 ! TS21
-
-[Term]
-id: EMAPA:17900
-name: rest of hindgut
-namespace: anatomical_structure
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:16715 ! hindgut
-relationship: starts_at TS21 ! TS21
-
-[Term]
-id: EMAPA:17901
-name: rest of hindgut mesenchyme
-namespace: anatomical_structure
-is_a: EMAPA:16716 ! hindgut mesenchyme
-relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17900 ! rest of hindgut
-relationship: starts_at TS21 ! TS21
-
-[Term]
-id: EMAPA:17902
-name: rest of hindgut epithelium
-namespace: anatomical_structure
-alt_id: EMAPA:27075
-is_a: EMAPA:16717 ! hindgut epithelium
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17900 ! rest of hindgut
-relationship: part_of EMAPA:27067 ! rest of hindgut mucosa
-relationship: starts_at TS21 ! TS21
-
-[Term]
-id: EMAPA:17903
-name: rest of hindgut mesentery
-namespace: anatomical_structure
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:16718 ! hindgut mesentery
-relationship: part_of EMAPA:17900 ! rest of hindgut
-relationship: starts_at TS21 ! TS21
-
-[Term]
-id: EMAPA:17904
-name: rest of hindgut dorsal mesentery
-namespace: anatomical_structure
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:16719 ! hindgut dorsal mesentery
-relationship: part_of EMAPA:17903 ! rest of hindgut mesentery
-relationship: starts_at TS21 ! TS21
-
-[Term]
-id: EMAPA:17905
-name: rest of hindgut vascular element
-namespace: anatomical_structure
-is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17900 ! rest of hindgut
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -18574,15 +18546,6 @@ relationship: part_of EMAPA:17896 ! rectum
 relationship: starts_at TS21 ! TS21
 
 [Term]
-id: EMAPA:18389
-name: rest of hindgut lumen
-namespace: anatomical_structure
-relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17900 ! rest of hindgut
-relationship: part_of EMAPA:18396 ! hindgut lumen
-relationship: starts_at TS21 ! TS21
-
-[Term]
 id: EMAPA:18390
 name: duodenum caudal part lumen
 namespace: anatomical_structure
@@ -18626,7 +18589,8 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:18396
 name: hindgut lumen
 namespace: anatomical_structure
-relationship: ends_at TS23 ! TS23
+alt_id: EMAPA:18389
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16715 ! hindgut
 relationship: part_of EMAPA:32908 ! gut lumen
 relationship: starts_at TS15 ! TS15
@@ -23371,6 +23335,7 @@ id: EMAPA:19253
 name: midgut derived large intestine
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16255 ! midgut
 relationship: part_of EMAPA:19252 ! large intestine
 relationship: starts_at TS26 ! TS26
 
@@ -23379,6 +23344,7 @@ id: EMAPA:19254
 name: hindgut derived large intestine
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16715 ! hindgut
 relationship: part_of EMAPA:19252 ! large intestine
 relationship: starts_at TS26 ! TS26
 
@@ -33600,53 +33566,53 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27067
-name: rest of hindgut mucosa
+name: hindgut mucosa
 namespace: anatomical_structure
 is_a: EMAPA:36591 ! alimentary system mucosa
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17900 ! rest of hindgut
+relationship: part_of EMAPA:16715 ! hindgut
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27069
-name: rest of hindgut submucosa
+name: hindgut submucosa
 namespace: anatomical_structure
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17900 ! rest of hindgut
+relationship: part_of EMAPA:16715 ! hindgut
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27071
-name: rest of hindgut muscularis
+name: hindgut muscularis
 namespace: anatomical_structure
 is_a: EMAPA:35385 ! gut muscularis
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17900 ! rest of hindgut
+relationship: part_of EMAPA:16715 ! hindgut
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27073
-name: rest of hindgut serosa
+name: hindgut serosa
 namespace: anatomical_structure
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17900 ! rest of hindgut
+relationship: part_of EMAPA:16715 ! hindgut
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27077
-name: rest of hindgut lamina propria
+name: hindgut lamina propria
 namespace: anatomical_structure
 is_a: EMAPA:36592 ! alimentary system lamina propria
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:27067 ! rest of hindgut mucosa
+relationship: part_of EMAPA:27067 ! hindgut mucosa
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27079
-name: rest of hindgut muscularis mucosa
+name: hindgut muscularis mucosa
 namespace: anatomical_structure
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:27067 ! rest of hindgut mucosa
+relationship: part_of EMAPA:27067 ! hindgut mucosa
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -42410,8 +42376,9 @@ id: EMAPA:32764
 name: ileum
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16255 ! midgut
 relationship: part_of EMAPA:32834 ! small intestine
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:32765
@@ -43623,7 +43590,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:32908
 name: gut lumen
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16247 ! gut
 relationship: starts_at TS12 ! TS12
 
@@ -43741,7 +43708,6 @@ id: EMAPA:32922
 name: foregut epithelium
 namespace: anatomical_structure
 alt_id: EMAPA:16555
-synonym: "rest of foregut epithelium" EXACT []
 is_a: EMAPA:32928 ! gut epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16548 ! foregut
@@ -52110,8 +52076,8 @@ relationship: starts_at TS03 ! TS03
 id: EMAPA:36064
 name: cranial preganglion
 namespace: anatomical_structure
+is_a: EMAPA:16658 ! central nervous system ganglion
 relationship: ends_at TS15 ! TS15
-relationship: part_of EMAPA:16658 ! central nervous system ganglion
 relationship: starts_at TS15 ! TS15
 
 [Term]
