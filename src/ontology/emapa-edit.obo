@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 03:05:2016 16:41
-saved-by: terryh
+date: 05:05:2016 18:05
+saved-by: jarm
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -27730,55 +27730,55 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:25164
 name: L1 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+is_a: EMAPA:36678 ! lumbar dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:25165
 name: L2 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+is_a: EMAPA:36678 ! lumbar dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:25166
 name: L3 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+is_a: EMAPA:36678 ! lumbar dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:25167
 name: L4 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+is_a: EMAPA:36678 ! lumbar dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:25168
 name: L5 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+is_a: EMAPA:36678 ! lumbar dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:25169
 name: L6 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+is_a: EMAPA:36678 ! lumbar dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:25170
 name: S1 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
+is_a: EMAPA:36679 ! sacral dorsal root ganglion
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS22 ! TS22
 
@@ -27786,7 +27786,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:25171
 name: S2 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
+is_a: EMAPA:36679 ! sacral dorsal root ganglion
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS22 ! TS22
 
@@ -27794,7 +27794,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:25172
 name: S3 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
+is_a: EMAPA:36679 ! sacral dorsal root ganglion
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS22 ! TS22
 
@@ -27802,7 +27802,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:25173
 name: S4 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
+is_a: EMAPA:36679 ! sacral dorsal root ganglion
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS22 ! TS22
 
@@ -27810,105 +27810,105 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:25174
 name: T1 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+is_a: EMAPA:36677 ! thoracic dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:25175
 name: T2 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+is_a: EMAPA:36677 ! thoracic dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:25176
 name: T3 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+is_a: EMAPA:36677 ! thoracic dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:25177
 name: T4 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+is_a: EMAPA:36677 ! thoracic dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:25178
 name: T6 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+is_a: EMAPA:36677 ! thoracic dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:25179
 name: T5 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+is_a: EMAPA:36677 ! thoracic dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:25180
 name: T7 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+is_a: EMAPA:36677 ! thoracic dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:25181
 name: T8 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+is_a: EMAPA:36677 ! thoracic dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:25182
 name: T9 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+is_a: EMAPA:36677 ! thoracic dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:25183
 name: T10 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+is_a: EMAPA:36677 ! thoracic dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:25184
 name: T11 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+is_a: EMAPA:36677 ! thoracic dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:25185
 name: T12 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+is_a: EMAPA:36677 ! thoracic dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:25186
 name: T13 dorsal root ganglion
 namespace: anatomical_structure
-is_a: EMAPA:16668 ! dorsal root ganglion
-relationship: ends_at TS26 ! TS26
-relationship: starts_at TS26 ! TS26
+is_a: EMAPA:36677 ! thoracic dorsal root ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:25187
@@ -39967,11 +39967,11 @@ id: EMAPA:31527
 name: pelvic ganglion
 namespace: anatomical_structure
 alt_id: EMAPA:31522
-def: "The pelvic ganglion (TS20-TS28): the pelvic ganglia provide autonomic innervation to the organs of the genitourinary system and lower bowel and are comprised of both sympathetic and parasympathetic neurons. In the mouse they are paired, morphologically discrete, major ganglia in the pelvic region positioned on either side of the urethra where the urethra meets the bladder neck. The pelvic ganglia are derived from the sacral neural crest progenitors that migrate ventrally from the level of somites X-Y ventrally into the urogenital sinus where they form aggregates between the hind gut and the urogenital sinus during organogenesis. In the GUDMAP database, the pelvic ganglia are considered part of the genitourinary system, although some of the sympathetic and parasympathetic neurons project instead to the lower bowel." [PMID:22988430, PMID:25968320]
+def: "The pelvic ganglion (TS19-TS28): the pelvic ganglia provide autonomic innervation to the organs of the genitourinary system and lower bowel and are comprised of both sympathetic and parasympathetic neurons. In the mouse they are paired, morphologically discrete, major ganglia in the pelvic region positioned on either side of the urethra where the urethra meets the bladder neck. The pelvic ganglia are derived from the sacral neural crest progenitors that migrate ventrally from the level of somites X-Y ventrally into the urogenital sinus where they form aggregates between the hind gut and the urogenital sinus during organogenesis. In the GUDMAP database, the pelvic ganglia are considered part of the genitourinary system, although some of the sympathetic and parasympathetic neurons project instead to the lower bowel." [PMID:22988430, PMID:25968320]
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: part_of EMAPA:31533 ! nerves of urogenital sinus
-relationship: starts_at TS20 ! TS20
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:31528
