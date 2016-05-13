@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 05:05:2016 18:05
-saved-by: jarm
+date: 13:05:2016 17:02
+saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
 remark: Version 012
@@ -8547,6 +8547,7 @@ name: cornea
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
+relationship: part_of EMAPA:36594 ! eye anterior segment
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -11591,6 +11592,7 @@ namespace: anatomical_structure
 synonym: "whisker" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17525 ! skin
+relationship: part_of EMAPA:36704 ! mystacial pad
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -14254,6 +14256,7 @@ name: lens
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
+relationship: part_of EMAPA:36594 ! eye anterior segment
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -17224,6 +17227,7 @@ name: eye anterior chamber
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
+relationship: part_of EMAPA:36594 ! eye anterior segment
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -21907,7 +21911,8 @@ id: EMAPA:19065
 name: ciliary body
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17168 ! retina
+relationship: part_of EMAPA:35901 ! uvea
+relationship: part_of EMAPA:36594 ! eye anterior segment
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -21925,6 +21930,7 @@ name: choroid
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
+relationship: part_of EMAPA:35901 ! uvea
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -22577,7 +22583,8 @@ id: EMAPA:19154
 name: iris
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16198 ! eye
+relationship: part_of EMAPA:35901 ! uvea
+relationship: part_of EMAPA:36594 ! eye anterior segment
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -45353,7 +45360,7 @@ name: ciliary muscle
 namespace: anatomical_structure
 is_a: EMAPA:18808 ! intrinsic ocular muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16198 ! eye
+relationship: part_of EMAPA:19065 ! ciliary body
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -50700,8 +50707,8 @@ id: EMAPA:35901
 name: uvea
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:18231 ! eye anterior chamber
-relationship: starts_at TS28 ! TS28
+relationship: part_of EMAPA:16198 ! eye
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:35902
@@ -56514,7 +56521,7 @@ name: eye anterior segment
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:36595
@@ -57422,6 +57429,16 @@ is_a: EMAPA:36699 ! primordial germ cell
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16719 ! hindgut dorsal mesentery
 relationship: starts_at TS14 ! TS14
+
+[Term]
+id: EMAPA:36704
+name: mystacial pad
+namespace: anatomical_structure
+synonym: "vibrissal pad" RELATED []
+synonym: "whisker pad" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17525 ! skin
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: group_term
