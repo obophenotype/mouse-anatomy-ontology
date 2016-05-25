@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:05:2016 17:02
+date: 25:05:2016 16:46
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -44863,7 +44863,7 @@ namespace: anatomical_structure
 is_a: EMAPA:32743 ! blood vessel
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16894 ! brain
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35183
@@ -48354,7 +48354,7 @@ namespace: anatomical_structure
 is_a: EMAPA:18425 ! gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16542 ! nose
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:35614
@@ -50914,7 +50914,7 @@ namespace: anatomical_structure
 synonym: "white adipose tissue" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35112 ! adipose tissue
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35927
