@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:05:2016 16:46
+date: 01:06:2016 17:17
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -6645,6 +6645,7 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:16847
 name: hepatic primordium
 namespace: anatomical_structure
+synonym: "liver primordium" RELATED []
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16363 ! foregut-midgut junction
 relationship: starts_at TS14 ! TS14
@@ -6653,6 +6654,7 @@ relationship: starts_at TS14 ! TS14
 id: EMAPA:16848
 name: hepatic primordium parenchyma
 namespace: anatomical_structure
+synonym: "liver primordium parenchyma" RELATED []
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16847 ! hepatic primordium
 relationship: starts_at TS16 ! TS16
@@ -41774,7 +41776,7 @@ synonym: "bronchiolar epithelium" RELATED []
 is_a: EMAPA:32860 ! lung epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32697 ! bronchiole
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:32694
@@ -45408,9 +45410,9 @@ id: EMAPA:35247
 name: cochlea epithelium
 namespace: anatomical_structure
 is_a: EMAPA:32883 ! inner ear epithelium
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17597 ! cochlea
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35248
