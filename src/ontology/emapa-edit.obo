@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 01:06:2016 17:17
+date: 03:06:2016 15:52
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -7716,10 +7716,10 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:17003
 name: eye surface ectoderm
 namespace: anatomical_structure
-relationship: ends_at TS17 ! TS17
+relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16096 ! surface ectoderm
 relationship: part_of EMAPA:16198 ! eye
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:17004
@@ -55900,7 +55900,7 @@ name: retina limiting lamina
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17168 ! retina
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:36518
@@ -55916,7 +55916,7 @@ name: retina internal limiting lamina
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36517 ! retina limiting lamina
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:36520
