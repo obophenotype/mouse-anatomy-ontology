@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 03:06:2016 15:52
+date: 09:06:2016 16:41
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -379,16 +379,16 @@ id: EMAPA:16073
 name: neural ectoderm
 namespace: anatomical_structure
 synonym: "neurectoderm" RELATED []
+is_a: EMAPA:16069 ! embryo ectoderm
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16069 ! embryo ectoderm
 relationship: starts_at TS10 ! TS10
 
 [Term]
 id: EMAPA:16074
 name: non-neural ectoderm
 namespace: anatomical_structure
+is_a: EMAPA:16069 ! embryo ectoderm
 relationship: ends_at TS10 ! TS10
-relationship: part_of EMAPA:16069 ! embryo ectoderm
 relationship: starts_at TS10 ! TS10
 
 [Term]
@@ -548,8 +548,8 @@ id: EMAPA:16096
 name: surface ectoderm
 namespace: anatomical_structure
 synonym: "surface epithelium" RELATED []
+is_a: EMAPA:16069 ! embryo ectoderm
 relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16069 ! embryo ectoderm
 relationship: starts_at TS11 ! TS11
 
 [Term]
@@ -2016,7 +2016,7 @@ relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16286
-name: future hindbrain posterior to rhombomere 05
+name: future hindbrain posterior to rhombomere 5
 namespace: anatomical_structure
 relationship: ends_at TS13 ! TS13
 relationship: part_of EMAPA:16148 ! future hindbrain
@@ -2024,33 +2024,33 @@ relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16287
-name: future hindbrain posterior to rhombomere 05 floor plate
+name: future hindbrain posterior to rhombomere 5 floor plate
 namespace: anatomical_structure
 relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16286 ! future hindbrain posterior to rhombomere 05
+relationship: part_of EMAPA:16286 ! future hindbrain posterior to rhombomere 5
 relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16288
-name: future hindbrain posterior to rhombomere 05 neural fold
+name: future hindbrain posterior to rhombomere 5 neural fold
 namespace: anatomical_structure
 is_a: EMAPA:16155 ! future hindbrain neural fold
 relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16286 ! future hindbrain posterior to rhombomere 05
+relationship: part_of EMAPA:16286 ! future hindbrain posterior to rhombomere 5
 relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16289
-name: future hindbrain posterior to rhombomere 05 neural crest
+name: future hindbrain posterior to rhombomere 5 neural crest
 namespace: anatomical_structure
 is_a: EMAPA:16156 ! future hindbrain neural crest
 relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16288 ! future hindbrain posterior to rhombomere 05 neural fold
+relationship: part_of EMAPA:16288 ! future hindbrain posterior to rhombomere 5 neural fold
 relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16290
-name: rhombomere 01
+name: rhombomere 1
 namespace: anatomical_structure
 alt_id: EMAPA:16480
 alt_id: EMAPA:16918
@@ -2062,7 +2062,7 @@ relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16291
-name: rhombomere 01 floor plate
+name: rhombomere 1 floor plate
 namespace: anatomical_structure
 alt_id: EMAPA:16481
 alt_id: EMAPA:16919
@@ -2070,22 +2070,22 @@ alt_id: EMAPA:17093
 is_a: EMAPA:32684 ! floor plate
 is_a: EMAPA:32818 ! rhombomere floor plate
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16290 ! rhombomere 01
+relationship: part_of EMAPA:16290 ! rhombomere 1
 relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16292
-name: rhombomere 01 neural fold
+name: rhombomere 1 neural fold
 namespace: anatomical_structure
 is_a: EMAPA:16155 ! future hindbrain neural fold
 is_a: EMAPA:35748 ! rhombomere neural fold
 relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16290 ! rhombomere 01
+relationship: part_of EMAPA:16290 ! rhombomere 1
 relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16293
-name: rhombomere 02
+name: rhombomere 2
 namespace: anatomical_structure
 alt_id: EMAPA:16484
 alt_id: EMAPA:16925
@@ -2097,7 +2097,7 @@ relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16294
-name: rhombomere 02 floor plate
+name: rhombomere 2 floor plate
 namespace: anatomical_structure
 alt_id: EMAPA:16485
 alt_id: EMAPA:16926
@@ -2105,31 +2105,31 @@ alt_id: EMAPA:17100
 is_a: EMAPA:32684 ! floor plate
 is_a: EMAPA:32818 ! rhombomere floor plate
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16293 ! rhombomere 02
+relationship: part_of EMAPA:16293 ! rhombomere 2
 relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16295
-name: rhombomere 02 neural fold
+name: rhombomere 2 neural fold
 namespace: anatomical_structure
 is_a: EMAPA:16155 ! future hindbrain neural fold
 is_a: EMAPA:35748 ! rhombomere neural fold
 relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16293 ! rhombomere 02
+relationship: part_of EMAPA:16293 ! rhombomere 2
 relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16296
-name: rhombomere 02 neural crest
+name: rhombomere 2 neural crest
 namespace: anatomical_structure
 is_a: EMAPA:35747 ! rhombomere neural crest
 relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16295 ! rhombomere 02 neural fold
+relationship: part_of EMAPA:16295 ! rhombomere 2 neural fold
 relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16297
-name: rhombomere 03
+name: rhombomere 3
 namespace: anatomical_structure
 alt_id: EMAPA:16488
 alt_id: EMAPA:16932
@@ -2141,7 +2141,7 @@ relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16298
-name: rhombomere 03 floor plate
+name: rhombomere 3 floor plate
 namespace: anatomical_structure
 alt_id: EMAPA:16489
 alt_id: EMAPA:16933
@@ -2149,31 +2149,31 @@ alt_id: EMAPA:17107
 is_a: EMAPA:32684 ! floor plate
 is_a: EMAPA:32818 ! rhombomere floor plate
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16297 ! rhombomere 03
+relationship: part_of EMAPA:16297 ! rhombomere 3
 relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16299
-name: rhombomere 03 neural fold
+name: rhombomere 3 neural fold
 namespace: anatomical_structure
 is_a: EMAPA:16155 ! future hindbrain neural fold
 is_a: EMAPA:35748 ! rhombomere neural fold
 relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16297 ! rhombomere 03
+relationship: part_of EMAPA:16297 ! rhombomere 3
 relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16300
-name: rhombomere 03 neural crest
+name: rhombomere 3 neural crest
 namespace: anatomical_structure
 is_a: EMAPA:35747 ! rhombomere neural crest
 relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16299 ! rhombomere 03 neural fold
+relationship: part_of EMAPA:16299 ! rhombomere 3 neural fold
 relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16301
-name: rhombomere 04
+name: rhombomere 4
 namespace: anatomical_structure
 alt_id: EMAPA:16492
 alt_id: EMAPA:16939
@@ -2185,7 +2185,7 @@ relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16302
-name: rhombomere 04 floor plate
+name: rhombomere 4 floor plate
 namespace: anatomical_structure
 alt_id: EMAPA:16493
 alt_id: EMAPA:16940
@@ -2193,31 +2193,31 @@ alt_id: EMAPA:17114
 is_a: EMAPA:32684 ! floor plate
 is_a: EMAPA:32818 ! rhombomere floor plate
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16301 ! rhombomere 04
+relationship: part_of EMAPA:16301 ! rhombomere 4
 relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16303
-name: rhombomere 04 neural fold
+name: rhombomere 4 neural fold
 namespace: anatomical_structure
 is_a: EMAPA:16155 ! future hindbrain neural fold
 is_a: EMAPA:35748 ! rhombomere neural fold
 relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16301 ! rhombomere 04
+relationship: part_of EMAPA:16301 ! rhombomere 4
 relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16304
-name: rhombomere 04 neural crest
+name: rhombomere 4 neural crest
 namespace: anatomical_structure
 is_a: EMAPA:35747 ! rhombomere neural crest
 relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16303 ! rhombomere 04 neural fold
+relationship: part_of EMAPA:16303 ! rhombomere 4 neural fold
 relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16305
-name: rhombomere 05
+name: rhombomere 5
 namespace: anatomical_structure
 alt_id: EMAPA:16496
 alt_id: EMAPA:16946
@@ -2229,7 +2229,7 @@ relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16306
-name: rhombomere 05 floor plate
+name: rhombomere 5 floor plate
 namespace: anatomical_structure
 alt_id: EMAPA:16497
 alt_id: EMAPA:16947
@@ -2237,35 +2237,35 @@ alt_id: EMAPA:17121
 is_a: EMAPA:32684 ! floor plate
 is_a: EMAPA:32818 ! rhombomere floor plate
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16305 ! rhombomere 05
+relationship: part_of EMAPA:16305 ! rhombomere 5
 relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16307
-name: rhombomere 05 neural fold
+name: rhombomere 5 neural fold
 namespace: anatomical_structure
 is_a: EMAPA:16155 ! future hindbrain neural fold
 is_a: EMAPA:35748 ! rhombomere neural fold
 relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16305 ! rhombomere 05
+relationship: part_of EMAPA:16305 ! rhombomere 5
 relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16308
-name: rhombomere 05 neural crest
+name: rhombomere 5 neural crest
 namespace: anatomical_structure
 is_a: EMAPA:35747 ! rhombomere neural crest
 relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16307 ! rhombomere 05 neural fold
+relationship: part_of EMAPA:16307 ! rhombomere 5 neural fold
 relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16309
-name: rhombomere 01 neural crest
+name: rhombomere 1 neural crest
 namespace: anatomical_structure
 is_a: EMAPA:35747 ! rhombomere neural crest
 relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16292 ! rhombomere 01 neural fold
+relationship: part_of EMAPA:16292 ! rhombomere 1 neural fold
 relationship: starts_at TS13 ! TS13
 
 [Term]
@@ -2368,15 +2368,6 @@ name: optic eminence
 namespace: anatomical_structure
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16198 ! eye
-relationship: starts_at TS13 ! TS13
-
-[Term]
-id: EMAPA:16323
-name: optic eminence ectoderm
-namespace: anatomical_structure
-is_a: EMAPA:16069 ! embryo ectoderm
-relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16322 ! optic eminence
 relationship: starts_at TS13 ! TS13
 
 [Term]
@@ -3706,117 +3697,117 @@ relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16482
-name: rhombomere 01 lateral wall
+name: rhombomere 1 lateral wall
 namespace: anatomical_structure
 alt_id: EMAPA:16920
 alt_id: EMAPA:17094
 is_a: EMAPA:32819 ! rhombomere lateral wall
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16290 ! rhombomere 01
+relationship: part_of EMAPA:16290 ! rhombomere 1
 relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16483
-name: rhombomere 01 roof plate
+name: rhombomere 1 roof plate
 namespace: anatomical_structure
 alt_id: EMAPA:16924
 alt_id: EMAPA:17098
 is_a: EMAPA:32824 ! rhombomere roof plate
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16290 ! rhombomere 01
+relationship: part_of EMAPA:16290 ! rhombomere 1
 relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16486
-name: rhombomere 02 lateral wall
+name: rhombomere 2 lateral wall
 namespace: anatomical_structure
 alt_id: EMAPA:16927
 alt_id: EMAPA:17101
 is_a: EMAPA:32819 ! rhombomere lateral wall
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16293 ! rhombomere 02
+relationship: part_of EMAPA:16293 ! rhombomere 2
 relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16487
-name: rhombomere 02 roof plate
+name: rhombomere 2 roof plate
 namespace: anatomical_structure
 alt_id: EMAPA:16931
 alt_id: EMAPA:17105
 is_a: EMAPA:32824 ! rhombomere roof plate
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16293 ! rhombomere 02
+relationship: part_of EMAPA:16293 ! rhombomere 2
 relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16490
-name: rhombomere 03 lateral wall
+name: rhombomere 3 lateral wall
 namespace: anatomical_structure
 alt_id: EMAPA:16934
 alt_id: EMAPA:17108
 is_a: EMAPA:32819 ! rhombomere lateral wall
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16297 ! rhombomere 03
+relationship: part_of EMAPA:16297 ! rhombomere 3
 relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16491
-name: rhombomere 03 roof plate
+name: rhombomere 3 roof plate
 namespace: anatomical_structure
 alt_id: EMAPA:16938
 alt_id: EMAPA:17112
 is_a: EMAPA:32824 ! rhombomere roof plate
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16297 ! rhombomere 03
+relationship: part_of EMAPA:16297 ! rhombomere 3
 relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16494
-name: rhombomere 04 lateral wall
+name: rhombomere 4 lateral wall
 namespace: anatomical_structure
 alt_id: EMAPA:16941
 alt_id: EMAPA:17115
 is_a: EMAPA:32819 ! rhombomere lateral wall
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16301 ! rhombomere 04
+relationship: part_of EMAPA:16301 ! rhombomere 4
 relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16495
-name: rhombomere 04 roof plate
+name: rhombomere 4 roof plate
 namespace: anatomical_structure
 alt_id: EMAPA:16945
 alt_id: EMAPA:17119
 is_a: EMAPA:32824 ! rhombomere roof plate
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16301 ! rhombomere 04
+relationship: part_of EMAPA:16301 ! rhombomere 4
 relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16498
-name: rhombomere 05 lateral wall
+name: rhombomere 5 lateral wall
 namespace: anatomical_structure
 alt_id: EMAPA:16948
 alt_id: EMAPA:17122
 is_a: EMAPA:32819 ! rhombomere lateral wall
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16305 ! rhombomere 05
+relationship: part_of EMAPA:16305 ! rhombomere 5
 relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16499
-name: rhombomere 05 roof plate
+name: rhombomere 5 roof plate
 namespace: anatomical_structure
 alt_id: EMAPA:16952
 alt_id: EMAPA:17126
 is_a: EMAPA:32824 ! rhombomere roof plate
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16305 ! rhombomere 05
+relationship: part_of EMAPA:16305 ! rhombomere 5
 relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16500
-name: rhombomere 06
+name: rhombomere 6
 namespace: anatomical_structure
 alt_id: EMAPA:16953
 alt_id: EMAPA:17127
@@ -3827,41 +3818,41 @@ relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16501
-name: rhombomere 06 floor plate
+name: rhombomere 6 floor plate
 namespace: anatomical_structure
 alt_id: EMAPA:16954
 alt_id: EMAPA:17128
 is_a: EMAPA:32684 ! floor plate
 is_a: EMAPA:32818 ! rhombomere floor plate
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16500 ! rhombomere 06
+relationship: part_of EMAPA:16500 ! rhombomere 6
 relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16502
-name: rhombomere 06 lateral wall
+name: rhombomere 6 lateral wall
 namespace: anatomical_structure
 alt_id: EMAPA:16955
 alt_id: EMAPA:17129
 is_a: EMAPA:32819 ! rhombomere lateral wall
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16500 ! rhombomere 06
+relationship: part_of EMAPA:16500 ! rhombomere 6
 relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16503
-name: rhombomere 06 roof plate
+name: rhombomere 6 roof plate
 namespace: anatomical_structure
 alt_id: EMAPA:16959
 alt_id: EMAPA:17133
 is_a: EMAPA:32824 ! rhombomere roof plate
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16500 ! rhombomere 06
+relationship: part_of EMAPA:16500 ! rhombomere 6
 relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16504
-name: rhombomere 07
+name: rhombomere 7
 namespace: anatomical_structure
 alt_id: EMAPA:16960
 alt_id: EMAPA:17134
@@ -3872,41 +3863,41 @@ relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16505
-name: rhombomere 07 floor plate
+name: rhombomere 7 floor plate
 namespace: anatomical_structure
 alt_id: EMAPA:16961
 alt_id: EMAPA:17135
 is_a: EMAPA:32684 ! floor plate
 is_a: EMAPA:32818 ! rhombomere floor plate
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16504 ! rhombomere 07
+relationship: part_of EMAPA:16504 ! rhombomere 7
 relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16506
-name: rhombomere 07 lateral wall
+name: rhombomere 7 lateral wall
 namespace: anatomical_structure
 alt_id: EMAPA:16962
 alt_id: EMAPA:17136
 is_a: EMAPA:32819 ! rhombomere lateral wall
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16504 ! rhombomere 07
+relationship: part_of EMAPA:16504 ! rhombomere 7
 relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16507
-name: rhombomere 07 roof plate
+name: rhombomere 7 roof plate
 namespace: anatomical_structure
 alt_id: EMAPA:16966
 alt_id: EMAPA:17140
 is_a: EMAPA:32824 ! rhombomere roof plate
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16504 ! rhombomere 07
+relationship: part_of EMAPA:16504 ! rhombomere 7
 relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16508
-name: rhombomere 08
+name: rhombomere 8
 namespace: anatomical_structure
 alt_id: EMAPA:16967
 alt_id: EMAPA:17141
@@ -3917,36 +3908,36 @@ relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16509
-name: rhombomere 08 floor plate
+name: rhombomere 8 floor plate
 namespace: anatomical_structure
 alt_id: EMAPA:16968
 alt_id: EMAPA:17142
 is_a: EMAPA:32684 ! floor plate
 is_a: EMAPA:32818 ! rhombomere floor plate
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16508 ! rhombomere 08
+relationship: part_of EMAPA:16508 ! rhombomere 8
 relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16510
-name: rhombomere 08 lateral wall
+name: rhombomere 8 lateral wall
 namespace: anatomical_structure
 alt_id: EMAPA:16969
 alt_id: EMAPA:17143
 is_a: EMAPA:32819 ! rhombomere lateral wall
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16508 ! rhombomere 08
+relationship: part_of EMAPA:16508 ! rhombomere 8
 relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16511
-name: rhombomere 08 roof plate
+name: rhombomere 8 roof plate
 namespace: anatomical_structure
 alt_id: EMAPA:16973
 alt_id: EMAPA:17147
 is_a: EMAPA:32824 ! rhombomere roof plate
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16508 ! rhombomere 08
+relationship: part_of EMAPA:16508 ! rhombomere 8
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -4088,10 +4079,12 @@ relationship: starts_at TS14 ! TS14
 id: EMAPA:16539
 name: optic eminence surface ectoderm
 namespace: anatomical_structure
+alt_id: EMAPA:16323
+synonym: "optic eminence ectoderm" EXACT []
 relationship: ends_at TS14 ! TS14
-relationship: part_of EMAPA:16096 ! surface ectoderm
 relationship: part_of EMAPA:16322 ! optic eminence
-relationship: starts_at TS14 ! TS14
+relationship: part_of EMAPA:17003 ! eye surface ectoderm
+relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16540
@@ -5277,7 +5270,7 @@ relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:16696
-name: endocardial cushion tissue
+name: endocardial cushion
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16105 ! heart
@@ -6082,90 +6075,90 @@ relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:16786
-name: rhombomere 01 ventricular layer
+name: rhombomere 1 ventricular layer
 namespace: anatomical_structure
 alt_id: EMAPA:16923
 alt_id: EMAPA:17097
 is_a: EMAPA:32823 ! rhombomere ventricular layer
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16482 ! rhombomere 01 lateral wall
+relationship: part_of EMAPA:16482 ! rhombomere 1 lateral wall
 relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:16787
-name: rhombomere 02 ventricular layer
+name: rhombomere 2 ventricular layer
 namespace: anatomical_structure
 alt_id: EMAPA:16930
 alt_id: EMAPA:17104
 is_a: EMAPA:32823 ! rhombomere ventricular layer
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16486 ! rhombomere 02 lateral wall
+relationship: part_of EMAPA:16486 ! rhombomere 2 lateral wall
 relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:16788
-name: rhombomere 03 ventricular layer
+name: rhombomere 3 ventricular layer
 namespace: anatomical_structure
 alt_id: EMAPA:16937
 alt_id: EMAPA:17111
 is_a: EMAPA:32823 ! rhombomere ventricular layer
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16490 ! rhombomere 03 lateral wall
+relationship: part_of EMAPA:16490 ! rhombomere 3 lateral wall
 relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:16789
-name: rhombomere 04 ventricular layer
+name: rhombomere 4 ventricular layer
 namespace: anatomical_structure
 alt_id: EMAPA:16944
 alt_id: EMAPA:17118
 is_a: EMAPA:32823 ! rhombomere ventricular layer
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16494 ! rhombomere 04 lateral wall
+relationship: part_of EMAPA:16494 ! rhombomere 4 lateral wall
 relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:16790
-name: rhombomere 05 ventricular layer
+name: rhombomere 5 ventricular layer
 namespace: anatomical_structure
 alt_id: EMAPA:16951
 alt_id: EMAPA:17125
 is_a: EMAPA:32823 ! rhombomere ventricular layer
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16498 ! rhombomere 05 lateral wall
+relationship: part_of EMAPA:16498 ! rhombomere 5 lateral wall
 relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:16791
-name: rhombomere 06 ventricular layer
+name: rhombomere 6 ventricular layer
 namespace: anatomical_structure
 alt_id: EMAPA:16958
 alt_id: EMAPA:17132
 is_a: EMAPA:32823 ! rhombomere ventricular layer
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16502 ! rhombomere 06 lateral wall
+relationship: part_of EMAPA:16502 ! rhombomere 6 lateral wall
 relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:16792
-name: rhombomere 07 ventricular layer
+name: rhombomere 7 ventricular layer
 namespace: anatomical_structure
 alt_id: EMAPA:16965
 alt_id: EMAPA:17139
 is_a: EMAPA:32823 ! rhombomere ventricular layer
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16506 ! rhombomere 07 lateral wall
+relationship: part_of EMAPA:16506 ! rhombomere 7 lateral wall
 relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:16793
-name: rhombomere 08 ventricular layer
+name: rhombomere 8 ventricular layer
 namespace: anatomical_structure
 alt_id: EMAPA:16972
 alt_id: EMAPA:17146
 is_a: EMAPA:32823 ! rhombomere ventricular layer
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16510 ! rhombomere 08 lateral wall
+relationship: part_of EMAPA:16510 ! rhombomere 8 lateral wall
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -7302,162 +7295,162 @@ relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16921
-name: rhombomere 01 mantle layer
+name: rhombomere 1 mantle layer
 namespace: anatomical_structure
 alt_id: EMAPA:17095
 is_a: EMAPA:32825 ! rhombomere mantle layer
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16482 ! rhombomere 01 lateral wall
+relationship: part_of EMAPA:16482 ! rhombomere 1 lateral wall
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:16922
-name: rhombomere 01 marginal layer
+name: rhombomere 1 marginal layer
 namespace: anatomical_structure
 alt_id: EMAPA:17096
 is_a: EMAPA:32822 ! rhombomere marginal layer
 is_a: EMAPA:32825 ! rhombomere mantle layer
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16482 ! rhombomere 01 lateral wall
+relationship: part_of EMAPA:16482 ! rhombomere 1 lateral wall
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:16928
-name: rhombomere 02 mantle layer
+name: rhombomere 2 mantle layer
 namespace: anatomical_structure
 alt_id: EMAPA:17102
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16486 ! rhombomere 02 lateral wall
+relationship: part_of EMAPA:16486 ! rhombomere 2 lateral wall
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:16929
-name: rhombomere 02 marginal layer
+name: rhombomere 2 marginal layer
 namespace: anatomical_structure
 alt_id: EMAPA:17103
 is_a: EMAPA:32822 ! rhombomere marginal layer
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16486 ! rhombomere 02 lateral wall
+relationship: part_of EMAPA:16486 ! rhombomere 2 lateral wall
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:16935
-name: rhombomere 03 mantle layer
+name: rhombomere 3 mantle layer
 namespace: anatomical_structure
 alt_id: EMAPA:17109
 is_a: EMAPA:32825 ! rhombomere mantle layer
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16490 ! rhombomere 03 lateral wall
+relationship: part_of EMAPA:16490 ! rhombomere 3 lateral wall
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:16936
-name: rhombomere 03 marginal layer
+name: rhombomere 3 marginal layer
 namespace: anatomical_structure
 alt_id: EMAPA:17110
 is_a: EMAPA:32822 ! rhombomere marginal layer
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16490 ! rhombomere 03 lateral wall
+relationship: part_of EMAPA:16490 ! rhombomere 3 lateral wall
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:16942
-name: rhombomere 04 mantle layer
+name: rhombomere 4 mantle layer
 namespace: anatomical_structure
 alt_id: EMAPA:17116
 is_a: EMAPA:32825 ! rhombomere mantle layer
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16494 ! rhombomere 04 lateral wall
+relationship: part_of EMAPA:16494 ! rhombomere 4 lateral wall
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:16943
-name: rhombomere 04 marginal layer
+name: rhombomere 4 marginal layer
 namespace: anatomical_structure
 alt_id: EMAPA:17117
 is_a: EMAPA:32822 ! rhombomere marginal layer
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16494 ! rhombomere 04 lateral wall
+relationship: part_of EMAPA:16494 ! rhombomere 4 lateral wall
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:16949
-name: rhombomere 05 mantle layer
+name: rhombomere 5 mantle layer
 namespace: anatomical_structure
 alt_id: EMAPA:17123
 is_a: EMAPA:32825 ! rhombomere mantle layer
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16498 ! rhombomere 05 lateral wall
+relationship: part_of EMAPA:16498 ! rhombomere 5 lateral wall
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:16950
-name: rhombomere 05 marginal layer
+name: rhombomere 5 marginal layer
 namespace: anatomical_structure
 alt_id: EMAPA:17124
 is_a: EMAPA:32822 ! rhombomere marginal layer
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16498 ! rhombomere 05 lateral wall
+relationship: part_of EMAPA:16498 ! rhombomere 5 lateral wall
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:16956
-name: rhombomere 06 mantle layer
+name: rhombomere 6 mantle layer
 namespace: anatomical_structure
 alt_id: EMAPA:17130
 is_a: EMAPA:32825 ! rhombomere mantle layer
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16502 ! rhombomere 06 lateral wall
+relationship: part_of EMAPA:16502 ! rhombomere 6 lateral wall
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:16957
-name: rhombomere 06 marginal layer
+name: rhombomere 6 marginal layer
 namespace: anatomical_structure
 alt_id: EMAPA:17131
 is_a: EMAPA:32822 ! rhombomere marginal layer
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16502 ! rhombomere 06 lateral wall
+relationship: part_of EMAPA:16502 ! rhombomere 6 lateral wall
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:16963
-name: rhombomere 07 mantle layer
+name: rhombomere 7 mantle layer
 namespace: anatomical_structure
 alt_id: EMAPA:17137
 is_a: EMAPA:32825 ! rhombomere mantle layer
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16506 ! rhombomere 07 lateral wall
+relationship: part_of EMAPA:16506 ! rhombomere 7 lateral wall
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:16964
-name: rhombomere 07 marginal layer
+name: rhombomere 7 marginal layer
 namespace: anatomical_structure
 alt_id: EMAPA:17138
 is_a: EMAPA:32822 ! rhombomere marginal layer
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16506 ! rhombomere 07 lateral wall
+relationship: part_of EMAPA:16506 ! rhombomere 7 lateral wall
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:16970
-name: rhombomere 08 mantle layer
+name: rhombomere 8 mantle layer
 namespace: anatomical_structure
 alt_id: EMAPA:17144
 is_a: EMAPA:32825 ! rhombomere mantle layer
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16510 ! rhombomere 08 lateral wall
+relationship: part_of EMAPA:16510 ! rhombomere 8 lateral wall
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:16971
-name: rhombomere 08 marginal layer
+name: rhombomere 8 marginal layer
 namespace: anatomical_structure
 alt_id: EMAPA:17145
 is_a: EMAPA:32822 ! rhombomere marginal layer
 relationship: ends_at TS18 ! TS18
-relationship: part_of EMAPA:16510 ! rhombomere 08 lateral wall
+relationship: part_of EMAPA:16510 ! rhombomere 8 lateral wall
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -7766,7 +7759,7 @@ name: pulmonary artery
 namespace: anatomical_structure
 is_a: EMAPA:32867 ! lung vascular element
 is_a: EMAPA:35147 ! artery
-is_a: EMAPA:36460 ! heart great vessel
+is_a: EMAPA:36460 ! great vessel of heart
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS17 ! TS17
 
@@ -8646,7 +8639,6 @@ namespace: anatomical_structure
 synonym: "retinal pigmented epithelium" RELATED []
 is_a: EMAPA:35738 ! retina epithelium
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17168 ! retina
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -12360,13 +12352,14 @@ relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17618
-name: atrioventricular cushion tissue
+name: atrioventricular endocardial cushion
 namespace: anatomical_structure
 synonym: "atrio-ventricular cushion tissue" RELATED []
 synonym: "ependymal cushion tissue" RELATED []
+is_a: EMAPA:16696 ! endocardial cushion
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16105 ! heart
-relationship: starts_at TS20 ! TS20
+relationship: part_of EMAPA:16546 ! atrioventricular canal
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:17619
@@ -14179,6 +14172,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17829
 name: eyelid
 namespace: anatomical_structure
+is_a: EMAPA:35336 ! eye surface region
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
 relationship: starts_at TS21 ! TS21
@@ -18739,7 +18733,7 @@ id: EMAPA:18415
 name: vena cava
 namespace: anatomical_structure
 is_a: EMAPA:35932 ! venous blood vessel
-is_a: EMAPA:36460 ! heart great vessel
+is_a: EMAPA:36460 ! great vessel of heart
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS19 ! TS19
 
@@ -19639,7 +19633,7 @@ id: EMAPA:18601
 name: aorta
 namespace: anatomical_structure
 is_a: EMAPA:35144 ! arterial blood vessel
-is_a: EMAPA:36460 ! heart great vessel
+is_a: EMAPA:36460 ! great vessel of heart
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
@@ -19936,7 +19930,7 @@ name: pulmonary vein
 namespace: anatomical_structure
 is_a: EMAPA:32867 ! lung vascular element
 is_a: EMAPA:35906 ! vein
-is_a: EMAPA:36460 ! heart great vessel
+is_a: EMAPA:36460 ! great vessel of heart
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
@@ -29262,42 +29256,42 @@ relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:25358
-name: rhombomere 01 rest of neural fold
+name: rhombomere 1 rest of neural fold
 namespace: anatomical_structure
 relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16292 ! rhombomere 01 neural fold
+relationship: part_of EMAPA:16292 ! rhombomere 1 neural fold
 relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:25359
-name: rhombomere 02 rest of neural fold
+name: rhombomere 2 rest of neural fold
 namespace: anatomical_structure
 relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16295 ! rhombomere 02 neural fold
+relationship: part_of EMAPA:16295 ! rhombomere 2 neural fold
 relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:25360
-name: rhombomere 03 rest of neural fold
+name: rhombomere 3 rest of neural fold
 namespace: anatomical_structure
 relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16299 ! rhombomere 03 neural fold
+relationship: part_of EMAPA:16299 ! rhombomere 3 neural fold
 relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:25361
-name: rhombomere 04 rest of neural fold
+name: rhombomere 4 rest of neural fold
 namespace: anatomical_structure
 relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16303 ! rhombomere 04 neural fold
+relationship: part_of EMAPA:16303 ! rhombomere 4 neural fold
 relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:25362
-name: rhombomere 05 rest of neural fold
+name: rhombomere 5 rest of neural fold
 namespace: anatomical_structure
 relationship: ends_at TS13 ! TS13
-relationship: part_of EMAPA:16307 ! rhombomere 05 neural fold
+relationship: part_of EMAPA:16307 ! rhombomere 5 neural fold
 relationship: starts_at TS13 ! TS13
 
 [Term]
@@ -41908,6 +41902,7 @@ name: limb ectoderm
 namespace: anatomical_structure
 is_a: EMAPA:16069 ! embryo ectoderm
 relationship: ends_at TS19 ! TS19
+relationship: part_of EMAPA:16096 ! surface ectoderm
 relationship: part_of EMAPA:16405 ! limb
 relationship: starts_at TS14 ! TS14
 
@@ -42293,6 +42288,7 @@ namespace: anatomical_structure
 is_a: EMAPA:16069 ! embryo ectoderm
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16117 ! branchial arch
+relationship: part_of EMAPA:36705 ! head surface ectoderm
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -42456,10 +42452,10 @@ relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:32773
-name: tail ectoderm
+name: tail surface ectoderm
 namespace: anatomical_structure
-is_a: EMAPA:16069 ! embryo ectoderm
 relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16096 ! surface ectoderm
 relationship: part_of EMAPA:16748 ! tail
 relationship: starts_at TS15 ! TS15
 
@@ -46119,11 +46115,11 @@ relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35336
-name: eye surface
+name: eye surface region
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35337
@@ -47108,8 +47104,9 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35462
 name: lacrimal apparatus
 namespace: anatomical_structure
+is_a: EMAPA:35336 ! eye surface region
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35336 ! eye surface
+relationship: part_of EMAPA:16198 ! eye
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -48115,9 +48112,10 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:35585
 name: nasal process ectoderm
 namespace: anatomical_structure
-is_a: EMAPA:16069 ! embryo ectoderm
 relationship: ends_at TS19 ! TS19
+relationship: part_of EMAPA:16096 ! surface ectoderm
 relationship: part_of EMAPA:16680 ! nasal process
+relationship: part_of EMAPA:36705 ! head surface ectoderm
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -55424,8 +55422,9 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:36460
-name: heart great vessel
+name: great vessel of heart
 namespace: anatomical_structure
+synonym: "heart great vessel" RELATED []
 is_a: EMAPA:32743 ! blood vessel
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS17 ! TS17
@@ -55684,7 +55683,7 @@ name: ventral ectodermal ridge
 namespace: anatomical_structure
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16580 ! tail bud
-relationship: part_of EMAPA:32773 ! tail ectoderm
+relationship: part_of EMAPA:32773 ! tail surface ectoderm
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -57441,6 +57440,57 @@ synonym: "whisker pad" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17525 ! skin
 relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36705
+name: head surface ectoderm
+namespace: anatomical_structure
+relationship: ends_at TS19 ! TS19
+relationship: part_of EMAPA:16096 ! surface ectoderm
+relationship: part_of EMAPA:31858 ! head
+relationship: starts_at TS11 ! TS11
+
+[Term]
+id: EMAPA:36706
+name: trunk surface ectoderm
+namespace: anatomical_structure
+relationship: ends_at TS19 ! TS19
+relationship: part_of EMAPA:16096 ! surface ectoderm
+relationship: part_of EMAPA:31857 ! trunk
+relationship: starts_at TS12 ! TS12
+
+[Term]
+id: EMAPA:36707
+name: heart valve primordium
+namespace: anatomical_structure
+relationship: ends_at TS20 ! TS20
+relationship: part_of EMAPA:16105 ! heart
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36708
+name: atrioventricular valve primordium
+namespace: anatomical_structure
+is_a: EMAPA:36707 ! heart valve primordium
+relationship: ends_at TS20 ! TS20
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36709
+name: semilunar valve primordium
+namespace: anatomical_structure
+is_a: EMAPA:36707 ! heart valve primordium
+relationship: ends_at TS20 ! TS20
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36710
+name: outflow tract endocardial cushion
+namespace: anatomical_structure
+is_a: EMAPA:16696 ! endocardial cushion
+relationship: ends_at TS19 ! TS19
+relationship: part_of EMAPA:16346 ! outflow tract
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: group_term
