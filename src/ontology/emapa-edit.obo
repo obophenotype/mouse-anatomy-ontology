@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 09:06:2016 16:41
+date: 10:06:2016 14:16
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -41480,7 +41480,7 @@ id: EMAPA:32659
 name: arachnoid mater
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32660 ! meninges
+relationship: part_of EMAPA:36712 ! leptomeninges
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -41514,7 +41514,7 @@ id: EMAPA:32663
 name: pia mater
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32660 ! meninges
+relationship: part_of EMAPA:36712 ! leptomeninges
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -57491,6 +57491,22 @@ is_a: EMAPA:16696 ! endocardial cushion
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16346 ! outflow tract
 relationship: starts_at TS15 ! TS15
+
+[Term]
+id: EMAPA:36711
+name: primitive meninges
+namespace: anatomical_structure
+relationship: ends_at TS20 ! TS20
+relationship: part_of EMAPA:16470 ! central nervous system
+relationship: starts_at TS15 ! TS15
+
+[Term]
+id: EMAPA:36712
+name: leptomeninges
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32660 ! meninges
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: group_term
