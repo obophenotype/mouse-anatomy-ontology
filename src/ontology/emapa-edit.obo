@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 10:06:2016 14:16
+date: 14:06:2016 16:25
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -44996,8 +44996,9 @@ name: cecum
 namespace: anatomical_structure
 synonym: "caecum" RELATED []
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16715 ! hindgut
 relationship: part_of EMAPA:19252 ! large intestine
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35198
@@ -54224,7 +54225,7 @@ name: palatine vasculature
 namespace: anatomical_structure
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17362 ! palatal shelf
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:36317
