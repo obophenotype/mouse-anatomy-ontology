@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 14:06:2016 16:25
+date: 21:06:2016 17:15
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -8302,6 +8302,7 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:17075
 name: metencephalon alar plate mantle layer
 namespace: anatomical_structure
+is_a: EMAPA:36715 ! metencephalon mantle layer
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17073 ! metencephalon alar plate
 relationship: starts_at TS18 ! TS18
@@ -8310,6 +8311,7 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:17076
 name: metencephalon alar plate marginal layer
 namespace: anatomical_structure
+is_a: EMAPA:36713 ! metencephalon marginal layer
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17073 ! metencephalon alar plate
 relationship: starts_at TS18 ! TS18
@@ -8335,6 +8337,7 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:17079
 name: metencephalon basal plate mantle layer
 namespace: anatomical_structure
+is_a: EMAPA:36715 ! metencephalon mantle layer
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:17078 ! metencephalon basal plate
 relationship: starts_at TS18 ! TS18
@@ -8343,6 +8346,7 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:17080
 name: metencephalon basal plate marginal layer
 namespace: anatomical_structure
+is_a: EMAPA:36713 ! metencephalon marginal layer
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:17078 ! metencephalon basal plate
 relationship: starts_at TS18 ! TS18
@@ -8392,6 +8396,7 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:17086
 name: myelencephalon alar plate marginal layer
 namespace: anatomical_structure
+is_a: EMAPA:36714 ! myelencephalon marginal layer
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:17084 ! myelencephalon alar plate
 relationship: starts_at TS18 ! TS18
@@ -8425,6 +8430,7 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:17090
 name: myelencephalon basal plate marginal layer
 namespace: anatomical_structure
+is_a: EMAPA:36714 ! myelencephalon marginal layer
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:17088 ! myelencephalon basal plate
 relationship: starts_at TS18 ! TS18
@@ -44861,7 +44867,7 @@ namespace: anatomical_structure
 is_a: EMAPA:32743 ! blood vessel
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16894 ! brain
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35183
@@ -57508,6 +57514,33 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32660 ! meninges
 relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:36713
+name: metencephalon marginal layer
+namespace: anatomical_structure
+is_a: EMAPA:32916 ! hindbrain marginal layer
+relationship: ends_at TS22 ! TS22
+relationship: part_of EMAPA:17072 ! metencephalon lateral wall
+relationship: starts_at TS18 ! TS18
+
+[Term]
+id: EMAPA:36714
+name: myelencephalon marginal layer
+namespace: anatomical_structure
+is_a: EMAPA:32916 ! hindbrain marginal layer
+relationship: ends_at TS19 ! TS19
+relationship: part_of EMAPA:17083 ! myelencephalon lateral wall
+relationship: starts_at TS18 ! TS18
+
+[Term]
+id: EMAPA:36715
+name: metencephalon mantle layer
+namespace: anatomical_structure
+is_a: EMAPA:32917 ! hindbrain mantle layer
+relationship: ends_at TS22 ! TS22
+relationship: part_of EMAPA:17072 ! metencephalon lateral wall
+relationship: starts_at TS18 ! TS18
 
 [Term]
 id: group_term
