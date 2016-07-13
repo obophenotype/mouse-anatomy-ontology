@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 21:06:2016 17:15
+date: 13:07:2016 12:24
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -7056,10 +7056,11 @@ relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:16893
-name: body-wall mesenchyme
+name: body wall mesenchyme
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16177 ! trunk mesenchyme
+relationship: part_of EMAPA:32761 ! body wall
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -15415,7 +15416,6 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:18010
 name: rib
 namespace: anatomical_structure
-is_a: EMAPA:35503 ! long bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17396 ! axial skeleton thoracic region
 relationship: part_of EMAPA:36667 ! rib cage
@@ -43302,7 +43302,10 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:32874
 name: intestine
 namespace: anatomical_structure
+alt_id: EMAPA:35180
+synonym: "bowel" EXACT []
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16246 ! alimentary system
 relationship: part_of EMAPA:16247 ! gut
 relationship: starts_at TS18 ! TS18
 
@@ -44843,22 +44846,6 @@ is_a: EMAPA:35868 ! tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32782 ! bone
 relationship: starts_at TS27 ! TS27
-
-[Term]
-id: EMAPA:35180
-name: bowel
-namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16246 ! alimentary system
-relationship: starts_at TS28 ! TS28
-
-[Term]
-id: EMAPA:35181
-name: bowel wall
-namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35180 ! bowel
-relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:35182
@@ -46958,6 +46945,8 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:35444
 name: intestine wall
 namespace: anatomical_structure
+alt_id: EMAPA:35181
+synonym: "bowel wall" EXACT []
 synonym: "intestinal wall" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32874 ! intestine
