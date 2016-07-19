@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:07:2016 12:24
+date: 19:07:2016 12:23
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -41872,6 +41872,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:32704
 name: cerebral cortex subventricular zone
 namespace: anatomical_structure
+is_a: EMAPA:36716 ! telencephalon subventricular zone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17544 ! cerebral cortex
 relationship: starts_at TS20 ! TS20
@@ -42637,7 +42638,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:32794
 name: olfactory cortex subventricular zone
 namespace: anatomical_structure
-is_a: EMAPA:32804 ! brain subventricular zone
+is_a: EMAPA:36716 ! telencephalon subventricular zone
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17779 ! olfactory cortex
 relationship: starts_at TS26 ! TS26
@@ -56580,7 +56581,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36602
 name: hypothalamus subventricular zone
 namespace: anatomical_structure
-is_a: EMAPA:32804 ! brain subventricular zone
+is_a: EMAPA:36717 ! diencephalon subventricular zone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17536 ! hypothalamus
 relationship: starts_at TS22 ! TS22
@@ -56589,7 +56590,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:36603
 name: thalamus subventricular zone
 namespace: anatomical_structure
-is_a: EMAPA:32804 ! brain subventricular zone
+is_a: EMAPA:36717 ! diencephalon subventricular zone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17540 ! thalamus
 relationship: starts_at TS22 ! TS22
@@ -57026,7 +57027,7 @@ name: preoptic area
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17536 ! hypothalamus
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:36656
@@ -57530,6 +57531,24 @@ is_a: EMAPA:32917 ! hindbrain mantle layer
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17072 ! metencephalon lateral wall
 relationship: starts_at TS18 ! TS18
+
+[Term]
+id: EMAPA:36716
+name: telencephalon subventricular zone
+namespace: anatomical_structure
+is_a: EMAPA:32804 ! brain subventricular zone
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16910 ! telencephalon
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36717
+name: diencephalon subventricular zone
+namespace: anatomical_structure
+is_a: EMAPA:32804 ! brain subventricular zone
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16896 ! diencephalon
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: group_term
