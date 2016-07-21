@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 19:07:2016 12:23
+date: 21:07:2016 17:01
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -23337,7 +23337,7 @@ name: large intestine
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32874 ! intestine
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:19253
@@ -48658,7 +48658,7 @@ name: pancreatic acinus
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17503 ! pancreas
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35653
@@ -55326,7 +55326,7 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16089 ! future brain
 relationship: part_of EMAPA:16894 ! brain
-relationship: starts_at TS16 ! TS16
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:36450
