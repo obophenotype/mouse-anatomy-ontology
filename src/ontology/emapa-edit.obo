@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 27:07:2016 15:31
+date: 27:07:2016 15:37
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -57759,8 +57759,6 @@ is_a: EMAPA:35201 ! cardiovascular system endothelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16105 ! heart
 relationship: starts_at TS15 ! TS15
-created_by: terryh
-creation_date: 2016-07-27T14:49:16Z
 
 [Term]
 id: EMAPA:36728
@@ -57770,8 +57768,6 @@ is_a: EMAPA:35201 ! cardiovascular system endothelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16346 ! outflow tract
 relationship: starts_at TS15 ! TS15
-created_by: terryh
-creation_date: 2016-07-27T14:56:01Z
 
 [Term]
 id: EMAPA:36729
@@ -57780,8 +57776,6 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35905 ! vascular system
 relationship: starts_at TS20 ! TS20
-created_by: terryh
-creation_date: 2016-07-27T15:00:24Z
 
 [Term]
 id: EMAPA:36730
@@ -57793,8 +57787,6 @@ relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16181 ! splanchnopleure
 relationship: part_of EMAPA:16411 ! mesenchyme derived from splanchnopleure
 relationship: starts_at TS11 ! TS11
-created_by: terryh
-creation_date: 2016-07-27T15:21:03Z
 
 [Term]
 id: group_term
