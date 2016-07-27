@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 21:07:2016 17:01
+date: 27:07:2016 15:31
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -1562,9 +1562,9 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:16211
 name: primitive heart tube cardiac muscle
 namespace: anatomical_structure
-is_a: EMAPA:32688 ! cardiac muscle tissue
 relationship: ends_at TS12 ! TS12
 relationship: part_of EMAPA:16215 ! primitive heart tube
+relationship: part_of EMAPA:32688 ! cardiac muscle tissue
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -2581,9 +2581,9 @@ name: common atrial chamber cardiac muscle
 namespace: anatomical_structure
 alt_id: EMAPA:16228
 alt_id: EMAPA:16692
-is_a: EMAPA:32688 ! cardiac muscle tissue
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16342 ! common atrial chamber
+relationship: part_of EMAPA:32688 ! cardiac muscle tissue
 relationship: part_of EMAPA:32746 ! atrium cardiac muscle
 relationship: starts_at TS12 ! TS12
 
@@ -2663,9 +2663,9 @@ name: primitive ventricle cardiac muscle
 namespace: anatomical_structure
 alt_id: EMAPA:16236
 synonym: "primitive ventricle myocardium" RELATED []
-is_a: EMAPA:32688 ! cardiac muscle tissue
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16350 ! primitive ventricle
+relationship: part_of EMAPA:32688 ! cardiac muscle tissue
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -27625,6 +27625,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25146
 name: C1 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25145 ! C1 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -27633,6 +27634,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25147
 name: C1 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25145 ! C1 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -27667,6 +27669,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25151
 name: Tl1 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25150 ! Tl1 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -27675,6 +27678,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25153
 name: Tl1 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25150 ! Tl1 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28443,6 +28447,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25256
 name: C2 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25223 ! C2 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28451,6 +28456,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25257
 name: C2 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25223 ! C2 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28467,6 +28474,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25259
 name: C3 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25224 ! C3 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28475,6 +28483,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25260
 name: C4 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25225 ! C4 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28483,6 +28492,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25261
 name: C4 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25225 ! C4 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28491,6 +28501,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25262
 name: C5 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25226 ! C5 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28499,6 +28510,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25263
 name: C5 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25226 ! C5 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28507,6 +28519,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25264
 name: C6 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25227 ! C6 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28515,6 +28528,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25265
 name: C6 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25227 ! C6 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28523,6 +28537,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25266
 name: C7 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25228 ! C7 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28531,6 +28546,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25267
 name: C7 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25228 ! C7 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28539,6 +28555,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25268
 name: L1 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25230 ! L1 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28547,6 +28564,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25269
 name: L1 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25230 ! L1 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28555,6 +28573,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25270
 name: L2 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25231 ! L2 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28563,6 +28582,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25271
 name: L2 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25231 ! L2 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28571,6 +28591,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25272
 name: L3 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25232 ! L3 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28579,6 +28600,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25273
 name: L3 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25232 ! L3 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28587,6 +28609,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25274
 name: L4 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25233 ! L4 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28595,6 +28618,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25275
 name: L4 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25233 ! L4 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28603,6 +28627,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25276
 name: L5 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25234 ! L5 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28611,6 +28636,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25277
 name: L5 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25234 ! L5 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28619,6 +28645,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25278
 name: L6 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25235 ! L6 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28627,6 +28654,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25279
 name: L6 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25235 ! L6 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28643,6 +28672,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25281
 name: S1 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25236 ! S1 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28651,6 +28681,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25282
 name: S2 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25237 ! S2 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28659,6 +28690,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25283
 name: S2 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25237 ! S2 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28667,6 +28699,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25284
 name: S3 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25238 ! S3 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28675,6 +28708,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25285
 name: S3 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25238 ! S3 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28683,6 +28717,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25286
 name: S4 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25239 ! S4 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28691,6 +28726,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25287
 name: S4 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25239 ! S4 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28699,6 +28735,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25288
 name: T1 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25240 ! T1 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28707,6 +28744,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25289
 name: T1 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25240 ! T1 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28715,6 +28753,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25290
 name: T10 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25249 ! T10 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28723,6 +28762,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25291
 name: T11 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25250 ! T11 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28731,6 +28771,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25292
 name: T11 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25250 ! T11 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28739,6 +28780,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25293
 name: T10 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25249 ! T10 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28747,6 +28789,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25294
 name: T12 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25251 ! T12 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28755,6 +28798,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25295
 name: T12 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25251 ! T12 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28763,6 +28807,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25296
 name: T13 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25252 ! T13 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28771,6 +28816,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25297
 name: T2 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25241 ! T2 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28779,6 +28825,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25298
 name: T2 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25241 ! T2 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28787,6 +28834,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25299
 name: T3 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25242 ! T3 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28795,6 +28843,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25300
 name: T3 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25242 ! T3 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28803,6 +28852,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25301
 name: T4 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25243 ! T4 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28811,6 +28861,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25302
 name: T4 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25243 ! T4 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28819,6 +28870,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25303
 name: T5 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25244 ! T5 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28827,6 +28879,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25304
 name: T5 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25244 ! T5 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28835,6 +28888,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25305
 name: T6 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25245 ! T6 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28843,6 +28897,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25306
 name: T6 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25245 ! T6 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28851,6 +28906,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25307
 name: T7 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25246 ! T7 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28859,6 +28915,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25308
 name: T7 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25246 ! T7 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28867,6 +28924,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25309
 name: T8 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25247 ! T8 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28875,6 +28933,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25310
 name: T8 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25247 ! T8 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28883,6 +28942,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25311
 name: T9 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25248 ! T9 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28891,6 +28951,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25312
 name: T9 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25248 ! T9 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28899,6 +28960,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25313
 name: T13 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25252 ! T13 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28907,6 +28969,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25314
 name: Tl10 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25213 ! Tl10 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28915,6 +28978,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25315
 name: Tl10 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25213 ! Tl10 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28923,6 +28987,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25316
 name: Tl11 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25214 ! Tl11 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28931,6 +28996,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25317
 name: Tl11 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25214 ! Tl11 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28939,6 +29005,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25318
 name: Tl12 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25215 ! Tl12 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28947,6 +29014,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25319
 name: Tl12 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25215 ! Tl12 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28955,6 +29023,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25320
 name: Tl13 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25216 ! Tl13 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28963,6 +29032,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25321
 name: Tl13 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25216 ! Tl13 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28971,6 +29041,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25322
 name: Tl14 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25217 ! Tl14 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28979,6 +29050,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25323
 name: Tl14 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25217 ! Tl14 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28987,6 +29059,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25324
 name: Tl15 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25218 ! Tl15 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -28995,6 +29068,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25325
 name: Tl15 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25218 ! Tl15 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -29003,6 +29077,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25326
 name: Tl16 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25219 ! Tl16 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -29011,6 +29086,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25327
 name: Tl16 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25219 ! Tl16 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -29019,6 +29095,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25328
 name: Tl17 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25220 ! Tl17 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -29027,6 +29104,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25329
 name: Tl17 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25220 ! Tl17 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -29035,6 +29113,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25330
 name: Tl18 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25221 ! Tl18 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -29043,6 +29122,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25331
 name: Tl18 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25221 ! Tl18 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -29051,6 +29131,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25332
 name: Tl19 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25222 ! Tl19 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -29059,6 +29140,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25333
 name: Tl19 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25222 ! Tl19 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -29067,6 +29149,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25334
 name: Tl2 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25205 ! Tl2 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -29075,6 +29158,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25335
 name: Tl2 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25205 ! Tl2 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -29083,6 +29167,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25336
 name: Tl3 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25206 ! Tl3 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -29091,6 +29176,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25337
 name: Tl3 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25206 ! Tl3 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -29099,6 +29185,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25338
 name: Tl4 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25207 ! Tl4 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -29107,6 +29194,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25339
 name: Tl4 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25207 ! Tl4 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -29115,6 +29203,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25340
 name: Tl5 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25208 ! Tl5 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -29123,6 +29212,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25341
 name: Tl5 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25208 ! Tl5 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -29131,6 +29221,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25342
 name: Tl6 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25209 ! Tl6 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -29139,6 +29230,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25343
 name: Tl6 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25209 ! Tl6 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -29147,6 +29239,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25344
 name: Tl7 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25210 ! Tl7 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -29155,6 +29248,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25345
 name: Tl7 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25210 ! Tl7 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -29163,6 +29257,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25346
 name: Tl8 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25211 ! Tl8 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -29171,6 +29266,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25347
 name: Tl8 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25211 ! Tl8 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -29179,6 +29275,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25348
 name: Tl9 dorsal root
 namespace: anatomical_structure
+is_a: EMAPA:36718 ! spinal cord dorsal root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25212 ! Tl9 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -29187,6 +29284,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25349
 name: Tl9 ventral root
 namespace: anatomical_structure
+is_a: EMAPA:36720 ! spinal cord ventral root
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25212 ! Tl9 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32653,6 +32751,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26559
 name: C1 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25145 ! C1 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32661,6 +32760,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26561
 name: C2 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25223 ! C2 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32669,6 +32769,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26563
 name: C3 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25224 ! C3 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32677,6 +32778,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26565
 name: C4 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25225 ! C4 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32685,6 +32787,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26567
 name: C5 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25226 ! C5 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32693,6 +32796,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26569
 name: C6 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25227 ! C6 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32701,6 +32805,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26571
 name: C7 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25228 ! C7 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32709,6 +32814,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26573
 name: L1 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25230 ! L1 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32717,6 +32823,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26575
 name: L2 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25231 ! L2 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32725,6 +32832,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26577
 name: L3 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25232 ! L3 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32733,6 +32841,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26579
 name: L4 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25233 ! L4 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32741,6 +32850,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26581
 name: L5 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25234 ! L5 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32749,6 +32859,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26583
 name: L6 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25235 ! L6 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32757,6 +32868,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26585
 name: S1 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25236 ! S1 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32765,6 +32877,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26587
 name: S2 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25237 ! S2 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32773,6 +32886,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26589
 name: S3 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25238 ! S3 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32781,6 +32895,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26591
 name: S4 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25239 ! S4 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32789,6 +32904,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26593
 name: T1 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25240 ! T1 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32797,6 +32913,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26595
 name: T2 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25241 ! T2 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32805,6 +32922,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26597
 name: T3 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25242 ! T3 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32813,6 +32931,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26599
 name: T4 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25243 ! T4 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32821,6 +32940,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26601
 name: T5 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25244 ! T5 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32829,6 +32949,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26603
 name: T6 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25245 ! T6 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32837,6 +32958,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26605
 name: T7 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25246 ! T7 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32845,6 +32967,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26607
 name: T8 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25247 ! T8 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32853,6 +32976,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26609
 name: T9 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25248 ! T9 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32861,6 +32985,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26611
 name: T10 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25249 ! T10 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32869,6 +32994,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26613
 name: T11 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25250 ! T11 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32877,6 +33003,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26615
 name: T12 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25251 ! T12 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -32885,6 +33012,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26617
 name: T13 mixed spinal nerve
 namespace: anatomical_structure
+is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25252 ! T13 segmental spinal nerve
 relationship: starts_at TS26 ! TS26
@@ -42230,9 +42358,9 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:32746
 name: atrium cardiac muscle
 namespace: anatomical_structure
-is_a: EMAPA:32688 ! cardiac muscle tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16688 ! heart atrium
+relationship: part_of EMAPA:32688 ! cardiac muscle tissue
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -42248,9 +42376,9 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:32748
 name: ventricle cardiac muscle
 namespace: anatomical_structure
-is_a: EMAPA:32688 ! cardiac muscle tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17331 ! heart ventricle
+relationship: part_of EMAPA:32688 ! cardiac muscle tissue
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -48432,9 +48560,9 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35623
 name: outflow tract cardiac muscle
 namespace: anatomical_structure
-is_a: EMAPA:32688 ! cardiac muscle tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16346 ! outflow tract
+relationship: part_of EMAPA:32688 ! cardiac muscle tissue
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -55651,9 +55779,9 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:36488
 name: bulbus cordis cardiac muscle
 namespace: anatomical_structure
-is_a: EMAPA:32688 ! cardiac muscle tissue
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16333 ! bulbus cordis
+relationship: part_of EMAPA:32688 ! cardiac muscle tissue
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -57549,6 +57677,124 @@ is_a: EMAPA:32804 ! brain subventricular zone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16896 ! diencephalon
 relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36718
+name: spinal cord dorsal root
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16990 ! segmental spinal nerve
+relationship: starts_at TS26 ! TS26
+
+[Term]
+id: EMAPA:36719
+name: spinal cord mixed spinal nerve
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16990 ! segmental spinal nerve
+relationship: starts_at TS26 ! TS26
+
+[Term]
+id: EMAPA:36720
+name: spinal cord ventral root
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16990 ! segmental spinal nerve
+relationship: starts_at TS26 ! TS26
+
+[Term]
+id: EMAPA:36721
+name: trabecular myocardium
+namespace: anatomical_structure
+is_a: EMAPA:32688 ! cardiac muscle tissue
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS17 ! TS17
+
+[Term]
+id: EMAPA:36722
+name: compact myocardium
+namespace: anatomical_structure
+is_a: EMAPA:32688 ! cardiac muscle tissue
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36723
+name: heart papillary muscle
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16105 ! heart
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36724
+name: atrioventricular canal endocardial lining
+namespace: anatomical_structure
+is_a: EMAPA:32686 ! endocardial lining
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16546 ! atrioventricular canal
+relationship: starts_at TS15 ! TS15
+
+[Term]
+id: EMAPA:36725
+name: superior atrioventricular endocardial cushion
+namespace: anatomical_structure
+is_a: EMAPA:17618 ! atrioventricular endocardial cushion
+relationship: ends_at TS26 ! TS26
+relationship: starts_at TS15 ! TS15
+
+[Term]
+id: EMAPA:36726
+name: inferior atrioventricular endocardial cushion
+namespace: anatomical_structure
+is_a: EMAPA:17618 ! atrioventricular endocardial cushion
+relationship: ends_at TS26 ! TS26
+relationship: starts_at TS15 ! TS15
+
+[Term]
+id: EMAPA:36727
+name: heart endothelium
+namespace: anatomical_structure
+is_a: EMAPA:35201 ! cardiovascular system endothelium
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16105 ! heart
+relationship: starts_at TS15 ! TS15
+created_by: terryh
+creation_date: 2016-07-27T14:49:16Z
+
+[Term]
+id: EMAPA:36728
+name: outflow tract endothelium
+namespace: anatomical_structure
+is_a: EMAPA:35201 ! cardiovascular system endothelium
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16346 ! outflow tract
+relationship: starts_at TS15 ! TS15
+created_by: terryh
+creation_date: 2016-07-27T14:56:01Z
+
+[Term]
+id: EMAPA:36729
+name: vasculature
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35905 ! vascular system
+relationship: starts_at TS20 ! TS20
+created_by: terryh
+creation_date: 2016-07-27T15:00:24Z
+
+[Term]
+id: EMAPA:36730
+name: secondary heart field
+namespace: anatomical_structure
+synonym: "anterior heart field" RELATED []
+synonym: "second heart field" RELATED []
+relationship: ends_at TS16 ! TS16
+relationship: part_of EMAPA:16181 ! splanchnopleure
+relationship: part_of EMAPA:16411 ! mesenchyme derived from splanchnopleure
+relationship: starts_at TS11 ! TS11
+created_by: terryh
+creation_date: 2016-07-27T15:21:03Z
 
 [Term]
 id: group_term
