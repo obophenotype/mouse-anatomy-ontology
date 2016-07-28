@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 27:07:2016 15:37
+date: 28:07:2016 17:12
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -33525,6 +33525,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27021
 name: foregut-midgut junction lamina propria
 namespace: anatomical_structure
+is_a: EMAPA:36592 ! alimentary system lamina propria
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:27011 ! foregut-midgut junction mucosa
 relationship: starts_at TS23 ! TS23
@@ -33631,6 +33632,7 @@ id: EMAPA:27049
 name: gastro-esophageal junction lamina propria
 namespace: anatomical_structure
 alt_id: EMAPA:27283
+is_a: EMAPA:36592 ! alimentary system lamina propria
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27039 ! gastro-esophageal junction mucosa
 relationship: starts_at TS23 ! TS23
@@ -33906,6 +33908,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:27367
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:27109 ! jejunum mucosa
+relationship: part_of EMAPA:35779 ! small intestine lamina propria
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -34382,7 +34385,7 @@ id: EMAPA:27255
 name: duodenum lamina propria
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:27235 ! duodenum mucosa
+relationship: part_of EMAPA:35779 ! small intestine lamina propria
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -45089,6 +45092,7 @@ id: EMAPA:35194
 name: bronchus lamina propria
 namespace: anatomical_structure
 synonym: "bronchial lamina propria" RELATED []
+is_a: EMAPA:36746 ! lamina propria
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32689 ! bronchus
 relationship: starts_at TS27 ! TS27
@@ -46497,6 +46501,7 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35371
 name: gallbladder lamina propria
 namespace: anatomical_structure
+is_a: EMAPA:36746 ! lamina propria
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17202 ! gallbladder
 relationship: starts_at TS28 ! TS28
@@ -49241,7 +49246,7 @@ id: EMAPA:35706
 name: primary somatosensory cortex
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35357 ! frontal cortex
+relationship: part_of EMAPA:36731 ! somatosensory cortex
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -49635,7 +49640,7 @@ id: EMAPA:35756
 name: secondary somatosensory cortex
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35667 ! parietal cortex
+relationship: part_of EMAPA:36731 ! somatosensory cortex
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -49834,7 +49839,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36695 ! intestine lamina propria
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35780 ! small intestine mucosa
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35780
@@ -49843,7 +49848,7 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35440 ! intestine mucosa
 relationship: part_of EMAPA:35785 ! small intestine wall
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35781
@@ -50620,6 +50625,7 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35877
 name: trachea lamina propria
 namespace: anatomical_structure
+is_a: EMAPA:36746 ! lamina propria
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35878 ! trachea non-cartilage connective tissue
 relationship: starts_at TS27 ! TS27
@@ -51900,6 +51906,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:36027
 name: nasal cavity lamina propria
 namespace: anatomical_structure
+is_a: EMAPA:36746 ! lamina propria
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36026 ! nasal cavity mucosa
 relationship: starts_at TS21 ! TS21
@@ -51916,6 +51923,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36029
 name: nasal septum lamina propria
 namespace: anatomical_structure
+is_a: EMAPA:36746 ! lamina propria
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36028 ! nasal septum mucosa
 relationship: starts_at TS23 ! TS23
@@ -55103,6 +55111,7 @@ name: female prepuce lamina propria
 namespace: anatomical_structure
 synonym: "female prepuce connective tissue" RELATED []
 synonym: "female prepuce stroma" RELATED []
+is_a: EMAPA:36746 ! lamina propria
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30699 ! prepuce of female
 relationship: starts_at TS28 ! TS28
@@ -56628,6 +56637,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36592
 name: alimentary system lamina propria
 namespace: anatomical_structure
+is_a: EMAPA:36746 ! lamina propria
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36591 ! alimentary system mucosa
 relationship: starts_at TS23 ! TS23
@@ -57787,6 +57797,139 @@ relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16181 ! splanchnopleure
 relationship: part_of EMAPA:16411 ! mesenchyme derived from splanchnopleure
 relationship: starts_at TS11 ! TS11
+
+[Term]
+id: EMAPA:36731
+name: somatosensory cortex
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35667 ! parietal cortex
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36732
+name: prefrontal cortex
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35357 ! frontal cortex
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36733
+name: orbitofrontal cortex
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36732 ! prefrontal cortex
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36734
+name: CA1 stratum radiatum
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32768 ! hippocampus CA1
+relationship: part_of EMAPA:35413 ! hippocampus stratum radiatum
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36735
+name: conjunctiva epithelium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18233 ! conjunctival sac
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36736
+name: fast muscle tissue
+namespace: anatomical_structure
+is_a: EMAPA:32716 ! skeletal muscle tissue
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36737
+name: slow muscle tissue
+namespace: anatomical_structure
+is_a: EMAPA:32716 ! skeletal muscle tissue
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36738
+name: jaw primordium epithelium
+namespace: anatomical_structure
+is_a: EMAPA:16839 ! oral region epithelium
+relationship: ends_at TS20 ! TS20
+relationship: part_of EMAPA:32901 ! jaw primordium
+relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:36739
+name: dental placode
+namespace: anatomical_structure
+synonym: "tooth placode" RELATED []
+relationship: ends_at TS21 ! TS21
+relationship: part_of EMAPA:32904 ! jaw epithelium
+relationship: part_of EMAPA:36738 ! jaw primordium epithelium
+relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:36740
+name: tooth bud
+namespace: anatomical_structure
+synonym: "bud stage tooth" RELATED []
+is_a: EMAPA:32906 ! tooth
+relationship: ends_at TS22 ! TS22
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:36741
+name: cap stage tooth
+namespace: anatomical_structure
+is_a: EMAPA:32906 ! tooth
+relationship: ends_at TS23 ! TS23
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36742
+name: bell stage tooth
+namespace: anatomical_structure
+is_a: EMAPA:32906 ! tooth
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36743
+name: early bell stage tooth
+namespace: anatomical_structure
+is_a: EMAPA:36742 ! bell stage tooth
+relationship: ends_at TS25 ! TS25
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36744
+name: mid bell stage tooth
+namespace: anatomical_structure
+is_a: EMAPA:36742 ! bell stage tooth
+relationship: ends_at TS26 ! TS26
+relationship: starts_at TS25 ! TS25
+
+[Term]
+id: EMAPA:36745
+name: late bell stage tooth
+namespace: anatomical_structure
+is_a: EMAPA:36742 ! bell stage tooth
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS26 ! TS26
+
+[Term]
+id: EMAPA:36746
+name: lamina propria
+namespace: anatomical_structure
+is_a: EMAPA:35251 ! connective tissue
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: group_term
