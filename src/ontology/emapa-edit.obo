@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 28:07:2016 17:12
+date: 30:08:2016 16:14
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -6358,7 +6358,7 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:16815
 name: common atrial chamber left part endocardial lining
 namespace: anatomical_structure
-is_a: EMAPA:32686 ! endocardial lining
+is_a: EMAPA:16691 ! common atrial chamber endocardial lining
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16813 ! common atrial chamber left part
 relationship: starts_at TS16 ! TS16
@@ -6376,7 +6376,7 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:16817
 name: left auricular region endocardial lining
 namespace: anatomical_structure
-is_a: EMAPA:32686 ! endocardial lining
+is_a: EMAPA:16691 ! common atrial chamber endocardial lining
 is_a: EMAPA:36061 ! common atrial chamber auricular region endocardial lining
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16816 ! left auricular region
@@ -6422,7 +6422,7 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:16822
 name: common atrial chamber right part endocardial lining
 namespace: anatomical_structure
-is_a: EMAPA:32686 ! endocardial lining
+is_a: EMAPA:16691 ! common atrial chamber endocardial lining
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16820 ! common atrial chamber right part
 relationship: starts_at TS16 ! TS16
@@ -6449,7 +6449,7 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:16825
 name: right auricular region endocardial lining
 namespace: anatomical_structure
-is_a: EMAPA:32686 ! endocardial lining
+is_a: EMAPA:16691 ! common atrial chamber endocardial lining
 is_a: EMAPA:36061 ! common atrial chamber auricular region endocardial lining
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16824 ! right auricular region
@@ -9796,7 +9796,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17317
 name: left atrium auricular region endocardial lining
 namespace: anatomical_structure
-is_a: EMAPA:32686 ! endocardial lining
+is_a: EMAPA:17319 ! left atrium endocardial lining
 is_a: EMAPA:36057 ! atrium auricular region endocardial lining
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17316 ! left atrium auricular region
@@ -9816,7 +9816,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17319
 name: left atrium endocardial lining
 namespace: anatomical_structure
-is_a: EMAPA:32686 ! endocardial lining
+is_a: EMAPA:32745 ! atrium endocardial lining
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17315 ! left atrium
 relationship: starts_at TS19 ! TS19
@@ -9851,7 +9851,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17323
 name: right atrium auricular region endocardial lining
 namespace: anatomical_structure
-is_a: EMAPA:32686 ! endocardial lining
+is_a: EMAPA:17325 ! right atrium endocardial lining
 is_a: EMAPA:36057 ! atrium auricular region endocardial lining
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17322 ! right atrium auricular region
@@ -9871,7 +9871,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17325
 name: right atrium endocardial lining
 namespace: anatomical_structure
-is_a: EMAPA:32686 ! endocardial lining
+is_a: EMAPA:32745 ! atrium endocardial lining
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17321 ! right atrium
 relationship: starts_at TS19 ! TS19
@@ -9988,7 +9988,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17338
 name: left ventricle endocardial lining
 namespace: anatomical_structure
-is_a: EMAPA:32686 ! endocardial lining
+is_a: EMAPA:32747 ! ventricle endocardial lining
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17337 ! heart left ventricle
 relationship: starts_at TS19 ! TS19
@@ -10015,7 +10015,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17341
 name: right ventricle endocardial lining
 namespace: anatomical_structure
-is_a: EMAPA:32686 ! endocardial lining
+is_a: EMAPA:32747 ! ventricle endocardial lining
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17340 ! heart right ventricle
 relationship: starts_at TS19 ! TS19
@@ -57930,6 +57930,27 @@ namespace: anatomical_structure
 is_a: EMAPA:35251 ! connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:36747
+name: iridocorneal angle
+namespace: anatomical_structure
+synonym: "iridial angle" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36594 ! eye anterior segment
+relationship: starts_at TS28 ! TS28
+created_by: terryh
+creation_date: 2016-08-12T09:46:29Z
+
+[Term]
+id: EMAPA:36748
+name: eye trabecular meshwork
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36594 ! eye anterior segment
+relationship: starts_at TS28 ! TS28
+created_by: terryh
+creation_date: 2016-08-12T09:47:30Z
 
 [Term]
 id: group_term
