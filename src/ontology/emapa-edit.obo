@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 22:09:2016 11:36
+date: 22:09:2016 16:13
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -5080,7 +5080,7 @@ is_a: EMAPA:36751 ! cranial placode
 is_a: EMAPA:36760 ! non-neurogenic placode
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16198 ! eye
-relationship: starts_at TS15 ! TS15
+relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16673
@@ -57957,8 +57957,9 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:36749
-name: preplacodal ectoderm
+name: pre-placodal region
 namespace: anatomical_structure
+synonym: "preplacodal ectoderm" RELATED []
 synonym: "preplacodal region" RELATED []
 synonym: "preplacode ectoderm" RELATED []
 synonym: "preplacode region" RELATED []
@@ -58084,6 +58085,30 @@ namespace: anatomical_structure
 is_a: EMAPA:36762 ! integumental system placode
 relationship: ends_at TS22 ! TS22
 relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36764
+name: otic pre-placode
+namespace: anatomical_structure
+is_a: EMAPA:36749 ! pre-placodal region
+relationship: ends_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
+
+[Term]
+id: EMAPA:36765
+name: pituitary pre-placode
+namespace: anatomical_structure
+is_a: EMAPA:36749 ! pre-placodal region
+relationship: ends_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
+
+[Term]
+id: EMAPA:36766
+name: lens pre-placode
+namespace: anatomical_structure
+is_a: EMAPA:36749 ! pre-placodal region
+relationship: ends_at TS15 ! TS15
+relationship: starts_at TS14 ! TS14
 
 [Term]
 id: group_term
