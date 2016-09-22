@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 30:08:2016 16:14
+date: 22:09:2016 11:36
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -388,7 +388,7 @@ id: EMAPA:16074
 name: non-neural ectoderm
 namespace: anatomical_structure
 is_a: EMAPA:16069 ! embryo ectoderm
-relationship: ends_at TS10 ! TS10
+relationship: ends_at TS26 ! TS26
 relationship: starts_at TS10 ! TS10
 
 [Term]
@@ -548,7 +548,7 @@ id: EMAPA:16096
 name: surface ectoderm
 namespace: anatomical_structure
 synonym: "surface epithelium" RELATED []
-is_a: EMAPA:16069 ! embryo ectoderm
+is_a: EMAPA:16074 ! non-neural ectoderm
 relationship: ends_at TS19 ! TS19
 relationship: starts_at TS11 ! TS11
 
@@ -1448,6 +1448,7 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:16195
 name: otic placode
 namespace: anatomical_structure
+is_a: EMAPA:36754 ! neurogenic placode
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16194 ! inner ear
 relationship: starts_at TS12 ! TS12
@@ -4115,9 +4116,10 @@ relationship: starts_at TS14 ! TS14
 
 [Term]
 id: EMAPA:16543
-name: nasal placode
+name: olfactory placode
 namespace: anatomical_structure
-synonym: "olfactory placode" RELATED []
+synonym: "nasal placode" RELATED []
+is_a: EMAPA:36751 ! cranial placode
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16542 ! nose
 relationship: starts_at TS14 ! TS14
@@ -5074,6 +5076,8 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:16672
 name: lens placode
 namespace: anatomical_structure
+is_a: EMAPA:36751 ! cranial placode
+is_a: EMAPA:36760 ! non-neurogenic placode
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16198 ! eye
 relationship: starts_at TS15 ! TS15
@@ -42038,7 +42042,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:32708
 name: limb ectoderm
 namespace: anatomical_structure
-is_a: EMAPA:16069 ! embryo ectoderm
+is_a: EMAPA:16074 ! non-neural ectoderm
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16096 ! surface ectoderm
 relationship: part_of EMAPA:16405 ! limb
@@ -42423,7 +42427,7 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:32753
 name: branchial arch ectoderm
 namespace: anatomical_structure
-is_a: EMAPA:16069 ! embryo ectoderm
+is_a: EMAPA:16074 ! non-neural ectoderm
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16117 ! branchial arch
 relationship: part_of EMAPA:36705 ! head surface ectoderm
@@ -47912,7 +47916,8 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:35541
 name: mammary placode
 namespace: anatomical_structure
-relationship: ends_at TS19 ! TS19
+is_a: EMAPA:36762 ! integumental system placode
+relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:16096 ! surface ectoderm
 relationship: starts_at TS19 ! TS19
 
@@ -51604,7 +51609,7 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:35990
 name: alimentary system ectoderm
 namespace: anatomical_structure
-is_a: EMAPA:16069 ! embryo ectoderm
+is_a: EMAPA:16074 ! non-neural ectoderm
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:16246 ! alimentary system
 relationship: starts_at TS12 ! TS12
@@ -55729,6 +55734,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36481
 name: hair epidermal placode
 namespace: anatomical_structure
+is_a: EMAPA:36762 ! integumental system placode
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18771 ! hair follicle
 relationship: starts_at TS22 ! TS22
@@ -57869,6 +57875,7 @@ id: EMAPA:36739
 name: dental placode
 namespace: anatomical_structure
 synonym: "tooth placode" RELATED []
+is_a: EMAPA:36760 ! non-neurogenic placode
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:32904 ! jaw epithelium
 relationship: part_of EMAPA:36738 ! jaw primordium epithelium
@@ -57939,8 +57946,6 @@ synonym: "iridial angle" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36594 ! eye anterior segment
 relationship: starts_at TS28 ! TS28
-created_by: terryh
-creation_date: 2016-08-12T09:46:29Z
 
 [Term]
 id: EMAPA:36748
@@ -57949,8 +57954,136 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36594 ! eye anterior segment
 relationship: starts_at TS28 ! TS28
-created_by: terryh
-creation_date: 2016-08-12T09:47:30Z
+
+[Term]
+id: EMAPA:36749
+name: preplacodal ectoderm
+namespace: anatomical_structure
+synonym: "preplacodal region" RELATED []
+synonym: "preplacode ectoderm" RELATED []
+synonym: "preplacode region" RELATED []
+is_a: EMAPA:16074 ! non-neural ectoderm
+relationship: ends_at TS15 ! TS15
+relationship: starts_at TS11 ! TS11
+
+[Term]
+id: EMAPA:36750
+name: ectodermal placode
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16074 ! non-neural ectoderm
+relationship: starts_at TS12 ! TS12
+
+[Term]
+id: EMAPA:36751
+name: cranial placode
+namespace: anatomical_structure
+is_a: EMAPA:36750 ! ectodermal placode
+relationship: ends_at TS17 ! TS17
+relationship: starts_at TS12 ! TS12
+
+[Term]
+id: EMAPA:36752
+name: optic placode
+namespace: anatomical_structure
+is_a: EMAPA:36751 ! cranial placode
+relationship: ends_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
+
+[Term]
+id: EMAPA:36753
+name: adenohyophyseal placode
+namespace: anatomical_structure
+synonym: "hypophyseal placode" RELATED []
+is_a: EMAPA:36751 ! cranial placode
+relationship: ends_at TS14 ! TS14
+relationship: starts_at TS12 ! TS12
+
+[Term]
+id: EMAPA:36754
+name: neurogenic placode
+namespace: anatomical_structure
+is_a: EMAPA:36750 ! ectodermal placode
+is_a: EMAPA:36751 ! cranial placode
+relationship: ends_at TS17 ! TS17
+relationship: starts_at TS12 ! TS12
+
+[Term]
+id: EMAPA:36755
+name: trigeminal placode
+namespace: anatomical_structure
+is_a: EMAPA:36754 ! neurogenic placode
+relationship: ends_at TS17 ! TS17
+relationship: starts_at TS12 ! TS12
+
+[Term]
+id: EMAPA:36756
+name: epibranchial placode
+namespace: anatomical_structure
+is_a: EMAPA:36754 ! neurogenic placode
+relationship: ends_at TS17 ! TS17
+relationship: starts_at TS12 ! TS12
+
+[Term]
+id: EMAPA:36757
+name: geniculate placode
+namespace: anatomical_structure
+synonym: "facial placode" RELATED []
+is_a: EMAPA:36756 ! epibranchial placode
+relationship: ends_at TS17 ! TS17
+relationship: starts_at TS13 ! TS13
+
+[Term]
+id: EMAPA:36758
+name: petrosal placode
+namespace: anatomical_structure
+synonym: "glossopharyngeal placode" RELATED []
+is_a: EMAPA:36756 ! epibranchial placode
+relationship: ends_at TS17 ! TS17
+relationship: starts_at TS14 ! TS14
+
+[Term]
+id: EMAPA:36759
+name: nodose placode
+namespace: anatomical_structure
+synonym: "nodosal placode" RELATED []
+synonym: "vagal placode" RELATED []
+is_a: EMAPA:36756 ! epibranchial placode
+relationship: ends_at TS17 ! TS17
+relationship: starts_at TS15 ! TS15
+
+[Term]
+id: EMAPA:36760
+name: non-neurogenic placode
+namespace: anatomical_structure
+is_a: EMAPA:36750 ! ectodermal placode
+relationship: ends_at TS26 ! TS26
+relationship: starts_at TS13 ! TS13
+
+[Term]
+id: EMAPA:36761
+name: tongue papillary placode
+namespace: anatomical_structure
+is_a: EMAPA:36760 ! non-neurogenic placode
+relationship: ends_at TS22 ! TS22
+relationship: part_of EMAPA:17185 ! tongue
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36762
+name: integumental system placode
+namespace: anatomical_structure
+is_a: EMAPA:36760 ! non-neurogenic placode
+relationship: ends_at TS26 ! TS26
+relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:36763
+name: vibrissa placode
+namespace: anatomical_structure
+is_a: EMAPA:36762 ! integumental system placode
+relationship: ends_at TS22 ! TS22
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: group_term
