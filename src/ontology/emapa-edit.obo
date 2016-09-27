@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 22:09:2016 16:13
+date: 27:09:2016 11:31
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -6600,8 +6600,8 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:16841
 name: cystic duct
 namespace: anatomical_structure
+is_a: EMAPA:36767 ! extrahepatic bile duct
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16840 ! liver and biliary system
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -6616,6 +6616,7 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:16844
 name: hepatic duct extrahepatic part
 namespace: anatomical_structure
+is_a: EMAPA:36767 ! extrahepatic bile duct
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16843 ! hepatic duct
 relationship: starts_at TS16 ! TS16
@@ -6624,6 +6625,7 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:16845
 name: hepatic duct intrahepatic part
 namespace: anatomical_structure
+is_a: EMAPA:36768 ! intrahepatic bile duct
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16843 ! hepatic duct
 relationship: part_of EMAPA:16846 ! liver
@@ -8871,8 +8873,8 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:17201
 name: common bile duct
 namespace: anatomical_structure
+is_a: EMAPA:36767 ! extrahepatic bile duct
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16840 ! liver and biliary system
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -10245,7 +10247,6 @@ name: metanephric mesenchyme
 namespace: anatomical_structure
 alt_id: EMAPA:17208
 alt_id: EMAPA:29990
-synonym: "kidney mesenchyme" RELATED []
 is_a: EMAPA:35898 ! urinary system mesenchyme
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:17366 ! urinary system
@@ -44332,9 +44333,9 @@ relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35105
-name: abducens VI nucleus
+name: abducens nucleus
 namespace: anatomical_structure
-synonym: "abducens nucleus" RELATED []
+synonym: "abducens VI nucleus" RELATED []
 is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17563 ! pons
@@ -44909,7 +44910,7 @@ name: bile duct
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35172 ! biliary tract
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:35172
@@ -44917,7 +44918,7 @@ name: biliary tract
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16840 ! liver and biliary system
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:35173
@@ -45543,13 +45544,13 @@ relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35248
-name: cochlear VIII nucleus
+name: cochlear nucleus
 namespace: anatomical_structure
-synonym: "cochlear nucleus" RELATED []
+synonym: "cochlear VIII nucleus" RELATED []
 is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17563 ! pons
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35249
@@ -45877,9 +45878,8 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:35289
 name: dorsal cochlear nucleus
 namespace: anatomical_structure
-is_a: EMAPA:35185 ! brain nucleus
+is_a: EMAPA:35248 ! cochlear nucleus
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35248 ! cochlear VIII nucleus
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -45893,9 +45893,9 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35291
-name: dorsal motor nucleus of vagus X nerve
+name: dorsal motor nucleus of vagus nerve
 namespace: anatomical_structure
-synonym: "dorsal motor nucleus of vagus nerve" RELATED []
+synonym: "dorsal motor nucleus of vagus X nerve" RELATED []
 is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17550 ! medulla oblongata
@@ -46263,9 +46263,9 @@ relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35338
-name: facial VII nucleus
+name: facial nucleus
 namespace: anatomical_structure
-synonym: "facial nucleus" RELATED []
+synonym: "facial VII nucleus" RELATED []
 is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17563 ! pons
@@ -46842,9 +46842,9 @@ relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35416
-name: hypoglossal XII nucleus
+name: hypoglossal nucleus
 namespace: anatomical_structure
-synonym: "hypoglossal nucleus" RELATED []
+synonym: "hypoglossal XII nucleus" RELATED []
 is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17550 ! medulla oblongata
@@ -48389,7 +48389,7 @@ namespace: anatomical_structure
 is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17563 ! pons
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35601
@@ -48426,9 +48426,9 @@ relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35605
-name: oculomotor III nucleus
+name: oculomotor nucleus
 namespace: anatomical_structure
-synonym: "oculomotor nucleus" RELATED []
+synonym: "oculomotor III nucleus" RELATED []
 is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18215 ! tegmentum
@@ -50675,14 +50675,14 @@ name: trigeminal V motor nucleus
 namespace: anatomical_structure
 synonym: "trigeminal motor nucleus" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35883 ! trigeminal V nucleus
+relationship: part_of EMAPA:35883 ! trigeminal nucleus
 relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35883
-name: trigeminal V nucleus
+name: trigeminal nucleus
 namespace: anatomical_structure
-synonym: "trigeminal nucleus" RELATED []
+synonym: "trigeminal V nucleus" RELATED []
 is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17563 ! pons
@@ -50694,7 +50694,7 @@ name: trigeminal V sensory nucleus
 namespace: anatomical_structure
 synonym: "trigeminal sensory nucleus" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35883 ! trigeminal V nucleus
+relationship: part_of EMAPA:35883 ! trigeminal nucleus
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -50708,9 +50708,9 @@ relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35886
-name: trochlear IV nucleus
+name: trochlear nucleus
 namespace: anatomical_structure
-synonym: "trochlear nucleus" RELATED []
+synonym: "trochlear IV nucleus" RELATED []
 is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18215 ! tegmentum
@@ -51019,9 +51019,9 @@ relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35923
-name: vestibular VIII nucleus
+name: vestibular nucleus
 namespace: anatomical_structure
-synonym: "vestibular nucleus" RELATED []
+synonym: "vestibular VIII nucleus" RELATED []
 is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS27 ! TS27
@@ -55366,6 +55366,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:36437
 name: mesenchyme of metanephros
 namespace: anatomical_structure
+synonym: "kidney mesenchyme" RELATED []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17373 ! metanephros
 relationship: starts_at TS18 ! TS18
@@ -57072,7 +57073,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36643
 name: lateral vestibular nucleus
 namespace: anatomical_structure
-is_a: EMAPA:35923 ! vestibular VIII nucleus
+is_a: EMAPA:35923 ! vestibular nucleus
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS27 ! TS27
 
@@ -57988,7 +57989,7 @@ id: EMAPA:36752
 name: optic placode
 namespace: anatomical_structure
 is_a: EMAPA:36751 ! cranial placode
-relationship: ends_at TS13 ! TS13
+relationship: ends_at TS14 ! TS14
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -58109,6 +58110,30 @@ namespace: anatomical_structure
 is_a: EMAPA:36749 ! pre-placodal region
 relationship: ends_at TS15 ! TS15
 relationship: starts_at TS14 ! TS14
+
+[Term]
+id: EMAPA:36767
+name: extrahepatic bile duct
+namespace: anatomical_structure
+is_a: EMAPA:35171 ! bile duct
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS16 ! TS16
+
+[Term]
+id: EMAPA:36768
+name: intrahepatic bile duct
+namespace: anatomical_structure
+is_a: EMAPA:35171 ! bile duct
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS16 ! TS16
+
+[Term]
+id: EMAPA:36769
+name: ventral cochlear nucleus
+namespace: anatomical_structure
+is_a: EMAPA:35248 ! cochlear nucleus
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: group_term
