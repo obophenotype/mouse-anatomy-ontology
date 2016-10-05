@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 27:09:2016 11:31
+date: 05:10:2016 16:29
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -3151,7 +3151,7 @@ id: EMAPA:16409
 name: mesenchyme derived from lateral plate
 namespace: anatomical_structure
 synonym: "lateral plate mesenchyme" RELATED []
-relationship: ends_at TS16 ! TS16
+relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16177 ! trunk mesenchyme
 relationship: starts_at TS14 ! TS14
 
@@ -3161,7 +3161,7 @@ name: mesenchyme derived from somatopleure
 namespace: anatomical_structure
 alt_id: EMAPA:16598
 synonym: "somatic mesenchyme" RELATED []
-relationship: ends_at TS16 ! TS16
+relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16409 ! mesenchyme derived from lateral plate
 relationship: starts_at TS14 ! TS14
 
@@ -3171,7 +3171,7 @@ name: mesenchyme derived from splanchnopleure
 namespace: anatomical_structure
 alt_id: EMAPA:16599
 synonym: "splanchnic mesenchyme" RELATED []
-relationship: ends_at TS16 ! TS16
+relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16409 ! mesenchyme derived from lateral plate
 relationship: starts_at TS14 ! TS14
 
@@ -47875,7 +47875,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:35536
 name: mammary bud
 namespace: anatomical_structure
-relationship: ends_at TS20 ! TS20
+relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17524 ! integumental system
 relationship: starts_at TS20 ! TS20
 
@@ -47908,7 +47908,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35540
 name: mammary line
 namespace: anatomical_structure
-relationship: ends_at TS18 ! TS18
+relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16096 ! surface ectoderm
 relationship: starts_at TS17 ! TS17
 
@@ -47917,7 +47917,7 @@ id: EMAPA:35541
 name: mammary placode
 namespace: anatomical_structure
 is_a: EMAPA:36762 ! integumental system placode
-relationship: ends_at TS21 ! TS21
+relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16096 ! surface ectoderm
 relationship: starts_at TS19 ! TS19
 
