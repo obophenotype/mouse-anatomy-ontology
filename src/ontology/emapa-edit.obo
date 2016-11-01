@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 05:10:2016 16:29
+date: 01:11:2016 11:08
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -8900,9 +8900,9 @@ id: EMAPA:17205
 name: stomach pyloric region muscularis
 namespace: anatomical_structure
 alt_id: EMAPA:27507
-is_a: EMAPA:35385 ! gut muscularis
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17631 ! stomach pyloric region
+relationship: part_of EMAPA:36770 ! stomach muscularis
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -34051,9 +34051,9 @@ id: EMAPA:27155
 name: stomach fundus muscularis
 namespace: anatomical_structure
 alt_id: EMAPA:27411
-is_a: EMAPA:35385 ! gut muscularis
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17886 ! stomach fundus
+relationship: part_of EMAPA:36770 ! stomach muscularis
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -34119,9 +34119,9 @@ id: EMAPA:27171
 name: stomach glandular region muscularis
 namespace: anatomical_structure
 alt_id: EMAPA:27443
-is_a: EMAPA:35385 ! gut muscularis
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17623 ! stomach glandular region
+relationship: part_of EMAPA:36770 ! stomach muscularis
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -34185,9 +34185,9 @@ id: EMAPA:27187
 name: stomach proventricular region muscularis
 namespace: anatomical_structure
 alt_id: EMAPA:27475
-is_a: EMAPA:35385 ! gut muscularis
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17627 ! stomach proventricular region
+relationship: part_of EMAPA:36770 ! stomach muscularis
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -41631,7 +41631,7 @@ name: meninges
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16470 ! central nervous system
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:32661
@@ -41649,7 +41649,7 @@ namespace: anatomical_structure
 is_a: EMAPA:32660 ! meninges
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16894 ! brain
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:32663
@@ -45838,7 +45838,7 @@ namespace: anatomical_structure
 synonym: "dermal reticular layer" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17527 ! dermis
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35285
@@ -47910,7 +47910,7 @@ name: mammary line
 namespace: anatomical_structure
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16096 ! surface ectoderm
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:35541
@@ -55976,7 +55976,7 @@ name: dermis connective tissue
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17527 ! dermis
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:36510
@@ -58134,6 +58134,15 @@ namespace: anatomical_structure
 is_a: EMAPA:35248 ! cochlear nucleus
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36770
+name: stomach muscularis
+namespace: anatomical_structure
+is_a: EMAPA:35385 ! gut muscularis
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17021 ! stomach
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: group_term
