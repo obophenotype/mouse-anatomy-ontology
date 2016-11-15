@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 01:11:2016 11:08
+date: 15:11:2016 08:34
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -44982,7 +44982,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35868 ! tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32782 ! bone
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35182
@@ -45984,7 +45984,7 @@ name: endochondral bone
 namespace: anatomical_structure
 is_a: EMAPA:35179 ! bone tissue
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35305
@@ -56754,16 +56754,17 @@ name: nerve fiber tract
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35927 ! white matter
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:36606
 name: fasciculus retroflexus
 namespace: anatomical_structure
+synonym: "habenulo-peduncular tract" RELATED []
 synonym: "habenulointerpeduncular tract" RELATED []
 is_a: EMAPA:36605 ! nerve fiber tract
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:36607
@@ -56771,7 +56772,7 @@ name: stria medullaris
 namespace: anatomical_structure
 is_a: EMAPA:36605 ! nerve fiber tract
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:36608
