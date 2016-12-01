@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 15:11:2016 08:34
+date: 01:12:2016 10:26
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -44973,7 +44973,7 @@ name: body fluid or substance
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:25765 ! mouse
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35179
@@ -45033,7 +45033,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35927 ! white matter
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16894 ! brain
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35188
@@ -45049,9 +45049,9 @@ id: EMAPA:35189
 name: brainstem white matter
 namespace: anatomical_structure
 synonym: "brain stem white matter" RELATED []
+is_a: EMAPA:35187 ! brain white matter
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32678 ! brainstem
-relationship: part_of EMAPA:35187 ! brain white matter
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -45252,7 +45252,7 @@ namespace: anatomical_structure
 synonym: "cerebellum peduncle" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35235 ! cerebellum white matter
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35214
@@ -45443,9 +45443,9 @@ id: EMAPA:35235
 name: cerebellum white matter
 namespace: anatomical_structure
 synonym: "cerebellar white matter" RELATED []
+is_a: EMAPA:35187 ! brain white matter
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17787 ! cerebellum
-relationship: part_of EMAPA:35187 ! brain white matter
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -45461,10 +45461,10 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:35237
 name: cerebral white matter
 namespace: anatomical_structure
+is_a: EMAPA:35187 ! brain white matter
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16910 ! telencephalon
-relationship: part_of EMAPA:35187 ! brain white matter
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35238
@@ -46216,7 +46216,7 @@ name: external capsule
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35237 ! cerebral white matter
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35332
@@ -46373,7 +46373,7 @@ name: fornix
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35237 ! cerebral white matter
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35353
@@ -47020,7 +47020,7 @@ name: cerebral internal capsule
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35237 ! cerebral white matter
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35438
@@ -58144,6 +58144,14 @@ is_a: EMAPA:35385 ! gut muscularis
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17021 ! stomach
 relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36771
+name: amniotic fluid
+namespace: anatomical_structure
+is_a: EMAPA:35178 ! body fluid or substance
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: group_term
