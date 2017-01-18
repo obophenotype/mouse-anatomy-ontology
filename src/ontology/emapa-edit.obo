@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 01:12:2016 10:26
+date: 18:01:2017 15:38
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -19702,7 +19702,7 @@ is_a: EMAPA:18609 ! carotid artery
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16201 ! arterial system
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:18613
