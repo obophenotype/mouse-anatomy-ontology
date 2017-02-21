@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 18:01:2017 15:38
+date: 21:02:2017 13:00
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -4148,7 +4148,7 @@ synonym: "atrio-ventricular canal" RELATED []
 synonym: "ependymal canal" RELATED []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16105 ! heart
-relationship: starts_at TS14 ! TS14
+relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:16547
@@ -12504,6 +12504,7 @@ id: EMAPA:17631
 name: stomach pyloric region
 namespace: anatomical_structure
 alt_id: EMAPA:18915
+synonym: "pylorus" RELATED []
 is_a: EMAPA:35821 ! stomach region
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17021 ! stomach
@@ -44549,8 +44550,8 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35130
 name: anterior medial cortex
 namespace: anatomical_structure
+is_a: EMAPA:35589 ! neocortex region
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35589 ! neocortex region
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -46413,8 +46414,8 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35357
 name: frontal cortex
 namespace: anatomical_structure
+is_a: EMAPA:35589 ! neocortex region
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35589 ! neocortex region
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -46983,8 +46984,8 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35432
 name: insular cortex
 namespace: anatomical_structure
+is_a: EMAPA:35589 ! neocortex region
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35589 ! neocortex region
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -48420,8 +48421,8 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35604
 name: occipital cortex
 namespace: anatomical_structure
+is_a: EMAPA:35589 ! neocortex region
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35589 ! neocortex region
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -48927,8 +48928,8 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:35667
 name: parietal cortex
 namespace: anatomical_structure
+is_a: EMAPA:35589 ! neocortex region
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35589 ! neocortex region
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -49057,8 +49058,8 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:35682
 name: perirhinal cortex
 namespace: anatomical_structure
+is_a: EMAPA:35589 ! neocortex region
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35589 ! neocortex region
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -49559,8 +49560,8 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35745
 name: retrohippocampal cortex
 namespace: anatomical_structure
+is_a: EMAPA:35589 ! neocortex region
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35589 ! neocortex region
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -58152,6 +58153,23 @@ namespace: anatomical_structure
 is_a: EMAPA:35178 ! body fluid or substance
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS26 ! TS26
+
+[Term]
+id: EMAPA:36772
+name: retrosplenial cortex
+namespace: anatomical_structure
+is_a: EMAPA:35589 ! neocortex region
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36773
+name: atrioventricular canal cardiac muscle
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16546 ! atrioventricular canal
+relationship: part_of EMAPA:32688 ! cardiac muscle tissue
+relationship: starts_at TS13 ! TS13
 
 [Term]
 id: group_term
