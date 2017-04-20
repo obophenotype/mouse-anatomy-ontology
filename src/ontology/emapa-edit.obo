@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:04:2017 15:27
+date: 20:04:2017 13:14
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -47621,7 +47621,7 @@ name: long bone epiphyseal plate
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35503 ! long bone
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35506
@@ -47629,7 +47629,7 @@ name: long bone epiphyseal plate hypertrophic zone
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35505 ! long bone epiphyseal plate
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35507
@@ -47637,7 +47637,7 @@ name: long bone epiphyseal plate proliferative zone
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35505 ! long bone epiphyseal plate
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35508
