@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 20:04:2017 13:14
+date: 12:06:2017 11:11
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -4370,6 +4370,7 @@ relationship: starts_at TS14 ! TS14
 id: EMAPA:16580
 name: tail bud
 namespace: anatomical_structure
+is_a: EMAPA:36031 ! body region
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16039 ! embryo
 relationship: starts_at TS14 ! TS14
@@ -8547,7 +8548,7 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:17158
 name: thoracic ganglion
 namespace: anatomical_structure
-is_a: EMAPA:17157 ! sympathetic ganglion
+is_a: EMAPA:36978 ! paravertebral ganglion
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS18 ! TS18
 
@@ -8735,6 +8736,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18870
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16706 ! pharynx
+relationship: part_of EMAPA:36885 ! gustatory system
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -9545,6 +9547,7 @@ name: ductus reuniens
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17286 ! inner ear vestibular component
+relationship: part_of EMAPA:36959 ! membranous labyrinth
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -9569,8 +9572,10 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17290
 name: saccule
 namespace: anatomical_structure
+is_a: EMAPA:36962 ! otolith organ
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17286 ! inner ear vestibular component
+relationship: part_of EMAPA:36960 ! vestibular labyrinth
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -9595,8 +9600,10 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17293
 name: utricle
 namespace: anatomical_structure
+is_a: EMAPA:36962 ! otolith organ
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17286 ! inner ear vestibular component
+relationship: part_of EMAPA:36960 ! vestibular labyrinth
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -9621,7 +9628,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17296
 name: posterior semicircular canal
 namespace: anatomical_structure
-is_a: EMAPA:32832 ! semicircular canal
+is_a: EMAPA:36958 ! osseus semicircular canal
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17293 ! utricle
 relationship: starts_at TS19 ! TS19
@@ -9649,7 +9656,7 @@ id: EMAPA:17299
 name: superior semicircular canal
 namespace: anatomical_structure
 synonym: "anterior semicircular canal" RELATED []
-is_a: EMAPA:32832 ! semicircular canal
+is_a: EMAPA:36958 ! osseus semicircular canal
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17293 ! utricle
 relationship: starts_at TS19 ! TS19
@@ -9989,8 +9996,8 @@ id: EMAPA:17337
 name: heart left ventricle
 namespace: anatomical_structure
 synonym: "left cardiac ventricle" RELATED []
+is_a: EMAPA:17331 ! heart ventricle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17331 ! heart ventricle
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -10016,8 +10023,8 @@ id: EMAPA:17340
 name: heart right ventricle
 namespace: anatomical_structure
 synonym: "right cardiac ventricle" RELATED []
+is_a: EMAPA:17331 ! heart ventricle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17331 ! heart ventricle
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -10204,7 +10211,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:35500
 synonym: "hepatic sinusoid" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16846 ! liver
+relationship: part_of EMAPA:17203 ! liver parenchyma
 relationship: part_of EMAPA:35499 ! liver lobule
 relationship: starts_at TS19 ! TS19
 
@@ -10656,6 +10663,8 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17424
 name: upper arm
 namespace: anatomical_structure
+is_a: EMAPA:37033 ! stylopod
+is_a: EMAPA:37034 ! zeugopod
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17413 ! arm
 relationship: starts_at TS20 ! TS20
@@ -11307,6 +11316,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17496
 name: lower leg
 namespace: anatomical_structure
+is_a: EMAPA:37034 ! zeugopod
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17489 ! leg
 relationship: starts_at TS20 ! TS20
@@ -11334,6 +11344,7 @@ id: EMAPA:17499
 name: upper leg
 namespace: anatomical_structure
 synonym: "thigh" RELATED []
+is_a: EMAPA:37033 ! stylopod
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17489 ! leg
 relationship: starts_at TS20 ! TS20
@@ -12122,6 +12133,8 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17589
 name: pinna
 namespace: anatomical_structure
+alt_id: EMAPA:35157
+synonym: "auricle" EXACT []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16991 ! outer ear
 relationship: starts_at TS20 ! TS20
@@ -14064,11 +14077,11 @@ relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:17815
-name: labyrinth
+name: inner ear labyrinth
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16194 ! inner ear
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:17816
@@ -14076,7 +14089,7 @@ name: labyrinth mesenchyme
 namespace: anatomical_structure
 is_a: EMAPA:32885 ! inner ear mesenchyme
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:17815 ! labyrinth
+relationship: part_of EMAPA:17815 ! inner ear labyrinth
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -14085,7 +14098,7 @@ name: labyrinth epithelium
 namespace: anatomical_structure
 is_a: EMAPA:32883 ! inner ear epithelium
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:17815 ! labyrinth
+relationship: part_of EMAPA:17815 ! inner ear labyrinth
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -14118,7 +14131,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17821
 name: lateral semicircular canal
 namespace: anatomical_structure
-is_a: EMAPA:32832 ! semicircular canal
+is_a: EMAPA:36958 ! osseus semicircular canal
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17293 ! utricle
 relationship: starts_at TS21 ! TS21
@@ -14156,7 +14169,6 @@ name: incus pre-cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:35982 ! ossicle pre-cartilage condensation
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:17824 ! ossicle
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -14165,8 +14177,7 @@ name: malleus pre-cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:35982 ! ossicle pre-cartilage condensation
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:17824 ! ossicle
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17827
@@ -14174,7 +14185,6 @@ name: stapes pre-cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:35982 ! ossicle pre-cartilage condensation
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:17824 ! ossicle
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -14259,6 +14269,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17837
 name: vitreous humour
 namespace: anatomical_structure
+is_a: EMAPA:36855 ! ocular refractive media
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17302 ! hyaloid cavity
 relationship: starts_at TS21 ! TS21
@@ -14387,6 +14398,7 @@ name: naso-lacrimal duct
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16542 ! nose
+relationship: part_of EMAPA:19245 ! lacrimal drainage system
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -15133,9 +15145,9 @@ namespace: anatomical_structure
 def: "The genital tubercle of male (GT) (syn: penis anlage) is a medial swelling seen at the level of the hind limb buds, adjacent to the cloaca and posterior/caudal to the urogenital sinus (UGS). The genital tubercle is separated into male and female, therefore you must know the sex of the embryo. At TS20, the genital tubercle of male is comprised of genital tubercle mesenchyme of male, urethral plate epithelium of male, skin of genital tubercle of male, the urogenital membrane of male, and developing vasculature of male genital tubercle. The urethral plate epithelium and skin together, where they are in direct contact, are known as the urogenital membrane. After TS20, the genital tubercle becomes further subdivided. At TS21 the genital tubercle of male is subdivided into distal genital tubercle of male (TS21-TS22) (syn: early glans of male), proximal genital tubercle of male (TS21-TS22) and preputial swelling of male. Also contains phallic urethra of male and nerve of male genital tubercle (from TS22). From TS23, it is subdivided into glans of male genital tubercle (located distally) and preputial swelling of male (located proximally and becoming prepuce of male at TS24). Will become the penis at TS25." [PMID:25968320]
 synonym: "penis anlage" RELATED []
 is_a: EMAPA:17382 ! genital tubercle
+is_a: EMAPA:28533 ! male associated reproductive structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17968 ! male reproductive system
-relationship: part_of EMAPA:28533 ! male associated reproductive structure
 relationship: part_of EMAPA:30977 ! male external genitalia
 relationship: starts_at TS20 ! TS20
 
@@ -15154,9 +15166,9 @@ id: EMAPA:17971
 name: mesorchium
 namespace: anatomical_structure
 synonym: "testis mesentery" RELATED []
+is_a: EMAPA:28533 ! male associated reproductive structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
-relationship: part_of EMAPA:28533 ! male associated reproductive structure
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -15168,6 +15180,7 @@ synonym: "testes" RELATED []
 synonym: "testicle" RELATED []
 is_a: EMAPA:17383 ! gonad
 is_a: EMAPA:35949 ! organ
+is_a: EMAPA:36936 ! male reproductive gland or organ
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
 relationship: starts_at TS20 ! TS20
@@ -17193,7 +17206,7 @@ id: EMAPA:18226
 name: cervico-thoracic ganglion
 namespace: anatomical_structure
 synonym: "stellate ganglion" RELATED []
-is_a: EMAPA:17157 ! sympathetic ganglion
+is_a: EMAPA:36978 ! paravertebral ganglion
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS21 ! TS21
 
@@ -17211,7 +17224,6 @@ name: incus cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:35979 ! ossicle cartilage condensation
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17824 ! ossicle
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -17220,7 +17232,6 @@ name: malleus cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:35979 ! ossicle cartilage condensation
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17824 ! ossicle
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -17229,7 +17240,6 @@ name: stapes cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:35979 ! ossicle cartilage condensation
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17824 ! ossicle
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -17237,7 +17247,6 @@ id: EMAPA:18231
 name: eye anterior chamber
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16198 ! eye
 relationship: part_of EMAPA:36594 ! eye anterior segment
 relationship: starts_at TS22 ! TS22
 
@@ -17245,6 +17254,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18232
 name: aqueous humour
 namespace: anatomical_structure
+is_a: EMAPA:36855 ! ocular refractive media
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18231 ! eye anterior chamber
 relationship: starts_at TS22 ! TS22
@@ -18051,7 +18061,8 @@ id: EMAPA:18329
 name: labial fold
 namespace: anatomical_structure
 def: "The labial fold (TS24-TS27). Two lateral labial folds are located ventrally at the base of the genital tubercle of female/clitoris, comprised of labial fold mesenchyme, skin and developing vasculature. Develop from labial swellings. The labial folds fuse at the ventral midline (or perineal seam) at around TS25. Become part of the perineum at TS28. Part of the female external genitalia and female reproductive system. Scrotal fold is larger than labial fold." [PMID:25968320]
-relationship: ends_at TS27 ! TS27
+synonym: "labium" RELATED []
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: part_of EMAPA:30984 ! female external genitalia
 relationship: starts_at TS24 ! TS24
@@ -18931,7 +18942,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:18438
 name: cervical ganglion
 namespace: anatomical_structure
-is_a: EMAPA:17157 ! sympathetic ganglion
+is_a: EMAPA:36978 ! paravertebral ganglion
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
 
@@ -19043,9 +19054,10 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:18489
-name: palmar pads
+name: palmar pad
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36952 ! metapodial pad
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18486 ! hand skin
 relationship: starts_at TS23 ! TS23
 
@@ -19089,6 +19101,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18507
 name: plantar pad
 namespace: anatomical_structure
+is_a: EMAPA:36952 ! metapodial pad
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18504 ! foot skin
 relationship: starts_at TS23 ! TS23
@@ -19211,7 +19224,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18537
 name: parotid gland
 namespace: anatomical_structure
-is_a: EMAPA:17751 ! salivary gland
+is_a: EMAPA:36789 ! major salivary gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16262 ! oral region
 relationship: starts_at TS23 ! TS23
@@ -19506,24 +19519,24 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:18583
 name: incus
 namespace: anatomical_structure
+is_a: EMAPA:17824 ! ossicle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17824 ! ossicle
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:18584
 name: malleus
 namespace: anatomical_structure
+is_a: EMAPA:17824 ! ossicle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17824 ! ossicle
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:18585
 name: stapes
 namespace: anatomical_structure
+is_a: EMAPA:17824 ! ossicle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17824 ! ossicle
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -20201,9 +20214,10 @@ name: ductus deferens
 namespace: anatomical_structure
 def: "The ductus deferens (dd) (syn: vas deferens) (TS24-TS28) derives from nephric duct of male (TS23). Connected to the dorsal anterior pelvic urethra via the ejaculatory duct. Comprised of epithelium, lamina propria and muscle and surrounded by serosa of ductus deferens. Also contains vasculature (TS24-TS28) and nerves are seen from birth (TS27-TS28)." [PMID:25968320]
 synonym: "vas deferens" RELATED []
+is_a: EMAPA:28533 ! male associated reproductive structure
+is_a: EMAPA:36936 ! male reproductive gland or organ
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
-relationship: part_of EMAPA:28533 ! male associated reproductive structure
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -20211,6 +20225,7 @@ id: EMAPA:18682
 name: penis
 namespace: anatomical_structure
 def: "The penis (TS25-TS28) is comprised of glans penis (distally), penile body (proximally) and surrounded by the prepuce. The penis contains within it, erectile tissues (corpora cavernosa glandis, urethra and MUMP corpus cavernosum), cartilage (hyaline cartilage of os penis and MUMP cartilage), bone tissue (bone of os penis), nerves, vasculature and lamina propria (connective tissue) and is surrounded by skin. The penis is mobile. The penis also contains within it the penile urethra, located along the length of the penis and the urethral seam, located underneath the ventral midline skin of the penis. The glans penis is positioned at a right angle bend to the penile body, following the bend of the urethra. Derived from the genital tubercle of male." [PMID:25968320]
+is_a: EMAPA:36936 ! male reproductive gland or organ
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
 relationship: part_of EMAPA:30977 ! male external genitalia
@@ -20425,6 +20440,7 @@ name: clavicle
 namespace: anatomical_structure
 is_a: EMAPA:35379 ! girdle bone
 is_a: EMAPA:35503 ! long bone
+is_a: EMAPA:36986 ! shoulder bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35669 ! pectoral girdle skeleton
 relationship: starts_at TS23 ! TS23
@@ -20434,6 +20450,7 @@ id: EMAPA:18722
 name: scapula
 namespace: anatomical_structure
 is_a: EMAPA:35379 ! girdle bone
+is_a: EMAPA:36986 ! shoulder bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35669 ! pectoral girdle skeleton
 relationship: starts_at TS23 ! TS23
@@ -20731,6 +20748,7 @@ namespace: anatomical_structure
 is_a: EMAPA:18766 ! hemolymphoid system gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18765 ! hemolymphoid system
+relationship: part_of EMAPA:36896 ! immune system
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -20740,6 +20758,7 @@ namespace: anatomical_structure
 is_a: EMAPA:18766 ! hemolymphoid system gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18765 ! hemolymphoid system
+relationship: part_of EMAPA:36896 ! immune system
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -20944,7 +20963,8 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:18804
 name: Descemet's membrane
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+synonym: "posterior limiting lamina" RELATED []
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17161 ! cornea
 relationship: starts_at TS24 ! TS24
 
@@ -20970,7 +20990,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:18809
 name: sublingual gland
 namespace: anatomical_structure
-is_a: EMAPA:17751 ! salivary gland
+is_a: EMAPA:36789 ! major salivary gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16262 ! oral region
 relationship: starts_at TS23 ! TS23
@@ -20998,7 +21018,7 @@ id: EMAPA:18812
 name: submandibular gland
 namespace: anatomical_structure
 synonym: "submaxillary gland" RELATED []
-is_a: EMAPA:17751 ! salivary gland
+is_a: EMAPA:36789 ! major salivary gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16262 ! oral region
 relationship: starts_at TS23 ! TS23
@@ -21595,7 +21615,7 @@ id: EMAPA:19020
 name: costo-vertebral joint
 namespace: anatomical_structure
 alt_id: EMAPA:19208
-is_a: EMAPA:35456 ! joint
+is_a: EMAPA:36910 ! joint of  rib
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17396 ! axial skeleton thoracic region
 relationship: part_of EMAPA:18025 ! thoracic segment skeleton
@@ -21627,7 +21647,7 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:19028
-name: Peyer's patches
+name: peyer's patch
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18248 ! lymphatic system
@@ -21678,8 +21698,9 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:19035
-name: hypochordal arch
+name: C1 vertebra hypochordal arch
 namespace: anatomical_structure
+synonym: "arcus anterior" RELATED []
 synonym: "hypochordal bow" RELATED []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:19431 ! C1 vertebra
@@ -22035,9 +22056,9 @@ id: EMAPA:19089
 name: gubernaculum
 namespace: anatomical_structure
 synonym: "caudal suspensory ligament" RELATED []
+is_a: EMAPA:28533 ! male associated reproductive structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
-relationship: part_of EMAPA:28533 ! male associated reproductive structure
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -22047,7 +22068,6 @@ namespace: anatomical_structure
 alt_id: EMAPA:17978
 synonym: "laryngeal aditus" RELATED []
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16727 ! respiratory system
 relationship: part_of EMAPA:18333 ! larynx
 relationship: starts_at TS21 ! TS21
 
@@ -22170,6 +22190,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18468
 is_a: EMAPA:35350 ! forelimb long bone
 is_a: EMAPA:35892 ! upper arm bone
+is_a: EMAPA:36986 ! shoulder bone
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17424 ! upper arm
 relationship: starts_at TS23 ! TS23
@@ -22778,6 +22799,7 @@ alt_id: EMAPA:35920
 def: "The seminal vesicle (sv) (syn: vesicular gland, vesicular seminalis) (TS24-TS28). By E16.5 circulating androgens have initiated seminal vesicle formation in the male, and paired seminal vesicle buds develop from the nephric ducts close to where they have fused with the epithelium of the pelvic urethra of male, at the verumontanum (which develops from the urogenital sinus ridge).  Comprised of epithelium, lamina propria, muscle and surrounded by serosa of seminal vesicle. Also contains vasculature (TS24-TS28) and nerves are seen from birth (TS27). Connected to the dorsal anterior pelvic urethra via the ejaculatory duct. Seminal vesicle epithelium is marked by Wnt9b at E17 and seminal vesicle mesenchyme and smooth muscle are marked by Crabp1 at E17 (Abler et al, 2011). Develops from the nephric ducts." [PMID:25968320]
 synonym: "vesicular gland" EXACT []
 synonym: "vesicular seminalis" RELATED []
+is_a: EMAPA:19285 ! male accessory gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
 relationship: starts_at TS24 ! TS24
@@ -22786,7 +22808,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19181
 name: vocal folds
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18333 ! larynx
 relationship: starts_at TS25 ! TS25
 
@@ -22978,7 +23000,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19203
 name: sterno-clavicular joint
 namespace: anatomical_structure
-is_a: EMAPA:35456 ! joint
+is_a: EMAPA:36914 ! joint of girdle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18344 ! sternum
 relationship: starts_at TS25 ! TS25
@@ -23284,11 +23306,11 @@ relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:19245
-name: lacrimal duct
+name: lacrimal drainage system
 namespace: anatomical_structure
 synonym: "tear duct" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16198 ! eye
+relationship: part_of EMAPA:35462 ! lacrimal apparatus
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -23594,6 +23616,8 @@ name: male accessory gland
 namespace: anatomical_structure
 synonym: "accessory sex gland" RELATED []
 is_a: EMAPA:18425 ! gland
+is_a: EMAPA:36936 ! male reproductive gland or organ
+is_a: EMAPA:36985 ! reproductive system gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
 relationship: starts_at TS23 ! TS23
@@ -23604,10 +23628,10 @@ name: bulbourethral gland of male
 namespace: anatomical_structure
 def: "The bulbourethral gland of male (bugl) (syn: Cowper's gland) (TS23-TS28). Paired epithelial secretory glands develop at the junction of the phallic/penile/clitoral and pelvic urethra in males and females. First seen at E15.5 (TS23), budding out from the epithelium of the urethra in both sexes. They are larger in the male. Growth is dependant on androgens and in males, they canalise after birth (TS27, P1) opening into the urethra and then branch and enlarge during the neonatal period. Comprised of epithelium and a thin interstitium (or connective tissue) which also contains the vasculature (blood vessels). The epithelium of bulbourethral gland is derived from cloacal endoderm. Part of urethra of male/female, and also part of male/female accessory gland. Also called Cowper's gland in human males and not present in human females. It is likely they remain only rudimentary in the adult female mouse." [PMID:25968320]
 synonym: "Cowper's gland" RELATED []
+is_a: EMAPA:19285 ! male accessory gland
 is_a: EMAPA:35327 ! exocrine gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18692 ! urethra of male
-relationship: part_of EMAPA:19285 ! male accessory gland
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -23615,10 +23639,10 @@ id: EMAPA:19287
 name: prostate gland
 namespace: anatomical_structure
 def: "The prostate gland (pr) (TS24-TS28) is part of the urethra of male and part of the male accessory gland. Divided into layers (epithelium of prostate gland and peri-prostatic mesenchyme of prostate gland), developmental stages (prostate bud and prostate gland) and regions by location (anterior, dorsal, ventral and lateral). From TS24-TS27, the glands are called prostate buds, subdivided into anterior, dorsal (TS24-TS27) and ventral and lateral prostate bud (TS25-TS27). At TS28, the prostate gland is divided into anterior, dorsal, ventral and lateral prostate gland." [PMID:25968320]
+is_a: EMAPA:19285 ! male accessory gland
 is_a: EMAPA:35327 ! exocrine gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18692 ! urethra of male
-relationship: part_of EMAPA:19285 ! male accessory gland
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -23633,6 +23657,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19290
 name: epididymis
 namespace: anatomical_structure
+is_a: EMAPA:36936 ! male reproductive gland or organ
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
 relationship: starts_at TS23 ! TS23
@@ -23689,14 +23714,14 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:19300
 name: sacro-iliac joint
 namespace: anatomical_structure
-is_a: EMAPA:35456 ! joint
+is_a: EMAPA:36914 ! joint of girdle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18028 ! pelvic girdle skeleton
 relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:19302
-name: metacarpo-phalangeal joint
+name: metacarpal-phalangeal joint
 namespace: anatomical_structure
 is_a: EMAPA:32641 ! hand joint
 relationship: ends_at TS28 ! TS28
@@ -23861,7 +23886,7 @@ id: EMAPA:19321
 name: celiac ganglion
 namespace: anatomical_structure
 synonym: "coeliac ganglion" RELATED []
-is_a: EMAPA:17157 ! sympathetic ganglion
+is_a: EMAPA:36979 ! prevertebral ganglion
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS25 ! TS25
 
@@ -27027,9 +27052,9 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:25057
-name: forelimb digit 1 metacarpo-phalangeal joint
+name: forelimb digit 1 metacarpal-phalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:19302 ! metacarpo-phalangeal joint
+is_a: EMAPA:19302 ! metacarpal-phalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17429 ! forelimb digit 1
 relationship: starts_at TS22 ! TS22
@@ -27053,9 +27078,9 @@ relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:25060
-name: forelimb digit 2 metacarpo-phalangeal joint
+name: forelimb digit 2 metacarpal-phalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:19302 ! metacarpo-phalangeal joint
+is_a: EMAPA:19302 ! metacarpal-phalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17432 ! forelimb digit 2
 relationship: starts_at TS22 ! TS22
@@ -27079,9 +27104,9 @@ relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:25063
-name: forelimb digit 3 metacarpo-phalangeal joint
+name: forelimb digit 3 metacarpal-phalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:19302 ! metacarpo-phalangeal joint
+is_a: EMAPA:19302 ! metacarpal-phalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17435 ! forelimb digit 3
 relationship: starts_at TS22 ! TS22
@@ -27105,9 +27130,9 @@ relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:25066
-name: forelimb digit 4 metacarpo-phalangeal joint
+name: forelimb digit 4 metacarpal-phalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:19302 ! metacarpo-phalangeal joint
+is_a: EMAPA:19302 ! metacarpal-phalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17438 ! forelimb digit 4
 relationship: starts_at TS22 ! TS22
@@ -27131,9 +27156,9 @@ relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:25069
-name: forelimb digit 5 metacarpo-phalangeal joint
+name: forelimb digit 5 metacarpal-phalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:19302 ! metacarpo-phalangeal joint
+is_a: EMAPA:19302 ! metacarpal-phalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17441 ! forelimb digit 5
 relationship: starts_at TS22 ! TS22
@@ -27311,7 +27336,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25102
 name: L1 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19472 ! L1 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -27561,6 +27587,7 @@ name: masseter
 namespace: anatomical_structure
 is_a: EMAPA:25133 ! facial muscle
 is_a: EMAPA:35988 ! skeletal muscle
+is_a: EMAPA:36951 ! masticatory muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS22 ! TS22
 
@@ -27588,6 +27615,7 @@ name: temporalis
 namespace: anatomical_structure
 is_a: EMAPA:25133 ! facial muscle
 is_a: EMAPA:35988 ! skeletal muscle
+is_a: EMAPA:36951 ! masticatory muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS22 ! TS22
 
@@ -27597,6 +27625,7 @@ name: pterygoid
 namespace: anatomical_structure
 is_a: EMAPA:25133 ! facial muscle
 is_a: EMAPA:35988 ! skeletal muscle
+is_a: EMAPA:36951 ! masticatory muscle
 relationship: ends_at TS26 ! TS26
 relationship: starts_at TS24 ! TS24
 
@@ -29437,7 +29466,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25369
 name: L2 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19570 ! L2 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -29494,7 +29524,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25377
 name: L3 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19571 ! L3 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -29551,7 +29582,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25385
 name: L4 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19572 ! L4 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -29608,7 +29640,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25393
 name: L5 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19573 ! L5 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -29665,7 +29698,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25401
 name: L6 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19574 ! L6 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -29722,7 +29756,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25409
 name: S1 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19588 ! S1 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -29779,7 +29814,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25417
 name: S2 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19589 ! S2 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -29836,7 +29872,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25425
 name: S3 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19590 ! S3 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -29893,7 +29930,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25433
 name: S4 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19591 ! S4 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -29950,7 +29988,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25441
 name: T1 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19542 ! T1 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -30007,7 +30046,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25449
 name: T10 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19551 ! T10 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -30064,7 +30104,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25457
 name: T11 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19552 ! T11 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -30121,7 +30162,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25465
 name: T12 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19553 ! T12 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -30178,7 +30220,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25473
 name: T13 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19554 ! T13 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -30235,7 +30278,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25481
 name: T2 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19543 ! T2 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -30292,7 +30336,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25489
 name: T3 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19544 ! T3 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -30349,7 +30394,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25497
 name: T4 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19545 ! T4 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -30406,7 +30452,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25505
 name: T5 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19546 ! T5 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -30463,7 +30510,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25513
 name: T6 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19547 ! T6 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -30520,7 +30568,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25521
 name: T7 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19548 ! T7 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -30577,7 +30626,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25529
 name: T8 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19549 ! T8 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -30634,7 +30684,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25537
 name: T9 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19550 ! T9 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -30691,7 +30742,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25545
 name: Tl1 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19602 ! Tl1 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -30748,7 +30800,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25553
 name: Tl10 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19647 ! Tl10 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -30805,7 +30858,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25561
 name: Tl11 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19648 ! Tl11 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -30862,7 +30916,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25569
 name: Tl12 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19673 ! Tl12 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -30919,7 +30974,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25577
 name: Tl13 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19674 ! Tl13 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -30976,7 +31032,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25585
 name: Tl14 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19675 ! Tl14 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -31033,7 +31090,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25593
 name: Tl15 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19676 ! Tl15 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -31090,7 +31148,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25601
 name: Tl16 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19677 ! Tl16 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -31147,7 +31206,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25609
 name: Tl17 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19678 ! Tl17 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -31204,7 +31264,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25617
 name: Tl18 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19679 ! Tl18 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -31261,7 +31322,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25625
 name: Tl19 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19680 ! Tl19 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -31318,7 +31380,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25633
 name: Tl2 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19603 ! Tl2 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -31375,7 +31438,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25641
 name: Tl3 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19604 ! Tl3 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -31432,7 +31496,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25649
 name: Tl4 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19641 ! Tl4 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -31489,7 +31554,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25657
 name: Tl5 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19642 ! Tl5 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -31546,7 +31612,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25665
 name: Tl6 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19643 ! Tl6 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -31603,7 +31670,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25673
 name: Tl7 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19644 ! Tl7 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -31660,7 +31728,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25681
 name: Tl8 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19645 ! Tl8 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -31717,7 +31786,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25689
 name: Tl9 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19646 ! Tl9 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -32098,7 +32168,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25732
 name: C3 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19433 ! C3 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -32155,7 +32226,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25739
 name: C4 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19434 ! C4 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -32212,7 +32284,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25746
 name: C5 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19435 ! C5 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -32269,7 +32342,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25753
 name: C6 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19466 ! C6 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -32326,7 +32400,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25760
 name: C7 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19467 ! C7 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -32535,18 +32610,18 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:26436
-name: hindlimb digit 1 metacarpo-phalangeal joint
+name: hindlimb digit 1 metatarsal-phalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36338 ! hindlimb digit metacarpo-phalangeal joint
+is_a: EMAPA:36338 ! hindlimb digit metatarsal-phalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17460 ! hindlimb digit 1
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:26442
-name: hindlimb digit 2 metacarpo-phalangeal joint
+name: hindlimb digit 2 metatarsal-phalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36338 ! hindlimb digit metacarpo-phalangeal joint
+is_a: EMAPA:36338 ! hindlimb digit metatarsal-phalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17463 ! hindlimb digit 2
 relationship: starts_at TS22 ! TS22
@@ -32571,9 +32646,9 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:26460
-name: hindlimb digit 3 metacarpo-phalangeal joint
+name: hindlimb digit 3 metatarsal-phalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36338 ! hindlimb digit metacarpo-phalangeal joint
+is_a: EMAPA:36338 ! hindlimb digit metatarsal-phalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17466 ! hindlimb digit 3
 relationship: starts_at TS22 ! TS22
@@ -32589,9 +32664,9 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:26472
-name: hindlimb digit 4 metacarpo-phalangeal joint
+name: hindlimb digit 4 metatarsal-phalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36338 ! hindlimb digit metacarpo-phalangeal joint
+is_a: EMAPA:36338 ! hindlimb digit metatarsal-phalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17469 ! hindlimb digit 4
 relationship: starts_at TS22 ! TS22
@@ -32607,9 +32682,9 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:26484
-name: hindlimb digit 5 metacarpo-phalangeal joint
+name: hindlimb digit 5 metatarsal-phalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36338 ! hindlimb digit metacarpo-phalangeal joint
+is_a: EMAPA:36338 ! hindlimb digit metatarsal-phalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17472 ! hindlimb digit 5
 relationship: starts_at TS22 ! TS22
@@ -32626,7 +32701,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26523
 name: C1 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19431 ! C1 vertebra
 relationship: starts_at TS25 ! TS25
 
@@ -32684,7 +32760,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:26539
 name: C2 vertebra neural arch
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:36614 ! vertebral neural arch
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19432 ! C2 vertebra
 relationship: starts_at TS26 ! TS26
 
@@ -40499,6 +40576,7 @@ name: head
 namespace: anatomical_structure
 is_a: EMAPA:36031 ! body region
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36867 ! craniocervical region
 relationship: starts_at TS11 ! TS11
 
 [Term]
@@ -42175,8 +42253,8 @@ name: autopod
 namespace: anatomical_structure
 synonym: "distal segment of limb" RELATED []
 synonym: "paw" RELATED []
+is_a: EMAPA:37032 ! limb segment
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16405 ! limb
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -42313,7 +42391,7 @@ name: intervertebral disc
 namespace: anatomical_structure
 synonym: "intervertebral disk" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17214 ! axial skeleton
+relationship: part_of EMAPA:36913 ! intervertebral joint
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -42501,6 +42579,8 @@ name: bone marrow
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32782 ! bone
+relationship: part_of EMAPA:35402 ! hematopoietic system
+relationship: part_of EMAPA:36896 ! immune system
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -43094,7 +43174,8 @@ id: EMAPA:32830
 name: semicircular duct
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17286 ! inner ear vestibular component
+relationship: part_of EMAPA:32832 ! semicircular canal
+relationship: part_of EMAPA:36960 ! vestibular labyrinth
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -44404,8 +44485,8 @@ id: EMAPA:35112
 name: adipose tissue
 namespace: anatomical_structure
 synonym: "fat" RELATED []
+is_a: EMAPA:35251 ! connective tissue
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35251 ! connective tissue
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -44791,29 +44872,23 @@ relationship: part_of EMAPA:18797 ! temporal lobe
 relationship: starts_at TS27 ! TS27
 
 [Term]
-id: EMAPA:35157
-name: auricle
-namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16991 ! outer ear
-relationship: starts_at TS28 ! TS28
-
-[Term]
 id: EMAPA:35158
-name: auricular cartilage
+name: pinna cartilage
 namespace: anatomical_structure
+synonym: "auricular cartilage" RELATED []
 is_a: EMAPA:35978 ! sensory organ cartilage
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35157 ! auricle
+relationship: part_of EMAPA:17589 ! pinna
 relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:35159
-name: auricular muscle
+name: pinna muscle
 namespace: anatomical_structure
+synonym: "auricular muscle" RELATED []
 is_a: EMAPA:18172 ! cranial muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35157 ! auricle
+relationship: part_of EMAPA:17589 ! pinna
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -44983,7 +45058,7 @@ name: body fluid or substance
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:25765 ! mouse
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35179
@@ -45044,7 +45119,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35927 ! white matter
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16894 ! brain
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35188
@@ -45263,7 +45338,7 @@ namespace: anatomical_structure
 synonym: "cerebellum peduncle" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35235 ! cerebellum white matter
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35214
@@ -45306,7 +45381,6 @@ id: EMAPA:35218
 name: cerebellar hemisphere
 namespace: anatomical_structure
 synonym: "cerebellum hemisphere" RELATED []
-xref: XX:<new xref>
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17787 ! cerebellum
 relationship: starts_at TS27 ! TS27
@@ -45358,6 +45432,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:35224
 name: cerebellum vermis lobule
 namespace: anatomical_structure
+is_a: EMAPA:36846 ! cerebellum lobule
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35214 ! cerebellum vermis
 relationship: starts_at TS27 ! TS27
@@ -45450,7 +45525,7 @@ synonym: "cerebellar white matter" RELATED []
 is_a: EMAPA:35187 ! brain white matter
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17787 ! cerebellum
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35236
@@ -46832,8 +46907,8 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35414
 name: hyaline cartilage
 namespace: anatomical_structure
+is_a: EMAPA:32730 ! cartilage
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32730 ! cartilage
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -47245,7 +47320,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35336 ! eye surface region
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35463
@@ -47773,6 +47848,7 @@ name: lymph node
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18765 ! hemolymphoid system
+relationship: part_of EMAPA:36896 ! immune system
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -48272,6 +48348,7 @@ name: neck
 namespace: anatomical_structure
 is_a: EMAPA:36031 ! body region
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36867 ! craniocervical region
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -48745,8 +48822,8 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35644
 name: palatine tonsil
 namespace: anatomical_structure
+is_a: EMAPA:35871 ! tonsil
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35871 ! tonsil
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -49036,8 +49113,8 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:35679
 name: periodontal ligament
 namespace: anatomical_structure
+is_a: EMAPA:37004 ! skeletal ligament
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35493 ! ligament
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -49078,7 +49155,7 @@ id: EMAPA:35684
 name: peyer's patch germinal center
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19028 ! Peyer's patches
+relationship: part_of EMAPA:19028 ! peyer's patch
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -49429,6 +49506,7 @@ namespace: anatomical_structure
 synonym: "kidney papilla" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17948 ! kidney pelvis
+relationship: part_of EMAPA:36915 ! renal pyramid
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -49672,6 +49750,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35759
 name: secretory circumventricular organ
 namespace: anatomical_structure
+is_a: EMAPA:36954 ! neuroendocrine gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35243 ! circumventricular organ
 relationship: starts_at TS27 ! TS27
@@ -50591,6 +50670,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35872
 name: tooth substance
 namespace: anatomical_structure
+is_a: EMAPA:35178 ! body fluid or substance
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32906 ! tooth
 relationship: starts_at TS26 ! TS26
@@ -50599,6 +50679,9 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:35873
 name: trabecular bone
 namespace: anatomical_structure
+alt_id: EMAPA:37022
+synonym: "trabecular bone" EXACT []
+is_a: EMAPA:35179 ! bone tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32782 ! bone
 relationship: starts_at TS27 ! TS27
@@ -51010,7 +51093,7 @@ name: vestibular epithelium
 namespace: anatomical_structure
 is_a: EMAPA:32883 ! inner ear epithelium
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17815 ! labyrinth
+relationship: part_of EMAPA:17815 ! inner ear labyrinth
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -51062,7 +51145,7 @@ name: white matter
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16470 ! central nervous system
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35928
@@ -51298,9 +51381,9 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:35955
 name: sensory organ
 namespace: anatomical_structure
+is_a: EMAPA:16192 ! sensory organ system
 is_a: EMAPA:35949 ! organ
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16192 ! sensory organ system
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -51548,7 +51631,7 @@ namespace: anatomical_structure
 is_a: EMAPA:32736 ! pre-cartilage condensation
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17000 ! middle ear
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35983
@@ -51718,24 +51801,24 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:36002
 name: auditory system
 namespace: anatomical_structure
+is_a: EMAPA:16192 ! sensory organ system
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16192 ! sensory organ system
 relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:36003
 name: visual system
 namespace: anatomical_structure
+is_a: EMAPA:16192 ! sensory organ system
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16192 ! sensory organ system
 relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:36004
 name: olfactory system
 namespace: anatomical_structure
+is_a: EMAPA:16192 ! sensory organ system
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16192 ! sensory organ system
 relationship: starts_at TS14 ! TS14
 
 [Term]
@@ -54226,6 +54309,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:36300
 name: blood vessel elastic tissue
 namespace: anatomical_structure
+is_a: EMAPA:36887 ! cardiovascular system elastic tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32743 ! blood vessel
 relationship: starts_at TS24 ! TS24
@@ -54553,7 +54637,7 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:36338
-name: hindlimb digit metacarpo-phalangeal joint
+name: hindlimb digit metatarsal-phalangeal joint
 namespace: anatomical_structure
 is_a: EMAPA:32949 ! foot joint
 relationship: ends_at TS28 ! TS28
@@ -55284,6 +55368,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:36428
 name: female accessory gland
 namespace: anatomical_structure
+is_a: EMAPA:36985 ! reproductive system gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: starts_at TS23 ! TS23
@@ -55819,6 +55904,7 @@ id: EMAPA:36490
 name: costo-chondral joint
 namespace: anatomical_structure
 is_a: EMAPA:36581 ! cartilaginous joint
+is_a: EMAPA:36910 ! joint of  rib
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36667 ! rib cage
 relationship: starts_at TS25 ! TS25
@@ -55955,7 +56041,7 @@ id: EMAPA:36506
 name: peyer's patch epithelium
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19028 ! Peyer's patches
+relationship: part_of EMAPA:19028 ! peyer's patch
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -56012,7 +56098,7 @@ id: EMAPA:36513
 name: auricular nerve
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35157 ! auricle
+relationship: part_of EMAPA:17589 ! pinna
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -56187,7 +56273,7 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:36535
-name: exocrine gland fluid/secretion
+name: exocrine gland fluid or secretion
 namespace: anatomical_structure
 is_a: EMAPA:35178 ! body fluid or substance
 relationship: ends_at TS28 ! TS28
@@ -56197,7 +56283,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36536
 name: saliva
 namespace: anatomical_structure
-is_a: EMAPA:36535 ! exocrine gland fluid/secretion
+is_a: EMAPA:36535 ! exocrine gland fluid or secretion
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
 
@@ -56205,15 +56291,15 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36537
 name: tear
 namespace: anatomical_structure
-is_a: EMAPA:36535 ! exocrine gland fluid/secretion
+is_a: EMAPA:36535 ! exocrine gland fluid or secretion
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:36538
-name: mammary gland fluid/secretion
+name: mammary gland fluid or secretion
 namespace: anatomical_structure
-is_a: EMAPA:36535 ! exocrine gland fluid/secretion
+is_a: EMAPA:36535 ! exocrine gland fluid or secretion
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
 
@@ -56221,7 +56307,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36539
 name: colostrom
 namespace: anatomical_structure
-is_a: EMAPA:36538 ! mammary gland fluid/secretion
+is_a: EMAPA:36538 ! mammary gland fluid or secretion
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
 
@@ -56229,13 +56315,13 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36540
 name: mammary gland milk
 namespace: anatomical_structure
-is_a: EMAPA:36538 ! mammary gland fluid/secretion
+is_a: EMAPA:36538 ! mammary gland fluid or secretion
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:36541
-name: male reproductive system fluid/secretion
+name: male reproductive system fluid or secretion
 namespace: anatomical_structure
 is_a: EMAPA:35178 ! body fluid or substance
 relationship: ends_at TS28 ! TS28
@@ -56245,7 +56331,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36542
 name: semen
 namespace: anatomical_structure
-is_a: EMAPA:36541 ! male reproductive system fluid/secretion
+is_a: EMAPA:36541 ! male reproductive system fluid or secretion
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
 
@@ -56307,7 +56393,7 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:36550
-name: respiratory system fluid/secretion
+name: respiratory system fluid or secretion
 namespace: anatomical_structure
 is_a: EMAPA:35178 ! body fluid or substance
 relationship: ends_at TS28 ! TS28
@@ -56317,7 +56403,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36551
 name: lung surfactant
 namespace: anatomical_structure
-is_a: EMAPA:36550 ! respiratory system fluid/secretion
+is_a: EMAPA:36550 ! respiratory system fluid or secretion
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
 
@@ -56325,7 +56411,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36552
 name: nasal mucus
 namespace: anatomical_structure
-is_a: EMAPA:36550 ! respiratory system fluid/secretion
+is_a: EMAPA:36550 ! respiratory system fluid or secretion
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
 
@@ -56333,7 +56419,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36553
 name: sputum
 namespace: anatomical_structure
-is_a: EMAPA:36550 ! respiratory system fluid/secretion
+is_a: EMAPA:36550 ! respiratory system fluid or secretion
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
 
@@ -56347,7 +56433,7 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:36555
-name: inguinal tat pad
+name: inguinal fat pad
 namespace: anatomical_structure
 is_a: EMAPA:35340 ! fat pad
 relationship: ends_at TS28 ! TS28
@@ -56466,6 +56552,7 @@ name: cochlear labyrinth
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17597 ! cochlea
+relationship: part_of EMAPA:36959 ! membranous labyrinth
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -56490,7 +56577,7 @@ name: mandible condylar process
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:25100 ! mandible ramus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:36573
@@ -56552,9 +56639,10 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36580
 name: bony labyrinth
 namespace: anatomical_structure
+is_a: EMAPA:17815 ! inner ear labyrinth
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16194 ! inner ear
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:36581
@@ -56615,7 +56703,7 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:36588
-name: body of vertebra
+name: vertebral body
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32740 ! vertebra
@@ -56833,11 +56921,11 @@ relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:36614
-name: vertebral arch
+name: vertebral neural arch
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32740 ! vertebra
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:36615
@@ -57391,7 +57479,7 @@ relationship: starts_at TS07 ! TS07
 id: EMAPA:36681
 name: acromio-clavicular joint
 namespace: anatomical_structure
-is_a: EMAPA:35456 ! joint
+is_a: EMAPA:36914 ! joint of girdle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS21 ! TS21
 
@@ -57401,7 +57489,7 @@ name: sterno-costal joint
 namespace: anatomical_structure
 synonym: "chondro-sternal joint" RELATED []
 synonym: "costo-sternal joint" RELATED []
-is_a: EMAPA:35456 ! joint
+is_a: EMAPA:36910 ! joint of  rib
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36667 ! rib cage
 relationship: starts_at TS24 ! TS24
@@ -58242,6 +58330,2077 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35790 ! spinal cord dorsal horn
 relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36782
+name: abdomen organ
+namespace: anatomical_structure
+is_a: EMAPA:35949 ! organ
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35102 ! abdomen
+relationship: starts_at TS16 ! TS16
+
+[Term]
+id: EMAPA:36783
+name: adrenal gland capsule
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18426 ! adrenal gland
+relationship: starts_at TS26 ! TS26
+
+[Term]
+id: EMAPA:36784
+name: adrenal gland X zone
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18426 ! adrenal gland
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36785
+name: afferent lymphatic vessel
+namespace: anatomical_structure
+is_a: EMAPA:35532 ! lymphatic vessel
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36786
+name: efferent lymphatic vessel
+namespace: anatomical_structure
+is_a: EMAPA:35532 ! lymphatic vessel
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36787
+name: anterior buccal gland
+namespace: anatomical_structure
+is_a: EMAPA:35574 ! minor salivary gland
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36788
+name: anterior lingual gland
+namespace: anatomical_structure
+is_a: EMAPA:35574 ! minor salivary gland
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36789
+name: major salivary gland
+namespace: anatomical_structure
+is_a: EMAPA:17751 ! salivary gland
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36790
+name: cornea anterior limiting lamina
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17161 ! cornea
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36791
+name: anus
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16831 ! anal region
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36792
+name: aorta elastic tissue
+namespace: anatomical_structure
+is_a: EMAPA:18601 ! aorta
+is_a: EMAPA:36300 ! blood vessel elastic tissue
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36793
+name: heart apex
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16105 ! heart
+relationship: starts_at TS13 ! TS13
+
+[Term]
+id: EMAPA:36794
+name: areola
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17759 ! mammary gland
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36795
+name: cervical mammary gland
+namespace: anatomical_structure
+is_a: EMAPA:17759 ! mammary gland
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36796
+name: inguinal mammary gland
+namespace: anatomical_structure
+is_a: EMAPA:17759 ! mammary gland
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36797
+name: axillary lymph node
+namespace: anatomical_structure
+is_a: EMAPA:35523 ! lymph node
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36798
+name: auricular lymph node
+namespace: anatomical_structure
+is_a: EMAPA:35523 ! lymph node
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36799
+name: brachial lymph node
+namespace: anatomical_structure
+is_a: EMAPA:35523 ! lymph node
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36800
+name: bronchial lymph node
+namespace: anatomical_structure
+is_a: EMAPA:35523 ! lymph node
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36801
+name: celiac lymph node
+namespace: anatomical_structure
+is_a: EMAPA:35523 ! lymph node
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36802
+name: cervical lymph node
+namespace: anatomical_structure
+is_a: EMAPA:35523 ! lymph node
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36803
+name: gastric lymph node
+namespace: anatomical_structure
+is_a: EMAPA:35523 ! lymph node
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36804
+name: hepatic lymph node
+namespace: anatomical_structure
+is_a: EMAPA:35523 ! lymph node
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36805
+name: ileocolic lymph node
+namespace: anatomical_structure
+is_a: EMAPA:35523 ! lymph node
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36806
+name: iliac lymph node
+namespace: anatomical_structure
+is_a: EMAPA:35523 ! lymph node
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36807
+name: lumbar lymph node
+namespace: anatomical_structure
+is_a: EMAPA:35523 ! lymph node
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36808
+name: mandibular lymph node
+namespace: anatomical_structure
+is_a: EMAPA:35523 ! lymph node
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36809
+name: pancreatic lymph node
+namespace: anatomical_structure
+is_a: EMAPA:35523 ! lymph node
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36810
+name: paraaortic lymph node
+namespace: anatomical_structure
+is_a: EMAPA:35523 ! lymph node
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36811
+name: parotid lymph node
+namespace: anatomical_structure
+is_a: EMAPA:35523 ! lymph node
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36812
+name: popliteal lymph node
+namespace: anatomical_structure
+is_a: EMAPA:35523 ! lymph node
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36813
+name: renal lymph node
+namespace: anatomical_structure
+is_a: EMAPA:35523 ! lymph node
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36814
+name: sacral lymph node
+namespace: anatomical_structure
+is_a: EMAPA:35523 ! lymph node
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36815
+name: sciatic lymph node
+namespace: anatomical_structure
+is_a: EMAPA:35523 ! lymph node
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36816
+name: splenic lymph node
+namespace: anatomical_structure
+is_a: EMAPA:35523 ! lymph node
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36817
+name: subcutaneous lymph node
+namespace: anatomical_structure
+is_a: EMAPA:35523 ! lymph node
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36818
+name: submandibular lymph node
+namespace: anatomical_structure
+is_a: EMAPA:35523 ! lymph node
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36819
+name: thymic lymph node
+namespace: anatomical_structure
+is_a: EMAPA:35523 ! lymph node
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36820
+name: tracheobronchial lymph node
+namespace: anatomical_structure
+is_a: EMAPA:35523 ! lymph node
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36821
+name: lymph node trabeculum
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35523 ! lymph node
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36822
+name: lymph node B cell domain
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35525 ! lymph node cortex
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36823
+name: lymphoid tissue
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18765 ! hemolymphoid system
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36824
+name: bronchus-associated lymphoid tissue
+namespace: anatomical_structure
+is_a: EMAPA:36826 ! mucosa-associated lymphoid tissue
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36825
+name: gut-associated lymphoid tissue
+namespace: anatomical_structure
+is_a: EMAPA:36826 ! mucosa-associated lymphoid tissue
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36826
+name: mucosa-associated lymphoid tissue
+namespace: anatomical_structure
+is_a: EMAPA:36823 ! lymphoid tissue
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36827
+name: nasal-associated lymphoid tissue
+namespace: anatomical_structure
+is_a: EMAPA:36826 ! mucosa-associated lymphoid tissue
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36828
+name: oropharyngeal lymphoid tissue
+namespace: anatomical_structure
+synonym: "tondillar ring" RELATED []
+is_a: EMAPA:36826 ! mucosa-associated lymphoid tissue
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36829
+name: basicranium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17680 ! cranium
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36830
+name: alimentary system fluid or secretion
+namespace: anatomical_structure
+synonym: "digestive system fluid or section" RELATED []
+is_a: EMAPA:35178 ! body fluid or substance
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36831
+name: esophagus secretion
+namespace: anatomical_structure
+is_a: EMAPA:36830 ! alimentary system fluid or secretion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36832
+name: stomach secretion
+namespace: anatomical_structure
+synonym: "gastric juice" RELATED []
+is_a: EMAPA:36830 ! alimentary system fluid or secretion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36833
+name: intestine secretion
+namespace: anatomical_structure
+is_a: EMAPA:36830 ! alimentary system fluid or secretion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36834
+name: pancreas secretion
+namespace: anatomical_structure
+is_a: EMAPA:36830 ! alimentary system fluid or secretion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36835
+name: endocrine pancreas secretion
+namespace: anatomical_structure
+is_a: EMAPA:36834 ! pancreas secretion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36836
+name: exocrine pancreas secretion
+namespace: anatomical_structure
+is_a: EMAPA:36834 ! pancreas secretion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36837
+name: bile
+namespace: anatomical_structure
+is_a: EMAPA:36830 ! alimentary system fluid or secretion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36838
+name: bile duct epithelium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35171 ! bile duct
+relationship: starts_at TS16 ! TS16
+
+[Term]
+id: EMAPA:36839
+name: extrahepatic bile duct epithelium
+namespace: anatomical_structure
+is_a: EMAPA:36838 ! bile duct epithelium
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36767 ! extrahepatic bile duct
+relationship: starts_at TS16 ! TS16
+
+[Term]
+id: EMAPA:36840
+name: intrahepatic bile duct epithelium
+namespace: anatomical_structure
+is_a: EMAPA:36838 ! bile duct epithelium
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36768 ! intrahepatic bile duct
+relationship: starts_at TS16 ! TS16
+
+[Term]
+id: EMAPA:36841
+name: interlobular bile duct
+namespace: anatomical_structure
+is_a: EMAPA:36768 ! intrahepatic bile duct
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36842
+name: intralobular bile duct
+namespace: anatomical_structure
+is_a: EMAPA:36768 ! intrahepatic bile duct
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35499 ! liver lobule
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36843
+name: bone marrow cavity
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35250 ! compact bone
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36844
+name: cerebellum anterior vermis
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35214 ! cerebellum vermis
+relationship: part_of EMAPA:35215 ! cerebellum anterior lobe
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36845
+name: cerebellum posterior vermis
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35214 ! cerebellum vermis
+relationship: part_of EMAPA:35222 ! cerebellum posterior lobe
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36846
+name: cerebellum lobule
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17787 ! cerebellum
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36847
+name: cerebellum hemisphere lobule
+namespace: anatomical_structure
+is_a: EMAPA:36846 ! cerebellum lobule
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35218 ! cerebellar hemisphere
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36848
+name: flocculonodular lobe
+namespace: anatomical_structure
+is_a: EMAPA:35220 ! cerebellum lobe
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36849
+name: cerebrospinal fluid
+namespace: anatomical_structure
+is_a: EMAPA:35178 ! body fluid or substance
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36850
+name: cerumen
+namespace: anatomical_structure
+is_a: EMAPA:36535 ! exocrine gland fluid or secretion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36851
+name: feces
+namespace: anatomical_structure
+is_a: EMAPA:35178 ! body fluid or substance
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36852
+name: female reproductive system fluid or secretion
+namespace: anatomical_structure
+is_a: EMAPA:35178 ! body fluid or substance
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36853
+name: ovary follicle fluid
+namespace: anatomical_structure
+synonym: "follicular fluid" RELATED []
+is_a: EMAPA:36852 ! female reproductive system fluid or secretion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36854
+name: lymph
+namespace: anatomical_structure
+is_a: EMAPA:35178 ! body fluid or substance
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36855
+name: ocular refractive media
+namespace: anatomical_structure
+is_a: EMAPA:35178 ! body fluid or substance
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:36856
+name: pericardial fluid
+namespace: anatomical_structure
+is_a: EMAPA:35178 ! body fluid or substance
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36857
+name: pleural fluid
+namespace: anatomical_structure
+is_a: EMAPA:35178 ! body fluid or substance
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36858
+name: skin fluid or secretion
+namespace: anatomical_structure
+is_a: EMAPA:35178 ! body fluid or substance
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36859
+name: sebum
+namespace: anatomical_structure
+is_a: EMAPA:36858 ! skin fluid or secretion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36860
+name: sweat
+namespace: anatomical_structure
+is_a: EMAPA:36858 ! skin fluid or secretion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36861
+name: synovial fluid
+namespace: anatomical_structure
+is_a: EMAPA:35178 ! body fluid or substance
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36862
+name: C1 vertebra ventral tubercle
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:19431 ! C1 vertebra
+relationship: starts_at TS26 ! TS26
+
+[Term]
+id: EMAPA:36863
+name: cervix uteri squamous epithelium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:29929 ! epithelial layer of cervix uteri
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36864
+name: thoracic body wall
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32761 ! body wall
+relationship: part_of EMAPA:35862 ! thoracic segment of trunk
+relationship: starts_at TS18 ! TS18
+
+[Term]
+id: EMAPA:36865
+name: ciliated columnar oviduct epithelium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:29043 ! epithelial layer of oviduct
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36866
+name: cuboidal oviduct epithelium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:29043 ! epithelial layer of oviduct
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36867
+name: craniocervical region
+namespace: anatomical_structure
+synonym: "head and neck" RELATED []
+is_a: EMAPA:36031 ! body region
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36868
+name: crista ampullaris neuroepitheium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32791 ! crista ampullaris
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36869
+name: dentate nucleus
+namespace: anatomical_structure
+synonym: "lateral deep cerebellar nucleus" RELATED []
+is_a: EMAPA:35272 ! deep cerebellar nucleus
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36870
+name: fastigial nucleus
+namespace: anatomical_structure
+synonym: "medial cerebellar nucleus" RELATED []
+is_a: EMAPA:35272 ! deep cerebellar nucleus
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36871
+name: dermis adipose tissue
+namespace: anatomical_structure
+is_a: EMAPA:35112 ! adipose tissue
+is_a: EMAPA:36509 ! dermis connective tissue
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36872
+name: holocrine gland
+namespace: anatomical_structure
+is_a: EMAPA:35327 ! exocrine gland
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36873
+name: merocrine gland
+namespace: anatomical_structure
+is_a: EMAPA:35327 ! exocrine gland
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36874
+name: eccrine sweat gland
+namespace: anatomical_structure
+is_a: EMAPA:35844 ! sweat gland
+is_a: EMAPA:36873 ! merocrine gland
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36875
+name: elastic cartilage
+namespace: anatomical_structure
+is_a: EMAPA:32730 ! cartilage
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36876
+name: ethmoid sinus
+namespace: anatomical_structure
+is_a: EMAPA:35662 ! paranasal sinus
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36877
+name: frontal sinus
+namespace: anatomical_structure
+is_a: EMAPA:35662 ! paranasal sinus
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36878
+name: maxillary sinus
+namespace: anatomical_structure
+is_a: EMAPA:35662 ! paranasal sinus
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36879
+name: sphenoid sinus
+namespace: anatomical_structure
+is_a: EMAPA:35662 ! paranasal sinus
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36880
+name: eyelash
+namespace: anatomical_structure
+is_a: EMAPA:18769 ! hair
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17829 ! eyelid
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36881
+name: fibrocartilage
+namespace: anatomical_structure
+is_a: EMAPA:32730 ! cartilage
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36882
+name: fontanel
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17681 ! chondrocranium
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36883
+name: glomerular capillary endotheium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:28245 ! glomerular capillary system
+relationship: starts_at TS25 ! TS25
+
+[Term]
+id: EMAPA:36884
+name: glottis
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18333 ! larynx
+relationship: starts_at TS25 ! TS25
+
+[Term]
+id: EMAPA:36885
+name: gustatory system
+namespace: anatomical_structure
+is_a: EMAPA:16192 ! sensory organ system
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS18 ! TS18
+
+[Term]
+id: EMAPA:36886
+name: elastic tissue
+namespace: anatomical_structure
+is_a: EMAPA:35251 ! connective tissue
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36887
+name: cardiovascular system elastic tissue
+namespace: anatomical_structure
+is_a: EMAPA:36886 ! elastic tissue
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16104 ! cardiovascular system
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36888
+name: heart elastic tissue
+namespace: anatomical_structure
+is_a: EMAPA:36887 ! cardiovascular system elastic tissue
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36889
+name: respiratory system elastic tissue
+namespace: anatomical_structure
+is_a: EMAPA:36886 ! elastic tissue
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16727 ! respiratory system
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36890
+name: bronchus elastic tissue
+namespace: anatomical_structure
+is_a: EMAPA:36889 ! respiratory system elastic tissue
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36891
+name: lung elastic tissue
+namespace: anatomical_structure
+is_a: EMAPA:36889 ! respiratory system elastic tissue
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36892
+name: trachea elastic tissue
+namespace: anatomical_structure
+is_a: EMAPA:36889 ! respiratory system elastic tissue
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36893
+name: heart ventricle wall
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17331 ! heart ventricle
+relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:36894
+name: helix
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17589 ! pinna
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36895
+name: hepatic portal vein
+namespace: anatomical_structure
+is_a: EMAPA:17349 ! portal vein
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36896
+name: immune system
+namespace: anatomical_structure
+is_a: EMAPA:16103 ! organ system
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36897
+name: inferior cerebellar peduncle
+namespace: anatomical_structure
+is_a: EMAPA:35213 ! cerebellar peduncle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36898
+name: middle cerebellar peduncle
+namespace: anatomical_structure
+is_a: EMAPA:35213 ! cerebellar peduncle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36899
+name: superior cerebellar peduncle
+namespace: anatomical_structure
+is_a: EMAPA:35213 ! cerebellar peduncle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36900
+name: hair follicle infundibulum
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18771 ! hair follicle
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36901
+name: axillary fat pad
+namespace: anatomical_structure
+is_a: EMAPA:35340 ! fat pad
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36902
+name: interscapular fat pad
+namespace: anatomical_structure
+is_a: EMAPA:35340 ! fat pad
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36903
+name: meidastinal fat pad
+namespace: anatomical_structure
+is_a: EMAPA:35340 ! fat pad
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36904
+name: omental fat pad
+namespace: anatomical_structure
+is_a: EMAPA:35340 ! fat pad
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36905
+name: pancreatic fat pad
+namespace: anatomical_structure
+is_a: EMAPA:35340 ! fat pad
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36906
+name: parametrial fat pad
+namespace: anatomical_structure
+is_a: EMAPA:35340 ! fat pad
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36907
+name: periovarian fat pad
+namespace: anatomical_structure
+is_a: EMAPA:35340 ! fat pad
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36908
+name: renal fat pad
+namespace: anatomical_structure
+is_a: EMAPA:35340 ! fat pad
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36909
+name: retroperitoneal fat pad
+namespace: anatomical_structure
+is_a: EMAPA:35340 ! fat pad
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36910
+name: joint of  rib
+namespace: anatomical_structure
+is_a: EMAPA:35456 ! joint
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36911
+name: interchondral joint
+namespace: anatomical_structure
+is_a: EMAPA:36910 ! joint of  rib
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36912
+name: joint of vertebral arch
+namespace: anatomical_structure
+is_a: EMAPA:35456 ! joint
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36913
+name: intervertebral joint
+namespace: anatomical_structure
+is_a: EMAPA:35456 ! joint
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17214 ! axial skeleton
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:36914
+name: joint of girdle
+namespace: anatomical_structure
+is_a: EMAPA:35456 ! joint
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:36915
+name: renal pyramid
+namespace: anatomical_structure
+synonym: "kidney pyramid" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:19279 ! renal medulla
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36916
+name: labium majorum
+namespace: anatomical_structure
+is_a: EMAPA:18329 ! labial fold
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36917
+name: labium minorum
+namespace: anatomical_structure
+is_a: EMAPA:18329 ! labial fold
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36918
+name: lacrimal bone
+namespace: anatomical_structure
+is_a: EMAPA:35924 ! viscerocranium bone
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36919
+name: lacrimal sac
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17853 ! naso-lacrimal duct
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36920
+name: oculomotor muscle
+namespace: anatomical_structure
+is_a: EMAPA:18234 ! extrinsic ocular muscle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36921
+name: rectus extraocular muscle
+namespace: anatomical_structure
+is_a: EMAPA:36920 ! oculomotor muscle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36922
+name: inferior rectus extraocular muscle
+namespace: anatomical_structure
+is_a: EMAPA:36921 ! rectus extraocular muscle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36923
+name: lateral rectus extraocular muscle
+namespace: anatomical_structure
+is_a: EMAPA:36921 ! rectus extraocular muscle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36924
+name: medial rectus extraocular muscle
+namespace: anatomical_structure
+is_a: EMAPA:36921 ! rectus extraocular muscle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36925
+name: superior rectus extraocular muscle
+namespace: anatomical_structure
+is_a: EMAPA:36921 ! rectus extraocular muscle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36926
+name: oblique extraocular muscle
+namespace: anatomical_structure
+is_a: EMAPA:36920 ! oculomotor muscle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36927
+name: inferior oblique extraocular muscle
+namespace: anatomical_structure
+is_a: EMAPA:36926 ! oblique extraocular muscle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36928
+name: superior oblique extraocular muscle
+namespace: anatomical_structure
+is_a: EMAPA:36926 ! oblique extraocular muscle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36929
+name: lingual tonsil
+namespace: anatomical_structure
+is_a: EMAPA:35871 ! tonsil
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36930
+name: pharyngeal tonsil
+namespace: anatomical_structure
+is_a: EMAPA:35871 ! tonsil
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36931
+name: tonsil capsule
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35871 ! tonsil
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36932
+name: tonsil crypt
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35871 ! tonsil
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36933
+name: liver perisinusoidal space
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17203 ! liver parenchyma
+relationship: part_of EMAPA:35499 ! liver lobule
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36934
+name: pinna lobule
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17589 ! pinna
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36935
+name: membranous urethra
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18692 ! urethra of male
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36936
+name: male reproductive gland or organ
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17968 ! male reproductive system
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36937
+name: malleus manubrium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17826 ! malleus pre-cartilage condensation
+relationship: part_of EMAPA:18229 ! malleus cartilage condensation
+relationship: part_of EMAPA:18584 ! malleus
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:36938
+name: malleus processus brevis
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18229 ! malleus cartilage condensation
+relationship: part_of EMAPA:18584 ! malleus
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36939
+name: malleus head
+namespace: anatomical_structure
+is_a: EMAPA:18584 ! malleus
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36940
+name: malleus neck
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18584 ! malleus
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36941
+name: mandible angular process
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18290 ! mandible
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:36942
+name: mandible head
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36572 ! mandible condylar process
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36943
+name: mandible neck
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36572 ! mandible condylar process
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36944
+name: mandible coronoid process
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:25100 ! mandible ramus
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36945
+name: mandible temporal crest
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:25100 ! mandible ramus
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36946
+name: mandible symphysis
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18290 ! mandible
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36947
+name: mandible petrous part
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18290 ! mandible
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36948
+name: mandible squamous part
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18290 ! mandible
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36949
+name: mandible alveolar process
+namespace: anatomical_structure
+is_a: EMAPA:35118 ! alveolar process
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18290 ! mandible
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36950
+name: maxillary alveolar process
+namespace: anatomical_structure
+is_a: EMAPA:35118 ! alveolar process
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17639 ! maxilla
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36951
+name: masticatory muscle
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18171 ! cranial musculature
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:36952
+name: metapodial pad
+namespace: anatomical_structure
+synonym: "footpad" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32723 ! autopod skin
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36953
+name: nasal bridge
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32806 ! snout
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36954
+name: neuroendocrine gland
+namespace: anatomical_structure
+is_a: EMAPA:35999 ! endocrine gland
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16469 ! nervous system
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36955
+name: orbit of skull
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17680 ! cranium
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36956
+name: osseus labyrinth vestibule
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36580 ! bony labyrinth
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36957
+name: vestibular aqueduct
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36956 ! osseus labyrinth vestibule
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36958
+name: osseus semicircular canal
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32832 ! semicircular canal
+relationship: part_of EMAPA:36580 ! bony labyrinth
+relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:36959
+name: membranous labyrinth
+namespace: anatomical_structure
+is_a: EMAPA:17815 ! inner ear labyrinth
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16194 ! inner ear
+relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:36960
+name: vestibular labyrinth
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36959 ! membranous labyrinth
+relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:36961
+name: otolithic membrane
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36960 ! vestibular labyrinth
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36962
+name: otolith organ
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36960 ! vestibular labyrinth
+relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:36963
+name: bulbar conjunctiva
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18233 ! conjunctival sac
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36964
+name: palpebral conjunctiva
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18233 ! conjunctival sac
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36965
+name: palpebral fissure
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17829 ! eyelid
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36966
+name: heart ventricle papillary muscle
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17331 ! heart ventricle
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36967
+name: vertebral pedicle
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32740 ! vertebra
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36968
+name: pelvic ligament
+namespace: anatomical_structure
+is_a: EMAPA:37004 ! skeletal ligament
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36969
+name: periorbital region
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32763 ! face
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36970
+name: peyer's patch follicle
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:19028 ! peyer's patch
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36971
+name: placenta metrial gland
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35689 ! placenta
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36972
+name: pontine raphe nucleus
+namespace: anatomical_structure
+is_a: EMAPA:35692 ! pontine nucleus
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36973
+name: portal lobule
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17203 ! liver parenchyma
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36974
+name: portal triad
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17203 ! liver parenchyma
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36975
+name: eye posterior chamber
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36594 ! eye anterior segment
+relationship: starts_at TS25 ! TS25
+
+[Term]
+id: EMAPA:36976
+name: pupillary membrane
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36594 ! eye anterior segment
+relationship: starts_at TS25 ! TS25
+
+[Term]
+id: EMAPA:36977
+name: pupil
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36594 ! eye anterior segment
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36978
+name: paravertebral ganglion
+namespace: anatomical_structure
+is_a: EMAPA:17157 ! sympathetic ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS18 ! TS18
+
+[Term]
+id: EMAPA:36979
+name: prevertebral ganglion
+namespace: anatomical_structure
+is_a: EMAPA:17157 ! sympathetic ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS25 ! TS25
+
+[Term]
+id: EMAPA:36980
+name: mesenteric ganglion
+namespace: anatomical_structure
+is_a: EMAPA:36979 ! prevertebral ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36981
+name: inferior mesenteric ganglion
+namespace: anatomical_structure
+is_a: EMAPA:36980 ! mesenteric ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36982
+name: superior mesenteric ganglion
+namespace: anatomical_structure
+is_a: EMAPA:36980 ! mesenteric ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36983
+name: retrotrapezoid nucleus
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17550 ! medulla oblongata
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36984
+name: septum pellucidum
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32837 ! telencephalon septum
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36985
+name: reproductive system gland
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17381 ! reproductive system
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36986
+name: shoulder bone
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17421 ! shoulder
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:36987
+name: somatic nervous system
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16665 ! peripheral nervous system
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36988
+name: sphenoid bone pterygoid process
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18340 ! sphenoid bone
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36989
+name: spinal cord dorsal column
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35795 ! spinal cord white matter
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36990
+name: spinal cord lateral column
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35795 ! spinal cord white matter
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36991
+name: spinal cord lateral motor column
+namespace: anatomical_structure
+is_a: EMAPA:36990 ! spinal cord lateral column
+is_a: EMAPA:36993 ! spinal cord motor column
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35795 ! spinal cord white matter
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36992
+name: spinal cord medial motor column
+namespace: anatomical_structure
+is_a: EMAPA:36993 ! spinal cord motor column
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35795 ! spinal cord white matter
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36993
+name: spinal cord motor column
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35795 ! spinal cord white matter
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36994
+name: spinal cord ventral column
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35795 ! spinal cord white matter
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36995
+name: spiral modiolar artery
+namespace: anatomical_structure
+is_a: EMAPA:35147 ! artery
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:36996
+name: spleen central arteriole
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35809 ! spleen white pulp
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36997
+name: spleen marginal sinus
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18767 ! spleen
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36998
+name: spleen trabecular artery
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35808 ! spleen trabeculum
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:36999
+name: spleen trabecular vein
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35808 ! spleen trabeculum
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:37000
+name: stapes base
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18585 ! stapes
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:37001
+name: stomach smooth muscle circular layer
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36770 ! stomach muscularis
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:37002
+name: duvet hair
+namespace: anatomical_structure
+is_a: EMAPA:18769 ! hair
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:37003
+name: nonskeletal ligament
+namespace: anatomical_structure
+is_a: EMAPA:35493 ! ligament
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:37004
+name: skeletal ligament
+namespace: anatomical_structure
+is_a: EMAPA:35493 ! ligament
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:37005
+name: stylohyoid ligament
+namespace: anatomical_structure
+is_a: EMAPA:37004 ! skeletal ligament
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:37006
+name: sublingual ganglion
+namespace: anatomical_structure
+is_a: EMAPA:32813 ! parasympathetic ganglion
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:37007
+name: sulcus ampullaris
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32831 ! semicircular duct ampulla
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:37008
+name: vestibular ganglion superior part
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17573 ! vestibular ganglion
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:37009
+name: vestibular ganglion inferior part
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17573 ! vestibular ganglion
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:37010
+name: eyelid tarsus
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17829 ! eyelid
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:37011
+name: meibomian gland
+namespace: anatomical_structure
+synonym: "tarsal gland" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:37010 ! eyelid tarsus
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:37012
+name: ovary theca externa
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35636 ! ovary theca
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:37013
+name: ovary theca interna
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35636 ! ovary theca
+relationship: starts_at TS28 ! TS28
+created_by: terryh
+creation_date: 2017-05-12T15:53:27Z
+
+[Term]
+id: EMAPA:37014
+name: thymus lobule
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18768 ! thymus
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:37015
+name: thymus subcapsular epithelium
+namespace: anatomical_structure
+is_a: EMAPA:35864 ! thymus epithelium
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:37016
+name: thymus trabecula
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18768 ! thymus
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:37017
+name: tongue squamous epitthelium
+namespace: anatomical_structure
+is_a: EMAPA:17881 ! tongue epithelium
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:37018
+name: tongue keratinized epithelium
+namespace: anatomical_structure
+is_a: EMAPA:37017 ! tongue squamous epitthelium
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:37019
+name: tongue taste bud
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17185 ! tongue
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:37020
+name: tooth cavity
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32906 ! tooth
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:37021
+name: vertebra transverse process
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32740 ! vertebra
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:37023
+name: trochanter
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:19143 ! femur
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:37024
+name: uterine artery
+namespace: anatomical_structure
+is_a: EMAPA:35147 ! artery
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:37025
+name: venous sinus
+namespace: anatomical_structure
+is_a: EMAPA:35932 ! venous blood vessel
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:37026
+name: vertebra lamina
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36614 ! vertebral neural arch
+relationship: starts_at TS26 ! TS26
+
+[Term]
+id: EMAPA:37027
+name: vitreous body
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17302 ! hyaloid cavity
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:37028
+name: vomer bone
+namespace: anatomical_structure
+is_a: EMAPA:35924 ! viscerocranium bone
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:37029
+name: 4th ventricle aperture
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16917 ! 4th ventricle
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:37030
+name: 4th ventricle lateral aperture
+namespace: anatomical_structure
+is_a: EMAPA:37029 ! 4th ventricle aperture
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:37031
+name: 4th ventricle median aperture
+namespace: anatomical_structure
+is_a: EMAPA:37029 ! 4th ventricle aperture
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:37032
+name: limb segment
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16405 ! limb
+relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:37033
+name: stylopod
+namespace: anatomical_structure
+is_a: EMAPA:37032 ! limb segment
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:37034
+name: zeugopod
+namespace: anatomical_structure
+is_a: EMAPA:37032 ! limb segment
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:37035
+name: hypopharynx
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16706 ! pharynx
+relationship: starts_at TS16 ! TS16
+
+[Term]
+id: EMAPA:37036
+name: ovarian bursa
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16139 ! peritoneum
+relationship: starts_at TS28 ! TS28
 
 [Term]
 id: group_term
