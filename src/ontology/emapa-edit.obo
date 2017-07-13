@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:06:2017 11:11
+date: 13:07:2017 16:00
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -2448,7 +2448,7 @@ id: EMAPA:16332
 name: blood
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16104 ! cardiovascular system
+relationship: part_of EMAPA:35402 ! hematopoietic system
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -4207,7 +4207,7 @@ id: EMAPA:16556
 name: foregut vascular element
 namespace: anatomical_structure
 is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS17 ! TS17
+relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:16548 ! foregut
 relationship: starts_at TS14 ! TS14
 
@@ -10601,6 +10601,7 @@ id: EMAPA:17417
 name: forearm
 namespace: anatomical_structure
 synonym: "lower arm" RELATED []
+is_a: EMAPA:37034 ! zeugopod
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17413 ! arm
 relationship: starts_at TS20 ! TS20
@@ -10664,7 +10665,6 @@ id: EMAPA:17424
 name: upper arm
 namespace: anatomical_structure
 is_a: EMAPA:37033 ! stylopod
-is_a: EMAPA:37034 ! zeugopod
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17413 ! arm
 relationship: starts_at TS20 ! TS20
@@ -20651,7 +20651,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16201 ! arterial system
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:18754
@@ -20703,7 +20703,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16240 ! venous system
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:18763
@@ -42086,7 +42086,7 @@ name: cortical subplate
 namespace: anatomical_structure
 alt_id: EMAPA:32833
 synonym: "cerebral cortex subplate" EXACT []
-relationship: ends_at TS27 ! TS27
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17544 ! cerebral cortex
 relationship: starts_at TS20 ! TS20
 
@@ -45076,7 +45076,7 @@ namespace: anatomical_structure
 is_a: EMAPA:32743 ! blood vessel
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16894 ! brain
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:35183
@@ -46162,7 +46162,6 @@ id: EMAPA:35316
 name: epididymal fat pad
 namespace: anatomical_structure
 is_a: EMAPA:35340 ! fat pad
-relationship: attached_to EMAPA:19089 ! gubernaculum
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19290 ! epididymis
 relationship: starts_at TS28 ! TS28
@@ -46811,7 +46810,7 @@ namespace: anatomical_structure
 is_a: EMAPA:16103 ! organ system
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18765 ! hemolymphoid system
-relationship: starts_at TS19 ! TS19
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:35403
@@ -49403,7 +49402,7 @@ name: prostate gland stroma
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19287 ! prostate gland
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35715
@@ -49611,7 +49610,7 @@ name: retina ganglion cell layer
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35742 ! retina layer
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35741
@@ -50465,7 +50464,7 @@ namespace: anatomical_structure
 is_a: EMAPA:32743 ! blood vessel
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16748 ! tail
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:35849
@@ -60223,8 +60222,6 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35636 ! ovary theca
 relationship: starts_at TS28 ! TS28
-created_by: terryh
-creation_date: 2017-05-12T15:53:27Z
 
 [Term]
 id: EMAPA:37014
