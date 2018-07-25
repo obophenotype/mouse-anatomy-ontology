@@ -1,88 +1,136 @@
 These notes are for the EDITORS of emapa
 
+This project was created using the [ontology starter kit](https://github.com/cmungall/ontology-starter-kit). See the site for details.
+
+For more details on ontology management, please see the [OBO tutorial](https://github.com/jamesaoverton/obo-tutorial) or the [Gene Ontology Editors Tutorial](go-protege-tutorial.readthedocs.io)
+
+You may also want to read the [GO ontology editors guide](http://go-ontology.readthedocs.org/)
+
+## Requirements
+
+ 1. Protege (for editing)
+ 2. A git client (we assume command line git)
+ 3. [docker](https://www.docker.com/get-docker) (for managing releases)
+
 ## Editors Version
 
-The editors version is emapa-edit.obo
+Make sure you have an ID range in the [idranges file](emapa-idranges.owl)
 
-** DO NOT EDIT emapa.obo OR emapa.owl **
+If you do not have one, get one from the head curator.
 
-emapa.obo is the release version
+The editors version is [emapa-edit.owl](emapa-edit.owl)
+
+** DO NOT EDIT emapa.obo OR emapa.owl in the top level directory **
+
+[../../emapa.owl](../../emapa.owl) is the release version
+
+To edit, open the file in Protege. First make sure you have the repository cloned, see [the GitHub project](https://github.com/obophenotype/mouse-anatomy-ontology) for details.
 
 ## ID Ranges
 
-TODO - these are not set up
-
 These are stored in the file
 
-  emapa-idranges.owl
+ * [emapa-idranges.owl](emapa-idranges.owl)
 
 ** ONLY USE IDs WITHIN YOUR RANGE!! **
 
-## Setting ID ranges in OBO-Edit
+If you have only just set up this repository, modify the idranges file
+and add yourself or other editors. Note Protege does not read the file
+- it is up to you to ensure correct Protege configuration.
 
- In the Metadata menu, select the ID manager option. You can set the ID range of any 
- profile you create here by clicking on the settings icon (cog wheels) next to the profile 
- name. In the window that appears, you can set the ID range by editing the default rule: 
- "ID:$sequence(<number of digits>,<minimum of range>,<maximum of range>)$"
- Thus, "EMAPA:$sequence(8,2000000,2999999)$" will set a range of 8 digit IDs from 200000 
- to 2999999.  
- 
-## Git Quick Guide
 
-TODO add instructions here
+### Setting ID ranges in Protege
+
+We aim to put this up on the technical docs for OBO on http://obofoundry.org/
+
+For now, consult the [GO Tutorial on configuring Protege](http://go-protege-tutorial.readthedocs.io/en/latest/Entities.html#new-entities)
+
+## Imports
+
+All import modules are in the [imports/](imports/) folder.
+
+There are two ways to include new classes in an import module
+
+ 1. Reference an external ontology class in the edit ontology. In Protege: "add new entity", then paste in the PURL
+ 2. Add to the imports/foo_terms.txt file
+
+After doing this, you can run
+
+`./run.sh make all_imports`
+
+to regenerate imports.
+
+Note: the foo_terms.txt file may include 'starter' classes seeded from the ontology starter kit. It is safe to remove these.
 
 ## Release Manager notes
+
+You should only attempt to make a release AFTER the edit version is
+committed and pushed, and the travis build passes.
+
+These instructions assume you have
+[docker](https://www.docker.com/get-docker). This folder has a script
+[run.sh](run.sh) that wraps docker commands.
 
 to release:
 
     cd src/ontology
-    make
+    ./run.sh make
 
-If this looks good:
+If this looks goo
+d type:
+
+    ./run.sh make prepare_release
+
+This generates derived files such as emapa.owl and emapa.obo and places
+them in the top level (../..). The versionIRI will be added.
+
+Commit and push these files.
 
     git commit -a
 
 And type a brief description of the release in the editor window
 
-# How to release the ontology
+Finally type
 
-The -edit file is generally not visible to the public (of course they
-can find it in github if they try). The editors are free to make
-changes they are not yet comfortable releasing.
+    git push origin master
 
-When ready for release, the process is as follows.
+IMMEDIATELY AFTERWARDS (do *not* make further modifications) go here:
 
-First check the file is valid - see the Jenkins job below. Additional
-spot checks would not do any harm.
+ * https://github.com/obophenotype/mouse-anatomy-ontology/releases
+ * https://github.com/obophenotype/mouse-anatomy-ontology/releases/new
 
-The emapa-edit.obo file should be copied to
+The value of the "Tag version" field MUST be
 
- * ftp://ftp.hgu.mrc.ac.uk/pub/MouseAtlas/Anatomy/EMAPA.obo
+    vYYYY-MM-DD
 
-JAX users will download from here.
+The initial lowercase "v" is REQUIRED. The YYYY-MM-DD *must* match
+what is in the versionIRI of the derived emapa.owl (data-version in
+emapa.obo).
 
-In addition, this will be picked up by the central obolibrary job
-within 24hrs, which will produce two files:
+Release title should be YYYY-MM-DD, optionally followed by a title (e.g. "january release")
 
- 1. http://purl.obolibrary.org/obo/emapa.obo
- 2. http://purl.obolibrary.org/obo/emapa.owl
+Then click "publish release"
 
-This is used by obolibrary users and OWL people
+__IMPORTANT__: NO MORE THAN ONE RELEASE PER DAY.
+
+The PURLs are already configured to pull from github. This means that
+BOTH ontology purls and versioned ontology purls will resolve to the
+correct ontologies. Try it!
+
+ * http://purl.obolibrary.org/obo/emapa.owl <-- current ontology PURL
+ * http://purl.obolibrary.org/obo/emapa/releases/YYYY-MM-DD.owl <-- change to the release you just made
 
 For questions on this contact Chris Mungall or email obo-admin AT obofoundry.org
 
+# Travis Continuous Integration System
 
-# Jenkins Continuous Integration System
+Check the build status here: [![Build Status](https://travis-ci.org/obophenotype/mouse-anatomy-ontology.svg?branch=master)](https://travis-ci.org/obophenotype/mouse-anatomy-ontology)
 
-TODO - editors do you want this set up?
+Note: if you have only just created this project you will need to authorize travis for this repo.
 
-Check:
+ 1. Go to [https://travis-ci.org/profile/obophenotype](https://travis-ci.org/profile/obophenotype)
+ 2. click the "Sync account" button
+ 3. Click the tick symbol next to mouse-anatomy-ontology
 
-http://build.berkeleybop.org/job/build-emapa/
+Travis builds should now be activated
 
-after committing
-
-== General Guidelines ==
-
-See:
-http://wiki.geneontology.org/index.php/Curator_Guide:_General_Conventions
