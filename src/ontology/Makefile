@@ -30,8 +30,6 @@ prepare_release: all
 	mkdir -p $(RELEASEDIR)/imports &&\
 	cp imports/*.owl $(RELEASEDIR)/imports &&\
 	cp imports/*.obo $(RELEASEDIR)/imports &&\
-	git add $(RELEASEDIR)/imports/*.obo &&\
-	git add $(RELEASEDIR)/imports/*.owl &&\
 	(test -f subsets/*owl && cp subsets/* $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\
 	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
 
@@ -44,7 +42,7 @@ prepare_release: all
 $(ONT).owl: $(SRC)
 	$(ROBOT)  reason -i $< -r ELK relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
 $(ONT).obo: $(ONT).owl
-	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
+	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && grep -v ^owl-axioms $(ONT).obo.tmp > $@
 
 # ----------------------------------------
 # Import modules
