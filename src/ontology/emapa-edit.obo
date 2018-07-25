@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 10:05:2018 12:02
+date: 25:07:2018 16:07
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -36722,8 +36722,8 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:29181
 name: epithelium of nephric duct of male
 namespace: anatomical_structure
-synonym: " epithelium of Wolffian duct of male" RELATED []
 synonym: "epithelium of mesonephric duct of male" RELATED []
+synonym: "epithelium of Wolffian duct of male" RELATED []
 is_a: EMAPA:35963 ! male reproductive system epithelium
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:35591 ! nephric duct of male
