@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:07:2018 16:07
+date: 13:08:2018 15:53
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -5479,7 +5479,7 @@ name: hindgut mesenchyme
 namespace: anatomical_structure
 alt_id: EMAPA:17901
 is_a: EMAPA:32909 ! gut mesenchyme
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:16715 ! hindgut
 relationship: starts_at TS15 ! TS15
 
@@ -33830,9 +33830,9 @@ id: EMAPA:27067
 name: hindgut mucosa
 namespace: anatomical_structure
 is_a: EMAPA:36591 ! alimentary system mucosa
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16715 ! hindgut
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:27069
@@ -46730,7 +46730,7 @@ name: gut muscularis
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16247 ! gut
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:35386
@@ -56766,7 +56766,7 @@ name: alimentary system mucosa
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16246 ! alimentary system
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:36592
@@ -64031,7 +64031,7 @@ name: cartilaginous otic capsule
 namespace: anatomical_structure
 is_a: EMAPA:17596 ! otic capsule
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:37468
@@ -65045,7 +65045,7 @@ name: alimentary system serosa
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16246 ! alimentary system
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:37593
@@ -68502,6 +68502,28 @@ is_a: EMAPA:35784 ! small intestine villus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32764 ! ileum
 relationship: starts_at TS26 ! TS26
+
+[Term]
+id: EMAPA:38019
+name: gut mucosa
+namespace: anatomical_structure
+is_a: EMAPA:36591 ! alimentary system mucosa
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16247 ! gut
+relationship: starts_at TS19 ! TS19
+created_by: terryh
+creation_date: 2018-08-13T14:07:22Z
+
+[Term]
+id: EMAPA:38020
+name: gut serosa
+namespace: anatomical_structure
+is_a: EMAPA:37592 ! alimentary system serosa
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16247 ! gut
+relationship: starts_at TS19 ! TS19
+created_by: terryh
+creation_date: 2018-08-13T14:30:48Z
 
 [Term]
 id: group_term
