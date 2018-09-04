@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2018-07-25
-date: 10:05:2018 12:02
+data-version: releases/2018-09-04
+date: 04:09:2018 15:00
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -5095,7 +5095,6 @@ name: hindgut mesenchyme
 namespace: anatomical_structure
 alt_id: EMAPA:17901
 is_a: EMAPA:32909 ! gut mesenchyme
-relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:16715 ! hindgut
 relationship: starts_at TS15 ! TS15
 
@@ -30764,6 +30763,7 @@ name: oral mucosa
 namespace: anatomical_structure
 is_a: EMAPA:36591 ! alimentary system mucosa
 relationship: part_of EMAPA:16262 ! oral region
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:26942
@@ -30796,6 +30796,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:26965
 is_a: EMAPA:36591 ! alimentary system mucosa
 relationship: part_of EMAPA:16706 ! pharynx
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:26959
@@ -30823,6 +30824,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:26991
 is_a: EMAPA:36591 ! alimentary system mucosa
 relationship: part_of EMAPA:16833 ! esophagus
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:26983
@@ -31015,6 +31017,7 @@ alt_id: EMAPA:27291
 is_a: EMAPA:36591 ! alimentary system mucosa
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17892 ! perineal body
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27055
@@ -31067,7 +31070,6 @@ id: EMAPA:27067
 name: hindgut mucosa
 namespace: anatomical_structure
 is_a: EMAPA:36591 ! alimentary system mucosa
-relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:16715 ! hindgut
 
 [Term]
@@ -31279,6 +31281,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36591 ! alimentary system mucosa
 relationship: ends_at TS25 ! TS25
 relationship: part_of EMAPA:17036 ! midgut loop
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27125
@@ -31328,6 +31331,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36591 ! alimentary system mucosa
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:16255 ! midgut
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27139
@@ -31784,6 +31788,7 @@ name: anal canal mucosa
 namespace: anatomical_structure
 is_a: EMAPA:36591 ! alimentary system mucosa
 relationship: part_of EMAPA:18256 ! anal canal
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:27535
@@ -33858,8 +33863,8 @@ relationship: part_of EMAPA:35591 ! nephric duct of male
 id: EMAPA:29181
 name: epithelium of nephric duct of male
 namespace: anatomical_structure
-synonym: " epithelium of Wolffian duct of male" RELATED []
 synonym: "epithelium of mesonephric duct of male" RELATED []
+synonym: "epithelium of Wolffian duct of male" RELATED []
 is_a: EMAPA:35963 ! male reproductive system epithelium
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:35591 ! nephric duct of male
@@ -43221,7 +43226,7 @@ name: gut muscularis
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16247 ! gut
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:35386
@@ -43624,6 +43629,7 @@ namespace: anatomical_structure
 synonym: "intestinal muscularis" RELATED []
 is_a: EMAPA:35385 ! gut muscularis
 relationship: part_of EMAPA:32874 ! intestine
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35442
@@ -46454,6 +46460,7 @@ name: stomach mucosa
 namespace: anatomical_structure
 is_a: EMAPA:36591 ! alimentary system mucosa
 relationship: part_of EMAPA:35826 ! stomach wall
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35818
@@ -51966,21 +51973,21 @@ id: EMAPA:36531
 name: left coronary artery
 namespace: anatomical_structure
 is_a: EMAPA:19160 ! coronary artery
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:36532
 name: right coronary artery
 namespace: anatomical_structure
 is_a: EMAPA:19160 ! coronary artery
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:36533
 name: septal coronary artery
 namespace: anatomical_structure
 is_a: EMAPA:19160 ! coronary artery
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:36534
@@ -52388,7 +52395,7 @@ name: alimentary system mucosa
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16246 ! alimentary system
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:36592
@@ -58813,7 +58820,7 @@ id: EMAPA:37467
 name: cartilaginous otic capsule
 namespace: anatomical_structure
 is_a: EMAPA:17596 ! otic capsule
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:37468
@@ -59724,7 +59731,7 @@ name: alimentary system serosa
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16246 ! alimentary system
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:37593
@@ -62890,6 +62897,28 @@ namespace: anatomical_structure
 is_a: EMAPA:35784 ! small intestine villus
 relationship: part_of EMAPA:32764 ! ileum
 relationship: starts_at TS26 ! TS26
+
+[Term]
+id: EMAPA:38019
+name: gut mucosa
+namespace: anatomical_structure
+is_a: EMAPA:36591 ! alimentary system mucosa
+relationship: part_of EMAPA:16247 ! gut
+
+[Term]
+id: EMAPA:38020
+name: gut serosa
+namespace: anatomical_structure
+is_a: EMAPA:37592 ! alimentary system serosa
+relationship: part_of EMAPA:16247 ! gut
+
+[Term]
+id: EMAPA:38021
+name: bladder lumen
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18321 ! bladder
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: TS01
