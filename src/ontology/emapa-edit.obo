@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:08:2018 15:53
+date: 04:09:2018 15:00
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -56280,7 +56280,7 @@ name: left coronary artery
 namespace: anatomical_structure
 is_a: EMAPA:19160 ! coronary artery
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:36532
@@ -56288,7 +56288,7 @@ name: right coronary artery
 namespace: anatomical_structure
 is_a: EMAPA:19160 ! coronary artery
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:36533
@@ -56296,7 +56296,7 @@ name: septal coronary artery
 namespace: anatomical_structure
 is_a: EMAPA:19160 ! coronary artery
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:36534
@@ -68511,8 +68511,6 @@ is_a: EMAPA:36591 ! alimentary system mucosa
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16247 ! gut
 relationship: starts_at TS19 ! TS19
-created_by: terryh
-creation_date: 2018-08-13T14:07:22Z
 
 [Term]
 id: EMAPA:38020
@@ -68522,8 +68520,14 @@ is_a: EMAPA:37592 ! alimentary system serosa
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16247 ! gut
 relationship: starts_at TS19 ! TS19
-created_by: terryh
-creation_date: 2018-08-13T14:30:48Z
+
+[Term]
+id: EMAPA:38021
+name: bladder lumen
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18321 ! bladder
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: group_term
