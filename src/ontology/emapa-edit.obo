@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 04:09:2018 15:00
+date: 10:09:2018 10:46
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -1542,7 +1542,6 @@ namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 is_a: EMAPA:36494 ! vitelline blood vessel
 relationship: ends_at TS20 ! TS20
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -1645,9 +1644,7 @@ id: EMAPA:16241
 name: anterior cardinal vein
 namespace: anatomical_structure
 alt_id: EMAPA:16355
-is_a: EMAPA:35906 ! vein
 relationship: ends_at TS20 ! TS20
-relationship: part_of EMAPA:16240 ! venous system
 relationship: part_of EMAPA:16354 ! cardinal vein
 relationship: starts_at TS12 ! TS12
 
@@ -1657,7 +1654,6 @@ name: primary head vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS20 ! TS20
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -2418,7 +2414,6 @@ alt_id: EMAPA:18612
 is_a: EMAPA:18609 ! carotid artery
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -2441,7 +2436,6 @@ relationship: starts_at TS13 ! TS13
 id: EMAPA:16331
 name: umbilical artery embryonic part
 namespace: anatomical_structure
-is_a: EMAPA:35147 ! artery
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16201 ! arterial system
 relationship: part_of EMAPA:36017 ! umbilical artery
@@ -2679,7 +2673,6 @@ name: cardinal vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -5200,7 +5193,6 @@ synonym: "aortic arch artery" RELATED []
 synonym: "pharyngeal arch artery" RELATED []
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS20 ! TS20
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -6508,7 +6500,6 @@ name: subcardinal vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -6517,7 +6508,6 @@ name: supracardinal vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS16 ! TS16
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -7777,7 +7767,6 @@ name: ophthalmic artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -7863,7 +7852,6 @@ name: marginal vein of forelimb
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS20 ! TS20
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -7872,7 +7860,6 @@ name: marginal vein of hindlimb
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS20 ! TS20
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -7882,7 +7869,6 @@ namespace: anatomical_structure
 synonym: "axial vein of forelimb" RELATED []
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -7891,7 +7877,6 @@ name: principal vein of hindlimb
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -9745,7 +9730,6 @@ name: basilar artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -9754,7 +9738,6 @@ name: hyoid artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -9763,7 +9746,6 @@ name: iliac artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -9780,7 +9762,6 @@ name: maxillary artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -9789,7 +9770,6 @@ name: mesenteric artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -9798,7 +9778,6 @@ name: stapedial artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -9807,7 +9786,6 @@ name: vertebral artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -10078,7 +10056,6 @@ name: mesenteric vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -10087,7 +10064,6 @@ name: portal vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -12379,7 +12355,6 @@ namespace: anatomical_structure
 synonym: "brachiocephalic artery" RELATED []
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -12388,7 +12363,6 @@ name: intersegmental artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -12397,7 +12371,6 @@ name: subclavian artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -12424,9 +12397,7 @@ id: EMAPA:17620
 name: internal jugular vein
 namespace: anatomical_structure
 alt_id: EMAPA:18640
-is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: part_of EMAPA:18638 ! jugular vein
 relationship: starts_at TS20 ! TS20
 
@@ -12436,7 +12407,6 @@ name: subclavian vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -14432,7 +14402,6 @@ namespace: anatomical_structure
 alt_id: EMAPA:18614
 is_a: EMAPA:18613 ! cerebral artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -14441,9 +14410,7 @@ name: common carotid artery
 namespace: anatomical_structure
 alt_id: EMAPA:18610
 is_a: EMAPA:18609 ! carotid artery
-is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -14478,7 +14445,6 @@ name: hepatic artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -14497,7 +14463,6 @@ alt_id: EMAPA:18616
 is_a: EMAPA:18613 ! cerebral artery
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -14592,7 +14557,6 @@ name: common iliac vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -14600,9 +14564,7 @@ id: EMAPA:17875
 name: external jugular vein
 namespace: anatomical_structure
 alt_id: EMAPA:18639
-is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: part_of EMAPA:18638 ! jugular vein
 relationship: starts_at TS21 ! TS21
 
@@ -14612,7 +14574,6 @@ name: femoral vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -17349,7 +17310,6 @@ alt_id: EMAPA:18615
 is_a: EMAPA:18613 ! cerebral artery
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -17358,7 +17318,6 @@ name: spinal artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -17423,7 +17382,6 @@ name: azygos vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -17432,7 +17390,6 @@ name: hemiazygos vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -17441,7 +17398,6 @@ name: hepatico-cardiac vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -17466,7 +17422,6 @@ name: spinal vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -19666,7 +19621,6 @@ name: communicating artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -19728,7 +19682,6 @@ namespace: anatomical_structure
 is_a: EMAPA:32867 ! lung vascular element
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -19737,7 +19690,6 @@ name: carotid artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS12 ! TS12
 
 [Term]
@@ -19747,7 +19699,6 @@ namespace: anatomical_structure
 is_a: EMAPA:18609 ! carotid artery
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -19756,7 +19707,6 @@ name: cerebral artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -19766,7 +19716,6 @@ namespace: anatomical_structure
 synonym: "mammary artery" RELATED []
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -19791,7 +19740,6 @@ name: ovarian artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -19800,7 +19748,6 @@ name: testicular artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -19809,7 +19756,6 @@ name: thyroid artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -19947,7 +19893,6 @@ name: jugular vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -19957,7 +19902,6 @@ namespace: anatomical_structure
 synonym: "mammary vein" RELATED []
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -19982,7 +19926,6 @@ name: ovarian vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -20001,7 +19944,6 @@ name: superior vesical vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -20010,7 +19952,6 @@ name: testicular vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -20019,7 +19960,6 @@ name: thyroid vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -20648,7 +20588,6 @@ name: axillary artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -20657,7 +20596,6 @@ name: epigastric artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -20682,7 +20620,6 @@ name: intercostal artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -20691,7 +20628,6 @@ name: greater palatine artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -20700,7 +20636,6 @@ name: axillary vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -20709,7 +20644,6 @@ name: epigastric vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -20734,7 +20668,6 @@ name: intercostal vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -22132,7 +22065,6 @@ name: lumbar artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -22141,7 +22073,6 @@ name: subcostal artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -22700,7 +22631,6 @@ namespace: anatomical_structure
 alt_id: EMAPA:25968
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: part_of EMAPA:17014 ! ascending aorta
 relationship: starts_at TS21 ! TS21
 
@@ -23115,7 +23045,6 @@ name: facial artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -23124,7 +23053,6 @@ name: median sacral artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -23133,7 +23061,6 @@ name: musculo-phrenic artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -23142,7 +23069,6 @@ name: splenic artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -23151,7 +23077,6 @@ name: accessory hemiazygos vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -23160,7 +23085,6 @@ name: deep dorsal vein of clitoris
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -23169,7 +23093,6 @@ name: deep dorsal vein of penis
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -23178,7 +23101,6 @@ name: facial vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -23187,7 +23109,6 @@ name: hepatic vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -23196,7 +23117,6 @@ name: musculo-phrenic vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -23319,7 +23239,6 @@ name: hyaloid artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -23818,7 +23737,6 @@ name: superior cerebellar artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -23835,7 +23753,6 @@ name: great cerebral vein of Galen
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -23844,7 +23761,6 @@ name: lingual vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -23853,7 +23769,6 @@ name: ophthalmic vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -23862,7 +23777,6 @@ name: greater palatine vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -23871,7 +23785,6 @@ name: superficial temporal vein
 namespace: anatomical_structure
 is_a: EMAPA:37196 ! temporal vein
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -27231,7 +27144,6 @@ name: cephalic vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -29403,7 +29315,6 @@ name: subcutaneous vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -32526,7 +32437,6 @@ name: intersegmental vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -32535,7 +32445,6 @@ name: median sacral vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -35776,7 +35685,6 @@ namespace: anatomical_structure
 alt_id: EMAPA:17862
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: part_of EMAPA:28457 ! renal vasculature
 relationship: part_of EMAPA:31436 ! renal arterial system
@@ -35790,7 +35698,6 @@ namespace: anatomical_structure
 alt_id: EMAPA:19223
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16240 ! venous system
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: part_of EMAPA:28457 ! renal vasculature
 relationship: part_of EMAPA:31450 ! renal venous system
@@ -45286,7 +45193,6 @@ name: celiac artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -46031,7 +45937,6 @@ name: dorsal nasal artery
 namespace: anatomical_structure
 is_a: EMAPA:35353 ! nasal artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -46414,7 +46319,6 @@ name: femoral artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -46502,7 +46406,6 @@ name: nasal artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -46654,7 +46557,6 @@ name: gastric artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -49602,8 +49504,9 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35735
-name: reticular lamina
+name: reticular membrane
 namespace: anatomical_structure
+synonym: "reticular lamina" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19061 ! organ of Corti
 relationship: starts_at TS28 ! TS28
@@ -51027,7 +50930,6 @@ name: ventral nasal artery
 namespace: anatomical_structure
 is_a: EMAPA:35353 ! nasal artery
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -53510,6 +53412,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36199
 name: humeral head of flexor digitorum profundus
 namespace: anatomical_structure
+synonym: "superficial head of flexor digitorum profundus" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19319 ! flexor digitorum profundus
 relationship: starts_at TS23 ! TS23
@@ -68528,6 +68431,14 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
 relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38022
+name: vertebrobasilar arterial system
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16201 ! arterial system
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: group_term
