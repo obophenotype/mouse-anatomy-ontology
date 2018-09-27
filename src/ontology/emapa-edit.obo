@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 10:09:2018 10:46
+date: 27:09:2018 11:57
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -11735,6 +11735,7 @@ name: cerebral cortex
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16910 ! telencephalon
+relationship: part_of EMAPA:37477 ! cerebral hemisphere gray matter
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -45493,7 +45494,7 @@ name: cerebral hemisphere white matter
 namespace: anatomical_structure
 is_a: EMAPA:35187 ! brain white matter
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16910 ! telencephalon
+relationship: part_of EMAPA:38023 ! cerebral hemisphere
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -49798,7 +49799,7 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16237 ! sinus venosus
 relationship: part_of EMAPA:35428 ! impulse conducting system
-relationship: starts_at TS19 ! TS19
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:35773
@@ -61414,7 +61415,6 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37167
 name: left testicular vein
 namespace: anatomical_structure
-synonym: "<new synonym>" RELATED []
 is_a: EMAPA:18647 ! testicular vein
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
@@ -64015,7 +64015,7 @@ namespace: anatomical_structure
 synonym: "cerebral grey matter" RELATED []
 is_a: EMAPA:35184 ! brain gray matter
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16910 ! telencephalon
+relationship: part_of EMAPA:38023 ! cerebral hemisphere
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -66061,7 +66061,7 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37731
-name: reproductive organ>
+name: reproductive organ
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17381 ! reproductive system
@@ -66631,7 +66631,7 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37802
-name: vertebra cranial articular process>
+name: vertebra cranial articular process
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32740 ! vertebra
@@ -67777,7 +67777,7 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37943
-name: pulmonary neuroendocrine body>
+name: pulmonary neuroendocrine body
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32860 ! lung epithelium
@@ -68439,6 +68439,30 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:38023
+name: cerebral hemisphere
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16910 ! telencephalon
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38024
+name: left cerebral hemisphere
+namespace: anatomical_structure
+is_a: EMAPA:38023 ! cerebral hemisphere
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38025
+name: right cerebral hemisphere
+namespace: anatomical_structure
+is_a: EMAPA:38023 ! cerebral hemisphere
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
 
 [Term]
 id: group_term
