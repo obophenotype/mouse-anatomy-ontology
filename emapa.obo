@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2018-09-04
-date: 04:09:2018 15:00
+data-version: releases/2018-09-28
+date: 28:09:2018 15:46
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -1520,9 +1520,9 @@ id: EMAPA:16241
 name: anterior cardinal vein
 namespace: anatomical_structure
 alt_id: EMAPA:16355
-is_a: EMAPA:35906 ! vein
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16354 ! cardinal vein
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16242
@@ -2237,8 +2237,8 @@ relationship: starts_at TS13 ! TS13
 id: EMAPA:16331
 name: umbilical artery embryonic part
 namespace: anatomical_structure
-is_a: EMAPA:35147 ! artery
 relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:16201 ! arterial system
 relationship: part_of EMAPA:36017 ! umbilical artery
 relationship: starts_at TS13 ! TS13
 
@@ -10850,7 +10850,7 @@ id: EMAPA:17544
 name: cerebral cortex
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16910 ! telencephalon
+relationship: part_of EMAPA:37477 ! cerebral hemisphere gray matter
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -11481,7 +11481,7 @@ id: EMAPA:17620
 name: internal jugular vein
 namespace: anatomical_structure
 alt_id: EMAPA:18640
-is_a: EMAPA:35906 ! vein
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18638 ! jugular vein
 relationship: starts_at TS20 ! TS20
 
@@ -13430,7 +13430,7 @@ id: EMAPA:17875
 name: external jugular vein
 namespace: anatomical_structure
 alt_id: EMAPA:18639
-is_a: EMAPA:35906 ! vein
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18638 ! jugular vein
 relationship: starts_at TS21 ! TS21
 
@@ -42174,7 +42174,7 @@ id: EMAPA:35237
 name: cerebral hemisphere white matter
 namespace: anatomical_structure
 is_a: EMAPA:35187 ! brain white matter
-relationship: part_of EMAPA:16910 ! telencephalon
+relationship: part_of EMAPA:38023 ! cerebral hemisphere
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -45874,8 +45874,9 @@ is_a: EMAPA:35733 ! respiratory system muscle
 
 [Term]
 id: EMAPA:35735
-name: reticular lamina
+name: reticular membrane
 namespace: anatomical_structure
+synonym: "reticular lamina" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19061 ! organ of Corti
 relationship: starts_at TS28 ! TS28
@@ -46140,7 +46141,7 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16237 ! sinus venosus
 relationship: part_of EMAPA:35428 ! impulse conducting system
-relationship: starts_at TS19 ! TS19
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:35773
@@ -49462,6 +49463,7 @@ is_a: EMAPA:32622 ! forearm muscle
 id: EMAPA:36199
 name: humeral head of flexor digitorum profundus
 namespace: anatomical_structure
+synonym: "superficial head of flexor digitorum profundus" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19319 ! flexor digitorum profundus
 relationship: starts_at TS23 ! TS23
@@ -56629,7 +56631,6 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37167
 name: left testicular vein
 namespace: anatomical_structure
-synonym: "<new synonym>" RELATED []
 is_a: EMAPA:18647 ! testicular vein
 relationship: starts_at TS28 ! TS28
 
@@ -57297,7 +57298,7 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35577 ! musculature
 relationship: part_of EMAPA:35862 ! thoracic segment of trunk
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:37261
@@ -58891,7 +58892,7 @@ name: cerebral hemisphere gray matter
 namespace: anatomical_structure
 synonym: "cerebral grey matter" RELATED []
 is_a: EMAPA:35184 ! brain gray matter
-relationship: part_of EMAPA:16910 ! telencephalon
+relationship: part_of EMAPA:38023 ! cerebral hemisphere
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -60722,7 +60723,7 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37731
-name: reproductive organ>
+name: reproductive organ
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17381 ! reproductive system
@@ -61255,7 +61256,7 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37802
-name: vertebra cranial articular process>
+name: vertebra cranial articular process
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32740 ! vertebra
@@ -62317,7 +62318,7 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37943
-name: pulmonary neuroendocrine body>
+name: pulmonary neuroendocrine body
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32860 ! lung epithelium
@@ -62919,6 +62920,44 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
 relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38022
+name: vertebrobasilar arterial system
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16201 ! arterial system
+relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:38023
+name: cerebral hemisphere
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16910 ! telencephalon
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38024
+name: left cerebral hemisphere
+namespace: anatomical_structure
+is_a: EMAPA:38023 ! cerebral hemisphere
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38025
+name: right cerebral hemisphere
+namespace: anatomical_structure
+is_a: EMAPA:38023 ! cerebral hemisphere
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38026
+name: transversus thoracis
+namespace: anatomical_structure
+synonym: "triangularis sterni" RELATED []
+is_a: EMAPA:35988 ! skeletal muscle
+is_a: EMAPA:37260 ! thoracic segment muscle
 
 [Term]
 id: TS01
