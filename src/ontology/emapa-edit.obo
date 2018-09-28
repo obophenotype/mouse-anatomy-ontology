@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 27:09:2018 11:57
+date: 28:09:2018 15:33
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -62185,7 +62185,7 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35577 ! musculature
 relationship: part_of EMAPA:35862 ! thoracic segment of trunk
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:37261
@@ -68463,6 +68463,16 @@ namespace: anatomical_structure
 is_a: EMAPA:38023 ! cerebral hemisphere
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38026
+name: transversus thoracis
+namespace: anatomical_structure
+synonym: "triangularis sterni" RELATED []
+is_a: EMAPA:35988 ! skeletal muscle
+is_a: EMAPA:37260 ! thoracic segment muscle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: group_term
