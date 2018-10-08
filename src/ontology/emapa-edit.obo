@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 01:10:2018 09:32
+date: 08:10:2018 13:03
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -45187,7 +45187,7 @@ name: cardiovascular system endothelium
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16104 ! cardiovascular system
-relationship: starts_at TS19 ! TS19
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:35202
