@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 09:10:2018 11:42
+date: 09:10:2018 16:31
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -47645,7 +47645,7 @@ name: long bone epiphyseal plate
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35503 ! long bone
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35506
@@ -47653,7 +47653,7 @@ name: long bone epiphyseal plate hypertrophic zone
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35505 ! long bone epiphyseal plate
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35507
@@ -47661,7 +47661,7 @@ name: long bone epiphyseal plate proliferative zone
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35505 ! long bone epiphyseal plate
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35508
@@ -67397,11 +67397,11 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37896
-name: long bone epiphyseal ossification zone
+name: long bone epiphyseal plate ossification zone
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35505 ! long bone epiphyseal plate
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:37897
@@ -68480,6 +68480,14 @@ namespace: anatomical_structure
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:32901 ! jaw primordium
 relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:38028
+name: long bone epiphyseal plate resting zone
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35505 ! long bone epiphyseal plate
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: group_term
