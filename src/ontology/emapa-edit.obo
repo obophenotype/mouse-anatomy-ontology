@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 08:10:2018 13:03
+date: 09:10:2018 11:42
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -68464,6 +68464,22 @@ namespace: anatomical_structure
 is_a: EMAPA:38023 ! cerebral hemisphere
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38026
+name: upper jaw primordium
+namespace: anatomical_structure
+relationship: ends_at TS20 ! TS20
+relationship: part_of EMAPA:32901 ! jaw primordium
+relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:38027
+name: lower jaw primordium
+namespace: anatomical_structure
+relationship: ends_at TS20 ! TS20
+relationship: part_of EMAPA:32901 ! jaw primordium
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: group_term
