@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 10:10:2018 15:44
+date: 10:10:2018 16:50
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -20451,6 +20451,7 @@ id: EMAPA:18725
 name: xiphisternum
 namespace: anatomical_structure
 synonym: "xiphoid process" RELATED []
+synonym: "xyphoideus" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18344 ! sternum
 relationship: starts_at TS23 ! TS23
@@ -57127,7 +57128,7 @@ name: cardiac fibrous skeleton
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16105 ! heart
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:36646
@@ -60238,7 +60239,7 @@ name: vertebra transverse process
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32740 ! vertebra
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37023
@@ -66904,9 +66905,10 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:37835
 name: corneo-scleral junction
 namespace: anatomical_structure
+synonym: "corneal limbus" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37836
@@ -67156,9 +67158,9 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:37866
 name: epidermal-dermal junction
 namespace: anatomical_structure
-is_a: EMAPA:17525 ! skin
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS28 ! TS28
+relationship: part_of EMAPA:17525 ! skin
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37867
