@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 09:10:2018 16:31
+date: 10:10:2018 15:44
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -243,6 +243,7 @@ relationship: starts_at TS07 ! TS07
 id: EMAPA:16057
 name: Reichert's membrane
 namespace: anatomical_structure
+is_a: EMAPA:38030 ! basement membrane
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16053 ! parietal endoderm
 relationship: starts_at TS07 ! TS07
@@ -42331,7 +42332,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35868 ! tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16039 ! embryo
-relationship: starts_at TS12 ! TS12
+relationship: starts_at TS11 ! TS11
 
 [Term]
 id: EMAPA:32739
@@ -68488,6 +68489,31 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35505 ! long bone epiphyseal plate
 relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:38029
+name: extracellular matrix
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:25765 ! mouse
+relationship: starts_at TS06 ! TS06
+
+[Term]
+id: EMAPA:38030
+name: basement membrane
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38029 ! extracellular matrix
+relationship: starts_at TS07 ! TS07
+
+[Term]
+id: EMAPA:38031
+name: basement membrane of epithelium
+namespace: anatomical_structure
+is_a: EMAPA:38030 ! basement membrane
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32738 ! epithelium
+relationship: starts_at TS11 ! TS11
 
 [Term]
 id: group_term
