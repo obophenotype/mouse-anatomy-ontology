@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 31:10:2018 14:17
+date: 14:11:2018 15:41
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -34063,7 +34063,7 @@ name: stomach fundus mucosa
 namespace: anatomical_structure
 alt_id: EMAPA:27403
 is_a: EMAPA:35817 ! stomach mucosa
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17886 ! stomach fundus
 relationship: starts_at TS23 ! TS23
 
@@ -34197,7 +34197,7 @@ name: stomach proventricular region mucosa
 namespace: anatomical_structure
 alt_id: EMAPA:27467
 is_a: EMAPA:35817 ! stomach mucosa
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17627 ! stomach proventricular region
 relationship: starts_at TS23 ! TS23
 
@@ -34263,7 +34263,7 @@ name: stomach pyloric region mucosa
 namespace: anatomical_structure
 alt_id: EMAPA:27499
 is_a: EMAPA:35817 ! stomach mucosa
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17631 ! stomach pyloric region
 relationship: starts_at TS23 ! TS23
 
@@ -44723,9 +44723,10 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:35145
 name: arterial system endothelium
 namespace: anatomical_structure
+is_a: EMAPA:35176 ! blood vessel endothelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16201 ! arterial system
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:35146
@@ -44747,11 +44748,11 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:35148
 name: artery endothelium
 namespace: anatomical_structure
-is_a: EMAPA:35176 ! blood vessel endothelium
+is_a: EMAPA:35145 ! arterial system endothelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35147 ! artery
 relationship: part_of EMAPA:36293 ! artery tunica intima
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:35149
@@ -44995,7 +44996,7 @@ is_a: EMAPA:35201 ! cardiovascular system endothelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32743 ! blood vessel
 relationship: part_of EMAPA:36297 ! tunica intima
-relationship: starts_at TS19 ! TS19
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:35177
@@ -45189,7 +45190,7 @@ name: cardiovascular system endothelium
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16104 ! cardiovascular system
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:35202
@@ -50915,6 +50916,7 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:35907
 name: venous system endothelium
 namespace: anatomical_structure
+is_a: EMAPA:35176 ! blood vessel endothelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS28 ! TS28
@@ -54125,7 +54127,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:36286
 name: arteriole endothelium
 namespace: anatomical_structure
-is_a: EMAPA:35176 ! blood vessel endothelium
+is_a: EMAPA:35145 ! arterial system endothelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36305 ! arteriole tunica intima
 relationship: starts_at TS24 ! TS24
@@ -54143,7 +54145,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:36288
 name: vein endothelium
 namespace: anatomical_structure
-is_a: EMAPA:35176 ! blood vessel endothelium
+is_a: EMAPA:35907 ! venous system endothelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36308 ! vein tunica intima
 relationship: starts_at TS24 ! TS24
@@ -54162,7 +54164,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:36290
 name: venule endothelium
 namespace: anatomical_structure
-is_a: EMAPA:35176 ! blood vessel endothelium
+is_a: EMAPA:35907 ! venous system endothelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35917 ! venule
 relationship: starts_at TS24 ! TS24
@@ -55959,7 +55961,7 @@ name: arterial system smooth muscle
 namespace: anatomical_structure
 is_a: EMAPA:35177 ! blood vessel smooth muscle
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35144 ! arterial blood vessel
+relationship: part_of EMAPA:16201 ! arterial system
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -67652,17 +67654,17 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37927
 name: ovary cortex
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17962 ! ovary
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:37928
 name: ovary medulla
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17962 ! ovary
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:37929
