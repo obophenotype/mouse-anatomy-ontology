@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 14:11:2018 15:41
+date: 15:11:2018 13:59
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -57669,7 +57669,7 @@ id: EMAPA:36710
 name: outflow tract endocardial cushion
 namespace: anatomical_structure
 is_a: EMAPA:16696 ! endocardial cushion
-relationship: ends_at TS20 ! TS20
+relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:16346 ! outflow tract
 relationship: starts_at TS15 ! TS15
 
@@ -66893,7 +66893,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36722 ! compact myocardium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17331 ! heart ventricle
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:37834
