@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 15:11:2018 13:59
+date: 19:11:2018 16:19
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -10711,6 +10711,7 @@ synonym: "first finger" RELATED []
 synonym: "pollex" RELATED []
 synonym: "thumb" RELATED []
 is_a: EMAPA:32642 ! forelimb digit
+is_a: EMAPA:37285 ! limb digit 1
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
 
@@ -10739,6 +10740,7 @@ namespace: anatomical_structure
 synonym: "index finger" RELATED []
 synonym: "second finger" RELATED []
 is_a: EMAPA:32642 ! forelimb digit
+is_a: EMAPA:37286 ! limb digit 2
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
 
@@ -10768,6 +10770,7 @@ synonym: "long finger" RELATED []
 synonym: "middle finger" RELATED []
 synonym: "third finger" RELATED []
 is_a: EMAPA:32642 ! forelimb digit
+is_a: EMAPA:37287 ! limb digit 3
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
 
@@ -10794,6 +10797,7 @@ id: EMAPA:17438
 name: forelimb digit 4
 namespace: anatomical_structure
 is_a: EMAPA:32642 ! forelimb digit
+is_a: EMAPA:37288 ! limb digit 4
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
 
@@ -10822,6 +10826,7 @@ namespace: anatomical_structure
 synonym: "digiti minimi" RELATED []
 synonym: "fifth finger" RELATED []
 is_a: EMAPA:32642 ! forelimb digit
+is_a: EMAPA:37289 ! limb digit 5
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
 
@@ -10994,6 +10999,7 @@ synonym: "first toe" RELATED []
 synonym: "hallux" RELATED []
 synonym: "large toe" RELATED []
 is_a: EMAPA:32649 ! hindlimb digit
+is_a: EMAPA:37285 ! limb digit 1
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
 
@@ -11021,6 +11027,7 @@ name: hindlimb digit 2
 namespace: anatomical_structure
 synonym: "second toe" RELATED []
 is_a: EMAPA:32649 ! hindlimb digit
+is_a: EMAPA:37286 ! limb digit 2
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
 
@@ -11048,6 +11055,7 @@ name: hindlimb digit 3
 namespace: anatomical_structure
 synonym: "third toe" RELATED []
 is_a: EMAPA:32649 ! hindlimb digit
+is_a: EMAPA:37287 ! limb digit 3
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
 
@@ -11075,6 +11083,7 @@ name: hindlimb digit 4
 namespace: anatomical_structure
 synonym: "fourth toe" RELATED []
 is_a: EMAPA:32649 ! hindlimb digit
+is_a: EMAPA:37288 ! limb digit 4
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
 
@@ -11102,6 +11111,7 @@ name: hindlimb digit 5
 namespace: anatomical_structure
 synonym: "fifth toe" RELATED []
 is_a: EMAPA:32649 ! hindlimb digit
+is_a: EMAPA:37289 ! limb digit 5
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS20 ! TS20
 
@@ -62415,7 +62425,7 @@ name: limb digit 1
 namespace: anatomical_structure
 is_a: EMAPA:32725 ! limb digit
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:37286
@@ -62423,7 +62433,7 @@ name: limb digit 2
 namespace: anatomical_structure
 is_a: EMAPA:32725 ! limb digit
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:37287
@@ -62431,7 +62441,7 @@ name: limb digit 3
 namespace: anatomical_structure
 is_a: EMAPA:32725 ! limb digit
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:37288
@@ -62439,7 +62449,7 @@ name: limb digit 4
 namespace: anatomical_structure
 is_a: EMAPA:32725 ! limb digit
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:37289
@@ -62447,7 +62457,7 @@ name: limb digit 5
 namespace: anatomical_structure
 is_a: EMAPA:32725 ! limb digit
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:37290
