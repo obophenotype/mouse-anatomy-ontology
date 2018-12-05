@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 19:11:2018 16:19
+date: 05:12:2018 16:31
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -33933,7 +33933,7 @@ name: jejunum muscularis
 namespace: anatomical_structure
 alt_id: EMAPA:27355
 is_a: EMAPA:35385 ! gut muscularis
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18666 ! jejunum
 relationship: starts_at TS23 ! TS23
 
