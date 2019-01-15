@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 05:12:2018 16:31
+date: 15:01:2019 16:12
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -27197,9 +27197,9 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25087
 name: choroid layer
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:25090
