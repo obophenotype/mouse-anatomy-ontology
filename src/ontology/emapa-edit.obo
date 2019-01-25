@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 15:01:2019 16:12
+date: 25:01:2019 15:22
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -46896,7 +46896,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17536 ! hypothalamus
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35418
@@ -46929,7 +46929,7 @@ name: hypothalamus periventricular zone
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17536 ! hypothalamus
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35422
@@ -48941,7 +48941,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35417 ! hypothalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35421 ! hypothalamus periventricular zone
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35666
@@ -50374,7 +50374,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35421 ! hypothalamus periventricular zone
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35844
