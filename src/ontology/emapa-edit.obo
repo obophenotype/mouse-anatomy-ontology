@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:01:2019 15:22
+date: 07:02:2019 10:24
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -36390,8 +36390,8 @@ id: EMAPA:29030
 name: uterine horn epithelium
 namespace: anatomical_structure
 synonym: "endometrium" RELATED []
-is_a: EMAPA:35962 ! female reproductive system epithelium
-relationship: ends_at TS27 ! TS27
+is_a: EMAPA:38032 ! uterus epithelium
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18985 ! uterine horn
 relationship: starts_at TS24 ! TS24
 
@@ -37826,6 +37826,7 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:29929
 name: epithelial layer of cervix uteri
 namespace: anatomical_structure
+is_a: EMAPA:38032 ! uterus epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29927 ! cervix uteri
 relationship: starts_at TS28 ! TS28
@@ -46052,6 +46053,7 @@ id: EMAPA:35307
 name: endometrium epithelium
 namespace: anatomical_structure
 is_a: EMAPA:35962 ! female reproductive system epithelium
+is_a: EMAPA:38032 ! uterus epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29917 ! endometrium
 relationship: starts_at TS28 ! TS28
@@ -46265,7 +46267,7 @@ name: external spiral sulcus
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35800 ! spiral sulcus
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35334
@@ -47068,7 +47070,7 @@ name: internal spiral sulcus
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35800 ! spiral sulcus
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35439
@@ -50057,7 +50059,7 @@ name: spiral sulcus
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17598 ! cochlear duct
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35801
@@ -50239,7 +50241,7 @@ name: stria vascularis
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17598 ! cochlear duct
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35828
@@ -50443,7 +50445,7 @@ name: tectorial membrane
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17598 ! cochlear duct
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35852
@@ -68528,6 +68530,15 @@ is_a: EMAPA:38030 ! basement membrane
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32738 ! epithelium
 relationship: starts_at TS11 ! TS11
+
+[Term]
+id: EMAPA:38032
+name: uterus epithelium
+namespace: anatomical_structure
+is_a: EMAPA:35962 ! female reproductive system epithelium
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:29915 ! uterus
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: group_term
