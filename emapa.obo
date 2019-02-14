@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2018-09-28
-date: 28:09:2018 15:46
+data-version: releases/2019-02-14
+date: 14:02:2019 12:49
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -224,9 +224,9 @@ relationship: starts_at TS07 ! TS07
 id: EMAPA:16057
 name: Reichert's membrane
 namespace: anatomical_structure
+is_a: EMAPA:38030 ! basement membrane
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16053 ! parietal endoderm
-relationship: starts_at TS07 ! TS07
 
 [Term]
 id: EMAPA:16058
@@ -9936,6 +9936,7 @@ synonym: "first finger" RELATED []
 synonym: "pollex" RELATED []
 synonym: "thumb" RELATED []
 is_a: EMAPA:32642 ! forelimb digit
+is_a: EMAPA:37285 ! limb digit 1
 
 [Term]
 id: EMAPA:17430
@@ -9960,6 +9961,7 @@ namespace: anatomical_structure
 synonym: "index finger" RELATED []
 synonym: "second finger" RELATED []
 is_a: EMAPA:32642 ! forelimb digit
+is_a: EMAPA:37286 ! limb digit 2
 
 [Term]
 id: EMAPA:17433
@@ -9985,6 +9987,7 @@ synonym: "long finger" RELATED []
 synonym: "middle finger" RELATED []
 synonym: "third finger" RELATED []
 is_a: EMAPA:32642 ! forelimb digit
+is_a: EMAPA:37287 ! limb digit 3
 
 [Term]
 id: EMAPA:17436
@@ -10007,6 +10010,7 @@ id: EMAPA:17438
 name: forelimb digit 4
 namespace: anatomical_structure
 is_a: EMAPA:32642 ! forelimb digit
+is_a: EMAPA:37288 ! limb digit 4
 
 [Term]
 id: EMAPA:17439
@@ -10031,6 +10035,7 @@ namespace: anatomical_structure
 synonym: "digiti minimi" RELATED []
 synonym: "fifth finger" RELATED []
 is_a: EMAPA:32642 ! forelimb digit
+is_a: EMAPA:37289 ! limb digit 5
 
 [Term]
 id: EMAPA:17442
@@ -10179,6 +10184,7 @@ synonym: "first toe" RELATED []
 synonym: "hallux" RELATED []
 synonym: "large toe" RELATED []
 is_a: EMAPA:32649 ! hindlimb digit
+is_a: EMAPA:37285 ! limb digit 1
 
 [Term]
 id: EMAPA:17461
@@ -10202,6 +10208,7 @@ name: hindlimb digit 2
 namespace: anatomical_structure
 synonym: "second toe" RELATED []
 is_a: EMAPA:32649 ! hindlimb digit
+is_a: EMAPA:37286 ! limb digit 2
 
 [Term]
 id: EMAPA:17464
@@ -10225,6 +10232,7 @@ name: hindlimb digit 3
 namespace: anatomical_structure
 synonym: "third toe" RELATED []
 is_a: EMAPA:32649 ! hindlimb digit
+is_a: EMAPA:37287 ! limb digit 3
 
 [Term]
 id: EMAPA:17467
@@ -10248,6 +10256,7 @@ name: hindlimb digit 4
 namespace: anatomical_structure
 synonym: "fourth toe" RELATED []
 is_a: EMAPA:32649 ! hindlimb digit
+is_a: EMAPA:37288 ! limb digit 4
 
 [Term]
 id: EMAPA:17470
@@ -10271,6 +10280,7 @@ name: hindlimb digit 5
 namespace: anatomical_structure
 synonym: "fifth toe" RELATED []
 is_a: EMAPA:32649 ! hindlimb digit
+is_a: EMAPA:37289 ! limb digit 5
 
 [Term]
 id: EMAPA:17473
@@ -18843,6 +18853,7 @@ id: EMAPA:18725
 name: xiphisternum
 namespace: anatomical_structure
 synonym: "xiphoid process" RELATED []
+synonym: "xyphoideus" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18344 ! sternum
 relationship: starts_at TS23 ! TS23
@@ -21579,6 +21590,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:19267
 name: transversus thoracis
 namespace: anatomical_structure
+synonym: "triangularis sterni" RELATED []
 is_a: EMAPA:17748 ! pectoral girdle and thoracic body wall muscle
 relationship: starts_at TS26 ! TS26
 
@@ -25215,9 +25227,9 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:25087
 name: choroid layer
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:25090
@@ -31242,7 +31254,6 @@ name: jejunum muscularis
 namespace: anatomical_structure
 alt_id: EMAPA:27355
 is_a: EMAPA:35385 ! gut muscularis
-relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18666 ! jejunum
 relationship: starts_at TS23 ! TS23
 
@@ -31380,7 +31391,6 @@ name: stomach fundus mucosa
 namespace: anatomical_structure
 alt_id: EMAPA:27403
 is_a: EMAPA:35817 ! stomach mucosa
-relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17886 ! stomach fundus
 
 [Term]
@@ -31507,7 +31517,6 @@ name: stomach proventricular region mucosa
 namespace: anatomical_structure
 alt_id: EMAPA:27467
 is_a: EMAPA:35817 ! stomach mucosa
-relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17627 ! stomach proventricular region
 
 [Term]
@@ -31570,7 +31579,6 @@ name: stomach pyloric region mucosa
 namespace: anatomical_structure
 alt_id: EMAPA:27499
 is_a: EMAPA:35817 ! stomach mucosa
-relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17631 ! stomach pyloric region
 
 [Term]
@@ -33618,10 +33626,8 @@ id: EMAPA:29030
 name: uterine horn epithelium
 namespace: anatomical_structure
 synonym: "endometrium" RELATED []
-is_a: EMAPA:35962 ! female reproductive system epithelium
-relationship: ends_at TS27 ! TS27
+is_a: EMAPA:38032 ! uterus epithelium
 relationship: part_of EMAPA:18985 ! uterine horn
-relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:29034
@@ -35002,7 +35008,7 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:29929
 name: epithelial layer of cervix uteri
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
+is_a: EMAPA:38032 ! uterus epithelium
 relationship: part_of EMAPA:29927 ! cervix uteri
 relationship: starts_at TS28 ! TS28
 
@@ -38863,6 +38869,7 @@ name: alimentary system epithelium
 namespace: anatomical_structure
 is_a: EMAPA:32738 ! epithelium
 relationship: part_of EMAPA:16246 ! alimentary system
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:32684
@@ -39310,7 +39317,6 @@ name: epithelium
 namespace: anatomical_structure
 is_a: EMAPA:35868 ! tissue
 relationship: part_of EMAPA:16039 ! embryo
-relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:32739
@@ -41494,9 +41500,8 @@ relationship: part_of EMAPA:16201 ! arterial system
 id: EMAPA:35145
 name: arterial system endothelium
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
+is_a: EMAPA:35176 ! blood vessel endothelium
 relationship: part_of EMAPA:16201 ! arterial system
-relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:35146
@@ -41515,9 +41520,8 @@ is_a: EMAPA:35144 ! arterial blood vessel
 id: EMAPA:35148
 name: artery endothelium
 namespace: anatomical_structure
-is_a: EMAPA:35176 ! blood vessel endothelium
+is_a: EMAPA:35145 ! arterial system endothelium
 relationship: part_of EMAPA:36293 ! artery tunica intima
-relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:35149
@@ -41738,6 +41742,7 @@ name: blood vessel endothelium
 namespace: anatomical_structure
 is_a: EMAPA:35201 ! cardiovascular system endothelium
 relationship: part_of EMAPA:36297 ! tunica intima
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:35177
@@ -41908,7 +41913,7 @@ name: cardiovascular system endothelium
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16104 ! cardiovascular system
-relationship: starts_at TS19 ! TS19
+relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:35202
@@ -42623,6 +42628,7 @@ name: dorsomedial hypothalamic nucleus
 namespace: anatomical_structure
 is_a: EMAPA:35417 ! hypothalamic nucleus
 relationship: part_of EMAPA:35419 ! hypothalamus medial zone
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35301
@@ -42673,7 +42679,7 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:35307
 name: endometrium epithelium
 namespace: anatomical_structure
-is_a: EMAPA:35962 ! female reproductive system epithelium
+is_a: EMAPA:38032 ! uterus epithelium
 relationship: part_of EMAPA:29917 ! endometrium
 relationship: starts_at TS28 ! TS28
 
@@ -42873,7 +42879,7 @@ name: external spiral sulcus
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35800 ! spiral sulcus
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35334
@@ -43443,7 +43449,7 @@ name: hypothalamic nucleus
 namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: part_of EMAPA:17536 ! hypothalamus
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35418
@@ -43476,7 +43482,7 @@ name: hypothalamus periventricular zone
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17536 ! hypothalamus
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35422
@@ -43603,7 +43609,7 @@ name: internal spiral sulcus
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35800 ! spiral sulcus
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35439
@@ -44141,7 +44147,7 @@ name: long bone epiphyseal plate
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35503 ! long bone
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35506
@@ -44149,7 +44155,7 @@ name: long bone epiphyseal plate hypertrophic zone
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35505 ! long bone epiphyseal plate
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35507
@@ -44157,7 +44163,7 @@ name: long bone epiphyseal plate proliferative zone
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35505 ! long bone epiphyseal plate
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35508
@@ -46360,7 +46366,7 @@ name: spiral sulcus
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17598 ! cochlear duct
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35801
@@ -46531,7 +46537,7 @@ name: stria vascularis
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17598 ! cochlear duct
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35828
@@ -46657,7 +46663,7 @@ name: supraoptic nucleus
 namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: part_of EMAPA:35421 ! hypothalamus periventricular zone
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35844
@@ -46717,7 +46723,7 @@ name: tectorial membrane
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17598 ! cochlear duct
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:35852
@@ -47154,7 +47160,7 @@ is_a: EMAPA:35932 ! venous blood vessel
 id: EMAPA:35907
 name: venous system endothelium
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
+is_a: EMAPA:35176 ! blood vessel endothelium
 relationship: part_of EMAPA:16240 ! venous system
 relationship: starts_at TS28 ! TS28
 
@@ -47224,6 +47230,7 @@ name: ventromedial hypothalamic nucleus
 namespace: anatomical_structure
 is_a: EMAPA:35417 ! hypothalamic nucleus
 relationship: part_of EMAPA:35420 ! hypothalamus medial zone tuberal area
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35917
@@ -47500,6 +47507,7 @@ name: sensory organ epithelium
 namespace: anatomical_structure
 is_a: EMAPA:32738 ! epithelium
 relationship: part_of EMAPA:35955 ! sensory organ
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:35953
@@ -49267,15 +49275,16 @@ is_a: EMAPA:36168 ! distal carpal bone
 
 [Term]
 id: EMAPA:36170
-name: centrale
+name: central carpal bone
 namespace: anatomical_structure
-is_a: EMAPA:36168 ! distal carpal bone
+synonym: "centrale" RELATED []
+is_a: EMAPA:25056 ! carpal bone
 
 [Term]
 id: EMAPA:36171
 name: falciform
 namespace: anatomical_structure
-is_a: EMAPA:36168 ! distal carpal bone
+is_a: EMAPA:25056 ! carpal bone
 
 [Term]
 id: EMAPA:36172
@@ -50036,7 +50045,7 @@ relationship: part_of EMAPA:36294 ! artery tunica media
 id: EMAPA:36286
 name: arteriole endothelium
 namespace: anatomical_structure
-is_a: EMAPA:35176 ! blood vessel endothelium
+is_a: EMAPA:35145 ! arterial system endothelium
 relationship: part_of EMAPA:36305 ! arteriole tunica intima
 relationship: starts_at TS24 ! TS24
 
@@ -50052,7 +50061,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:36288
 name: vein endothelium
 namespace: anatomical_structure
-is_a: EMAPA:35176 ! blood vessel endothelium
+is_a: EMAPA:35907 ! venous system endothelium
 relationship: part_of EMAPA:36308 ! vein tunica intima
 relationship: starts_at TS24 ! TS24
 
@@ -50067,7 +50076,7 @@ relationship: part_of EMAPA:36309 ! vein tunica media
 id: EMAPA:36290
 name: venule endothelium
 namespace: anatomical_structure
-is_a: EMAPA:35176 ! blood vessel endothelium
+is_a: EMAPA:35907 ! venous system endothelium
 relationship: part_of EMAPA:35917 ! venule
 relationship: starts_at TS24 ! TS24
 
@@ -51760,7 +51769,7 @@ id: EMAPA:36503
 name: arterial system smooth muscle
 namespace: anatomical_structure
 is_a: EMAPA:35177 ! blood vessel smooth muscle
-relationship: part_of EMAPA:35144 ! arterial blood vessel
+relationship: part_of EMAPA:16201 ! arterial system
 
 [Term]
 id: EMAPA:36504
@@ -52806,7 +52815,7 @@ name: cardiac fibrous skeleton
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16105 ! heart
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:36646
@@ -53302,7 +53311,7 @@ id: EMAPA:36710
 name: outflow tract endocardial cushion
 namespace: anatomical_structure
 is_a: EMAPA:16696 ! endocardial cushion
-relationship: ends_at TS19 ! TS19
+relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:16346 ! outflow tract
 
 [Term]
@@ -53434,7 +53443,6 @@ name: heart endothelium
 namespace: anatomical_structure
 is_a: EMAPA:35201 ! cardiovascular system endothelium
 relationship: part_of EMAPA:16105 ! heart
-relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:36728
@@ -53442,7 +53450,6 @@ name: outflow tract endothelium
 namespace: anatomical_structure
 is_a: EMAPA:35201 ! cardiovascular system endothelium
 relationship: part_of EMAPA:16346 ! outflow tract
-relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:36729
@@ -55607,7 +55614,7 @@ name: vertebra transverse process
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32740 ! vertebra
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37023
@@ -57493,35 +57500,30 @@ id: EMAPA:37285
 name: limb digit 1
 namespace: anatomical_structure
 is_a: EMAPA:32725 ! limb digit
-relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37286
 name: limb digit 2
 namespace: anatomical_structure
 is_a: EMAPA:32725 ! limb digit
-relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37287
 name: limb digit 3
 namespace: anatomical_structure
 is_a: EMAPA:32725 ! limb digit
-relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37288
 name: limb digit 4
 namespace: anatomical_structure
 is_a: EMAPA:32725 ! limb digit
-relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37289
 name: limb digit 5
 namespace: anatomical_structure
 is_a: EMAPA:32725 ! limb digit
-relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37290
@@ -58988,7 +58990,8 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37490
 name: renal tubule basement membrane
 namespace: anatomical_structure
-is_a: EMAPA:27782 ! renal tubule
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:27782 ! renal tubule
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -59226,14 +59229,16 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37523
 name: esophagus smooth muscle circular layer
 namespace: anatomical_structure
-is_a: EMAPA:35323 ! esophagus smooth muscle
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35323 ! esophagus smooth muscle
 relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37524
 name: esophagus smooth muscle longitudinal layer
 namespace: anatomical_structure
-is_a: EMAPA:35323 ! esophagus smooth muscle
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35323 ! esophagus smooth muscle
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -59434,7 +59439,8 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37552
 name: trachea basement membrane
 namespace: anatomical_structure
-is_a: EMAPA:35878 ! trachea non-cartilage connective tissue
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35878 ! trachea non-cartilage connective tissue
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -59569,7 +59575,8 @@ is_a: EMAPA:37565 ! respiratory system arterial blood vessel
 id: EMAPA:37570
 name: respiratory system basement membrane
 namespace: anatomical_structure
-is_a: EMAPA:35977 ! respiratory system connective tissue
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35977 ! respiratory system connective tissue
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -61496,7 +61503,7 @@ name: ventricle compact myocardium
 namespace: anatomical_structure
 is_a: EMAPA:36722 ! compact myocardium
 relationship: part_of EMAPA:17331 ! heart ventricle
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:37834
@@ -61510,9 +61517,10 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:37835
 name: corneo-scleral junction
 namespace: anatomical_structure
+synonym: "corneal limbus" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37836
@@ -61735,8 +61743,9 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:37866
 name: epidermal-dermal junction
 namespace: anatomical_structure
-is_a: EMAPA:17525 ! skin
-relationship: starts_at TS28 ! TS28
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17525 ! skin
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37867
@@ -61966,11 +61975,11 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37896
-name: long bone epiphyseal ossification zone
+name: long bone epiphyseal plate ossification zone
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35505 ! long bone epiphyseal plate
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:37897
@@ -62200,17 +62209,17 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37927
 name: ovary cortex
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17962 ! ovary
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:37928
 name: ovary medulla
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17962 ! ovary
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:37929
@@ -62953,11 +62962,59 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:38026
-name: transversus thoracis
+name: upper jaw primordium
 namespace: anatomical_structure
-synonym: "triangularis sterni" RELATED []
-is_a: EMAPA:35988 ! skeletal muscle
-is_a: EMAPA:37260 ! thoracic segment muscle
+relationship: ends_at TS20 ! TS20
+relationship: part_of EMAPA:32901 ! jaw primordium
+relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:38027
+name: lower jaw primordium
+namespace: anatomical_structure
+relationship: ends_at TS20 ! TS20
+relationship: part_of EMAPA:32901 ! jaw primordium
+relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:38028
+name: long bone epiphyseal plate resting zone
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35505 ! long bone epiphyseal plate
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:38029
+name: extracellular matrix
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:25765 ! mouse
+relationship: starts_at TS06 ! TS06
+
+[Term]
+id: EMAPA:38030
+name: basement membrane
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38029 ! extracellular matrix
+relationship: starts_at TS07 ! TS07
+
+[Term]
+id: EMAPA:38031
+name: basement membrane of epithelium
+namespace: anatomical_structure
+is_a: EMAPA:38030 ! basement membrane
+relationship: part_of EMAPA:32738 ! epithelium
+relationship: starts_at TS11 ! TS11
+
+[Term]
+id: EMAPA:38032
+name: uterus epithelium
+namespace: anatomical_structure
+is_a: EMAPA:35962 ! female reproductive system epithelium
+relationship: part_of EMAPA:29915 ! uterus
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: TS01
