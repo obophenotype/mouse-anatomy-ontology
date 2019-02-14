@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 07:02:2019 10:24
+date: 14:02:2019 12:49
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -53182,9 +53182,10 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:36170
-name: centrale
+name: central carpal bone
 namespace: anatomical_structure
-is_a: EMAPA:36168 ! distal carpal bone
+synonym: "centrale" RELATED []
+is_a: EMAPA:25056 ! carpal bone
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
@@ -53192,7 +53193,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36171
 name: falciform
 namespace: anatomical_structure
-is_a: EMAPA:36168 ! distal carpal bone
+is_a: EMAPA:25056 ! carpal bone
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
@@ -64136,8 +64137,8 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37490
 name: renal tubule basement membrane
 namespace: anatomical_structure
-is_a: EMAPA:27782 ! renal tubule
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:27782 ! renal tubule
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -64402,16 +64403,16 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37523
 name: esophagus smooth muscle circular layer
 namespace: anatomical_structure
-is_a: EMAPA:35323 ! esophagus smooth muscle
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35323 ! esophagus smooth muscle
 relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37524
 name: esophagus smooth muscle longitudinal layer
 namespace: anatomical_structure
-is_a: EMAPA:35323 ! esophagus smooth muscle
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35323 ! esophagus smooth muscle
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -64640,8 +64641,8 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37552
 name: trachea basement membrane
 namespace: anatomical_structure
-is_a: EMAPA:35878 ! trachea non-cartilage connective tissue
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35878 ! trachea non-cartilage connective tissue
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -64786,8 +64787,8 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37570
 name: respiratory system basement membrane
 namespace: anatomical_structure
-is_a: EMAPA:35977 ! respiratory system connective tissue
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35977 ! respiratory system connective tissue
 relationship: starts_at TS28 ! TS28
 
 [Term]
