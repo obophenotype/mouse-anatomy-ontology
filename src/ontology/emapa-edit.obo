@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 14:02:2019 12:49
+date: 19:02:2019 11:01
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -56923,7 +56923,7 @@ name: palatine bone
 namespace: anatomical_structure
 is_a: EMAPA:35924 ! viscerocranium bone
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:36620
@@ -68540,6 +68540,14 @@ is_a: EMAPA:35962 ! female reproductive system epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29915 ! uterus
 relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:38033
+name: atlanto-occipital joint
+namespace: anatomical_structure
+is_a: EMAPA:35456 ! joint
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: group_term
