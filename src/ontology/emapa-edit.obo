@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:02:2019 14:01
+date: 26:02:2019 09:33
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -8622,6 +8622,7 @@ name: retina
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
+relationship: part_of EMAPA:36595 ! eye posterior segment
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -8646,6 +8647,7 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:17171
 name: neural retinal epithelium
 namespace: anatomical_structure
+synonym: "retina neural epithelium" RELATED []
 is_a: EMAPA:35738 ! retina epithelium
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:18590 ! neural retina
@@ -8656,8 +8658,10 @@ id: EMAPA:17172
 name: pigmented retinal epithelium
 namespace: anatomical_structure
 synonym: "retinal pigmented epithelium" RELATED []
+synonym: "RPE" RELATED []
 is_a: EMAPA:35738 ! retina epithelium
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38035 ! optic choroid plus pigmented retinal epithelium
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -14197,7 +14201,7 @@ id: EMAPA:17828
 name: choroidal vasculature
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16198 ! eye
+relationship: part_of EMAPA:19077 ! optic choroid
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -21946,6 +21950,8 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
 relationship: part_of EMAPA:35901 ! uvea
+relationship: part_of EMAPA:36595 ! eye posterior segment
+relationship: part_of EMAPA:38035 ! optic choroid plus pigmented retinal epithelium
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -27198,7 +27204,7 @@ id: EMAPA:25087
 name: choroid layer
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16198 ! eye
+relationship: part_of EMAPA:19077 ! optic choroid
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -68558,8 +68564,15 @@ namespace: anatomical_structure
 is_a: EMAPA:35160 ! autopod joint
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS21 ! TS21
-created_by: terryh
-creation_date: 2019-02-25T13:54:23Z
+
+[Term]
+id: EMAPA:38035
+name: optic choroid plus pigmented retinal epithelium
+namespace: anatomical_structure
+synonym: "RPE-choroid" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36595 ! eye posterior segment
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: group_term
