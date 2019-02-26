@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 26:02:2019 09:33
+date: 26:02:2019 09:47
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -54581,7 +54581,7 @@ id: EMAPA:36336
 name: forelimb digit inter-phalangeal joint
 namespace: anatomical_structure
 is_a: EMAPA:32641 ! hand joint
-is_a: EMAPA:38034 ! interphalangeal joint
+is_a: EMAPA:37884 ! interphalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32642 ! forelimb digit
 relationship: starts_at TS21 ! TS21
@@ -54591,7 +54591,7 @@ id: EMAPA:36337
 name: hindlimb digit inter-phalangeal joint
 namespace: anatomical_structure
 is_a: EMAPA:32949 ! foot joint
-is_a: EMAPA:38034 ! interphalangeal joint
+is_a: EMAPA:37884 ! interphalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32649 ! hindlimb digit
 relationship: starts_at TS22 ! TS22
@@ -67325,9 +67325,12 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37884
 name: interphalangeal joint
 namespace: anatomical_structure
+alt_id: EMAPA:38034
+synonym: "interphalangeal joint" EXACT []
+is_a: EMAPA:35160 ! autopod joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32725 ! limb digit
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:37885
@@ -68554,14 +68557,6 @@ id: EMAPA:38033
 name: atlanto-occipital joint
 namespace: anatomical_structure
 is_a: EMAPA:35456 ! joint
-relationship: ends_at TS28 ! TS28
-relationship: starts_at TS21 ! TS21
-
-[Term]
-id: EMAPA:38034
-name: interphalangeal joint
-namespace: anatomical_structure
-is_a: EMAPA:35160 ! autopod joint
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS21 ! TS21
 
