@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 26:02:2019 09:47
+date: 15:03:2019 13:59
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -4459,6 +4459,7 @@ name: visceral pericardium
 namespace: anatomical_structure
 alt_id: EMAPA:17176
 alt_id: EMAPA:18451
+synonym: "epicardium" RELATED []
 synonym: "pericardium visceral mesothelium" RELATED []
 is_a: EMAPA:37804 ! visceral mesothelium
 relationship: ends_at TS28 ! TS28
@@ -17382,14 +17383,14 @@ name: lymphatic system
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16104 ! cardiovascular system
-relationship: starts_at TS19 ! TS19
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:18249
 name: jugular lymph sac
 namespace: anatomical_structure
+is_a: EMAPA:38036 ! lymph sac
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18248 ! lymphatic system
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -47816,6 +47817,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:35523
 name: lymph node
 namespace: anatomical_structure
+relationship: develops_from EMAPA:38036 ! lymph sac
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18765 ! hemolymphoid system
 relationship: part_of EMAPA:36896 ! immune system
@@ -68568,6 +68570,14 @@ synonym: "RPE-choroid" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36595 ! eye posterior segment
 relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38036
+name: lymph sac
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:18248 ! lymphatic system
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: group_term
