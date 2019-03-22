@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 15:03:2019 13:59
+date: 22:03:2019 11:23
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -11589,7 +11589,7 @@ name: integumental system
 namespace: anatomical_structure
 is_a: EMAPA:16103 ! organ system
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS20 ! TS20
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:17525
@@ -13659,11 +13659,12 @@ relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:17761
-name: mammary gland mesenchyme
+name: mammary mesenchyme
 namespace: anatomical_structure
 is_a: EMAPA:35967 ! integumental system mesenchyme
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17759 ! mammary gland
+relationship: part_of EMAPA:38037 ! mammary gland primordium
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -19257,11 +19258,11 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:18541
-name: mammary gland ridge
+name: mammary ridge
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:17759 ! mammary gland
-relationship: starts_at TS23 ! TS23
+relationship: ends_at TS19 ! TS19
+relationship: part_of EMAPA:16096 ! surface ectoderm
+relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:18542
@@ -47927,6 +47928,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:35536
 name: mammary bud
 namespace: anatomical_structure
+is_a: EMAPA:38037 ! mammary gland primordium
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17524 ! integumental system
 relationship: starts_at TS20 ! TS20
@@ -47969,6 +47971,7 @@ id: EMAPA:35541
 name: mammary placode
 namespace: anatomical_structure
 is_a: EMAPA:36762 ! integumental system placode
+is_a: EMAPA:38037 ! mammary gland primordium
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16096 ! surface ectoderm
 relationship: starts_at TS19 ! TS19
@@ -58142,6 +58145,7 @@ name: integumental system placode
 namespace: anatomical_structure
 is_a: EMAPA:36760 ! non-neurogenic placode
 relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:17524 ! integumental system
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -67473,6 +67477,7 @@ name: mammary fat pad
 namespace: anatomical_structure
 is_a: EMAPA:35340 ! fat pad
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17759 ! mammary gland
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -68578,6 +68583,38 @@ namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18248 ! lymphatic system
 relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:38037
+name: mammary gland primordium
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:17524 ! integumental system
+relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:38038
+name: mammary gland primordium epithelium
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:38037 ! mammary gland primordium
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38039
+name: mammary fat pad precursor
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:38037 ! mammary gland primordium
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38040
+name: mammary sprout
+namespace: anatomical_structure
+is_a: EMAPA:38037 ! mammary gland primordium
+relationship: ends_at TS26 ! TS26
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: group_term
