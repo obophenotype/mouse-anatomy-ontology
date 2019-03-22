@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 22:03:2019 11:23
+date: 22:03:2019 11:57
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -13644,6 +13644,7 @@ name: mammary gland
 namespace: anatomical_structure
 is_a: EMAPA:17758 ! integumental system gland
 is_a: EMAPA:35327 ! exocrine gland
+relationship: develops_from EMAPA:38037 ! mammary gland primordium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17524 ! integumental system
 relationship: starts_at TS21 ! TS21
@@ -47929,7 +47930,8 @@ id: EMAPA:35536
 name: mammary bud
 namespace: anatomical_structure
 is_a: EMAPA:38037 ! mammary gland primordium
-relationship: ends_at TS21 ! TS21
+relationship: develops_from EMAPA:35541 ! mammary placode
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17524 ! integumental system
 relationship: starts_at TS20 ! TS20
 
@@ -68613,6 +68615,7 @@ id: EMAPA:38040
 name: mammary sprout
 namespace: anatomical_structure
 is_a: EMAPA:38037 ! mammary gland primordium
+relationship: develops_from EMAPA:35536 ! mammary bud
 relationship: ends_at TS26 ! TS26
 relationship: starts_at TS23 ! TS23
 
