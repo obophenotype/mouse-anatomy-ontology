@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 22:03:2019 11:57
+date: 26:03:2019 10:15
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -13647,7 +13647,7 @@ is_a: EMAPA:35327 ! exocrine gland
 relationship: develops_from EMAPA:38037 ! mammary gland primordium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17524 ! integumental system
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:17760
@@ -13656,7 +13656,7 @@ namespace: anatomical_structure
 is_a: EMAPA:32738 ! epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17759 ! mammary gland
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:17761
@@ -19259,8 +19259,11 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:18541
-name: mammary ridge
+name: mammary line
 namespace: anatomical_structure
+alt_id: EMAPA:35540
+synonym: "mammary ridge" RELATED []
+synonym: "milk line" RELATED []
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16096 ! surface ectoderm
 relationship: starts_at TS16 ! TS16
@@ -47932,7 +47935,6 @@ namespace: anatomical_structure
 is_a: EMAPA:38037 ! mammary gland primordium
 relationship: develops_from EMAPA:35541 ! mammary placode
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17524 ! integumental system
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -47961,19 +47963,12 @@ relationship: part_of EMAPA:17759 ! mammary gland
 relationship: starts_at TS28 ! TS28
 
 [Term]
-id: EMAPA:35540
-name: mammary line
-namespace: anatomical_structure
-relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16096 ! surface ectoderm
-relationship: starts_at TS16 ! TS16
-
-[Term]
 id: EMAPA:35541
 name: mammary placode
 namespace: anatomical_structure
 is_a: EMAPA:36762 ! integumental system placode
 is_a: EMAPA:38037 ! mammary gland primordium
+relationship: develops_from EMAPA:18541 ! mammary line
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16096 ! surface ectoderm
 relationship: starts_at TS19 ! TS19
@@ -67325,8 +67320,8 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:37883
 name: integumental system adnexa
 namespace: anatomical_structure
-is_a: EMAPA:17524 ! integumental system
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17524 ! integumental system
 relationship: starts_at TS28 ! TS28
 
 [Term]
