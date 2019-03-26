@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2019-02-14
-date: 14:02:2019 12:49
+data-version: releases/2019-03-26
+date: 26:03:2019 10:15
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -4132,6 +4132,7 @@ name: visceral pericardium
 namespace: anatomical_structure
 alt_id: EMAPA:17176
 alt_id: EMAPA:18451
+synonym: "epicardium" RELATED []
 synonym: "pericardium visceral mesothelium" RELATED []
 is_a: EMAPA:37804 ! visceral mesothelium
 relationship: part_of EMAPA:16133 ! pericardium
@@ -8007,7 +8008,7 @@ id: EMAPA:17168
 name: retina
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16198 ! eye
+relationship: part_of EMAPA:36595 ! eye posterior segment
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -8032,6 +8033,7 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:17171
 name: neural retinal epithelium
 namespace: anatomical_structure
+synonym: "retina neural epithelium" RELATED []
 is_a: EMAPA:35738 ! retina epithelium
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:18590 ! neural retina
@@ -8041,7 +8043,9 @@ id: EMAPA:17172
 name: pigmented retinal epithelium
 namespace: anatomical_structure
 synonym: "retinal pigmented epithelium" RELATED []
+synonym: "RPE" RELATED []
 is_a: EMAPA:35738 ! retina epithelium
+relationship: part_of EMAPA:38035 ! optic choroid plus pigmented retinal epithelium
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -10702,7 +10706,7 @@ id: EMAPA:17524
 name: integumental system
 namespace: anatomical_structure
 is_a: EMAPA:16103 ! organ system
-relationship: starts_at TS20 ! TS20
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:17525
@@ -12594,6 +12598,8 @@ name: mammary gland
 namespace: anatomical_structure
 is_a: EMAPA:17758 ! integumental system gland
 is_a: EMAPA:35327 ! exocrine gland
+relationship: develops_from EMAPA:38037 ! mammary gland primordium
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:17760
@@ -12601,14 +12607,15 @@ name: mammary gland epithelium
 namespace: anatomical_structure
 is_a: EMAPA:32738 ! epithelium
 relationship: part_of EMAPA:17759 ! mammary gland
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:17761
-name: mammary gland mesenchyme
+name: mammary mesenchyme
 namespace: anatomical_structure
 is_a: EMAPA:35967 ! integumental system mesenchyme
 relationship: part_of EMAPA:17759 ! mammary gland
+relationship: part_of EMAPA:38037 ! mammary gland primordium
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -13095,7 +13102,7 @@ id: EMAPA:17828
 name: choroidal vasculature
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16198 ! eye
+relationship: part_of EMAPA:19077 ! optic choroid
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -15970,14 +15977,13 @@ name: lymphatic system
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16104 ! cardiovascular system
-relationship: starts_at TS19 ! TS19
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:18249
 name: jugular lymph sac
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18248 ! lymphatic system
+is_a: EMAPA:38036 ! lymph sac
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -17713,11 +17719,14 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:18541
-name: mammary gland ridge
+name: mammary line
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:17759 ! mammary gland
-relationship: starts_at TS23 ! TS23
+alt_id: EMAPA:35540
+synonym: "mammary ridge" RELATED []
+synonym: "milk line" RELATED []
+relationship: ends_at TS19 ! TS19
+relationship: part_of EMAPA:16096 ! surface ectoderm
+relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:18542
@@ -20210,6 +20219,7 @@ name: optic choroid
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35901 ! uvea
+relationship: part_of EMAPA:38035 ! optic choroid plus pigmented retinal epithelium
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -25228,7 +25238,7 @@ id: EMAPA:25087
 name: choroid layer
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16198 ! eye
+relationship: part_of EMAPA:19077 ! optic choroid
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -44293,6 +44303,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:35523
 name: lymph node
 namespace: anatomical_structure
+relationship: develops_from EMAPA:38036 ! lymph sac
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18765 ! hemolymphoid system
 relationship: part_of EMAPA:36896 ! immune system
@@ -44396,8 +44407,9 @@ relationship: part_of EMAPA:17293 ! utricle
 id: EMAPA:35536
 name: mammary bud
 namespace: anatomical_structure
-relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:17524 ! integumental system
+is_a: EMAPA:38037 ! mammary gland primordium
+relationship: develops_from EMAPA:35541 ! mammary placode
+relationship: ends_at TS23 ! TS23
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -44425,18 +44437,12 @@ relationship: part_of EMAPA:17759 ! mammary gland
 relationship: starts_at TS28 ! TS28
 
 [Term]
-id: EMAPA:35540
-name: mammary line
-namespace: anatomical_structure
-relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16096 ! surface ectoderm
-relationship: starts_at TS16 ! TS16
-
-[Term]
 id: EMAPA:35541
 name: mammary placode
 namespace: anatomical_structure
 is_a: EMAPA:36762 ! integumental system placode
+is_a: EMAPA:38037 ! mammary gland primordium
+relationship: develops_from EMAPA:18541 ! mammary line
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16096 ! surface ectoderm
 
@@ -50425,6 +50431,7 @@ id: EMAPA:36336
 name: forelimb digit inter-phalangeal joint
 namespace: anatomical_structure
 is_a: EMAPA:32641 ! hand joint
+is_a: EMAPA:37884 ! interphalangeal joint
 relationship: part_of EMAPA:32642 ! forelimb digit
 
 [Term]
@@ -50432,6 +50439,7 @@ id: EMAPA:36337
 name: hindlimb digit inter-phalangeal joint
 namespace: anatomical_structure
 is_a: EMAPA:32949 ! foot joint
+is_a: EMAPA:37884 ! interphalangeal joint
 relationship: part_of EMAPA:32649 ! hindlimb digit
 relationship: starts_at TS22 ! TS22
 
@@ -52616,7 +52624,7 @@ id: EMAPA:36619
 name: palatine bone
 namespace: anatomical_structure
 is_a: EMAPA:35924 ! viscerocranium bone
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:36620
@@ -53722,6 +53730,7 @@ id: EMAPA:36762
 name: integumental system placode
 namespace: anatomical_structure
 is_a: EMAPA:36760 ! non-neurogenic placode
+relationship: part_of EMAPA:17524 ! integumental system
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -61878,16 +61887,18 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:37883
 name: integumental system adnexa
 namespace: anatomical_structure
-is_a: EMAPA:17524 ! integumental system
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17524 ! integumental system
 relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37884
 name: interphalangeal joint
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
+alt_id: EMAPA:38034
+synonym: "interphalangeal joint" EXACT []
+is_a: EMAPA:35160 ! autopod joint
 relationship: part_of EMAPA:32725 ! limb digit
-relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37885
@@ -62016,6 +62027,7 @@ id: EMAPA:37901
 name: mammary fat pad
 namespace: anatomical_structure
 is_a: EMAPA:35340 ! fat pad
+relationship: part_of EMAPA:17759 ! mammary gland
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -63015,6 +63027,61 @@ namespace: anatomical_structure
 is_a: EMAPA:35962 ! female reproductive system epithelium
 relationship: part_of EMAPA:29915 ! uterus
 relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:38033
+name: atlanto-occipital joint
+namespace: anatomical_structure
+is_a: EMAPA:35456 ! joint
+
+[Term]
+id: EMAPA:38035
+name: optic choroid plus pigmented retinal epithelium
+namespace: anatomical_structure
+synonym: "RPE-choroid" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36595 ! eye posterior segment
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38036
+name: lymph sac
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:18248 ! lymphatic system
+relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:38037
+name: mammary gland primordium
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:17524 ! integumental system
+relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:38038
+name: mammary gland primordium epithelium
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:38037 ! mammary gland primordium
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38039
+name: mammary fat pad precursor
+namespace: anatomical_structure
+relationship: ends_at TS26 ! TS26
+relationship: part_of EMAPA:38037 ! mammary gland primordium
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38040
+name: mammary sprout
+namespace: anatomical_structure
+is_a: EMAPA:38037 ! mammary gland primordium
+relationship: develops_from EMAPA:35536 ! mammary bud
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: TS01
