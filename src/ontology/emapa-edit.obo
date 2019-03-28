@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 26:03:2019 10:15
+date: 28:03:2019 16:20
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -21738,11 +21738,11 @@ relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:19042
-name: rest of cerebral cortex
+name: allocortex
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17544 ! cerebral cortex
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:19043
@@ -21755,27 +21755,27 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:19044
-name: rest of cerebral cortex mantle layer
+name: allocortex mantle layer
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19042 ! rest of cerebral cortex
+relationship: part_of EMAPA:19042 ! allocortex
 relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:19045
-name: rest of cerebral cortex marginal layer
+name: allocortex marginal layer
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19042 ! rest of cerebral cortex
+relationship: part_of EMAPA:19042 ! allocortex
 relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:19046
-name: rest of cerebral cortex ventricular layer
+name: allocortex ventricular layer
 namespace: anatomical_structure
 is_a: EMAPA:17547 ! cerebral cortex ventricular layer
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19042 ! rest of cerebral cortex
+relationship: part_of EMAPA:19042 ! allocortex
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -43224,6 +43224,7 @@ id: EMAPA:32842
 name: neocortex
 namespace: anatomical_structure
 synonym: "cerebral cortex" RELATED []
+synonym: "isocortex" RELATED []
 synonym: "neopallium" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17544 ! cerebral cortex
@@ -46331,7 +46332,7 @@ id: EMAPA:35339
 name: fasciola cinereum
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35405 ! hippocampal formation
+relationship: part_of EMAPA:19042 ! allocortex
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -46811,6 +46812,7 @@ name: hippocampal formation
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16910 ! telencephalon
+relationship: part_of EMAPA:19042 ! allocortex
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -47017,11 +47019,12 @@ relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35430
-name: induseum griseum
+name: indusium griseum
 namespace: anatomical_structure
+synonym: "induseum griseum" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35405 ! hippocampal formation
-relationship: starts_at TS27 ! TS27
+relationship: part_of EMAPA:19042 ! allocortex
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35431
