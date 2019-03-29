@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 28:03:2019 16:20
+date: 29:03:2019 15:51
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -21741,7 +21741,7 @@ id: EMAPA:19042
 name: allocortex
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17544 ! cerebral cortex
+relationship: part_of EMAPA:16910 ! telencephalon
 relationship: starts_at TS20 ! TS20
 
 [Term]
