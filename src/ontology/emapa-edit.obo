@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 29:03:2019 15:51
+date: 07:08:2019 11:16
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -27035,9 +27035,9 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:25058
-name: forelimb digit 1 inter-phalangeal joint
+name: forelimb digit 1 interphalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36336 ! forelimb digit inter-phalangeal joint
+is_a: EMAPA:36336 ! forelimb digit interphalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17429 ! forelimb digit 1
 relationship: starts_at TS22 ! TS22
@@ -27061,9 +27061,9 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:25061
-name: forelimb digit 2 inter-phalangeal joint
+name: forelimb digit 2 interphalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36336 ! forelimb digit inter-phalangeal joint
+is_a: EMAPA:36336 ! forelimb digit interphalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17432 ! forelimb digit 2
 relationship: starts_at TS22 ! TS22
@@ -27087,9 +27087,9 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:25064
-name: forelimb digit 3 inter-phalangeal joint
+name: forelimb digit 3 interphalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36336 ! forelimb digit inter-phalangeal joint
+is_a: EMAPA:36336 ! forelimb digit interphalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17435 ! forelimb digit 3
 relationship: starts_at TS22 ! TS22
@@ -27113,9 +27113,9 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:25067
-name: forelimb digit 4 inter-phalangeal joint
+name: forelimb digit 4 interphalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36336 ! forelimb digit inter-phalangeal joint
+is_a: EMAPA:36336 ! forelimb digit interphalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17438 ! forelimb digit 4
 relationship: starts_at TS22 ! TS22
@@ -27139,9 +27139,9 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:25070
-name: forelimb digit 5 inter-phalangeal joint
+name: forelimb digit 5 interphalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36336 ! forelimb digit inter-phalangeal joint
+is_a: EMAPA:36336 ! forelimb digit interphalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17441 ! forelimb digit 5
 relationship: starts_at TS22 ! TS22
@@ -32570,9 +32570,9 @@ relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:26430
-name: hindlimb digit 1 inter-phalangeal joint
+name: hindlimb digit 1 interphalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36337 ! hindlimb digit inter-phalangeal joint
+is_a: EMAPA:36337 ! hindlimb digit interphalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17460 ! hindlimb digit 1
 relationship: starts_at TS22 ! TS22
@@ -32581,7 +32581,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:26436
 name: hindlimb digit 1 metatarsal-phalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36338 ! hindlimb digit metatarsal-phalangeal joint
+is_a: EMAPA:36338 ! metatarsal-phalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17460 ! hindlimb digit 1
 relationship: starts_at TS22 ! TS22
@@ -32590,25 +32590,25 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:26442
 name: hindlimb digit 2 metatarsal-phalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36338 ! hindlimb digit metatarsal-phalangeal joint
+is_a: EMAPA:36338 ! metatarsal-phalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17463 ! hindlimb digit 2
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:26448
-name: hindlimb digit 2 inter-phalangeal joint
+name: hindlimb digit 2 interphalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36337 ! hindlimb digit inter-phalangeal joint
+is_a: EMAPA:36337 ! hindlimb digit interphalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17463 ! hindlimb digit 2
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:26454
-name: hindlimb digit 3 inter-phalangeal joint
+name: hindlimb digit 3 interphalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36337 ! hindlimb digit inter-phalangeal joint
+is_a: EMAPA:36337 ! hindlimb digit interphalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17466 ! hindlimb digit 3
 relationship: starts_at TS22 ! TS22
@@ -32617,16 +32617,16 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:26460
 name: hindlimb digit 3 metatarsal-phalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36338 ! hindlimb digit metatarsal-phalangeal joint
+is_a: EMAPA:36338 ! metatarsal-phalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17466 ! hindlimb digit 3
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:26466
-name: hindlimb digit 4 inter-phalangeal joint
+name: hindlimb digit 4 interphalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36337 ! hindlimb digit inter-phalangeal joint
+is_a: EMAPA:36337 ! hindlimb digit interphalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17469 ! hindlimb digit 4
 relationship: starts_at TS22 ! TS22
@@ -32635,16 +32635,16 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:26472
 name: hindlimb digit 4 metatarsal-phalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36338 ! hindlimb digit metatarsal-phalangeal joint
+is_a: EMAPA:36338 ! metatarsal-phalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17469 ! hindlimb digit 4
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:26478
-name: hindlimb digit 5 inter-phalangeal joint
+name: hindlimb digit 5 interphalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36337 ! hindlimb digit inter-phalangeal joint
+is_a: EMAPA:36337 ! hindlimb digit interphalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17472 ! hindlimb digit 5
 relationship: starts_at TS22 ! TS22
@@ -32653,7 +32653,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:26484
 name: hindlimb digit 5 metatarsal-phalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36338 ! hindlimb digit metatarsal-phalangeal joint
+is_a: EMAPA:36338 ! metatarsal-phalangeal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17472 ! hindlimb digit 5
 relationship: starts_at TS22 ! TS22
@@ -54583,7 +54583,7 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:36336
-name: forelimb digit inter-phalangeal joint
+name: forelimb digit interphalangeal joint
 namespace: anatomical_structure
 is_a: EMAPA:32641 ! hand joint
 is_a: EMAPA:37884 ! interphalangeal joint
@@ -54593,7 +54593,7 @@ relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:36337
-name: hindlimb digit inter-phalangeal joint
+name: hindlimb digit interphalangeal joint
 namespace: anatomical_structure
 is_a: EMAPA:32949 ! foot joint
 is_a: EMAPA:37884 ! interphalangeal joint
@@ -54603,7 +54603,7 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:36338
-name: hindlimb digit metatarsal-phalangeal joint
+name: metatarsal-phalangeal joint
 namespace: anatomical_structure
 is_a: EMAPA:32949 ! foot joint
 relationship: ends_at TS28 ! TS28
@@ -68616,6 +68616,38 @@ is_a: EMAPA:38037 ! mammary gland primordium
 relationship: develops_from EMAPA:35536 ! mammary bud
 relationship: ends_at TS26 ! TS26
 relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:38041
+name: carpal-metacarpal joint
+namespace: anatomical_structure
+is_a: EMAPA:32641 ! hand joint
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38042
+name: tarsal-metatarsal joint
+namespace: anatomical_structure
+is_a: EMAPA:32949 ! foot joint
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38043
+name: proximal interphalangeal joint
+namespace: anatomical_structure
+is_a: EMAPA:37884 ! interphalangeal joint
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38044
+name: distal interphalangeal joint
+namespace: anatomical_structure
+is_a: EMAPA:37884 ! interphalangeal joint
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: group_term
