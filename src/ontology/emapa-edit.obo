@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:09:2019 15:21
+date: 18:09:2019 15:22
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -19808,8 +19808,10 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:18626
 name: trabeculae carneae
 namespace: anatomical_structure
+synonym: "ventricular trabecula" RELATED []
+is_a: EMAPA:38051 ! heart trabecula
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16105 ! heart
+relationship: part_of EMAPA:17331 ! heart ventricle
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -56555,6 +56557,8 @@ name: trabeculae carneae cardiac muscle
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18626 ! trabeculae carneae
+relationship: part_of EMAPA:32748 ! ventricle cardiac muscle
+relationship: part_of EMAPA:36721 ! trabecular myocardium
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -57791,6 +57795,7 @@ namespace: anatomical_structure
 is_a: EMAPA:37475 ! myocardium layer
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32688 ! cardiac muscle tissue
+relationship: part_of EMAPA:38051 ! heart trabecula
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -63679,10 +63684,11 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37432
-name: atrium myocardial trabecula
+name: atrial trabecula
 namespace: anatomical_structure
+is_a: EMAPA:38051 ! heart trabecula
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32746 ! atrium cardiac muscle
+relationship: part_of EMAPA:16688 ! heart atrium
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -68702,6 +68708,33 @@ synonym: "incudomalleolar joint" RELATED []
 is_a: EMAPA:38049 ! joint of auditory ossicle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:38051
+name: heart trabecula
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16105 ! heart
+relationship: starts_at TS17 ! TS17
+
+[Term]
+id: EMAPA:38052
+name: atrial trabecula cardiac muscle
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32746 ! atrium cardiac muscle
+relationship: part_of EMAPA:36721 ! trabecular myocardium
+relationship: part_of EMAPA:37432 ! atrial trabecula
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38053
+name: atrioventricular sulcus
+namespace: anatomical_structure
+synonym: "AV sulcus" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16105 ! heart
+relationship: starts_at TS19 ! TS19
 
 [Term]
 id: group_term
