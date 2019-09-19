@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 18:09:2019 15:22
+date: 19:09:2019 15:24
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -57166,9 +57166,10 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:36646
 name: cardiac interstitium
 namespace: anatomical_structure
+synonym: "myocardial interstitium" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16105 ! heart
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:36647
@@ -63676,11 +63677,12 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37431
-name: atrioventricular septum
+name: atrioventricular septal complex
 namespace: anatomical_structure
+synonym: "atrioventricular septum" RELATED []
 is_a: EMAPA:35400 ! heart septum
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:37432
