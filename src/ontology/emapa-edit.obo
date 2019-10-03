@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 19:09:2019 15:24
+date: 03:10:2019 11:16
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -47310,15 +47310,16 @@ synonym: "lachrymal gland" RELATED []
 is_a: EMAPA:35327 ! exocrine gland
 is_a: EMAPA:35334 ! eye gland
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16198 ! eye
 relationship: part_of EMAPA:35462 ! lacrimal apparatus
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35464
 name: lacrimal gland bud
 namespace: anatomical_structure
 synonym: "lachrymal gland bud" RELATED []
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:16198 ! eye
 relationship: starts_at TS22 ! TS22
 
@@ -56087,7 +56088,7 @@ name: lacrimal gland epithelium
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35463 ! lacrimal gland
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:36516
