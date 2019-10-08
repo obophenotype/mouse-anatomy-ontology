@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 03:10:2019 11:16
+date: 08:10:2019 11:24
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -10867,7 +10867,6 @@ name: interdigital region between forelimb digits 1 and 2
 namespace: anatomical_structure
 is_a: EMAPA:32651 ! forelimb interdigital region
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:17428 ! hand
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -10894,7 +10893,6 @@ name: interdigital region between forelimb digits 2 and 3
 namespace: anatomical_structure
 is_a: EMAPA:32651 ! forelimb interdigital region
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:17428 ! hand
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -10921,7 +10919,6 @@ name: interdigital region between forelimb digits 3 and 4
 namespace: anatomical_structure
 is_a: EMAPA:32651 ! forelimb interdigital region
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:17428 ! hand
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -10948,7 +10945,6 @@ name: interdigital region between forelimb digits 4 and 5
 namespace: anatomical_structure
 is_a: EMAPA:32651 ! forelimb interdigital region
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:17428 ! hand
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -11152,7 +11148,6 @@ name: interdigital region between hindlimb digits 1 and 2
 namespace: anatomical_structure
 is_a: EMAPA:32945 ! hindlimb interdigital region
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:17459 ! foot
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -11179,7 +11174,6 @@ name: interdigital region between hindlimb digits 2 and 3
 namespace: anatomical_structure
 is_a: EMAPA:32945 ! hindlimb interdigital region
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:17459 ! foot
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -11206,7 +11200,6 @@ name: interdigital region between hindlimb digits 3 and 4
 namespace: anatomical_structure
 is_a: EMAPA:32945 ! hindlimb interdigital region
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:17459 ! foot
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -11233,7 +11226,6 @@ name: interdigital region between hindlimb digits 4 and 5
 namespace: anatomical_structure
 is_a: EMAPA:32945 ! hindlimb interdigital region
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:17459 ! foot
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -13137,6 +13129,7 @@ id: EMAPA:17702
 name: diaphragm central tendon
 namespace: anatomical_structure
 synonym: "central tendon" RELATED []
+is_a: EMAPA:35854 ! tendon
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17701 ! diaphragm
 relationship: starts_at TS20 ! TS20
@@ -13208,6 +13201,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17710
 name: elbow joint primordium
 namespace: anatomical_structure
+is_a: EMAPA:38061 ! forelimb joint primordium
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17416 ! elbow mesenchyme
 relationship: starts_at TS21 ! TS21
@@ -13476,6 +13470,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17740
 name: knee joint primordium
 namespace: anatomical_structure
+is_a: EMAPA:38062 ! hindlimb joint primordium
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17495 ! knee mesenchyme
 relationship: starts_at TS21 ! TS21
@@ -19119,9 +19114,10 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:18509
-name: ligamentum patellae
+name: patellar ligament
 namespace: anatomical_structure
 alt_id: EMAPA:19139
+synonym: "ligamentum patellae" RELATED []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17740 ! knee joint primordium
 relationship: part_of EMAPA:19137 ! knee joint
@@ -26872,6 +26868,7 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:25035
 name: future central tendon
 namespace: anatomical_structure
+is_a: EMAPA:38055 ! tendon primordium
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16320 ! septum transversum non-hepatic component
 relationship: starts_at TS13 ! TS13
@@ -50475,8 +50472,8 @@ name: tendo calcaneus
 namespace: anatomical_structure
 synonym: "Achilles tendon" RELATED []
 synonym: "calcaneal tendon" RELATED []
+is_a: EMAPA:38060 ! hindlimb tendon
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35854 ! tendon
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -50485,7 +50482,7 @@ name: tendon
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35251 ! connective tissue
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35855
@@ -57564,7 +57561,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:36694
 name: quadriceps tendon
 namespace: anatomical_structure
-is_a: EMAPA:35854 ! tendon
+is_a: EMAPA:38060 ! hindlimb tendon
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS25 ! TS25
 
@@ -62153,7 +62150,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35251 ! connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:31857 ! trunk
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:37253
@@ -62189,7 +62186,7 @@ namespace: anatomical_structure
 is_a: EMAPA:37252 ! trunk connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35162 ! back of trunk
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:37257
@@ -62490,7 +62487,7 @@ namespace: anatomical_structure
 is_a: EMAPA:37313 ! limb connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32725 ! limb digit
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37291
@@ -62690,7 +62687,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35251 ! connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16405 ! limb
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37314
@@ -62699,7 +62696,7 @@ namespace: anatomical_structure
 is_a: EMAPA:37313 ! limb connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17412 ! forelimb
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37315
@@ -62708,7 +62705,7 @@ namespace: anatomical_structure
 is_a: EMAPA:37314 ! forelimb connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17421 ! shoulder
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37316
@@ -62717,7 +62714,7 @@ namespace: anatomical_structure
 is_a: EMAPA:37314 ! forelimb connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17413 ! arm
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37317
@@ -62726,7 +62723,7 @@ namespace: anatomical_structure
 is_a: EMAPA:37316 ! arm connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17424 ! upper arm
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37318
@@ -62735,7 +62732,7 @@ namespace: anatomical_structure
 is_a: EMAPA:37316 ! arm connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17414 ! elbow
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37319
@@ -62744,7 +62741,7 @@ namespace: anatomical_structure
 is_a: EMAPA:37316 ! arm connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17417 ! forearm
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37320
@@ -62753,7 +62750,7 @@ namespace: anatomical_structure
 is_a: EMAPA:37314 ! forelimb connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32784 ! wrist
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37321
@@ -62763,7 +62760,7 @@ is_a: EMAPA:35392 ! hand connective tissue
 is_a: EMAPA:37314 ! forelimb connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32642 ! forelimb digit
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37322
@@ -62772,7 +62769,7 @@ namespace: anatomical_structure
 is_a: EMAPA:37313 ! limb connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17458 ! hindlimb
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37323
@@ -62781,7 +62778,7 @@ namespace: anatomical_structure
 is_a: EMAPA:37322 ! hindlimb connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17490 ! hip
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37324
@@ -62790,7 +62787,7 @@ namespace: anatomical_structure
 is_a: EMAPA:37322 ! hindlimb connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17489 ! leg
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37325
@@ -62799,7 +62796,7 @@ namespace: anatomical_structure
 is_a: EMAPA:37324 ! leg connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17499 ! upper leg
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37326
@@ -62808,7 +62805,7 @@ namespace: anatomical_structure
 is_a: EMAPA:37324 ! leg connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17493 ! knee
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37327
@@ -62817,7 +62814,7 @@ namespace: anatomical_structure
 is_a: EMAPA:37324 ! leg connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17496 ! lower leg
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37328
@@ -62826,7 +62823,7 @@ namespace: anatomical_structure
 is_a: EMAPA:37322 ! hindlimb connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32783 ! ankle
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37329
@@ -62835,7 +62832,7 @@ namespace: anatomical_structure
 is_a: EMAPA:37322 ! hindlimb connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17459 ! foot
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37330
@@ -62844,7 +62841,7 @@ namespace: anatomical_structure
 is_a: EMAPA:37329 ! foot connective tissue
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32649 ! hindlimb digit
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37331
@@ -68738,6 +68735,104 @@ synonym: "AV sulcus" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16105 ! heart
 relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:38054
+name: limb tendon
+namespace: anatomical_structure
+is_a: EMAPA:35854 ! tendon
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16405 ! limb
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:38055
+name: tendon primordium
+namespace: anatomical_structure
+relationship: ends_at TS23 ! TS23
+relationship: part_of EMAPA:35961 ! embryo mesenchyme
+relationship: starts_at TS13 ! TS13
+
+[Term]
+id: EMAPA:38056
+name: limb tendon primordium
+namespace: anatomical_structure
+is_a: EMAPA:38055 ! tendon primordium
+relationship: ends_at TS23 ! TS23
+relationship: part_of EMAPA:16405 ! limb
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:38057
+name: forelimb tendon primordium
+namespace: anatomical_structure
+is_a: EMAPA:38056 ! limb tendon primordium
+relationship: ends_at TS23 ! TS23
+relationship: part_of EMAPA:17412 ! forelimb
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:38058
+name: hindlimb tendon primordium
+namespace: anatomical_structure
+is_a: EMAPA:38056 ! limb tendon primordium
+relationship: ends_at TS23 ! TS23
+relationship: part_of EMAPA:17458 ! hindlimb
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:38059
+name: forelimb tendon
+namespace: anatomical_structure
+is_a: EMAPA:38054 ! limb tendon
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17412 ! forelimb
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:38060
+name: hindlimb tendon
+namespace: anatomical_structure
+is_a: EMAPA:38054 ! limb tendon
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17458 ! hindlimb
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:38061
+name: forelimb joint primordium
+namespace: anatomical_structure
+is_a: EMAPA:32699 ! limb joint primordium
+relationship: ends_at TS23 ! TS23
+relationship: part_of EMAPA:17412 ! forelimb
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38062
+name: hindlimb joint primordium
+namespace: anatomical_structure
+is_a: EMAPA:32699 ! limb joint primordium
+relationship: ends_at TS23 ! TS23
+relationship: part_of EMAPA:17458 ! hindlimb
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38063
+name: hand joint primordium
+namespace: anatomical_structure
+is_a: EMAPA:38061 ! forelimb joint primordium
+relationship: ends_at TS23 ! TS23
+relationship: part_of EMAPA:17457 ! hand mesenchyme
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38064
+name: foot joint primordium
+namespace: anatomical_structure
+is_a: EMAPA:38062 ! hindlimb joint primordium
+relationship: ends_at TS23 ! TS23
+relationship: part_of EMAPA:17488 ! foot mesenchyme
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: group_term
