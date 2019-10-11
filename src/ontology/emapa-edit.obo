@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 08:10:2019 11:24
+date: 11:10:2019 09:32
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -19118,7 +19118,8 @@ name: patellar ligament
 namespace: anatomical_structure
 alt_id: EMAPA:19139
 synonym: "ligamentum patellae" RELATED []
-relationship: ends_at TS26 ! TS26
+is_a: EMAPA:37004 ! skeletal ligament
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17740 ! knee joint primordium
 relationship: part_of EMAPA:19137 ! knee joint
 relationship: starts_at TS23 ! TS23
@@ -68833,6 +68834,22 @@ is_a: EMAPA:38062 ! hindlimb joint primordium
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17488 ! foot mesenchyme
 relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38065
+name: anterior cruciate ligament
+namespace: anatomical_structure
+is_a: EMAPA:38004 ! cruciate ligament of knee
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS26 ! TS26
+
+[Term]
+id: EMAPA:38066
+name: posterior cruciate ligament
+namespace: anatomical_structure
+is_a: EMAPA:38004 ! cruciate ligament of knee
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: group_term
