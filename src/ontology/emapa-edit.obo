@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 11:10:2019 09:32
+date: 23:10:2019 15:41
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -48471,7 +48471,7 @@ namespace: anatomical_structure
 is_a: EMAPA:17745 ! anterior abdominal wall muscle
 is_a: EMAPA:35988 ! skeletal muscle
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35604
@@ -50943,7 +50943,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35176 ! blood vessel endothelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16240 ! venous system
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35908
