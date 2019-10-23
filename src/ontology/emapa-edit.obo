@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 23:10:2019 15:41
+date: 23:10:2019 16:08
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -6182,7 +6182,7 @@ name: facio-acoustic ganglion complex
 namespace: anatomical_structure
 synonym: "facio-acoustic VII-VIII ganglion complex" RELATED []
 is_a: EMAPA:16659 ! cranial ganglion
-relationship: ends_at TS16 ! TS16
+relationship: ends_at TS17 ! TS17
 relationship: starts_at TS16 ! TS16
 
 [Term]
