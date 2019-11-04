@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 23:10:2019 16:08
+date: 04:11:2019 14:53
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -16832,7 +16832,7 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17743 ! vertebral axis musculature
 relationship: part_of EMAPA:35578 ! skeletal musculature
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:18167
@@ -19151,7 +19151,7 @@ synonym: "intercostales" EXACT []
 is_a: EMAPA:18167 ! axial muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35888 ! trunk musculature
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:18522
@@ -42033,7 +42033,7 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16405 ! limb
 relationship: part_of EMAPA:35578 ! skeletal musculature
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:32701
