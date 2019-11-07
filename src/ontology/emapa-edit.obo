@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 04:11:2019 14:53
+date: 07:11:2019 14:58
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -47956,7 +47956,7 @@ name: mammary gland duct
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17759 ! mammary gland
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35539
@@ -65607,7 +65607,7 @@ name: mammary gland smooth muscle
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17759 ! mammary gland
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37670
@@ -67474,9 +67474,9 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37900
 name: mammary duct terminal end bud
 namespace: anatomical_structure
-is_a: EMAPA:35538 ! mammary gland duct
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS28 ! TS28
+relationship: part_of EMAPA:35538 ! mammary gland duct
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37901
