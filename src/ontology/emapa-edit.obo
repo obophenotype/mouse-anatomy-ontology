@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 07:11:2019 14:58
+date: 22:11:2019 15:52
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -56853,6 +56853,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36609
 name: choroid plexus stroma
 namespace: anatomical_structure
+synonym: "choroid plexus mesenchyme" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32741 ! choroid plexus
 relationship: starts_at TS28 ! TS28
@@ -60408,6 +60409,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37039
 name: 4th ventricle choroid plexus stroma
 namespace: anatomical_structure
+synonym: "4th ventricle choroid plexus mesenchyme" RELATED []
 is_a: EMAPA:36609 ! choroid plexus stroma
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32742 ! 4th ventricle choroid plexus
@@ -60426,6 +60428,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37041
 name: lateral ventricle choroid plexus stroma
 namespace: anatomical_structure
+synonym: "lateral ventricle choroid plexus mesenchyme" RELATED []
 is_a: EMAPA:36609 ! choroid plexus stroma
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17769 ! lateral ventricle choroid plexus
@@ -60556,6 +60559,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37056
 name: 3rd ventricle choroid plexus stroma
 namespace: anatomical_structure
+synonym: "3rd ventricle choroid plexus mesenchyme" RELATED []
 is_a: EMAPA:36609 ! choroid plexus stroma
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18543 ! 3rd ventricle choroid plexus
