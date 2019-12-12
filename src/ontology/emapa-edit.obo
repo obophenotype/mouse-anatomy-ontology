@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 22:11:2019 15:52
+date: 12:12:2019 14:57
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -64714,6 +64714,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37558
 name: large intestine smooth muscle circular layer
 namespace: anatomical_structure
+is_a: EMAPA:38067 ! intestine smooth muscle circular layer
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35469 ! large intestine smooth muscle
 relationship: starts_at TS28 ! TS28
@@ -64722,6 +64723,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37559
 name: large intestine smooth muscle longitudinal layer
 namespace: anatomical_structure
+is_a: EMAPA:38068 ! intestine smooth muscle longitudinal layer
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35469 ! large intestine smooth muscle
 relationship: starts_at TS28 ! TS28
@@ -64746,6 +64748,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37562
 name: small intestine smooth muscle circular layer
 namespace: anatomical_structure
+is_a: EMAPA:38067 ! intestine smooth muscle circular layer
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35783 ! small intestine smooth muscle
 relationship: starts_at TS28 ! TS28
@@ -64754,6 +64757,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37563
 name: small intestine smooth muscle longitudinal layer
 namespace: anatomical_structure
+is_a: EMAPA:38068 ! intestine smooth muscle longitudinal layer
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35783 ! small intestine smooth muscle
 relationship: starts_at TS28 ! TS28
@@ -68854,6 +68858,22 @@ namespace: anatomical_structure
 is_a: EMAPA:38004 ! cruciate ligament of knee
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS26 ! TS26
+
+[Term]
+id: EMAPA:38067
+name: intestine smooth muscle circular layer
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35443 ! intestine smooth muscle
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38068
+name: intestine smooth muscle longitudinal layer
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35443 ! intestine smooth muscle
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: group_term
