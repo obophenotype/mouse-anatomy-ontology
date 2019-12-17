@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:12:2019 14:57
+date: 17:12:2019 14:38
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -42806,7 +42806,7 @@ synonym: "brain stem nucleus" RELATED []
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32678 ! brainstem
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:32791
@@ -45074,7 +45074,7 @@ synonym: "brain grey matter" EXACT []
 is_a: EMAPA:37596 ! gray matter
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16894 ! brain
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35185
@@ -45082,7 +45082,7 @@ name: brain nucleus
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35184 ! brain gray matter
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35186
@@ -46325,7 +46325,7 @@ synonym: "facial VII nucleus" RELATED []
 is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17563 ! pons
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35339
