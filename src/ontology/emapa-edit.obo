@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:12:2019 14:38
+date: 14:01:2020 09:27
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -68874,6 +68874,78 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35443 ! intestine smooth muscle
 relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38069
+name: secondary motor cortex
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35357 ! frontal cortex
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38070
+name: ectorhinal area
+namespace: anatomical_structure
+is_a: EMAPA:35589 ! neocortex region
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38071
+name: infralimbic area
+namespace: anatomical_structure
+is_a: EMAPA:35589 ! neocortex region
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38072
+name: orbital area
+namespace: anatomical_structure
+is_a: EMAPA:35589 ! neocortex region
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38073
+name: anterior medial thalamic nucleus
+namespace: anatomical_structure
+is_a: EMAPA:35859 ! thalamic nucleus
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38074
+name: central lateral thalamic nucleus
+namespace: anatomical_structure
+is_a: EMAPA:35859 ! thalamic nucleus
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38075
+name: lateral dorsal thalamic nucleus
+namespace: anatomical_structure
+is_a: EMAPA:35859 ! thalamic nucleus
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38076
+name: lateral posterior thalamic nucleus
+namespace: anatomical_structure
+is_a: EMAPA:35859 ! thalamic nucleus
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38077
+name: ventral medial thalamic nucleus
+namespace: anatomical_structure
+is_a: EMAPA:35859 ! thalamic nucleus
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS28 ! TS28
 
 [Term]
 id: group_term
