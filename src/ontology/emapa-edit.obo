@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 14:01:2020 09:27
+date: 15:01:2020 15:18
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -45244,7 +45244,7 @@ relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35205
-name: central lateral nucleus
+name: central lateral thalamic nucleus
 namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
@@ -68917,9 +68917,9 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:38074
-name: central lateral thalamic nucleus
+name: vestibulocerebellar nucleus
 namespace: anatomical_structure
-is_a: EMAPA:35859 ! thalamic nucleus
+is_a: EMAPA:35272 ! deep cerebellar nucleus
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
 
