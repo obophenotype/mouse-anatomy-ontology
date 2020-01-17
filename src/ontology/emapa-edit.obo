@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 15:01:2020 15:18
+date: 17:01:2020 12:57
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -68946,6 +68946,23 @@ namespace: anatomical_structure
 is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38078
+name: cranial cartilage
+namespace: anatomical_structure
+is_a: EMAPA:32730 ! cartilage
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17680 ! cranium
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:38079
+name: tectum transversum
+namespace: anatomical_structure
+is_a: EMAPA:38078 ! cranial cartilage
+relationship: ends_at TS26 ! TS26
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: group_term
