@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:01:2020 12:57
+date: 21:01:2020 15:46
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -14348,8 +14348,8 @@ id: EMAPA:17845
 name: extrinsic ocular pre-muscle mass
 namespace: anatomical_structure
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:17844 ! eye skeletal muscle
-relationship: starts_at TS21 ! TS21
+relationship: part_of EMAPA:16198 ! eye
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17847
@@ -17276,6 +17276,7 @@ name: extrinsic ocular muscle
 namespace: anatomical_structure
 alt_id: EMAPA:35333
 synonym: "extraocular muscle" RELATED []
+relationship: develops_from EMAPA:17845 ! extrinsic ocular pre-muscle mass
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17844 ! eye skeletal muscle
 relationship: starts_at TS22 ! TS22
@@ -66952,7 +66953,7 @@ namespace: anatomical_structure
 synonym: "corneal limbus" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:37836
