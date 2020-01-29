@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 29:01:2020 12:56
+date: 29:01:2020 16:50
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -21271,7 +21271,7 @@ id: EMAPA:18967
 name: lower jaw gum
 namespace: anatomical_structure
 is_a: EMAPA:35945 ! gum
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17906 ! lower jaw
 relationship: starts_at TS22 ! TS22
 
@@ -21281,7 +21281,7 @@ name: lower jaw gum epithelium
 namespace: anatomical_structure
 is_a: EMAPA:35516 ! lower jaw epithelium
 is_a: EMAPA:35966 ! gum epithelium
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18967 ! lower jaw gum
 relationship: starts_at TS22 ! TS22
 
@@ -21299,7 +21299,7 @@ id: EMAPA:18970
 name: upper jaw gum
 namespace: anatomical_structure
 is_a: EMAPA:35945 ! gum
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17924 ! upper jaw
 relationship: starts_at TS22 ! TS22
 
@@ -21309,7 +21309,7 @@ name: upper jaw gum epithelium
 namespace: anatomical_structure
 is_a: EMAPA:32862 ! upper jaw epithelium
 is_a: EMAPA:35966 ! gum epithelium
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18970 ! upper jaw gum
 relationship: starts_at TS22 ! TS22
 
@@ -51254,7 +51254,7 @@ relationship: starts_at TS14 ! TS14
 id: EMAPA:35945
 name: gum
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16262 ! oral region
 relationship: starts_at TS22 ! TS22
 
@@ -51446,7 +51446,7 @@ id: EMAPA:35966
 name: gum epithelium
 namespace: anatomical_structure
 is_a: EMAPA:32904 ! jaw epithelium
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35945 ! gum
 relationship: starts_at TS22 ! TS22
 
@@ -59691,7 +59691,7 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:36950
-name: alveolar process of maxilla
+name: maxilla alveolar process
 namespace: anatomical_structure
 is_a: EMAPA:35118 ! alveolar process
 relationship: ends_at TS28 ! TS28
