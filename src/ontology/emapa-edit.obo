@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 29:01:2020 10:09
+date: 29:01:2020 12:56
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -43638,7 +43638,7 @@ name: enamel organ
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32903 ! tooth epithelium
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:32889
@@ -68965,6 +68965,62 @@ namespace: anatomical_structure
 is_a: EMAPA:38078 ! cranial cartilage
 relationship: ends_at TS26 ! TS26
 relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:38080
+name: cervical loop
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32888 ! enamel organ
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38081
+name: stellate reticulum
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38080 ! cervical loop
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38082
+name: stratum intermedium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38080 ! cervical loop
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38083
+name: Hertwig's epithelial root sheath
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32888 ! enamel organ
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38084
+name: enamel epithelium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32888 ! enamel organ
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38085
+name: inner enamel epithelium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38084 ! enamel epithelium
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38086
+name: outer enamel epithelium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38084 ! enamel epithelium
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: group_term
