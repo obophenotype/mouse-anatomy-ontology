@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 21:01:2020 15:46
+date: 29:01:2020 10:09
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -48578,8 +48578,9 @@ id: EMAPA:35617
 name: optic tract
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16896 ! diencephalon
 relationship: part_of EMAPA:17575 ! optic nerve
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35618
