@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 29:01:2020 16:50
+date: 30:01:2020 09:15
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -69021,6 +69021,24 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:38084 ! enamel epithelium
 relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38087
+name: dental alveolus
+namespace: anatomical_structure
+synonym: "tooth alveolus" RELATED []
+synonym: "tooth socket" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35118 ! alveolar process
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:38088
+name: interalveolar bone
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35118 ! alveolar process
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: group_term
