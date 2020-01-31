@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 30:01:2020 09:15
+date: 31:01:2020 16:22
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -45643,7 +45643,7 @@ id: EMAPA:35252
 name: coronary vascular plexus
 namespace: anatomical_structure
 is_a: EMAPA:35904 ! vascular plexus
-relationship: ends_at TS20 ! TS20
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16105 ! heart
 relationship: starts_at TS20 ! TS20
 
