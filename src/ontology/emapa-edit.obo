@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 31:01:2020 16:22
+date: 05:02:2020 15:30
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -43795,7 +43795,7 @@ namespace: anatomical_structure
 synonym: "teeth" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32905 ! jaw
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:32907
@@ -57965,7 +57965,7 @@ namespace: anatomical_structure
 synonym: "bud stage tooth" RELATED []
 is_a: EMAPA:32906 ! tooth
 relationship: ends_at TS22 ! TS22
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:36741
@@ -57989,7 +57989,7 @@ name: early bell stage tooth
 namespace: anatomical_structure
 is_a: EMAPA:36742 ! bell stage tooth
 relationship: ends_at TS25 ! TS25
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:36744
@@ -69038,6 +69038,54 @@ name: interalveolar bone
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35118 ! alveolar process
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:38089
+name: early bud stage tooth
+namespace: anatomical_structure
+is_a: EMAPA:36740 ! tooth bud
+relationship: ends_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:38090
+name: late bud stage tooth
+namespace: anatomical_structure
+is_a: EMAPA:36740 ! tooth bud
+relationship: ends_at TS22 ! TS22
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38091
+name: enamel knot
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32906 ! tooth
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38092
+name: primary enamel knot
+namespace: anatomical_structure
+is_a: EMAPA:38091 ! enamel knot
+relationship: ends_at TS23 ! TS23
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38093
+name: secondary enamel knot
+namespace: anatomical_structure
+is_a: EMAPA:38091 ! enamel knot
+relationship: ends_at TS26 ! TS26
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:38094
+name: tertiary enamel knot
+namespace: anatomical_structure
+is_a: EMAPA:38091 ! enamel knot
+relationship: ends_at TS28 ! TS28
 relationship: starts_at TS27 ! TS27
 
 [Term]
