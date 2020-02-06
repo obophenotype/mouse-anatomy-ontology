@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 05:02:2020 15:30
+date: 06:02:2020 14:19
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -17649,6 +17649,7 @@ id: EMAPA:18278
 name: palatoglossus
 namespace: anatomical_structure
 alt_id: EMAPA:18883
+is_a: EMAPA:37929 ! palatal muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18275 ! tongue extrinsic muscle
 relationship: starts_at TS22 ! TS22
@@ -21154,7 +21155,7 @@ synonym: "definitive palate" RELATED []
 synonym: "secondary palate" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17924 ! upper jaw
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:18949
@@ -21162,7 +21163,7 @@ name: soft palate
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18948 ! palate
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:18950
@@ -21264,7 +21265,7 @@ name: superior pharyngeal constrictor muscle
 namespace: anatomical_structure
 is_a: EMAPA:18964 ! pharyngeal constrictor muscle
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:18967
@@ -67720,7 +67721,7 @@ name: palatal muscle
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18949 ! soft palate
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:37930
@@ -69085,6 +69086,31 @@ id: EMAPA:38094
 name: tertiary enamel knot
 namespace: anatomical_structure
 is_a: EMAPA:38091 ! enamel knot
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:38095
+name: tensor veli palatini
+namespace: anatomical_structure
+is_a: EMAPA:37929 ! palatal muscle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38096
+name: levator veli palatini
+namespace: anatomical_structure
+is_a: EMAPA:37929 ! palatal muscle
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38097
+name: palatopharyngeus
+namespace: anatomical_structure
+is_a: EMAPA:18963 ! pharynx skeletal muscle
+is_a: EMAPA:37929 ! palatal muscle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS27 ! TS27
 
