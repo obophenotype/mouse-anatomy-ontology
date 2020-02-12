@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2019-03-26
-date: 26:03:2019 10:15
+data-version: releases/2020-02-12
+date: 12:02:2020 17:02
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -67,6 +67,7 @@ namespace: anatomical_structure
 synonym: "2-cell embryo" RELATED []
 synonym: "two-cell embryo" RELATED []
 is_a: EMAPA:36032 ! early embryo
+relationship: develops_from EMAPA:16033 ! 1-cell stage embryo
 relationship: ends_at TS02 ! TS02
 relationship: part_of EMAPA:36042 ! 2-cell stage conceptus
 relationship: starts_at TS02 ! TS02
@@ -95,6 +96,7 @@ id: EMAPA:16040
 name: compacted morula
 namespace: anatomical_structure
 is_a: EMAPA:36032 ! early embryo
+relationship: develops_from EMAPA:31865 ! 8-cell stage embryo
 relationship: part_of EMAPA:36045 ! morula-stage conceptus
 relationship: starts_at TS03 ! TS03
 
@@ -1338,6 +1340,7 @@ id: EMAPA:16195
 name: otic placode
 namespace: anatomical_structure
 is_a: EMAPA:36754 ! neurogenic placode
+relationship: develops_from EMAPA:36764 ! otic pre-placode
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16194 ! inner ear
 
@@ -2189,6 +2192,7 @@ id: EMAPA:16325
 name: optic pit
 namespace: anatomical_structure
 synonym: "optic evagination" RELATED []
+relationship: develops_from EMAPA:36752 ! optic placode
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16198 ! eye
 relationship: starts_at TS13 ! TS13
@@ -2882,6 +2886,7 @@ id: EMAPA:16405
 name: limb
 namespace: anatomical_structure
 is_a: EMAPA:37283 ! appendage
+relationship: develops_from EMAPA:35944 ! limb bud
 
 [Term]
 id: EMAPA:16406
@@ -3653,6 +3658,7 @@ relationship: part_of EMAPA:16508 ! rhombomere 8
 id: EMAPA:16512
 name: prosencephalon
 namespace: anatomical_structure
+relationship: develops_from EMAPA:16144 ! future prosencephalon
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16089 ! future brain
 relationship: starts_at TS14 ! TS14
@@ -3757,6 +3763,7 @@ relationship: part_of EMAPA:16092 ! future spinal cord
 id: EMAPA:16536
 name: otic pit
 namespace: anatomical_structure
+relationship: develops_from EMAPA:16195 ! otic placode
 relationship: ends_at TS15 ! TS15
 relationship: part_of EMAPA:16194 ! inner ear
 relationship: starts_at TS14 ! TS14
@@ -3794,6 +3801,7 @@ relationship: starts_at TS13 ! TS13
 id: EMAPA:16540
 name: optic vesicle
 namespace: anatomical_structure
+relationship: develops_from EMAPA:16325 ! optic pit
 relationship: ends_at TS15 ! TS15
 relationship: part_of EMAPA:16198 ! eye
 relationship: starts_at TS14 ! TS14
@@ -3871,6 +3879,7 @@ relationship: starts_at TS14 ! TS14
 id: EMAPA:16549
 name: pharyngeal region
 namespace: anatomical_structure
+relationship: develops_from EMAPA:16248 ! foregut diverticulum
 relationship: ends_at TS14 ! TS14
 relationship: part_of EMAPA:16548 ! foregut
 relationship: starts_at TS14 ! TS14
@@ -4027,6 +4036,7 @@ alt_id: EMAPA:28429
 def: "The nephric duct (nd) (syn: mesonephric duct, Wolffian duct) (TS14-TS24). Paired epithelial ducts which develop early in development (TS14) in the cranial/anterior intermediate mesoderm and extend caudally down the rostro-caudal axis of the embryo to terminate at the cloaca. The nephric duct is subdivided along its anterior-posterior length, into the pronephric portion, mesonephric portion (part of the mesonephros) (located in mesonephros, anterior), metanephric portion (adjacent to the metanephros) and common nephric duct (posterior portion below the metanephros). These regions are stage-dependant, with the pronephric portion present at TS14 in the pronephros, the mesonpehric portion from TS15 in the mesonephros and posterior to these, the metanerphric portion from TS17. The regions are part of either the urinary or reproductive system. After the urogenital sinus extends from the cloaca, the nephric duct connects to the dorsal side of the caudal urogenital sinus at the urogenital sinus ridge. The ducts are marked by Cdh1 and Hoxb7. As the ontology becomes gender-specific, the nephric duct becomes the nephric duct of male/female (from TS20)." [PMID:25968320]
 synonym: "mesonephric duct" RELATED []
 synonym: "Wolffian duct" RELATED []
+relationship: develops_from EMAPA:16369 ! presumptive nephric duct
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:16367 ! genitourinary system
 relationship: starts_at TS14 ! TS14
@@ -4167,8 +4177,8 @@ relationship: part_of EMAPA:16139 ! peritoneum
 id: EMAPA:16593
 name: hindlimb ridge
 namespace: anatomical_structure
+is_a: EMAPA:38098 ! limb primordium
 relationship: ends_at TS15 ! TS15
-relationship: part_of EMAPA:16405 ! limb
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -4555,6 +4565,7 @@ id: EMAPA:16640
 name: future forebrain
 namespace: anatomical_structure
 synonym: "prosencephalon" RELATED []
+relationship: develops_from EMAPA:16512 ! prosencephalon
 relationship: ends_at TS16 ! TS16
 relationship: part_of EMAPA:16089 ! future brain
 relationship: starts_at TS15 ! TS15
@@ -4692,6 +4703,7 @@ id: EMAPA:16669
 name: otocyst
 namespace: anatomical_structure
 synonym: "otic vesicle" RELATED []
+relationship: develops_from EMAPA:16536 ! otic pit
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16194 ! inner ear
 relationship: starts_at TS15 ! TS15
@@ -4720,6 +4732,7 @@ name: lens placode
 namespace: anatomical_structure
 is_a: EMAPA:36751 ! cranial placode
 is_a: EMAPA:36760 ! non-neurogenic placode
+relationship: develops_from EMAPA:36766 ! lens pre-placode
 relationship: part_of EMAPA:16198 ! eye
 relationship: starts_at TS14 ! TS14
 
@@ -5068,6 +5081,7 @@ name: gallbladder primordium
 namespace: anatomical_structure
 alt_id: EMAPA:16842
 synonym: "cystic primordium" RELATED []
+relationship: develops_from EMAPA:16561 ! biliary bud
 relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16561 ! biliary bud
 relationship: part_of EMAPA:16840 ! liver and biliary system
@@ -5086,6 +5100,7 @@ id: EMAPA:16715
 name: hindgut
 namespace: anatomical_structure
 alt_id: EMAPA:17900
+relationship: develops_from EMAPA:36702 ! primitive hindgut
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16247 ! gut
 relationship: starts_at TS15 ! TS15
@@ -5174,6 +5189,7 @@ id: EMAPA:16724
 name: future adenohypophysis
 namespace: anatomical_structure
 alt_id: EMAPA:16573
+relationship: develops_from EMAPA:36753 ! adenohypophyseal placode
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16262 ! oral region
 relationship: part_of EMAPA:32796 ! future pituitary
@@ -5369,6 +5385,7 @@ id: EMAPA:16748
 name: tail
 namespace: anatomical_structure
 is_a: EMAPA:37283 ! appendage
+relationship: develops_from EMAPA:16580 ! tail bud
 relationship: starts_at TS15 ! TS15
 
 [Term]
@@ -5625,6 +5642,7 @@ name: forelimb bud apical ectodermal ridge
 namespace: anatomical_structure
 synonym: "forelimb bud AER" RELATED []
 is_a: EMAPA:32744 ! apical ectodermal ridge
+relationship: develops_from EMAPA:32776 ! forelimb bud presumptive apical ectodermal ridge
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16407 ! forelimb bud ectoderm
 
@@ -5633,6 +5651,7 @@ id: EMAPA:16779
 name: hindlimb bud
 namespace: anatomical_structure
 is_a: EMAPA:35944 ! limb bud
+relationship: develops_from EMAPA:16593 ! hindlimb ridge
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -5747,7 +5766,8 @@ name: facio-acoustic ganglion complex
 namespace: anatomical_structure
 synonym: "facio-acoustic VII-VIII ganglion complex" RELATED []
 is_a: EMAPA:16659 ! cranial ganglion
-relationship: ends_at TS16 ! TS16
+relationship: develops_from EMAPA:16660 ! facio-acoustic preganglion complex
+relationship: ends_at TS17 ! TS17
 
 [Term]
 id: EMAPA:16795
@@ -5755,6 +5775,7 @@ name: glossopharyngeal ganglion
 namespace: anatomical_structure
 synonym: "glossopharyngeal IX ganglion" RELATED []
 is_a: EMAPA:16659 ! cranial ganglion
+relationship: develops_from EMAPA:16661 ! glossopharyngeal preganglion
 
 [Term]
 id: EMAPA:16796
@@ -5762,6 +5783,7 @@ name: glossopharyngeal-vagus ganglion complex
 namespace: anatomical_structure
 synonym: "glossopharyngeal-vagus IX-X ganglion complex" RELATED []
 is_a: EMAPA:16659 ! cranial ganglion
+relationship: develops_from EMAPA:16662 ! glossopharyngeal-vagus preganglion complex
 relationship: ends_at TS16 ! TS16
 
 [Term]
@@ -5776,6 +5798,7 @@ synonym: "Gasserian ganglion" RELATED []
 synonym: "semilunar ganglion" RELATED []
 synonym: "trigeminal V ganglion" RELATED []
 is_a: EMAPA:16659 ! cranial ganglion
+relationship: develops_from EMAPA:16663 ! trigeminal preganglion
 
 [Term]
 id: EMAPA:16798
@@ -5784,11 +5807,13 @@ namespace: anatomical_structure
 synonym: "vagal ganglion" RELATED []
 synonym: "vagus X ganglion" RELATED []
 is_a: EMAPA:16659 ! cranial ganglion
+relationship: develops_from EMAPA:16664 ! vagus preganglion
 
 [Term]
 id: EMAPA:16799
 name: lens pit
 namespace: anatomical_structure
+relationship: develops_from EMAPA:16672 ! lens placode
 relationship: ends_at TS18 ! TS18
 relationship: part_of EMAPA:16198 ! eye
 relationship: starts_at TS16 ! TS16
@@ -6077,6 +6102,7 @@ name: esophagus
 namespace: anatomical_structure
 alt_id: EMAPA:18860
 synonym: "oesophagus" RELATED []
+relationship: develops_from EMAPA:16700 ! esophageal region
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16548 ! foregut
 relationship: starts_at TS16 ! TS16
@@ -6172,6 +6198,7 @@ id: EMAPA:16846
 name: liver
 namespace: anatomical_structure
 is_a: EMAPA:35949 ! organ
+relationship: develops_from EMAPA:16847 ! hepatic primordium
 relationship: part_of EMAPA:16840 ! liver and biliary system
 relationship: starts_at TS16 ! TS16
 
@@ -6583,6 +6610,7 @@ id: EMAPA:16894
 name: brain
 namespace: anatomical_structure
 is_a: EMAPA:35949 ! organ
+relationship: develops_from EMAPA:16089 ! future brain
 relationship: part_of EMAPA:16470 ! central nervous system
 relationship: part_of EMAPA:31858 ! head
 relationship: starts_at TS17 ! TS17
@@ -6592,6 +6620,7 @@ id: EMAPA:16895
 name: forebrain
 namespace: anatomical_structure
 synonym: "prosencephalon" RELATED []
+relationship: develops_from EMAPA:16640 ! future forebrain
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16894 ! brain
 relationship: starts_at TS17 ! TS17
@@ -6601,6 +6630,7 @@ id: EMAPA:16896
 name: diencephalon
 namespace: anatomical_structure
 alt_id: EMAPA:16641
+relationship: develops_from EMAPA:16514 ! future diencephalon
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16640 ! future forebrain
 relationship: part_of EMAPA:16895 ! forebrain
@@ -6724,6 +6754,7 @@ name: telencephalon
 namespace: anatomical_structure
 alt_id: EMAPA:16652
 synonym: "cerebrum" RELATED []
+relationship: develops_from EMAPA:36024 ! future telencephalon
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16640 ! future forebrain
 relationship: part_of EMAPA:16895 ! forebrain
@@ -6779,6 +6810,7 @@ id: EMAPA:16916
 name: hindbrain
 namespace: anatomical_structure
 synonym: "rhombencephalon" RELATED []
+relationship: develops_from EMAPA:16148 ! future hindbrain
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16894 ! brain
 relationship: starts_at TS17 ! TS17
@@ -6929,6 +6961,7 @@ id: EMAPA:16974
 name: midbrain
 namespace: anatomical_structure
 synonym: "mesencephalon" RELATED []
+relationship: develops_from EMAPA:16140 ! future midbrain
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16894 ! brain
 relationship: starts_at TS17 ! TS17
@@ -7160,6 +7193,7 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:17002
 name: tubotympanic recess
 namespace: anatomical_structure
+relationship: develops_from EMAPA:16124 ! 1st branchial pouch
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17000 ! middle ear
 relationship: starts_at TS17 ! TS17
@@ -7674,6 +7708,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18827
 is_a: EMAPA:18815 ! gut gland
 is_a: EMAPA:35999 ! endocrine gland
+relationship: develops_from EMAPA:16361 ! thyroid primordium
 relationship: part_of EMAPA:16557 ! foregut gland
 relationship: starts_at TS18 ! TS18
 
@@ -7967,6 +8002,7 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:17163
 name: lens vesicle
 namespace: anatomical_structure
+relationship: develops_from EMAPA:16799 ! lens pit
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16198 ! eye
 relationship: starts_at TS17 ! TS17
@@ -8261,6 +8297,7 @@ id: EMAPA:17202
 name: gallbladder
 namespace: anatomical_structure
 synonym: "gall bladder" RELATED []
+relationship: develops_from EMAPA:16713 ! gallbladder primordium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16840 ! liver and biliary system
 relationship: starts_at TS18 ! TS18
@@ -8985,6 +9022,7 @@ id: EMAPA:17300
 name: superior semicircular canal mesenchyme
 namespace: anatomical_structure
 is_a: EMAPA:32829 ! semicircular canal mesenchyme
+relationship: develops_from EMAPA:16685 ! 1st arch artery
 relationship: part_of EMAPA:17299 ! superior semicircular canal
 
 [Term]
@@ -9095,6 +9133,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17315
 name: left atrium
 namespace: anatomical_structure
+relationship: develops_from EMAPA:16813 ! common atrial chamber left part
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16688 ! heart atrium
 relationship: starts_at TS19 ! TS19
@@ -9144,6 +9183,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17321
 name: right atrium
 namespace: anatomical_structure
+relationship: develops_from EMAPA:16820 ! common atrial chamber right part
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16688 ! heart atrium
 relationship: starts_at TS19 ! TS19
@@ -9227,6 +9267,7 @@ id: EMAPA:17331
 name: heart ventricle
 namespace: anatomical_structure
 synonym: "cardiac ventricle" RELATED []
+relationship: develops_from EMAPA:16350 ! primitive ventricle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16105 ! heart
 relationship: starts_at TS19 ! TS19
@@ -9573,6 +9614,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:17383
 name: gonad
 namespace: anatomical_structure
+relationship: develops_from EMAPA:16857 ! gonad primordium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17381 ! reproductive system
 relationship: starts_at TS19 ! TS19
@@ -9642,6 +9684,7 @@ id: EMAPA:17392
 name: cervical vertebral cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32669 ! vertebral cartilage condensation
+relationship: develops_from EMAPA:17216 ! cervical vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17215 ! axial skeleton cervical region
 
@@ -9808,12 +9851,14 @@ id: EMAPA:17412
 name: forelimb
 namespace: anatomical_structure
 is_a: EMAPA:16405 ! limb
+relationship: develops_from EMAPA:16406 ! forelimb bud
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17413
 name: arm
 namespace: anatomical_structure
+relationship: develops_from EMAPA:17242 ! future arm
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17412 ! forelimb
 relationship: starts_at TS20 ! TS20
@@ -10169,6 +10214,7 @@ id: EMAPA:17458
 name: hindlimb
 namespace: anatomical_structure
 is_a: EMAPA:16405 ! limb
+relationship: develops_from EMAPA:16779 ! hindlimb bud
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -10413,6 +10459,7 @@ relationship: part_of EMAPA:17459 ! foot
 id: EMAPA:17489
 name: leg
 namespace: anatomical_structure
+relationship: develops_from EMAPA:17253 ! future leg
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17458 ! hindlimb
 relationship: starts_at TS20 ! TS20
@@ -10519,6 +10566,7 @@ name: pancreas
 namespace: anatomical_structure
 alt_id: EMAPA:18816
 is_a: EMAPA:17065 ! foregut-midgut junction gland
+relationship: develops_from EMAPA:17066 ! pancreas primordium
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -10629,6 +10677,7 @@ namespace: anatomical_structure
 synonym: "anterior lobe of pituitary" RELATED []
 synonym: "anterior pituitary" RELATED []
 synonym: "pituitary anterior lobe" RELATED []
+relationship: develops_from EMAPA:16724 ! future adenohypophysis
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35998 ! pituitary gland
 relationship: starts_at TS20 ! TS20
@@ -10662,6 +10711,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17518
 name: remnant of Rathke's pouch
 namespace: anatomical_structure
+relationship: develops_from EMAPA:16725 ! Rathke's pouch
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17514 ! adenohypophysis
 relationship: starts_at TS20 ! TS20
@@ -10670,6 +10720,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17519
 name: neurohypophysis
 namespace: anatomical_structure
+relationship: develops_from EMAPA:16647 ! future neurohypophysis
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35998 ! pituitary gland
 relationship: starts_at TS20 ! TS20
@@ -11146,6 +11197,7 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:17577
 name: spinal cord
 namespace: anatomical_structure
+relationship: develops_from EMAPA:16092 ! future spinal cord
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16470 ! central nervous system
 relationship: starts_at TS20 ! TS20
@@ -11512,6 +11564,7 @@ name: hyoid cartilage condensation
 namespace: anatomical_structure
 alt_id: EMAPA:18283
 is_a: EMAPA:32731 ! cartilage condensation
+relationship: develops_from EMAPA:17351 ! hyoid pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:36065 ! hyoid cartilage primordium
 relationship: starts_at TS20 ! TS20
@@ -11634,6 +11687,7 @@ name: Meckel's cartilage
 namespace: anatomical_structure
 alt_id: EMAPA:17907
 is_a: EMAPA:35978 ! sensory organ cartilage
+relationship: develops_from EMAPA:17358 ! Meckel's cartilage pre-cartilage condensation
 relationship: part_of EMAPA:17355 ! mandibular process
 relationship: part_of EMAPA:17906 ! lower jaw
 
@@ -11669,6 +11723,7 @@ name: maxilla
 namespace: anatomical_structure
 alt_id: EMAPA:17928
 is_a: EMAPA:35453 ! jaw bone
+relationship: develops_from EMAPA:17360 ! maxilla primordium
 relationship: part_of EMAPA:17638 ! maxillary process skeleton
 relationship: part_of EMAPA:17927 ! upper jaw skeleton
 
@@ -11736,6 +11791,7 @@ id: EMAPA:17652
 name: arytenoid swelling cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32731 ! cartilage condensation
+relationship: develops_from EMAPA:17387 ! arytenoid swelling pre-cartilage condensation
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16727 ! respiratory system
 relationship: starts_at TS20 ! TS20
@@ -11916,6 +11972,7 @@ id: EMAPA:17674
 name: cervical vertebra
 namespace: anatomical_structure
 is_a: EMAPA:32740 ! vertebra
+relationship: develops_from EMAPA:17392 ! cervical vertebral cartilage condensation
 relationship: part_of EMAPA:17215 ! axial skeleton cervical region
 
 [Term]
@@ -11923,6 +11980,7 @@ id: EMAPA:17675
 name: lumbar vertebral cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32669 ! vertebral cartilage condensation
+relationship: develops_from EMAPA:17394 ! lumbar vertebral pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17393 ! axial skeleton lumbar region
 relationship: starts_at TS19 ! TS19
@@ -11949,6 +12007,7 @@ id: EMAPA:17678
 name: rib cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:35980 ! pectoral-thoracic cartilage condensation
+relationship: develops_from EMAPA:17397 ! rib pre-cartilage condensation
 relationship: part_of EMAPA:17396 ! axial skeleton thoracic region
 
 [Term]
@@ -11956,6 +12015,7 @@ id: EMAPA:17679
 name: thoracic vertebral cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32669 ! vertebral cartilage condensation
+relationship: develops_from EMAPA:17398 ! thoracic vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17396 ! axial skeleton thoracic region
 relationship: starts_at TS18 ! TS18
@@ -11966,6 +12026,7 @@ name: cranium
 namespace: anatomical_structure
 synonym: "skull" RELATED []
 is_a: EMAPA:37245 ! craniocervical region bone
+relationship: develops_from EMAPA:36062 ! cranium bone primordium
 relationship: part_of EMAPA:31858 ! head
 
 [Term]
@@ -12141,6 +12202,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17701
 name: diaphragm
 namespace: anatomical_structure
+relationship: develops_from EMAPA:25035 ! future central tendon
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16088 ! intraembryonic coelom
 relationship: starts_at TS20 ! TS20
@@ -12150,9 +12212,9 @@ id: EMAPA:17702
 name: diaphragm central tendon
 namespace: anatomical_structure
 synonym: "central tendon" RELATED []
+is_a: EMAPA:35854 ! tendon
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17701 ! diaphragm
-relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17703
@@ -12219,9 +12281,8 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17710
 name: elbow joint primordium
 namespace: anatomical_structure
-relationship: ends_at TS23 ! TS23
+is_a: EMAPA:38061 ! forelimb joint primordium
 relationship: part_of EMAPA:17416 ! elbow mesenchyme
-relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:17711
@@ -12229,6 +12290,7 @@ name: radius-ulna cartilage condensation
 namespace: anatomical_structure
 synonym: "radio-ulna cartilage condensation" RELATED []
 is_a: EMAPA:32626 ! forelimb cartilage condensation
+relationship: develops_from EMAPA:17420 ! radius-ulna pre-cartilage condensation
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17419 ! forearm mesenchyme
 
@@ -12246,6 +12308,7 @@ name: humerus cartilage condensation
 namespace: anatomical_structure
 synonym: "humeral cartilage condensation" RELATED []
 is_a: EMAPA:32626 ! forelimb cartilage condensation
+relationship: develops_from EMAPA:17427 ! humerus pre-cartilage condensation
 relationship: part_of EMAPA:17426 ! upper arm mesenchyme
 
 [Term]
@@ -12440,9 +12503,8 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17740
 name: knee joint primordium
 namespace: anatomical_structure
-relationship: ends_at TS23 ! TS23
+is_a: EMAPA:38062 ! hindlimb joint primordium
 relationship: part_of EMAPA:17495 ! knee mesenchyme
-relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:17741
@@ -12459,6 +12521,7 @@ name: femur cartilage condensation
 namespace: anatomical_structure
 synonym: "femoral cartilage condensation" RELATED []
 is_a: EMAPA:32632 ! hindlimb cartilage condensation
+relationship: develops_from EMAPA:17502 ! femur pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17501 ! upper leg mesenchyme
 
@@ -12811,6 +12874,7 @@ relationship: part_of EMAPA:17783 ! hindbrain meninges
 id: EMAPA:17787
 name: cerebellum
 namespace: anatomical_structure
+relationship: develops_from EMAPA:17074 ! cerebellum primordium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17073 ! metencephalon alar plate
 relationship: starts_at TS21 ! TS21
@@ -13074,6 +13138,7 @@ id: EMAPA:17824
 name: ossicle
 namespace: anatomical_structure
 is_a: EMAPA:35996 ! head bone
+relationship: develops_from EMAPA:35979 ! ossicle cartilage condensation
 relationship: part_of EMAPA:17000 ! middle ear
 relationship: starts_at TS21 ! TS21
 
@@ -13176,6 +13241,7 @@ relationship: part_of EMAPA:37805 ! vitreous chamber
 id: EMAPA:17838
 name: lens
 namespace: anatomical_structure
+relationship: develops_from EMAPA:17163 ! lens vesicle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36594 ! eye anterior segment
 relationship: starts_at TS21 ! TS21
@@ -13235,8 +13301,8 @@ id: EMAPA:17845
 name: extrinsic ocular pre-muscle mass
 namespace: anatomical_structure
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:17844 ! eye skeletal muscle
-relationship: starts_at TS21 ! TS21
+relationship: part_of EMAPA:16198 ! eye
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:17847
@@ -13308,6 +13374,7 @@ name: common carotid artery
 namespace: anatomical_structure
 alt_id: EMAPA:18610
 is_a: EMAPA:18609 ! carotid artery
+relationship: develops_from EMAPA:16687 ! 3rd arch artery
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -13406,6 +13473,7 @@ id: EMAPA:17869
 name: heart valve
 namespace: anatomical_structure
 synonym: "cardiac valve" RELATED []
+relationship: develops_from EMAPA:36707 ! heart valve primordium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16105 ! heart
 relationship: starts_at TS21 ! TS21
@@ -13627,6 +13695,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17906
 name: lower jaw
 namespace: anatomical_structure
+relationship: develops_from EMAPA:38027 ! lower jaw primordium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32905 ! jaw
 relationship: starts_at TS21 ! TS21
@@ -13668,6 +13737,7 @@ name: lower jaw tooth
 namespace: anatomical_structure
 is_a: EMAPA:32906 ! tooth
 relationship: part_of EMAPA:17906 ! lower jaw
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:17918
@@ -13719,6 +13789,7 @@ relationship: part_of EMAPA:17921 ! lower jaw molar
 id: EMAPA:17924
 name: upper jaw
 namespace: anatomical_structure
+relationship: develops_from EMAPA:38026 ! upper jaw primordium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32905 ! jaw
 relationship: starts_at TS21 ! TS21
@@ -13766,6 +13837,7 @@ name: upper jaw tooth
 namespace: anatomical_structure
 is_a: EMAPA:32906 ! tooth
 relationship: part_of EMAPA:17924 ! upper jaw
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:17939
@@ -13835,6 +13907,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17950
 name: ureter
 namespace: anatomical_structure
+relationship: develops_from EMAPA:17209 ! ureteric bud
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS20 ! TS20
@@ -14170,6 +14243,7 @@ id: EMAPA:18007
 name: lumbar vertebra
 namespace: anatomical_structure
 is_a: EMAPA:32740 ! vertebra
+relationship: develops_from EMAPA:17675 ! lumbar vertebral cartilage condensation
 relationship: part_of EMAPA:17393 ! axial skeleton lumbar region
 relationship: starts_at TS23 ! TS23
 
@@ -14186,6 +14260,7 @@ id: EMAPA:18009
 name: sacral vertebral cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32669 ! vertebral cartilage condensation
+relationship: develops_from EMAPA:17677 ! sacral vertebral pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17676 ! axial skeleton sacral region
 relationship: starts_at TS20 ! TS20
@@ -14204,6 +14279,7 @@ id: EMAPA:18011
 name: thoracic vertebra
 namespace: anatomical_structure
 is_a: EMAPA:32740 ! vertebra
+relationship: develops_from EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: part_of EMAPA:17396 ! axial skeleton thoracic region
 relationship: starts_at TS23 ! TS23
 
@@ -14463,6 +14539,7 @@ id: EMAPA:18044
 name: tail vertebral cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32669 ! vertebral cartilage condensation
+relationship: develops_from EMAPA:18045 ! tail vertebral pre-cartilage condensation
 relationship: part_of EMAPA:18043 ! axial skeleton tail region
 relationship: starts_at TS21 ! TS21
 
@@ -14478,6 +14555,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:18046
 name: diaphragm dome
 namespace: anatomical_structure
+relationship: develops_from EMAPA:25041 ! future dome
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17701 ! diaphragm
 relationship: starts_at TS21 ! TS21
@@ -14635,6 +14713,7 @@ id: EMAPA:18065
 name: forelimb digit 1 metacarpus cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32849 ! metacarpus cartilage condensation
+relationship: develops_from EMAPA:17714 ! forelimb digit 1 metacarpus pre-cartilage condensation
 relationship: part_of EMAPA:17431 ! forelimb digit 1 mesenchyme
 
 [Term]
@@ -14642,6 +14721,7 @@ id: EMAPA:18066
 name: forelimb digit 1 phalanx cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32658 ! forelimb phalanx cartilage condensation
+relationship: develops_from EMAPA:17745 ! anterior abdominal wall muscle
 relationship: part_of EMAPA:17431 ! forelimb digit 1 mesenchyme
 
 [Term]
@@ -14676,6 +14756,7 @@ id: EMAPA:18070
 name: forelimb digit 2 metacarpus cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32849 ! metacarpus cartilage condensation
+relationship: develops_from EMAPA:17716 ! forelimb digit 2 metacarpus pre-cartilage condensation
 relationship: part_of EMAPA:17434 ! forelimb digit 2 mesenchyme
 
 [Term]
@@ -14683,6 +14764,7 @@ id: EMAPA:18071
 name: forelimb digit 2 phalanx cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32658 ! forelimb phalanx cartilage condensation
+relationship: develops_from EMAPA:17717 ! forelimb digit 2 phalanx pre-cartilage condensation
 relationship: part_of EMAPA:17434 ! forelimb digit 2 mesenchyme
 
 [Term]
@@ -14717,6 +14799,7 @@ id: EMAPA:18075
 name: forelimb digit 3 metacarpus cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32849 ! metacarpus cartilage condensation
+relationship: develops_from EMAPA:17718 ! forelimb digit 3 metacarpus pre-cartilage condensation
 relationship: part_of EMAPA:17437 ! forelimb digit 3 mesenchyme
 
 [Term]
@@ -14724,6 +14807,7 @@ id: EMAPA:18076
 name: forelimb digit 3 phalanx cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32658 ! forelimb phalanx cartilage condensation
+relationship: develops_from EMAPA:17719 ! forelimb digit 3 phalanx pre-cartilage condensation
 relationship: part_of EMAPA:17437 ! forelimb digit 3 mesenchyme
 
 [Term]
@@ -14758,6 +14842,7 @@ id: EMAPA:18080
 name: forelimb digit 4 metacarpus cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32849 ! metacarpus cartilage condensation
+relationship: develops_from EMAPA:17720 ! forelimb digit 4 metacarpus pre-cartilage condensation
 relationship: part_of EMAPA:17440 ! forelimb digit 4 mesenchyme
 
 [Term]
@@ -14765,6 +14850,7 @@ id: EMAPA:18081
 name: forelimb digit 4 phalanx cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32658 ! forelimb phalanx cartilage condensation
+relationship: develops_from EMAPA:17721 ! forelimb digit 4 phalanx pre-cartilage condensation
 relationship: part_of EMAPA:17440 ! forelimb digit 4 mesenchyme
 
 [Term]
@@ -14799,6 +14885,7 @@ id: EMAPA:18085
 name: forelimb digit 5 metacarpus cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32849 ! metacarpus cartilage condensation
+relationship: develops_from EMAPA:17722 ! forelimb digit 5 metacarpus pre-cartilage condensation
 relationship: part_of EMAPA:17443 ! forelimb digit 5 mesenchyme
 
 [Term]
@@ -14806,6 +14893,7 @@ id: EMAPA:18086
 name: forelimb digit 5 phalanx cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32658 ! forelimb phalanx cartilage condensation
+relationship: develops_from EMAPA:17723 ! forelimb digit 5 phalanx pre-cartilage condensation
 relationship: part_of EMAPA:17443 ! forelimb digit 5 mesenchyme
 
 [Term]
@@ -14949,6 +15037,7 @@ name: carpus cartilage condensation
 namespace: anatomical_structure
 synonym: "carpal cartilage condensation" RELATED []
 is_a: EMAPA:32631 ! hand cartilage condensation
+relationship: develops_from EMAPA:17724 ! carpus pre-cartilage condensation
 
 [Term]
 id: EMAPA:18103
@@ -14981,6 +15070,7 @@ id: EMAPA:18106
 name: hindlimb digit 1 metatarsus cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32951 ! metatarsus cartilage condensation
+relationship: develops_from EMAPA:17725 ! hindlimb digit 1 metatarsus pre-cartilage condensation
 relationship: part_of EMAPA:17462 ! hindlimb digit 1 mesenchyme
 
 [Term]
@@ -14988,6 +15078,7 @@ id: EMAPA:18107
 name: hindlimb digit 1 phalanx cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32948 ! hindlimb phalanx cartilage condensation
+relationship: develops_from EMAPA:17726 ! hindlimb digit 1 phalanx pre-cartilage condensation
 relationship: part_of EMAPA:17462 ! hindlimb digit 1 mesenchyme
 
 [Term]
@@ -15022,6 +15113,7 @@ id: EMAPA:18111
 name: hindlimb digit 2 metatarsus cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32951 ! metatarsus cartilage condensation
+relationship: develops_from EMAPA:17727 ! hindlimb digit 2 metatarsus pre-cartilage condensation
 relationship: part_of EMAPA:17465 ! hindlimb digit 2 mesenchyme
 
 [Term]
@@ -15029,6 +15121,7 @@ id: EMAPA:18112
 name: hindlimb digit 2 phalanx cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32948 ! hindlimb phalanx cartilage condensation
+relationship: develops_from EMAPA:17728 ! hindlimb digit 2 phalanx pre-cartilage condensation
 relationship: part_of EMAPA:17465 ! hindlimb digit 2 mesenchyme
 
 [Term]
@@ -15063,6 +15156,7 @@ id: EMAPA:18116
 name: hindlimb digit 3 metatarsus cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32951 ! metatarsus cartilage condensation
+relationship: develops_from EMAPA:17729 ! hindlimb digit 3 metatarsus pre-cartilage condensation
 relationship: part_of EMAPA:17468 ! hindlimb digit 3 mesenchyme
 
 [Term]
@@ -15070,6 +15164,7 @@ id: EMAPA:18117
 name: hindlimb digit 3 phalanx cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32948 ! hindlimb phalanx cartilage condensation
+relationship: develops_from EMAPA:17730 ! hindlimb digit 3 phalanx pre-cartilage condensation
 relationship: part_of EMAPA:17468 ! hindlimb digit 3 mesenchyme
 
 [Term]
@@ -15104,6 +15199,7 @@ id: EMAPA:18121
 name: hindlimb digit 4 metatarsus cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32951 ! metatarsus cartilage condensation
+relationship: develops_from EMAPA:17731 ! hindlimb digit 4 metatarsus pre-cartilage condensation
 relationship: part_of EMAPA:17471 ! hindlimb digit 4 mesenchyme
 
 [Term]
@@ -15111,6 +15207,7 @@ id: EMAPA:18122
 name: hindlimb digit 4 phalanx cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32948 ! hindlimb phalanx cartilage condensation
+relationship: develops_from EMAPA:17732 ! hindlimb digit 4 phalanx pre-cartilage condensation
 relationship: part_of EMAPA:17471 ! hindlimb digit 4 mesenchyme
 
 [Term]
@@ -15145,6 +15242,7 @@ id: EMAPA:18126
 name: hindlimb digit 5 metatarsus cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32951 ! metatarsus cartilage condensation
+relationship: develops_from EMAPA:17733 ! hindlimb digit 5 metatarsus pre-cartilage condensation
 relationship: part_of EMAPA:17474 ! hindlimb digit 5 mesenchyme
 
 [Term]
@@ -15152,6 +15250,7 @@ id: EMAPA:18127
 name: hindlimb digit 5 phalanx cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32948 ! hindlimb phalanx cartilage condensation
+relationship: develops_from EMAPA:17734 ! hindlimb digit 5 phalanx pre-cartilage condensation
 relationship: part_of EMAPA:17474 ! hindlimb digit 5 mesenchyme
 
 [Term]
@@ -15294,6 +15393,7 @@ id: EMAPA:18143
 name: calcaneum cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32657 ! foot cartilage condensation
+relationship: develops_from EMAPA:17736 ! calcaneum pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17735 ! future tarsus
 
@@ -15302,6 +15402,7 @@ id: EMAPA:18144
 name: talus cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32657 ! foot cartilage condensation
+relationship: develops_from EMAPA:17738 ! talus pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17735 ! future tarsus
 
@@ -15456,14 +15557,12 @@ id: EMAPA:18162
 name: external oblique muscle
 namespace: anatomical_structure
 is_a: EMAPA:35603 ! oblique abdominal muscle
-relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:18163
 name: internal oblique muscle
 namespace: anatomical_structure
 is_a: EMAPA:35603 ! oblique abdominal muscle
-relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:18164
@@ -15487,7 +15586,7 @@ name: axial musculature
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17743 ! vertebral axis musculature
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:18167
@@ -15688,6 +15787,7 @@ name: caudate nucleus
 namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: part_of EMAPA:19095 ! caudate-putamen
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:18208
@@ -15695,6 +15795,7 @@ name: lentiform nucleus
 namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: part_of EMAPA:36576 ! ventral striatum
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:18210
@@ -15835,6 +15936,7 @@ id: EMAPA:18228
 name: incus cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:35979 ! ossicle cartilage condensation
+relationship: develops_from EMAPA:17825 ! incus pre-cartilage condensation
 
 [Term]
 id: EMAPA:18229
@@ -15847,6 +15949,7 @@ id: EMAPA:18230
 name: stapes cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:35979 ! ossicle cartilage condensation
+relationship: develops_from EMAPA:17827 ! stapes pre-cartilage condensation
 
 [Term]
 id: EMAPA:18231
@@ -15877,6 +15980,7 @@ name: extrinsic ocular muscle
 namespace: anatomical_structure
 alt_id: EMAPA:35333
 synonym: "extraocular muscle" RELATED []
+relationship: develops_from EMAPA:17845 ! extrinsic ocular pre-muscle mass
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17844 ! eye skeletal muscle
 relationship: starts_at TS22 ! TS22
@@ -16228,7 +16332,7 @@ id: EMAPA:18278
 name: palatoglossus
 namespace: anatomical_structure
 alt_id: EMAPA:18883
-relationship: ends_at TS28 ! TS28
+is_a: EMAPA:37929 ! palatal muscle
 relationship: part_of EMAPA:18275 ! tongue extrinsic muscle
 relationship: starts_at TS22 ! TS22
 
@@ -16310,6 +16414,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:18289
 name: epiglottis
 namespace: anatomical_structure
+relationship: develops_from EMAPA:17354 ! epiglottal primordium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16262 ! oral region
 relationship: starts_at TS22 ! TS22
@@ -16319,6 +16424,7 @@ id: EMAPA:18290
 name: mandible
 namespace: anatomical_structure
 is_a: EMAPA:35453 ! jaw bone
+relationship: develops_from EMAPA:17356 ! mandible primordium
 relationship: part_of EMAPA:17910 ! lower jaw skeleton
 relationship: starts_at TS21 ! TS21
 
@@ -16573,6 +16679,7 @@ id: EMAPA:18321
 name: bladder
 namespace: anatomical_structure
 def: "The bladder (BL) (TS22-TS28) is comprised of urothelium of bladder (subdivided into layers and cell types), lamina propria of bladder (subdivided into layers), detrusor muscle of bladder and surrounded by an outer layer of bladder (subdivided into serosa of bladder or adventitia of bladder). Also includes vasculature of bladder and nerve of bladder. Derived from primitive bladder (TS19-21). Bladder is also subdivided into regions; bladder fundus and bladder neck (subdivided into bladder trigone and ventral bladder neck). Part of the urogenital sinus and part of the urinary system." [PMID:25968320]
+relationship: develops_from EMAPA:30870 ! primitive bladder
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17379 ! urogenital sinus
 relationship: part_of EMAPA:36670 ! lower urinary tract
@@ -16652,6 +16759,7 @@ id: EMAPA:18336
 name: sacral vertebra
 namespace: anatomical_structure
 is_a: EMAPA:32740 ! vertebra
+relationship: develops_from EMAPA:18009 ! sacral vertebral cartilage condensation
 relationship: part_of EMAPA:17676 ! axial skeleton sacral region
 relationship: starts_at TS24 ! TS24
 
@@ -16660,6 +16768,7 @@ id: EMAPA:18337
 name: basioccipital cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32802 ! chondrocranium cartilage condensation
+relationship: develops_from EMAPA:18012 ! basioccipital pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 
 [Term]
@@ -16667,6 +16776,7 @@ id: EMAPA:18338
 name: basisphenoid cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32802 ! chondrocranium cartilage condensation
+relationship: develops_from EMAPA:18013 ! basisphenoid pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 
 [Term]
@@ -16674,6 +16784,7 @@ id: EMAPA:18339
 name: exoccipital cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32802 ! chondrocranium cartilage condensation
+relationship: develops_from EMAPA:18014 ! exoccipital pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 
 [Term]
@@ -16695,6 +16806,7 @@ id: EMAPA:18342
 name: clavicle cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:35980 ! pectoral-thoracic cartilage condensation
+relationship: develops_from EMAPA:18026 ! clavicle pre-cartilage condensation
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -16702,6 +16814,7 @@ id: EMAPA:18343
 name: scapula cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:35980 ! pectoral-thoracic cartilage condensation
+relationship: develops_from EMAPA:18027 ! scapula pre-cartilage condensation
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -16734,6 +16847,7 @@ name: ilium cartilage condensation
 namespace: anatomical_structure
 synonym: "iliac cartilage condensation" RELATED []
 is_a: EMAPA:35981 ! pelvic girdle cartilage condensation
+relationship: develops_from EMAPA:18029 ! ilium pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 
 [Term]
@@ -16949,6 +17063,7 @@ id: EMAPA:18374
 name: tail vertebra
 namespace: anatomical_structure
 is_a: EMAPA:32740 ! vertebra
+relationship: develops_from EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: part_of EMAPA:18043 ! axial skeleton tail region
 
 [Term]
@@ -17598,13 +17713,13 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:18509
-name: ligamentum patellae
+name: patellar ligament
 namespace: anatomical_structure
 alt_id: EMAPA:19139
-relationship: ends_at TS26 ! TS26
+synonym: "ligamentum patellae" RELATED []
+is_a: EMAPA:37004 ! skeletal ligament
 relationship: part_of EMAPA:17740 ! knee joint primordium
 relationship: part_of EMAPA:19137 ! knee joint
-relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:18510
@@ -17629,6 +17744,7 @@ alt_id: EMAPA:35436
 synonym: "intercostales" EXACT []
 is_a: EMAPA:18167 ! axial muscle
 relationship: part_of EMAPA:35888 ! trunk musculature
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:18522
@@ -17982,6 +18098,7 @@ id: EMAPA:18583
 name: incus
 namespace: anatomical_structure
 is_a: EMAPA:17824 ! ossicle
+relationship: develops_from EMAPA:18228 ! incus cartilage condensation
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -17989,6 +18106,7 @@ id: EMAPA:18584
 name: malleus
 namespace: anatomical_structure
 is_a: EMAPA:17824 ! ossicle
+relationship: develops_from EMAPA:18229 ! malleus cartilage condensation
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -17996,6 +18114,7 @@ id: EMAPA:18585
 name: stapes
 namespace: anatomical_structure
 is_a: EMAPA:17824 ! ossicle
+relationship: develops_from EMAPA:18230 ! stapes cartilage condensation
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -18247,8 +18366,9 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:18626
 name: trabeculae carneae
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16105 ! heart
+synonym: "ventricular trabecula" RELATED []
+is_a: EMAPA:38051 ! heart trabecula
+relationship: part_of EMAPA:17331 ! heart ventricle
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -18727,6 +18847,7 @@ id: EMAPA:18705
 name: basioccipital bone
 namespace: anatomical_structure
 is_a: EMAPA:35238 ! chondrocranium bone
+relationship: develops_from EMAPA:18337 ! basioccipital cartilage condensation
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -18734,6 +18855,7 @@ id: EMAPA:18706
 name: basisphenoid bone
 namespace: anatomical_structure
 is_a: EMAPA:35238 ! chondrocranium bone
+relationship: develops_from EMAPA:18338 ! basisphenoid cartilage condensation
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -18749,6 +18871,7 @@ id: EMAPA:18708
 name: exoccipital bone
 namespace: anatomical_structure
 is_a: EMAPA:35238 ! chondrocranium bone
+relationship: develops_from EMAPA:18339 ! exoccipital cartilage condensation
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -18788,6 +18911,7 @@ id: EMAPA:18715
 name: parietal bone
 namespace: anatomical_structure
 is_a: EMAPA:35996 ! head bone
+relationship: develops_from EMAPA:18019 ! parietal bone primordium
 relationship: part_of EMAPA:18016 ! vault of skull
 relationship: starts_at TS23 ! TS23
 
@@ -18831,6 +18955,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35379 ! girdle bone
 is_a: EMAPA:35503 ! long bone
 is_a: EMAPA:36986 ! shoulder bone
+relationship: develops_from EMAPA:18342 ! clavicle cartilage condensation
 relationship: part_of EMAPA:35669 ! pectoral girdle skeleton
 
 [Term]
@@ -18839,6 +18964,7 @@ name: scapula
 namespace: anatomical_structure
 is_a: EMAPA:35379 ! girdle bone
 is_a: EMAPA:36986 ! shoulder bone
+relationship: develops_from EMAPA:18343 ! scapula cartilage condensation
 relationship: part_of EMAPA:35669 ! pectoral girdle skeleton
 
 [Term]
@@ -18873,6 +18999,7 @@ name: ilium
 namespace: anatomical_structure
 synonym: "iliac bone" RELATED []
 is_a: EMAPA:35379 ! girdle bone
+relationship: develops_from EMAPA:18347 ! ilium cartilage condensation
 relationship: part_of EMAPA:18028 ! pelvic girdle skeleton
 
 [Term]
@@ -18881,6 +19008,7 @@ name: ischium
 namespace: anatomical_structure
 synonym: "ischial bone" RELATED []
 is_a: EMAPA:35379 ! girdle bone
+relationship: develops_from EMAPA:26930 ! ischium cartilage condensation
 relationship: part_of EMAPA:18028 ! pelvic girdle skeleton
 relationship: starts_at TS24 ! TS24
 
@@ -19093,6 +19221,7 @@ id: EMAPA:18767
 name: spleen
 namespace: anatomical_structure
 is_a: EMAPA:18766 ! hemolymphoid system gland
+relationship: develops_from EMAPA:18535 ! spleen primordium
 relationship: part_of EMAPA:36896 ! immune system
 
 [Term]
@@ -19100,6 +19229,7 @@ id: EMAPA:18768
 name: thymus
 namespace: anatomical_structure
 is_a: EMAPA:18766 ! hemolymphoid system gland
+relationship: develops_from EMAPA:17523 ! thymus primordium
 relationship: part_of EMAPA:36896 ! immune system
 
 [Term]
@@ -19140,6 +19270,7 @@ name: pineal gland
 namespace: anatomical_structure
 synonym: "epiphysis cerebri" RELATED []
 is_a: EMAPA:35999 ! endocrine gland
+relationship: develops_from EMAPA:18544 ! pineal primordium
 relationship: part_of EMAPA:17532 ! epithalamus
 relationship: starts_at TS24 ! TS24
 
@@ -19323,6 +19454,7 @@ id: EMAPA:18809
 name: sublingual gland
 namespace: anatomical_structure
 is_a: EMAPA:36789 ! major salivary gland
+relationship: develops_from EMAPA:17752 ! sublingual gland primordium
 
 [Term]
 id: EMAPA:18810
@@ -19347,6 +19479,7 @@ name: submandibular gland
 namespace: anatomical_structure
 synonym: "submaxillary gland" RELATED []
 is_a: EMAPA:36789 ! major salivary gland
+relationship: develops_from EMAPA:17755 ! submandibular gland primordium
 
 [Term]
 id: EMAPA:18813
@@ -19481,7 +19614,7 @@ synonym: "definitive palate" RELATED []
 synonym: "secondary palate" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17924 ! upper jaw
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:18949
@@ -19489,7 +19622,7 @@ name: soft palate
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18948 ! palate
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:18950
@@ -19576,7 +19709,6 @@ id: EMAPA:18966
 name: superior pharyngeal constrictor muscle
 namespace: anatomical_structure
 is_a: EMAPA:18964 ! pharyngeal constrictor muscle
-relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:18967
@@ -19848,6 +19980,7 @@ id: EMAPA:19016
 name: frontal bone
 namespace: anatomical_structure
 is_a: EMAPA:35996 ! head bone
+relationship: develops_from EMAPA:18017 ! frontal bone primordium
 relationship: part_of EMAPA:18016 ! vault of skull
 relationship: starts_at TS24 ! TS24
 
@@ -19857,6 +19990,7 @@ name: inter-parietal bone
 namespace: anatomical_structure
 synonym: "supraoccipital bone squamous part" RELATED []
 is_a: EMAPA:35996 ! head bone
+relationship: develops_from EMAPA:18018 ! inter-parietal bone primordium
 relationship: part_of EMAPA:18016 ! vault of skull
 relationship: starts_at TS24 ! TS24
 
@@ -19865,6 +19999,7 @@ id: EMAPA:19018
 name: ethmoid bone
 namespace: anatomical_structure
 is_a: EMAPA:35924 ! viscerocranium bone
+relationship: develops_from EMAPA:18023 ! ethmoid bone primordium
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -19872,6 +20007,7 @@ id: EMAPA:19019
 name: facial bone
 namespace: anatomical_structure
 is_a: EMAPA:35924 ! viscerocranium bone
+relationship: develops_from EMAPA:18024 ! facial bone primordium
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -19980,6 +20116,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19037
 name: dentate gyrus
 namespace: anatomical_structure
+relationship: develops_from EMAPA:36469 ! dentate gyrus primordium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35405 ! hippocampal formation
 relationship: starts_at TS25 ! TS25
@@ -20010,11 +20147,11 @@ relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:19042
-name: rest of cerebral cortex
+name: allocortex
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:17544 ! cerebral cortex
-relationship: starts_at TS25 ! TS25
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16910 ! telencephalon
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:19043
@@ -20026,26 +20163,26 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:19044
-name: rest of cerebral cortex mantle layer
+name: allocortex mantle layer
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19042 ! rest of cerebral cortex
+relationship: part_of EMAPA:19042 ! allocortex
 relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:19045
-name: rest of cerebral cortex marginal layer
+name: allocortex marginal layer
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19042 ! rest of cerebral cortex
+relationship: part_of EMAPA:19042 ! allocortex
 relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:19046
-name: rest of cerebral cortex ventricular layer
+name: allocortex ventricular layer
 namespace: anatomical_structure
 is_a: EMAPA:17547 ! cerebral cortex ventricular layer
-relationship: part_of EMAPA:19042 ! rest of cerebral cortex
+relationship: part_of EMAPA:19042 ! allocortex
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -20175,6 +20312,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19062
 name: tympanic membrane
 namespace: anatomical_structure
+relationship: develops_from EMAPA:17281 ! future tympanic membrane
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16991 ! outer ear
 relationship: starts_at TS25 ! TS25
@@ -20392,6 +20530,7 @@ id: EMAPA:19102
 name: elbow joint
 namespace: anatomical_structure
 is_a: EMAPA:19204 ! forelimb joint
+relationship: develops_from EMAPA:17710 ! elbow joint primordium
 relationship: part_of EMAPA:17414 ! elbow
 relationship: starts_at TS24 ! TS24
 
@@ -20402,6 +20541,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18466
 is_a: EMAPA:35347 ! forearm bone
 is_a: EMAPA:35350 ! forelimb long bone
+relationship: develops_from EMAPA:18054 ! radius cartilage condensation
 
 [Term]
 id: EMAPA:19104
@@ -20410,12 +20550,14 @@ namespace: anatomical_structure
 alt_id: EMAPA:18467
 is_a: EMAPA:35347 ! forearm bone
 is_a: EMAPA:35350 ! forelimb long bone
+relationship: develops_from EMAPA:18055 ! ulna cartilage condensation
 
 [Term]
 id: EMAPA:19105
 name: shoulder joint
 namespace: anatomical_structure
 is_a: EMAPA:19204 ! forelimb joint
+relationship: develops_from EMAPA:17712 ! shoulder joint primordium
 relationship: part_of EMAPA:17421 ! shoulder
 relationship: starts_at TS24 ! TS24
 
@@ -20427,6 +20569,7 @@ alt_id: EMAPA:18468
 is_a: EMAPA:35350 ! forelimb long bone
 is_a: EMAPA:35892 ! upper arm bone
 is_a: EMAPA:36986 ! shoulder bone
+relationship: develops_from EMAPA:17713 ! humerus cartilage condensation
 
 [Term]
 id: EMAPA:19107
@@ -20471,6 +20614,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18475
 synonym: "forelimb digit 1 metacarpus" RELATED []
 is_a: EMAPA:36158 ! metacarpal bone
+relationship: develops_from EMAPA:18065 ! forelimb digit 1 metacarpus cartilage condensation
 relationship: part_of EMAPA:17429 ! forelimb digit 1
 
 [Term]
@@ -20479,6 +20623,7 @@ name: forelimb digit 1 phalanx
 namespace: anatomical_structure
 alt_id: EMAPA:18476
 is_a: EMAPA:32650 ! forelimb phalanx
+relationship: develops_from EMAPA:18066 ! forelimb digit 1 phalanx cartilage condensation
 relationship: part_of EMAPA:17429 ! forelimb digit 1
 
 [Term]
@@ -20488,6 +20633,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18477
 synonym: "forelimb digit 2 metacarpus" RELATED []
 is_a: EMAPA:36158 ! metacarpal bone
+relationship: develops_from EMAPA:18070 ! forelimb digit 2 metacarpus cartilage condensation
 relationship: part_of EMAPA:17432 ! forelimb digit 2
 
 [Term]
@@ -20496,6 +20642,7 @@ name: forelimb digit 2 phalanx
 namespace: anatomical_structure
 alt_id: EMAPA:18478
 is_a: EMAPA:32650 ! forelimb phalanx
+relationship: develops_from EMAPA:18071 ! forelimb digit 2 phalanx cartilage condensation
 relationship: part_of EMAPA:17432 ! forelimb digit 2
 
 [Term]
@@ -20505,6 +20652,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18479
 synonym: "forelimb digit 3 metacarpus" RELATED []
 is_a: EMAPA:36158 ! metacarpal bone
+relationship: develops_from EMAPA:18075 ! forelimb digit 3 metacarpus cartilage condensation
 relationship: part_of EMAPA:17435 ! forelimb digit 3
 
 [Term]
@@ -20513,6 +20661,7 @@ name: forelimb digit 3 phalanx
 namespace: anatomical_structure
 alt_id: EMAPA:18480
 is_a: EMAPA:32650 ! forelimb phalanx
+relationship: develops_from EMAPA:18076 ! forelimb digit 3 phalanx cartilage condensation
 relationship: part_of EMAPA:17435 ! forelimb digit 3
 
 [Term]
@@ -20522,6 +20671,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18481
 synonym: "forelimb digit 4 metacarpus" RELATED []
 is_a: EMAPA:36158 ! metacarpal bone
+relationship: develops_from EMAPA:18080 ! forelimb digit 4 metacarpus cartilage condensation
 relationship: part_of EMAPA:17438 ! forelimb digit 4
 
 [Term]
@@ -20530,6 +20680,7 @@ name: forelimb digit 4 phalanx
 namespace: anatomical_structure
 alt_id: EMAPA:18482
 is_a: EMAPA:32650 ! forelimb phalanx
+relationship: develops_from EMAPA:18081 ! forelimb digit 4 phalanx cartilage condensation
 relationship: part_of EMAPA:17438 ! forelimb digit 4
 
 [Term]
@@ -20539,6 +20690,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18483
 synonym: "forelimb digit 5 metacarpus" RELATED []
 is_a: EMAPA:36158 ! metacarpal bone
+relationship: develops_from EMAPA:18085 ! forelimb digit 5 metacarpus cartilage condensation
 relationship: part_of EMAPA:17441 ! forelimb digit 5
 
 [Term]
@@ -20547,6 +20699,7 @@ name: forelimb digit 5 phalanx
 namespace: anatomical_structure
 alt_id: EMAPA:18484
 is_a: EMAPA:32650 ! forelimb phalanx
+relationship: develops_from EMAPA:18086 ! forelimb digit 5 phalanx cartilage condensation
 relationship: part_of EMAPA:17441 ! forelimb digit 5
 
 [Term]
@@ -20565,6 +20718,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18490
 synonym: "hindlimb digit 1 metatarsus" RELATED []
 is_a: EMAPA:36159 ! metatarsal bone
+relationship: develops_from EMAPA:18106 ! hindlimb digit 1 metatarsus cartilage condensation
 relationship: part_of EMAPA:17460 ! hindlimb digit 1
 
 [Term]
@@ -20573,6 +20727,7 @@ name: hindlimb digit 1 phalanx
 namespace: anatomical_structure
 alt_id: EMAPA:18491
 is_a: EMAPA:32941 ! hindlimb phalanx
+relationship: develops_from EMAPA:18107 ! hindlimb digit 1 phalanx cartilage condensation
 relationship: part_of EMAPA:17460 ! hindlimb digit 1
 
 [Term]
@@ -20582,6 +20737,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18492
 synonym: "hindlimb digit 2 metatarsus" RELATED []
 is_a: EMAPA:36159 ! metatarsal bone
+relationship: develops_from EMAPA:18111 ! hindlimb digit 2 metatarsus cartilage condensation
 relationship: part_of EMAPA:17463 ! hindlimb digit 2
 
 [Term]
@@ -20590,6 +20746,7 @@ name: hindlimb digit 2 phalanx
 namespace: anatomical_structure
 alt_id: EMAPA:18493
 is_a: EMAPA:32941 ! hindlimb phalanx
+relationship: develops_from EMAPA:18112 ! hindlimb digit 2 phalanx cartilage condensation
 relationship: part_of EMAPA:17463 ! hindlimb digit 2
 
 [Term]
@@ -20599,6 +20756,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18494
 synonym: "hindlimb digit 3 metatarsus" RELATED []
 is_a: EMAPA:36159 ! metatarsal bone
+relationship: develops_from EMAPA:18116 ! hindlimb digit 3 metatarsus cartilage condensation
 relationship: part_of EMAPA:17466 ! hindlimb digit 3
 
 [Term]
@@ -20607,6 +20765,7 @@ name: hindlimb digit 3 phalanx
 namespace: anatomical_structure
 alt_id: EMAPA:18495
 is_a: EMAPA:32941 ! hindlimb phalanx
+relationship: develops_from EMAPA:18117 ! hindlimb digit 3 phalanx cartilage condensation
 relationship: part_of EMAPA:17466 ! hindlimb digit 3
 
 [Term]
@@ -20616,6 +20775,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18496
 synonym: "hindlimb digit 4 metatarsus" RELATED []
 is_a: EMAPA:36159 ! metatarsal bone
+relationship: develops_from EMAPA:18121 ! hindlimb digit 4 metatarsus cartilage condensation
 relationship: part_of EMAPA:17469 ! hindlimb digit 4
 
 [Term]
@@ -20624,6 +20784,7 @@ name: hindlimb digit 4 phalanx
 namespace: anatomical_structure
 alt_id: EMAPA:18497
 is_a: EMAPA:32941 ! hindlimb phalanx
+relationship: develops_from EMAPA:18122 ! hindlimb digit 4 phalanx cartilage condensation
 relationship: part_of EMAPA:17469 ! hindlimb digit 4
 
 [Term]
@@ -20633,6 +20794,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18498
 synonym: "hindlimb digit 5 metatarsus" RELATED []
 is_a: EMAPA:36159 ! metatarsal bone
+relationship: develops_from EMAPA:18126 ! hindlimb digit 5 metatarsus cartilage condensation
 relationship: part_of EMAPA:17472 ! hindlimb digit 5
 
 [Term]
@@ -20641,6 +20803,7 @@ name: hindlimb digit 5 phalanx
 namespace: anatomical_structure
 alt_id: EMAPA:18499
 is_a: EMAPA:32941 ! hindlimb phalanx
+relationship: develops_from EMAPA:18127 ! hindlimb digit 5 phalanx cartilage condensation
 relationship: part_of EMAPA:17472 ! hindlimb digit 5
 
 [Term]
@@ -20648,6 +20811,7 @@ id: EMAPA:19133
 name: tarsus
 namespace: anatomical_structure
 alt_id: EMAPA:18500
+relationship: develops_from EMAPA:17735 ! future tarsus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17459 ! foot
 relationship: starts_at TS23 ! TS23
@@ -20659,6 +20823,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18501
 synonym: "calcaneum" EXACT []
 is_a: EMAPA:25072 ! tarsal bone
+relationship: develops_from EMAPA:18143 ! calcaneum cartilage condensation
 
 [Term]
 id: EMAPA:19135
@@ -20666,12 +20831,14 @@ name: talus
 namespace: anatomical_structure
 alt_id: EMAPA:18503
 is_a: EMAPA:25072 ! tarsal bone
+relationship: develops_from EMAPA:18144 ! talus cartilage condensation
 
 [Term]
 id: EMAPA:19136
 name: hip joint
 namespace: anatomical_structure
 is_a: EMAPA:32635 ! hindlimb joint
+relationship: develops_from EMAPA:17739 ! hip joint primordium
 relationship: part_of EMAPA:17490 ! hip
 relationship: starts_at TS24 ! TS24
 
@@ -20680,6 +20847,7 @@ id: EMAPA:19137
 name: knee joint
 namespace: anatomical_structure
 is_a: EMAPA:32635 ! hindlimb joint
+relationship: develops_from EMAPA:17740 ! knee joint primordium
 relationship: part_of EMAPA:17493 ! knee
 relationship: starts_at TS24 ! TS24
 
@@ -20688,6 +20856,7 @@ id: EMAPA:19138
 name: fabella cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32632 ! hindlimb cartilage condensation
+relationship: develops_from EMAPA:18508 ! fabella pre-cartilage condensation
 relationship: part_of EMAPA:19137 ! knee joint
 relationship: starts_at TS24 ! TS24
 
@@ -20696,6 +20865,7 @@ id: EMAPA:19140
 name: patella cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32632 ! hindlimb cartilage condensation
+relationship: develops_from EMAPA:18510 ! patella pre-cartilage condensation
 relationship: part_of EMAPA:19137 ! knee joint
 relationship: starts_at TS24 ! TS24
 
@@ -20706,6 +20876,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18512
 is_a: EMAPA:35403 ! hindlimb long bone
 is_a: EMAPA:35519 ! lower leg bone
+relationship: develops_from EMAPA:18154 ! fibula cartilage condensation
 
 [Term]
 id: EMAPA:19142
@@ -20714,6 +20885,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18513
 is_a: EMAPA:35403 ! hindlimb long bone
 is_a: EMAPA:35519 ! lower leg bone
+relationship: develops_from EMAPA:18155 ! tibia cartilage condensation
 
 [Term]
 id: EMAPA:19143
@@ -20722,6 +20894,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18514
 is_a: EMAPA:35403 ! hindlimb long bone
 is_a: EMAPA:35893 ! upper leg bone
+relationship: develops_from EMAPA:17742 ! femur cartilage condensation
 
 [Term]
 id: EMAPA:19144
@@ -20773,6 +20946,7 @@ is_a: EMAPA:35334 ! eye gland
 id: EMAPA:19154
 name: iris
 namespace: anatomical_structure
+relationship: develops_from EMAPA:32807 ! presumptive iris
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35901 ! uvea
 relationship: part_of EMAPA:36594 ! eye anterior segment
@@ -21135,6 +21309,7 @@ id: EMAPA:19204
 name: forelimb joint
 namespace: anatomical_structure
 is_a: EMAPA:36501 ! limb joint
+relationship: develops_from EMAPA:38061 ! forelimb joint primordium
 relationship: part_of EMAPA:17412 ! forelimb
 
 [Term]
@@ -21317,6 +21492,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19229
 name: sphenoidal fontanelle
 namespace: anatomical_structure
+relationship: develops_from EMAPA:17826 ! malleus pre-cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:19198 ! sutures and fontanelles
 relationship: starts_at TS25 ! TS25
@@ -21692,6 +21868,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:19280
 name: loop of Henle group
 namespace: anatomical_structure
+relationship: develops_from EMAPA:28049 ! immature loop of Henle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19279 ! renal medulla
 relationship: part_of EMAPA:28491 ! mature nephron
@@ -21723,6 +21900,7 @@ namespace: anatomical_structure
 def: "The prostate gland (pr) (TS24-TS28) is part of the urethra of male and part of the male accessory gland. Divided into layers (epithelium of prostate gland and peri-prostatic mesenchyme of prostate gland), developmental stages (prostate bud and prostate gland) and regions by location (anterior, dorsal, ventral and lateral). From TS24-TS27, the glands are called prostate buds, subdivided into anterior, dorsal (TS24-TS27) and ventral and lateral prostate bud (TS25-TS27). At TS28, the prostate gland is divided into anterior, dorsal, ventral and lateral prostate gland." [PMID:25968320]
 is_a: EMAPA:19285 ! male accessory gland
 is_a: EMAPA:35327 ! exocrine gland
+relationship: develops_from EMAPA:36141 ! prostate bud
 relationship: part_of EMAPA:18692 ! urethra of male
 relationship: starts_at TS24 ! TS24
 
@@ -22053,6 +22231,7 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:19335
 name: C1 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19323 ! C1 vertebral pre-cartilage condensation
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17392 ! cervical vertebral cartilage condensation
 relationship: starts_at TS17 ! TS17
@@ -22061,6 +22240,7 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:19336
 name: C2 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19324 ! C2 vertebral pre-cartilage condensation
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17392 ! cervical vertebral cartilage condensation
 relationship: starts_at TS17 ! TS17
@@ -22069,6 +22249,7 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:19337
 name: C3 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19325 ! C3 vertebral pre-cartilage condensation
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17392 ! cervical vertebral cartilage condensation
 relationship: starts_at TS17 ! TS17
@@ -22077,6 +22258,7 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:19338
 name: C4 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19326 ! C4 vertebral pre-cartilage condensation
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17392 ! cervical vertebral cartilage condensation
 relationship: starts_at TS17 ! TS17
@@ -22085,6 +22267,7 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:19339
 name: C5 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19327 ! C5 vertebral pre-cartilage condensation
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17392 ! cervical vertebral cartilage condensation
 relationship: starts_at TS17 ! TS17
@@ -22165,6 +22348,7 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:19349
 name: C6 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19328 ! C6 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17392 ! cervical vertebral cartilage condensation
 relationship: starts_at TS18 ! TS18
@@ -22173,6 +22357,7 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:19350
 name: C7 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19329 ! C7 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17392 ! cervical vertebral cartilage condensation
 relationship: starts_at TS18 ! TS18
@@ -22237,6 +22422,7 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:19358
 name: T1 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19330 ! T1 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: starts_at TS18 ! TS18
@@ -22245,6 +22431,7 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:19359
 name: T2 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19331 ! T2 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: starts_at TS18 ! TS18
@@ -22253,6 +22440,7 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:19360
 name: T3 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19332 ! T3 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: starts_at TS18 ! TS18
@@ -22261,6 +22449,7 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:19361
 name: T4 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19333 ! T4 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: starts_at TS18 ! TS18
@@ -22269,6 +22458,7 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:19362
 name: T5 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19334 ! T5 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: starts_at TS18 ! TS18
@@ -22277,6 +22467,7 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:19363
 name: L1 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19340 ! L1 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17675 ! lumbar vertebral cartilage condensation
 relationship: starts_at TS19 ! TS19
@@ -22365,6 +22556,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:19374
 name: T6 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19341 ! T6 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: starts_at TS19 ! TS19
@@ -22373,6 +22565,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:19375
 name: T7 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19342 ! T7 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: starts_at TS19 ! TS19
@@ -22381,6 +22574,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:19376
 name: T8 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19343 ! T8 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: starts_at TS19 ! TS19
@@ -22389,6 +22583,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:19377
 name: T9 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19344 ! T9 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: starts_at TS19 ! TS19
@@ -22397,6 +22592,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:19378
 name: T10 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19345 ! T10 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: starts_at TS19 ! TS19
@@ -22405,6 +22601,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:19379
 name: T11 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19346 ! T11 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: starts_at TS19 ! TS19
@@ -22413,6 +22610,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:19380
 name: T12 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19347 ! T12 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: starts_at TS19 ! TS19
@@ -22421,6 +22619,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:19381
 name: T13 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19348 ! T13 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: starts_at TS19 ! TS19
@@ -22437,6 +22636,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:19383
 name: L3 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19352 ! L3 vertebral pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17675 ! lumbar vertebral cartilage condensation
 relationship: starts_at TS20 ! TS20
@@ -22445,6 +22645,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:19384
 name: L4 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19353 ! L4 vertebral pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17675 ! lumbar vertebral cartilage condensation
 relationship: starts_at TS20 ! TS20
@@ -22453,6 +22654,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:19385
 name: L5 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19354 ! L5 vertebral pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17675 ! lumbar vertebral cartilage condensation
 relationship: starts_at TS20 ! TS20
@@ -22461,6 +22663,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:19386
 name: L6 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19355 ! L6 vertebral pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17675 ! lumbar vertebral cartilage condensation
 relationship: starts_at TS20 ! TS20
@@ -22469,6 +22672,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:19387
 name: S1 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19356 ! S1 vertebral pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:18009 ! sacral vertebral cartilage condensation
 relationship: starts_at TS20 ! TS20
@@ -22477,6 +22681,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:19388
 name: S2 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19357 ! S2 vertebral pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:18009 ! sacral vertebral cartilage condensation
 relationship: starts_at TS20 ! TS20
@@ -22589,6 +22794,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:19402
 name: S3 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19364 ! S3 vertebral pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:18009 ! sacral vertebral cartilage condensation
 relationship: starts_at TS21 ! TS21
@@ -22597,6 +22803,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:19403
 name: S4 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19365 ! S4 vertebral pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:18009 ! sacral vertebral cartilage condensation
 relationship: starts_at TS21 ! TS21
@@ -22605,6 +22812,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:19404
 name: Tl1 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19366 ! Tl1 vertebral pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS21 ! TS21
@@ -22613,6 +22821,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:19405
 name: Tl2 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19367 ! Tl2 vertebral pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS21 ! TS21
@@ -22621,6 +22830,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:19406
 name: Tl3 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19368 ! Tl3 vertebral pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS21 ! TS21
@@ -22653,6 +22863,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:19410
 name: T1 rib cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19369 ! T1 rib pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17678 ! rib cartilage condensation
 relationship: starts_at TS21 ! TS21
@@ -22661,6 +22872,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:19411
 name: T2 rib cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19370 ! T2 rib pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17678 ! rib cartilage condensation
 relationship: starts_at TS21 ! TS21
@@ -22669,6 +22881,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:19412
 name: T3 rib cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19371 ! T3 rib pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17678 ! rib cartilage condensation
 relationship: starts_at TS21 ! TS21
@@ -22677,6 +22890,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:19413
 name: T4 rib cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19372 ! T4 rib pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17678 ! rib cartilage condensation
 relationship: starts_at TS21 ! TS21
@@ -22685,6 +22899,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:19414
 name: T5 rib cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19373 ! T5 rib pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17678 ! rib cartilage condensation
 relationship: starts_at TS21 ! TS21
@@ -22828,6 +23043,7 @@ id: EMAPA:19431
 name: C1 vertebra
 namespace: anatomical_structure
 synonym: "atlas" RELATED []
+relationship: develops_from EMAPA:19335 ! C1 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17674 ! cervical vertebra
 relationship: starts_at TS22 ! TS22
@@ -22837,6 +23053,7 @@ id: EMAPA:19432
 name: C2 vertebra
 namespace: anatomical_structure
 synonym: "axis" RELATED []
+relationship: develops_from EMAPA:19336 ! C2 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17674 ! cervical vertebra
 relationship: starts_at TS22 ! TS22
@@ -22845,6 +23062,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:19433
 name: C3 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19337 ! C3 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17674 ! cervical vertebra
 relationship: starts_at TS22 ! TS22
@@ -22853,6 +23071,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:19434
 name: C4 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19338 ! C4 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17674 ! cervical vertebra
 relationship: starts_at TS22 ! TS22
@@ -22861,6 +23080,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:19435
 name: C5 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19339 ! C5 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17674 ! cervical vertebra
 relationship: starts_at TS22 ! TS22
@@ -22869,6 +23089,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:19436
 name: Tl4 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19389 ! Tl4 vertebral pre-cartilage condensation
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS22 ! TS22
@@ -22877,6 +23098,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:19437
 name: Tl5 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19390 ! Tl5 vertebral pre-cartilage condensation
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS22 ! TS22
@@ -22885,6 +23107,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:19438
 name: Tl6 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19391 ! Tl6 vertebral pre-cartilage condensation
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS22 ! TS22
@@ -22893,6 +23116,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:19439
 name: Tl7 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19392 ! Tl7 vertebral pre-cartilage condensation
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS22 ! TS22
@@ -22901,6 +23125,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:19440
 name: Tl8 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19393 ! Tl8 vertebral pre-cartilage condensation
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS22 ! TS22
@@ -22909,6 +23134,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:19441
 name: Tl9 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19407 ! Tl9 vertebral pre-cartilage condensation
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS22 ! TS22
@@ -22917,6 +23143,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:19442
 name: Tl10 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19408 ! Tl10 vertebral pre-cartilage condensation
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS22 ! TS22
@@ -22925,6 +23152,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:19443
 name: Tl11 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19409 ! Tl11 vertebral pre-cartilage condensation
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS22 ! TS22
@@ -22997,6 +23225,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:19452
 name: T6 rib cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19394 ! T6 rib pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17678 ! rib cartilage condensation
 relationship: starts_at TS22 ! TS22
@@ -23005,6 +23234,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:19453
 name: T7 rib cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19395 ! T7 rib pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17678 ! rib cartilage condensation
 relationship: starts_at TS22 ! TS22
@@ -23013,6 +23243,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:19454
 name: T8 rib cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19396 ! T8 rib pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17678 ! rib cartilage condensation
 relationship: starts_at TS22 ! TS22
@@ -23021,6 +23252,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:19455
 name: T9 rib cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19397 ! T9 rib pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17678 ! rib cartilage condensation
 relationship: starts_at TS22 ! TS22
@@ -23029,6 +23261,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:19456
 name: T10 rib cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19398 ! T10 rib pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17678 ! rib cartilage condensation
 relationship: starts_at TS22 ! TS22
@@ -23037,6 +23270,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:19457
 name: T11 rib cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19399 ! T11 rib pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17678 ! rib cartilage condensation
 relationship: starts_at TS22 ! TS22
@@ -23045,6 +23279,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:19458
 name: T12 rib cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19400 ! T12 rib pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17678 ! rib cartilage condensation
 relationship: starts_at TS22 ! TS22
@@ -23053,6 +23288,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:19459
 name: T13 rib cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19401 ! T13 rib pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17678 ! rib cartilage condensation
 relationship: starts_at TS22 ! TS22
@@ -23113,6 +23349,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19466
 name: C6 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19349 ! C6 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17674 ! cervical vertebra
 relationship: starts_at TS23 ! TS23
@@ -23121,6 +23358,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19467
 name: C7 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19350 ! C7 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17674 ! cervical vertebra
 relationship: starts_at TS23 ! TS23
@@ -23164,6 +23402,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19472
 name: L1 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19363 ! L1 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18007 ! lumbar vertebra
 relationship: starts_at TS23 ! TS23
@@ -23172,6 +23411,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19473
 name: Tl12 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19444 ! Tl12 vertebral pre-cartilage condensation
 relationship: ends_at TS25 ! TS25
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS23 ! TS23
@@ -23180,6 +23420,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19474
 name: Tl13 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19445 ! Tl13 vertebral pre-cartilage condensation
 relationship: ends_at TS25 ! TS25
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS23 ! TS23
@@ -23188,6 +23429,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19475
 name: Tl14 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19446 ! Tl14 vertebral pre-cartilage condensation
 relationship: ends_at TS25 ! TS25
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS23 ! TS23
@@ -23196,6 +23438,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19476
 name: Tl15 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19447 ! Tl15 vertebral pre-cartilage condensation
 relationship: ends_at TS25 ! TS25
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS23 ! TS23
@@ -23204,6 +23447,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19477
 name: Tl16 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19448 ! Tl16 vertebral pre-cartilage condensation
 relationship: ends_at TS25 ! TS25
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS23 ! TS23
@@ -23212,6 +23456,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19478
 name: Tl17 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19449 ! Tl17 vertebral pre-cartilage condensation
 relationship: ends_at TS25 ! TS25
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS23 ! TS23
@@ -23220,6 +23465,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19479
 name: Tl18 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19450 ! Tl18 vertebral pre-cartilage condensation
 relationship: ends_at TS25 ! TS25
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS23 ! TS23
@@ -23228,6 +23474,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19480
 name: Tl19 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19451 ! Tl19 vertebral pre-cartilage condensation
 relationship: ends_at TS25 ! TS25
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS23 ! TS23
@@ -23648,83 +23895,97 @@ id: EMAPA:19529
 name: T1 rib
 namespace: anatomical_structure
 is_a: EMAPA:18010 ! rib
+relationship: develops_from EMAPA:19410 ! T1 rib cartilage condensation
 
 [Term]
 id: EMAPA:19530
 name: T2 rib
 namespace: anatomical_structure
 is_a: EMAPA:18010 ! rib
+relationship: develops_from EMAPA:19411 ! T2 rib cartilage condensation
 
 [Term]
 id: EMAPA:19531
 name: T3 rib
 namespace: anatomical_structure
 is_a: EMAPA:18010 ! rib
+relationship: develops_from EMAPA:19412 ! T3 rib cartilage condensation
 
 [Term]
 id: EMAPA:19532
 name: T4 rib
 namespace: anatomical_structure
 is_a: EMAPA:18010 ! rib
+relationship: develops_from EMAPA:19413 ! T4 rib cartilage condensation
 
 [Term]
 id: EMAPA:19533
 name: T5 rib
 namespace: anatomical_structure
 is_a: EMAPA:18010 ! rib
+relationship: develops_from EMAPA:19414 ! T5 rib cartilage condensation
 
 [Term]
 id: EMAPA:19534
 name: T6 rib
 namespace: anatomical_structure
 is_a: EMAPA:18010 ! rib
+relationship: develops_from EMAPA:19452 ! T6 rib cartilage condensation
 
 [Term]
 id: EMAPA:19535
 name: T7 rib
 namespace: anatomical_structure
 is_a: EMAPA:18010 ! rib
+relationship: develops_from EMAPA:19453 ! T7 rib cartilage condensation
 
 [Term]
 id: EMAPA:19536
 name: T8 rib
 namespace: anatomical_structure
 is_a: EMAPA:18010 ! rib
+relationship: develops_from EMAPA:19454 ! T8 rib cartilage condensation
 
 [Term]
 id: EMAPA:19537
 name: T9 rib
 namespace: anatomical_structure
 is_a: EMAPA:18010 ! rib
+relationship: develops_from EMAPA:19455 ! T9 rib cartilage condensation
 
 [Term]
 id: EMAPA:19538
 name: T10 rib
 namespace: anatomical_structure
 is_a: EMAPA:18010 ! rib
+relationship: develops_from EMAPA:19456 ! T10 rib cartilage condensation
 
 [Term]
 id: EMAPA:19539
 name: T11 rib
 namespace: anatomical_structure
 is_a: EMAPA:18010 ! rib
+relationship: develops_from EMAPA:19379 ! T11 vertebral cartilage condensation
 
 [Term]
 id: EMAPA:19540
 name: T12 rib
 namespace: anatomical_structure
 is_a: EMAPA:18010 ! rib
+relationship: develops_from EMAPA:19458 ! T12 rib cartilage condensation
 
 [Term]
 id: EMAPA:19541
 name: T13 rib
 namespace: anatomical_structure
 is_a: EMAPA:18010 ! rib
+relationship: develops_from EMAPA:19459 ! T13 rib cartilage condensation
 
 [Term]
 id: EMAPA:19542
 name: T1 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19358 ! T1 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18011 ! thoracic vertebra
 relationship: starts_at TS23 ! TS23
@@ -23733,6 +23994,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19543
 name: T2 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19359 ! T2 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18011 ! thoracic vertebra
 relationship: starts_at TS23 ! TS23
@@ -23741,6 +24003,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19544
 name: T3 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19360 ! T3 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18011 ! thoracic vertebra
 relationship: starts_at TS23 ! TS23
@@ -23749,6 +24012,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19545
 name: T4 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19361 ! T4 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18011 ! thoracic vertebra
 relationship: starts_at TS23 ! TS23
@@ -23757,6 +24021,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19546
 name: T5 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19362 ! T5 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18011 ! thoracic vertebra
 relationship: starts_at TS23 ! TS23
@@ -23765,6 +24030,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19547
 name: T6 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19374 ! T6 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18011 ! thoracic vertebra
 relationship: starts_at TS23 ! TS23
@@ -23773,6 +24039,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19548
 name: T7 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19375 ! T7 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18011 ! thoracic vertebra
 relationship: starts_at TS23 ! TS23
@@ -23781,6 +24048,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19549
 name: T8 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19376 ! T8 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18011 ! thoracic vertebra
 relationship: starts_at TS23 ! TS23
@@ -23789,6 +24057,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19550
 name: T9 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19377 ! T9 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18011 ! thoracic vertebra
 relationship: starts_at TS23 ! TS23
@@ -23797,6 +24066,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19551
 name: T10 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19378 ! T10 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18011 ! thoracic vertebra
 relationship: starts_at TS23 ! TS23
@@ -23805,6 +24075,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19552
 name: T11 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19379 ! T11 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18011 ! thoracic vertebra
 relationship: starts_at TS23 ! TS23
@@ -23813,6 +24084,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19553
 name: T12 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19380 ! T12 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18011 ! thoracic vertebra
 relationship: starts_at TS23 ! TS23
@@ -23821,6 +24093,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19554
 name: T13 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19381 ! T13 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18011 ! thoracic vertebra
 relationship: starts_at TS23 ! TS23
@@ -23959,6 +24232,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19570
 name: L2 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19382 ! L2 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18007 ! lumbar vertebra
 relationship: starts_at TS24 ! TS24
@@ -23967,6 +24241,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19571
 name: L3 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19383 ! L3 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18007 ! lumbar vertebra
 relationship: starts_at TS24 ! TS24
@@ -23975,6 +24250,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19572
 name: L4 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19384 ! L4 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18007 ! lumbar vertebra
 relationship: starts_at TS24 ! TS24
@@ -23983,6 +24259,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19573
 name: L5 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19385 ! L5 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18007 ! lumbar vertebra
 relationship: starts_at TS24 ! TS24
@@ -23991,6 +24268,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19574
 name: L6 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19386 ! L6 vertebral cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18007 ! lumbar vertebra
 relationship: starts_at TS24 ! TS24
@@ -24112,6 +24390,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19588
 name: S1 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19387 ! S1 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18336 ! sacral vertebra
 relationship: starts_at TS24 ! TS24
@@ -24120,6 +24399,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19589
 name: S2 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19388 ! S2 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18336 ! sacral vertebra
 relationship: starts_at TS24 ! TS24
@@ -24128,6 +24408,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19590
 name: S3 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19402 ! S3 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18336 ! sacral vertebra
 relationship: starts_at TS24 ! TS24
@@ -24136,6 +24417,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19591
 name: S4 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19403 ! S4 vertebral cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18336 ! sacral vertebra
 relationship: starts_at TS24 ! TS24
@@ -24230,6 +24512,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19602
 name: Tl1 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19404 ! Tl1 vertebral cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18374 ! tail vertebra
 relationship: starts_at TS24 ! TS24
@@ -24238,6 +24521,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19603
 name: Tl2 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19405 ! Tl2 vertebral cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18374 ! tail vertebra
 relationship: starts_at TS24 ! TS24
@@ -24246,6 +24530,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19604
 name: Tl3 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19406 ! Tl3 vertebral cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18374 ! tail vertebra
 relationship: starts_at TS24 ! TS24
@@ -24254,6 +24539,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19605
 name: Tl20 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19481 ! Tl20 vertebral pre-cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS24 ! TS24
@@ -24262,6 +24548,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19606
 name: Tl21 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19482 ! Tl21 vertebral pre-cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS24 ! TS24
@@ -24270,6 +24557,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19607
 name: Tl22 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19483 ! Tl22 vertebral pre-cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS24 ! TS24
@@ -24278,6 +24566,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19608
 name: Tl23 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19484 ! Tl23 vertebral pre-cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS24 ! TS24
@@ -24286,6 +24575,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19609
 name: Tl24 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19485 ! Tl24 vertebral pre-cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS24 ! TS24
@@ -24293,7 +24583,8 @@ relationship: starts_at TS24 ! TS24
 [Term]
 id: EMAPA:19610
 name: Tl25 vertebral cartilage condensation
-namespace: anatomical_structure
+namespace: anatomical_structure19486
+relationship: develops_from EMAPA:19486 ! Tl25 vertebral pre-cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS24 ! TS24
@@ -24302,6 +24593,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19611
 name: Tl26 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19487 ! Tl26 vertebral pre-cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS24 ! TS24
@@ -24310,6 +24602,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19612
 name: Tl27 vertebral cartilage condensation
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19488 ! Tl27 vertebral pre-cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS24 ! TS24
@@ -24558,6 +24851,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19641
 name: Tl4 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19436 ! Tl4 vertebral cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18374 ! tail vertebra
 relationship: starts_at TS25 ! TS25
@@ -24566,6 +24860,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19642
 name: Tl5 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19437 ! Tl5 vertebral cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18374 ! tail vertebra
 relationship: starts_at TS25 ! TS25
@@ -24574,6 +24869,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19643
 name: Tl6 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19438 ! Tl6 vertebral cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18374 ! tail vertebra
 relationship: starts_at TS25 ! TS25
@@ -24582,6 +24878,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19644
 name: Tl7 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19439 ! Tl7 vertebral cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18374 ! tail vertebra
 relationship: starts_at TS25 ! TS25
@@ -24590,6 +24887,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19645
 name: Tl8 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19440 ! Tl8 vertebral cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18374 ! tail vertebra
 relationship: starts_at TS25 ! TS25
@@ -24598,6 +24896,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19646
 name: Tl9 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19441 ! Tl9 vertebral cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18374 ! tail vertebra
 relationship: starts_at TS25 ! TS25
@@ -24606,6 +24905,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19647
 name: Tl10 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19442 ! Tl10 vertebral cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18374 ! tail vertebra
 relationship: starts_at TS25 ! TS25
@@ -24614,6 +24914,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19648
 name: Tl11 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19443 ! Tl11 vertebral cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18374 ! tail vertebra
 relationship: starts_at TS25 ! TS25
@@ -24830,6 +25131,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:19673
 name: Tl12 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19473 ! Tl12 vertebral cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18374 ! tail vertebra
 relationship: starts_at TS26 ! TS26
@@ -24838,6 +25140,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:19674
 name: Tl13 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19474 ! Tl13 vertebral cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18374 ! tail vertebra
 relationship: starts_at TS26 ! TS26
@@ -24846,6 +25149,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:19675
 name: Tl14 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19475 ! Tl14 vertebral cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18374 ! tail vertebra
 relationship: starts_at TS26 ! TS26
@@ -24854,6 +25158,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:19676
 name: Tl15 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19476 ! Tl15 vertebral cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18374 ! tail vertebra
 relationship: starts_at TS26 ! TS26
@@ -24862,6 +25167,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:19677
 name: Tl16 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19477 ! Tl16 vertebral cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18374 ! tail vertebra
 relationship: starts_at TS26 ! TS26
@@ -24870,6 +25176,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:19678
 name: Tl17 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19478 ! Tl17 vertebral cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18374 ! tail vertebra
 relationship: starts_at TS26 ! TS26
@@ -24878,6 +25185,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:19679
 name: Tl18 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19479 ! Tl18 vertebral cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18374 ! tail vertebra
 relationship: starts_at TS26 ! TS26
@@ -24886,6 +25194,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:19680
 name: Tl19 vertebra
 namespace: anatomical_structure
+relationship: develops_from EMAPA:19480 ! Tl19 vertebral cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18374 ! tail vertebra
 relationship: starts_at TS26 ! TS26
@@ -24920,9 +25229,9 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:25035
 name: future central tendon
 namespace: anatomical_structure
+is_a: EMAPA:38055 ! tendon primordium
 relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16320 ! septum transversum non-hepatic component
-relationship: starts_at TS13 ! TS13
 
 [Term]
 id: EMAPA:25036
@@ -25068,6 +25377,7 @@ namespace: anatomical_structure
 synonym: "carpus bone" RELATED []
 is_a: EMAPA:35391 ! hand bone
 is_a: EMAPA:36579 ! carpal/tarsal bone
+relationship: develops_from EMAPA:18102 ! carpus cartilage condensation
 relationship: part_of EMAPA:19122 ! carpus
 
 [Term]
@@ -25079,9 +25389,9 @@ relationship: part_of EMAPA:17429 ! forelimb digit 1
 
 [Term]
 id: EMAPA:25058
-name: forelimb digit 1 inter-phalangeal joint
+name: forelimb digit 1 interphalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36336 ! forelimb digit inter-phalangeal joint
+is_a: EMAPA:36336 ! forelimb interphalangeal joint
 relationship: part_of EMAPA:17429 ! forelimb digit 1
 relationship: starts_at TS22 ! TS22
 
@@ -25102,9 +25412,9 @@ relationship: part_of EMAPA:17432 ! forelimb digit 2
 
 [Term]
 id: EMAPA:25061
-name: forelimb digit 2 inter-phalangeal joint
+name: forelimb digit 2 interphalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36336 ! forelimb digit inter-phalangeal joint
+is_a: EMAPA:36336 ! forelimb interphalangeal joint
 relationship: part_of EMAPA:17432 ! forelimb digit 2
 relationship: starts_at TS22 ! TS22
 
@@ -25125,9 +25435,9 @@ relationship: part_of EMAPA:17435 ! forelimb digit 3
 
 [Term]
 id: EMAPA:25064
-name: forelimb digit 3 inter-phalangeal joint
+name: forelimb digit 3 interphalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36336 ! forelimb digit inter-phalangeal joint
+is_a: EMAPA:36336 ! forelimb interphalangeal joint
 relationship: part_of EMAPA:17435 ! forelimb digit 3
 relationship: starts_at TS22 ! TS22
 
@@ -25148,9 +25458,9 @@ relationship: part_of EMAPA:17438 ! forelimb digit 4
 
 [Term]
 id: EMAPA:25067
-name: forelimb digit 4 inter-phalangeal joint
+name: forelimb digit 4 interphalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36336 ! forelimb digit inter-phalangeal joint
+is_a: EMAPA:36336 ! forelimb interphalangeal joint
 relationship: part_of EMAPA:17438 ! forelimb digit 4
 relationship: starts_at TS22 ! TS22
 
@@ -25171,9 +25481,9 @@ relationship: part_of EMAPA:17441 ! forelimb digit 5
 
 [Term]
 id: EMAPA:25070
-name: forelimb digit 5 inter-phalangeal joint
+name: forelimb digit 5 interphalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36336 ! forelimb digit inter-phalangeal joint
+is_a: EMAPA:36336 ! forelimb interphalangeal joint
 relationship: part_of EMAPA:17441 ! forelimb digit 5
 relationship: starts_at TS22 ! TS22
 
@@ -25263,6 +25573,7 @@ name: turbinate bone
 namespace: anatomical_structure
 synonym: "nasal concha" RELATED []
 is_a: EMAPA:19202 ! nasal bone
+relationship: develops_from EMAPA:35890 ! turbinate bone primordium
 
 [Term]
 id: EMAPA:25094
@@ -30067,72 +30378,72 @@ relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:26430
-name: hindlimb digit 1 inter-phalangeal joint
+name: hindlimb digit 1 interphalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36337 ! hindlimb digit inter-phalangeal joint
+is_a: EMAPA:36337 ! hindlimb interphalangeal joint
 relationship: part_of EMAPA:17460 ! hindlimb digit 1
 
 [Term]
 id: EMAPA:26436
 name: hindlimb digit 1 metatarsal-phalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36338 ! hindlimb digit metatarsal-phalangeal joint
+is_a: EMAPA:36338 ! metatarsal-phalangeal joint
 relationship: part_of EMAPA:17460 ! hindlimb digit 1
 
 [Term]
 id: EMAPA:26442
 name: hindlimb digit 2 metatarsal-phalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36338 ! hindlimb digit metatarsal-phalangeal joint
+is_a: EMAPA:36338 ! metatarsal-phalangeal joint
 relationship: part_of EMAPA:17463 ! hindlimb digit 2
 
 [Term]
 id: EMAPA:26448
-name: hindlimb digit 2 inter-phalangeal joint
+name: hindlimb digit 2 interphalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36337 ! hindlimb digit inter-phalangeal joint
+is_a: EMAPA:36337 ! hindlimb interphalangeal joint
 relationship: part_of EMAPA:17463 ! hindlimb digit 2
 
 [Term]
 id: EMAPA:26454
-name: hindlimb digit 3 inter-phalangeal joint
+name: hindlimb digit 3 interphalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36337 ! hindlimb digit inter-phalangeal joint
+is_a: EMAPA:36337 ! hindlimb interphalangeal joint
 relationship: part_of EMAPA:17466 ! hindlimb digit 3
 
 [Term]
 id: EMAPA:26460
 name: hindlimb digit 3 metatarsal-phalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36338 ! hindlimb digit metatarsal-phalangeal joint
+is_a: EMAPA:36338 ! metatarsal-phalangeal joint
 relationship: part_of EMAPA:17466 ! hindlimb digit 3
 
 [Term]
 id: EMAPA:26466
-name: hindlimb digit 4 inter-phalangeal joint
+name: hindlimb digit 4 interphalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36337 ! hindlimb digit inter-phalangeal joint
+is_a: EMAPA:36337 ! hindlimb interphalangeal joint
 relationship: part_of EMAPA:17469 ! hindlimb digit 4
 
 [Term]
 id: EMAPA:26472
 name: hindlimb digit 4 metatarsal-phalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36338 ! hindlimb digit metatarsal-phalangeal joint
+is_a: EMAPA:36338 ! metatarsal-phalangeal joint
 relationship: part_of EMAPA:17469 ! hindlimb digit 4
 
 [Term]
 id: EMAPA:26478
-name: hindlimb digit 5 inter-phalangeal joint
+name: hindlimb digit 5 interphalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36337 ! hindlimb digit inter-phalangeal joint
+is_a: EMAPA:36337 ! hindlimb interphalangeal joint
 relationship: part_of EMAPA:17472 ! hindlimb digit 5
 
 [Term]
 id: EMAPA:26484
 name: hindlimb digit 5 metatarsal-phalangeal joint
 namespace: anatomical_structure
-is_a: EMAPA:36338 ! hindlimb digit metatarsal-phalangeal joint
+is_a: EMAPA:36338 ! metatarsal-phalangeal joint
 relationship: part_of EMAPA:17472 ! hindlimb digit 5
 
 [Term]
@@ -30769,6 +31080,7 @@ name: pubis cartilage condensation
 namespace: anatomical_structure
 synonym: "pubic cartilage condensation" RELATED []
 is_a: EMAPA:35981 ! pelvic girdle cartilage condensation
+relationship: develops_from EMAPA:18349 ! pubis pre-cartilage condensation
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -30777,6 +31089,7 @@ name: ischium cartilage condensation
 namespace: anatomical_structure
 synonym: "ischial cartilage condensation" RELATED []
 is_a: EMAPA:35981 ! pelvic girdle cartilage condensation
+relationship: develops_from EMAPA:18348 ! ischium pre-cartilage condensation
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -33031,6 +33344,7 @@ id: EMAPA:28407
 name: collecting duct
 namespace: anatomical_structure
 synonym: "ureteric tree" RELATED []
+relationship: develops_from EMAPA:17646 ! primitive collecting duct
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17373 ! metanephros
 relationship: starts_at TS21 ! TS21
@@ -33123,6 +33437,7 @@ id: EMAPA:28547
 name: allantois of embryonic urinary system
 namespace: anatomical_structure
 synonym: "remnant of allantois in embryo" RELATED []
+relationship: develops_from EMAPA:16107 ! allantois
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:17366 ! urinary system
 relationship: starts_at TS20 ! TS20
@@ -37684,6 +37999,7 @@ namespace: anatomical_structure
 synonym: "4-cell embryo" RELATED []
 synonym: "four-cell embryo" RELATED []
 is_a: EMAPA:16037 ! 4-8 cell stage embryo
+relationship: develops_from EMAPA:16036 ! 2-cell stage embryo
 relationship: part_of EMAPA:36043 ! 4-cell stage conceptus
 
 [Term]
@@ -37693,6 +38009,7 @@ namespace: anatomical_structure
 synonym: "8-cell embryo" RELATED []
 synonym: "eight-cell embryo" RELATED []
 is_a: EMAPA:16037 ! 4-8 cell stage embryo
+relationship: develops_from EMAPA:31864 ! 4-cell stage embryo
 relationship: part_of EMAPA:36044 ! 8-cell stage conceptus
 
 [Term]
@@ -38335,6 +38652,7 @@ id: EMAPA:32614
 name: phalanx
 namespace: anatomical_structure
 is_a: EMAPA:35494 ! limb bone
+relationship: develops_from EMAPA:32721 ! phalanx cartilage condensation
 relationship: part_of EMAPA:32725 ! limb digit
 
 [Term]
@@ -38430,6 +38748,7 @@ id: EMAPA:32626
 name: forelimb cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32701 ! limb cartilage condensation
+relationship: develops_from EMAPA:32625 ! forelimb pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:32628 ! forelimb mesenchyme
 relationship: starts_at TS21 ! TS21
@@ -38439,6 +38758,7 @@ id: EMAPA:32627
 name: forelimb epidermis
 namespace: anatomical_structure
 is_a: EMAPA:32612 ! forelimb skin
+relationship: develops_from EMAPA:32611 ! forelimb epithelium
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:32728 ! limb epidermis
 
@@ -38470,6 +38790,7 @@ id: EMAPA:32631
 name: hand cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32626 ! forelimb cartilage condensation
+relationship: develops_from EMAPA:32629 ! hand pre-cartilage condensation
 relationship: part_of EMAPA:17457 ! hand mesenchyme
 relationship: starts_at TS22 ! TS22
 
@@ -38478,6 +38799,7 @@ id: EMAPA:32632
 name: hindlimb cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32701 ! limb cartilage condensation
+relationship: develops_from EMAPA:32638 ! hindlimb pre-cartilage condensation
 relationship: part_of EMAPA:32637 ! hindlimb mesenchyme
 relationship: starts_at TS21 ! TS21
 
@@ -38511,6 +38833,7 @@ id: EMAPA:32636
 name: hindlimb epidermis
 namespace: anatomical_structure
 is_a: EMAPA:32620 ! hindlimb skin
+relationship: develops_from EMAPA:32621 ! hindlimb epithelium
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:32728 ! limb epidermis
 
@@ -38540,6 +38863,7 @@ id: EMAPA:32640
 name: forelimb digit cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32631 ! hand cartilage condensation
+relationship: develops_from EMAPA:32646 ! forelimb digit pre-cartilage condensation
 relationship: part_of EMAPA:32645 ! forelimb digit mesenchyme
 
 [Term]
@@ -38549,6 +38873,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:35394
 is_a: EMAPA:19204 ! forelimb joint
 is_a: EMAPA:35160 ! autopod joint
+relationship: develops_from EMAPA:38063 ! hand joint primordium
 relationship: part_of EMAPA:17428 ! hand
 
 [Term]
@@ -38623,6 +38948,7 @@ namespace: anatomical_structure
 is_a: EMAPA:32614 ! phalanx
 is_a: EMAPA:35350 ! forelimb long bone
 is_a: EMAPA:35391 ! hand bone
+relationship: develops_from EMAPA:32658 ! forelimb phalanx cartilage condensation
 relationship: part_of EMAPA:32642 ! forelimb digit
 
 [Term]
@@ -38675,6 +39001,7 @@ id: EMAPA:32657
 name: foot cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32632 ! hindlimb cartilage condensation
+relationship: develops_from EMAPA:32656 ! foot pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17488 ! foot mesenchyme
 relationship: starts_at TS22 ! TS22
@@ -38684,6 +39011,7 @@ id: EMAPA:32658
 name: forelimb phalanx cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32640 ! forelimb digit cartilage condensation
+relationship: develops_from EMAPA:32639 ! forelimb phalanx pre-cartilage condensation
 
 [Term]
 id: EMAPA:32659
@@ -38697,6 +39025,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:32660
 name: meninges
 namespace: anatomical_structure
+relationship: develops_from EMAPA:36711 ! primitive meninges
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16470 ! central nervous system
 relationship: starts_at TS20 ! TS20
@@ -38772,6 +39101,7 @@ id: EMAPA:32669
 name: vertebral cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32731 ! cartilage condensation
+relationship: develops_from EMAPA:32671 ! vertebral pre-cartilage condensation
 relationship: part_of EMAPA:17214 ! axial skeleton
 
 [Term]
@@ -39024,13 +39354,14 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16405 ! limb
 relationship: part_of EMAPA:35578 ! skeletal musculature
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:32701
 name: limb cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32731 ! cartilage condensation
+relationship: develops_from EMAPA:32706 ! limb pre-cartilage condensation
 relationship: part_of EMAPA:32705 ! limb mesenchyme
 relationship: starts_at TS20 ! TS20
 
@@ -39197,6 +39528,7 @@ name: phalanx cartilage condensation
 namespace: anatomical_structure
 synonym: "phalangeal cartilage condensation" RELATED []
 is_a: EMAPA:32701 ! limb cartilage condensation
+relationship: develops_from EMAPA:32720 ! phalanx pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:32719 ! digit mesenchyme
 relationship: starts_at TS22 ! TS22
@@ -39257,6 +39589,7 @@ id: EMAPA:32728
 name: limb epidermis
 namespace: anatomical_structure
 is_a: EMAPA:17528 ! epidermis
+relationship: develops_from EMAPA:32724 ! limb epithelium
 relationship: part_of EMAPA:32726 ! limb skin
 relationship: starts_at TS22 ! TS22
 
@@ -39343,6 +39676,7 @@ id: EMAPA:32740
 name: vertebra
 namespace: anatomical_structure
 is_a: EMAPA:32782 ! bone
+relationship: develops_from EMAPA:32669 ! vertebral cartilage condensation
 relationship: part_of EMAPA:17214 ! axial skeleton
 relationship: starts_at TS22 ! TS22
 
@@ -39650,6 +39984,7 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:32777
 name: tongue papillae
 namespace: anatomical_structure
+relationship: develops_from EMAPA:36761 ! tongue papillary placode
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17185 ! tongue
 relationship: starts_at TS22 ! TS22
@@ -39759,7 +40094,6 @@ namespace: anatomical_structure
 synonym: "brain stem nucleus" RELATED []
 is_a: EMAPA:35185 ! brain nucleus
 relationship: part_of EMAPA:32678 ! brainstem
-relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:32791
@@ -39857,6 +40191,7 @@ id: EMAPA:32802
 name: chondrocranium cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32731 ! cartilage condensation
+relationship: develops_from EMAPA:32799 ! chondrocranium pre-cartilage condensation
 relationship: part_of EMAPA:17681 ! chondrocranium
 relationship: starts_at TS22 ! TS22
 
@@ -40152,6 +40487,7 @@ id: EMAPA:32842
 name: neocortex
 namespace: anatomical_structure
 synonym: "cerebral cortex" RELATED []
+synonym: "isocortex" RELATED []
 synonym: "neopallium" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17544 ! cerebral cortex
@@ -40217,6 +40553,7 @@ name: metacarpus cartilage condensation
 namespace: anatomical_structure
 synonym: "metacarpal cartilage condensation" RELATED []
 is_a: EMAPA:32640 ! forelimb digit cartilage condensation
+relationship: develops_from EMAPA:32850 ! metacarpus pre-cartilage condensation
 
 [Term]
 id: EMAPA:32850
@@ -40276,6 +40613,7 @@ namespace: anatomical_structure
 is_a: EMAPA:32888 ! enamel organ
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:32865 ! upper jaw tooth epithelium
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:32859
@@ -40415,6 +40753,7 @@ namespace: anatomical_structure
 is_a: EMAPA:32888 ! enamel organ
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:32868 ! lower jaw tooth epithelium
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:32876
@@ -40451,6 +40790,7 @@ name: molar enamel organ
 namespace: anatomical_structure
 is_a: EMAPA:32888 ! enamel organ
 relationship: part_of EMAPA:32878 ! molar epithelium
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:32881
@@ -40514,13 +40854,14 @@ name: enamel organ
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32903 ! tooth epithelium
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:32889
 name: incisor
 namespace: anatomical_structure
 is_a: EMAPA:32906 ! tooth
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:32890
@@ -40567,6 +40908,7 @@ name: incisor enamel organ
 namespace: anatomical_structure
 is_a: EMAPA:32888 ! enamel organ
 relationship: part_of EMAPA:32890 ! incisor epithelium
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:32896
@@ -40580,6 +40922,7 @@ id: EMAPA:32897
 name: molar
 namespace: anatomical_structure
 is_a: EMAPA:32906 ! tooth
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:32898
@@ -40640,6 +40983,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:32905
 name: jaw
 namespace: anatomical_structure
+relationship: develops_from EMAPA:32901 ! jaw primordium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16262 ! oral region
 relationship: starts_at TS20 ! TS20
@@ -40649,9 +40993,10 @@ id: EMAPA:32906
 name: tooth
 namespace: anatomical_structure
 synonym: "teeth" RELATED []
+relationship: develops_from EMAPA:36740 ! tooth bud
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32905 ! jaw
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:32907
@@ -40852,6 +41197,7 @@ id: EMAPA:32939
 name: hindlimb digit cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32657 ! foot cartilage condensation
+relationship: develops_from EMAPA:32938 ! hindlimb digit pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:32947 ! hindlimb digit mesenchyme
 
@@ -40870,6 +41216,7 @@ namespace: anatomical_structure
 is_a: EMAPA:32614 ! phalanx
 is_a: EMAPA:35354 ! foot bone
 is_a: EMAPA:35403 ! hindlimb long bone
+relationship: develops_from EMAPA:32948 ! hindlimb phalanx cartilage condensation
 relationship: part_of EMAPA:32649 ! hindlimb digit
 
 [Term]
@@ -40924,6 +41271,7 @@ id: EMAPA:32948
 name: hindlimb phalanx cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32939 ! hindlimb digit cartilage condensation
+relationship: develops_from EMAPA:32950 ! hindlimb phalanx pre-cartilage condensation
 
 [Term]
 id: EMAPA:32949
@@ -40945,6 +41293,7 @@ name: metatarsus cartilage condensation
 namespace: anatomical_structure
 synonym: "metatarsal cartilage condensation" RELATED []
 is_a: EMAPA:32939 ! hindlimb digit cartilage condensation
+relationship: develops_from EMAPA:32956 ! metatarsus pre-cartilage condensation
 
 [Term]
 id: EMAPA:32952
@@ -41584,6 +41933,7 @@ name: atrioventricular valve
 namespace: anatomical_structure
 synonym: "atrio-ventricular valve" RELATED []
 is_a: EMAPA:17869 ! heart valve
+relationship: develops_from EMAPA:36708 ! atrioventricular valve primordium
 
 [Term]
 id: EMAPA:35155
@@ -41606,6 +41956,7 @@ name: pinna cartilage
 namespace: anatomical_structure
 synonym: "auricular cartilage" RELATED []
 is_a: EMAPA:35978 ! sensory organ cartilage
+relationship: develops_from EMAPA:25353 ! pinna cartilage condensation
 relationship: part_of EMAPA:17589 ! pinna
 relationship: starts_at TS28 ! TS28
 
@@ -41799,7 +42150,6 @@ namespace: anatomical_structure
 synonym: "brain grey matter" EXACT []
 is_a: EMAPA:37596 ! gray matter
 relationship: part_of EMAPA:16894 ! brain
-relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35185
@@ -41807,7 +42157,7 @@ name: brain nucleus
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35184 ! brain gray matter
-relationship: starts_at TS22 ! TS22
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35186
@@ -41948,7 +42298,7 @@ relationship: part_of EMAPA:32672 ! amygdala
 
 [Term]
 id: EMAPA:35205
-name: central lateral nucleus
+name: central lateral thalamic nucleus
 namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: part_of EMAPA:35445 ! intralaminar thalamic group
@@ -42197,6 +42547,7 @@ id: EMAPA:35238
 name: chondrocranium bone
 namespace: anatomical_structure
 is_a: EMAPA:35996 ! head bone
+relationship: develops_from EMAPA:32802 ! chondrocranium cartilage condensation
 relationship: part_of EMAPA:17681 ! chondrocranium
 
 [Term]
@@ -42298,7 +42649,6 @@ id: EMAPA:35252
 name: coronary vascular plexus
 namespace: anatomical_structure
 is_a: EMAPA:35904 ! vascular plexus
-relationship: ends_at TS20 ! TS20
 relationship: part_of EMAPA:16105 ! heart
 relationship: starts_at TS20 ! TS20
 
@@ -42453,6 +42803,7 @@ name: deep cerebellar nucleus
 namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: part_of EMAPA:36777 ! cerebellum gray matter
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35273
@@ -42585,6 +42936,7 @@ name: dorsal lateral geniculate nucleus
 namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: part_of EMAPA:35478 ! lateral geniculate nucleus
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35291
@@ -42931,14 +43283,14 @@ namespace: anatomical_structure
 synonym: "facial VII nucleus" RELATED []
 is_a: EMAPA:32790 ! brainstem nucleus
 relationship: part_of EMAPA:17563 ! pons
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35339
 name: fasciola cinereum
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35405 ! hippocampal formation
+relationship: part_of EMAPA:19042 ! allocortex
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -43038,6 +43390,7 @@ id: EMAPA:35354
 name: foot bone
 namespace: anatomical_structure
 is_a: EMAPA:35934 ! hindlimb bone
+relationship: develops_from EMAPA:32657 ! foot cartilage condensation
 relationship: part_of EMAPA:17459 ! foot
 
 [Term]
@@ -43289,6 +43642,7 @@ id: EMAPA:35391
 name: hand bone
 namespace: anatomical_structure
 is_a: EMAPA:35933 ! forelimb bone
+relationship: develops_from EMAPA:32631 ! hand cartilage condensation
 relationship: part_of EMAPA:32643 ! hand skeleton
 
 [Term]
@@ -43376,7 +43730,7 @@ id: EMAPA:35405
 name: hippocampal formation
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16910 ! telencephalon
+relationship: part_of EMAPA:19042 ! allocortex
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -43560,11 +43914,12 @@ relationship: part_of EMAPA:32889 ! incisor
 
 [Term]
 id: EMAPA:35430
-name: induseum griseum
+name: indusium griseum
 namespace: anatomical_structure
+synonym: "induseum griseum" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35405 ! hippocampal formation
-relationship: starts_at TS27 ! TS27
+relationship: part_of EMAPA:19042 ! allocortex
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35431
@@ -43823,14 +44178,14 @@ synonym: "lachrymal gland" RELATED []
 is_a: EMAPA:35327 ! exocrine gland
 is_a: EMAPA:35334 ! eye gland
 relationship: part_of EMAPA:35462 ! lacrimal apparatus
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35464
 name: lacrimal gland bud
 namespace: anatomical_structure
 synonym: "lachrymal gland bud" RELATED []
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:16198 ! eye
 relationship: starts_at TS22 ! TS22
 
@@ -43948,6 +44303,7 @@ name: lateral geniculate nucleus
 namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: part_of EMAPA:35376 ! geniculate thalamic group
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35479
@@ -43955,6 +44311,7 @@ name: lateral habenular nucleus
 namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: part_of EMAPA:35386 ! habenula
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35480
@@ -44073,6 +44430,7 @@ id: EMAPA:35494
 name: limb bone
 namespace: anatomical_structure
 is_a: EMAPA:32782 ! bone
+relationship: develops_from EMAPA:32701 ! limb cartilage condensation
 relationship: part_of EMAPA:16405 ! limb
 relationship: part_of EMAPA:32729 ! appendicular skeleton
 relationship: starts_at TS23 ! TS23
@@ -44426,7 +44784,7 @@ name: mammary gland duct
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17759 ! mammary gland
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35539
@@ -44491,6 +44849,7 @@ name: medial habenular nucleus
 namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: part_of EMAPA:35386 ! habenula
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35548
@@ -44902,7 +45261,7 @@ name: oblique abdominal muscle
 namespace: anatomical_structure
 is_a: EMAPA:17745 ! anterior abdominal wall muscle
 is_a: EMAPA:35988 ! skeletal muscle
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35604
@@ -44999,8 +45358,9 @@ id: EMAPA:35617
 name: optic tract
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16896 ! diencephalon
 relationship: part_of EMAPA:17575 ! optic nerve
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35618
@@ -45376,6 +45736,7 @@ id: EMAPA:35668
 name: patella
 namespace: anatomical_structure
 is_a: EMAPA:35934 ! hindlimb bone
+relationship: develops_from EMAPA:19140 ! patella cartilage condensation
 relationship: part_of EMAPA:17493 ! knee
 relationship: part_of EMAPA:32633 ! hindlimb skeleton
 relationship: starts_at TS27 ! TS27
@@ -46063,6 +46424,7 @@ id: EMAPA:35760
 name: semilunar valve
 namespace: anatomical_structure
 is_a: EMAPA:17869 ! heart valve
+relationship: develops_from EMAPA:36709 ! semilunar valve primordium
 
 [Term]
 id: EMAPA:35761
@@ -46549,6 +46911,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:35828
 name: subcommissural organ
 namespace: anatomical_structure
+relationship: develops_from EMAPA:36450 ! subcommissural organ primordium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19051 ! tectum
 relationship: part_of EMAPA:36449 ! forebrain-midbrain boundary region
@@ -46745,8 +47108,7 @@ name: tendo calcaneus
 namespace: anatomical_structure
 synonym: "Achilles tendon" RELATED []
 synonym: "calcaneal tendon" RELATED []
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:35854 ! tendon
+is_a: EMAPA:38060 ! hindlimb tendon
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -46755,7 +47117,7 @@ name: tendon
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35251 ! connective tissue
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35855
@@ -46793,6 +47155,7 @@ name: thalamic nucleus
 namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: part_of EMAPA:17540 ! thalamus
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35860
@@ -46978,6 +47341,7 @@ namespace: anatomical_structure
 synonym: "trigeminal V nucleus" RELATED []
 is_a: EMAPA:32790 ! brainstem nucleus
 relationship: part_of EMAPA:17563 ! pons
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35884
@@ -47168,7 +47532,7 @@ name: venous system endothelium
 namespace: anatomical_structure
 is_a: EMAPA:35176 ! blood vessel endothelium
 relationship: part_of EMAPA:16240 ! venous system
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35908
@@ -47176,6 +47540,7 @@ name: ventral lateral geniculate nucleus
 namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: part_of EMAPA:35478 ! lateral geniculate nucleus
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35909
@@ -47363,6 +47728,7 @@ id: EMAPA:35933
 name: forelimb bone
 namespace: anatomical_structure
 is_a: EMAPA:35494 ! limb bone
+relationship: develops_from EMAPA:32626 ! forelimb cartilage condensation
 relationship: part_of EMAPA:17412 ! forelimb
 
 [Term]
@@ -47370,6 +47736,7 @@ id: EMAPA:35934
 name: hindlimb bone
 namespace: anatomical_structure
 is_a: EMAPA:35494 ! limb bone
+relationship: develops_from EMAPA:32632 ! hindlimb cartilage condensation
 relationship: part_of EMAPA:17458 ! hindlimb
 
 [Term]
@@ -47446,15 +47813,13 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:35944
 name: limb bud
 namespace: anatomical_structure
-relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:16405 ! limb
-relationship: starts_at TS14 ! TS14
+is_a: EMAPA:38098 ! limb primordium
 
 [Term]
 id: EMAPA:35945
 name: gum
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16262 ! oral region
 relationship: starts_at TS22 ! TS22
 
@@ -47628,7 +47993,6 @@ id: EMAPA:35966
 name: gum epithelium
 namespace: anatomical_structure
 is_a: EMAPA:32904 ! jaw epithelium
-relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:35945 ! gum
 relationship: starts_at TS22 ! TS22
 
@@ -47730,6 +48094,7 @@ id: EMAPA:35979
 name: ossicle cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32731 ! cartilage condensation
+relationship: develops_from EMAPA:35982 ! ossicle pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17000 ! middle ear
 relationship: starts_at TS22 ! TS22
@@ -47739,6 +48104,7 @@ id: EMAPA:35980
 name: pectoral-thoracic cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32731 ! cartilage condensation
+relationship: develops_from EMAPA:35983 ! pectoral-thoracic pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:18025 ! thoracic segment skeleton
 relationship: starts_at TS21 ! TS21
@@ -47748,6 +48114,7 @@ id: EMAPA:35981
 name: pelvic girdle cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32731 ! cartilage condensation
+relationship: develops_from EMAPA:35984 ! pelvic girdle pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:18028 ! pelvic girdle skeleton
 relationship: starts_at TS22 ! TS22
@@ -47885,6 +48252,7 @@ id: EMAPA:35998
 name: pituitary gland
 namespace: anatomical_structure
 is_a: EMAPA:35999 ! endocrine gland
+relationship: develops_from EMAPA:32796 ! future pituitary
 relationship: part_of EMAPA:16896 ! diencephalon
 relationship: starts_at TS20 ! TS20
 
@@ -48173,6 +48541,7 @@ id: EMAPA:36036
 name: rib cartilage
 namespace: anatomical_structure
 is_a: EMAPA:32730 ! cartilage
+relationship: develops_from EMAPA:17678 ! rib cartilage condensation
 relationship: part_of EMAPA:18010 ! rib
 relationship: starts_at TS23 ! TS23
 
@@ -48373,7 +48742,7 @@ id: EMAPA:36062
 name: cranium bone primordium
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:17680 ! cranium
+relationship: part_of EMAPA:36867 ! craniocervical region
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -49059,8 +49428,8 @@ namespace: anatomical_structure
 def: "The prostate bud (syn: prostatic bud, prostate gland bud) (TS24-TS27). Androgens produced by the male, leads to the formation of numerous prostate buds, which develop from the epithelium of the pelvic urethra in distinct locations. Anterior and dorsal prostatic buds are the first to emerge at E16.5 (TS24) and later lateral and ventral buds at E17.5 (TS25). Prostate buds emerge from the epithelium in the location of the mesenchymal pads. Comprised of epithelium of prostate bud (derived from the urogenital sinus epithelium) and peri-prostatic mesenchyme of prostate bud. Epithelial layer of prostate bud is selectively marked by Wnt10b (E17 to P0, in all prostate bud regions) and is also marked by Nkx3-1 at E16 to P0 (also expressed in urethral gland buds, E16 to P0). In the prostate gland, Bmp2 is selectively expressed by epithelium of ventral prostate bud at E17. Prostate bud formation is complete by E18.5 (TS26) and elongation and differentiation continues after birth. The different prostate bud regions show differences in size, patterning and location." [PMID:25968320]
 synonym: "prostate gland bud" RELATED []
 synonym: "prostatic bud" RELATED []
+is_a: EMAPA:19285 ! male accessory gland
 relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:19287 ! prostate gland
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -49195,6 +49564,7 @@ id: EMAPA:36158
 name: metacarpal bone
 namespace: anatomical_structure
 is_a: EMAPA:35350 ! forelimb long bone
+relationship: develops_from EMAPA:32849 ! metacarpus cartilage condensation
 relationship: part_of EMAPA:32643 ! hand skeleton
 relationship: part_of EMAPA:32654 ! metacarpus
 
@@ -49203,6 +49573,7 @@ id: EMAPA:36159
 name: metatarsal bone
 namespace: anatomical_structure
 is_a: EMAPA:35403 ! hindlimb long bone
+relationship: develops_from EMAPA:32951 ! metatarsus cartilage condensation
 relationship: part_of EMAPA:32940 ! metatarsus
 
 [Term]
@@ -50069,7 +50440,6 @@ name: vein endothelium
 namespace: anatomical_structure
 is_a: EMAPA:35907 ! venous system endothelium
 relationship: part_of EMAPA:36308 ! vein tunica intima
-relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:36289
@@ -50084,7 +50454,6 @@ name: venule endothelium
 namespace: anatomical_structure
 is_a: EMAPA:35907 ! venous system endothelium
 relationship: part_of EMAPA:35917 ! venule
-relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:36291
@@ -50286,6 +50655,7 @@ id: EMAPA:36318
 name: Reichert's cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32731 ! cartilage condensation
+relationship: develops_from EMAPA:36317 ! Reichert's cartilage pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
 relationship: starts_at TS20 ! TS20
 
@@ -50294,6 +50664,7 @@ id: EMAPA:36319
 name: Reichert's cartilage
 namespace: anatomical_structure
 is_a: EMAPA:36062 ! cranium bone primordium
+relationship: develops_from EMAPA:36318 ! Reichert's cartilage condensation
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -50422,13 +50793,14 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:36335
 name: remnant of mesonephric tubule of male
 namespace: anatomical_structure
+relationship: develops_from EMAPA:16747 ! mesonephric tubule
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:17968 ! male reproductive system
 relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:36336
-name: forelimb digit inter-phalangeal joint
+name: forelimb interphalangeal joint
 namespace: anatomical_structure
 is_a: EMAPA:32641 ! hand joint
 is_a: EMAPA:37884 ! interphalangeal joint
@@ -50436,7 +50808,7 @@ relationship: part_of EMAPA:32642 ! forelimb digit
 
 [Term]
 id: EMAPA:36337
-name: hindlimb digit inter-phalangeal joint
+name: hindlimb interphalangeal joint
 namespace: anatomical_structure
 is_a: EMAPA:32949 ! foot joint
 is_a: EMAPA:37884 ! interphalangeal joint
@@ -50445,7 +50817,7 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:36338
-name: hindlimb digit metatarsal-phalangeal joint
+name: metatarsal-phalangeal joint
 namespace: anatomical_structure
 is_a: EMAPA:32949 ! foot joint
 relationship: starts_at TS22 ! TS22
@@ -51762,6 +52134,7 @@ id: EMAPA:36501
 name: limb joint
 namespace: anatomical_structure
 is_a: EMAPA:35456 ! joint
+relationship: develops_from EMAPA:32699 ! limb joint primordium
 relationship: part_of EMAPA:16405 ! limb
 
 [Term]
@@ -51870,7 +52243,7 @@ name: lacrimal gland epithelium
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35463 ! lacrimal gland
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:36516
@@ -52282,6 +52655,8 @@ name: trabeculae carneae cardiac muscle
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18626 ! trabeculae carneae
+relationship: part_of EMAPA:32748 ! ventricle cardiac muscle
+relationship: part_of EMAPA:36721 ! trabecular myocardium
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -52548,6 +52923,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36609
 name: choroid plexus stroma
 namespace: anatomical_structure
+synonym: "choroid plexus mesenchyme" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32741 ! choroid plexus
 relationship: starts_at TS28 ! TS28
@@ -52617,6 +52993,7 @@ id: EMAPA:36618
 name: supraoccipital bone
 namespace: anatomical_structure
 is_a: EMAPA:35238 ! chondrocranium bone
+relationship: develops_from EMAPA:18341 ! supraoccipital cartilage condensation
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -52829,9 +53206,10 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:36646
 name: cardiac interstitium
 namespace: anatomical_structure
+synonym: "myocardial interstitium" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16105 ! heart
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:36647
@@ -53193,7 +53571,8 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:36694
 name: quadriceps tendon
 namespace: anatomical_structure
-is_a: EMAPA:35854 ! tendon
+is_a: EMAPA:38060 ! hindlimb tendon
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: EMAPA:36695
@@ -53409,6 +53788,7 @@ id: EMAPA:36721
 name: trabecular myocardium
 namespace: anatomical_structure
 is_a: EMAPA:37475 ! myocardium layer
+relationship: part_of EMAPA:38051 ! heart trabecula
 
 [Term]
 id: EMAPA:36722
@@ -53559,8 +53939,10 @@ id: EMAPA:36740
 name: tooth bud
 namespace: anatomical_structure
 synonym: "bud stage tooth" RELATED []
-is_a: EMAPA:32906 ! tooth
+relationship: develops_from EMAPA:36739 ! dental placode
 relationship: ends_at TS22 ! TS22
+relationship: part_of EMAPA:32905 ! jaw
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:36741
@@ -53583,7 +53965,6 @@ name: early bell stage tooth
 namespace: anatomical_structure
 is_a: EMAPA:36742 ! bell stage tooth
 relationship: ends_at TS25 ! TS25
-relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:36744
@@ -53660,10 +54041,11 @@ relationship: ends_at TS14 ! TS14
 
 [Term]
 id: EMAPA:36753
-name: adenohyophyseal placode
+name: adenohypophyseal placode
 namespace: anatomical_structure
 synonym: "hypophyseal placode" RELATED []
 is_a: EMAPA:36751 ! cranial placode
+relationship: develops_from EMAPA:36765 ! anterior pituitary pre-placode
 relationship: ends_at TS14 ! TS14
 
 [Term]
@@ -53751,7 +54133,7 @@ relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:36765
-name: pituitary pre-placode
+name: anterior pituitary pre-placode
 namespace: anatomical_structure
 is_a: EMAPA:36749 ! pre-placodal region
 relationship: ends_at TS13 ! TS13
@@ -53841,6 +54223,7 @@ namespace: anatomical_structure
 synonym: "cerebellum grey matter" RELATED []
 is_a: EMAPA:35184 ! brain gray matter
 relationship: part_of EMAPA:17787 ! cerebellum
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:36778
@@ -55074,7 +55457,7 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:36950
-name: alveolar process of maxilla
+name: maxilla alveolar process
 namespace: anatomical_structure
 is_a: EMAPA:35118 ! alveolar process
 relationship: part_of EMAPA:17639 ! maxilla
@@ -55747,6 +56130,7 @@ relationship: part_of EMAPA:32742 ! 4th ventricle choroid plexus
 id: EMAPA:37039
 name: 4th ventricle choroid plexus stroma
 namespace: anatomical_structure
+synonym: "4th ventricle choroid plexus mesenchyme" RELATED []
 is_a: EMAPA:36609 ! choroid plexus stroma
 relationship: part_of EMAPA:32742 ! 4th ventricle choroid plexus
 
@@ -55761,6 +56145,7 @@ relationship: part_of EMAPA:17769 ! lateral ventricle choroid plexus
 id: EMAPA:37041
 name: lateral ventricle choroid plexus stroma
 namespace: anatomical_structure
+synonym: "lateral ventricle choroid plexus mesenchyme" RELATED []
 is_a: EMAPA:36609 ! choroid plexus stroma
 relationship: part_of EMAPA:17769 ! lateral ventricle choroid plexus
 
@@ -55867,6 +56252,7 @@ relationship: part_of EMAPA:18543 ! 3rd ventricle choroid plexus
 id: EMAPA:37056
 name: 3rd ventricle choroid plexus stroma
 namespace: anatomical_structure
+synonym: "3rd ventricle choroid plexus mesenchyme" RELATED []
 is_a: EMAPA:36609 ! choroid plexus stroma
 relationship: part_of EMAPA:18543 ! 3rd ventricle choroid plexus
 
@@ -55892,6 +56278,7 @@ name: abdominal segment connective tissue
 namespace: anatomical_structure
 is_a: EMAPA:37252 ! trunk connective tissue
 relationship: part_of EMAPA:35104 ! abdominal segment of trunk
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:37060
@@ -57251,7 +57638,6 @@ name: trunk connective tissue
 namespace: anatomical_structure
 is_a: EMAPA:35251 ! connective tissue
 relationship: part_of EMAPA:31857 ! trunk
-relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:37253
@@ -57281,7 +57667,6 @@ name: back connective tissue
 namespace: anatomical_structure
 is_a: EMAPA:37252 ! trunk connective tissue
 relationship: part_of EMAPA:35162 ! back of trunk
-relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37257
@@ -57705,7 +58090,7 @@ name: limb connective tissue
 namespace: anatomical_structure
 is_a: EMAPA:35251 ! connective tissue
 relationship: part_of EMAPA:16405 ! limb
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37314
@@ -58565,17 +58950,18 @@ is_a: EMAPA:37092 ! labial artery
 
 [Term]
 id: EMAPA:37431
-name: atrioventricular septum
+name: atrioventricular septal complex
 namespace: anatomical_structure
+synonym: "atrioventricular septum" RELATED []
 is_a: EMAPA:35400 ! heart septum
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:37432
-name: atrium myocardial trabecula
+name: atrial trabecula
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:32746 ! atrium cardiac muscle
+is_a: EMAPA:38051 ! heart trabecula
+relationship: part_of EMAPA:16688 ! heart atrium
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -59496,7 +59882,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37558
 name: large intestine smooth muscle circular layer
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
+is_a: EMAPA:38067 ! intestine smooth muscle circular layer
 relationship: part_of EMAPA:35469 ! large intestine smooth muscle
 relationship: starts_at TS28 ! TS28
 
@@ -59504,7 +59890,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37559
 name: large intestine smooth muscle longitudinal layer
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
+is_a: EMAPA:38068 ! intestine smooth muscle longitudinal layer
 relationship: part_of EMAPA:35469 ! large intestine smooth muscle
 relationship: starts_at TS28 ! TS28
 
@@ -59528,7 +59914,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37562
 name: small intestine smooth muscle circular layer
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
+is_a: EMAPA:38067 ! intestine smooth muscle circular layer
 relationship: part_of EMAPA:35783 ! small intestine smooth muscle
 relationship: starts_at TS28 ! TS28
 
@@ -59536,7 +59922,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37563
 name: small intestine smooth muscle longitudinal layer
 namespace: anatomical_structure
-relationship: ends_at TS28 ! TS28
+is_a: EMAPA:38068 ! intestine smooth muscle longitudinal layer
 relationship: part_of EMAPA:35783 ! small intestine smooth muscle
 relationship: starts_at TS28 ! TS28
 
@@ -60309,7 +60695,7 @@ name: mammary gland smooth muscle
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17759 ! mammary gland
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37670
@@ -61529,7 +61915,7 @@ namespace: anatomical_structure
 synonym: "corneal limbus" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:37836
@@ -62020,7 +62406,9 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37900
 name: mammary duct terminal end bud
 namespace: anatomical_structure
-is_a: EMAPA:35538 ! mammary gland duct
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35538 ! mammary gland duct
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37901
@@ -62239,7 +62627,7 @@ name: palatal muscle
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18949 ! soft palate
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:37930
@@ -63082,6 +63470,440 @@ namespace: anatomical_structure
 is_a: EMAPA:38037 ! mammary gland primordium
 relationship: develops_from EMAPA:35536 ! mammary bud
 relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:38041
+name: carpal-metacarpal joint
+namespace: anatomical_structure
+is_a: EMAPA:32641 ! hand joint
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38042
+name: tarsal-metatarsal joint
+namespace: anatomical_structure
+is_a: EMAPA:32949 ! foot joint
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38043
+name: proximal interphalangeal joint
+namespace: anatomical_structure
+is_a: EMAPA:37884 ! interphalangeal joint
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38044
+name: distal interphalangeal joint
+namespace: anatomical_structure
+is_a: EMAPA:37884 ! interphalangeal joint
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38045
+name: forelimb proximal interphalangeal joint
+namespace: anatomical_structure
+is_a: EMAPA:36336 ! forelimb interphalangeal joint
+is_a: EMAPA:38043 ! proximal interphalangeal joint
+
+[Term]
+id: EMAPA:38046
+name: forelimb distal interphalangeal joint
+namespace: anatomical_structure
+is_a: EMAPA:36336 ! forelimb interphalangeal joint
+is_a: EMAPA:38044 ! distal interphalangeal joint
+
+[Term]
+id: EMAPA:38047
+name: hindlimb proximal interphalangeal joint
+namespace: anatomical_structure
+is_a: EMAPA:36337 ! hindlimb interphalangeal joint
+is_a: EMAPA:38043 ! proximal interphalangeal joint
+
+[Term]
+id: EMAPA:38048
+name: hindlimb distal interphalangeal joint
+namespace: anatomical_structure
+is_a: EMAPA:36337 ! hindlimb interphalangeal joint
+is_a: EMAPA:38044 ! distal interphalangeal joint
+
+[Term]
+id: EMAPA:38049
+name: joint of auditory ossicle
+namespace: anatomical_structure
+is_a: EMAPA:35456 ! joint
+relationship: part_of EMAPA:17000 ! middle ear
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:38050
+name: incudomalleal joint
+namespace: anatomical_structure
+synonym: "incudomalleolar joint" RELATED []
+is_a: EMAPA:38049 ! joint of auditory ossicle
+
+[Term]
+id: EMAPA:38051
+name: heart trabecula
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16105 ! heart
+relationship: starts_at TS17 ! TS17
+
+[Term]
+id: EMAPA:38052
+name: atrial trabecula cardiac muscle
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32746 ! atrium cardiac muscle
+relationship: part_of EMAPA:36721 ! trabecular myocardium
+relationship: part_of EMAPA:37432 ! atrial trabecula
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38053
+name: atrioventricular sulcus
+namespace: anatomical_structure
+synonym: "AV sulcus" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16105 ! heart
+relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:38054
+name: limb tendon
+namespace: anatomical_structure
+is_a: EMAPA:35854 ! tendon
+relationship: part_of EMAPA:16405 ! limb
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:38055
+name: tendon primordium
+namespace: anatomical_structure
+relationship: ends_at TS23 ! TS23
+relationship: part_of EMAPA:35961 ! embryo mesenchyme
+relationship: starts_at TS13 ! TS13
+
+[Term]
+id: EMAPA:38056
+name: limb tendon primordium
+namespace: anatomical_structure
+is_a: EMAPA:38055 ! tendon primordium
+relationship: part_of EMAPA:16405 ! limb
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:38057
+name: forelimb tendon primordium
+namespace: anatomical_structure
+is_a: EMAPA:38056 ! limb tendon primordium
+relationship: part_of EMAPA:17412 ! forelimb
+
+[Term]
+id: EMAPA:38058
+name: hindlimb tendon primordium
+namespace: anatomical_structure
+is_a: EMAPA:38056 ! limb tendon primordium
+relationship: part_of EMAPA:17458 ! hindlimb
+
+[Term]
+id: EMAPA:38059
+name: forelimb tendon
+namespace: anatomical_structure
+is_a: EMAPA:38054 ! limb tendon
+relationship: part_of EMAPA:17412 ! forelimb
+
+[Term]
+id: EMAPA:38060
+name: hindlimb tendon
+namespace: anatomical_structure
+is_a: EMAPA:38054 ! limb tendon
+relationship: part_of EMAPA:17458 ! hindlimb
+
+[Term]
+id: EMAPA:38061
+name: forelimb joint primordium
+namespace: anatomical_structure
+is_a: EMAPA:32699 ! limb joint primordium
+relationship: part_of EMAPA:17412 ! forelimb
+
+[Term]
+id: EMAPA:38062
+name: hindlimb joint primordium
+namespace: anatomical_structure
+is_a: EMAPA:32699 ! limb joint primordium
+relationship: part_of EMAPA:17458 ! hindlimb
+
+[Term]
+id: EMAPA:38063
+name: hand joint primordium
+namespace: anatomical_structure
+is_a: EMAPA:38061 ! forelimb joint primordium
+relationship: part_of EMAPA:17457 ! hand mesenchyme
+
+[Term]
+id: EMAPA:38064
+name: foot joint primordium
+namespace: anatomical_structure
+is_a: EMAPA:38062 ! hindlimb joint primordium
+relationship: part_of EMAPA:17488 ! foot mesenchyme
+
+[Term]
+id: EMAPA:38065
+name: anterior cruciate ligament
+namespace: anatomical_structure
+is_a: EMAPA:38004 ! cruciate ligament of knee
+relationship: starts_at TS26 ! TS26
+
+[Term]
+id: EMAPA:38066
+name: posterior cruciate ligament
+namespace: anatomical_structure
+is_a: EMAPA:38004 ! cruciate ligament of knee
+relationship: starts_at TS26 ! TS26
+
+[Term]
+id: EMAPA:38067
+name: intestine smooth muscle circular layer
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35443 ! intestine smooth muscle
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38068
+name: intestine smooth muscle longitudinal layer
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35443 ! intestine smooth muscle
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38069
+name: secondary motor cortex
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35357 ! frontal cortex
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38070
+name: ectorhinal area
+namespace: anatomical_structure
+is_a: EMAPA:35589 ! neocortex region
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38071
+name: infralimbic area
+namespace: anatomical_structure
+is_a: EMAPA:35589 ! neocortex region
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38072
+name: orbital area
+namespace: anatomical_structure
+is_a: EMAPA:35589 ! neocortex region
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38073
+name: anterior medial thalamic nucleus
+namespace: anatomical_structure
+is_a: EMAPA:35859 ! thalamic nucleus
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38074
+name: vestibulocerebellar nucleus
+namespace: anatomical_structure
+is_a: EMAPA:35272 ! deep cerebellar nucleus
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38075
+name: lateral dorsal thalamic nucleus
+namespace: anatomical_structure
+is_a: EMAPA:35859 ! thalamic nucleus
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38076
+name: lateral posterior thalamic nucleus
+namespace: anatomical_structure
+is_a: EMAPA:35859 ! thalamic nucleus
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38077
+name: ventral medial thalamic nucleus
+namespace: anatomical_structure
+is_a: EMAPA:35859 ! thalamic nucleus
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38078
+name: cranial cartilage
+namespace: anatomical_structure
+is_a: EMAPA:32730 ! cartilage
+relationship: part_of EMAPA:17680 ! cranium
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:38079
+name: tectum transversum
+namespace: anatomical_structure
+is_a: EMAPA:38078 ! cranial cartilage
+relationship: ends_at TS26 ! TS26
+
+[Term]
+id: EMAPA:38080
+name: cervical loop
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32888 ! enamel organ
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38081
+name: stellate reticulum
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38080 ! cervical loop
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38082
+name: stratum intermedium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38080 ! cervical loop
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38083
+name: Hertwig's epithelial root sheath
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32888 ! enamel organ
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38084
+name: enamel epithelium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32888 ! enamel organ
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38085
+name: inner enamel epithelium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38084 ! enamel epithelium
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38086
+name: outer enamel epithelium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38084 ! enamel epithelium
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38087
+name: dental alveolus
+namespace: anatomical_structure
+synonym: "tooth alveolus" RELATED []
+synonym: "tooth socket" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35118 ! alveolar process
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:38088
+name: interalveolar bone
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35118 ! alveolar process
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:38089
+name: early bud stage tooth
+namespace: anatomical_structure
+is_a: EMAPA:36740 ! tooth bud
+relationship: ends_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38090
+name: late bud stage tooth
+namespace: anatomical_structure
+is_a: EMAPA:36740 ! tooth bud
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38091
+name: enamel knot
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32906 ! tooth
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38092
+name: primary enamel knot
+namespace: anatomical_structure
+is_a: EMAPA:38091 ! enamel knot
+relationship: ends_at TS23 ! TS23
+
+[Term]
+id: EMAPA:38093
+name: secondary enamel knot
+namespace: anatomical_structure
+is_a: EMAPA:38091 ! enamel knot
+relationship: ends_at TS26 ! TS26
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:38094
+name: tertiary enamel knot
+namespace: anatomical_structure
+is_a: EMAPA:38091 ! enamel knot
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:38095
+name: tensor veli palatini
+namespace: anatomical_structure
+is_a: EMAPA:37929 ! palatal muscle
+
+[Term]
+id: EMAPA:38096
+name: levator veli palatini
+namespace: anatomical_structure
+is_a: EMAPA:37929 ! palatal muscle
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38097
+name: palatopharyngeus
+namespace: anatomical_structure
+is_a: EMAPA:18963 ! pharynx skeletal muscle
+is_a: EMAPA:37929 ! palatal muscle
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:38098
+name: limb primordium
+namespace: anatomical_structure
+is_a: EMAPA:36031 ! body region
+relationship: ends_at TS19 ! TS19
+relationship: starts_at TS14 ! TS14
 
 [Term]
 id: TS01
