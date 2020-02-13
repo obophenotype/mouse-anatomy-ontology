@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:02:2020 17:02
+date: 13:02:2020 16:05
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -10749,6 +10749,7 @@ name: hand
 namespace: anatomical_structure
 synonym: "forepaw" RELATED []
 is_a: EMAPA:32722 ! autopod
+relationship: develops_from EMAPA:17245 ! handplate
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17412 ! forelimb
 relationship: starts_at TS20 ! TS20
@@ -11034,6 +11035,7 @@ name: foot
 namespace: anatomical_structure
 synonym: "hindpaw" RELATED []
 is_a: EMAPA:32722 ! autopod
+relationship: develops_from EMAPA:17249 ! footplate
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17458 ! hindlimb
 relationship: starts_at TS20 ! TS20
@@ -38998,6 +39000,7 @@ name: ovary tertiary follicle
 namespace: anatomical_structure
 synonym: "antral follicle" RELATED []
 is_a: EMAPA:35625 ! ovary antral follicle
+relationship: develops_from EMAPA:35632 ! ovary secondary follicle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
 
@@ -48995,6 +48998,7 @@ id: EMAPA:35625
 name: ovary antral follicle
 namespace: anatomical_structure
 is_a: EMAPA:35627 ! ovary follicle
+relationship: develops_from EMAPA:35630 ! ovary preantral follicle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
 
@@ -49038,6 +49042,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:19284
 synonym: "primary follicle" RELATED []
 is_a: EMAPA:35627 ! ovary follicle
+relationship: develops_from EMAPA:30755 ! ovary primordial follicle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS27 ! TS27
 
@@ -49049,6 +49054,7 @@ alt_id: EMAPA:29862
 synonym: "antral follicle" RELATED []
 synonym: "secondary follicle" RELATED []
 is_a: EMAPA:35627 ! ovary follicle
+relationship: develops_from EMAPA:35631 ! ovary primary follicle
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
 
@@ -50623,7 +50629,7 @@ name: subcutaneous adipose tissue
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35112 ! adipose tissue
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35830
@@ -52386,6 +52392,7 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:36035
 name: blastocyst
 namespace: anatomical_structure
+relationship: develops_from EMAPA:16040 ! compacted morula
 relationship: ends_at TS06 ! TS06
 relationship: part_of EMAPA:36040 ! conceptus
 relationship: part_of EMAPA:36046 ! blastocyst-stage conceptus
@@ -52446,6 +52453,7 @@ id: EMAPA:36042
 name: 2-cell stage conceptus
 namespace: anatomical_structure
 is_a: EMAPA:36473 ! early conceptus
+relationship: develops_from EMAPA:36041 ! 1-cell stage conceptus
 relationship: ends_at TS02 ! TS02
 relationship: starts_at TS02 ! TS02
 
@@ -52455,6 +52463,7 @@ name: 4-cell stage conceptus
 namespace: anatomical_structure
 is_a: EMAPA:36063 ! 4-8 cell stage conceptus
 is_a: EMAPA:36473 ! early conceptus
+relationship: develops_from EMAPA:36042 ! 2-cell stage conceptus
 relationship: ends_at TS03 ! TS03
 relationship: starts_at TS03 ! TS03
 
@@ -52464,6 +52473,7 @@ name: 8-cell stage conceptus
 namespace: anatomical_structure
 is_a: EMAPA:36063 ! 4-8 cell stage conceptus
 is_a: EMAPA:36473 ! early conceptus
+relationship: develops_from EMAPA:36043 ! 4-cell stage conceptus
 relationship: ends_at TS03 ! TS03
 relationship: starts_at TS03 ! TS03
 
@@ -52472,6 +52482,7 @@ id: EMAPA:36045
 name: morula-stage conceptus
 namespace: anatomical_structure
 is_a: EMAPA:36473 ! early conceptus
+relationship: develops_from EMAPA:36044 ! 8-cell stage conceptus
 relationship: ends_at TS04 ! TS04
 relationship: starts_at TS03 ! TS03
 
@@ -52480,6 +52491,7 @@ id: EMAPA:36046
 name: blastocyst-stage conceptus
 namespace: anatomical_structure
 is_a: EMAPA:36473 ! early conceptus
+relationship: develops_from EMAPA:36045 ! morula-stage conceptus
 relationship: ends_at TS06 ! TS06
 relationship: starts_at TS04 ! TS04
 
