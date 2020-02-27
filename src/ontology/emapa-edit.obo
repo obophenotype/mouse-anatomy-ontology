@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:02:2020 16:05
+date: 27:02:2020 12:31
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -20243,7 +20243,7 @@ id: EMAPA:18669
 name: jejunum vascular element
 namespace: anatomical_structure
 alt_id: EMAPA:18936
-is_a: EMAPA:35994 ! alimentary system vascular element
+is_a: EMAPA:38099 ! small intestine vascular element
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18666 ! jejunum
 relationship: starts_at TS23 ! TS23
@@ -21267,7 +21267,7 @@ id: EMAPA:18944
 name: colon vascular element
 namespace: anatomical_structure
 is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18939 ! colon
 relationship: starts_at TS24 ! TS24
 
@@ -22137,7 +22137,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19083
 name: duodenum vascular element
 namespace: anatomical_structure
-is_a: EMAPA:35994 ! alimentary system vascular element
+is_a: EMAPA:38099 ! small intestine vascular element
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18852 ! duodenum
 relationship: starts_at TS18 ! TS18
@@ -26534,7 +26534,7 @@ relationship: starts_at TS24 ! TS24
 [Term]
 id: EMAPA:19610
 name: Tl25 vertebral cartilage condensation
-namespace: anatomical_structure19486
+namespace: anatomical_structure
 relationship: develops_from EMAPA:19486 ! Tl25 vertebral pre-cartilage condensation
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
@@ -49286,7 +49286,7 @@ name: paranasal sinus
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16727 ! respiratory system
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35663
@@ -52057,7 +52057,7 @@ id: EMAPA:35994
 name: alimentary system vascular element
 namespace: anatomical_structure
 is_a: EMAPA:35993 ! vascular element
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16246 ! alimentary system
 relationship: starts_at TS14 ! TS14
 
@@ -59486,7 +59486,7 @@ name: maxillary sinus
 namespace: anatomical_structure
 is_a: EMAPA:35662 ! paranasal sinus
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:36879
@@ -60449,6 +60449,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36996
 name: spleen central arteriole
 namespace: anatomical_structure
+is_a: EMAPA:38100 ! spleen vascular element
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35809 ! spleen white pulp
 relationship: starts_at TS27 ! TS27
@@ -60465,6 +60466,7 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:36998
 name: spleen trabecular artery
 namespace: anatomical_structure
+is_a: EMAPA:38100 ! spleen vascular element
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35808 ! spleen trabeculum
 relationship: starts_at TS27 ! TS27
@@ -60473,6 +60475,7 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:36999
 name: spleen trabecular vein
 namespace: anatomical_structure
+is_a: EMAPA:38100 ! spleen vascular element
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35808 ! spleen trabeculum
 relationship: starts_at TS27 ! TS27
@@ -66652,6 +66655,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37751
 name: spleen venous sinus
 namespace: anatomical_structure
+is_a: EMAPA:38100 ! spleen vascular element
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35806 ! spleen red pulp
 relationship: starts_at TS28 ! TS28
@@ -67621,11 +67625,11 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37871
-name: nasal mucosa gland
+name: nasal gland
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:36026 ! nasal cavity mucosa
-relationship: starts_at TS23 ! TS23
+relationship: part_of EMAPA:17604 ! nasal cavity
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:37872
@@ -67813,10 +67817,9 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37894
 name: lateral nasal gland
 namespace: anatomical_structure
-synonym: "Steno's gland" RELATED []
-is_a: EMAPA:37871 ! nasal mucosa gland
+is_a: EMAPA:37871 ! nasal gland
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:37895
@@ -69499,6 +69502,236 @@ namespace: anatomical_structure
 is_a: EMAPA:36031 ! body region
 relationship: ends_at TS19 ! TS19
 relationship: starts_at TS14 ! TS14
+
+[Term]
+id: EMAPA:38099
+name: small intestine vascular element
+namespace: anatomical_structure
+is_a: EMAPA:38101 ! intestine vascular element
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32834 ! small intestine
+relationship: starts_at TS18 ! TS18
+
+[Term]
+id: EMAPA:38100
+name: spleen vascular element
+namespace: anatomical_structure
+is_a: EMAPA:35993 ! vascular element
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18767 ! spleen
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:38101
+name: intestine vascular element
+namespace: anatomical_structure
+is_a: EMAPA:35994 ! alimentary system vascular element
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32874 ! intestine
+relationship: starts_at TS18 ! TS18
+
+[Term]
+id: EMAPA:38102
+name: lateral nasal gland 2
+namespace: anatomical_structure
+is_a: EMAPA:37894 ! lateral nasal gland
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38103
+name: lateral nasal gland 3
+namespace: anatomical_structure
+is_a: EMAPA:37894 ! lateral nasal gland
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38104
+name: lateral nasal gland 4
+namespace: anatomical_structure
+is_a: EMAPA:37894 ! lateral nasal gland
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:38105
+name: lateral nasal gland 5
+namespace: anatomical_structure
+is_a: EMAPA:37894 ! lateral nasal gland
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38106
+name: lateral nasal gland duct
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:37894 ! lateral nasal gland
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38107
+name: lateral nasal gland epithelium
+namespace: anatomical_structure
+is_a: EMAPA:38124 ! nasal gland epithelium
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:37894 ! lateral nasal gland
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38108
+name: lateral nasal gland mesenchyme
+namespace: anatomical_structure
+is_a: EMAPA:38125 ! nasal gland mesenchyme
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:37894 ! lateral nasal gland
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38109
+name: maxillary sinus gland primordium
+namespace: anatomical_structure
+relationship: ends_at TS22 ! TS22
+relationship: part_of EMAPA:36878 ! maxillary sinus
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38110
+name: maxillary sinus gland primordium epithelium
+namespace: anatomical_structure
+relationship: ends_at TS22 ! TS22
+relationship: part_of EMAPA:38109 ! maxillary sinus gland primordium
+relationship: part_of EMAPA:38122 ! maxillary sinus epithelium
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38111
+name: maxillary sinus gland primordium mesenchyme
+namespace: anatomical_structure
+relationship: ends_at TS22 ! TS22
+relationship: part_of EMAPA:38109 ! maxillary sinus gland primordium
+relationship: part_of EMAPA:38123 ! maxillary sinus mesenchyme
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38112
+name: maxillary sinus gland
+namespace: anatomical_structure
+is_a: EMAPA:37871 ! nasal gland
+relationship: develops_from EMAPA:38109 ! maxillary sinus gland primordium
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:38113
+name: maxillary sinus gland epithelium
+namespace: anatomical_structure
+is_a: EMAPA:38124 ! nasal gland epithelium
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38112 ! maxillary sinus gland
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:38114
+name: maxillary sinus gland mesenchyme
+namespace: anatomical_structure
+is_a: EMAPA:38125 ! nasal gland mesenchyme
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38112 ! maxillary sinus gland
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:38115
+name: medial nasal gland
+namespace: anatomical_structure
+is_a: EMAPA:37871 ! nasal gland
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38116
+name: medial nasal gland epithelium
+namespace: anatomical_structure
+is_a: EMAPA:38124 ! nasal gland epithelium
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38115 ! medial nasal gland
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38117
+name: medial nasal gland mesenchyme
+namespace: anatomical_structure
+is_a: EMAPA:38125 ! nasal gland mesenchyme
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38115 ! medial nasal gland
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38118
+name: Steno's gland
+namespace: anatomical_structure
+is_a: EMAPA:37871 ! nasal gland
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38119
+name: Steno's duct
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38118 ! Steno's gland
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38120
+name: Steno's gland epithelium
+namespace: anatomical_structure
+is_a: EMAPA:38124 ! nasal gland epithelium
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38118 ! Steno's gland
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38121
+name: Steno's gland mesenchyme
+namespace: anatomical_structure
+is_a: EMAPA:38125 ! nasal gland mesenchyme
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38118 ! Steno's gland
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38122
+name: maxillary sinus epithelium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36878 ! maxillary sinus
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38123
+name: maxillary sinus mesenchyme
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36878 ! maxillary sinus
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38124
+name: nasal gland epithelium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:37871 ! nasal gland
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38125
+name: nasal gland mesenchyme
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:37871 ! nasal gland
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: group_term
