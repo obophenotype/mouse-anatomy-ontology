@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 27:02:2020 12:31
+date: 11:06:2020 11:54
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -1543,6 +1543,7 @@ relationship: starts_at TS12 ! TS12
 id: EMAPA:16207
 name: vitelline artery
 namespace: anatomical_structure
+synonym: "omphalomesenteric artery" RELATED []
 is_a: EMAPA:35147 ! artery
 is_a: EMAPA:36494 ! vitelline blood vessel
 relationship: ends_at TS20 ! TS20
@@ -2717,22 +2718,12 @@ relationship: part_of EMAPA:36020 ! right umbilical vein
 relationship: starts_at TS13 ! TS13
 
 [Term]
-id: EMAPA:16360
-name: foregut diverticulum gland
-namespace: anatomical_structure
-is_a: EMAPA:18815 ! gut gland
-relationship: ends_at TS14 ! TS14
-relationship: part_of EMAPA:16248 ! foregut diverticulum
-relationship: starts_at TS13 ! TS13
-
-[Term]
 id: EMAPA:16361
 name: thyroid primordium
 namespace: anatomical_structure
 alt_id: EMAPA:16558
+is_a: EMAPA:38130 ! foregut gland primordium
 relationship: ends_at TS17 ! TS17
-relationship: part_of EMAPA:16360 ! foregut diverticulum gland
-relationship: part_of EMAPA:16557 ! foregut gland
 relationship: starts_at TS13 ! TS13
 
 [Term]
@@ -2813,7 +2804,7 @@ name: extraembryonic vascular system
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16042 ! extraembryonic component
-relationship: starts_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:16371
@@ -6036,6 +6027,7 @@ id: EMAPA:16775
 name: pleura
 namespace: anatomical_structure
 alt_id: EMAPA:18463
+synonym: "lung mesothelium" RELATED []
 synonym: "pleural mesothelium" EXACT []
 is_a: EMAPA:32856 ! mesothelium
 relationship: ends_at TS28 ! TS28
@@ -8288,12 +8280,12 @@ id: EMAPA:17068
 name: thyroid gland
 namespace: anatomical_structure
 alt_id: EMAPA:18827
+is_a: EMAPA:16557 ! foregut gland
 is_a: EMAPA:18815 ! gut gland
 is_a: EMAPA:35999 ! endocrine gland
 relationship: develops_from EMAPA:16361 ! thyroid primordium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16247 ! gut
-relationship: part_of EMAPA:16557 ! foregut gland
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -9875,7 +9867,7 @@ id: EMAPA:17319
 name: left atrium endocardial lining
 namespace: anatomical_structure
 is_a: EMAPA:32745 ! atrium endocardial lining
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17315 ! left atrium
 relationship: starts_at TS19 ! TS19
 
@@ -9931,7 +9923,7 @@ id: EMAPA:17325
 name: right atrium endocardial lining
 namespace: anatomical_structure
 is_a: EMAPA:32745 ! atrium endocardial lining
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17321 ! right atrium
 relationship: starts_at TS19 ! TS19
 
@@ -11623,8 +11615,8 @@ id: EMAPA:17523
 name: thymus primordium
 namespace: anatomical_structure
 alt_id: EMAPA:18536
+is_a: EMAPA:38130 ! foregut gland primordium
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:16557 ! foregut gland
 relationship: part_of EMAPA:18765 ! hemolymphoid system
 relationship: starts_at TS20 ! TS20
 
@@ -11945,7 +11937,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17562
 name: medulla oblongata roof
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17550 ! medulla oblongata
 relationship: starts_at TS20 ! TS20
 
@@ -15265,8 +15257,8 @@ name: coelomic epithelium of testis
 namespace: anatomical_structure
 is_a: EMAPA:35249 ! coelomic epithelium of reproductive system
 is_a: EMAPA:35963 ! male reproductive system epithelium
+is_a: EMAPA:38129 ! testis epithelium
 relationship: ends_at TS24 ! TS24
-relationship: part_of EMAPA:17972 ! testis
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -34437,7 +34429,7 @@ id: EMAPA:27161
 name: stomach fundus gastric gland
 namespace: anatomical_structure
 alt_id: EMAPA:27427
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:27151 ! stomach fundus mucosa
 relationship: starts_at TS23 ! TS23
 
@@ -39860,8 +39852,8 @@ id: EMAPA:31240
 name: surface epithelium of testis
 namespace: anatomical_structure
 is_a: EMAPA:35963 ! male reproductive system epithelium
+is_a: EMAPA:38129 ! testis epithelium
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:17972 ! testis
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -41696,7 +41688,7 @@ name: forelimb cartilage condensation
 namespace: anatomical_structure
 is_a: EMAPA:32701 ! limb cartilage condensation
 relationship: develops_from EMAPA:32625 ! forelimb pre-cartilage condensation
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:32628 ! forelimb mesenchyme
 relationship: starts_at TS21 ! TS21
 
@@ -42658,7 +42650,7 @@ name: extraembryonic blood vessel
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16370 ! extraembryonic vascular system
-relationship: starts_at TS13 ! TS13
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:32735
@@ -50935,7 +50927,7 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35865
 name: thymus/parathyroid primordium
 namespace: anatomical_structure
-is_a: EMAPA:18815 ! gut gland
+is_a: EMAPA:38130 ! foregut gland primordium
 relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:16247 ! gut
 relationship: starts_at TS19 ! TS19
@@ -58251,8 +58243,9 @@ id: EMAPA:36730
 name: secondary heart field
 namespace: anatomical_structure
 synonym: "anterior heart field" RELATED []
+synonym: "dorsal mesenchymal protrusion" RELATED []
 synonym: "second heart field" RELATED []
-relationship: ends_at TS16 ! TS16
+relationship: ends_at TS17 ! TS17
 relationship: part_of EMAPA:16105 ! heart
 relationship: part_of EMAPA:16411 ! mesenchyme derived from splanchnopleure
 relationship: part_of EMAPA:37992 ! cardiogenic splanchnic mesoderm
@@ -59685,7 +59678,7 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:36903
-name: meidastinal fat pad
+name: mediastinal fat pad
 namespace: anatomical_structure
 is_a: EMAPA:35340 ! fat pad
 relationship: ends_at TS28 ! TS28
@@ -62046,7 +62039,7 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37193
-name: superior intercostal ven
+name: superior intercostal vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
@@ -62054,7 +62047,7 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37194
-name: superior pancreatico-duodenal ven
+name: superior pancreatico-duodenal vein
 namespace: anatomical_structure
 is_a: EMAPA:37177 ! pancreatico-duodenal vein
 relationship: ends_at TS28 ! TS28
@@ -62062,7 +62055,7 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37195
-name: supraorbital ven
+name: supraorbital vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
@@ -62270,7 +62263,7 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37221
-name: common plantar ven
+name: common plantar vein
 namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS28 ! TS28
@@ -64619,8 +64612,8 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37499
 name: crus cerebri
 namespace: anatomical_structure
-is_a: EMAPA:16974 ! midbrain
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16974 ! midbrain
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -64746,7 +64739,7 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37515
-name: dentate gyrus pyamidal layer
+name: dentate gyrus pyramidal layer
 namespace: anatomical_structure
 is_a: EMAPA:35278 ! dentate gyrus layer
 relationship: ends_at TS28 ! TS28
@@ -66364,7 +66357,7 @@ relationship: starts_at TS15 ! TS15
 
 [Term]
 id: EMAPA:37715
-name: erianal skin
+name: perianal skin
 namespace: anatomical_structure
 is_a: EMAPA:37282 ! pelvis skin
 relationship: ends_at TS28 ! TS28
@@ -66977,8 +66970,8 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37791
 name: urinary bladder muscle
 namespace: anatomical_structure
-is_a: EMAPA:35175 ! bladder wall
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35175 ! bladder wall
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -69732,6 +69725,49 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:37871 ! nasal gland
 relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38126
+name: parathyroid primordium
+namespace: anatomical_structure
+is_a: EMAPA:38130 ! foregut gland primordium
+relationship: ends_at TS20 ! TS20
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:38127
+name: adrenogonadal primordium
+namespace: anatomical_structure
+relationship: ends_at TS19 ! TS19
+relationship: part_of EMAPA:35899 ! urogenital ridge
+relationship: starts_at TS15 ! TS15
+
+[Term]
+id: EMAPA:38128
+name: adrenal primordium
+namespace: anatomical_structure
+relationship: ends_at TS20 ! TS20
+relationship: part_of EMAPA:35899 ! urogenital ridge
+relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:38129
+name: testis epithelium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17972 ! testis
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:38130
+name: foregut gland primordium
+namespace: anatomical_structure
+alt_id: EMAPA:16360
+synonym: "foregut diverticulum gland" EXACT []
+relationship: ends_at TS23 ! TS23
+relationship: part_of EMAPA:16248 ! foregut diverticulum
+relationship: part_of EMAPA:16548 ! foregut
+relationship: starts_at TS13 ! TS13
 
 [Term]
 id: group_term
