@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 11:06:2020 11:54
+date: 16:06:2020 10:30
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -27748,7 +27748,7 @@ relationship: starts_at TS26 ! TS26
 
 [Term]
 id: EMAPA:25122
-name: glenoid fossa
+name: glenoid fossa of scapula
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18722 ! scapula
@@ -56918,7 +56918,7 @@ name: mandible condylar process
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:25100 ! mandible ramus
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:36573
@@ -69768,6 +69768,23 @@ relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:16248 ! foregut diverticulum
 relationship: part_of EMAPA:16548 ! foregut
 relationship: starts_at TS13 ! TS13
+
+[Term]
+id: EMAPA:38131
+name: mandible condylar condensation
+namespace: anatomical_structure
+relationship: ends_at TS22 ! TS22
+relationship: part_of EMAPA:25100 ! mandible ramus
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38132
+name: mandibular fossa
+namespace: anatomical_structure
+synonym: "glenoid fossa of temporal bone" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18021 ! temporal bone squamous part
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: group_term
