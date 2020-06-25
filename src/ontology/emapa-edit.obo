@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 16:06:2020 10:30
+date: 25:06:2020 12:58
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -47945,11 +47945,12 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35496
-name: limbus lamina spiralis
+name: spiral limbus
 namespace: anatomical_structure
+synonym: "limbus lamina spiralis" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17598 ! cochlear duct
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35497
@@ -50405,7 +50406,7 @@ name: spiral ligament
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17598 ! cochlear duct
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35799
