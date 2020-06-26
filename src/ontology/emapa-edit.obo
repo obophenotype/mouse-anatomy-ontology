@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:06:2020 12:58
+date: 26:06:2020 16:18
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -292,7 +292,7 @@ synonym: "embryonic endoderm" RELATED []
 is_a: EMAPA:35986 ! endoderm
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:16039 ! embryo
-relationship: starts_at TS08 ! TS08
+relationship: starts_at TS07 ! TS07
 
 [Term]
 id: EMAPA:16064
@@ -69786,6 +69786,58 @@ synonym: "glenoid fossa of temporal bone" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18021 ! temporal bone squamous part
 relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38133
+name: embryonic visceral endoderm
+namespace: anatomical_structure
+is_a: EMAPA:16062 ! embryo endoderm
+relationship: ends_at TS12 ! TS12
+relationship: part_of EMAPA:16051 ! primitive endoderm
+relationship: starts_at TS07 ! TS07
+
+[Term]
+id: EMAPA:38134
+name: embryonic posterior visceral endoderm
+namespace: anatomical_structure
+is_a: EMAPA:38133 ! embryonic visceral endoderm
+relationship: ends_at TS12 ! TS12
+relationship: part_of EMAPA:36069 ! posterior visceral endoderm
+relationship: starts_at TS11 ! TS11
+
+[Term]
+id: EMAPA:38135
+name: extraembryonic posterior visceral endoderm
+namespace: anatomical_structure
+is_a: EMAPA:16058 ! extraembryonic visceral endoderm
+relationship: ends_at TS12 ! TS12
+relationship: part_of EMAPA:36069 ! posterior visceral endoderm
+relationship: starts_at TS10 ! TS10
+
+[Term]
+id: EMAPA:38136
+name: allantois-associated posterior visceral endoderm
+namespace: anatomical_structure
+relationship: ends_at TS12 ! TS12
+relationship: part_of EMAPA:38135 ! extraembryonic posterior visceral endoderm
+relationship: starts_at TS10 ! TS10
+
+[Term]
+id: EMAPA:38137
+name: Allantoic Core Domain
+namespace: anatomical_structure
+synonym: "ACD" RELATED []
+relationship: ends_at TS12 ! TS12
+relationship: part_of EMAPA:16107 ! allantois
+relationship: starts_at TS11 ! TS11
+
+[Term]
+id: EMAPA:38138
+name: extraembryonic primitive streak
+namespace: anatomical_structure
+relationship: ends_at TS10 ! TS10
+relationship: part_of EMAPA:16042 ! extraembryonic component
+relationship: starts_at TS10 ! TS10
 
 [Term]
 id: group_term
