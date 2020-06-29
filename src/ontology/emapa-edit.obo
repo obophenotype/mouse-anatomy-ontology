@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 29:06:2020 12:41
+date: 29:06:2020 13:09
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -41580,6 +41580,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:32614
 name: phalanx
 namespace: anatomical_structure
+synonym: "phalange" RELATED []
 is_a: EMAPA:35494 ! limb bone
 relationship: develops_from EMAPA:32721 ! phalanx cartilage condensation
 relationship: ends_at TS28 ! TS28
@@ -41919,6 +41920,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:32650
 name: forelimb phalanx
 namespace: anatomical_structure
+synonym: "forelimb phalange" RELATED []
 is_a: EMAPA:32614 ! phalanx
 is_a: EMAPA:35350 ! forelimb long bone
 is_a: EMAPA:35391 ! hand bone
@@ -44368,6 +44370,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:32941
 name: hindlimb phalanx
 namespace: anatomical_structure
+synonym: "hindlimb phalange" RELATED []
 is_a: EMAPA:32614 ! phalanx
 is_a: EMAPA:35354 ! foot bone
 is_a: EMAPA:35403 ! hindlimb long bone
@@ -46265,6 +46268,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35287
 name: distal phalanx
 namespace: anatomical_structure
+synonym: "distal phalange" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32614 ! phalanx
 relationship: starts_at TS27 ! TS27
@@ -48550,6 +48554,8 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:35572
 name: middle phalanx
 namespace: anatomical_structure
+synonym: "middle phalange" RELATED []
+xref: XX:<new xref>
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32614 ! phalanx
 relationship: starts_at TS28 ! TS28
@@ -49733,6 +49739,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:35716
 name: proximal phalanx
 namespace: anatomical_structure
+synonym: "proximal phalange" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32614 ! phalanx
 relationship: starts_at TS28 ! TS28
@@ -69849,6 +69856,14 @@ namespace: anatomical_structure
 relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:16198 ! eye
 relationship: starts_at TS14 ! TS14
+
+[Term]
+id: EMAPA:38140
+name: posterior crown of node
+namespace: anatomical_structure
+relationship: ends_at TS12 ! TS12
+relationship: part_of EMAPA:16075 ! node
+relationship: starts_at TS10 ! TS10
 
 [Term]
 id: group_term
