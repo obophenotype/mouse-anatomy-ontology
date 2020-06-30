@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 29:06:2020 13:09
+date: 30:06:2020 10:32
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -13280,6 +13280,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17712
 name: shoulder joint primordium
 namespace: anatomical_structure
+is_a: EMAPA:38061 ! forelimb joint primordium
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17423 ! shoulder mesenchyme
 relationship: starts_at TS21 ! TS21
@@ -13523,6 +13524,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17739
 name: hip joint primordium
 namespace: anatomical_structure
+is_a: EMAPA:38062 ! hindlimb joint primordium
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17492 ! hip mesenchyme
 relationship: starts_at TS21 ! TS21
@@ -23179,16 +23181,16 @@ id: EMAPA:19205
 name: radio-carpal joint
 namespace: anatomical_structure
 synonym: "wrist joint" RELATED []
+is_a: EMAPA:19204 ! forelimb joint
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19204 ! forelimb joint
 relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:19206
 name: radio-ulnar joint
 namespace: anatomical_structure
+is_a: EMAPA:19204 ! forelimb joint
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19204 ! forelimb joint
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -41776,6 +41778,7 @@ id: EMAPA:32635
 name: hindlimb joint
 namespace: anatomical_structure
 is_a: EMAPA:36501 ! limb joint
+relationship: develops_from EMAPA:38062 ! hindlimb joint primordium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17458 ! hindlimb
 relationship: starts_at TS21 ! TS21
@@ -44455,6 +44458,7 @@ name: foot joint
 namespace: anatomical_structure
 is_a: EMAPA:32635 ! hindlimb joint
 is_a: EMAPA:35160 ! autopod joint
+relationship: develops_from EMAPA:38064 ! foot joint primordium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17459 ! foot
 relationship: starts_at TS21 ! TS21
@@ -69201,7 +69205,7 @@ name: forelimb joint primordium
 namespace: anatomical_structure
 is_a: EMAPA:32699 ! limb joint primordium
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17412 ! forelimb
+relationship: part_of EMAPA:32628 ! forelimb mesenchyme
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -69210,7 +69214,7 @@ name: hindlimb joint primordium
 namespace: anatomical_structure
 is_a: EMAPA:32699 ! limb joint primordium
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17458 ! hindlimb
+relationship: part_of EMAPA:32637 ! hindlimb mesenchyme
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -69813,7 +69817,7 @@ namespace: anatomical_structure
 is_a: EMAPA:38133 ! embryonic visceral endoderm
 relationship: ends_at TS12 ! TS12
 relationship: part_of EMAPA:36069 ! posterior visceral endoderm
-relationship: starts_at TS11 ! TS11
+relationship: starts_at TS10 ! TS10
 
 [Term]
 id: EMAPA:38135
@@ -69845,7 +69849,7 @@ relationship: starts_at TS11 ! TS11
 id: EMAPA:38138
 name: extraembryonic primitive streak
 namespace: anatomical_structure
-relationship: ends_at TS10 ! TS10
+relationship: ends_at TS11 ! TS11
 relationship: part_of EMAPA:16042 ! extraembryonic component
 relationship: starts_at TS10 ! TS10
 
