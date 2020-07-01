@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 30:06:2020 10:32
+date: 01:07:2020 13:20
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -7880,16 +7880,16 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:17016
 name: marginal vein of forelimb
 namespace: anatomical_structure
-is_a: EMAPA:35906 ! vein
-relationship: ends_at TS20 ! TS20
+is_a: EMAPA:38141 ! marginal vein of limb
+relationship: ends_at TS21 ! TS21
 relationship: starts_at TS16 ! TS16
 
 [Term]
 id: EMAPA:17017
 name: marginal vein of hindlimb
 namespace: anatomical_structure
-is_a: EMAPA:35906 ! vein
-relationship: ends_at TS20 ! TS20
+is_a: EMAPA:38141 ! marginal vein of limb
+relationship: ends_at TS21 ! TS21
 relationship: starts_at TS16 ! TS16
 
 [Term]
@@ -69868,6 +69868,14 @@ namespace: anatomical_structure
 relationship: ends_at TS12 ! TS12
 relationship: part_of EMAPA:16075 ! node
 relationship: starts_at TS10 ! TS10
+
+[Term]
+id: EMAPA:38141
+name: marginal vein of limb
+namespace: anatomical_structure
+is_a: EMAPA:35906 ! vein
+relationship: ends_at TS21 ! TS21
+relationship: starts_at TS16 ! TS16
 
 [Term]
 id: group_term
