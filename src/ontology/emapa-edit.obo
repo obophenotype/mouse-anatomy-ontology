@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 01:07:2020 13:20
+date: 08:07:2020 15:51
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -28,6 +28,7 @@ namespace: anatomical_structure
 synonym: "1-cell embryo" RELATED []
 synonym: "fertilized egg" RELATED []
 synonym: "one-cell embryo" RELATED []
+synonym: "zygote" RELATED []
 is_a: EMAPA:36032 ! early embryo
 relationship: ends_at TS01 ! TS01
 relationship: part_of EMAPA:36041 ! 1-cell stage conceptus
@@ -59406,7 +59407,7 @@ relationship: starts_at TS11 ! TS11
 
 [Term]
 id: EMAPA:36868
-name: crista ampullaris neuroepitheium
+name: crista ampullaris neuroepithelium
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32791 ! crista ampullaris
