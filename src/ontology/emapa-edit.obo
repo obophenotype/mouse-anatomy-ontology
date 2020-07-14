@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 08:07:2020 15:51
+date: 14:07:2020 09:59
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -12276,7 +12276,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:17600
 name: cochlear duct epithelium
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17598 ! cochlear duct
 relationship: part_of EMAPA:35247 ! cochlea epithelium
 relationship: starts_at TS20 ! TS20
@@ -69877,6 +69877,16 @@ namespace: anatomical_structure
 is_a: EMAPA:35906 ! vein
 relationship: ends_at TS21 ! TS21
 relationship: starts_at TS16 ! TS16
+
+[Term]
+id: EMAPA:38142
+name: cortical hem
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16910 ! telencephalon
+relationship: starts_at TS17 ! TS17
+created_by: terryh
+creation_date: 2020-07-14T09:48:46Z
 
 [Term]
 id: group_term
