@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 14:07:2020 09:59
+date: 21:08:2020 14:18
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -14892,6 +14892,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17917
 name: lower jaw tooth
 namespace: anatomical_structure
+synonym: "mandibular tooth" RELATED []
 is_a: EMAPA:32906 ! tooth
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17906 ! lower jaw
@@ -14901,6 +14902,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17918
 name: lower jaw incisor
 namespace: anatomical_structure
+synonym: "mandibular incisor" RELATED []
 is_a: EMAPA:32889 ! incisor
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17917 ! lower jaw tooth
@@ -14930,6 +14932,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17921
 name: lower jaw molar
 namespace: anatomical_structure
+synonym: "mandibular molar" RELATED []
 is_a: EMAPA:32897 ! molar
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17917 ! lower jaw tooth
@@ -15012,6 +15015,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17938
 name: upper jaw tooth
 namespace: anatomical_structure
+synonym: "maxillary tooth" RELATED []
 is_a: EMAPA:32906 ! tooth
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17924 ! upper jaw
@@ -15021,6 +15025,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17939
 name: upper jaw incisor
 namespace: anatomical_structure
+synonym: "maxillary incisor" RELATED []
 is_a: EMAPA:32889 ! incisor
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17938 ! upper jaw tooth
@@ -15050,6 +15055,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:17942
 name: upper jaw molar
 namespace: anatomical_structure
+synonym: "maxillary molar" RELATED []
 is_a: EMAPA:32897 ! molar
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17938 ! upper jaw tooth
@@ -48560,7 +48566,6 @@ id: EMAPA:35572
 name: middle phalanx
 namespace: anatomical_structure
 synonym: "middle phalange" RELATED []
-xref: XX:<new xref>
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32614 ! phalanx
 relationship: starts_at TS28 ! TS28
@@ -50296,8 +50301,9 @@ relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:35784
-name: small intestine villus
+name: intestinal villus
 namespace: anatomical_structure
+synonym: "small intestine villus" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32834 ! small intestine
 relationship: starts_at TS23 ! TS23
@@ -68828,7 +68834,7 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:38016
 name: duodenum villus
 namespace: anatomical_structure
-is_a: EMAPA:35784 ! small intestine villus
+is_a: EMAPA:35784 ! intestinal villus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18852 ! duodenum
 relationship: starts_at TS26 ! TS26
@@ -68837,7 +68843,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:38017
 name: jejunum villus
 namespace: anatomical_structure
-is_a: EMAPA:35784 ! small intestine villus
+is_a: EMAPA:35784 ! intestinal villus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18666 ! jejunum
 relationship: starts_at TS26 ! TS26
@@ -68846,7 +68852,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:38018
 name: ileum villus
 namespace: anatomical_structure
-is_a: EMAPA:35784 ! small intestine villus
+is_a: EMAPA:35784 ! intestinal villus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32764 ! ileum
 relationship: starts_at TS26 ! TS26
