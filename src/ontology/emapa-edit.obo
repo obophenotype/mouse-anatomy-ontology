@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 21:08:2020 14:18
+date: 25:08:2020 10:06
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -69891,8 +69891,38 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16910 ! telencephalon
 relationship: starts_at TS17 ! TS17
-created_by: terryh
-creation_date: 2020-07-14T09:48:46Z
+
+[Term]
+id: EMAPA:38143
+name: nucleus of lateral lemniscus
+namespace: anatomical_structure
+is_a: EMAPA:32790 ! brainstem nucleus
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38144
+name: dorsal nucleus of lateral lemniscus
+namespace: anatomical_structure
+is_a: EMAPA:38143 ! nucleus of lateral lemniscus
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38145
+name: intermediate nucleus of lateral lemniscus
+namespace: anatomical_structure
+is_a: EMAPA:38143 ! nucleus of lateral lemniscus
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS26 ! TS26
+
+[Term]
+id: EMAPA:38146
+name: ventral nucleus of lateral lemniscus
+namespace: anatomical_structure
+is_a: EMAPA:38143 ! nucleus of lateral lemniscus
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: group_term
