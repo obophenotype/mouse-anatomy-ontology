@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:08:2020 10:06
+date: 28:08:2020 15:52
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -42362,6 +42362,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:32699
 name: limb joint primordium
 namespace: anatomical_structure
+synonym: "limb joint interzone" RELATED []
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:32705 ! limb mesenchyme
 relationship: starts_at TS21 ! TS21
@@ -58162,7 +58163,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:36718
 name: spinal cord dorsal root
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
@@ -58170,7 +58171,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:36719
 name: spinal cord mixed spinal nerve
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
@@ -58178,7 +58179,7 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:36720
 name: spinal cord ventral root
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16990 ! segmental spinal nerve
 relationship: starts_at TS26 ! TS26
 
@@ -68029,7 +68030,7 @@ name: olfactory segment of nasal mucosa
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36026 ! nasal cavity mucosa
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37919
