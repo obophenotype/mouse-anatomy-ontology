@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 21:09:2020 17:27
+date: 13:10:2020 09:40
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -69940,6 +69940,24 @@ namespace: anatomical_structure
 is_a: EMAPA:36386 ! genital tubercle epithelium
 relationship: ends_at TS27 ! TS27
 relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:38148
+name: oviduct isthmus
+namespace: anatomical_structure
+synonym: "isthmus of oviduct" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18984 ! oviduct
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38149
+name: oviduct ampulla
+namespace: anatomical_structure
+synonym: "ampulla of oviduct" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18984 ! oviduct
+relationship: starts_at TS28 ! TS28
 
 [Term]
 id: group_term
