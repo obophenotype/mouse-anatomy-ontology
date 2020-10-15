@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:10:2020 09:40
+date: 15:10:2020 10:29
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -42608,9 +42608,9 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:32726
 name: limb skin
 namespace: anatomical_structure
-is_a: EMAPA:17525 ! skin
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16405 ! limb
+relationship: part_of EMAPA:17525 ! skin
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -44738,7 +44738,7 @@ name: abdomen
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35104 ! abdominal segment of trunk
-relationship: starts_at TS21 ! TS21
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35103
@@ -55415,8 +55415,8 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36392
 name: back skin
 namespace: anatomical_structure
-is_a: EMAPA:17525 ! skin
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17525 ! skin
 relationship: part_of EMAPA:35162 ! back of trunk
 relationship: starts_at TS20 ! TS20
 
@@ -56378,10 +56378,10 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:36502
 name: tail skin
 namespace: anatomical_structure
-is_a: EMAPA:17525 ! skin
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16748 ! tail
-relationship: starts_at TS28 ! TS28
+relationship: part_of EMAPA:17525 ! skin
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:36503
@@ -57378,7 +57378,7 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35104 ! abdominal segment of trunk
 relationship: part_of EMAPA:35162 ! back of trunk
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:36624
@@ -57667,8 +57667,8 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:36658
 name: head skin
 namespace: anatomical_structure
-is_a: EMAPA:17525 ! skin
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17525 ! skin
 relationship: part_of EMAPA:31858 ! head
 relationship: starts_at TS20 ! TS20
 
@@ -60873,10 +60873,10 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:37045
 name: abdomen skin
 namespace: anatomical_structure
-is_a: EMAPA:37063 ! abdominal segment skin
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35102 ! abdomen
-relationship: starts_at TS28 ! TS28
+relationship: part_of EMAPA:37063 ! abdominal segment skin
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:37046
@@ -61031,10 +61031,10 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:37063
 name: abdominal segment skin
 namespace: anatomical_structure
-is_a: EMAPA:37278 ! trunk skin
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35104 ! abdominal segment of trunk
-relationship: starts_at TS28 ! TS28
+relationship: part_of EMAPA:37278 ! trunk skin
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:37064
@@ -62386,7 +62386,7 @@ name: chest
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35862 ! thoracic segment of trunk
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:37233
@@ -62404,7 +62404,7 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35162 ! back of trunk
 relationship: part_of EMAPA:35862 ! thoracic segment of trunk
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:37235
@@ -62775,8 +62775,8 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37276
 name: craniocervical region skin
 namespace: anatomical_structure
-is_a: EMAPA:17525 ! skin
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17525 ! skin
 relationship: part_of EMAPA:36867 ! craniocervical region
 relationship: starts_at TS28 ! TS28
 
@@ -62784,57 +62784,57 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37277
 name: neck skin
 namespace: anatomical_structure
-is_a: EMAPA:37276 ! craniocervical region skin
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35587 ! neck
+relationship: part_of EMAPA:37276 ! craniocervical region skin
 relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:37278
 name: trunk skin
 namespace: anatomical_structure
-is_a: EMAPA:17525 ! skin
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17525 ! skin
 relationship: part_of EMAPA:31857 ! trunk
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:37279
 name: chest skin
 namespace: anatomical_structure
-is_a: EMAPA:37278 ! trunk skin
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:37232 ! chest
+relationship: part_of EMAPA:37278 ! trunk skin
 relationship: part_of EMAPA:37765 ! thoracic segment skin
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:37280
 name: upper back skin
 namespace: anatomical_structure
-is_a: EMAPA:36392 ! back skin
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36392 ! back skin
 relationship: part_of EMAPA:37234 ! upper back
 relationship: part_of EMAPA:37765 ! thoracic segment skin
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:37281
 name: lower back skin
 namespace: anatomical_structure
-is_a: EMAPA:36392 ! back skin
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36392 ! back skin
 relationship: part_of EMAPA:36623 ! lower back
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:37282
 name: pelvis skin
 namespace: anatomical_structure
-is_a: EMAPA:37063 ! abdominal segment skin
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35931 ! pelvic region of trunk
-relationship: starts_at TS28 ! TS28
+relationship: part_of EMAPA:37063 ! abdominal segment skin
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:37283
@@ -66390,8 +66390,8 @@ relationship: starts_at TS15 ! TS15
 id: EMAPA:37715
 name: perianal skin
 namespace: anatomical_structure
-is_a: EMAPA:37282 ! pelvis skin
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:37282 ! pelvis skin
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -66795,7 +66795,7 @@ name: thoracic segment skin
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35862 ! thoracic segment of trunk
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:37766
@@ -68188,8 +68188,8 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37937
 name: periorbital skin
 namespace: anatomical_structure
-is_a: EMAPA:17525 ! skin
 relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17525 ! skin
 relationship: part_of EMAPA:36969 ! periorbital region
 relationship: starts_at TS28 ! TS28
 
@@ -68798,18 +68798,18 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:38011
 name: upper lip skin
 namespace: anatomical_structure
-is_a: EMAPA:37643 ! lip skin
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17925 ! upper lip
+relationship: part_of EMAPA:37643 ! lip skin
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:38012
 name: lower lip skin
 namespace: anatomical_structure
-is_a: EMAPA:37643 ! lip skin
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17909 ! lower lip
+relationship: part_of EMAPA:37643 ! lip skin
 relationship: starts_at TS20 ! TS20
 
 [Term]
