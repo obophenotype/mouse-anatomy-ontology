@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 15:10:2020 10:29
+date: 05:11:2020 12:40
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -21853,7 +21853,7 @@ namespace: anatomical_structure
 relationship: develops_from EMAPA:36469 ! dentate gyrus primordium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35405 ! hippocampal formation
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:19038
@@ -38489,7 +38489,6 @@ id: EMAPA:30150
 name: ureteral smooth muscle layer interstitium
 namespace: anatomical_structure
 alt_id: EMAPA:28850
-synonym: "Cajal cell" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28811 ! ureteral smooth muscle layer
 relationship: starts_at TS23 ! TS23
@@ -45084,7 +45083,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35421 ! hypothalamus periventricular zone
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35143
@@ -46373,7 +46372,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35417 ! hypothalamic nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35419 ! hypothalamus medial zone
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35301
@@ -47850,7 +47849,7 @@ name: lateral medullary reticular formation
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35556 ! medullary reticular formation
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35483
@@ -48415,7 +48414,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35550 ! medial preoptic area
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35550
@@ -48424,11 +48423,11 @@ namespace: anatomical_structure
 is_a: EMAPA:36655 ! preoptic area
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35419 ! hypothalamus medial zone
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35551
-name: medial raphe nucleus
+name: median raphe nucleus
 namespace: anatomical_structure
 is_a: EMAPA:35721 ! raphe nucleus
 relationship: ends_at TS28 ! TS28
@@ -66528,7 +66527,7 @@ name: retrochiasmatic area
 namespace: anatomical_structure
 is_a: EMAPA:35419 ! hypothalamus medial zone
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:37733
@@ -69958,6 +69957,22 @@ synonym: "ampulla of oviduct" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18984 ! oviduct
 relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38150
+name: paramedian raphe nucleus
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35693 ! pontine reticular formation
+relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:38151
+name: parvicellular reticular nucleus
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35482 ! lateral medullary reticular formation
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: group_term
