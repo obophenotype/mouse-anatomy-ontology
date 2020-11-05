@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 05:11:2020 12:40
+date: 05:11:2020 13:50
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -50134,15 +50134,16 @@ name: septal olfactory organ
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17608 ! nasal septum
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35765
-name: septal organ of Gruneberg
+name: Grueneberg ganglion
 namespace: anatomical_structure
+synonym: "septal organ of Gruneberg" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35764 ! septal olfactory organ
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:35766
