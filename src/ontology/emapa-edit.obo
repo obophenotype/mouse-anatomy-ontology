@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 05:11:2020 13:50
+date: 10:11:2020 17:21
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -63910,7 +63910,7 @@ name: anterior hypothalamic nucleus
 namespace: anatomical_structure
 is_a: EMAPA:35417 ! hypothalamic nucleus
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:37410
@@ -64644,7 +64644,7 @@ id: EMAPA:37499
 name: crus cerebri
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:16974 ! midbrain
+relationship: part_of EMAPA:38152 ! cerebral peduncle
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -69974,6 +69974,14 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35482 ! lateral medullary reticular formation
 relationship: starts_at TS27 ! TS27
+
+[Term]
+id: EMAPA:38152
+name: cerebral peduncle
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16974 ! midbrain
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: group_term
