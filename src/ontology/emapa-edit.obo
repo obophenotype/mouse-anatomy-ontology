@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 10:11:2020 17:21
+date: 16:11:2020 15:08
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -21520,6 +21520,7 @@ synonym: "Mullerian vagina" RELATED []
 synonym: "upper part of vagina" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18986 ! vagina
+relationship: part_of EMAPA:38153 ! lower urogenital tract
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -21573,6 +21574,7 @@ synonym: "vaginal bulb" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18986 ! vagina
 relationship: part_of EMAPA:28753 ! pelvic urethra of female
+relationship: part_of EMAPA:38153 ! lower urogenital tract
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -22186,6 +22188,7 @@ namespace: anatomical_structure
 def: "The ejaculatory duct (ed) (TS24-TS28) is comprised of epithelium, lamina propria and muscle of ejaculatory duct and surrounded by adventitia. Also contains vasculature (TS24-TS28) and nerves are seen from birth (TS27). Epithelium is marked by Krt14, lamina propria by Foxf1a and muscle of ejaculatory duct is marked by Crabp1 at E17 (Abler et al, 2011). Connects the seminal vesicle and ductus deferens to the pelvic urethra. Derived from the nephric duct." [PMID:21905163, PMID:25968320]
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
+relationship: part_of EMAPA:38153 ! lower urogenital tract
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -22971,6 +22974,7 @@ synonym: "vesicular seminalis" RELATED []
 is_a: EMAPA:19285 ! male accessory gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
+relationship: part_of EMAPA:38153 ! lower urogenital tract
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -23806,7 +23810,7 @@ is_a: EMAPA:35327 ! exocrine gland
 relationship: develops_from EMAPA:36141 ! prostate bud
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18692 ! urethra of male
-relationship: starts_at TS24 ! TS24
+relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:19289
@@ -37667,7 +37671,7 @@ name: anterior prostatic epithelium
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29794 ! anterior prostate gland
-relationship: part_of EMAPA:35711 ! prostate gland epithelium
+relationship: part_of EMAPA:35711 ! prostate epithelium
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -37730,7 +37734,7 @@ name: dorsal prostatic epithelium
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29808 ! dorsal prostate gland
-relationship: part_of EMAPA:35711 ! prostate gland epithelium
+relationship: part_of EMAPA:35711 ! prostate epithelium
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -37793,7 +37797,7 @@ name: lateral prostatic epithelium
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29822 ! lateral prostate gland
-relationship: part_of EMAPA:35711 ! prostate gland epithelium
+relationship: part_of EMAPA:35711 ! prostate epithelium
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -37855,7 +37859,7 @@ name: ventral prostatic epithelium
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29836 ! ventral prostate gland
-relationship: part_of EMAPA:35711 ! prostate gland epithelium
+relationship: part_of EMAPA:35711 ! prostate epithelium
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -39431,6 +39435,7 @@ def: "The pelvic urethra (PLUR) (TS21-TS22) is comprised of epithelium of pelvic
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17379 ! urogenital sinus
 relationship: part_of EMAPA:30901 ! urethra
+relationship: part_of EMAPA:38153 ! lower urogenital tract
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -41236,11 +41241,12 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:32281
-name: peri-prostatic mesenchyme of prostate gland
+name: peri-prostatic mesenchyme
 namespace: anatomical_structure
 is_a: EMAPA:35975 ! male reproductive system mesenchyme
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19287 ! prostate gland
+relationship: part_of EMAPA:36141 ! prostate bud
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -49709,12 +49715,13 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:35711
-name: prostate gland epithelium
+name: prostate epithelium
 namespace: anatomical_structure
 alt_id: EMAPA:32290
 is_a: EMAPA:35963 ! male reproductive system epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19287 ! prostate gland
+relationship: part_of EMAPA:36141 ! prostate bud
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -49736,10 +49743,11 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:35714
-name: prostate gland stroma
+name: prostate stroma
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19287 ! prostate gland
+relationship: part_of EMAPA:36141 ! prostate bud
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -52782,6 +52790,7 @@ namespace: anatomical_structure
 def: "The bladder neck (TS22-TS28) is the narrow open end of the bladder, located between the ureter orifices and the opening of the pelvic urethra. Subdivided into bladder trigone and ventral bladder neck." [PMID:25968320]
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
+relationship: part_of EMAPA:38153 ! lower urogenital tract
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -53343,6 +53352,7 @@ synonym: "prostate gland bud" RELATED []
 synonym: "prostatic bud" RELATED []
 is_a: EMAPA:19285 ! male accessory gland
 relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:38153 ! lower urogenital tract
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -69982,6 +69992,63 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16974 ! midbrain
 relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:38153
+name: lower urogenital tract
+namespace: anatomical_structure
+synonym: "LUT" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16367 ! genitourinary system
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38154
+name: lower urogenital tract adventitia
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38153 ! lower urogenital tract
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38155
+name: lower urogenital tract epithelium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38153 ! lower urogenital tract
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38156
+name: lower urogenital tract mesenchyme
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38153 ! lower urogenital tract
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38157
+name: lower urogenital tract muscle
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38153 ! lower urogenital tract
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38158
+name: lower urogenital tract nerve
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38153 ! lower urogenital tract
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38159
+name: lower urogenital tract vasculature
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38153 ! lower urogenital tract
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: group_term
