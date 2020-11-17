@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 16:11:2020 15:08
+date: 17:11:2020 17:06
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -70049,6 +70049,15 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:38153 ! lower urogenital tract
 relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38160
+name: rostral migratory stream
+namespace: anatomical_structure
+synonym: "RMS" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16910 ! telencephalon
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: group_term
