@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:11:2020 17:06
+date: 19:11:2020 09:26
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -21520,7 +21520,7 @@ synonym: "Mullerian vagina" RELATED []
 synonym: "upper part of vagina" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18986 ! vagina
-relationship: part_of EMAPA:38153 ! lower urogenital tract
+relationship: part_of EMAPA:38161 ! lower urogenital tract of female
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -21561,6 +21561,7 @@ def: "The pelvic urethra of male (PLUR) (TS23-TS28) is part of urethra of male. 
 is_a: EMAPA:30903 ! pelvic urethra
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18692 ! urethra of male
+relationship: part_of EMAPA:38162 ! lower urogenital tract of male
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -21574,7 +21575,7 @@ synonym: "vaginal bulb" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18986 ! vagina
 relationship: part_of EMAPA:28753 ! pelvic urethra of female
-relationship: part_of EMAPA:38153 ! lower urogenital tract
+relationship: part_of EMAPA:38161 ! lower urogenital tract of female
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -22188,7 +22189,7 @@ namespace: anatomical_structure
 def: "The ejaculatory duct (ed) (TS24-TS28) is comprised of epithelium, lamina propria and muscle of ejaculatory duct and surrounded by adventitia. Also contains vasculature (TS24-TS28) and nerves are seen from birth (TS27). Epithelium is marked by Krt14, lamina propria by Foxf1a and muscle of ejaculatory duct is marked by Crabp1 at E17 (Abler et al, 2011). Connects the seminal vesicle and ductus deferens to the pelvic urethra. Derived from the nephric duct." [PMID:21905163, PMID:25968320]
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
-relationship: part_of EMAPA:38153 ! lower urogenital tract
+relationship: part_of EMAPA:38162 ! lower urogenital tract of male
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -22974,7 +22975,7 @@ synonym: "vesicular seminalis" RELATED []
 is_a: EMAPA:19285 ! male accessory gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
-relationship: part_of EMAPA:38153 ! lower urogenital tract
+relationship: part_of EMAPA:38162 ! lower urogenital tract of male
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -36366,6 +36367,7 @@ id: EMAPA:28697
 name: epithelium of pelvic urethra of male
 namespace: anatomical_structure
 def: "The epithelium of pelvic urethra of male (TS23-TS28) is the innermost layer of the pelvic urethra, a stratified epithelium lining the lumen. It is subdivided into dorsal and ventral. It is also subdivided into three epithelial cell layers; superficial, intermediate and basal cell layer of dorsal/ventral pelvic urethra.  At TS23, the epithelium of dorsal pelvic urethra of male is also comprised of urogenital sinus ridge of male and rest of dorsal epithelium of pelvic urethra of male. The urogenital sinus ridge becomes the verumontanum in males from TS24. Cytokeratin 14 and Cadherin 1 are markers of all layers of the epithelium." [PMID:25968320]
+is_a: EMAPA:38166 ! male lower urogenital tract epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18995 ! pelvic urethra of male
 relationship: starts_at TS23 ! TS23
@@ -36375,6 +36377,7 @@ id: EMAPA:28703
 name: mesenchymal layer of pelvic urethra of male
 namespace: anatomical_structure
 def: "The mesenchymal layer of pelvic urethra of male (mlplur) (TS23-TS28) is located between the epithelium and muscle layers. Contains smooth muscle cells and mesenchymal/fibroblastic/stromal cells, blood vessels and nerves and mesenchymal pads of male (TS25-TS27). Subdivided from TS23-TS28 into dorsal and ventral. Subdivided from TS25-TS28, into lamina propria, muscularis mucosa and submucosa." [PMID:25968320]
+is_a: EMAPA:38167 ! male lower urogenital tract mesenchyme
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18995 ! pelvic urethra of male
 relationship: starts_at TS23 ! TS23
@@ -36385,6 +36388,7 @@ name: muscle layer of pelvic urethra of male
 namespace: anatomical_structure
 def: "The muscle layer of pelvic urethra of male (muplur) (syn: muscularis propria of pelvic urethra of male) (TS23-TS28) is the thicker layer of smooth muscle towards the outside of the pelvic urethra. Subdivided into dorsal/ventral (to TS27). Marked by proteins expressed by smooth muscle cells, such as smooth muscle alpha actin (Acta2)." [PMID:25968320]
 synonym: "muscularis propria of pelvic urethra of male" RELATED []
+is_a: EMAPA:38168 ! male lower urogenital tract muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18995 ! pelvic urethra of male
 relationship: starts_at TS23 ! TS23
@@ -36409,6 +36413,7 @@ synonym: "internal urethra" RELATED []
 is_a: EMAPA:30903 ! pelvic urethra
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28747 ! urethra of female
+relationship: part_of EMAPA:38161 ! lower urogenital tract of female
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -36416,6 +36421,7 @@ id: EMAPA:28759
 name: epithelium of pelvic urethra of female
 namespace: anatomical_structure
 def: "The epithelium of pelvic urethra of female (TS23-TS28) is the innermost layer of the pelvic urethra, a stratified epithelium lining the lumen. It is subdivided into dorsal and ventral. It is also subdivided into three epithelial cell layers; superficial, intermediate and basal cell layer of dorsal/ventral pelvic urethra.  At TS23, the epithelium of dorsal pelvic urethra of female is also comprised of urogenital sinus ridge of female and rest of dorsal epithelium of pelvic urethra of female. The urogenital sinus ridge becomes the sinovaginal bulb in females from TS24. Cytokeratin 14 and Cadherin 1 are markers of all layers of the epithelium." [PMID:25968320]
+is_a: EMAPA:38163 ! female lower urogenital tract epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28753 ! pelvic urethra of female
 relationship: starts_at TS23 ! TS23
@@ -36425,6 +36431,7 @@ id: EMAPA:28765
 name: mesenchymal layer of pelvic urethra of female
 namespace: anatomical_structure
 def: "The mesenchymal layer of pelvic urethra of female (mlplur) (TS23-TS28) is located between the epithelium and muscle layers. Contains smooth muscle cells and mesenchymal/fibroblastic/stromal cells, blood vessels and nerves and mesenchymal pads of female (TS25-TS27). Subdivided from TS23-TS28 into dorsal and ventral. Subdivided from TS25-TS28, into lamina propria, muscularis mucosa and submucosa." [PMID:25968320]
+is_a: EMAPA:38164 ! female lower urogenital tract mesenchyme
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28753 ! pelvic urethra of female
 relationship: starts_at TS23 ! TS23
@@ -36435,6 +36442,7 @@ name: muscle layer of pelvic urethra of female
 namespace: anatomical_structure
 def: "The muscle layer of pelvic urethra of female (muplur) (syn: muscularis propria of pelvic urethra of female) (TS23-TS28) is the thicker layer of smooth muscle towards the outside of the pelvic urethra. Subdivided into dorsal/ventral (to TS27). At TS28, subdivided into smooth muscle layer of pelvic urethra of female and rhabdosphincter of female (syn: striated muscle layer of pelvic urethra of female)." [PMID:25968320]
 synonym: "muscularis propria of pelvic urethra of female" RELATED []
+is_a: EMAPA:38165 ! female lower urogenital tract muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28753 ! pelvic urethra of female
 relationship: starts_at TS23 ! TS23
@@ -36772,6 +36780,7 @@ name: epithelium of upper vagina
 namespace: anatomical_structure
 def: "The epithelium of upper vagina (syn: epithelial layer of upper part of vagina) (TS24-TS27). The epithelial layer of the upper vagina is selectively marked by Wnt7a at E17 (absent from sinovaginal bulb epithelium) (Abler et al, 2011)." [PMID:21905163, PMID:25968320]
 synonym: "epithelial layer of upper part of vagina" RELATED []
+is_a: EMAPA:38163 ! female lower urogenital tract epithelium
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18987 ! upper vagina
 relationship: part_of EMAPA:30991 ! epithelium of vagina
@@ -36783,6 +36792,7 @@ name: muscle of upper vagina
 namespace: anatomical_structure
 def: "The muscle of upper vagina (syn: muscular layer of upper part of vagina) (TS24-TS27) is the smooth muscle layer of the upper vagina. Marked by Crabp1 at E17 (Abler et al, 2011) and alpha smooth muscle actin and gamma smooth muscle actin." [PMID:21905163, PMID:25968320]
 synonym: "muscular layer of upper part of vagina" RELATED []
+is_a: EMAPA:38165 ! female lower urogenital tract muscle
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18987 ! upper vagina
 relationship: part_of EMAPA:30997 ! muscle of vagina
@@ -36794,6 +36804,7 @@ name: epithelium of sinovaginal bulb
 namespace: anatomical_structure
 def: "The epithelium of sinovaginal bulb: (syn: epithelium of lower vagina, vaginal bulb epithelium, vaginal plate) (TS24-TS27). Krt14 at E17 is specific to the epithelial layer of sinovaginal bulb (Krt14 also present in urothelium of bladder, but absent from epithelial layer of upper vagina) (Abler et al, 2011)." [PMID:21905163, PMID:25968320]
 synonym: "epithelial layer of lower vagina" RELATED []
+is_a: EMAPA:38163 ! female lower urogenital tract epithelium
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18999 ! sinovaginal bulb
 relationship: part_of EMAPA:30991 ! epithelium of vagina
@@ -36805,6 +36816,7 @@ name: muscle of sinovaginal bulb
 namespace: anatomical_structure
 def: "The muscle of sinovaginal bulb (syn: muscular layer of lower vagina) (TS24-TS27) is marked by Crabp1 E17 (Abler et al, 2011) and alpha smooth muscle actin and gamma smooth muscle actin." [PMID:21905163, PMID:25968320]
 synonym: "muscular layer of lower vagina" RELATED []
+is_a: EMAPA:38165 ! female lower urogenital tract muscle
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18999 ! sinovaginal bulb
 relationship: part_of EMAPA:30997 ! muscle of vagina
@@ -37608,6 +37620,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:29771
 name: epithelium of seminal vesicle
 namespace: anatomical_structure
+is_a: EMAPA:38166 ! male lower urogenital tract epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19180 ! seminal vesicle
 relationship: starts_at TS24 ! TS24
@@ -37616,6 +37629,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:29773
 name: muscle of seminal vesicle
 namespace: anatomical_structure
+is_a: EMAPA:38168 ! male lower urogenital tract muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19180 ! seminal vesicle
 relationship: starts_at TS24 ! TS24
@@ -37632,6 +37646,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:29786
 name: epithelium of ejaculatory duct
 namespace: anatomical_structure
+is_a: EMAPA:38166 ! male lower urogenital tract epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19088 ! ejaculatory duct
 relationship: starts_at TS24 ! TS24
@@ -41053,6 +41068,7 @@ name: lamina propria of sinovaginal bulb
 namespace: anatomical_structure
 def: "The lamina propria of sinovaginal bulb (syn: mesenchyme of sinovaginal bulb) (TS24-TS27) is located between the epithelial layer and the muscle. Marked by Foxf1a, Crabp1, Amhr2 at E17 (Abler et al, 2011)." [PMID:21905163, PMID:25968320]
 synonym: "mesenchyme of sinovaginal bulb" RELATED []
+is_a: EMAPA:38164 ! female lower urogenital tract mesenchyme
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18999 ! sinovaginal bulb
 relationship: part_of EMAPA:35902 ! lamina propria of vagina
@@ -41151,6 +41167,7 @@ id: EMAPA:32270
 name: lamina propria of ejaculatory duct
 namespace: anatomical_structure
 synonym: "mesenchyme of ejaculatory duct" RELATED []
+is_a: EMAPA:38167 ! male lower urogenital tract mesenchyme
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19088 ! ejaculatory duct
 relationship: starts_at TS24 ! TS24
@@ -41169,6 +41186,7 @@ name: lamina propria of upper vagina
 namespace: anatomical_structure
 def: "The lamina propria of upper vagina (syn: mesenchymal layer of upper part of vagina) (TS24-TS27) is the connective tissue layer located between the epithelial layer and the muscular layer of the upper vagina. Marked by Amhr2 and Crabp1 at E17 (Abler et al, 2011)." [PMID:21905163, PMID:25968320]
 synonym: "mesenchymal layer of upper part of vagina" RELATED []
+is_a: EMAPA:38164 ! female lower urogenital tract mesenchyme
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18987 ! upper vagina
 relationship: part_of EMAPA:35902 ! lamina propria of vagina
@@ -41314,6 +41332,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:32289
 name: muscle of ejaculatory duct
 namespace: anatomical_structure
+is_a: EMAPA:38168 ! male lower urogenital tract muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19088 ! ejaculatory duct
 relationship: starts_at TS24 ! TS24
@@ -49719,6 +49738,7 @@ name: prostate epithelium
 namespace: anatomical_structure
 alt_id: EMAPA:32290
 is_a: EMAPA:35963 ! male reproductive system epithelium
+is_a: EMAPA:38166 ! male lower urogenital tract epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19287 ! prostate gland
 relationship: part_of EMAPA:36141 ! prostate bud
@@ -53352,7 +53372,7 @@ synonym: "prostate gland bud" RELATED []
 synonym: "prostatic bud" RELATED []
 is_a: EMAPA:19285 ! male accessory gland
 relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:38153 ! lower urogenital tract
+relationship: part_of EMAPA:38162 ! lower urogenital tract of male
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -55648,6 +55668,7 @@ id: EMAPA:36418
 name: lamina propria of seminal vesicle
 namespace: anatomical_structure
 synonym: "mesenchyme of seminal vesicle" RELATED []
+is_a: EMAPA:38167 ! male lower urogenital tract mesenchyme
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19180 ! seminal vesicle
 relationship: starts_at TS24 ! TS24
@@ -70058,6 +70079,76 @@ synonym: "RMS" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16910 ! telencephalon
 relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:38161
+name: lower urogenital tract of female
+namespace: anatomical_structure
+is_a: EMAPA:38153 ! lower urogenital tract
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:38162
+name: lower urogenital tract of male
+namespace: anatomical_structure
+is_a: EMAPA:38153 ! lower urogenital tract
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:38163
+name: female lower urogenital tract epithelium
+namespace: anatomical_structure
+is_a: EMAPA:38155 ! lower urogenital tract epithelium
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38161 ! lower urogenital tract of female
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:38164
+name: female lower urogenital tract mesenchyme
+namespace: anatomical_structure
+is_a: EMAPA:38156 ! lower urogenital tract mesenchyme
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38161 ! lower urogenital tract of female
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:38165
+name: female lower urogenital tract muscle
+namespace: anatomical_structure
+is_a: EMAPA:38157 ! lower urogenital tract muscle
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38161 ! lower urogenital tract of female
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:38166
+name: male lower urogenital tract epithelium
+namespace: anatomical_structure
+is_a: EMAPA:38155 ! lower urogenital tract epithelium
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38162 ! lower urogenital tract of male
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:38167
+name: male lower urogenital tract mesenchyme
+namespace: anatomical_structure
+is_a: EMAPA:38156 ! lower urogenital tract mesenchyme
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38162 ! lower urogenital tract of male
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:38168
+name: male lower urogenital tract muscle
+namespace: anatomical_structure
+is_a: EMAPA:38157 ! lower urogenital tract muscle
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38162 ! lower urogenital tract of male
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: group_term
