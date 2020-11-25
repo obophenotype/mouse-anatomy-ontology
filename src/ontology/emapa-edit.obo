@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 19:11:2020 09:26
+date: 25:11:2020 13:36
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -8956,8 +8956,8 @@ name: ureteric bud
 namespace: anatomical_structure
 alt_id: EMAPA:17376
 relationship: ends_at TS19 ! TS19
-relationship: part_of EMAPA:17373 ! metanephros
-relationship: starts_at TS18 ! TS18
+relationship: part_of EMAPA:17366 ! urinary system
+relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:17212
