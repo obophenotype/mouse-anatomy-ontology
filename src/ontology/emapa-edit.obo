@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:11:2020 13:36
+date: 15:12:2020 14:42
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -34939,7 +34939,6 @@ id: EMAPA:27591
 name: nephric duct, mesonephric portion
 namespace: anatomical_structure
 alt_id: EMAPA:27663
-synonym: "mesonephric duct" RELATED []
 synonym: "Wolffian duct, mesonephric portion" RELATED []
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:16577 ! nephric duct
@@ -70149,6 +70148,16 @@ is_a: EMAPA:38157 ! lower urogenital tract muscle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:38162 ! lower urogenital tract of male
 relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:38169
+name: ciliary zonule
+namespace: anatomical_structure
+synonym: "suspensory ligament of lens" RELATED []
+synonym: "zonule of Zinn" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36594 ! eye anterior segment
+relationship: starts_at TS28 ! TS28
 
 [Term]
 id: group_term
