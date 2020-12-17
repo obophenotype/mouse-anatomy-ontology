@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 15:12:2020 14:42
+date: 17:12:2020 15:02
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -20345,6 +20345,7 @@ name: penis
 namespace: anatomical_structure
 def: "The penis (TS25-TS28) is comprised of glans penis (distally), penile body (proximally) and surrounded by the prepuce. The penis contains within it, erectile tissues (corpora cavernosa glandis, urethra and MUMP corpus cavernosum), cartilage (hyaline cartilage of os penis and MUMP cartilage), bone tissue (bone of os penis), nerves, vasculature and lamina propria (connective tissue) and is surrounded by skin. The penis is mobile. The penis also contains within it the penile urethra, located along the length of the penis and the urethral seam, located underneath the ventral midline skin of the penis. The glans penis is positioned at a right angle bend to the penile body, following the bend of the urethra. Derived from the genital tubercle of male." [PMID:25968320]
 is_a: EMAPA:36936 ! male reproductive gland or organ
+relationship: develops_from EMAPA:17969 ! genital tubercle of male
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
 relationship: part_of EMAPA:30977 ! male external genitalia
@@ -21539,6 +21540,8 @@ name: prepuce of male
 namespace: anatomical_structure
 alt_id: EMAPA:30634
 def: "The prepuce of male (pce) (TS24-TS28) is the external part of the penis that completely surrounds the glans penis. The glans can be exposed when the prepuce is retracted.  Contains the preputial glands and mesenchyme of prepuce and surrounded by skin. Part of the genital tubercle of male (TS24) and from TS25 part of penis. Derived from preputial swelling of male (TS21-TS23). The preputial gland ducts drain into the preputial space. From TS28, prepuce is comprised of skin containing hair follicles, preputial gland (paired), which drain into the preputial space and prepuce lamina propria (stroma or connective tissue)." [PMID:25968320]
+is_a: EMAPA:38171 ! prepuce
+relationship: develops_from EMAPA:29220 ! preputial swelling of male
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17969 ! genital tubercle of male
 relationship: part_of EMAPA:18682 ! penis
@@ -37090,6 +37093,7 @@ namespace: anatomical_structure
 def: "The preputial swelling of male (pps) (syn: preputial fold of male, early prepuce of male) (TS21-TS23). Two lateral swellings develop on the sides of the genital tubercle at TS21 and grow medially and ventrally. These swellings enclose the preputial glands. Comprised of skin of male preputial swelling, preputial gland of male, and mesenchyme of male preputial swelling.  At TS24, when the two preputial swellings join/fuse together at the ventral midline of the genital tubercle of male, they become the prepuce of male." [PMID:25968320]
 synonym: "early prepuce of male" RELATED []
 synonym: "preputial fold of male" RELATED []
+is_a: EMAPA:35702 ! preputial swelling
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17969 ! genital tubercle of male
 relationship: starts_at TS21 ! TS21
@@ -38625,6 +38629,7 @@ namespace: anatomical_structure
 def: "The preputial swelling of female (pps) (syn: preputial fold of female, early prepuce of female) (TS21-TS23). Two lateral swellings develop on the sides of the genital tubercle at TS21 and grow medially and ventrally. These swellings enclose the preputial glands. Comprised of skin of female preputial swelling, preputial gland of female, and mesenchyme of female preputial swelling.  At TS24, when the two preputial swellings join/fuse together at the ventral midline of the genital tubercle of female, they become the prepuce of female." [PMID:25968320]
 synonym: "early prepuce of female" RELATED []
 synonym: "preputial fold of female" RELATED []
+is_a: EMAPA:35702 ! preputial swelling
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:18680 ! genital tubercle of female
 relationship: starts_at TS21 ! TS21
@@ -38899,6 +38904,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:30502
 alt_id: EMAPA:30640
 synonym: "preputial duct" RELATED []
+is_a: EMAPA:35701 ! preputial gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18989 ! prepuce of male
 relationship: part_of EMAPA:29220 ! preputial swelling of male
@@ -38937,6 +38943,8 @@ id: EMAPA:30699
 name: prepuce of female
 namespace: anatomical_structure
 def: "The prepuce of female (pce) (TS24-TS28) surrounds the glans clitoris and body of clitoris, but does not contain a preputial space. TS24-TS27 prepuce of female is comprised of skin, preputial glands and mesenchyme of prepuce. From TS28, prepuce of female is comprised of skin, preputial glands and lamina propria of prepuce. Part of the genital tubercle of female (TS24) and from TS25-TS28 part of the clitoris. Derived from preputial swelling of female (TS21-TS23)." [PMID:25968320]
+is_a: EMAPA:38171 ! prepuce
+relationship: develops_from EMAPA:30478 ! preputial swelling of female
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18680 ! genital tubercle of female
 relationship: part_of EMAPA:30819 ! clitoris
@@ -38967,6 +38975,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:30499
 synonym: "clitoral gland" RELATED []
 synonym: "preputial duct" RELATED []
+is_a: EMAPA:35701 ! preputial gland
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30478 ! preputial swelling of female
 relationship: part_of EMAPA:30699 ! prepuce of female
@@ -39237,6 +39246,7 @@ name: clitoris
 namespace: anatomical_structure
 def: "The clitoris (TS25-TS28) is comprised of glans clitoris (distally), body of clitoris (proximally) and surrounded by the prepuce of female. The clitoris contains within it, bone of the os clitoridis, nerves, vasculature and lamina propria (connective tissue) and is surrounded by the skin of female prepuce. The clitoris also contains within it the clitoral urethra, which is linear, positioned ventrally within the clitoris and remains in contact with the ventral surface of the clitoris. An opening forms in the clitoral urethra, called the urethral meatus, located within the glans clitoris, which is seen at birth. The female urethra is also open at the proximal urethral meatus at the base of the clitoris until a week after birth. The proximal urethral meatus is closed by P8. The clitoral urethra forms a large, U-shaped urethral cleft that extends from the body of clitoris to the glans clitoris, and is surrounded by a solid, U-shaped lamina propria (of glans clitoris and body of clitoris), which are both surrounded by the lamina propria of prepuce. There is no preputial space. The clitoris is much smaller than the penis and the os clitoridis is minisucle compared to the size of the os penis. The clitoris does not contain cartilage or erectile tissues and does not contain epithelial spines. The clitoris is not mobile, it is ventrally tethered to the prepuce and does not lie within a preputial space. Derived from the genital tubercle of female." [PMID:25968320]
 synonym: "genital tubercle of female" RELATED []
+relationship: develops_from EMAPA:18680 ! genital tubercle of female
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: part_of EMAPA:30984 ! female external genitalia
@@ -39632,6 +39642,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:30977
 name: male external genitalia
 namespace: anatomical_structure
+is_a: EMAPA:38170 ! external genitalia
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
 relationship: starts_at TS20 ! TS20
@@ -39640,6 +39651,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:30984
 name: female external genitalia
 namespace: anatomical_structure
+is_a: EMAPA:38170 ! external genitalia
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: starts_at TS20 ! TS20
@@ -49652,15 +49664,16 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:35701
 name: preputial gland
 namespace: anatomical_structure
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35702 ! preputial swelling
+relationship: part_of EMAPA:38171 ! prepuce
 relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:35702
 name: preputial swelling
 namespace: anatomical_structure
-relationship: ends_at TS22 ! TS22
+relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17382 ! genital tubercle
 relationship: starts_at TS21 ! TS21
 
@@ -70158,6 +70171,24 @@ synonym: "zonule of Zinn" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36594 ! eye anterior segment
 relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38170
+name: external genitalia
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17381 ! reproductive system
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:38171
+name: prepuce
+namespace: anatomical_structure
+relationship: develops_from EMAPA:35702 ! preputial swelling
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17382 ! genital tubercle
+relationship: part_of EMAPA:38170 ! external genitalia
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: group_term
