@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:12:2020 15:02
+date: 28:01:2021 09:33
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -56570,7 +56570,7 @@ name: retina blood vessel
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17168 ! retina
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:36521
