@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 28:01:2021 09:33
+date: 17:02:2021 15:06
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -27550,7 +27550,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:25091
 name: nasal septum cartilage
 namespace: anatomical_structure
-is_a: EMAPA:35978 ! sensory organ cartilage
+is_a: EMAPA:37681 ! nasal cartilage
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17608 ! nasal septum
 relationship: starts_at TS22 ! TS22
@@ -66160,9 +66160,10 @@ relationship: starts_at TS27 ! TS27
 id: EMAPA:37681
 name: nasal cartilage
 namespace: anatomical_structure
+is_a: EMAPA:35978 ! sensory organ cartilage
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16542 ! nose
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:37682
