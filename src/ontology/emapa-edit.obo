@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:02:2021 15:06
+date: 25:02:2021 15:29
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -9709,7 +9709,6 @@ id: EMAPA:17300
 name: superior semicircular canal mesenchyme
 namespace: anatomical_structure
 is_a: EMAPA:32829 ! semicircular canal mesenchyme
-relationship: develops_from EMAPA:16685 ! 1st arch artery
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17299 ! superior semicircular canal
 relationship: starts_at TS19 ! TS19
@@ -9801,6 +9800,7 @@ id: EMAPA:17311
 name: maxillary artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
+relationship: develops_from EMAPA:16685 ! 1st arch artery
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS19 ! TS19
 
@@ -20511,6 +20511,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:18714
 name: temporo-mandibular joint primordium
 namespace: anatomical_structure
+is_a: EMAPA:38172 ! skeletal joint primordium
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:17683 ! temporal bone petrous part
 relationship: starts_at TS23 ! TS23
@@ -23119,7 +23120,7 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19196
 name: temporo-mandibular joint
 namespace: anatomical_structure
-is_a: EMAPA:35456 ! joint
+is_a: EMAPA:35456 ! skeletal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17682 ! temporal bone
 relationship: starts_at TS24 ! TS24
@@ -23772,7 +23773,7 @@ relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:19280
-name: loop of Henle group
+name: loop of Henle
 namespace: anatomical_structure
 relationship: develops_from EMAPA:28049 ! immature loop of Henle
 relationship: ends_at TS28 ! TS28
@@ -24163,45 +24164,45 @@ relationship: starts_at TS16 ! TS16
 id: EMAPA:19335
 name: C1 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:17392 ! cervical vertebral cartilage condensation
 relationship: develops_from EMAPA:19323 ! C1 vertebral pre-cartilage condensation
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:17392 ! cervical vertebral cartilage condensation
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:19336
 name: C2 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:17392 ! cervical vertebral cartilage condensation
 relationship: develops_from EMAPA:19324 ! C2 vertebral pre-cartilage condensation
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:17392 ! cervical vertebral cartilage condensation
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:19337
 name: C3 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:17392 ! cervical vertebral cartilage condensation
 relationship: develops_from EMAPA:19325 ! C3 vertebral pre-cartilage condensation
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:17392 ! cervical vertebral cartilage condensation
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:19338
 name: C4 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:17392 ! cervical vertebral cartilage condensation
 relationship: develops_from EMAPA:19326 ! C4 vertebral pre-cartilage condensation
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:17392 ! cervical vertebral cartilage condensation
 relationship: starts_at TS17 ! TS17
 
 [Term]
 id: EMAPA:19339
 name: C5 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:17392 ! cervical vertebral cartilage condensation
 relationship: develops_from EMAPA:19327 ! C5 vertebral pre-cartilage condensation
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:17392 ! cervical vertebral cartilage condensation
 relationship: starts_at TS17 ! TS17
 
 [Term]
@@ -24280,18 +24281,18 @@ relationship: starts_at TS17 ! TS17
 id: EMAPA:19349
 name: C6 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:17392 ! cervical vertebral cartilage condensation
 relationship: develops_from EMAPA:19328 ! C6 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17392 ! cervical vertebral cartilage condensation
 relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:19350
 name: C7 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:17392 ! cervical vertebral cartilage condensation
 relationship: develops_from EMAPA:19329 ! C7 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17392 ! cervical vertebral cartilage condensation
 relationship: starts_at TS18 ! TS18
 
 [Term]
@@ -24354,54 +24355,54 @@ relationship: starts_at TS18 ! TS18
 id: EMAPA:19358
 name: T1 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: develops_from EMAPA:19330 ! T1 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:19359
 name: T2 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: develops_from EMAPA:19331 ! T2 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:19360
 name: T3 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: develops_from EMAPA:19332 ! T3 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:19361
 name: T4 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: develops_from EMAPA:19333 ! T4 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:19362
 name: T5 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: develops_from EMAPA:19334 ! T5 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: starts_at TS18 ! TS18
 
 [Term]
 id: EMAPA:19363
 name: L1 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:17675 ! lumbar vertebral cartilage condensation
 relationship: develops_from EMAPA:19340 ! L1 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17675 ! lumbar vertebral cartilage condensation
 relationship: starts_at TS19 ! TS19
 
 [Term]
@@ -24488,134 +24489,134 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:19374
 name: T6 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: develops_from EMAPA:19341 ! T6 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:19375
 name: T7 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: develops_from EMAPA:19342 ! T7 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:19376
 name: T8 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: develops_from EMAPA:19343 ! T8 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:19377
 name: T9 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: develops_from EMAPA:19344 ! T9 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:19378
 name: T10 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: develops_from EMAPA:19345 ! T10 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:19379
 name: T11 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: develops_from EMAPA:19346 ! T11 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:19380
 name: T12 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: develops_from EMAPA:19347 ! T12 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:19381
 name: T13 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: develops_from EMAPA:19348 ! T13 vertebral pre-cartilage condensation
 relationship: ends_at TS22 ! TS22
-relationship: part_of EMAPA:17679 ! thoracic vertebral cartilage condensation
 relationship: starts_at TS19 ! TS19
 
 [Term]
 id: EMAPA:19382
 name: L2 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:17675 ! lumbar vertebral cartilage condensation
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17675 ! lumbar vertebral cartilage condensation
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:19383
 name: L3 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:17675 ! lumbar vertebral cartilage condensation
 relationship: develops_from EMAPA:19352 ! L3 vertebral pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17675 ! lumbar vertebral cartilage condensation
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:19384
 name: L4 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:17675 ! lumbar vertebral cartilage condensation
 relationship: develops_from EMAPA:19353 ! L4 vertebral pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17675 ! lumbar vertebral cartilage condensation
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:19385
 name: L5 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:17675 ! lumbar vertebral cartilage condensation
 relationship: develops_from EMAPA:19354 ! L5 vertebral pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17675 ! lumbar vertebral cartilage condensation
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:19386
 name: L6 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:17675 ! lumbar vertebral cartilage condensation
 relationship: develops_from EMAPA:19355 ! L6 vertebral pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:17675 ! lumbar vertebral cartilage condensation
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:19387
 name: S1 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18009 ! sacral vertebral cartilage condensation
 relationship: develops_from EMAPA:19356 ! S1 vertebral pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:18009 ! sacral vertebral cartilage condensation
 relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:19388
 name: S2 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18009 ! sacral vertebral cartilage condensation
 relationship: develops_from EMAPA:19357 ! S2 vertebral pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:18009 ! sacral vertebral cartilage condensation
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -24726,45 +24727,45 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:19402
 name: S3 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18009 ! sacral vertebral cartilage condensation
 relationship: develops_from EMAPA:19364 ! S3 vertebral pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:18009 ! sacral vertebral cartilage condensation
 relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:19403
 name: S4 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18009 ! sacral vertebral cartilage condensation
 relationship: develops_from EMAPA:19365 ! S4 vertebral pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:18009 ! sacral vertebral cartilage condensation
 relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:19404
 name: Tl1 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19366 ! Tl1 vertebral pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:19405
 name: Tl2 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19367 ! Tl2 vertebral pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS21 ! TS21
 
 [Term]
 id: EMAPA:19406
 name: Tl3 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19368 ! Tl3 vertebral pre-cartilage condensation
 relationship: ends_at TS23 ! TS23
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -24849,8 +24850,8 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:19416
 name: C1 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19415 ! cervical intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19415 ! cervical intervertebral disc
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -24875,8 +24876,8 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:19419
 name: C2 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19415 ! cervical intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19415 ! cervical intervertebral disc
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -24901,8 +24902,8 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:19422
 name: C3 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19415 ! cervical intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19415 ! cervical intervertebral disc
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -24927,8 +24928,8 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:19425
 name: C4 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19415 ! cervical intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19415 ! cervical intervertebral disc
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -24953,8 +24954,8 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:19428
 name: C5 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19415 ! cervical intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19415 ! cervical intervertebral disc
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -25026,72 +25027,72 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:19436
 name: Tl4 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19389 ! Tl4 vertebral pre-cartilage condensation
 relationship: ends_at TS24 ! TS24
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:19437
 name: Tl5 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19390 ! Tl5 vertebral pre-cartilage condensation
 relationship: ends_at TS24 ! TS24
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:19438
 name: Tl6 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19391 ! Tl6 vertebral pre-cartilage condensation
 relationship: ends_at TS24 ! TS24
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:19439
 name: Tl7 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19392 ! Tl7 vertebral pre-cartilage condensation
 relationship: ends_at TS24 ! TS24
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:19440
 name: Tl8 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19393 ! Tl8 vertebral pre-cartilage condensation
 relationship: ends_at TS24 ! TS24
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:19441
 name: Tl9 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19407 ! Tl9 vertebral pre-cartilage condensation
 relationship: ends_at TS24 ! TS24
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:19442
 name: Tl10 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19408 ! Tl10 vertebral pre-cartilage condensation
 relationship: ends_at TS24 ! TS24
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:19443
 name: Tl11 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19409 ! Tl11 vertebral pre-cartilage condensation
 relationship: ends_at TS24 ! TS24
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -25234,8 +25235,8 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:19460
 name: C6 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19415 ! cervical intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19415 ! cervical intervertebral disc
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -25260,8 +25261,8 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19463
 name: C7 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19415 ! cervical intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19415 ! cervical intervertebral disc
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -25313,8 +25314,8 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19469
 name: L1 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19468 ! lumbar intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19468 ! lumbar intervertebral disc
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -25348,72 +25349,72 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19473
 name: Tl12 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19444 ! Tl12 vertebral pre-cartilage condensation
 relationship: ends_at TS25 ! TS25
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19474
 name: Tl13 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19445 ! Tl13 vertebral pre-cartilage condensation
 relationship: ends_at TS25 ! TS25
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19475
 name: Tl14 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19446 ! Tl14 vertebral pre-cartilage condensation
 relationship: ends_at TS25 ! TS25
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19476
 name: Tl15 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19447 ! Tl15 vertebral pre-cartilage condensation
 relationship: ends_at TS25 ! TS25
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19477
 name: Tl16 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19448 ! Tl16 vertebral pre-cartilage condensation
 relationship: ends_at TS25 ! TS25
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19478
 name: Tl17 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19449 ! Tl17 vertebral pre-cartilage condensation
 relationship: ends_at TS25 ! TS25
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19479
 name: Tl18 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19450 ! Tl18 vertebral pre-cartilage condensation
 relationship: ends_at TS25 ! TS25
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:19480
 name: Tl19 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19451 ! Tl19 vertebral pre-cartilage condensation
 relationship: ends_at TS25 ! TS25
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -25493,8 +25494,8 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19490
 name: T1 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19489 ! thoracic intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19489 ! thoracic intervertebral disc
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -25519,8 +25520,8 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19493
 name: T2 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19489 ! thoracic intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19489 ! thoracic intervertebral disc
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -25545,8 +25546,8 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19496
 name: T3 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19489 ! thoracic intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19489 ! thoracic intervertebral disc
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -25571,8 +25572,8 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19499
 name: T4 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19489 ! thoracic intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19489 ! thoracic intervertebral disc
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -25597,8 +25598,8 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19502
 name: T5 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19489 ! thoracic intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19489 ! thoracic intervertebral disc
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -25623,8 +25624,8 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19505
 name: T6 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19489 ! thoracic intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19489 ! thoracic intervertebral disc
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -25649,8 +25650,8 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19508
 name: T7 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19489 ! thoracic intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19489 ! thoracic intervertebral disc
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -25675,8 +25676,8 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19511
 name: T8 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19489 ! thoracic intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19489 ! thoracic intervertebral disc
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -25701,8 +25702,8 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19514
 name: T9 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19489 ! thoracic intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19489 ! thoracic intervertebral disc
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -25727,8 +25728,8 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19517
 name: T10 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19489 ! thoracic intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19489 ! thoracic intervertebral disc
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -25753,8 +25754,8 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19520
 name: T11 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19489 ! thoracic intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19489 ! thoracic intervertebral disc
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -25779,8 +25780,8 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19523
 name: T12 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19489 ! thoracic intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19489 ! thoracic intervertebral disc
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -25805,8 +25806,8 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19526
 name: T13 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19489 ! thoracic intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19489 ! thoracic intervertebral disc
 relationship: starts_at TS23 ! TS23
 
 [Term]
@@ -25923,6 +25924,7 @@ name: T11 rib
 namespace: anatomical_structure
 is_a: EMAPA:18010 ! rib
 relationship: develops_from EMAPA:19379 ! T11 vertebral cartilage condensation
+relationship: develops_from EMAPA:19457 ! T11 rib cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
@@ -26065,8 +26067,8 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:19555
 name: L2 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19468 ! lumbar intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19468 ! lumbar intervertebral disc
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -26091,8 +26093,8 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19558
 name: L3 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19468 ! lumbar intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19468 ! lumbar intervertebral disc
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -26117,8 +26119,8 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19561
 name: L4 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19468 ! lumbar intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19468 ! lumbar intervertebral disc
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -26143,8 +26145,8 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19564
 name: L5 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19468 ! lumbar intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19468 ! lumbar intervertebral disc
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -26169,8 +26171,8 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19567
 name: L6 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19468 ! lumbar intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19468 ! lumbar intervertebral disc
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -26249,8 +26251,8 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19576
 name: S1 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19575 ! sacral intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19575 ! sacral intervertebral disc
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -26275,8 +26277,8 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19579
 name: S2 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19575 ! sacral intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19575 ! sacral intervertebral disc
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -26301,8 +26303,8 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19582
 name: S3 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19575 ! sacral intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19575 ! sacral intervertebral disc
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -26327,8 +26329,8 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19585
 name: S4 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19575 ! sacral intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19575 ! sacral intervertebral disc
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -26398,8 +26400,8 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19593
 name: Tl1 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19592 ! tail intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19592 ! tail intervertebral disc
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -26424,8 +26426,8 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19596
 name: Tl2 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19592 ! tail intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19592 ! tail intervertebral disc
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -26450,8 +26452,8 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19599
 name: Tl3 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19592 ! tail intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19592 ! tail intervertebral disc
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -26503,72 +26505,72 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19605
 name: Tl20 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19481 ! Tl20 vertebral pre-cartilage condensation
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:19606
 name: Tl21 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19482 ! Tl21 vertebral pre-cartilage condensation
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:19607
 name: Tl22 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19483 ! Tl22 vertebral pre-cartilage condensation
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:19608
 name: Tl23 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19484 ! Tl23 vertebral pre-cartilage condensation
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:19609
 name: Tl24 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19485 ! Tl24 vertebral pre-cartilage condensation
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:19610
 name: Tl25 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19486 ! Tl25 vertebral pre-cartilage condensation
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:19611
 name: Tl26 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19487 ! Tl26 vertebral pre-cartilage condensation
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:19612
 name: Tl27 vertebral cartilage condensation
 namespace: anatomical_structure
+is_a: EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: develops_from EMAPA:19488 ! Tl27 vertebral pre-cartilage condensation
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:18044 ! tail vertebral cartilage condensation
 relationship: starts_at TS24 ! TS24
 
 [Term]
@@ -26607,8 +26609,8 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19617
 name: Tl4 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19592 ! tail intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19592 ! tail intervertebral disc
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -26633,8 +26635,8 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19620
 name: Tl5 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19592 ! tail intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19592 ! tail intervertebral disc
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -26659,8 +26661,8 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19623
 name: Tl6 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19592 ! tail intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19592 ! tail intervertebral disc
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -26685,8 +26687,8 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19626
 name: Tl7 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19592 ! tail intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19592 ! tail intervertebral disc
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -26711,8 +26713,8 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19629
 name: Tl8 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19592 ! tail intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19592 ! tail intervertebral disc
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -26737,8 +26739,8 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19632
 name: Tl9 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19592 ! tail intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19592 ! tail intervertebral disc
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -26763,8 +26765,8 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19635
 name: Tl10 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19592 ! tail intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19592 ! tail intervertebral disc
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -26789,8 +26791,8 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19638
 name: Tl11 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19592 ! tail intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19592 ! tail intervertebral disc
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -26887,8 +26889,8 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19649
 name: Tl12 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19592 ! tail intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19592 ! tail intervertebral disc
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -26913,8 +26915,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:19652
 name: Tl13 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19592 ! tail intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19592 ! tail intervertebral disc
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -26939,8 +26941,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:19655
 name: Tl14 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19592 ! tail intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19592 ! tail intervertebral disc
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -26965,8 +26967,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:19658
 name: Tl15 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19592 ! tail intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19592 ! tail intervertebral disc
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -26991,8 +26993,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:19661
 name: Tl16 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19592 ! tail intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19592 ! tail intervertebral disc
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -27017,8 +27019,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:19664
 name: Tl17 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19592 ! tail intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19592 ! tail intervertebral disc
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -27043,8 +27045,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:19667
 name: Tl18 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19592 ! tail intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19592 ! tail intervertebral disc
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -27069,8 +27071,8 @@ relationship: starts_at TS26 ! TS26
 id: EMAPA:19670
 name: Tl19 intervertebral disc
 namespace: anatomical_structure
+is_a: EMAPA:19592 ! tail intervertebral disc
 relationship: ends_at TS26 ! TS26
-relationship: part_of EMAPA:19592 ! tail intervertebral disc
 relationship: starts_at TS26 ! TS26
 
 [Term]
@@ -35918,7 +35920,7 @@ id: EMAPA:28322
 name: loop of Henle, outer medullary portion
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19280 ! loop of Henle group
+relationship: part_of EMAPA:19280 ! loop of Henle
 relationship: part_of EMAPA:28310 ! outer renal medulla
 relationship: starts_at TS25 ! TS25
 
@@ -35981,7 +35983,7 @@ id: EMAPA:28352
 name: loop of Henle, inner medullary portion
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19280 ! loop of Henle group
+relationship: part_of EMAPA:19280 ! loop of Henle
 relationship: part_of EMAPA:28349 ! inner renal medulla
 relationship: starts_at TS25 ! TS25
 
@@ -42402,6 +42404,7 @@ id: EMAPA:32699
 name: limb joint primordium
 namespace: anatomical_structure
 synonym: "limb joint interzone" RELATED []
+is_a: EMAPA:38172 ! skeletal joint primordium
 relationship: ends_at TS23 ! TS23
 relationship: part_of EMAPA:32705 ! limb mesenchyme
 relationship: starts_at TS21 ! TS21
@@ -46763,7 +46766,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35344
 name: fibrous joint
 namespace: anatomical_structure
-is_a: EMAPA:35456 ! joint
+is_a: EMAPA:35456 ! skeletal joint
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
 
@@ -47638,7 +47641,7 @@ relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35456
-name: joint
+name: skeletal joint
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35150 ! articular system
@@ -48118,7 +48121,7 @@ id: EMAPA:35510
 name: loop of Henle ascending limb
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19280 ! loop of Henle group
+relationship: part_of EMAPA:19280 ! loop of Henle
 relationship: starts_at TS27 ! TS27
 
 [Term]
@@ -48126,7 +48129,7 @@ id: EMAPA:35511
 name: loop of Henle descending limb
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19280 ! loop of Henle group
+relationship: part_of EMAPA:19280 ! loop of Henle
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -48143,7 +48146,7 @@ id: EMAPA:35513
 name: loop of Henle thick limb
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19280 ! loop of Henle group
+relationship: part_of EMAPA:19280 ! loop of Henle
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -48159,7 +48162,7 @@ id: EMAPA:35515
 name: loop of Henle thin limb
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:19280 ! loop of Henle group
+relationship: part_of EMAPA:19280 ! loop of Henle
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -56411,7 +56414,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36501
 name: limb joint
 namespace: anatomical_structure
-is_a: EMAPA:35456 ! joint
+is_a: EMAPA:35456 ! skeletal joint
 relationship: develops_from EMAPA:32699 ! limb joint primordium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16405 ! limb
@@ -57065,7 +57068,7 @@ relationship: starts_at TS19 ! TS19
 id: EMAPA:36581
 name: cartilaginous joint
 namespace: anatomical_structure
-is_a: EMAPA:35456 ! joint
+is_a: EMAPA:35456 ! skeletal joint
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
 
@@ -58058,7 +58061,7 @@ relationship: starts_at TS07 ! TS07
 id: EMAPA:36700
 name: synovial joint
 namespace: anatomical_structure
-is_a: EMAPA:35456 ! joint
+is_a: EMAPA:35456 ! skeletal joint
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
 
@@ -59810,7 +59813,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36910
 name: joint of  rib
 namespace: anatomical_structure
-is_a: EMAPA:35456 ! joint
+is_a: EMAPA:35456 ! skeletal joint
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS23 ! TS23
 
@@ -59826,7 +59829,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36912
 name: joint of vertebral arch
 namespace: anatomical_structure
-is_a: EMAPA:35456 ! joint
+is_a: EMAPA:35456 ! skeletal joint
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
 
@@ -59834,7 +59837,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:36913
 name: intervertebral joint
 namespace: anatomical_structure
-is_a: EMAPA:35456 ! joint
+is_a: EMAPA:35456 ! skeletal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17214 ! axial skeleton
 relationship: starts_at TS21 ! TS21
@@ -59843,7 +59846,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:36914
 name: joint of girdle
 namespace: anatomical_structure
-is_a: EMAPA:35456 ! joint
+is_a: EMAPA:35456 ! skeletal joint
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS21 ! TS21
 
@@ -65685,7 +65688,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37622
 name: joint of vertebral body
 namespace: anatomical_structure
-is_a: EMAPA:35456 ! joint
+is_a: EMAPA:35456 ! skeletal joint
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
 
@@ -69030,7 +69033,7 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:38033
 name: atlanto-occipital joint
 namespace: anatomical_structure
-is_a: EMAPA:35456 ! joint
+is_a: EMAPA:35456 ! skeletal joint
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS21 ! TS21
 
@@ -69156,7 +69159,7 @@ relationship: starts_at TS22 ! TS22
 id: EMAPA:38049
 name: joint of auditory ossicle
 namespace: anatomical_structure
-is_a: EMAPA:35456 ! joint
+is_a: EMAPA:35456 ! skeletal joint
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17000 ! middle ear
 relationship: starts_at TS24 ! TS24
@@ -70190,6 +70193,30 @@ relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17382 ! genital tubercle
 relationship: part_of EMAPA:38170 ! external genitalia
 relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:38172
+name: skeletal joint primordium
+namespace: anatomical_structure
+relationship: ends_at TS23 ! TS23
+relationship: part_of EMAPA:35150 ! articular system
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38173
+name: anterior pre-placodal region
+namespace: anatomical_structure
+relationship: ends_at TS15 ! TS15
+relationship: part_of EMAPA:36749 ! pre-placodal region
+relationship: starts_at TS11 ! TS11
+
+[Term]
+id: EMAPA:38174
+name: posterior pre-placodal region
+namespace: anatomical_structure
+relationship: ends_at TS15 ! TS15
+relationship: part_of EMAPA:36749 ! pre-placodal region
+relationship: starts_at TS11 ! TS11
 
 [Term]
 id: group_term
