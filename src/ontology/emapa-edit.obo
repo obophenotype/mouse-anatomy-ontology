@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 25:02:2021 15:29
+date: 23:03:2021 15:26
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -45236,6 +45236,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:35155
 name: right lung lobe
 namespace: anatomical_structure
+synonym: "right lung medial lobe" RELATED []
 is_a: EMAPA:36281 ! lung lobe
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17661 ! right lung
@@ -58037,7 +58038,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:36697
 name: olfactory migratory mass
 namespace: anatomical_structure
-relationship: ends_at TS20 ! TS20
+relationship: ends_at TS21 ! TS21
 relationship: part_of EMAPA:16542 ! nose
 relationship: starts_at TS17 ! TS17
 
