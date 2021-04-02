@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 23:03:2021 15:26
+date: 02:04:2021 12:26
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -44757,9 +44757,10 @@ id: EMAPA:35100
 name: 3rd ventricle ependyma
 namespace: anatomical_structure
 synonym: "third ventricle ependyma" RELATED []
+is_a: EMAPA:38175 ! ventricle ependyma
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16900 ! 3rd ventricle
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35101
@@ -45465,7 +45466,7 @@ namespace: anatomical_structure
 is_a: EMAPA:37865 ! ependyma
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16894 ! brain
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35184
@@ -46855,9 +46856,10 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:35355
 name: 4th ventricle ependyma
 namespace: anatomical_structure
+is_a: EMAPA:38175 ! ventricle ependyma
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16917 ! 4th ventricle
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35356
@@ -47939,9 +47941,10 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:35488
 name: lateral ventricle ependyma
 namespace: anatomical_structure
+is_a: EMAPA:38175 ! ventricle ependyma
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16914 ! lateral ventricle
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:35489
@@ -57304,7 +57307,7 @@ namespace: anatomical_structure
 synonym: "choroid plexus mesenchyme" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32741 ! choroid plexus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:36610
@@ -60858,7 +60861,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36608 ! choroid plexus epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32742 ! 4th ventricle choroid plexus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:37039
@@ -60868,7 +60871,7 @@ synonym: "4th ventricle choroid plexus mesenchyme" RELATED []
 is_a: EMAPA:36609 ! choroid plexus stroma
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32742 ! 4th ventricle choroid plexus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:37040
@@ -60877,7 +60880,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36608 ! choroid plexus epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17769 ! lateral ventricle choroid plexus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:37041
@@ -60887,7 +60890,7 @@ synonym: "lateral ventricle choroid plexus mesenchyme" RELATED []
 is_a: EMAPA:36609 ! choroid plexus stroma
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17769 ! lateral ventricle choroid plexus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:37042
@@ -61008,7 +61011,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36608 ! choroid plexus epithelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18543 ! 3rd ventricle choroid plexus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:37056
@@ -61018,7 +61021,7 @@ synonym: "3rd ventricle choroid plexus mesenchyme" RELATED []
 is_a: EMAPA:36609 ! choroid plexus stroma
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18543 ! 3rd ventricle choroid plexus
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:37057
@@ -70218,6 +70221,15 @@ namespace: anatomical_structure
 relationship: ends_at TS15 ! TS15
 relationship: part_of EMAPA:36749 ! pre-placodal region
 relationship: starts_at TS11 ! TS11
+
+[Term]
+id: EMAPA:38175
+name: ventricle ependyma
+namespace: anatomical_structure
+is_a: EMAPA:35183 ! brain ependyma
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:32674 ! brain ventricle
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: group_term
