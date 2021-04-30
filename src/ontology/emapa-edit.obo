@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 06:04:2021 15:06
+date: 30:04:2021 14:29
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -70230,6 +70230,22 @@ is_a: EMAPA:35183 ! brain ependyma
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:32674 ! brain ventricle
 relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:38176
+name: lower urinary tract epithelium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36670 ! lower urinary tract
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:38177
+name: lower urinary tract mesenchyme
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:36670 ! lower urinary tract
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: group_term
