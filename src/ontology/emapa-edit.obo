@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 30:04:2021 14:29
+date: 11:06:2021 10:48
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -22905,6 +22905,7 @@ id: EMAPA:19170
 name: glans of female genital tubercle
 namespace: anatomical_structure
 def: "The glans of female genital tubercle (TS23-TS24) is the distal part of the genital tubercle of female, comprised of skin and mesenchyme of glans of female genital tubercle. Derived from distal genital tubercle of female. The distal end of the phallic urethra of female is located within the glans, including the urethral plate epithelium of female and part of the urethral tube epithelium of female. Becomes the glans clitoris at TS25, when genital tubercle of female becomes clitoris." [PMID:25968320]
+is_a: EMAPA:38179 ! glans of genital tubercle
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:18680 ! genital tubercle of female
 relationship: starts_at TS23 ! TS23
@@ -37064,6 +37065,7 @@ id: EMAPA:29205
 name: distal genital tubercle of male
 namespace: anatomical_structure
 synonym: "early glans of male" RELATED []
+is_a: EMAPA:38178 ! distal genital tubercle
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17969 ! genital tubercle of male
 relationship: starts_at TS21 ! TS21
@@ -37125,6 +37127,7 @@ name: glans of male genital tubercle
 namespace: anatomical_structure
 alt_id: EMAPA:29288
 def: "The glans of male genital tubercle (TS23-TS24) is the distal part of the genital tubercle of male, comprised of skin and mesenchyme of glans of male genital tubercle. Derived from distal genital tubercle of male. The distal end of the phallic urethra of male is located within the glans, including the urethral plate epithelium of male and part of the urethral tube epithelium of male. Becomes the glans penis at TS25, when genital tubercle of male becomes penis." [PMID:25968320]
+is_a: EMAPA:38179 ! glans of genital tubercle
 relationship: ends_at TS24 ! TS24
 relationship: part_of EMAPA:17969 ! genital tubercle of male
 relationship: starts_at TS23 ! TS23
@@ -38641,6 +38644,7 @@ id: EMAPA:30484
 name: distal genital tubercle of female
 namespace: anatomical_structure
 synonym: "early glans of female" RELATED []
+is_a: EMAPA:38178 ! distal genital tubercle
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:18680 ! genital tubercle of female
 relationship: starts_at TS21 ! TS21
@@ -40362,6 +40366,7 @@ relationship: starts_at TS20 ! TS20
 id: EMAPA:31504
 name: proximal genital tubercle of male
 namespace: anatomical_structure
+is_a: EMAPA:38180 ! proximal genital tubercle
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17969 ! genital tubercle of male
 relationship: starts_at TS21 ! TS21
@@ -40382,6 +40387,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:31506
 name: proximal genital tubercle of female
 namespace: anatomical_structure
+is_a: EMAPA:38180 ! proximal genital tubercle
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:18680 ! genital tubercle of female
 relationship: starts_at TS21 ! TS21
@@ -70246,6 +70252,30 @@ namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:36670 ! lower urinary tract
 relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:38178
+name: distal genital tubercle
+namespace: anatomical_structure
+relationship: ends_at TS22 ! TS22
+relationship: part_of EMAPA:17382 ! genital tubercle
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38179
+name: glans of genital tubercle
+namespace: anatomical_structure
+relationship: ends_at TS24 ! TS24
+relationship: part_of EMAPA:17382 ! genital tubercle
+relationship: starts_at TS23 ! TS23
+
+[Term]
+id: EMAPA:38180
+name: proximal genital tubercle
+namespace: anatomical_structure
+relationship: ends_at TS22 ! TS22
+relationship: part_of EMAPA:17382 ! genital tubercle
+relationship: starts_at TS21 ! TS21
 
 [Term]
 id: group_term
