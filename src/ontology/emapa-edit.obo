@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 11:06:2021 10:48
+date: 07:07:2021 14:25
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -70276,6 +70276,15 @@ namespace: anatomical_structure
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:17382 ! genital tubercle
 relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38181
+name: nucleus incertus
+namespace: anatomical_structure
+is_a: EMAPA:32790 ! brainstem nucleus
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:17563 ! pons
+relationship: starts_at TS28 ! TS28
 
 [Term]
 id: group_term
