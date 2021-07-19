@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 07:07:2021 14:25
+date: 19:07:2021 11:29
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -19577,6 +19577,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:18574
 name: dorsal grey horn
 namespace: anatomical_structure
+synonym: "dorsal gray horn" RELATED []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17581 ! alar columns
 relationship: starts_at TS21 ! TS21
@@ -19585,6 +19586,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:18575
 name: ventral grey horn
 namespace: anatomical_structure
+synonym: "ventral gray horn" RELATED []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17582 ! basal columns
 relationship: starts_at TS21 ! TS21
@@ -19593,6 +19595,7 @@ relationship: starts_at TS21 ! TS21
 id: EMAPA:18576
 name: intermediate grey horn
 namespace: anatomical_structure
+synonym: "intermediate gray horn" RELATED []
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:17580 ! spinal cord mantle layer
 relationship: starts_at TS23 ! TS23
@@ -43122,6 +43125,7 @@ name: periaqueductal grey
 namespace: anatomical_structure
 alt_id: EMAPA:35569
 synonym: "midbrain periaqueductal grey" EXACT []
+synonym: "periaqueductal gray" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16974 ! midbrain
 relationship: starts_at TS25 ! TS25
@@ -49588,6 +49592,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35691
 name: spinal cord intermediate grey
 namespace: anatomical_structure
+synonym: "spinal cord intermediate gray" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35792 ! spinal cord gray matter
 relationship: starts_at TS21 ! TS21
@@ -66704,6 +66709,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37747
 name: spinal cord central gray
 namespace: anatomical_structure
+synonym: "spinal cord central grey" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35792 ! spinal cord gray matter
 relationship: starts_at TS28 ! TS28
@@ -70285,6 +70291,14 @@ is_a: EMAPA:32790 ! brainstem nucleus
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17563 ! pons
 relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38182
+name: hair peg
+namespace: anatomical_structure
+relationship: ends_at TS27 ! TS27
+relationship: part_of EMAPA:18771 ! hair follicle
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: group_term
