@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 10:08:2021 12:23
+date: 27:08:2021 14:40
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -70350,6 +70350,14 @@ relationship: ends_at TS19 ! TS19
 relationship: part_of EMAPA:17359 ! maxillary process
 relationship: part_of EMAPA:38184 ! facial prominence ectoderm
 relationship: starts_at TS19 ! TS19
+
+[Term]
+id: EMAPA:38188
+name: epididymis initial segment
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:19290 ! epididymis
+relationship: starts_at TS28 ! TS28
 
 [Term]
 id: group_term
