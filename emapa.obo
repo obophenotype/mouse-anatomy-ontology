@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2021-08-27
-date: 27:08:2021 14:40
+data-version: releases/2021-09-01
+date: 01:09:2021 09:48
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -19633,6 +19633,7 @@ id: EMAPA:18950
 name: soft palate epithelium
 namespace: anatomical_structure
 is_a: EMAPA:32810 ! palate epithelium
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18949 ! soft palate
 
 [Term]
@@ -40281,7 +40282,6 @@ id: EMAPA:32810
 name: palate epithelium
 namespace: anatomical_structure
 is_a: EMAPA:16839 ! oral region epithelium
-relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:18948 ! palate
 relationship: starts_at TS24 ! TS24
 
@@ -64697,6 +64697,14 @@ name: epididymis initial segment
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:19290 ! epididymis
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38189
+name: geschmacksstreifen
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:18948 ! palate
 relationship: starts_at TS28 ! TS28
 
 [Term]
