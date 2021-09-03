@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 01:09:2021 09:48
+date: 03:09:2021 14:30
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -21899,8 +21899,10 @@ relationship: starts_at TS25 ! TS25
 id: EMAPA:19042
 name: allocortex
 namespace: anatomical_structure
+synonym: "medial pallium" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16910 ! telencephalon
+relationship: part_of EMAPA:38190 ! pallium
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -43629,10 +43631,12 @@ id: EMAPA:32842
 name: neocortex
 namespace: anatomical_structure
 synonym: "cerebral cortex" RELATED []
+synonym: "dorsal pallium" RELATED []
 synonym: "isocortex" RELATED []
 synonym: "neopallium" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17544 ! cerebral cortex
+relationship: part_of EMAPA:38190 ! pallium
 relationship: starts_at TS20 ! TS20
 
 [Term]
@@ -70365,6 +70369,50 @@ name: geschmacksstreifen
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18948 ! palate
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38190
+name: pallium
+namespace: anatomical_structure
+synonym: "dorsal telencephalon" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16910 ! telencephalon
+relationship: starts_at TS20 ! TS20
+
+[Term]
+id: EMAPA:38191
+name: lateral pallium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38190 ! pallium
+relationship: starts_at TS24 ! TS24
+
+[Term]
+id: EMAPA:38192
+name: ventral pallium
+namespace: anatomical_structure
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38190 ! pallium
+relationship: starts_at TS21 ! TS21
+
+[Term]
+id: EMAPA:38193
+name: subpallium
+namespace: anatomical_structure
+synonym: "ventral telencephalon" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:16910 ! telencephalon
+relationship: starts_at TS22 ! TS22
+
+[Term]
+id: EMAPA:38194
+name: diagonal domain
+namespace: anatomical_structure
+synonym: "diagonal area" RELATED []
+synonym: "diagonal zone" RELATED []
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:38193 ! subpallium
 relationship: starts_at TS28 ! TS28
 
 [Term]
