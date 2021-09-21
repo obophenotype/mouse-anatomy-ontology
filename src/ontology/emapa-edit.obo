@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 21:09:2021 15:58
+date: 21:09:2021 16:23
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -21319,7 +21319,7 @@ id: EMAPA:18950
 name: soft palate epithelium
 namespace: anatomical_structure
 is_a: EMAPA:32810 ! palate epithelium
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18949 ! soft palate
 relationship: starts_at TS24 ! TS24
 
