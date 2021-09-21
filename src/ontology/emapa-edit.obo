@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 21:09:2021 10:54
+date: 21:09:2021 15:58
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -17699,6 +17699,7 @@ name: circumvallate papilla
 namespace: anatomical_structure
 alt_id: EMAPA:18654
 alt_id: EMAPA:18871
+synonym: "vallate papilla" RELATED []
 is_a: EMAPA:32777 ! tongue papillae
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17881 ! tongue epithelium
@@ -21359,9 +21360,9 @@ relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:18955
-name: naso-palatine canal
+name: nasopalatine duct
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18952 ! hard palate
 relationship: starts_at TS24 ! TS24
 
@@ -21840,7 +21841,8 @@ relationship: starts_at TS24 ! TS24
 id: EMAPA:19034
 name: incisive canal
 namespace: anatomical_structure
-relationship: ends_at TS26 ! TS26
+synonym: "nasopalatine canal" RELATED []
+relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:18952 ! hard palate
 relationship: starts_at TS24 ! TS24
 
