@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 03:09:2021 14:30
+date: 21:09:2021 10:54
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -21477,6 +21477,7 @@ name: cortical renal tubule
 namespace: anatomical_structure
 synonym: "kidney cortex tubule" RELATED []
 synonym: "renal cortex tubule" RELATED []
+is_a: EMAPA:27782 ! renal tubule
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17952 ! renal cortex
 relationship: part_of EMAPA:17954 ! early nephron
@@ -34383,7 +34384,7 @@ relationship: starts_at TS23 ! TS23
 id: EMAPA:27139
 name: midgut submucosa
 namespace: anatomical_structure
-relationship: ends_at TS23 ! TS23
+relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:16255 ! midgut
 relationship: starts_at TS23 ! TS23
 
@@ -35335,8 +35336,8 @@ id: EMAPA:27784
 name: early proximal tubule
 namespace: anatomical_structure
 synonym: "early proximal tubule of capillary loop nephron" RELATED []
+is_a: EMAPA:27782 ! renal tubule
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:27782 ! renal tubule
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -35352,8 +35353,8 @@ id: EMAPA:27788
 name: early distal tubule
 namespace: anatomical_structure
 synonym: "early distal tubule of capillary loop nephron" RELATED []
+is_a: EMAPA:27782 ! renal tubule
 relationship: ends_at TS21 ! TS21
-relationship: part_of EMAPA:27782 ! renal tubule
 relationship: starts_at TS21 ! TS21
 
 [Term]
@@ -35361,8 +35362,8 @@ id: EMAPA:27790
 name: renal connecting tubule of capillary loop nephron
 namespace: anatomical_structure
 alt_id: EMAPA:31515
+is_a: EMAPA:27782 ! renal tubule
 relationship: ends_at TS27 ! TS27
-relationship: part_of EMAPA:27782 ! renal tubule
 relationship: part_of EMAPA:28011 ! renal connecting tubule
 relationship: part_of EMAPA:31571 ! cortical renal tubule of capillary loop nephron group
 relationship: starts_at TS21 ! TS21
@@ -35480,9 +35481,9 @@ id: EMAPA:28003
 name: early proximal tubule
 namespace: anatomical_structure
 alt_id: EMAPA:28284
+is_a: EMAPA:28281 ! renal proximal tubule
 relationship: ends_at TS27 ! TS27
 relationship: part_of EMAPA:18976 ! cortical renal tubule
-relationship: part_of EMAPA:28281 ! renal proximal tubule
 relationship: starts_at TS22 ! TS22
 
 [Term]
@@ -35913,8 +35914,8 @@ name: renal proximal convoluted tubule
 namespace: anatomical_structure
 synonym: "first convoluted tubule" RELATED []
 synonym: "kidney proximal convoluted tubule" RELATED []
+is_a: EMAPA:28281 ! renal proximal tubule
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:28281 ! renal proximal tubule
 relationship: part_of EMAPA:31566 ! cortical renal tubule of mature nephron group
 relationship: starts_at TS25 ! TS25
 
@@ -36553,6 +36554,7 @@ synonym: "pars recta" RELATED []
 synonym: "segment 3 of proximal tubule" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:28322 ! loop of Henle, outer medullary portion
+relationship: part_of EMAPA:38195 ! proximal straight tubule
 relationship: starts_at TS25 ! TS25
 
 [Term]
@@ -37350,12 +37352,14 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:29661
-name: proximal straight tubule of renal cortex
+name: proximal straight tubule, cortical portion
 namespace: anatomical_structure
 synonym: "pars recta" RELATED []
+synonym: "proximal straight tubule of renal cortex" RELATED []
 synonym: "segment 3 of proximal tubule" RELATED []
+is_a: EMAPA:28281 ! renal proximal tubule
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:28281 ! renal proximal tubule
+relationship: part_of EMAPA:38195 ! proximal straight tubule
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -37380,6 +37384,7 @@ name: proximal straight tubule of outer stripe of outer medulla
 namespace: anatomical_structure
 synonym: "pars recta" RELATED []
 synonym: "segment 3 of proximal tubule" RELATED []
+is_a: EMAPA:38195 ! proximal straight tubule
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:29665 ! loop of Henle of outer stripe of outer medulla
 relationship: starts_at TS28 ! TS28
@@ -64634,8 +64639,8 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37489
 name: renal straight tubule
 namespace: anatomical_structure
+is_a: EMAPA:27782 ! renal tubule
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:27782 ! renal tubule
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -70414,6 +70419,16 @@ synonym: "diagonal zone" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:38193 ! subpallium
 relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38195
+name: proximal straight tubule
+namespace: anatomical_structure
+synonym: "pars recta" RELATED []
+synonym: "segment 3 of proximal tubule" RELATED []
+is_a: EMAPA:27782 ! renal tubule
+relationship: ends_at TS28 ! TS28
+relationship: starts_at TS25 ! TS25
 
 [Term]
 id: group_term
