@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 16:02:2022 15:04
+date: 16:02:2022 15:53
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -17695,7 +17695,7 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:18271
-name: circumvallate papilla
+name: circumvallate papillae
 namespace: anatomical_structure
 alt_id: EMAPA:18654
 alt_id: EMAPA:18871
@@ -45176,7 +45176,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35176 ! blood vessel endothelium
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:16201 ! arterial system
-relationship: starts_at TS17 ! TS17
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: EMAPA:35146
@@ -69598,7 +69598,7 @@ namespace: anatomical_structure
 is_a: EMAPA:18963 ! pharynx skeletal muscle
 is_a: EMAPA:37929 ! palatal muscle
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:38098
@@ -70458,6 +70458,15 @@ is_a: EMAPA:29866 ! follicle cell of secondary follicle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:35630 ! ovary preantral follicle
 relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38199
+name: dorsal aorta endothelium
+namespace: anatomical_structure
+is_a: EMAPA:35145 ! arterial system endothelium
+relationship: ends_at TS22 ! TS22
+relationship: part_of EMAPA:16204 ! dorsal aorta
+relationship: starts_at TS12 ! TS12
 
 [Term]
 id: group_term
