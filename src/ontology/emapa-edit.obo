@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 21:09:2021 16:23
+date: 16:02:2022 15:04
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -38033,7 +38033,7 @@ relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:29874
-name: atretic follicle
+name: ovary atretic follicle
 namespace: anatomical_structure
 is_a: EMAPA:35627 ! ovary follicle
 relationship: ends_at TS28 ! TS28
@@ -38045,7 +38045,7 @@ name: oocyte of atretic follicle
 namespace: anatomical_structure
 is_a: EMAPA:31025 ! oocyte
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:29874 ! atretic follicle
+relationship: part_of EMAPA:29874 ! ovary atretic follicle
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -38054,7 +38054,7 @@ name: apoptotic germinal cell
 namespace: anatomical_structure
 synonym: "apoptotic granulosa" RELATED []
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:29874 ! atretic follicle
+relationship: part_of EMAPA:29874 ! ovary atretic follicle
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -39063,7 +39063,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:30765
 name: oocyte of tertiary follicle
 namespace: anatomical_structure
-is_a: EMAPA:31025 ! oocyte
+is_a: EMAPA:38197 ! oocyte of antral follicle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30763 ! ovary tertiary follicle
 relationship: starts_at TS28 ! TS28
@@ -39126,7 +39126,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:30779
 name: oocyte of mature follicle
 namespace: anatomical_structure
-is_a: EMAPA:31025 ! oocyte
+is_a: EMAPA:38197 ! oocyte of antral follicle
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:30777 ! ovary mature follicle
 relationship: starts_at TS28 ! TS28
@@ -39948,7 +39948,7 @@ id: EMAPA:31260
 name: theca of atretic follicle
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
-relationship: part_of EMAPA:29874 ! atretic follicle
+relationship: part_of EMAPA:29874 ! ovary atretic follicle
 relationship: starts_at TS28 ! TS28
 
 [Term]
@@ -49120,9 +49120,9 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:35630
 name: ovary preantral follicle
 namespace: anatomical_structure
-is_a: EMAPA:35627 ! ovary follicle
+is_a: EMAPA:35632 ! ovary secondary follicle
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS28 ! TS28
 
 [Term]
 id: EMAPA:35631
@@ -70431,6 +70431,33 @@ synonym: "segment 3 of proximal tubule" RELATED []
 is_a: EMAPA:27782 ! renal tubule
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS25 ! TS25
+
+[Term]
+id: EMAPA:38196
+name: oocyte of preantral follicle
+namespace: anatomical_structure
+is_a: EMAPA:29864 ! oocyte of secondary follicle
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35630 ! ovary preantral follicle
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38197
+name: oocyte of antral follicle
+namespace: anatomical_structure
+is_a: EMAPA:31025 ! oocyte
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35625 ! ovary antral follicle
+relationship: starts_at TS28 ! TS28
+
+[Term]
+id: EMAPA:38198
+name: follicle cell of preantral follicle
+namespace: anatomical_structure
+is_a: EMAPA:29866 ! follicle cell of secondary follicle
+relationship: ends_at TS28 ! TS28
+relationship: part_of EMAPA:35630 ! ovary preantral follicle
+relationship: starts_at TS28 ! TS28
 
 [Term]
 id: group_term
