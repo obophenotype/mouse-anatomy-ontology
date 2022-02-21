@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 16:02:2022 15:53
+date: 21:02:2022 14:27
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -45284,10 +45284,12 @@ name: pinna cartilage
 namespace: anatomical_structure
 synonym: "auricular cartilage" RELATED []
 is_a: EMAPA:35978 ! sensory organ cartilage
+is_a: EMAPA:36875 ! elastic cartilage
+is_a: EMAPA:37706 ! outer ear cartilage
 relationship: develops_from EMAPA:25353 ! pinna cartilage condensation
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17589 ! pinna
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:35159
@@ -59565,7 +59567,7 @@ name: elastic cartilage
 namespace: anatomical_structure
 is_a: EMAPA:32730 ! cartilage
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS28 ! TS28
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:36876
@@ -66397,9 +66399,9 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37706
 name: outer ear cartilage
 namespace: anatomical_structure
-is_a: EMAPA:16991 ! outer ear
 relationship: ends_at TS28 ! TS28
-relationship: starts_at TS28 ! TS28
+relationship: part_of EMAPA:16991 ! outer ear
+relationship: starts_at TS27 ! TS27
 
 [Term]
 id: EMAPA:37707
