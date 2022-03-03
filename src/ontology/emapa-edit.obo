@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 21:02:2022 14:27
+date: 03:03:2022 10:32
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -43120,11 +43120,12 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:32779
-name: epidermis stratum basale
+name: epidermis basal layer
 namespace: anatomical_structure
+synonym: "epidermis stratum basale" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17528 ! epidermis
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS20 ! TS20
 
 [Term]
 id: EMAPA:32780
@@ -43171,24 +43172,27 @@ relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:32785
-name: epidermis stratum spinosum
+name: epidermis spinous layer
 namespace: anatomical_structure
+synonym: "epidermis stratum spinosum" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17528 ! epidermis
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS23 ! TS23
 
 [Term]
 id: EMAPA:32786
-name: epidermis stratum granulosum
+name: epidermis granular layer
 namespace: anatomical_structure
+synonym: "epidermis stratum granulosum" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17528 ! epidermis
-relationship: starts_at TS26 ! TS26
+relationship: starts_at TS24 ! TS24
 
 [Term]
 id: EMAPA:32787
-name: epidermis stratum corneum
+name: epidermis cornified layer
 namespace: anatomical_structure
+synonym: "epidermis stratum corneum" RELATED []
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17528 ! epidermis
 relationship: starts_at TS26 ! TS26
@@ -46568,7 +46572,7 @@ name: epidermis suprabasal layer
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17528 ! epidermis
-relationship: starts_at TS27 ! TS27
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:35316
@@ -64797,7 +64801,7 @@ relationship: starts_at TS28 ! TS28
 id: EMAPA:37508
 name: hyponychium
 namespace: anatomical_structure
-is_a: EMAPA:32787 ! epidermis stratum corneum
+is_a: EMAPA:32787 ! epidermis cornified layer
 relationship: ends_at TS28 ! TS28
 relationship: starts_at TS28 ! TS28
 
@@ -70469,6 +70473,16 @@ is_a: EMAPA:35145 ! arterial system endothelium
 relationship: ends_at TS22 ! TS22
 relationship: part_of EMAPA:16204 ! dorsal aorta
 relationship: starts_at TS12 ! TS12
+
+[Term]
+id: EMAPA:38200
+name: epidermis intermediate layer
+namespace: anatomical_structure
+relationship: ends_at TS22 ! TS22
+relationship: part_of EMAPA:17528 ! epidermis
+relationship: starts_at TS22 ! TS22
+created_by: terryh
+creation_date: 2022-03-03T09:58:07Z
 
 [Term]
 id: group_term
