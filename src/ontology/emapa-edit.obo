@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 03:03:2022 10:32
+date: 09:03:2022 12:02
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -17,9 +17,9 @@ name: first polar body
 namespace: anatomical_structure
 synonym: "1st polar body" RELATED []
 is_a: EMAPA:31859 ! polar body
-relationship: ends_at TS01 ! TS01
+relationship: ends_at TS:01 ! TS01
 relationship: part_of EMAPA:36041 ! 1-cell stage conceptus
-relationship: starts_at TS01 ! TS01
+relationship: starts_at TS:01 ! TS01
 
 [Term]
 id: EMAPA:16033
@@ -30,9 +30,9 @@ synonym: "fertilized egg" RELATED []
 synonym: "one-cell embryo" RELATED []
 synonym: "zygote" RELATED []
 is_a: EMAPA:36032 ! early embryo
-relationship: ends_at TS01 ! TS01
+relationship: ends_at TS:01 ! TS01
 relationship: part_of EMAPA:36041 ! 1-cell stage conceptus
-relationship: starts_at TS01 ! TS01
+relationship: starts_at TS:01 ! TS01
 
 [Term]
 id: EMAPA:16034
@@ -49,7 +49,7 @@ relationship: part_of EMAPA:36044 ! 8-cell stage conceptus
 relationship: part_of EMAPA:36045 ! morula-stage conceptus
 relationship: part_of EMAPA:36046 ! blastocyst-stage conceptus
 relationship: part_of EMAPA:36063 ! 4-8 cell stage conceptus
-relationship: starts_at TS01 ! TS01
+relationship: starts_at TS:01 ! TS01
 
 [Term]
 id: EMAPA:16035
@@ -65,7 +65,7 @@ relationship: part_of EMAPA:36044 ! 8-cell stage conceptus
 relationship: part_of EMAPA:36045 ! morula-stage conceptus
 relationship: part_of EMAPA:36046 ! blastocyst-stage conceptus
 relationship: part_of EMAPA:36063 ! 4-8 cell stage conceptus
-relationship: starts_at TS01 ! TS01
+relationship: starts_at TS:01 ! TS01
 
 [Term]
 id: EMAPA:16036
@@ -40939,7 +40939,7 @@ name: polar body
 namespace: anatomical_structure
 relationship: ends_at TS04 ! TS04
 relationship: part_of EMAPA:36040 ! conceptus
-relationship: starts_at TS01 ! TS01
+relationship: starts_at TS:01 ! TS01
 
 [Term]
 id: EMAPA:31860
@@ -52473,7 +52473,7 @@ namespace: anatomical_structure
 relationship: ends_at TS04 ! TS04
 relationship: part_of EMAPA:25765 ! mouse
 relationship: part_of EMAPA:36473 ! early conceptus
-relationship: starts_at TS01 ! TS01
+relationship: starts_at TS:01 ! TS01
 
 [Term]
 id: EMAPA:36033
@@ -52541,15 +52541,15 @@ name: conceptus
 namespace: anatomical_structure
 relationship: ends_at TS26 ! TS26
 relationship: part_of EMAPA:25765 ! mouse
-relationship: starts_at TS01 ! TS01
+relationship: starts_at TS:01 ! TS01
 
 [Term]
 id: EMAPA:36041
 name: 1-cell stage conceptus
 namespace: anatomical_structure
 is_a: EMAPA:36473 ! early conceptus
-relationship: ends_at TS01 ! TS01
-relationship: starts_at TS01 ! TS01
+relationship: ends_at TS:01 ! TS01
+relationship: starts_at TS:01 ! TS01
 
 [Term]
 id: EMAPA:36042
@@ -56216,7 +56216,7 @@ name: early conceptus
 namespace: anatomical_structure
 is_a: EMAPA:36040 ! conceptus
 relationship: ends_at TS08 ! TS08
-relationship: starts_at TS01 ! TS01
+relationship: starts_at TS:01 ! TS01
 
 [Term]
 id: EMAPA:36474
@@ -70493,12 +70493,6 @@ id: Tmp_new_group
 name: Tmp new group
 
 [Term]
-id: TS01
-name: TS01
-namespace: theiler_stage
-is_a: TS:0 ! Theiler stage
-
-[Term]
 id: TS02
 name: TS02
 namespace: theiler_stage
@@ -70664,6 +70658,12 @@ is_a: TS:0 ! Theiler stage
 id: TS:0
 name: Theiler stage
 namespace: theiler_stage
+
+[Term]
+id: TS:01
+name: TS01
+namespace: theiler_stage
+is_a: TS:0 ! Theiler stage
 
 [Typedef]
 id: attached_to
