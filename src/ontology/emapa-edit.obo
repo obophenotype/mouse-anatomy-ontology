@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 09:03:2022 12:05
+date: 15:03:2022 09:31
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -23146,7 +23146,7 @@ name: tympanic ring
 namespace: anatomical_structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17682 ! temporal bone
-relationship: starts_at TS25 ! TS25
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:19198
