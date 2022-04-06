@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 06:04:2022 12:48
+date: 06:04:2022 15:17
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -22218,7 +22218,7 @@ synonym: "caudal suspensory ligament" RELATED []
 is_a: EMAPA:28533 ! male associated reproductive structure
 relationship: ends_at TS28 ! TS28
 relationship: part_of EMAPA:17968 ! male reproductive system
-relationship: starts_at TS23 ! TS23
+relationship: starts_at TS22 ! TS22
 
 [Term]
 id: EMAPA:19091
