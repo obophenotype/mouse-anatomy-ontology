@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 22:04:2022 11:05
+date: 22:04:2022 15:02
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -70100,9 +70100,10 @@ id: EMAPA:38201
 name: aorta-gonad-mesonephros
 namespace: anatomical_structure
 synonym: "AGM" RELATED []
-relationship: ends_at TS:19 ! TS19
+is_a: EMAPA:36031 ! body region
+relationship: ends_at TS:21 ! TS21
 relationship: part_of EMAPA:16411 ! mesenchyme derived from splanchnopleure
-relationship: starts_at TS:15 ! TS15
+relationship: starts_at TS:14 ! TS14
 
 [Term]
 id: EMAPA:38202
@@ -70111,8 +70112,6 @@ namespace: anatomical_structure
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:35405 ! hippocampal formation
 relationship: starts_at TS:24 ! TS24
-created_by: terryh
-creation_date: 2022-04-22T11:01:02Z
 
 [Term]
 id: group_term
