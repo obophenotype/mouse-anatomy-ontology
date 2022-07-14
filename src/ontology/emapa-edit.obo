@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 22:04:2022 15:02
+date: 14:07:2022 15:27
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -44720,7 +44720,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35295 ! dorsal thalamus
-relationship: starts_at TS:27 ! TS27
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:35133
@@ -45334,7 +45334,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35445 ! intralaminar thalamic group
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:35206
@@ -45343,7 +45343,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35296 ! medial thalamic group
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:35207
@@ -46086,7 +46086,7 @@ name: medial thalamic group
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35295 ! dorsal thalamus
-relationship: starts_at TS:27 ! TS27
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:35297
@@ -48089,7 +48089,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35296 ! medial thalamic group
-relationship: starts_at TS:27 ! TS27
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:35545
@@ -48106,7 +48106,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35376 ! geniculate thalamic group
-relationship: starts_at TS:27 ! TS27
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:35547
@@ -48550,9 +48550,10 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:35602
 name: nucleus reuniens
 namespace: anatomical_structure
+synonym: "medial ventral thalamic nucleus" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35573 ! midline thalamic group
-relationship: starts_at TS:27 ! TS27
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:35603
@@ -69047,7 +69048,7 @@ name: lateral posterior thalamic nucleus
 namespace: anatomical_structure
 is_a: EMAPA:35859 ! thalamic nucleus
 relationship: ends_at TS:28 ! TS28
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:38077
@@ -70112,6 +70113,15 @@ namespace: anatomical_structure
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:35405 ! hippocampal formation
 relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38203
+name: paratenial nucleus
+namespace: anatomical_structure
+synonym: "parataenial nucleus" RELATED []
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:35573 ! midline thalamic group
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: group_term
