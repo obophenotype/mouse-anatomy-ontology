@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 14:07:2022 15:27
+date: 20:07:2022 08:47
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -10123,7 +10123,7 @@ id: EMAPA:17355
 name: mandibular process
 namespace: anatomical_structure
 is_a: EMAPA:38183 ! facial prominence
-relationship: ends_at TS:20 ! TS20
+relationship: ends_at TS:21 ! TS21
 relationship: part_of EMAPA:16262 ! oral region
 relationship: starts_at TS:19 ! TS19
 
@@ -10141,7 +10141,7 @@ id: EMAPA:17357
 name: mandibular process mesenchyme
 namespace: anatomical_structure
 is_a: EMAPA:35618 ! oral region mesenchyme
-relationship: ends_at TS:20 ! TS20
+relationship: ends_at TS:21 ! TS21
 relationship: part_of EMAPA:17355 ! mandibular process
 relationship: part_of EMAPA:38185 ! facial prominence mesenchyme
 relationship: starts_at TS:19 ! TS19
@@ -10160,7 +10160,7 @@ id: EMAPA:17359
 name: maxillary process
 namespace: anatomical_structure
 is_a: EMAPA:38183 ! facial prominence
-relationship: ends_at TS:20 ! TS20
+relationship: ends_at TS:21 ! TS21
 relationship: part_of EMAPA:16262 ! oral region
 relationship: starts_at TS:19 ! TS19
 
@@ -10177,7 +10177,7 @@ id: EMAPA:17361
 name: maxillary process mesenchyme
 namespace: anatomical_structure
 is_a: EMAPA:35618 ! oral region mesenchyme
-relationship: ends_at TS:20 ! TS20
+relationship: ends_at TS:21 ! TS21
 relationship: part_of EMAPA:17359 ! maxillary process
 relationship: part_of EMAPA:38185 ! facial prominence mesenchyme
 relationship: starts_at TS:19 ! TS19
@@ -69942,7 +69942,7 @@ relationship: starts_at TS:24 ! TS24
 id: EMAPA:38183
 name: facial prominence
 namespace: anatomical_structure
-relationship: ends_at TS:20 ! TS20
+relationship: ends_at TS:21 ! TS21
 relationship: part_of EMAPA:32763 ! face
 relationship: starts_at TS:14 ! TS14
 
@@ -69960,7 +69960,7 @@ id: EMAPA:38185
 name: facial prominence mesenchyme
 namespace: anatomical_structure
 is_a: EMAPA:35337 ! face mesenchyme
-relationship: ends_at TS:20 ! TS20
+relationship: ends_at TS:21 ! TS21
 relationship: part_of EMAPA:38183 ! facial prominence
 relationship: starts_at TS:15 ! TS15
 
