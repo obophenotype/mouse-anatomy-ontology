@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 20:07:2022 08:47
+date: 26:07:2022 10:52
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -42642,7 +42642,7 @@ relationship: starts_at TS:17 ! TS17
 id: EMAPA:32762
 name: mesendoderm
 namespace: anatomical_structure
-relationship: ends_at TS:11 ! TS11
+relationship: ends_at TS:12 ! TS12
 relationship: part_of EMAPA:16039 ! embryo
 relationship: starts_at TS:10 ! TS10
 
