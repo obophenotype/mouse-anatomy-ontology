@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 26:07:2022 10:52
+date: 26:07:2022 17:04
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -70122,6 +70122,14 @@ synonym: "parataenial nucleus" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35573 ! midline thalamic group
 relationship: starts_at TS:26 ! TS26
+
+[Term]
+id: EMAPA:38204
+name: anterior neural ridge
+namespace: anatomical_structure
+relationship: ends_at TS:13 ! TS13
+relationship: part_of EMAPA:35593 ! neural plate
+relationship: starts_at TS:11 ! TS11
 
 [Term]
 id: group_term
