@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 26:07:2022 17:04
+date: 28:07:2022 16:55
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -70021,7 +70021,7 @@ name: ventral pallium
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:38190 ! pallium
-relationship: starts_at TS:21 ! TS21
+relationship: starts_at TS:20 ! TS20
 
 [Term]
 id: EMAPA:38193
@@ -70127,6 +70127,7 @@ relationship: starts_at TS:26 ! TS26
 id: EMAPA:38204
 name: anterior neural ridge
 namespace: anatomical_structure
+synonym: "ANR" RELATED []
 relationship: ends_at TS:13 ! TS13
 relationship: part_of EMAPA:35593 ! neural plate
 relationship: starts_at TS:11 ! TS11
