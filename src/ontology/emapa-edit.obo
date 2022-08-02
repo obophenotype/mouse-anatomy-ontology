@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 29:07:2022 14:04
+date: 02:08:2022 10:08
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -35240,7 +35240,7 @@ relationship: starts_at TS:22 ! TS22
 id: EMAPA:28061
 name: medullary collecting duct
 namespace: anatomical_structure
-relationship: ends_at TS:24 ! TS24
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:19279 ! renal medulla
 relationship: part_of EMAPA:27697 ! ureteric trunk
 relationship: starts_at TS:22 ! TS22
@@ -35665,6 +35665,7 @@ relationship: starts_at TS:25 ! TS25
 id: EMAPA:28346
 name: outer medullary collecting duct
 namespace: anatomical_structure
+is_a: EMAPA:28061 ! medullary collecting duct
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:27697 ! ureteric trunk
 relationship: part_of EMAPA:28310 ! outer renal medulla
@@ -35730,6 +35731,7 @@ id: EMAPA:28370
 name: inner medullary collecting duct
 namespace: anatomical_structure
 synonym: "papillary collecting duct" RELATED []
+is_a: EMAPA:28061 ! medullary collecting duct
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:27697 ! ureteric trunk
 relationship: part_of EMAPA:28349 ! inner renal medulla
