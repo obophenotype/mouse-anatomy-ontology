@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 02:08:2022 10:08
+date: 05:08:2022 13:34
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -37021,7 +37021,7 @@ name: Leydig cell
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:18687 ! interstitium of the testis
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:20 ! TS20
 
 [Term]
 id: EMAPA:29657
