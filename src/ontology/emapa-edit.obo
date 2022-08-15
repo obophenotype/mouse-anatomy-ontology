@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 05:08:2022 13:34
+date: 15:08:2022 13:43
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -22786,14 +22786,6 @@ relationship: part_of EMAPA:19172 ! female inguinal ring
 relationship: starts_at TS:25 ! TS25
 
 [Term]
-id: EMAPA:19175
-name: fetal Leydig cell
-namespace: anatomical_structure
-relationship: ends_at TS:27 ! TS27
-relationship: part_of EMAPA:18687 ! interstitium of the testis
-relationship: starts_at TS:20 ! TS20
-
-[Term]
 id: EMAPA:19176
 name: rest of interstitium of the testis
 namespace: anatomical_structure
@@ -35240,6 +35232,8 @@ relationship: starts_at TS:22 ! TS22
 id: EMAPA:28061
 name: medullary collecting duct
 namespace: anatomical_structure
+alt_id: EMAPA:35459
+synonym: "renal medulla collecting duct" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:19279 ! renal medulla
 relationship: part_of EMAPA:27697 ! ureteric trunk
@@ -37019,6 +37013,8 @@ relationship: starts_at TS:27 ! TS27
 id: EMAPA:29655
 name: Leydig cell
 namespace: anatomical_structure
+alt_id: EMAPA:19175
+synonym: "fetal Leydig cell" EXACT []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:18687 ! interstitium of the testis
 relationship: starts_at TS:20 ! TS20
@@ -47352,15 +47348,6 @@ is_a: EMAPA:35457 ! metanephros epithelium
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17373 ! metanephros
 relationship: starts_at TS:28 ! TS28
-
-[Term]
-id: EMAPA:35459
-name: medullary collecting duct
-namespace: anatomical_structure
-synonym: "renal medulla collecting duct" RELATED []
-relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:19279 ! renal medulla
-relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:35460
