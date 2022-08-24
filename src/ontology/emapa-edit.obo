@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 24:08:2022 11:04
+date: 24:08:2022 13:40
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -70104,6 +70104,15 @@ relationship: develops_from EMAPA:16059 ! ectoplacental cone
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:16046 ! trophectoderm
 relationship: starts_at TS:15 ! TS15
+
+[Term]
+id: EMAPA:38206
+name: temporo-mandibular joint disc
+namespace: anatomical_structure
+synonym: "temporo-mandibular joint disk" RELATED []
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:19196 ! temporo-mandibular joint
+relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: group_term
