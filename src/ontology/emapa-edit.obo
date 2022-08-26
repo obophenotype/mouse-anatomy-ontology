@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 26:08:2022 08:28
+date: 26:08:2022 11:39
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -4896,7 +4896,7 @@ relationship: starts_at TS:15 ! TS15
 id: EMAPA:16640
 name: future forebrain
 namespace: anatomical_structure
-synonym: "prosencephalon" RELATED []
+relationship: develops_from EMAPA:16512 ! prosencephalon
 relationship: ends_at TS:16 ! TS16
 relationship: part_of EMAPA:16089 ! future brain
 relationship: starts_at TS:15 ! TS15
@@ -7094,7 +7094,7 @@ relationship: starts_at TS:17 ! TS17
 id: EMAPA:16895
 name: forebrain
 namespace: anatomical_structure
-synonym: "prosencephalon" RELATED []
+relationship: develops_from EMAPA:16640 ! future forebrain
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16894 ! brain
 relationship: starts_at TS:17 ! TS17
@@ -7704,7 +7704,6 @@ relationship: starts_at TS:17 ! TS17
 id: EMAPA:17000
 name: middle ear
 namespace: anatomical_structure
-synonym: "tympanic cavity" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16193 ! ear
 relationship: starts_at TS:17 ! TS17
@@ -9475,11 +9474,9 @@ relationship: starts_at TS:19 ! TS19
 id: EMAPA:17272
 name: vagal nerve trunk
 namespace: anatomical_structure
-synonym: "vagus nerve" RELATED []
-synonym: "vagus X nerve" RELATED []
 is_a: EMAPA:16986 ! peripheral nerve trunk
+is_a: EMAPA:17271 ! parasympathetic nerve
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:17271 ! parasympathetic nerve
 relationship: part_of EMAPA:37797 ! vagus nerve
 relationship: starts_at TS:19 ! TS19
 
@@ -35155,7 +35152,7 @@ relationship: starts_at TS:22 ! TS22
 
 [Term]
 id: EMAPA:28003
-name: early proximal tubule
+name: cortical early proximal tubule
 namespace: anatomical_structure
 alt_id: EMAPA:28284
 is_a: EMAPA:28281 ! renal proximal tubule
@@ -35165,7 +35162,7 @@ relationship: starts_at TS:22 ! TS22
 
 [Term]
 id: EMAPA:28007
-name: early distal tubule
+name: cortical early distal tubule
 namespace: anatomical_structure
 alt_id: EMAPA:28390
 relationship: ends_at TS:27 ! TS27
@@ -38946,7 +38943,7 @@ id: EMAPA:30819
 name: clitoris
 namespace: anatomical_structure
 def: "The clitoris (TS:25-TS:28) is comprised of glans clitoris (distally), body of clitoris (proximally) and surrounded by the prepuce of female. The clitoris contains within it, bone of the os clitoridis, nerves, vasculature and lamina propria (connective tissue) and is surrounded by the skin of female prepuce. The clitoris also contains within it the clitoral urethra, which is linear, positioned ventrally within the clitoris and remains in contact with the ventral surface of the clitoris. An opening forms in the clitoral urethra, called the urethral meatus, located within the glans clitoris, which is seen at birth. The female urethra is also open at the proximal urethral meatus at the base of the clitoris until a week after birth. The proximal urethral meatus is closed by P8. The clitoral urethra forms a large, U-shaped urethral cleft that extends from the body of clitoris to the glans clitoris, and is surrounded by a solid, U-shaped lamina propria (of glans clitoris and body of clitoris), which are both surrounded by the lamina propria of prepuce. There is no preputial space. The clitoris is much smaller than the penis and the os clitoridis is minisucle compared to the size of the os penis. The clitoris does not contain cartilage or erectile tissues and does not contain epithelial spines. The clitoris is not mobile, it is ventrally tethered to the prepuce and does not lie within a preputial space. Derived from the genital tubercle of female." [PMID:25968320]
-synonym: "genital tubercle of female" RELATED []
+relationship: develops_from EMAPA:18680 ! genital tubercle of female
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17959 ! female reproductive system
 relationship: part_of EMAPA:30984 ! female external genitalia
@@ -40140,7 +40137,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:31521
 synonym: "anlage of distal tubule" RELATED []
 relationship: ends_at TS:27 ! TS27
-relationship: part_of EMAPA:28007 ! early distal tubule
+relationship: part_of EMAPA:28007 ! cortical early distal tubule
 relationship: part_of EMAPA:31571 ! cortical renal tubule of capillary loop nephron group
 relationship: starts_at TS:22 ! TS22
 
@@ -40150,7 +40147,7 @@ name: early distal tubule of maturing nephron
 namespace: anatomical_structure
 alt_id: EMAPA:31514
 relationship: ends_at TS:27 ! TS27
-relationship: part_of EMAPA:28007 ! early distal tubule
+relationship: part_of EMAPA:28007 ! cortical early distal tubule
 relationship: part_of EMAPA:31570 ! cortical renal tubule of maturing nephron group
 relationship: starts_at TS:22 ! TS22
 
@@ -40364,7 +40361,7 @@ name: early proximal tubule of maturing nephron
 namespace: anatomical_structure
 alt_id: EMAPA:31512
 relationship: ends_at TS:27 ! TS27
-relationship: part_of EMAPA:28003 ! early proximal tubule
+relationship: part_of EMAPA:28003 ! cortical early proximal tubule
 relationship: part_of EMAPA:31570 ! cortical renal tubule of maturing nephron group
 relationship: starts_at TS:22 ! TS22
 
@@ -40375,7 +40372,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:31543
 synonym: "anlage of proximal tubule" RELATED []
 relationship: ends_at TS:27 ! TS27
-relationship: part_of EMAPA:28003 ! early proximal tubule
+relationship: part_of EMAPA:28003 ! cortical early proximal tubule
 relationship: part_of EMAPA:31571 ! cortical renal tubule of capillary loop nephron group
 relationship: starts_at TS:22 ! TS22
 
@@ -46688,7 +46685,7 @@ relationship: starts_at TS:22 ! TS22
 
 [Term]
 id: EMAPA:35377
-name: genital swelling
+name: genital swelling of genital tubercle
 namespace: anatomical_structure
 relationship: ends_at TS:21 ! TS21
 relationship: part_of EMAPA:17382 ! genital tubercle
@@ -60874,7 +60871,6 @@ id: EMAPA:37082
 name: ileocolic artery
 namespace: anatomical_structure
 alt_id: EMAPA:37083
-synonym: "<new synonym>" RELATED []
 is_a: EMAPA:35147 ! artery
 relationship: ends_at TS:28 ! TS28
 relationship: starts_at TS:28 ! TS28
@@ -66718,6 +66714,7 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:37797
 name: vagus nerve
 namespace: anatomical_structure
+synonym: "vagus X nerve" RELATED []
 is_a: EMAPA:17264 ! cranial nerve
 relationship: ends_at TS:28 ! TS28
 relationship: starts_at TS:19 ! TS19
