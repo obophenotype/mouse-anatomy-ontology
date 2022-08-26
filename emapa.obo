@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2022-07-28
-date: 28:07:2022 16:55
+data-version: releases/2022-08-26
+date: 26:08:2022 08:28
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -8801,7 +8801,6 @@ relationship: part_of EMAPA:17270 ! parasympathetic nervous system
 id: EMAPA:17272
 name: vagal nerve trunk
 namespace: anatomical_structure
-synonym: "vagal nerve trunk" RELATED []
 synonym: "vagus nerve" RELATED []
 synonym: "vagus X nerve" RELATED []
 is_a: EMAPA:16986 ! peripheral nerve trunk
@@ -9573,7 +9572,7 @@ relationship: starts_at TS:19 ! TS19
 id: EMAPA:17384
 name: coelomic epithelium of gonad
 namespace: anatomical_structure
-synonym: "germinal epithelium" RELATED []
+synonym: "germinal epithelium of gonad" RELATED []
 is_a: EMAPA:35249 ! coelomic epithelium of reproductive system
 relationship: ends_at TS:19 ! TS19
 relationship: part_of EMAPA:17383 ! gonad
@@ -18654,7 +18653,6 @@ relationship: starts_at TS:25 ! TS25
 id: EMAPA:18685
 name: seminiferous cord
 namespace: anatomical_structure
-synonym: "seminiferous tubule" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17972 ! testis
 relationship: starts_at TS:22 ! TS22
@@ -20921,14 +20919,6 @@ synonym: "superficial inguinal ring" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:19172 ! female inguinal ring
 relationship: starts_at TS:25 ! TS25
-
-[Term]
-id: EMAPA:19175
-name: fetal Leydig cell
-namespace: anatomical_structure
-relationship: ends_at TS:27 ! TS27
-relationship: part_of EMAPA:18687 ! interstitium of the testis
-relationship: starts_at TS:20 ! TS20
 
 [Term]
 id: EMAPA:19176
@@ -31868,7 +31858,7 @@ relationship: part_of EMAPA:27531 ! anal canal mucosa
 id: EMAPA:27564
 name: coelomic epithelium of gonad primordium
 namespace: anatomical_structure
-synonym: "germinal epithelium" RELATED []
+synonym: "germinal epithelium of gonad primodium" RELATED []
 is_a: EMAPA:35954 ! genitourinary system epithelium
 relationship: ends_at TS:18 ! TS18
 relationship: part_of EMAPA:16857 ! gonad primordium
@@ -32237,7 +32227,7 @@ id: EMAPA:27772
 name: visceral epithelium of capillary loop renal corpuscle
 namespace: anatomical_structure
 alt_id: EMAPA:27913
-synonym: "podocyte layer" RELATED []
+synonym: "podocyte layer of capillary loop renal corpuscle" RELATED []
 is_a: EMAPA:35970 ! metanephros visceral epithelium
 relationship: part_of EMAPA:27770 ! capillary loop renal corpuscle
 
@@ -32295,7 +32285,6 @@ relationship: starts_at TS:21 ! TS21
 id: EMAPA:27784
 name: early proximal tubule
 namespace: anatomical_structure
-synonym: "early proximal tubule of capillary loop nephron" RELATED []
 is_a: EMAPA:27782 ! renal tubule
 relationship: ends_at TS:21 ! TS21
 
@@ -32311,7 +32300,6 @@ relationship: starts_at TS:21 ! TS21
 id: EMAPA:27788
 name: early distal tubule
 namespace: anatomical_structure
-synonym: "early distal tubule of capillary loop nephron" RELATED []
 is_a: EMAPA:27782 ! renal tubule
 relationship: ends_at TS:21 ! TS21
 
@@ -32389,7 +32377,7 @@ relationship: starts_at TS:22 ! TS22
 id: EMAPA:27967
 name: visceral epithelium of maturing renal corpuscle
 namespace: anatomical_structure
-synonym: "podocyte layer" RELATED []
+synonym: "podocyte layer of maturing renal corpuscle" RELATED []
 is_a: EMAPA:35970 ! metanephros visceral epithelium
 relationship: part_of EMAPA:27949 ! maturing glomerular tuft
 relationship: starts_at TS:22 ! TS22
@@ -32398,7 +32386,7 @@ relationship: starts_at TS:22 ! TS22
 id: EMAPA:27973
 name: Bowman's capsule of maturing renal corpuscle
 namespace: anatomical_structure
-synonym: "glomerular capsule" RELATED []
+synonym: "glomerular capsule of maturing renal corpuscle" RELATED []
 relationship: ends_at TS:27 ! TS27
 relationship: part_of EMAPA:27943 ! maturing renal corpuscle
 relationship: starts_at TS:22 ! TS22
@@ -32416,7 +32404,7 @@ relationship: starts_at TS:22 ! TS22
 id: EMAPA:27985
 name: urinary space of maturing renal corpuscle
 namespace: anatomical_structure
-synonym: "Bowman's space" RELATED []
+synonym: "Bowman's space of maturing renal corpuscle" RELATED []
 relationship: ends_at TS:27 ! TS27
 relationship: part_of EMAPA:27973 ! Bowman's capsule of maturing renal corpuscle
 relationship: starts_at TS:22 ! TS22
@@ -32503,7 +32491,9 @@ relationship: starts_at TS:22 ! TS22
 id: EMAPA:28061
 name: medullary collecting duct
 namespace: anatomical_structure
-relationship: ends_at TS:24 ! TS24
+alt_id: EMAPA:35459
+synonym: "renal medulla collecting duct" RELATED []
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:19279 ! renal medulla
 relationship: part_of EMAPA:27697 ! ureteric trunk
 relationship: starts_at TS:22 ! TS22
@@ -32763,7 +32753,7 @@ relationship: starts_at TS:25 ! TS25
 id: EMAPA:28254
 name: visceral epithelium of mature renal corpuscle
 namespace: anatomical_structure
-synonym: "podocyte layer" RELATED []
+synonym: "podocyte layer of mature renal corpuscle" RELATED []
 is_a: EMAPA:35970 ! metanephros visceral epithelium
 relationship: part_of EMAPA:28239 ! glomerular tuft
 relationship: starts_at TS:25 ! TS25
@@ -32772,7 +32762,7 @@ relationship: starts_at TS:25 ! TS25
 id: EMAPA:28257
 name: Bowman's capsule of mature renal corpuscle
 namespace: anatomical_structure
-synonym: "glomerular capsule" RELATED []
+synonym: "glomerular capsule of mature renal corpuscle" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:28236 ! mature renal corpuscle
 relationship: starts_at TS:25 ! TS25
@@ -32789,7 +32779,7 @@ relationship: starts_at TS:25 ! TS25
 id: EMAPA:28263
 name: urinary space of mature renal corpuscle
 namespace: anatomical_structure
-synonym: "Bowman's space" RELATED []
+synonym: "Bowman's space of mature renal corpuscle" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:28257 ! Bowman's capsule of mature renal corpuscle
 relationship: starts_at TS:25 ! TS25
@@ -32890,7 +32880,7 @@ relationship: starts_at TS:25 ! TS25
 id: EMAPA:28328
 name: thin ascending limb of outer medulla
 namespace: anatomical_structure
-synonym: "ascending thin limb" RELATED []
+synonym: "ascending thin limb of outer medulla" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:28322 ! loop of Henle, outer medullary portion
 relationship: starts_at TS:25 ! TS25
@@ -32917,8 +32907,7 @@ relationship: starts_at TS:25 ! TS25
 id: EMAPA:28346
 name: outer medullary collecting duct
 namespace: anatomical_structure
-relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:27697 ! ureteric trunk
+is_a: EMAPA:28061 ! medullary collecting duct
 relationship: part_of EMAPA:28310 ! outer renal medulla
 relationship: starts_at TS:25 ! TS25
 
@@ -32953,7 +32942,7 @@ relationship: starts_at TS:25 ! TS25
 id: EMAPA:28358
 name: bend of loop of Henle inner medullary portion
 namespace: anatomical_structure
-synonym: "U-turn" RELATED []
+synonym: "U-turn of loop of Henle inner medullary portion" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:28352 ! loop of Henle, inner medullary portion
 relationship: starts_at TS:25 ! TS25
@@ -32962,7 +32951,7 @@ relationship: starts_at TS:25 ! TS25
 id: EMAPA:28361
 name: thin ascending limb of inner medulla
 namespace: anatomical_structure
-synonym: "ascending thin limb" RELATED []
+synonym: "ascending thin limb of inner medulla" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:28352 ! loop of Henle, inner medullary portion
 relationship: starts_at TS:25 ! TS25
@@ -32982,8 +32971,7 @@ id: EMAPA:28370
 name: inner medullary collecting duct
 namespace: anatomical_structure
 synonym: "papillary collecting duct" RELATED []
-relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:27697 ! ureteric trunk
+is_a: EMAPA:28061 ! medullary collecting duct
 relationship: part_of EMAPA:28349 ! inner renal medulla
 relationship: starts_at TS:25 ! TS25
 
@@ -34203,9 +34191,11 @@ relationship: starts_at TS:27 ! TS27
 id: EMAPA:29655
 name: Leydig cell
 namespace: anatomical_structure
+alt_id: EMAPA:19175
+synonym: "fetal Leydig cell" EXACT []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:18687 ! interstitium of the testis
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:20 ! TS20
 
 [Term]
 id: EMAPA:29657
@@ -34913,7 +34903,7 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:29884
 name: germinal cell of ruptured follicle
 namespace: anatomical_structure
-synonym: "granulosa" RELATED []
+synonym: "granulosa of ruptured follicle" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:29880 ! ovary ruptured follicle
 relationship: starts_at TS:28 ! TS28
@@ -35732,7 +35722,7 @@ name: preputial gland of male
 namespace: anatomical_structure
 alt_id: EMAPA:30502
 alt_id: EMAPA:30640
-synonym: "preputial duct" RELATED []
+synonym: "preputial duct of male" RELATED []
 is_a: EMAPA:35701 ! preputial gland
 relationship: part_of EMAPA:18989 ! prepuce of male
 relationship: part_of EMAPA:29220 ! preputial swelling of male
@@ -35794,7 +35784,7 @@ name: preputial gland of female
 namespace: anatomical_structure
 alt_id: EMAPA:30499
 synonym: "clitoral gland" RELATED []
-synonym: "preputial duct" RELATED []
+synonym: "preputial duct of female" RELATED []
 is_a: EMAPA:35701 ! preputial gland
 relationship: part_of EMAPA:30478 ! preputial swelling of female
 relationship: part_of EMAPA:30699 ! prepuce of female
@@ -35913,7 +35903,7 @@ relationship: part_of EMAPA:30777 ! ovary mature follicle
 id: EMAPA:30781
 name: germinal cell of mature follicle
 namespace: anatomical_structure
-synonym: "granulosa" RELATED []
+synonym: "granulosa of mature follicle" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:30777 ! ovary mature follicle
 relationship: starts_at TS:28 ! TS28
@@ -36479,7 +36469,7 @@ relationship: starts_at TS:22 ! TS22
 id: EMAPA:31021
 name: bend of immature loop of Henle
 namespace: anatomical_structure
-synonym: "U-turn" RELATED []
+synonym: "U-turn of loop of Henle inner medullary portion" RELATED []
 relationship: ends_at TS:24 ! TS24
 relationship: part_of EMAPA:31414 ! medullary renal tubule
 relationship: starts_at TS:22 ! TS22
@@ -43826,15 +43816,6 @@ is_a: EMAPA:35457 ! metanephros epithelium
 relationship: starts_at TS:28 ! TS28
 
 [Term]
-id: EMAPA:35459
-name: medullary collecting duct
-namespace: anatomical_structure
-synonym: "renal medulla collecting duct" RELATED []
-relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:19279 ! renal medulla
-relationship: starts_at TS:27 ! TS27
-
-[Term]
 id: EMAPA:35460
 name: loop of Henle of renal medulla
 namespace: anatomical_structure
@@ -46957,7 +46938,6 @@ id: EMAPA:35873
 name: trabecular bone
 namespace: anatomical_structure
 alt_id: EMAPA:37022
-synonym: "trabecular bone" EXACT []
 is_a: EMAPA:35179 ! bone tissue
 relationship: starts_at TS:27 ! TS27
 
@@ -53211,6 +53191,7 @@ relationship: starts_at TS:25 ! TS25
 id: EMAPA:36688
 name: superior vesical artery
 namespace: anatomical_structure
+alt_id: EMAPA:37123
 is_a: EMAPA:35147 ! artery
 relationship: starts_at TS:26 ! TS26
 
@@ -54706,8 +54687,10 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:36889
 name: respiratory system elastic tissue
 namespace: anatomical_structure
+alt_id: EMAPA:37579
+is_a: EMAPA:35977 ! respiratory system connective tissue
 is_a: EMAPA:36886 ! elastic tissue
-relationship: part_of EMAPA:16727 ! respiratory system
+relationship: part_of EMAPA:37578 ! respiratory system submucosa
 relationship: starts_at TS:28 ! TS28
 
 [Term]
@@ -56130,13 +56113,8 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:37082
 name: ileocolic artery
 namespace: anatomical_structure
-is_a: EMAPA:35147 ! artery
-relationship: starts_at TS:28 ! TS28
-
-[Term]
-id: EMAPA:37083
-name: ileocolic artery
-namespace: anatomical_structure
+alt_id: EMAPA:37083
+synonym: "<new synonym>" RELATED []
 is_a: EMAPA:35147 ! artery
 relationship: starts_at TS:28 ! TS28
 
@@ -56408,13 +56386,6 @@ relationship: starts_at TS:28 ! TS28
 [Term]
 id: EMAPA:37122
 name: superior suprarenal artery
-namespace: anatomical_structure
-is_a: EMAPA:35147 ! artery
-relationship: starts_at TS:28 ! TS28
-
-[Term]
-id: EMAPA:37123
-name: superior vesical artery
 namespace: anatomical_structure
 is_a: EMAPA:35147 ! artery
 relationship: starts_at TS:28 ! TS28
@@ -59735,14 +59706,6 @@ relationship: part_of EMAPA:16727 ! respiratory system
 relationship: starts_at TS:28 ! TS28
 
 [Term]
-id: EMAPA:37579
-name: respiratory system elastic tissue
-namespace: anatomical_structure
-relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:37578 ! respiratory system submucosa
-relationship: starts_at TS:28 ! TS28
-
-[Term]
 id: EMAPA:37580
 name: respiratory system lymphatic vessel
 namespace: anatomical_structure
@@ -61987,7 +61950,6 @@ id: EMAPA:37884
 name: interphalangeal joint
 namespace: anatomical_structure
 alt_id: EMAPA:38034
-synonym: "interphalangeal joint" EXACT []
 is_a: EMAPA:35160 ! autopod joint
 relationship: part_of EMAPA:32725 ! limb digit
 
@@ -62038,7 +62000,6 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:37891
 name: neck of fibula
 namespace: anatomical_structure
-synonym: "Steno's gland" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:19141 ! fibula
 relationship: starts_at TS:28 ! TS28
@@ -64453,6 +64414,24 @@ synonym: "ANR" RELATED []
 relationship: ends_at TS:13 ! TS13
 relationship: part_of EMAPA:35593 ! neural plate
 relationship: starts_at TS:11 ! TS11
+
+[Term]
+id: EMAPA:38205
+name: junctional zone
+namespace: anatomical_structure
+relationship: develops_from EMAPA:16059 ! ectoplacental cone
+relationship: ends_at TS:26 ! TS26
+relationship: part_of EMAPA:16046 ! trophectoderm
+relationship: starts_at TS:15 ! TS15
+
+[Term]
+id: EMAPA:38206
+name: temporo-mandibular joint disc
+namespace: anatomical_structure
+synonym: "temporo-mandibular joint disk" RELATED []
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:19196 ! temporo-mandibular joint
+relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: TS:0
