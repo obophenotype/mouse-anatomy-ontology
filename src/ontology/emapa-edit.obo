@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 26:08:2022 17:06
+date: 29:08:2022 10:27
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -18960,8 +18960,6 @@ relationship: starts_at TS:20 ! TS20
 id: EMAPA:18439
 name: inferior cervical ganglion
 namespace: anatomical_structure
-synonym: "cervico-thoracic" RELATED []
-synonym: "stellate ganglion" RELATED []
 is_a: EMAPA:18438 ! cervical ganglion
 relationship: ends_at TS:28 ! TS28
 relationship: starts_at TS:21 ! TS21
@@ -37627,7 +37625,7 @@ id: EMAPA:29850
 name: corpus cavernosum of penile body
 namespace: anatomical_structure
 def: "The corpus cavernosum of penile body (syn: corpora cavernosa, crus, crura) (TS:28). Located within the penile body, paired erectile tissues that extend laterally from the base of the penis towards the pubic bone, and are anchored to the pubic bone on each ischial tuberosity." [PMID:25968320]
-synonym: "corpora cavernosa" RELATED []
+synonym: "corpora cavernosa of penile body" RELATED []
 synonym: "crura" RELATED []
 synonym: "crus" RELATED []
 relationship: ends_at TS:28 ! TS28
@@ -37649,7 +37647,7 @@ id: EMAPA:29856
 name: corpus cavernosum of glans penis
 namespace: anatomical_structure
 def: "The corpus cavernosum of glans penis (syn: corpora cavernosa plural) (TS:25-TS:28). Erectile tissues of the glans penis, including the corpus cavernosum urethra, two corpus cavernosum glandis, male urogenital mating protuberance corpus caveronosum." [PMID:25968320]
-synonym: "corpora cavernosa" RELATED []
+synonym: "corpora cavernosa of glans penis" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:18988 ! glans penis
 relationship: starts_at TS:25 ! TS25
@@ -48770,7 +48768,6 @@ id: EMAPA:35632
 name: ovary secondary follicle
 namespace: anatomical_structure
 alt_id: EMAPA:29862
-synonym: "antral follicle" RELATED []
 synonym: "secondary follicle" RELATED []
 is_a: EMAPA:35627 ! ovary follicle
 relationship: ends_at TS:28 ! TS28
@@ -57136,6 +57133,7 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:36632
 name: corpus cavernosum of penis
 namespace: anatomical_structure
+synonym: "corpora cavernosa of penis" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:18682 ! penis
 relationship: starts_at TS:28 ! TS28
