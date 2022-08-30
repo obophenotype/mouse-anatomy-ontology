@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 29:08:2022 10:27
+date: 30:08:2022 08:39
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -37752,7 +37752,7 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:29884
 name: germinal cell of ruptured follicle
 namespace: anatomical_structure
-synonym: "granulosa of ruptured follicle" RELATED []
+synonym: "granulosa cell of ruptured follicle" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:29880 ! ovary ruptured follicle
 relationship: starts_at TS:28 ! TS28
@@ -38807,7 +38807,7 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:30781
 name: germinal cell of mature follicle
 namespace: anatomical_structure
-synonym: "granulosa of mature follicle" RELATED []
+synonym: "granulosa cell of mature follicle" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:30777 ! ovary mature follicle
 relationship: starts_at TS:28 ! TS28
@@ -52949,7 +52949,7 @@ id: EMAPA:36133
 name: urethral gland of pelvic urethra of female
 namespace: anatomical_structure
 def: "The urethral gland of pelvic urethra of female (syn: Skene's gland) (TS:27-TS:28). Epithelial urethral glands develop from the epithelium of the urethra. Develop from female urethral gland bud (TS:24-TS:26 and become female urethral gland (TS:27-TS:28) which is subdivided into urethral gland of pelvic urethra of female (part of the pelvic urethra) and urethral gland of clitoral urethra (part of the clitoral urethra)." [PMID:25968320]
-synonym: "Skene's gland" RELATED []
+synonym: "Skene's gland of pelvic urethra of female" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:28753 ! pelvic urethra of female
 relationship: part_of EMAPA:29653 ! female urethral gland
