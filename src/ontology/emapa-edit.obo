@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 30:08:2022 08:39
+date: 31:08:2022 11:16
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -10157,7 +10157,7 @@ name: maxillary process
 namespace: anatomical_structure
 is_a: EMAPA:38183 ! facial prominence
 relationship: ends_at TS:21 ! TS21
-relationship: part_of EMAPA:16262 ! oral region
+relationship: part_of EMAPA:38026 ! upper jaw primordium
 relationship: starts_at TS:19 ! TS19
 
 [Term]
@@ -21161,10 +21161,12 @@ relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:18948
-name: palate
+name: secondary palate
 namespace: anatomical_structure
 synonym: "definitive palate" RELATED []
-synonym: "secondary palate" RELATED []
+synonym: "palate" RELATED []
+relationship: develops_from EMAPA:17362 ! palatal shelf
+relationship: develops_from EMAPA:17642 ! primary palate
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17924 ! upper jaw
 relationship: starts_at TS:21 ! TS21
@@ -21174,7 +21176,7 @@ id: EMAPA:18949
 name: soft palate
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:18948 ! palate
+relationship: part_of EMAPA:18948 ! secondary palate
 relationship: starts_at TS:21 ! TS21
 
 [Term]
@@ -21200,7 +21202,7 @@ id: EMAPA:18952
 name: hard palate
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:18948 ! palate
+relationship: part_of EMAPA:18948 ! secondary palate
 relationship: starts_at TS:24 ! TS24
 
 [Term]
@@ -43035,7 +43037,7 @@ name: palate epithelium
 namespace: anatomical_structure
 is_a: EMAPA:16839 ! oral region epithelium
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:18948 ! palate
+relationship: part_of EMAPA:18948 ! secondary palate
 relationship: starts_at TS:24 ! TS24
 
 [Term]
@@ -43044,7 +43046,7 @@ name: palate mesenchyme
 namespace: anatomical_structure
 is_a: EMAPA:35618 ! oral region mesenchyme
 relationship: ends_at TS:26 ! TS26
-relationship: part_of EMAPA:18948 ! palate
+relationship: part_of EMAPA:18948 ! secondary palate
 relationship: starts_at TS:24 ! TS24
 
 [Term]
@@ -48792,10 +48794,11 @@ relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:35637
-name: primary palate palatal rugae
+name: palatal rugae
 namespace: anatomical_structure
 relationship: ends_at TS:23 ! TS23
-relationship: part_of EMAPA:17642 ! primary palate
+relationship: part_of EMAPA:17362 ! palatal shelf
+relationship: part_of EMAPA:18948 ! secondary palate
 relationship: starts_at TS:21 ! TS21
 
 [Term]
@@ -48812,7 +48815,7 @@ name: primary palate palatal rugae epithelium
 namespace: anatomical_structure
 is_a: EMAPA:16839 ! oral region epithelium
 relationship: ends_at TS:23 ! TS23
-relationship: part_of EMAPA:35637 ! primary palate palatal rugae
+relationship: part_of EMAPA:35637 ! palatal rugae
 relationship: starts_at TS:22 ! TS22
 
 [Term]
@@ -48830,7 +48833,7 @@ name: primary palate palatal rugae mesenchyme
 namespace: anatomical_structure
 is_a: EMAPA:35618 ! oral region mesenchyme
 relationship: ends_at TS:23 ! TS23
-relationship: part_of EMAPA:35637 ! primary palate palatal rugae
+relationship: part_of EMAPA:35637 ! palatal rugae
 relationship: starts_at TS:22 ! TS22
 
 [Term]
@@ -69953,7 +69956,7 @@ id: EMAPA:38189
 name: geschmacksstreifen
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:18948 ! palate
+relationship: part_of EMAPA:18948 ! secondary palate
 relationship: starts_at TS:28 ! TS28
 
 [Term]
