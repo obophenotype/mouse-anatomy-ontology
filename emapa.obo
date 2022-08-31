@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2022-08-26
-date: 26:08:2022 17:06
+data-version: releases/2022-08-31
+date: 31:08:2022 11:16
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -9416,7 +9416,7 @@ id: EMAPA:17359
 name: maxillary process
 namespace: anatomical_structure
 is_a: EMAPA:38183 ! facial prominence
-relationship: part_of EMAPA:16262 ! oral region
+relationship: part_of EMAPA:38026 ! upper jaw primordium
 relationship: starts_at TS:19 ! TS19
 
 [Term]
@@ -17442,8 +17442,6 @@ relationship: starts_at TS:20 ! TS20
 id: EMAPA:18439
 name: inferior cervical ganglion
 namespace: anatomical_structure
-synonym: "cervico-thoracic" RELATED []
-synonym: "stellate ganglion" RELATED []
 is_a: EMAPA:18438 ! cervical ganglion
 relationship: starts_at TS:21 ! TS21
 
@@ -19478,10 +19476,12 @@ relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:18948
-name: palate
+name: secondary palate
 namespace: anatomical_structure
 synonym: "definitive palate" RELATED []
-synonym: "secondary palate" RELATED []
+synonym: "palate" RELATED []
+relationship: develops_from EMAPA:17362 ! palatal shelf
+relationship: develops_from EMAPA:17642 ! primary palate
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17924 ! upper jaw
 relationship: starts_at TS:21 ! TS21
@@ -19491,7 +19491,7 @@ id: EMAPA:18949
 name: soft palate
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:18948 ! palate
+relationship: part_of EMAPA:18948 ! secondary palate
 relationship: starts_at TS:21 ! TS21
 
 [Term]
@@ -19513,7 +19513,7 @@ id: EMAPA:18952
 name: hard palate
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:18948 ! palate
+relationship: part_of EMAPA:18948 ! secondary palate
 relationship: starts_at TS:24 ! TS24
 
 [Term]
@@ -34777,7 +34777,7 @@ id: EMAPA:29850
 name: corpus cavernosum of penile body
 namespace: anatomical_structure
 def: "The corpus cavernosum of penile body (syn: corpora cavernosa, crus, crura) (TS:28). Located within the penile body, paired erectile tissues that extend laterally from the base of the penis towards the pubic bone, and are anchored to the pubic bone on each ischial tuberosity." [PMID:25968320]
-synonym: "corpora cavernosa" RELATED []
+synonym: "corpora cavernosa of penile body" RELATED []
 synonym: "crura" RELATED []
 synonym: "crus" RELATED []
 relationship: ends_at TS:28 ! TS28
@@ -34799,7 +34799,7 @@ id: EMAPA:29856
 name: corpus cavernosum of glans penis
 namespace: anatomical_structure
 def: "The corpus cavernosum of glans penis (syn: corpora cavernosa plural) (TS:25-TS:28). Erectile tissues of the glans penis, including the corpus cavernosum urethra, two corpus cavernosum glandis, male urogenital mating protuberance corpus caveronosum." [PMID:25968320]
-synonym: "corpora cavernosa" RELATED []
+synonym: "corpora cavernosa of glans penis" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:18988 ! glans penis
 relationship: starts_at TS:25 ! TS25
@@ -34899,7 +34899,7 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:29884
 name: germinal cell of ruptured follicle
 namespace: anatomical_structure
-synonym: "granulosa of ruptured follicle" RELATED []
+synonym: "granulosa cell of ruptured follicle" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:29880 ! ovary ruptured follicle
 relationship: starts_at TS:28 ! TS28
@@ -35899,7 +35899,7 @@ relationship: part_of EMAPA:30777 ! ovary mature follicle
 id: EMAPA:30781
 name: germinal cell of mature follicle
 namespace: anatomical_structure
-synonym: "granulosa of mature follicle" RELATED []
+synonym: "granulosa cell of mature follicle" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:30777 ! ovary mature follicle
 relationship: starts_at TS:28 ! TS28
@@ -39929,7 +39929,7 @@ id: EMAPA:32810
 name: palate epithelium
 namespace: anatomical_structure
 is_a: EMAPA:16839 ! oral region epithelium
-relationship: part_of EMAPA:18948 ! palate
+relationship: part_of EMAPA:18948 ! secondary palate
 relationship: starts_at TS:24 ! TS24
 
 [Term]
@@ -39937,7 +39937,7 @@ id: EMAPA:32811
 name: palate mesenchyme
 namespace: anatomical_structure
 is_a: EMAPA:35618 ! oral region mesenchyme
-relationship: part_of EMAPA:18948 ! palate
+relationship: part_of EMAPA:18948 ! secondary palate
 relationship: starts_at TS:24 ! TS24
 
 [Term]
@@ -45134,7 +45134,6 @@ id: EMAPA:35632
 name: ovary secondary follicle
 namespace: anatomical_structure
 alt_id: EMAPA:29862
-synonym: "antral follicle" RELATED []
 synonym: "secondary follicle" RELATED []
 is_a: EMAPA:35627 ! ovary follicle
 relationship: starts_at TS:28 ! TS28
@@ -45158,10 +45157,11 @@ relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:35637
-name: primary palate palatal rugae
+name: palatal rugae
 namespace: anatomical_structure
 relationship: ends_at TS:23 ! TS23
-relationship: part_of EMAPA:17642 ! primary palate
+relationship: part_of EMAPA:17362 ! palatal shelf
+relationship: part_of EMAPA:18948 ! secondary palate
 relationship: starts_at TS:21 ! TS21
 
 [Term]
@@ -45178,7 +45178,7 @@ name: primary palate palatal rugae epithelium
 namespace: anatomical_structure
 is_a: EMAPA:16839 ! oral region epithelium
 relationship: ends_at TS:23 ! TS23
-relationship: part_of EMAPA:35637 ! primary palate palatal rugae
+relationship: part_of EMAPA:35637 ! palatal rugae
 relationship: starts_at TS:22 ! TS22
 
 [Term]
@@ -45196,7 +45196,7 @@ name: primary palate palatal rugae mesenchyme
 namespace: anatomical_structure
 is_a: EMAPA:35618 ! oral region mesenchyme
 relationship: ends_at TS:23 ! TS23
-relationship: part_of EMAPA:35637 ! primary palate palatal rugae
+relationship: part_of EMAPA:35637 ! palatal rugae
 relationship: starts_at TS:22 ! TS22
 
 [Term]
@@ -49012,7 +49012,7 @@ id: EMAPA:36133
 name: urethral gland of pelvic urethra of female
 namespace: anatomical_structure
 def: "The urethral gland of pelvic urethra of female (syn: Skene's gland) (TS:27-TS:28). Epithelial urethral glands develop from the epithelium of the urethra. Develop from female urethral gland bud (TS:24-TS:26 and become female urethral gland (TS:27-TS:28) which is subdivided into urethral gland of pelvic urethra of female (part of the pelvic urethra) and urethral gland of clitoral urethra (part of the clitoral urethra)." [PMID:25968320]
-synonym: "Skene's gland" RELATED []
+synonym: "Skene's gland of pelvic urethra of female" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:28753 ! pelvic urethra of female
 relationship: part_of EMAPA:29653 ! female urethral gland
@@ -52757,6 +52757,7 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:36632
 name: corpus cavernosum of penis
 namespace: anatomical_structure
+synonym: "corpora cavernosa of penis" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:18682 ! penis
 relationship: starts_at TS:28 ! TS28
@@ -64281,7 +64282,7 @@ id: EMAPA:38189
 name: geschmacksstreifen
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:18948 ! palate
+relationship: part_of EMAPA:18948 ! secondary palate
 relationship: starts_at TS:28 ! TS28
 
 [Term]
