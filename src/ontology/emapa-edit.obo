@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 31:08:2022 11:16
+date: 01:09:2022 08:39
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -48811,7 +48811,7 @@ relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:35639
-name: primary palate palatal rugae epithelium
+name: palatal rugae epithelium
 namespace: anatomical_structure
 is_a: EMAPA:16839 ! oral region epithelium
 relationship: ends_at TS:23 ! TS23
@@ -48829,7 +48829,7 @@ relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:35641
-name: primary palate palatal rugae mesenchyme
+name: palatal rugae mesenchyme
 namespace: anatomical_structure
 is_a: EMAPA:35618 ! oral region mesenchyme
 relationship: ends_at TS:23 ! TS23
