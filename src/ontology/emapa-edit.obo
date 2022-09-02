@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 01:09:2022 08:39
+date: 02:09:2022 10:28
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -17391,6 +17391,7 @@ name: lymphatic system
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16104 ! cardiovascular system
+relationship: part_of EMAPA:18765 ! hemolymphoid system
 relationship: starts_at TS:17 ! TS17
 
 [Term]
@@ -47897,6 +47898,7 @@ relationship: starts_at TS:21 ! TS21
 id: EMAPA:35523
 name: lymph node
 namespace: anatomical_structure
+relationship: develops_from EMAPA:38036 ! lymph sac
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:18765 ! hemolymphoid system
 relationship: part_of EMAPA:36896 ! immune system
@@ -47971,6 +47973,7 @@ id: EMAPA:35532
 name: lymphatic vessel
 namespace: anatomical_structure
 is_a: EMAPA:35993 ! vascular element
+relationship: develops_from EMAPA:38036 ! lymph sac
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:18248 ! lymphatic system
 relationship: starts_at TS:22 ! TS22
