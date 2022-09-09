@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 02:09:2022 10:28
+date: 09:09:2022 14:18
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -20531,91 +20531,101 @@ relationship: starts_at TS:23 ! TS23
 
 [Term]
 id: EMAPA:18734
-name: forelimb digit 1 claw
+name: forelimb digit 1 nail
 namespace: anatomical_structure
-is_a: EMAPA:35349 ! forelimb claw
-relationship: ends_at TS:26 ! TS26
+synonym: "forelimb digit 1 claw" RELATED []
+is_a: EMAPA:35349 ! forelimb nail
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17429 ! forelimb digit 1
 relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:18735
-name: forelimb digit 2 claw
+name: forelimb digit 2 nail
 namespace: anatomical_structure
-is_a: EMAPA:35349 ! forelimb claw
-relationship: ends_at TS:26 ! TS26
+synonym: "forelimb digit 2 claw" RELATED []
+is_a: EMAPA:35349 ! forelimb nail
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17432 ! forelimb digit 2
 relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:18736
-name: forelimb digit 3 claw
+name: forelimb digit 3 nail
 namespace: anatomical_structure
-is_a: EMAPA:35349 ! forelimb claw
-relationship: ends_at TS:26 ! TS26
+synonym: "forelimb digit 3 claw" RELATED []
+is_a: EMAPA:35349 ! forelimb nail
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17435 ! forelimb digit 3
 relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:18737
-name: forelimb digit 4 claw
+name: forelimb digit 4 nail
 namespace: anatomical_structure
-is_a: EMAPA:35349 ! forelimb claw
-relationship: ends_at TS:26 ! TS26
+synonym: "forelimb digit 4 claw" RELATED []
+is_a: EMAPA:35349 ! forelimb nail
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17438 ! forelimb digit 4
 relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:18738
-name: forelimb digit 5 claw
+name: forelimb digit 5 nail
 namespace: anatomical_structure
-is_a: EMAPA:35349 ! forelimb claw
-relationship: ends_at TS:26 ! TS26
+synonym: "forelimb digit 5 claw" RELATED []
+is_a: EMAPA:35349 ! forelimb nail
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17441 ! forelimb digit 5
 relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:18739
-name: hindlimb digit 1 claw
+name: hindlimb digit 1 nail
 namespace: anatomical_structure
-is_a: EMAPA:36457 ! hindlimb claw
-relationship: ends_at TS:26 ! TS26
+synonym: "hindlimb digit 1 claw" RELATED []
+is_a: EMAPA:36457 ! hindlimb nail
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17460 ! hindlimb digit 1
 relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:18740
-name: hindlimb digit 2 claw
+name: hindlimb digit 2 nail
 namespace: anatomical_structure
-is_a: EMAPA:36457 ! hindlimb claw
-relationship: ends_at TS:26 ! TS26
+synonym: "hindlimb digit 2 claw" RELATED []
+is_a: EMAPA:36457 ! hindlimb nail
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17463 ! hindlimb digit 2
 relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:18741
-name: hindlimb digit 3 claw
+name: hindlimb digit 3 nail
 namespace: anatomical_structure
-is_a: EMAPA:36457 ! hindlimb claw
-relationship: ends_at TS:26 ! TS26
+synonym: "hindlimb digit 3 claw" RELATED []
+is_a: EMAPA:36457 ! hindlimb nail
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17466 ! hindlimb digit 3
 relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:18742
-name: hindlimb digit 4 claw
+name: hindlimb digit 4 nail
 namespace: anatomical_structure
-is_a: EMAPA:36457 ! hindlimb claw
-relationship: ends_at TS:26 ! TS26
+synonym: "hindlimb digit 4 claw" RELATED []
+is_a: EMAPA:36457 ! hindlimb nail
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17469 ! hindlimb digit 4
 relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:18743
-name: hindlimb digit 5 claw
+name: hindlimb digit 5 nail
 namespace: anatomical_structure
-is_a: EMAPA:36457 ! hindlimb claw
-relationship: ends_at TS:26 ! TS26
+synonym: "hindlimb digit 5 claw" RELATED []
+is_a: EMAPA:36457 ! hindlimb nail
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17472 ! hindlimb digit 5
 relationship: starts_at TS:24 ! TS24
 
@@ -46483,10 +46493,11 @@ relationship: starts_at TS:17 ! TS17
 
 [Term]
 id: EMAPA:35349
-name: forelimb claw
+name: forelimb nail
 namespace: anatomical_structure
+synonym: "forelimb claw" RELATED []
 is_a: EMAPA:35580 ! nail
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:32642 ! forelimb digit
 relationship: starts_at TS:24 ! TS24
 
@@ -55687,10 +55698,11 @@ relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:36457
-name: hindlimb claw
+name: hindlimb nail
 namespace: anatomical_structure
+synonym: "hindlimb claw" RELATED []
 is_a: EMAPA:35580 ! nail
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:32649 ! hindlimb digit
 relationship: starts_at TS:24 ! TS24
 
@@ -64383,17 +64395,18 @@ id: EMAPA:37507
 name: eponychium
 namespace: anatomical_structure
 synonym: "cuticle" RELATED []
-is_a: EMAPA:17528 ! epidermis
 relationship: ends_at TS:28 ! TS28
-relationship: starts_at TS:28 ! TS28
+relationship: part_of EMAPA:32728 ! limb epidermis
+relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:37508
 name: hyponychium
 namespace: anatomical_structure
-is_a: EMAPA:32787 ! epidermis cornified layer
 relationship: ends_at TS:28 ! TS28
-relationship: starts_at TS:28 ! TS28
+relationship: part_of EMAPA:32728 ! limb epidermis
+relationship: part_of EMAPA:32787 ! epidermis cornified layer
+relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:37509
