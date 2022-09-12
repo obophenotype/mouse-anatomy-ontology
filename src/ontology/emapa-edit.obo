@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 09:09:2022 14:18
+date: 12:09:2022 13:48
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -12189,7 +12189,7 @@ id: EMAPA:17595
 name: endolymphatic sac epithelium
 namespace: anatomical_structure
 is_a: EMAPA:32883 ! inner ear epithelium
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17593 ! endolymphatic sac
 relationship: starts_at TS:20 ! TS20
 
