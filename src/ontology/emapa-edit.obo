@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 26:09:2022 17:09
+date: 27:09:2022 13:10
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -22975,27 +22975,27 @@ relationship: starts_at TS:22 ! TS22
 
 [Term]
 id: EMAPA:19198
-name: sutures and fontanelles
+name: suture
 namespace: anatomical_structure
+is_a: EMAPA:35344 ! fibrous joint
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:18016 ! vault of skull
-relationship: starts_at TS:25 ! TS25
+relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:19199
 name: anterior fontanelle
 namespace: anatomical_structure
+is_a: EMAPA:38210 ! fontanelle
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:19198 ! sutures and fontanelles
-relationship: starts_at TS:25 ! TS25
+relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:19200
 name: posterior fontanelle
 namespace: anatomical_structure
+is_a: EMAPA:38210 ! fontanelle
 relationship: ends_at TS:26 ! TS26
-relationship: part_of EMAPA:19198 ! sutures and fontanelles
-relationship: starts_at TS:25 ! TS25
+relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:19201
@@ -23177,49 +23177,50 @@ relationship: starts_at TS:25 ! TS25
 id: EMAPA:19224
 name: sagittal suture
 namespace: anatomical_structure
+is_a: EMAPA:35263 ! cranial suture
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:19198 ! sutures and fontanelles
-relationship: starts_at TS:25 ! TS25
+relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:19225
 name: coronal suture
 namespace: anatomical_structure
+is_a: EMAPA:35263 ! cranial suture
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:19198 ! sutures and fontanelles
-relationship: starts_at TS:25 ! TS25
+relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:19226
 name: metopic suture
 namespace: anatomical_structure
-relationship: ends_at TS:26 ! TS26
-relationship: part_of EMAPA:19198 ! sutures and fontanelles
-relationship: starts_at TS:25 ! TS25
+is_a: EMAPA:35263 ! cranial suture
+relationship: ends_at TS:28 ! TS28
+relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:19227
-name: lambdoidal suture
+name: lambdoid suture
 namespace: anatomical_structure
+synonym: "lambdoidal suture" RELATED []
+is_a: EMAPA:35263 ! cranial suture
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:19198 ! sutures and fontanelles
-relationship: starts_at TS:25 ! TS25
+relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:19228
 name: squamo-parietal suture
 namespace: anatomical_structure
+is_a: EMAPA:35263 ! cranial suture
 relationship: ends_at TS:26 ! TS26
-relationship: part_of EMAPA:19198 ! sutures and fontanelles
-relationship: starts_at TS:25 ! TS25
+relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:19229
 name: sphenoidal fontanelle
 namespace: anatomical_structure
+is_a: EMAPA:38210 ! fontanelle
 relationship: ends_at TS:26 ! TS26
-relationship: part_of EMAPA:19198 ! sutures and fontanelles
-relationship: starts_at TS:25 ! TS25
+relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:19234
@@ -45823,9 +45824,10 @@ relationship: starts_at TS:23 ! TS23
 id: EMAPA:35263
 name: cranial suture
 namespace: anatomical_structure
+is_a: EMAPA:38208 ! craniofacial suture
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17681 ! chondrocranium
-relationship: starts_at TS:27 ! TS27
+relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:35264
@@ -46454,7 +46456,7 @@ name: fibrous joint
 namespace: anatomical_structure
 is_a: EMAPA:35456 ! skeletal joint
 relationship: ends_at TS:28 ! TS28
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:35345
@@ -46565,17 +46567,17 @@ relationship: starts_at TS:26 ! TS26
 id: EMAPA:35358
 name: frontal suture
 namespace: anatomical_structure
+is_a: EMAPA:35263 ! cranial suture
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:35263 ! cranial suture
-relationship: starts_at TS:27 ! TS27
+relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:35359
 name: frontonasal suture
 namespace: anatomical_structure
+is_a: EMAPA:38208 ! craniofacial suture
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:35263 ! cranial suture
-relationship: starts_at TS:27 ! TS27
+relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:35360
@@ -70134,6 +70136,112 @@ namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: ends_at TS:28 ! TS28
 relationship: starts_at TS:22 ! TS22
+
+[Term]
+id: EMAPA:38208
+name: craniofacial suture
+namespace: anatomical_structure
+is_a: EMAPA:19198 ! suture
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:31858 ! head
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38209
+name: facial suture
+namespace: anatomical_structure
+is_a: EMAPA:38208 ! craniofacial suture
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:32763 ! face
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38210
+name: fontanelle
+namespace: anatomical_structure
+is_a: EMAPA:35263 ! cranial suture
+relationship: ends_at TS:28 ! TS28
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38211
+name: coronal suture frontal osteogenic front
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:19225 ! coronal suture
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38212
+name: coronal suture mesenchyme
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:19225 ! coronal suture
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38213
+name: coronal suture parietal osteogenic front
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:19225 ! coronal suture
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38214
+name: frontal suture frontal osteogenic front
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:19226 ! metopic suture
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38215
+name: frontal suture mesenchyme
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:19226 ! metopic suture
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38216
+name: lambdoid suture interparietal osteogenic front
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:19227 ! lambdoid suture
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38217
+name: lambdoid suture mesenchyme
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:19227 ! lambdoid suture
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38218
+name: lambdoid suture parietal osteogenic front
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:19227 ! lambdoid suture
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38219
+name: sagittal suture mesenchyme
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:19224 ! sagittal suture
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38220
+name: sagittal suture parietal osteogenic front
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:19224 ! sagittal suture
+relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: group_term
