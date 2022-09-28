@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 27:09:2022 13:10
+date: 28:09:2022 07:40
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -23191,8 +23191,10 @@ relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:19226
-name: metopic suture
+name: frontal suture
 namespace: anatomical_structure
+alt_id: EMAPA:35358
+synonym: "metopic suture" EXACT []
 is_a: EMAPA:35263 ! cranial suture
 relationship: ends_at TS:28 ! TS28
 relationship: starts_at TS:24 ! TS24
@@ -46562,14 +46564,6 @@ namespace: anatomical_structure
 is_a: EMAPA:35589 ! neocortex region
 relationship: ends_at TS:28 ! TS28
 relationship: starts_at TS:26 ! TS26
-
-[Term]
-id: EMAPA:35358
-name: frontal suture
-namespace: anatomical_structure
-is_a: EMAPA:35263 ! cranial suture
-relationship: ends_at TS:28 ! TS28
-relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:35359
@@ -70192,7 +70186,7 @@ id: EMAPA:38214
 name: frontal suture frontal osteogenic front
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:19226 ! metopic suture
+relationship: part_of EMAPA:19226 ! frontal suture
 relationship: starts_at TS:24 ! TS24
 
 [Term]
@@ -70200,7 +70194,7 @@ id: EMAPA:38215
 name: frontal suture mesenchyme
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:19226 ! metopic suture
+relationship: part_of EMAPA:19226 ! frontal suture
 relationship: starts_at TS:24 ! TS24
 
 [Term]
