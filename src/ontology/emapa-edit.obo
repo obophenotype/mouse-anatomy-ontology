@@ -6,6 +6,7 @@ default-namespace: mouse_ontology
 remark: Version 012
 ontology: emapa
 property_value: IAO:0000700 EMAPA:0
+property_value: IAO:0000700 TS:0
 
 [Term]
 id: EMAPA:0
