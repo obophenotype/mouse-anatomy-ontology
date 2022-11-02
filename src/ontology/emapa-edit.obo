@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 28:09:2022 07:40
+date: 18:10:2022 14:24
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -13579,15 +13579,15 @@ relationship: starts_at TS:21 ! TS21
 id: EMAPA:17752
 name: sublingual gland primordium
 namespace: anatomical_structure
+is_a: EMAPA:38221 ! salivary gland primordium
 relationship: ends_at TS:23 ! TS23
-relationship: part_of EMAPA:17751 ! salivary gland
 relationship: starts_at TS:21 ! TS21
 
 [Term]
 id: EMAPA:17753
 name: sublingual gland primordium epithelium
 namespace: anatomical_structure
-is_a: EMAPA:32816 ! salivary gland epithelium
+is_a: EMAPA:38222 ! salivary gland primordium epithelium
 relationship: ends_at TS:23 ! TS23
 relationship: part_of EMAPA:17752 ! sublingual gland primordium
 relationship: starts_at TS:21 ! TS21
@@ -13596,7 +13596,7 @@ relationship: starts_at TS:21 ! TS21
 id: EMAPA:17754
 name: sublingual gland primordium mesenchyme
 namespace: anatomical_structure
-is_a: EMAPA:32817 ! salivary gland mesenchyme
+is_a: EMAPA:38223 ! salivary gland primordium mesenchyme
 relationship: ends_at TS:23 ! TS23
 relationship: part_of EMAPA:17752 ! sublingual gland primordium
 relationship: starts_at TS:21 ! TS21
@@ -13606,29 +13606,29 @@ id: EMAPA:17755
 name: submandibular gland primordium
 namespace: anatomical_structure
 synonym: "submaxillary gland primordium" RELATED []
+is_a: EMAPA:38221 ! salivary gland primordium
 relationship: ends_at TS:23 ! TS23
-relationship: part_of EMAPA:17751 ! salivary gland
-relationship: starts_at TS:21 ! TS21
+relationship: starts_at TS:20 ! TS20
 
 [Term]
 id: EMAPA:17756
 name: submandibular gland primordium epithelium
 namespace: anatomical_structure
 synonym: "submaxillary gland primordium epithelium" RELATED []
-is_a: EMAPA:32816 ! salivary gland epithelium
+is_a: EMAPA:38222 ! salivary gland primordium epithelium
+is_a: EMAPA:38223 ! salivary gland primordium mesenchyme
 relationship: ends_at TS:23 ! TS23
 relationship: part_of EMAPA:17755 ! submandibular gland primordium
-relationship: starts_at TS:21 ! TS21
+relationship: starts_at TS:20 ! TS20
 
 [Term]
 id: EMAPA:17757
 name: submandibular gland primordium mesenchyme
 namespace: anatomical_structure
 synonym: "submaxillary gland primordium mesenchyme" RELATED []
-is_a: EMAPA:32817 ! salivary gland mesenchyme
 relationship: ends_at TS:23 ! TS23
 relationship: part_of EMAPA:17755 ! submandibular gland primordium
-relationship: starts_at TS:21 ! TS21
+relationship: starts_at TS:20 ! TS20
 
 [Term]
 id: EMAPA:17758
@@ -21012,7 +21012,7 @@ id: EMAPA:18810
 name: sublingual gland epithelium
 namespace: anatomical_structure
 is_a: EMAPA:32816 ! salivary gland epithelium
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:18809 ! sublingual gland
 relationship: starts_at TS:24 ! TS24
 
@@ -21041,7 +21041,7 @@ name: submandibular gland epithelium
 namespace: anatomical_structure
 synonym: "submaxillary gland epithelium" RELATED []
 is_a: EMAPA:32816 ! salivary gland epithelium
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:18812 ! submandibular gland
 relationship: starts_at TS:24 ! TS24
 
@@ -46347,7 +46347,7 @@ name: exocrine system
 namespace: anatomical_structure
 is_a: EMAPA:16103 ! organ system
 relationship: ends_at TS:28 ! TS28
-relationship: starts_at TS:21 ! TS21
+relationship: starts_at TS:20 ! TS20
 
 [Term]
 id: EMAPA:35330
@@ -46738,7 +46738,7 @@ relationship: starts_at TS:20 ! TS20
 id: EMAPA:35384
 name: greater epithelial ridge
 namespace: anatomical_structure
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35247 ! cochlea epithelium
 relationship: starts_at TS:23 ! TS23
 
@@ -49161,7 +49161,7 @@ name: periodontal ligament
 namespace: anatomical_structure
 is_a: EMAPA:37004 ! skeletal ligament
 relationship: ends_at TS:28 ! TS28
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:35680
@@ -70236,6 +70236,30 @@ namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:19224 ! sagittal suture
 relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38221
+name: salivary gland primordium
+namespace: anatomical_structure
+relationship: ends_at TS:23 ! TS23
+relationship: part_of EMAPA:35329 ! exocrine system
+relationship: starts_at TS:20 ! TS20
+
+[Term]
+id: EMAPA:38222
+name: salivary gland primordium epithelium
+namespace: anatomical_structure
+relationship: ends_at TS:23 ! TS23
+relationship: part_of EMAPA:38221 ! salivary gland primordium
+relationship: starts_at TS:20 ! TS20
+
+[Term]
+id: EMAPA:38223
+name: salivary gland primordium mesenchyme
+namespace: anatomical_structure
+relationship: ends_at TS:23 ! TS23
+relationship: part_of EMAPA:38221 ! salivary gland primordium
+relationship: starts_at TS:20 ! TS20
 
 [Term]
 id: group_term
