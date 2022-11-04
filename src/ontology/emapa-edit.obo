@@ -64140,7 +64140,7 @@ name: synovium
 namespace: anatomical_structure
 is_a: EMAPA:35251 ! connective tissue
 relationship: ends_at TS:28 ! TS28
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:37477
