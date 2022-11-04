@@ -67372,7 +67372,7 @@ name: hair follicle bulge
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:18771 ! hair follicle
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:37877
