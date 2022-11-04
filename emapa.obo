@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2022-08-31
-date: 31:08:2022 11:16
+data-version: releases/2022-11-04
+date: 18:10:2022 14:24
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -11273,7 +11273,6 @@ id: EMAPA:17595
 name: endolymphatic sac epithelium
 namespace: anatomical_structure
 is_a: EMAPA:32883 ! inner ear epithelium
-relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:17593 ! endolymphatic sac
 relationship: starts_at TS:20 ! TS20
 
@@ -12521,42 +12520,39 @@ is_a: EMAPA:35327 ! exocrine gland
 id: EMAPA:17752
 name: sublingual gland primordium
 namespace: anatomical_structure
-relationship: ends_at TS:23 ! TS23
-relationship: part_of EMAPA:17751 ! salivary gland
+is_a: EMAPA:38221 ! salivary gland primordium
 relationship: starts_at TS:21 ! TS21
 
 [Term]
 id: EMAPA:17753
 name: sublingual gland primordium epithelium
 namespace: anatomical_structure
-is_a: EMAPA:32816 ! salivary gland epithelium
-relationship: ends_at TS:23 ! TS23
+is_a: EMAPA:38222 ! salivary gland primordium epithelium
 relationship: part_of EMAPA:17752 ! sublingual gland primordium
+relationship: starts_at TS:21 ! TS21
 
 [Term]
 id: EMAPA:17754
 name: sublingual gland primordium mesenchyme
 namespace: anatomical_structure
-is_a: EMAPA:32817 ! salivary gland mesenchyme
-relationship: ends_at TS:23 ! TS23
+is_a: EMAPA:38223 ! salivary gland primordium mesenchyme
 relationship: part_of EMAPA:17752 ! sublingual gland primordium
+relationship: starts_at TS:21 ! TS21
 
 [Term]
 id: EMAPA:17755
 name: submandibular gland primordium
 namespace: anatomical_structure
 synonym: "submaxillary gland primordium" RELATED []
-relationship: ends_at TS:23 ! TS23
-relationship: part_of EMAPA:17751 ! salivary gland
-relationship: starts_at TS:21 ! TS21
+is_a: EMAPA:38221 ! salivary gland primordium
 
 [Term]
 id: EMAPA:17756
 name: submandibular gland primordium epithelium
 namespace: anatomical_structure
 synonym: "submaxillary gland primordium epithelium" RELATED []
-is_a: EMAPA:32816 ! salivary gland epithelium
-relationship: ends_at TS:23 ! TS23
+is_a: EMAPA:38222 ! salivary gland primordium epithelium
+is_a: EMAPA:38223 ! salivary gland primordium mesenchyme
 relationship: part_of EMAPA:17755 ! submandibular gland primordium
 
 [Term]
@@ -12564,9 +12560,9 @@ id: EMAPA:17757
 name: submandibular gland primordium mesenchyme
 namespace: anatomical_structure
 synonym: "submaxillary gland primordium mesenchyme" RELATED []
-is_a: EMAPA:32817 ! salivary gland mesenchyme
 relationship: ends_at TS:23 ! TS23
 relationship: part_of EMAPA:17755 ! submandibular gland primordium
+relationship: starts_at TS:20 ! TS20
 
 [Term]
 id: EMAPA:17758
@@ -15972,6 +15968,7 @@ name: lymphatic system
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16104 ! cardiovascular system
+relationship: part_of EMAPA:18765 ! hemolymphoid system
 relationship: starts_at TS:17 ! TS17
 
 [Term]
@@ -18904,72 +18901,82 @@ relationship: starts_at TS:23 ! TS23
 
 [Term]
 id: EMAPA:18734
-name: forelimb digit 1 claw
+name: forelimb digit 1 nail
 namespace: anatomical_structure
-is_a: EMAPA:35349 ! forelimb claw
+synonym: "forelimb digit 1 claw" RELATED []
+is_a: EMAPA:35349 ! forelimb nail
 relationship: part_of EMAPA:17429 ! forelimb digit 1
 
 [Term]
 id: EMAPA:18735
-name: forelimb digit 2 claw
+name: forelimb digit 2 nail
 namespace: anatomical_structure
-is_a: EMAPA:35349 ! forelimb claw
+synonym: "forelimb digit 2 claw" RELATED []
+is_a: EMAPA:35349 ! forelimb nail
 relationship: part_of EMAPA:17432 ! forelimb digit 2
 
 [Term]
 id: EMAPA:18736
-name: forelimb digit 3 claw
+name: forelimb digit 3 nail
 namespace: anatomical_structure
-is_a: EMAPA:35349 ! forelimb claw
+synonym: "forelimb digit 3 claw" RELATED []
+is_a: EMAPA:35349 ! forelimb nail
 relationship: part_of EMAPA:17435 ! forelimb digit 3
 
 [Term]
 id: EMAPA:18737
-name: forelimb digit 4 claw
+name: forelimb digit 4 nail
 namespace: anatomical_structure
-is_a: EMAPA:35349 ! forelimb claw
+synonym: "forelimb digit 4 claw" RELATED []
+is_a: EMAPA:35349 ! forelimb nail
 relationship: part_of EMAPA:17438 ! forelimb digit 4
 
 [Term]
 id: EMAPA:18738
-name: forelimb digit 5 claw
+name: forelimb digit 5 nail
 namespace: anatomical_structure
-is_a: EMAPA:35349 ! forelimb claw
+synonym: "forelimb digit 5 claw" RELATED []
+is_a: EMAPA:35349 ! forelimb nail
 relationship: part_of EMAPA:17441 ! forelimb digit 5
 
 [Term]
 id: EMAPA:18739
-name: hindlimb digit 1 claw
+name: hindlimb digit 1 nail
 namespace: anatomical_structure
-is_a: EMAPA:36457 ! hindlimb claw
+synonym: "hindlimb digit 1 claw" RELATED []
+is_a: EMAPA:36457 ! hindlimb nail
 relationship: part_of EMAPA:17460 ! hindlimb digit 1
 
 [Term]
 id: EMAPA:18740
-name: hindlimb digit 2 claw
+name: hindlimb digit 2 nail
 namespace: anatomical_structure
-is_a: EMAPA:36457 ! hindlimb claw
+synonym: "hindlimb digit 2 claw" RELATED []
+is_a: EMAPA:36457 ! hindlimb nail
 relationship: part_of EMAPA:17463 ! hindlimb digit 2
 
 [Term]
 id: EMAPA:18741
-name: hindlimb digit 3 claw
+name: hindlimb digit 3 nail
 namespace: anatomical_structure
-is_a: EMAPA:36457 ! hindlimb claw
+synonym: "hindlimb digit 3 claw" RELATED []
+is_a: EMAPA:36457 ! hindlimb nail
 relationship: part_of EMAPA:17466 ! hindlimb digit 3
 
 [Term]
 id: EMAPA:18742
-name: hindlimb digit 4 claw
+name: hindlimb digit 4 nail
 namespace: anatomical_structure
-is_a: EMAPA:36457 ! hindlimb claw
+synonym: "hindlimb digit 4 claw" RELATED []
+is_a: EMAPA:36457 ! hindlimb nail
 relationship: part_of EMAPA:17469 ! hindlimb digit 4
 
 [Term]
 id: EMAPA:18743
-name: hindlimb digit 5 claw
+name: hindlimb digit 5 nail
 namespace: anatomical_structure
-is_a: EMAPA:36457 ! hindlimb claw
+synonym: "hindlimb digit 5 claw" RELATED []
+is_a: EMAPA:36457 ! hindlimb nail
 relationship: part_of EMAPA:17472 ! hindlimb digit 5
 
 [Term]
@@ -19329,7 +19336,6 @@ id: EMAPA:18810
 name: sublingual gland epithelium
 namespace: anatomical_structure
 is_a: EMAPA:32816 ! salivary gland epithelium
-relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:18809 ! sublingual gland
 relationship: starts_at TS:24 ! TS24
 
@@ -19354,7 +19360,6 @@ name: submandibular gland epithelium
 namespace: anatomical_structure
 synonym: "submaxillary gland epithelium" RELATED []
 is_a: EMAPA:32816 ! salivary gland epithelium
-relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:18812 ! submandibular gland
 relationship: starts_at TS:24 ! TS24
 
@@ -21082,27 +21087,22 @@ relationship: starts_at TS:22 ! TS22
 
 [Term]
 id: EMAPA:19198
-name: sutures and fontanelles
+name: suture
 namespace: anatomical_structure
-relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:18016 ! vault of skull
-relationship: starts_at TS:25 ! TS25
+is_a: EMAPA:35344 ! fibrous joint
 
 [Term]
 id: EMAPA:19199
 name: anterior fontanelle
 namespace: anatomical_structure
-relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:19198 ! sutures and fontanelles
-relationship: starts_at TS:25 ! TS25
+is_a: EMAPA:38210 ! fontanelle
 
 [Term]
 id: EMAPA:19200
 name: posterior fontanelle
 namespace: anatomical_structure
+is_a: EMAPA:38210 ! fontanelle
 relationship: ends_at TS:26 ! TS26
-relationship: part_of EMAPA:19198 ! sutures and fontanelles
-relationship: starts_at TS:25 ! TS25
 
 [Term]
 id: EMAPA:19201
@@ -21272,49 +21272,42 @@ relationship: starts_at TS:25 ! TS25
 id: EMAPA:19224
 name: sagittal suture
 namespace: anatomical_structure
-relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:19198 ! sutures and fontanelles
-relationship: starts_at TS:25 ! TS25
+is_a: EMAPA:35263 ! cranial suture
 
 [Term]
 id: EMAPA:19225
 name: coronal suture
 namespace: anatomical_structure
-relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:19198 ! sutures and fontanelles
-relationship: starts_at TS:25 ! TS25
+is_a: EMAPA:35263 ! cranial suture
 
 [Term]
 id: EMAPA:19226
-name: metopic suture
+name: frontal suture
 namespace: anatomical_structure
-relationship: ends_at TS:26 ! TS26
-relationship: part_of EMAPA:19198 ! sutures and fontanelles
-relationship: starts_at TS:25 ! TS25
+alt_id: EMAPA:35358
+synonym: "metopic suture" EXACT []
+is_a: EMAPA:35263 ! cranial suture
 
 [Term]
 id: EMAPA:19227
-name: lambdoidal suture
+name: lambdoid suture
 namespace: anatomical_structure
-relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:19198 ! sutures and fontanelles
-relationship: starts_at TS:25 ! TS25
+synonym: "lambdoidal suture" RELATED []
+is_a: EMAPA:35263 ! cranial suture
 
 [Term]
 id: EMAPA:19228
 name: squamo-parietal suture
 namespace: anatomical_structure
+is_a: EMAPA:35263 ! cranial suture
 relationship: ends_at TS:26 ! TS26
-relationship: part_of EMAPA:19198 ! sutures and fontanelles
-relationship: starts_at TS:25 ! TS25
 
 [Term]
 id: EMAPA:19229
 name: sphenoidal fontanelle
 namespace: anatomical_structure
+is_a: EMAPA:38210 ! fontanelle
 relationship: ends_at TS:26 ! TS26
-relationship: part_of EMAPA:19198 ! sutures and fontanelles
-relationship: starts_at TS:25 ! TS25
 
 [Term]
 id: EMAPA:19234
@@ -42410,9 +42403,8 @@ is_a: EMAPA:36036 ! rib cartilage
 id: EMAPA:35263
 name: cranial suture
 namespace: anatomical_structure
-relationship: ends_at TS:28 ! TS28
+is_a: EMAPA:38208 ! craniofacial suture
 relationship: part_of EMAPA:17681 ! chondrocranium
-relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:35264
@@ -42894,7 +42886,7 @@ id: EMAPA:35329
 name: exocrine system
 namespace: anatomical_structure
 is_a: EMAPA:16103 ! organ system
-relationship: starts_at TS:21 ! TS21
+relationship: starts_at TS:20 ! TS20
 
 [Term]
 id: EMAPA:35330
@@ -42996,7 +42988,7 @@ id: EMAPA:35344
 name: fibrous joint
 namespace: anatomical_structure
 is_a: EMAPA:35456 ! skeletal joint
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:35345
@@ -43032,10 +43024,10 @@ relationship: part_of EMAPA:16895 ! forebrain
 
 [Term]
 id: EMAPA:35349
-name: forelimb claw
+name: forelimb nail
 namespace: anatomical_structure
+synonym: "forelimb claw" RELATED []
 is_a: EMAPA:35580 ! nail
-relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:32642 ! forelimb digit
 
 [Term]
@@ -43091,20 +43083,10 @@ is_a: EMAPA:35589 ! neocortex region
 relationship: starts_at TS:26 ! TS26
 
 [Term]
-id: EMAPA:35358
-name: frontal suture
-namespace: anatomical_structure
-relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:35263 ! cranial suture
-relationship: starts_at TS:27 ! TS27
-
-[Term]
 id: EMAPA:35359
 name: frontonasal suture
 namespace: anatomical_structure
-relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:35263 ! cranial suture
-relationship: starts_at TS:27 ! TS27
+is_a: EMAPA:38208 ! craniofacial suture
 
 [Term]
 id: EMAPA:35360
@@ -43259,7 +43241,7 @@ relationship: starts_at TS:20 ! TS20
 id: EMAPA:35384
 name: greater epithelial ridge
 namespace: anatomical_structure
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35247 ! cochlea epithelium
 relationship: starts_at TS:23 ! TS23
 
@@ -44324,6 +44306,7 @@ relationship: starts_at TS:21 ! TS21
 id: EMAPA:35523
 name: lymph node
 namespace: anatomical_structure
+relationship: develops_from EMAPA:38036 ! lymph sac
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:18765 ! hemolymphoid system
 relationship: part_of EMAPA:36896 ! immune system
@@ -44398,6 +44381,7 @@ id: EMAPA:35532
 name: lymphatic vessel
 namespace: anatomical_structure
 is_a: EMAPA:35993 ! vascular element
+relationship: develops_from EMAPA:38036 ! lymph sac
 relationship: part_of EMAPA:18248 ! lymphatic system
 relationship: starts_at TS:22 ! TS22
 
@@ -45174,7 +45158,7 @@ relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:35639
-name: primary palate palatal rugae epithelium
+name: palatal rugae epithelium
 namespace: anatomical_structure
 is_a: EMAPA:16839 ! oral region epithelium
 relationship: ends_at TS:23 ! TS23
@@ -45192,7 +45176,7 @@ relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:35641
-name: primary palate palatal rugae mesenchyme
+name: palatal rugae mesenchyme
 namespace: anatomical_structure
 is_a: EMAPA:35618 ! oral region mesenchyme
 relationship: ends_at TS:23 ! TS23
@@ -45486,7 +45470,7 @@ id: EMAPA:35679
 name: periodontal ligament
 namespace: anatomical_structure
 is_a: EMAPA:37004 ! skeletal ligament
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:35680
@@ -51440,10 +51424,10 @@ relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:36457
-name: hindlimb claw
+name: hindlimb nail
 namespace: anatomical_structure
+synonym: "hindlimb claw" RELATED []
 is_a: EMAPA:35580 ! nail
-relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:32649 ! hindlimb digit
 
 [Term]
@@ -59177,15 +59161,18 @@ id: EMAPA:37507
 name: eponychium
 namespace: anatomical_structure
 synonym: "cuticle" RELATED []
-is_a: EMAPA:17528 ! epidermis
-relationship: starts_at TS:28 ! TS28
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:32728 ! limb epidermis
+relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:37508
 name: hyponychium
 namespace: anatomical_structure
-is_a: EMAPA:32787 ! epidermis cornified layer
-relationship: starts_at TS:28 ! TS28
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:32728 ! limb epidermis
+relationship: part_of EMAPA:32787 ! epidermis cornified layer
+relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:37509
@@ -60992,6 +60979,7 @@ id: EMAPA:37758
 name: symphysis
 namespace: anatomical_structure
 is_a: EMAPA:35344 ! fibrous joint
+relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:37759
@@ -61884,7 +61872,7 @@ name: hair follicle bulge
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:18771 ! hair follicle
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:37877
@@ -64429,6 +64417,137 @@ synonym: "temporo-mandibular joint disk" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:19196 ! temporo-mandibular joint
 relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38207
+name: entopeduncular nucleus
+namespace: anatomical_structure
+is_a: EMAPA:35185 ! brain nucleus
+relationship: starts_at TS:22 ! TS22
+
+[Term]
+id: EMAPA:38208
+name: craniofacial suture
+namespace: anatomical_structure
+is_a: EMAPA:19198 ! suture
+relationship: part_of EMAPA:31858 ! head
+
+[Term]
+id: EMAPA:38209
+name: facial suture
+namespace: anatomical_structure
+is_a: EMAPA:38208 ! craniofacial suture
+relationship: part_of EMAPA:32763 ! face
+
+[Term]
+id: EMAPA:38210
+name: fontanelle
+namespace: anatomical_structure
+is_a: EMAPA:35263 ! cranial suture
+
+[Term]
+id: EMAPA:38211
+name: coronal suture frontal osteogenic front
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:19225 ! coronal suture
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38212
+name: coronal suture mesenchyme
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:19225 ! coronal suture
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38213
+name: coronal suture parietal osteogenic front
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:19225 ! coronal suture
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38214
+name: frontal suture frontal osteogenic front
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:19226 ! frontal suture
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38215
+name: frontal suture mesenchyme
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:19226 ! frontal suture
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38216
+name: lambdoid suture interparietal osteogenic front
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:19227 ! lambdoid suture
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38217
+name: lambdoid suture mesenchyme
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:19227 ! lambdoid suture
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38218
+name: lambdoid suture parietal osteogenic front
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:19227 ! lambdoid suture
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38219
+name: sagittal suture mesenchyme
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:19224 ! sagittal suture
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38220
+name: sagittal suture parietal osteogenic front
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:19224 ! sagittal suture
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38221
+name: salivary gland primordium
+namespace: anatomical_structure
+relationship: ends_at TS:23 ! TS23
+relationship: part_of EMAPA:35329 ! exocrine system
+relationship: starts_at TS:20 ! TS20
+
+[Term]
+id: EMAPA:38222
+name: salivary gland primordium epithelium
+namespace: anatomical_structure
+relationship: ends_at TS:23 ! TS23
+relationship: part_of EMAPA:38221 ! salivary gland primordium
+relationship: starts_at TS:20 ! TS20
+
+[Term]
+id: EMAPA:38223
+name: salivary gland primordium mesenchyme
+namespace: anatomical_structure
+relationship: ends_at TS:23 ! TS23
+relationship: part_of EMAPA:38221 ! salivary gland primordium
+relationship: starts_at TS:20 ! TS20
 
 [Term]
 id: TS:0
