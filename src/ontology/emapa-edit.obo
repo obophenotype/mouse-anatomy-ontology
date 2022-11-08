@@ -17153,7 +17153,7 @@ synonym: "fourth cranial nerve" RELATED []
 synonym: "trochlear IV nerve" RELATED []
 is_a: EMAPA:17264 ! cranial nerve
 relationship: ends_at TS:28 ! TS28
-relationship: starts_at TS:22 ! TS22
+relationship: starts_at TS:20 ! TS20
 
 [Term]
 id: EMAPA:18219
