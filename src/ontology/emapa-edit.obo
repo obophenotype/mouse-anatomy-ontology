@@ -12012,7 +12012,7 @@ synonym: "oculomotor III nerve" RELATED []
 synonym: "third cranial nerve" RELATED []
 is_a: EMAPA:17264 ! cranial nerve
 relationship: ends_at TS:28 ! TS28
-relationship: starts_at TS:20 ! TS20
+relationship: starts_at TS:17 ! TS17
 
 [Term]
 id: EMAPA:17575
