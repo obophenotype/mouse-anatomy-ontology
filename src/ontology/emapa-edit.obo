@@ -45127,7 +45127,7 @@ name: body fluid or substance
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:25765 ! mouse
-relationship: starts_at TS:15 ! TS15
+relationship: starts_at TS:13 ! TS13
 
 [Term]
 id: EMAPA:35179
@@ -58326,7 +58326,7 @@ name: amniotic fluid
 namespace: anatomical_structure
 is_a: EMAPA:35178 ! body fluid or substance
 relationship: ends_at TS:28 ! TS28
-relationship: starts_at TS:15 ! TS15
+relationship: starts_at TS:13 ! TS13
 
 [Term]
 id: EMAPA:36772
