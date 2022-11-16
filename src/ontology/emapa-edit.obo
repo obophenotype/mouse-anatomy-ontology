@@ -70445,40 +70445,48 @@ is_a: TS:0 ! Theiler stage
 [Typedef]
 id: attached_to
 name: attached_to
+xref: RO:0002371
 
 [Typedef]
 id: develops_from
 name: develops_from
 is_transitive: true
+xref: RO:0002202
 
 [Typedef]
 id: develops_in
 name: develops_in
+xref: RO:0002226
 
 [Typedef]
 id: ends_at
 name: ends_at
+xref: RO:0002493
 
 [Typedef]
 id: has_part
 name: has_part
 is_transitive: true
+xref: BFO:0000051
 
 [Typedef]
 id: is_a
 name: is_a
 is_transitive: true
+builtin: true
 
 [Typedef]
 id: located_in
 name: located_in
+xref: RO:0001025
 
 [Typedef]
 id: part_of
 name: part_of
 is_transitive: true
+xref: BFO:0000050
 
 [Typedef]
 id: starts_at
 name: starts_at
-
+xref: RO:0002489
