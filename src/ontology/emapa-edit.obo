@@ -23065,7 +23065,7 @@ synonym: "brown adipose tissue" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17525 ! skin
 relationship: part_of EMAPA:35112 ! adipose tissue
-relationship: starts_at TS:23 ! TS23
+relationship: starts_at TS:22 ! TS22
 
 [Term]
 id: EMAPA:19210
@@ -44552,7 +44552,7 @@ namespace: anatomical_structure
 synonym: "fat" RELATED []
 is_a: EMAPA:35251 ! connective tissue
 relationship: ends_at TS:28 ! TS28
-relationship: starts_at TS:23 ! TS23
+relationship: starts_at TS:22 ! TS22
 
 [Term]
 id: EMAPA:35113
