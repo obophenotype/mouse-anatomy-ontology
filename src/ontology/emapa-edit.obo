@@ -70314,14 +70314,6 @@ relationship: part_of EMAPA:35810 ! body of stomach
 relationship: starts_at TS:23 ! TS23
 
 [Term]
-id: group_term
-name: Group term
-
-[Term]
-id: Tmp_new_group
-name: Tmp new group
-
-[Term]
 id: TS:0
 name: Theiler stage
 namespace: theiler_stage
