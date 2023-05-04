@@ -70517,11 +70517,6 @@ name: has_part
 is_transitive: true
 
 [Typedef]
-id: is_a
-name: is_a
-is_transitive: true
-
-[Typedef]
 id: located_in
 name: located_in
 
