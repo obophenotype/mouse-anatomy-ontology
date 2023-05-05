@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 18:10:2022 14:24
+date: 05:05:2023 14:24
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -12548,7 +12548,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18917
 alt_id: EMAPA:27207
 is_a: EMAPA:17023 ! stomach epithelium
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17631 ! stomach pyloric region
 relationship: part_of EMAPA:27199 ! stomach pyloric region mucosa
 relationship: starts_at TS:20 ! TS20
@@ -14214,7 +14214,7 @@ namespace: anatomical_structure
 is_a: EMAPA:35336 ! eye surface region
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
-relationship: starts_at TS:21 ! TS21
+relationship: starts_at TS:19 ! TS19
 
 [Term]
 id: EMAPA:17830
@@ -18534,7 +18534,7 @@ id: EMAPA:18383
 name: stomach glandular region lumen
 namespace: anatomical_structure
 alt_id: EMAPA:18900
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17623 ! stomach glandular region
 relationship: part_of EMAPA:18395 ! stomach lumen
 relationship: starts_at TS:20 ! TS20
@@ -18544,7 +18544,7 @@ id: EMAPA:18384
 name: stomach proventricular region lumen
 namespace: anatomical_structure
 alt_id: EMAPA:18913
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17627 ! stomach proventricular region
 relationship: part_of EMAPA:18395 ! stomach lumen
 relationship: starts_at TS:20 ! TS20
@@ -18554,7 +18554,7 @@ id: EMAPA:18385
 name: stomach pyloric region lumen
 namespace: anatomical_structure
 alt_id: EMAPA:18918
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17631 ! stomach pyloric region
 relationship: part_of EMAPA:18395 ! stomach lumen
 relationship: starts_at TS:20 ! TS20
@@ -22082,12 +22082,11 @@ relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:19089
-name: gubernaculum
+name: gubernaculum of male
 namespace: anatomical_structure
 synonym: "caudal suspensory ligament" RELATED []
 is_a: EMAPA:28533 ! male associated reproductive structure
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:17968 ! male reproductive system
 relationship: starts_at TS:22 ! TS22
 
 [Term]
@@ -34196,7 +34195,7 @@ id: EMAPA:27169
 name: stomach glandular region submucosa
 namespace: anatomical_structure
 alt_id: EMAPA:27439
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17623 ! stomach glandular region
 relationship: starts_at TS:23 ! TS23
 
@@ -34215,7 +34214,7 @@ id: EMAPA:27173
 name: stomach glandular region serosa
 namespace: anatomical_structure
 alt_id: EMAPA:27447
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17623 ! stomach glandular region
 relationship: starts_at TS:23 ! TS23
 
@@ -34224,7 +34223,7 @@ id: EMAPA:27177
 name: stomach glandular region lamina propria
 namespace: anatomical_structure
 alt_id: EMAPA:27455
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:27167 ! stomach glandular region mucosa
 relationship: part_of EMAPA:36593 ! stomach lamina propria
 relationship: starts_at TS:23 ! TS23
@@ -34234,7 +34233,7 @@ id: EMAPA:27179
 name: stomach glandular region muscularis mucosa
 namespace: anatomical_structure
 alt_id: EMAPA:27463
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:27167 ! stomach glandular region mucosa
 relationship: starts_at TS:23 ! TS23
 
@@ -34262,7 +34261,7 @@ id: EMAPA:27185
 name: stomach proventricular region submucosa
 namespace: anatomical_structure
 alt_id: EMAPA:27471
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17627 ! stomach proventricular region
 relationship: starts_at TS:23 ! TS23
 
@@ -34281,7 +34280,7 @@ id: EMAPA:27189
 name: stomach proventricular region serosa
 namespace: anatomical_structure
 alt_id: EMAPA:27479
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17627 ! stomach proventricular region
 relationship: starts_at TS:23 ! TS23
 
@@ -34290,7 +34289,7 @@ id: EMAPA:27193
 name: stomach proventricular region lamina propria
 namespace: anatomical_structure
 alt_id: EMAPA:27487
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:27183 ! stomach proventricular region mucosa
 relationship: part_of EMAPA:36593 ! stomach lamina propria
 relationship: starts_at TS:23 ! TS23
@@ -34300,7 +34299,7 @@ id: EMAPA:27195
 name: stomach proventricular region gastric gland
 namespace: anatomical_structure
 alt_id: EMAPA:27491
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:27183 ! stomach proventricular region mucosa
 relationship: starts_at TS:23 ! TS23
 
@@ -34309,7 +34308,7 @@ id: EMAPA:27197
 name: stomach proventricular region muscularis mucosa
 namespace: anatomical_structure
 alt_id: EMAPA:27495
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:27183 ! stomach proventricular region mucosa
 relationship: starts_at TS:23 ! TS23
 
@@ -34328,7 +34327,7 @@ id: EMAPA:27201
 name: stomach pyloric region submucosa
 namespace: anatomical_structure
 alt_id: EMAPA:27503
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17631 ! stomach pyloric region
 relationship: starts_at TS:23 ! TS23
 
@@ -34337,7 +34336,7 @@ id: EMAPA:27205
 name: stomach pyloric region serosa
 namespace: anatomical_structure
 alt_id: EMAPA:27511
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17631 ! stomach pyloric region
 relationship: starts_at TS:23 ! TS23
 
@@ -34346,7 +34345,7 @@ id: EMAPA:27209
 name: stomach pyloric region lamina propria
 namespace: anatomical_structure
 alt_id: EMAPA:27519
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:27199 ! stomach pyloric region mucosa
 relationship: part_of EMAPA:36593 ! stomach lamina propria
 relationship: starts_at TS:23 ! TS23
@@ -34365,7 +34364,7 @@ id: EMAPA:27213
 name: stomach pyloric region muscularis mucosa
 namespace: anatomical_structure
 alt_id: EMAPA:27527
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:27199 ! stomach pyloric region mucosa
 relationship: starts_at TS:23 ! TS23
 
@@ -46403,7 +46402,7 @@ name: eye surface region
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
-relationship: starts_at TS:21 ! TS21
+relationship: starts_at TS:19 ! TS19
 
 [Term]
 id: EMAPA:35337
@@ -48659,7 +48658,7 @@ name: olfactory tubercle
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17779 ! olfactory cortex
-relationship: starts_at TS:27 ! TS27
+relationship: starts_at TS:22 ! TS22
 
 [Term]
 id: EMAPA:35617
@@ -70306,12 +70305,28 @@ relationship: part_of EMAPA:18768 ! thymus
 relationship: starts_at TS:27 ! TS27
 
 [Term]
-id: EMAPA:38227
+id: EMAPA:38228
 name: body of stomach gastric gland
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35810 ! body of stomach
 relationship: starts_at TS:23 ! TS23
+
+[Term]
+id: EMAPA:38229
+name: gubernaculum
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:17381 ! reproductive system
+relationship: starts_at TS:22 ! TS22
+
+[Term]
+id: EMAPA:38230
+name: gubernaculum of female
+namespace: anatomical_structure
+is_a: EMAPA:28540 ! female associated reproductive structure
+relationship: ends_at TS:28 ! TS28
+relationship: starts_at TS:22 ! TS22
 
 [Term]
 id: group_term
