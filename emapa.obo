@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2022-11-04
-date: 18:10:2022 14:24
+data-version: releases/2023-05-05
+date: 05:05:2023 14:24
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -7372,7 +7372,6 @@ id: EMAPA:17027
 name: stomach vascular element
 namespace: anatomical_structure
 is_a: EMAPA:35994 ! alimentary system vascular element
-relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:17021 ! stomach
 relationship: starts_at TS:17 ! TS17
 
@@ -11103,7 +11102,6 @@ synonym: "cranial nerve III" RELATED []
 synonym: "oculomotor III nerve" RELATED []
 synonym: "third cranial nerve" RELATED []
 is_a: EMAPA:17264 ! cranial nerve
-relationship: starts_at TS:20 ! TS20
 
 [Term]
 id: EMAPA:17575
@@ -11601,7 +11599,6 @@ namespace: anatomical_structure
 alt_id: EMAPA:18917
 alt_id: EMAPA:27207
 is_a: EMAPA:17023 ! stomach epithelium
-relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:27199 ! stomach pyloric region mucosa
 relationship: starts_at TS:20 ! TS20
 
@@ -13979,6 +13976,7 @@ alt_id: EMAPA:18686
 is_a: EMAPA:36000 ! germ cell of gonad
 relationship: part_of EMAPA:18685 ! seminiferous cord
 relationship: part_of EMAPA:29098 ! primary sex cord
+relationship: part_of EMAPA:31476 ! seminiferous tubule
 
 [Term]
 id: EMAPA:17980
@@ -15748,7 +15746,7 @@ synonym: "cranial nerve IV" RELATED []
 synonym: "fourth cranial nerve" RELATED []
 synonym: "trochlear IV nerve" RELATED []
 is_a: EMAPA:17264 ! cranial nerve
-relationship: starts_at TS:22 ! TS22
+relationship: starts_at TS:20 ! TS20
 
 [Term]
 id: EMAPA:18219
@@ -17022,7 +17020,7 @@ id: EMAPA:18383
 name: stomach glandular region lumen
 namespace: anatomical_structure
 alt_id: EMAPA:18900
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17623 ! stomach glandular region
 relationship: part_of EMAPA:18395 ! stomach lumen
 relationship: starts_at TS:20 ! TS20
@@ -17032,7 +17030,7 @@ id: EMAPA:18384
 name: stomach proventricular region lumen
 namespace: anatomical_structure
 alt_id: EMAPA:18913
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17627 ! stomach proventricular region
 relationship: part_of EMAPA:18395 ! stomach lumen
 relationship: starts_at TS:20 ! TS20
@@ -17042,7 +17040,7 @@ id: EMAPA:18385
 name: stomach pyloric region lumen
 namespace: anatomical_structure
 alt_id: EMAPA:18918
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17631 ! stomach pyloric region
 relationship: part_of EMAPA:18395 ! stomach lumen
 relationship: starts_at TS:20 ! TS20
@@ -20314,7 +20312,7 @@ relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:19089
-name: gubernaculum
+name: gubernaculum of male
 namespace: anatomical_structure
 synonym: "caudal suspensory ligament" RELATED []
 is_a: EMAPA:28533 ! male associated reproductive structure
@@ -21165,7 +21163,7 @@ synonym: "brown adipose tissue" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17525 ! skin
 relationship: part_of EMAPA:35112 ! adipose tissue
-relationship: starts_at TS:23 ! TS23
+relationship: starts_at TS:22 ! TS22
 
 [Term]
 id: EMAPA:19210
@@ -31483,7 +31481,7 @@ id: EMAPA:27169
 name: stomach glandular region submucosa
 namespace: anatomical_structure
 alt_id: EMAPA:27439
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17623 ! stomach glandular region
 relationship: starts_at TS:23 ! TS23
 
@@ -31500,7 +31498,7 @@ id: EMAPA:27173
 name: stomach glandular region serosa
 namespace: anatomical_structure
 alt_id: EMAPA:27447
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17623 ! stomach glandular region
 relationship: starts_at TS:23 ! TS23
 
@@ -31509,7 +31507,7 @@ id: EMAPA:27177
 name: stomach glandular region lamina propria
 namespace: anatomical_structure
 alt_id: EMAPA:27455
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:27167 ! stomach glandular region mucosa
 relationship: part_of EMAPA:36593 ! stomach lamina propria
 relationship: starts_at TS:23 ! TS23
@@ -31519,7 +31517,7 @@ id: EMAPA:27179
 name: stomach glandular region muscularis mucosa
 namespace: anatomical_structure
 alt_id: EMAPA:27463
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:27167 ! stomach glandular region mucosa
 relationship: starts_at TS:23 ! TS23
 
@@ -31528,7 +31526,7 @@ id: EMAPA:27181
 name: stomach glandular region gastric gland
 namespace: anatomical_structure
 alt_id: EMAPA:27459
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:27167 ! stomach glandular region mucosa
 relationship: starts_at TS:23 ! TS23
 
@@ -31545,7 +31543,7 @@ id: EMAPA:27185
 name: stomach proventricular region submucosa
 namespace: anatomical_structure
 alt_id: EMAPA:27471
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17627 ! stomach proventricular region
 relationship: starts_at TS:23 ! TS23
 
@@ -31562,7 +31560,7 @@ id: EMAPA:27189
 name: stomach proventricular region serosa
 namespace: anatomical_structure
 alt_id: EMAPA:27479
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17627 ! stomach proventricular region
 relationship: starts_at TS:23 ! TS23
 
@@ -31571,7 +31569,7 @@ id: EMAPA:27193
 name: stomach proventricular region lamina propria
 namespace: anatomical_structure
 alt_id: EMAPA:27487
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:27183 ! stomach proventricular region mucosa
 relationship: part_of EMAPA:36593 ! stomach lamina propria
 relationship: starts_at TS:23 ! TS23
@@ -31581,7 +31579,7 @@ id: EMAPA:27195
 name: stomach proventricular region gastric gland
 namespace: anatomical_structure
 alt_id: EMAPA:27491
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:27183 ! stomach proventricular region mucosa
 relationship: starts_at TS:23 ! TS23
 
@@ -31590,7 +31588,7 @@ id: EMAPA:27197
 name: stomach proventricular region muscularis mucosa
 namespace: anatomical_structure
 alt_id: EMAPA:27495
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:27183 ! stomach proventricular region mucosa
 relationship: starts_at TS:23 ! TS23
 
@@ -31607,7 +31605,7 @@ id: EMAPA:27201
 name: stomach pyloric region submucosa
 namespace: anatomical_structure
 alt_id: EMAPA:27503
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17631 ! stomach pyloric region
 relationship: starts_at TS:23 ! TS23
 
@@ -31616,7 +31614,7 @@ id: EMAPA:27205
 name: stomach pyloric region serosa
 namespace: anatomical_structure
 alt_id: EMAPA:27511
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17631 ! stomach pyloric region
 relationship: starts_at TS:23 ! TS23
 
@@ -31625,7 +31623,7 @@ id: EMAPA:27209
 name: stomach pyloric region lamina propria
 namespace: anatomical_structure
 alt_id: EMAPA:27519
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:27199 ! stomach pyloric region mucosa
 relationship: part_of EMAPA:36593 ! stomach lamina propria
 relationship: starts_at TS:23 ! TS23
@@ -31635,7 +31633,7 @@ id: EMAPA:27211
 name: stomach pyloric region gastric gland
 namespace: anatomical_structure
 alt_id: EMAPA:27523
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:27199 ! stomach pyloric region mucosa
 relationship: starts_at TS:23 ! TS23
 
@@ -31644,7 +31642,7 @@ id: EMAPA:27213
 name: stomach pyloric region muscularis mucosa
 namespace: anatomical_structure
 alt_id: EMAPA:27527
-relationship: ends_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:27199 ! stomach pyloric region mucosa
 relationship: starts_at TS:23 ! TS23
 
@@ -37032,24 +37030,21 @@ relationship: starts_at TS:27 ! TS27
 id: EMAPA:31482
 name: spermatogonium
 namespace: anatomical_structure
-relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:31476 ! seminiferous tubule
+is_a: EMAPA:17975 ! germ cell of testis
 relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:31484
 name: spermatocyte
 namespace: anatomical_structure
-relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:31476 ! seminiferous tubule
+is_a: EMAPA:17975 ! germ cell of testis
 relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:31486
 name: spermatid
 namespace: anatomical_structure
-relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:31476 ! seminiferous tubule
+is_a: EMAPA:17975 ! germ cell of testis
 relationship: starts_at TS:28 ! TS28
 
 [Term]
@@ -37058,8 +37053,7 @@ name: spermatozoon
 namespace: anatomical_structure
 synonym: "sperm" RELATED []
 synonym: "spermatozoa" RELATED []
-relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:31476 ! seminiferous tubule
+is_a: EMAPA:17975 ! germ cell of testis
 relationship: starts_at TS:28 ! TS28
 
 [Term]
@@ -41262,7 +41256,7 @@ name: adipose tissue
 namespace: anatomical_structure
 synonym: "fat" RELATED []
 is_a: EMAPA:35251 ! connective tissue
-relationship: starts_at TS:23 ! TS23
+relationship: starts_at TS:22 ! TS22
 
 [Term]
 id: EMAPA:35113
@@ -41786,7 +41780,7 @@ name: body fluid or substance
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:25765 ! mouse
-relationship: starts_at TS:15 ! TS15
+relationship: starts_at TS:13 ! TS13
 
 [Term]
 id: EMAPA:35179
@@ -42420,7 +42414,7 @@ name: crypt of lieberkuhn
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:32874 ! intestine
-relationship: starts_at TS:27 ! TS27
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:35267
@@ -42536,7 +42530,7 @@ id: EMAPA:35281
 name: dentin
 namespace: anatomical_structure
 is_a: EMAPA:35872 ! tooth substance
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:35282
@@ -42933,7 +42927,7 @@ name: eye surface region
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16198 ! eye
-relationship: starts_at TS:21 ! TS21
+relationship: starts_at TS:19 ! TS19
 
 [Term]
 id: EMAPA:35337
@@ -44184,7 +44178,7 @@ name: long bone epiphysis
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35503 ! long bone
-relationship: starts_at TS:24 ! TS24
+relationship: starts_at TS:23 ! TS23
 
 [Term]
 id: EMAPA:35509
@@ -44310,7 +44304,7 @@ relationship: develops_from EMAPA:38036 ! lymph sac
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:18765 ! hemolymphoid system
 relationship: part_of EMAPA:36896 ! immune system
-relationship: starts_at TS:27 ! TS27
+relationship: starts_at TS:25 ! TS25
 
 [Term]
 id: EMAPA:35524
@@ -44435,8 +44429,8 @@ relationship: starts_at TS:27 ! TS27
 id: EMAPA:35539
 name: mammary gland fat
 namespace: anatomical_structure
-relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:17759 ! mammary gland
+is_a: EMAPA:35112 ! adipose tissue
+relationship: part_of EMAPA:35537 ! mammary gland connective tissue
 relationship: starts_at TS:28 ! TS28
 
 [Term]
@@ -44999,7 +44993,7 @@ name: olfactory tubercle
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17779 ! olfactory cortex
-relationship: starts_at TS:27 ! TS27
+relationship: starts_at TS:22 ! TS22
 
 [Term]
 id: EMAPA:35617
@@ -46207,6 +46201,7 @@ name: small intestine crypt of lieberkuhn
 namespace: anatomical_structure
 is_a: EMAPA:35266 ! crypt of lieberkuhn
 relationship: part_of EMAPA:32834 ! small intestine
+relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:35778
@@ -46467,7 +46462,6 @@ id: EMAPA:35810
 name: body of stomach
 namespace: anatomical_structure
 is_a: EMAPA:35821 ! stomach region
-relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:35811
@@ -46911,7 +46905,7 @@ name: tooth substance
 namespace: anatomical_structure
 is_a: EMAPA:35178 ! body fluid or substance
 relationship: part_of EMAPA:32906 ! tooth
-relationship: starts_at TS:26 ! TS26
+relationship: starts_at TS:25 ! TS25
 
 [Term]
 id: EMAPA:35873
@@ -58930,7 +58924,7 @@ id: EMAPA:37476
 name: synovium
 namespace: anatomical_structure
 is_a: EMAPA:35251 ! connective tissue
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:37477
@@ -59390,9 +59384,8 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:37539
 name: femur epiphysis
 namespace: anatomical_structure
-relationship: ends_at TS:28 ! TS28
+is_a: EMAPA:35508 ! long bone epiphysis
 relationship: part_of EMAPA:19143 ! femur
-relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:37540
@@ -61078,9 +61071,8 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:37771
 name: tibia epiphysis
 namespace: anatomical_structure
-relationship: ends_at TS:28 ! TS28
+is_a: EMAPA:35508 ! long bone epiphysis
 relationship: part_of EMAPA:19142 ! tibia
-relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:37772
@@ -62065,7 +62057,7 @@ id: EMAPA:37901
 name: mammary fat pad
 namespace: anatomical_structure
 is_a: EMAPA:35340 ! fat pad
-relationship: part_of EMAPA:17759 ! mammary gland
+relationship: part_of EMAPA:35539 ! mammary gland fat
 relationship: starts_at TS:28 ! TS28
 
 [Term]
@@ -64548,6 +64540,60 @@ namespace: anatomical_structure
 relationship: ends_at TS:23 ! TS23
 relationship: part_of EMAPA:38221 ! salivary gland primordium
 relationship: starts_at TS:20 ! TS20
+
+[Term]
+id: EMAPA:38224
+name: humerus epiphysis
+namespace: anatomical_structure
+is_a: EMAPA:35508 ! long bone epiphysis
+relationship: part_of EMAPA:19106 ! humerus
+
+[Term]
+id: EMAPA:38225
+name: muscle blood vessel
+namespace: anatomical_structure
+is_a: EMAPA:32743 ! blood vessel
+relationship: part_of EMAPA:35988 ! skeletal muscle
+relationship: starts_at TS:27 ! TS27
+
+[Term]
+id: EMAPA:38226
+name: skin blood vessel
+namespace: anatomical_structure
+is_a: EMAPA:32743 ! blood vessel
+relationship: part_of EMAPA:17524 ! integumental system
+relationship: starts_at TS:27 ! TS27
+
+[Term]
+id: EMAPA:38227
+name: thymus blood vessel
+namespace: anatomical_structure
+is_a: EMAPA:32743 ! blood vessel
+relationship: part_of EMAPA:18768 ! thymus
+relationship: starts_at TS:27 ! TS27
+
+[Term]
+id: EMAPA:38228
+name: body of stomach gastric gland
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:35810 ! body of stomach
+relationship: starts_at TS:23 ! TS23
+
+[Term]
+id: EMAPA:38229
+name: gubernaculum
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:17381 ! reproductive system
+relationship: starts_at TS:22 ! TS22
+
+[Term]
+id: EMAPA:38230
+name: gubernaculum of female
+namespace: anatomical_structure
+is_a: EMAPA:28540 ! female associated reproductive structure
+relationship: starts_at TS:22 ! TS22
 
 [Term]
 id: TS:0
