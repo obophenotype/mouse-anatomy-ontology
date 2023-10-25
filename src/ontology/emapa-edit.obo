@@ -70329,14 +70329,6 @@ relationship: ends_at TS:28 ! TS28
 relationship: starts_at TS:22 ! TS22
 
 [Term]
-id: group_term
-name: Group term
-
-[Term]
-id: Tmp_new_group
-name: Tmp new group
-
-[Term]
 id: TS:0
 name: Theiler stage
 namespace: theiler_stage
