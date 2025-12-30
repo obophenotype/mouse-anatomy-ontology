@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2023-11-14
-date: 02:10:2023 17:30
+data-version: releases/2025-12-30
+date: 30:12:2025 12:00
 saved-by: terryh
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: mouse_ontology
@@ -4775,8 +4775,9 @@ relationship: starts_at TS:15 ! TS15
 id: EMAPA:16679
 name: naso-lacrimal groove
 namespace: anatomical_structure
+synonym: "nasolacrimal groove" RELATED []
 relationship: ends_at TS:20 ! TS20
-relationship: part_of EMAPA:16542 ! nose
+relationship: part_of EMAPA:32763 ! face
 relationship: starts_at TS:15 ! TS15
 
 [Term]
@@ -7705,6 +7706,7 @@ id: EMAPA:17073
 name: metencephalon alar plate
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
+relationship: is_a EMAPA:32915 ! hindbrain alar plate
 relationship: part_of EMAPA:17072 ! metencephalon lateral wall
 relationship: starts_at TS:18 ! TS18
 
@@ -7743,6 +7745,7 @@ id: EMAPA:17078
 name: metencephalon basal plate
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
+relationship: is_a EMAPA:32914 ! hindbrain basal plate
 relationship: part_of EMAPA:17072 ! metencephalon lateral wall
 relationship: starts_at TS:18 ! TS18
 
@@ -7790,6 +7793,7 @@ id: EMAPA:17084
 name: myelencephalon alar plate
 namespace: anatomical_structure
 relationship: ends_at TS:19 ! TS19
+relationship: is_a EMAPA:32915 ! hindbrain alar plate
 relationship: part_of EMAPA:17083 ! myelencephalon lateral wall
 relationship: starts_at TS:18 ! TS18
 
@@ -7820,6 +7824,7 @@ id: EMAPA:17088
 name: myelencephalon basal plate
 namespace: anatomical_structure
 relationship: ends_at TS:19 ! TS19
+relationship: is_a EMAPA:32914 ! hindbrain basal plate
 relationship: part_of EMAPA:17083 ! myelencephalon lateral wall
 relationship: starts_at TS:18 ! TS18
 
@@ -7989,6 +7994,7 @@ relationship: starts_at TS:18 ! TS18
 id: EMAPA:17167
 name: perioptic mesenchyme
 namespace: anatomical_structure
+synonym: "periocular mesenchyme" RELATED []
 is_a: EMAPA:16673 ! eye mesenchyme
 relationship: starts_at TS:18 ! TS18
 
@@ -10924,6 +10930,7 @@ id: EMAPA:17553
 name: medulla oblongata alar plate
 namespace: anatomical_structure
 relationship: ends_at TS:26 ! TS26
+relationship: is_a EMAPA:32915 ! hindbrain alar plate
 relationship: part_of EMAPA:17552 ! medulla oblongata lateral wall
 relationship: starts_at TS:20 ! TS20
 
@@ -10955,6 +10962,7 @@ id: EMAPA:17557
 name: medulla oblongata basal plate
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
+relationship: is_a EMAPA:32914 ! hindbrain basal plate
 relationship: part_of EMAPA:17552 ! medulla oblongata lateral wall
 relationship: starts_at TS:20 ! TS20
 
@@ -11195,6 +11203,7 @@ relationship: starts_at TS:20 ! TS20
 id: EMAPA:17585
 name: spinal cord ventricular layer
 namespace: anatomical_structure
+synonym: "spinal cord developing ependyma" RELATED []
 is_a: EMAPA:35209 ! ventricular layer
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:17579 ! spinal cord lateral wall
@@ -12193,7 +12202,9 @@ relationship: starts_at TS:20 ! TS20
 id: EMAPA:17709
 name: pleuro-peritoneal membrane
 namespace: anatomical_structure
-synonym: "pleuro-peritoneal folds" RELATED []
+synonym: "pleuro-peritoneal fold" RELATED []
+synonym: "pleuroperitoneal fold" RELATED []
+synonym: "pleuroperitoneal membrane" RELATED []
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:17701 ! diaphragm
 relationship: starts_at TS:20 ! TS20
@@ -12549,7 +12560,6 @@ name: submandibular gland primordium epithelium
 namespace: anatomical_structure
 synonym: "submaxillary gland primordium epithelium" RELATED []
 is_a: EMAPA:38222 ! salivary gland primordium epithelium
-is_a: EMAPA:38223 ! salivary gland primordium mesenchyme
 relationship: part_of EMAPA:17755 ! submandibular gland primordium
 
 [Term]
@@ -13077,7 +13087,7 @@ relationship: starts_at TS:21 ! TS21
 id: EMAPA:17828
 name: choroidal vasculature
 namespace: anatomical_structure
-relationship: ends_at TS:28 ! TS28
+is_a: EMAPA:36729 ! vasculature
 relationship: part_of EMAPA:19077 ! optic choroid
 relationship: starts_at TS:21 ! TS21
 
@@ -13154,7 +13164,7 @@ name: lens
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:36594 ! eye anterior segment
-relationship: starts_at TS:21 ! TS21
+relationship: starts_at TS:20 ! TS20
 
 [Term]
 id: EMAPA:17839
@@ -13266,8 +13276,8 @@ relationship: starts_at TS:21 ! TS21
 id: EMAPA:17853
 name: naso-lacrimal duct
 namespace: anatomical_structure
+synonym: "nasolacrimal duct" RELATED []
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:16542 ! nose
 relationship: part_of EMAPA:19245 ! lacrimal drainage system
 relationship: starts_at TS:21 ! TS21
 
@@ -16178,7 +16188,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:18876
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17185 ! tongue
-relationship: starts_at TS:22 ! TS22
+relationship: starts_at TS:21 ! TS21
 
 [Term]
 id: EMAPA:18274
@@ -17593,6 +17603,7 @@ name: patellar ligament
 namespace: anatomical_structure
 alt_id: EMAPA:19139
 synonym: "ligamentum patellae" RELATED []
+synonym: "patellar tendon" RELATED []
 is_a: EMAPA:37004 ! skeletal ligament
 relationship: part_of EMAPA:17740 ! knee joint primordium
 relationship: part_of EMAPA:19137 ! knee joint
@@ -19209,7 +19220,7 @@ name: medulla oblongata rest of basal plate
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17557 ! medulla oblongata basal plate
-relationship: starts_at TS:24 ! TS24
+relationship: starts_at TS:23 ! TS23
 
 [Term]
 id: EMAPA:18787
@@ -19436,7 +19447,7 @@ name: colon
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:19252 ! large intestine
-relationship: starts_at TS:24 ! TS24
+relationship: starts_at TS:21 ! TS21
 
 [Term]
 id: EMAPA:18941
@@ -19444,7 +19455,6 @@ name: colon epithelium
 namespace: anatomical_structure
 is_a: EMAPA:35466 ! large intestine epithelium
 relationship: part_of EMAPA:27375 ! colon mucosa
-relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:18942
@@ -19586,49 +19596,55 @@ is_a: EMAPA:18964 ! pharyngeal constrictor muscle
 
 [Term]
 id: EMAPA:18967
-name: lower jaw gum
+name: lower jaw gingiva
 namespace: anatomical_structure
-is_a: EMAPA:35945 ! gum
+synonym: "lower jaw gum" RELATED []
+is_a: EMAPA:35945 ! gingiva
 relationship: part_of EMAPA:17906 ! lower jaw
 
 [Term]
 id: EMAPA:18968
-name: lower jaw gum epithelium
+name: lower jaw gingiva epithelium
 namespace: anatomical_structure
+synonym: "lower jaw gum epithelium" RELATED []
 is_a: EMAPA:35516 ! lower jaw epithelium
-is_a: EMAPA:35966 ! gum epithelium
-relationship: part_of EMAPA:18967 ! lower jaw gum
+is_a: EMAPA:35966 ! gingiva epithelium
+relationship: part_of EMAPA:18967 ! lower jaw gingiva
 
 [Term]
 id: EMAPA:18969
-name: lower jaw gum mesenchyme
+name: lower jaw gingiva mesenchyme
 namespace: anatomical_structure
+synonym: "lower jaw gum mesenchyme" RELATED []
 is_a: EMAPA:17916 ! lower jaw mesenchyme
-relationship: part_of EMAPA:18967 ! lower jaw gum
-relationship: starts_at TS:24 ! TS24
+is_a: EMAPA:38314 ! gingiva mesenchyme
+relationship: part_of EMAPA:18967 ! lower jaw gingiva
 
 [Term]
 id: EMAPA:18970
-name: upper jaw gum
+name: upper jaw gingiva
 namespace: anatomical_structure
-is_a: EMAPA:35945 ! gum
+synonym: "upper jaw gum" RELATED []
+is_a: EMAPA:35945 ! gingiva
 relationship: part_of EMAPA:17924 ! upper jaw
 
 [Term]
 id: EMAPA:18971
-name: upper jaw gum epithelium
+name: upper jaw gingiva epithelium
 namespace: anatomical_structure
+synonym: "upper jaw gum epithelium" RELATED []
 is_a: EMAPA:32862 ! upper jaw epithelium
-is_a: EMAPA:35966 ! gum epithelium
-relationship: part_of EMAPA:18970 ! upper jaw gum
+is_a: EMAPA:35966 ! gingiva epithelium
+relationship: part_of EMAPA:18970 ! upper jaw gingiva
 
 [Term]
 id: EMAPA:18972
-name: upper jaw gum mesenchyme
+name: upper jaw gingiva mesenchyme
 namespace: anatomical_structure
+synonym: "upper jaw gum mesenchyme" RELATED []
 is_a: EMAPA:17929 ! upper jaw mesenchyme
-relationship: part_of EMAPA:18970 ! upper jaw gum
-relationship: starts_at TS:24 ! TS24
+is_a: EMAPA:38314 ! gingiva mesenchyme
+relationship: part_of EMAPA:18970 ! upper jaw gingiva
 
 [Term]
 id: EMAPA:18976
@@ -20769,7 +20785,6 @@ id: EMAPA:19152
 name: orbital fat pad
 namespace: anatomical_structure
 is_a: EMAPA:35340 ! fat pad
-relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:16198 ! eye
 
 [Term]
@@ -20777,6 +20792,7 @@ id: EMAPA:19153
 name: Harderian gland
 namespace: anatomical_structure
 is_a: EMAPA:35334 ! eye gland
+relationship: starts_at TS:25 ! TS25
 
 [Term]
 id: EMAPA:19154
@@ -20831,6 +20847,7 @@ name: coronary artery
 namespace: anatomical_structure
 alt_id: EMAPA:25968
 is_a: EMAPA:35147 ! artery
+is_a: EMAPA:35397 ! heart blood vessel
 relationship: part_of EMAPA:17014 ! ascending aorta
 relationship: starts_at TS:21 ! TS21
 
@@ -20861,7 +20878,8 @@ is_a: EMAPA:19144 ! upper leg muscle
 id: EMAPA:19165
 name: levator ani
 namespace: anatomical_structure
-is_a: EMAPA:18185 ! pelvic girdle muscle
+is_a: EMAPA:35988 ! skeletal muscle
+is_a: EMAPA:37481 ! pelvis muscle
 relationship: starts_at TS:25 ! TS25
 
 [Term]
@@ -21371,7 +21389,7 @@ namespace: anatomical_structure
 synonym: "inferior olive" RELATED []
 is_a: EMAPA:32790 ! brainstem nucleus
 relationship: part_of EMAPA:18786 ! medulla oblongata rest of basal plate
-relationship: starts_at TS:26 ! TS26
+relationship: starts_at TS:23 ! TS23
 
 [Term]
 id: EMAPA:19242
@@ -21404,7 +21422,7 @@ namespace: anatomical_structure
 synonym: "tear duct" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35462 ! lacrimal apparatus
-relationship: starts_at TS:26 ! TS26
+relationship: starts_at TS:22 ! TS22
 
 [Term]
 id: EMAPA:19246
@@ -25518,6 +25536,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25145 ! C1 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25147
@@ -25526,6 +25545,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25145 ! C1 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25148
@@ -25559,6 +25579,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25150 ! Tl1 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25153
@@ -25567,6 +25588,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25150 ! Tl1 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25154
@@ -26240,6 +26262,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25223 ! C2 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25257
@@ -26249,6 +26272,7 @@ is_a: EMAPA:36718 ! spinal nerve dorsal root
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25223 ! C2 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25258
@@ -26265,6 +26289,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25224 ! C3 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25260
@@ -26273,6 +26298,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25225 ! C4 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25261
@@ -26281,6 +26307,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25225 ! C4 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25262
@@ -26289,6 +26316,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25226 ! C5 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25263
@@ -26297,6 +26325,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25226 ! C5 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25264
@@ -26305,6 +26334,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25227 ! C6 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25265
@@ -26313,6 +26343,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25227 ! C6 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25266
@@ -26321,6 +26352,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25228 ! C7 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25267
@@ -26329,6 +26361,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25228 ! C7 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25268
@@ -26337,6 +26370,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25230 ! L1 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25269
@@ -26345,6 +26379,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25230 ! L1 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25270
@@ -26353,6 +26388,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25231 ! L2 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25271
@@ -26361,6 +26397,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25231 ! L2 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25272
@@ -26369,6 +26406,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25232 ! L3 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25273
@@ -26377,6 +26415,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25232 ! L3 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25274
@@ -26385,6 +26424,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25233 ! L4 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25275
@@ -26393,6 +26433,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25233 ! L4 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25276
@@ -26401,6 +26442,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25234 ! L5 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25277
@@ -26409,6 +26451,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25234 ! L5 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25278
@@ -26417,6 +26460,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25235 ! L6 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25279
@@ -26425,6 +26469,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25235 ! L6 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25280
@@ -26441,6 +26486,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25236 ! S1 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25282
@@ -26449,6 +26495,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25237 ! S2 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25283
@@ -26457,6 +26504,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25237 ! S2 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25284
@@ -26465,6 +26513,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25238 ! S3 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25285
@@ -26473,6 +26522,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25238 ! S3 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25286
@@ -26481,6 +26531,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25239 ! S4 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25287
@@ -26489,6 +26540,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25239 ! S4 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25288
@@ -26497,6 +26549,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25240 ! T1 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25289
@@ -26505,6 +26558,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25240 ! T1 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25290
@@ -26513,6 +26567,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25249 ! T10 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25291
@@ -26521,6 +26576,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25250 ! T11 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25292
@@ -26529,6 +26585,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25250 ! T11 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25293
@@ -26537,6 +26594,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25249 ! T10 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25294
@@ -26545,6 +26603,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25251 ! T12 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25295
@@ -26553,6 +26612,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25251 ! T12 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25296
@@ -26561,6 +26621,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25252 ! T13 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25297
@@ -26569,6 +26630,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25241 ! T2 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25298
@@ -26577,6 +26639,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25241 ! T2 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25299
@@ -26585,6 +26648,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25242 ! T3 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25300
@@ -26593,6 +26657,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25242 ! T3 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25301
@@ -26601,6 +26666,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25243 ! T4 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25302
@@ -26609,6 +26675,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25243 ! T4 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25303
@@ -26617,6 +26684,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25244 ! T5 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25304
@@ -26625,6 +26693,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25244 ! T5 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25305
@@ -26633,6 +26702,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25245 ! T6 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25306
@@ -26641,6 +26711,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25245 ! T6 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25307
@@ -26649,6 +26720,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25246 ! T7 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25308
@@ -26657,6 +26729,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25246 ! T7 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25309
@@ -26665,6 +26738,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25247 ! T8 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25310
@@ -26673,6 +26747,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25247 ! T8 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25311
@@ -26681,6 +26756,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25248 ! T9 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25312
@@ -26689,6 +26765,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25248 ! T9 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25313
@@ -26697,6 +26774,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25252 ! T13 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25314
@@ -26705,6 +26783,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25213 ! Tl10 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25315
@@ -26713,6 +26792,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25213 ! Tl10 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25316
@@ -26721,6 +26801,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25214 ! Tl11 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25317
@@ -26729,6 +26810,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25214 ! Tl11 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25318
@@ -26737,6 +26819,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25215 ! Tl12 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25319
@@ -26745,6 +26828,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25215 ! Tl12 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25320
@@ -26753,6 +26837,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25216 ! Tl13 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25321
@@ -26761,6 +26846,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25216 ! Tl13 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25322
@@ -26769,6 +26855,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25217 ! Tl14 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25323
@@ -26777,6 +26864,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25217 ! Tl14 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25324
@@ -26785,6 +26873,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25218 ! Tl15 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25325
@@ -26793,6 +26882,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25218 ! Tl15 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25326
@@ -26801,6 +26891,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25219 ! Tl16 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25327
@@ -26809,6 +26900,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25219 ! Tl16 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25328
@@ -26817,6 +26909,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25220 ! Tl17 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25329
@@ -26825,6 +26918,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25220 ! Tl17 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25330
@@ -26833,6 +26927,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25221 ! Tl18 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25331
@@ -26841,6 +26936,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25221 ! Tl18 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25332
@@ -26849,6 +26945,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25222 ! Tl19 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25333
@@ -26857,6 +26954,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25222 ! Tl19 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25334
@@ -26865,6 +26963,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25205 ! Tl2 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25335
@@ -26873,6 +26972,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25205 ! Tl2 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25336
@@ -26881,6 +26981,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25206 ! Tl3 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25337
@@ -26889,6 +26990,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25206 ! Tl3 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25338
@@ -26897,6 +26999,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25207 ! Tl4 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25339
@@ -26905,6 +27008,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25207 ! Tl4 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25340
@@ -26913,6 +27017,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25208 ! Tl5 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25341
@@ -26921,6 +27026,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25208 ! Tl5 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25342
@@ -26929,6 +27035,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25209 ! Tl6 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25343
@@ -26937,6 +27044,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25209 ! Tl6 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25344
@@ -26945,6 +27053,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25210 ! Tl7 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25345
@@ -26953,6 +27062,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25210 ! Tl7 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25346
@@ -26961,6 +27071,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25211 ! Tl8 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25347
@@ -26969,6 +27080,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25211 ! Tl8 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25348
@@ -26977,6 +27089,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36718 ! spinal nerve dorsal root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25212 ! Tl9 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25349
@@ -26985,6 +27098,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36720 ! spinal nerve ventral root
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25212 ! Tl9 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:25350
@@ -30257,6 +30371,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25145 ! C1 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26561
@@ -30265,6 +30380,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25223 ! C2 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26563
@@ -30273,6 +30389,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25224 ! C3 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26565
@@ -30281,6 +30398,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25225 ! C4 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26567
@@ -30289,6 +30407,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25226 ! C5 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26569
@@ -30297,6 +30416,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25227 ! C6 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26571
@@ -30305,6 +30425,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25228 ! C7 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26573
@@ -30313,6 +30434,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25230 ! L1 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26575
@@ -30321,6 +30443,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25231 ! L2 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26577
@@ -30329,6 +30452,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25232 ! L3 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26579
@@ -30337,6 +30461,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25233 ! L4 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26581
@@ -30345,6 +30470,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25234 ! L5 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26583
@@ -30353,6 +30479,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25235 ! L6 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26585
@@ -30361,6 +30488,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25236 ! S1 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26587
@@ -30369,6 +30497,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25237 ! S2 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26589
@@ -30377,6 +30506,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25238 ! S3 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26591
@@ -30385,6 +30515,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25239 ! S4 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26593
@@ -30393,6 +30524,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25240 ! T1 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26595
@@ -30401,6 +30533,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25241 ! T2 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26597
@@ -30409,6 +30542,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25242 ! T3 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26599
@@ -30417,6 +30551,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25243 ! T4 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26601
@@ -30425,6 +30560,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25244 ! T5 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26603
@@ -30433,6 +30569,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25245 ! T6 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26605
@@ -30441,6 +30578,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25246 ! T7 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26607
@@ -30449,6 +30587,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25247 ! T8 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26609
@@ -30457,6 +30596,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25248 ! T9 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26611
@@ -30465,6 +30605,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25249 ! T10 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26613
@@ -30473,6 +30614,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25250 ! T11 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26615
@@ -30481,6 +30623,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25251 ! T12 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26617
@@ -30489,6 +30632,7 @@ namespace: anatomical_structure
 is_a: EMAPA:36719 ! spinal cord mixed spinal nerve
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:25252 ! T13 segmental spinal nerve
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:26619
@@ -31153,6 +31297,7 @@ namespace: anatomical_structure
 alt_id: EMAPA:27319
 is_a: EMAPA:35467 ! large intestine mucosa
 relationship: part_of EMAPA:17896 ! rectum
+relationship: starts_at TS:23 ! TS23
 
 [Term]
 id: EMAPA:27083
@@ -31769,7 +31914,6 @@ name: colon mucosa
 namespace: anatomical_structure
 is_a: EMAPA:35467 ! large intestine mucosa
 relationship: part_of EMAPA:18939 ! colon
-relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:27379
@@ -31777,7 +31921,7 @@ name: colon submucosa
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:18939 ! colon
-relationship: starts_at TS:24 ! TS24
+relationship: starts_at TS:22 ! TS22
 
 [Term]
 id: EMAPA:27383
@@ -35271,6 +35415,7 @@ id: EMAPA:30088
 name: lamina propria of bladder
 namespace: anatomical_structure
 def: "The lamina propria of bladder (lpbl) (TS:22-TS:28) is the thick mesenchymal cell layer of the bladder located between the urothelium and the detrusor muscle of bladder. Contains loose to dense (depending on region) connective tissue (marked by pro-collagen) many small blood vessels and nerves and thin, discontinuous wisps of smooth muscle (marked by smooth muscle markers; smooth muscle actin, desmin and actin). Contains nerve of lamina propria of bladder and is subdivided into suburothelial lamina propria of bladder (syn: suburothelial stroma of bladder, suburothelial mesenchyme of bladder, inner lamina propria of bladder) and outer lamina propria of bladder (syn: muscularis mesenchyme of bladder). These layers differ in their gene expression profile, presence of smooth muscle cells, vascularisation density and proliferation rates. During development the lamina propria of bladder is radially patterned into these two layers due to differentiation of the outer mesenchyme into smooth muscle." [PMID:25968320]
+synonym: "bladder mesenchymal layer" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:18321 ! bladder
 relationship: starts_at TS:22 ! TS22
@@ -38841,6 +38986,7 @@ relationship: starts_at TS:20 ! TS20
 id: EMAPA:32679
 name: brain ventricular layer
 namespace: anatomical_structure
+synonym: "brain developing ependyma" RELATED []
 is_a: EMAPA:35209 ! ventricular layer
 relationship: part_of EMAPA:16894 ! brain
 relationship: starts_at TS:17 ! TS17
@@ -40114,7 +40260,7 @@ name: telencephalon septum
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16910 ! telencephalon
-relationship: starts_at TS:22 ! TS22
+relationship: starts_at TS:20 ! TS20
 
 [Term]
 id: EMAPA:32838
@@ -40268,6 +40414,8 @@ namespace: anatomical_structure
 alt_id: EMAPA:32853
 alt_id: EMAPA:32854
 synonym: "isthmus" RELATED []
+synonym: "r0" RELATED []
+synonym: "rh0" RELATED []
 relationship: ends_at TS:26 ! TS26
 relationship: part_of EMAPA:16089 ! future brain
 relationship: part_of EMAPA:16894 ! brain
@@ -40722,6 +40870,7 @@ id: EMAPA:32914
 name: hindbrain basal plate
 namespace: anatomical_structure
 relationship: ends_at TS:26 ! TS26
+relationship: is_a EMAPA:38287 ! basal plate
 relationship: part_of EMAPA:32912 ! hindbrain lateral wall
 relationship: starts_at TS:18 ! TS18
 
@@ -40730,6 +40879,7 @@ id: EMAPA:32915
 name: hindbrain alar plate
 namespace: anatomical_structure
 relationship: ends_at TS:26 ! TS26
+relationship: is_a EMAPA:38286 ! alar plate
 relationship: part_of EMAPA:32912 ! hindbrain lateral wall
 relationship: starts_at TS:18 ! TS18
 
@@ -41371,7 +41521,7 @@ name: ankle joint
 namespace: anatomical_structure
 is_a: EMAPA:32635 ! hindlimb joint
 relationship: part_of EMAPA:32783 ! ankle
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:22 ! TS22
 
 [Term]
 id: EMAPA:35127
@@ -41919,9 +42069,9 @@ name: cecum
 namespace: anatomical_structure
 synonym: "caecum" RELATED []
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:16715 ! hindgut
+relationship: part_of EMAPA:16255 ! midgut
 relationship: part_of EMAPA:19252 ! large intestine
-relationship: starts_at TS:20 ! TS20
+relationship: starts_at TS:19 ! TS19
 
 [Term]
 id: EMAPA:35198
@@ -42195,7 +42345,7 @@ relationship: part_of EMAPA:17787 ! cerebellum
 id: EMAPA:35236
 name: cerebral cortex vascular element
 namespace: anatomical_structure
-is_a: EMAPA:35348 ! forebrain vascular element
+is_a: EMAPA:38317 ! telencephalon vascular element
 relationship: part_of EMAPA:17544 ! cerebral cortex
 relationship: starts_at TS:20 ! TS20
 
@@ -42610,7 +42760,7 @@ namespace: anatomical_structure
 synonym: "dorsal motor nucleus of vagus X nerve" RELATED []
 is_a: EMAPA:32790 ! brainstem nucleus
 relationship: part_of EMAPA:17550 ! medulla oblongata
-relationship: starts_at TS:27 ! TS27
+relationship: starts_at TS:22 ! TS22
 
 [Term]
 id: EMAPA:35292
@@ -42655,6 +42805,7 @@ name: dorsomedial hypothalamic nucleus
 namespace: anatomical_structure
 is_a: EMAPA:35417 ! hypothalamic nucleus
 relationship: part_of EMAPA:35419 ! hypothalamus medial zone
+relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:35301
@@ -42912,7 +43063,7 @@ name: eye gland
 namespace: anatomical_structure
 is_a: EMAPA:18425 ! gland
 relationship: part_of EMAPA:16198 ! eye
-relationship: starts_at TS:25 ! TS25
+relationship: starts_at TS:22 ! TS22
 
 [Term]
 id: EMAPA:35335
@@ -43237,9 +43388,10 @@ relationship: starts_at TS:20 ! TS20
 id: EMAPA:35384
 name: greater epithelial ridge
 namespace: anatomical_structure
+synonym: "Kolliker's organ" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35247 ! cochlea epithelium
-relationship: starts_at TS:23 ! TS23
+relationship: starts_at TS:21 ! TS21
 
 [Term]
 id: EMAPA:35385
@@ -43464,7 +43616,7 @@ name: hypothalamic nucleus
 namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: part_of EMAPA:17536 ! hypothalamus
-relationship: starts_at TS:24 ! TS24
+relationship: starts_at TS:23 ! TS23
 
 [Term]
 id: EMAPA:35418
@@ -43497,13 +43649,13 @@ name: hypothalamus periventricular zone
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17536 ! hypothalamus
-relationship: starts_at TS:24 ! TS24
+relationship: starts_at TS:23 ! TS23
 
 [Term]
 id: EMAPA:35422
 name: hypothalamus vascular element
 namespace: anatomical_structure
-is_a: EMAPA:35348 ! forebrain vascular element
+is_a: EMAPA:38318 ! diencephalon vascular element
 relationship: part_of EMAPA:17536 ! hypothalamus
 relationship: starts_at TS:20 ! TS20
 
@@ -43643,7 +43795,7 @@ namespace: anatomical_structure
 synonym: "intestinal mucosa" RELATED []
 is_a: EMAPA:36591 ! alimentary system mucosa
 relationship: part_of EMAPA:35444 ! intestine wall
-relationship: starts_at TS:24 ! TS24
+relationship: starts_at TS:21 ! TS21
 
 [Term]
 id: EMAPA:35441
@@ -43810,8 +43962,9 @@ relationship: part_of EMAPA:28310 ! outer renal medulla
 id: EMAPA:35462
 name: lacrimal apparatus
 namespace: anatomical_structure
-is_a: EMAPA:35336 ! eye surface region
-relationship: starts_at TS:26 ! TS26
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:32763 ! face
+relationship: starts_at TS:22 ! TS22
 
 [Term]
 id: EMAPA:35463
@@ -43821,7 +43974,6 @@ synonym: "lachrymal gland" RELATED []
 is_a: EMAPA:35327 ! exocrine gland
 is_a: EMAPA:35334 ! eye gland
 relationship: part_of EMAPA:35462 ! lacrimal apparatus
-relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:35464
@@ -43854,7 +44006,7 @@ namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35440 ! intestine mucosa
 relationship: part_of EMAPA:35470 ! large intestine wall
-relationship: starts_at TS:23 ! TS23
+relationship: starts_at TS:21 ! TS21
 
 [Term]
 id: EMAPA:35468
@@ -43878,7 +44030,6 @@ name: large intestine wall
 namespace: anatomical_structure
 is_a: EMAPA:35444 ! intestine wall
 relationship: part_of EMAPA:19252 ! large intestine
-relationship: starts_at TS:23 ! TS23
 
 [Term]
 id: EMAPA:35471
@@ -44134,7 +44285,7 @@ name: locus coeruleus
 namespace: anatomical_structure
 is_a: EMAPA:32790 ! brainstem nucleus
 relationship: part_of EMAPA:17563 ! pons
-relationship: starts_at TS:27 ! TS27
+relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:35503
@@ -44153,26 +44304,29 @@ relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:35505
-name: long bone epiphyseal plate
+name: epiphyseal plate
 namespace: anatomical_structure
+synonym: "epiphyseal growth plate" RELATED []
+synonym: "growth plate" RELATED []
+synonym: "long bone epiphyseal plate" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35503 ! long bone
 relationship: starts_at TS:23 ! TS23
 
 [Term]
 id: EMAPA:35506
-name: long bone epiphyseal plate hypertrophic zone
+name: epiphyseal plate hypertrophic zone
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:35505 ! long bone epiphyseal plate
+relationship: part_of EMAPA:35505 ! epiphyseal plate
 relationship: starts_at TS:23 ! TS23
 
 [Term]
 id: EMAPA:35507
-name: long bone epiphyseal plate proliferative zone
+name: epiphyseal plate proliferative zone
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:35505 ! long bone epiphyseal plate
+relationship: part_of EMAPA:35505 ! epiphyseal plate
 relationship: starts_at TS:23 ! TS23
 
 [Term]
@@ -44418,7 +44572,7 @@ name: mammary gland connective tissue
 namespace: anatomical_structure
 is_a: EMAPA:35251 ! connective tissue
 relationship: part_of EMAPA:17759 ! mammary gland
-relationship: starts_at TS:27 ! TS27
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:35538
@@ -44434,7 +44588,7 @@ name: mammary gland fat
 namespace: anatomical_structure
 is_a: EMAPA:35112 ! adipose tissue
 relationship: part_of EMAPA:35537 ! mammary gland connective tissue
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:25 ! TS25
 
 [Term]
 id: EMAPA:35541
@@ -44912,6 +45066,7 @@ relationship: starts_at TS:22 ! TS22
 id: EMAPA:35604
 name: occipital cortex
 namespace: anatomical_structure
+synonym: "occipital lobe" RELATED []
 is_a: EMAPA:35589 ! neocortex region
 relationship: starts_at TS:26 ! TS26
 
@@ -44922,7 +45077,7 @@ namespace: anatomical_structure
 synonym: "oculomotor III nucleus" RELATED []
 is_a: EMAPA:32790 ! brainstem nucleus
 relationship: part_of EMAPA:18215 ! midbrain tegmentum
-relationship: starts_at TS:27 ! TS27
+relationship: starts_at TS:22 ! TS22
 
 [Term]
 id: EMAPA:35607
@@ -44988,7 +45143,7 @@ name: olfactory tract
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17779 ! olfactory cortex
-relationship: starts_at TS:24 ! TS24
+relationship: starts_at TS:21 ! TS21
 
 [Term]
 id: EMAPA:35616
@@ -45230,19 +45385,19 @@ relationship: starts_at TS:19 ! TS19
 
 [Term]
 id: EMAPA:35649
-name: pancreas tip epithelium
+name: pancreas branching epithelium tip
 namespace: anatomical_structure
 relationship: ends_at TS:22 ! TS22
 relationship: part_of EMAPA:35645 ! pancreas epithelium
-relationship: starts_at TS:22 ! TS22
+relationship: starts_at TS:20 ! TS20
 
 [Term]
 id: EMAPA:35650
-name: pancreas trunk epithelium
+name: pancreas branching epithelium trunk
 namespace: anatomical_structure
 relationship: ends_at TS:22 ! TS22
 relationship: part_of EMAPA:35645 ! pancreas epithelium
-relationship: starts_at TS:22 ! TS22
+relationship: starts_at TS:20 ! TS20
 
 [Term]
 id: EMAPA:35651
@@ -45811,8 +45966,8 @@ id: EMAPA:35724
 name: red nucleus
 namespace: anatomical_structure
 is_a: EMAPA:32790 ! brainstem nucleus
-relationship: part_of EMAPA:17563 ! pons
-relationship: starts_at TS:27 ! TS27
+relationship: part_of EMAPA:18215 ! midbrain tegmentum
+relationship: starts_at TS:22 ! TS22
 
 [Term]
 id: EMAPA:35725
@@ -45933,7 +46088,7 @@ name: retina ganglion cell layer
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35742 ! retina layer
-relationship: starts_at TS:26 ! TS26
+relationship: starts_at TS:21 ! TS21
 
 [Term]
 id: EMAPA:35741
@@ -45949,7 +46104,7 @@ name: retina layer
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:18590 ! neural retina
-relationship: starts_at TS:23 ! TS23
+relationship: starts_at TS:21 ! TS21
 
 [Term]
 id: EMAPA:35744
@@ -46315,7 +46470,6 @@ name: spinal cord ependymal layer
 namespace: anatomical_structure
 is_a: EMAPA:37865 ! ependyma
 relationship: part_of EMAPA:17577 ! spinal cord
-relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:35792
@@ -46667,7 +46821,7 @@ name: suprachiasmatic nucleus
 namespace: anatomical_structure
 is_a: EMAPA:35185 ! brain nucleus
 relationship: part_of EMAPA:35419 ! hypothalamus medial zone
-relationship: starts_at TS:25 ! TS25
+relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:35842
@@ -46733,6 +46887,7 @@ relationship: starts_at TS:22 ! TS22
 id: EMAPA:35850
 name: taste bud
 namespace: anatomical_structure
+alt_id: EMAPA:37019
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17185 ! tongue
 relationship: starts_at TS:27 ! TS27
@@ -46812,7 +46967,7 @@ relationship: starts_at TS:22 ! TS22
 id: EMAPA:35860
 name: thalamus vascular element
 namespace: anatomical_structure
-is_a: EMAPA:35348 ! forebrain vascular element
+is_a: EMAPA:38318 ! diencephalon vascular element
 relationship: part_of EMAPA:17540 ! thalamus
 relationship: starts_at TS:20 ! TS20
 
@@ -47289,6 +47444,7 @@ relationship: starts_at TS:27 ! TS27
 id: EMAPA:35922
 name: vestibular membrane
 namespace: anatomical_structure
+synonym: "Reissner's membrane" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17598 ! cochlear duct
 relationship: starts_at TS:27 ! TS27
@@ -47466,8 +47622,9 @@ is_a: EMAPA:38098 ! limb primordium
 
 [Term]
 id: EMAPA:35945
-name: gum
+name: gingiva
 namespace: anatomical_structure
+synonym: "gum" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16262 ! oral region
 relationship: starts_at TS:22 ! TS22
@@ -47639,10 +47796,11 @@ relationship: starts_at TS:21 ! TS21
 
 [Term]
 id: EMAPA:35966
-name: gum epithelium
+name: gingiva epithelium
 namespace: anatomical_structure
+synonym: "gum epithelium" RELATED []
 is_a: EMAPA:32904 ! jaw epithelium
-relationship: part_of EMAPA:35945 ! gum
+relationship: part_of EMAPA:35945 ! gingiva
 relationship: starts_at TS:22 ! TS22
 
 [Term]
@@ -51878,7 +52036,7 @@ name: lacrimal gland epithelium
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35463 ! lacrimal gland
-relationship: starts_at TS:24 ! TS24
+relationship: starts_at TS:22 ! TS22
 
 [Term]
 id: EMAPA:36516
@@ -51916,8 +52074,9 @@ relationship: starts_at TS:20 ! TS20
 id: EMAPA:36520
 name: retina blood vessel
 namespace: anatomical_structure
-relationship: ends_at TS:28 ! TS28
+is_a: EMAPA:36610 ! head blood vessel
 relationship: part_of EMAPA:17168 ! retina
+relationship: part_of EMAPA:38253 ! eye vasculature
 relationship: starts_at TS:27 ! TS27
 
 [Term]
@@ -52147,14 +52306,13 @@ id: EMAPA:36554
 name: urine
 namespace: anatomical_structure
 is_a: EMAPA:35178 ! body fluid or substance
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:36555
 name: inguinal fat pad
 namespace: anatomical_structure
 is_a: EMAPA:35340 ! fat pad
-relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:36556
@@ -52491,8 +52649,9 @@ relationship: starts_at TS:24 ! TS24
 id: EMAPA:36600
 name: corticospinal tract
 namespace: anatomical_structure
+synonym: "pyramidal tract" RELATED []
 is_a: EMAPA:36605 ! nerve fiber tract
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:36601
@@ -52500,7 +52659,7 @@ name: cerebellum Purkinje cell cluster
 namespace: anatomical_structure
 relationship: ends_at TS:27 ! TS27
 relationship: part_of EMAPA:17787 ! cerebellum
-relationship: starts_at TS:23 ! TS23
+relationship: starts_at TS:22 ! TS22
 
 [Term]
 id: EMAPA:36602
@@ -52577,6 +52736,7 @@ name: cornea blood vessel
 namespace: anatomical_structure
 is_a: EMAPA:36610 ! head blood vessel
 relationship: part_of EMAPA:17161 ! cornea
+relationship: part_of EMAPA:38253 ! eye vasculature
 relationship: starts_at TS:28 ! TS28
 
 [Term]
@@ -52710,9 +52870,8 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:36629
 name: perineal muscle
 namespace: anatomical_structure
-is_a: EMAPA:35988 ! skeletal muscle
+is_a: EMAPA:37481 ! pelvis muscle
 relationship: part_of EMAPA:36628 ! perineum
-relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:36630
@@ -53011,6 +53170,7 @@ relationship: starts_at TS:22 ! TS22
 id: EMAPA:36668
 name: gonadal fat pad
 namespace: anatomical_structure
+synonym: "perigonadal fat pad" RELATED []
 is_a: EMAPA:35340 ! fat pad
 relationship: starts_at TS:28 ! TS28
 
@@ -53404,7 +53564,6 @@ namespace: anatomical_structure
 synonym: "posterior root" RELATED []
 synonym: "sensory root" RELATED []
 is_a: EMAPA:38243 ! spinal nerve root
-relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:36719
@@ -53412,7 +53571,7 @@ name: spinal cord mixed spinal nerve
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16990 ! segmental spinal nerve
-relationship: starts_at TS:26 ! TS26
+relationship: starts_at TS:17 ! TS17
 
 [Term]
 id: EMAPA:36720
@@ -53421,7 +53580,6 @@ namespace: anatomical_structure
 synonym: "anterior root" RELATED []
 synonym: "motor root" RELATED []
 is_a: EMAPA:38243 ! spinal nerve root
-relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:36721
@@ -53978,6 +54136,7 @@ is_a: EMAPA:36300 ! blood vessel elastic tissue
 id: EMAPA:36793
 name: heart apex
 namespace: anatomical_structure
+synonym: "apex of heart" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16105 ! heart
 relationship: starts_at TS:13 ! TS13
@@ -54878,7 +55037,7 @@ name: lacrimal sac
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:17853 ! naso-lacrimal duct
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:36920
@@ -55406,6 +55565,7 @@ id: EMAPA:36989
 name: spinal cord dorsal column
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
+relationship: is_a EMAPA:38285 ! spinal cord column
 relationship: part_of EMAPA:35795 ! spinal cord white matter
 relationship: starts_at TS:28 ! TS28
 
@@ -55414,6 +55574,7 @@ id: EMAPA:36990
 name: spinal cord lateral column
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
+relationship: is_a EMAPA:38285 ! spinal cord column
 relationship: part_of EMAPA:35795 ! spinal cord white matter
 relationship: starts_at TS:28 ! TS28
 
@@ -55421,7 +55582,6 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:36991
 name: spinal cord lateral motor column
 namespace: anatomical_structure
-is_a: EMAPA:36990 ! spinal cord lateral column
 is_a: EMAPA:36993 ! spinal cord motor column
 
 [Term]
@@ -55435,7 +55595,8 @@ id: EMAPA:36993
 name: spinal cord motor column
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:35795 ! spinal cord white matter
+relationship: is_a EMAPA:38285 ! spinal cord column
+relationship: part_of EMAPA:35792 ! spinal cord gray matter
 relationship: starts_at TS:28 ! TS28
 
 [Term]
@@ -55443,6 +55604,7 @@ id: EMAPA:36994
 name: spinal cord ventral column
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
+relationship: is_a EMAPA:38285 ! spinal cord column
 relationship: part_of EMAPA:35795 ! spinal cord white matter
 relationship: starts_at TS:28 ! TS28
 
@@ -55616,21 +55778,13 @@ id: EMAPA:37017
 name: tongue squamous epitthelium
 namespace: anatomical_structure
 is_a: EMAPA:17881 ! tongue epithelium
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:37018
 name: tongue keratinized epithelium
 namespace: anatomical_structure
 is_a: EMAPA:37017 ! tongue squamous epitthelium
-
-[Term]
-id: EMAPA:37019
-name: tongue taste bud
-namespace: anatomical_structure
-relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:17185 ! tongue
-relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:37020
@@ -55931,7 +56085,7 @@ namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35104 ! abdominal segment of trunk
 relationship: part_of EMAPA:35577 ! musculature
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:23 ! TS23
 
 [Term]
 id: EMAPA:37061
@@ -56457,8 +56611,10 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:37137
 name: cardiac vein
 namespace: anatomical_structure
+synonym: "coronary vein" RELATED []
+is_a: EMAPA:35397 ! heart blood vessel
 is_a: EMAPA:35906 ! vein
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:26 ! TS26
 
 [Term]
 id: EMAPA:37138
@@ -57159,7 +57315,7 @@ name: trunk blood vessel
 namespace: anatomical_structure
 is_a: EMAPA:32743 ! blood vessel
 relationship: part_of EMAPA:31857 ! trunk
-relationship: starts_at TS:14 ! TS14
+relationship: starts_at TS:13 ! TS13
 
 [Term]
 id: EMAPA:37238
@@ -58267,6 +58423,8 @@ id: EMAPA:37387
 name: iris blood vessel
 namespace: anatomical_structure
 is_a: EMAPA:36610 ! head blood vessel
+relationship: part_of EMAPA:19154 ! iris
+relationship: part_of EMAPA:38253 ! eye vasculature
 relationship: starts_at TS:28 ! TS28
 
 [Term]
@@ -58274,6 +58432,8 @@ id: EMAPA:37388
 name: eyelid blood vessel
 namespace: anatomical_structure
 is_a: EMAPA:36610 ! head blood vessel
+relationship: part_of EMAPA:17829 ! eyelid
+relationship: part_of EMAPA:38253 ! eye vasculature
 relationship: starts_at TS:28 ! TS28
 
 [Term]
@@ -58281,6 +58441,7 @@ id: EMAPA:37389
 name: intersomitic blood vessel
 namespace: anatomical_structure
 is_a: EMAPA:37237 ! trunk blood vessel
+relationship: starts_at TS:14 ! TS14
 
 [Term]
 id: EMAPA:37390
@@ -58434,6 +58595,7 @@ id: EMAPA:37409
 name: anterior hypothalamic nucleus
 namespace: anatomical_structure
 is_a: EMAPA:35417 ! hypothalamic nucleus
+relationship: starts_at TS:24 ! TS24
 
 [Term]
 id: EMAPA:37410
@@ -58636,7 +58798,7 @@ name: Barrington's nucleus
 namespace: anatomical_structure
 is_a: EMAPA:32790 ! brainstem nucleus
 relationship: part_of EMAPA:17563 ! pons
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:37437
@@ -58771,6 +58933,7 @@ relationship: starts_at TS:28 ! TS28
 id: EMAPA:37454
 name: bulbospongiosus
 namespace: anatomical_structure
+synonym: "bulbocavernosus" RELATED []
 is_a: EMAPA:36629 ! perineal muscle
 
 [Term]
@@ -58778,6 +58941,7 @@ id: EMAPA:37455
 name: ischiocavernosus
 namespace: anatomical_structure
 is_a: EMAPA:36629 ! perineal muscle
+relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:37456
@@ -58959,21 +59123,22 @@ is_a: EMAPA:37479 ! enteric nerve
 id: EMAPA:37481
 name: pelvis muscle
 namespace: anatomical_structure
-relationship: ends_at TS:28 ! TS28
+is_a: EMAPA:37060 ! abdominal segment muscle
 relationship: part_of EMAPA:35931 ! pelvic region of trunk
-relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:37482
 name: coccygeus
 namespace: anatomical_structure
 is_a: EMAPA:37481 ! pelvis muscle
+relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:37483
 name: constrictor vulvae
 namespace: anatomical_structure
 is_a: EMAPA:37454 ! bulbospongiosus
+relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:37484
@@ -59169,11 +59334,11 @@ relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:37509
-name: proximal nail bed
+name: proximal nail fold
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35581 ! nail bed
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:37510
@@ -60005,7 +60170,7 @@ name: lacrimal canaliculus
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:35462 ! lacrimal apparatus
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:22 ! TS22
 
 [Term]
 id: EMAPA:37625
@@ -60460,7 +60625,7 @@ id: EMAPA:37687
 name: cleidocephalicus muscle
 namespace: anatomical_structure
 is_a: EMAPA:35988 ! skeletal muscle
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:37688
@@ -61185,11 +61350,12 @@ relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:37786
-name: urethra mesenchymal layer
+name: urethra mesenchyme
 namespace: anatomical_structure
+synonym: "urethra mesenchymal layer" RELATED []
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:30901 ! urethra
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:21 ! TS21
 
 [Term]
 id: EMAPA:37787
@@ -61568,6 +61734,7 @@ relationship: starts_at TS:26 ! TS26
 id: EMAPA:37836
 name: coronary sinus
 namespace: anatomical_structure
+is_a: EMAPA:35397 ! heart blood vessel
 is_a: EMAPA:37025 ! venous sinus
 relationship: starts_at TS:28 ! TS28
 
@@ -61953,18 +62120,21 @@ id: EMAPA:37887
 name: dorsal corticospinal tract
 namespace: anatomical_structure
 is_a: EMAPA:36600 ! corticospinal tract
+relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:37888
 name: lateral corticospinal tract
 namespace: anatomical_structure
 is_a: EMAPA:36600 ! corticospinal tract
+relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:37889
 name: ventral corticospinal tract
 namespace: anatomical_structure
 is_a: EMAPA:36600 ! corticospinal tract
+relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:37890
@@ -62016,10 +62186,10 @@ relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:37896
-name: long bone epiphyseal plate ossification zone
+name: epiphyseal plate ossification zone
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:35505 ! long bone epiphyseal plate
+relationship: part_of EMAPA:35505 ! epiphyseal plate
 relationship: starts_at TS:23 ! TS23
 
 [Term]
@@ -62060,7 +62230,6 @@ name: mammary fat pad
 namespace: anatomical_structure
 is_a: EMAPA:35340 ! fat pad
 relationship: part_of EMAPA:35539 ! mammary gland fat
-relationship: starts_at TS:28 ! TS28
 
 [Term]
 id: EMAPA:37902
@@ -62391,8 +62560,9 @@ id: EMAPA:37945
 name: pyramidal decussation
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:17550 ! medulla oblongata
 relationship: part_of EMAPA:36600 ! corticospinal tract
-relationship: starts_at TS:28 ! TS28
+relationship: starts_at TS:27 ! TS27
 
 [Term]
 id: EMAPA:37946
@@ -63027,10 +63197,10 @@ relationship: starts_at TS:19 ! TS19
 
 [Term]
 id: EMAPA:38028
-name: long bone epiphyseal plate resting zone
+name: epiphyseal plate resting zone
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
-relationship: part_of EMAPA:35505 ! long bone epiphyseal plate
+relationship: part_of EMAPA:35505 ! epiphyseal plate
 relationship: starts_at TS:23 ! TS23
 
 [Term]
@@ -64679,7 +64849,7 @@ name: spinal nerve root
 namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:16990 ! segmental spinal nerve
-relationship: starts_at TS:20 ! TS20
+relationship: starts_at TS:17 ! TS17
 
 [Term]
 id: EMAPA:38244
@@ -64688,6 +64858,552 @@ namespace: anatomical_structure
 relationship: ends_at TS:28 ! TS28
 relationship: part_of EMAPA:19042 ! allocortex
 relationship: starts_at TS:20 ! TS20
+
+[Term]
+id: EMAPA:38245
+name: hippocampus alveus
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:32845 ! hippocampus
+relationship: starts_at TS:28 ! TS28
+
+[Term]
+id: EMAPA:38246
+name: round spermatid
+namespace: anatomical_structure
+synonym: "early spermatid" RELATED []
+is_a: EMAPA:31486 ! spermatid
+
+[Term]
+id: EMAPA:38247
+name: elongated spermatid
+namespace: anatomical_structure
+synonym: "late spermatid" RELATED []
+is_a: EMAPA:31486 ! spermatid
+
+[Term]
+id: EMAPA:38248
+name: lateral olfactory tract
+namespace: anatomical_structure
+is_a: EMAPA:35615 ! olfactory tract
+
+[Term]
+id: EMAPA:38249
+name: medial olfactory tract
+namespace: anatomical_structure
+is_a: EMAPA:35615 ! olfactory tract
+
+[Term]
+id: EMAPA:38250
+name: enthesis
+namespace: anatomical_structure
+is_a: EMAPA:35251 ! connective tissue
+relationship: part_of EMAPA:32714 ! musculoskeletal system
+relationship: starts_at TS:27 ! TS27
+
+[Term]
+id: EMAPA:38251
+name: liver capsule
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:16846 ! liver
+relationship: starts_at TS:28 ! TS28
+
+[Term]
+id: EMAPA:38252
+name: base of heart
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:16105 ! heart
+relationship: starts_at TS:28 ! TS28
+
+[Term]
+id: EMAPA:38253
+name: eye vasculature
+namespace: anatomical_structure
+is_a: EMAPA:36729 ! vasculature
+relationship: part_of EMAPA:16198 ! eye
+
+[Term]
+id: EMAPA:38254
+name: medial lemniscus
+namespace: anatomical_structure
+is_a: EMAPA:36605 ! nerve fiber tract
+relationship: starts_at TS:28 ! TS28
+
+[Term]
+id: EMAPA:38255
+name: principal mammillary tract
+namespace: anatomical_structure
+is_a: EMAPA:36605 ! nerve fiber tract
+relationship: starts_at TS:28 ! TS28
+
+[Term]
+id: EMAPA:38256
+name: thalamocortical tract
+namespace: anatomical_structure
+is_a: EMAPA:36605 ! nerve fiber tract
+relationship: starts_at TS:26 ! TS26
+
+[Term]
+id: EMAPA:38257
+name: premammillary nucleus
+namespace: anatomical_structure
+is_a: EMAPA:35417 ! hypothalamic nucleus
+relationship: part_of EMAPA:35419 ! hypothalamus medial zone
+relationship: starts_at TS:28 ! TS28
+
+[Term]
+id: EMAPA:38258
+name: dorsal premammillary nucleus
+namespace: anatomical_structure
+is_a: EMAPA:38257 ! premammillary nucleus
+
+[Term]
+id: EMAPA:38259
+name: ventral premammillary nucleus
+namespace: anatomical_structure
+is_a: EMAPA:38257 ! premammillary nucleus
+
+[Term]
+id: EMAPA:38260
+name: magnocellular reticular nucleus
+namespace: anatomical_structure
+is_a: EMAPA:32790 ! brainstem nucleus
+relationship: part_of EMAPA:17550 ! medulla oblongata
+relationship: starts_at TS:26 ! TS26
+
+[Term]
+id: EMAPA:38261
+name: ventrolateral thalamic nucleus
+namespace: anatomical_structure
+synonym: "ventral lateral nucleus" RELATED []
+is_a: EMAPA:35859 ! thalamic nucleus
+relationship: starts_at TS:26 ! TS26
+
+[Term]
+id: EMAPA:38262
+name: mandibular process epithelium
+namespace: anatomical_structure
+is_a: EMAPA:16839 ! oral region epithelium
+relationship: ends_at TS:20 ! TS20
+relationship: part_of EMAPA:17355 ! mandibular process
+relationship: starts_at TS:20 ! TS20
+
+[Term]
+id: EMAPA:38263
+name: spinal cord brachial region
+namespace: anatomical_structure
+is_a: EMAPA:37048 ! spinal cord region
+
+[Term]
+id: EMAPA:38264
+name: 1st molar
+namespace: anatomical_structure
+is_a: EMAPA:32897 ! molar
+
+[Term]
+id: EMAPA:38265
+name: 2nd molar
+namespace: anatomical_structure
+is_a: EMAPA:32897 ! molar
+
+[Term]
+id: EMAPA:38266
+name: lower jaw 1st molar
+namespace: anatomical_structure
+is_a: EMAPA:17921 ! lower jaw molar
+is_a: EMAPA:38264 ! 1st molar
+
+[Term]
+id: EMAPA:38267
+name: lower jaw 2nd molar
+namespace: anatomical_structure
+is_a: EMAPA:17921 ! lower jaw molar
+is_a: EMAPA:38265 ! 2nd molar
+
+[Term]
+id: EMAPA:38268
+name: caudal lateral epiblast
+namespace: anatomical_structure
+is_a: EMAPA:36031 ! body region
+relationship: ends_at TS:13 ! TS13
+
+[Term]
+id: EMAPA:38269
+name: lens core
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:17838 ! lens
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38270
+name: lens cortex
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:17838 ! lens
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38271
+name: lens inner cortex
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:38270 ! lens cortex
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38272
+name: lens outer cortex
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:38270 ! lens cortex
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38273
+name: lens deep outer cortex
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:38272 ! lens outer cortex
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38274
+name: lens peripheral outer cortex
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:38272 ! lens outer cortex
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38275
+name: lens zone
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:17838 ! lens
+relationship: starts_at TS:20 ! TS20
+
+[Term]
+id: EMAPA:38276
+name: lens central zone
+namespace: anatomical_structure
+is_a: EMAPA:38275 ! lens zone
+
+[Term]
+id: EMAPA:38277
+name: lens pre-germinative zone
+namespace: anatomical_structure
+is_a: EMAPA:38275 ! lens zone
+
+[Term]
+id: EMAPA:38278
+name: lens germinative zone
+namespace: anatomical_structure
+is_a: EMAPA:38275 ! lens zone
+
+[Term]
+id: EMAPA:38279
+name: lens transition zone
+namespace: anatomical_structure
+is_a: EMAPA:38275 ! lens zone
+
+[Term]
+id: EMAPA:38280
+name: mesomere
+namespace: anatomical_structure
+is_a: EMAPA:38002 ! neuromere
+relationship: part_of EMAPA:16974 ! midbrain
+relationship: starts_at TS:17 ! TS17
+
+[Term]
+id: EMAPA:38281
+name: mesomere 1
+namespace: anatomical_structure
+is_a: EMAPA:38280 ! mesomere
+
+[Term]
+id: EMAPA:38282
+name: mesomere 2
+namespace: anatomical_structure
+synonym: "pre-isthmus" RELATED []
+is_a: EMAPA:38280 ! mesomere
+
+[Term]
+id: EMAPA:38283
+name: brain fiber tract
+namespace: anatomical_structure
+is_a: EMAPA:36605 ! nerve fiber tract
+relationship: starts_at TS:26 ! TS26
+
+[Term]
+id: EMAPA:38284
+name: gubernaculum dentis
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:32905 ! jaw
+relationship: starts_at TS:20 ! TS20
+
+[Term]
+id: EMAPA:38285
+name: spinal cord column
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:17577 ! spinal cord
+relationship: starts_at TS:28 ! TS28
+
+[Term]
+id: EMAPA:38286
+name: alar plate
+namespace: anatomical_structure
+is_a: EMAPA:16470 ! central nervous system
+relationship: ends_at TS:26 ! TS26
+relationship: starts_at TS:18 ! TS18
+
+[Term]
+id: EMAPA:38287
+name: basal plate
+namespace: anatomical_structure
+is_a: EMAPA:16470 ! central nervous system
+relationship: ends_at TS:26 ! TS26
+relationship: starts_at TS:18 ! TS18
+
+[Term]
+id: EMAPA:38288
+name: cranial mesenchyme
+namespace: anatomical_structure
+relationship: ends_at TS:23 ! TS23
+relationship: part_of EMAPA:16098 ! head mesenchyme
+relationship: starts_at TS:17 ! TS17
+
+[Term]
+id: EMAPA:38289
+name: supraorbital mesenchyme
+namespace: anatomical_structure
+synonym: "SOM" RELATED []
+relationship: ends_at TS:23 ! TS23
+relationship: part_of EMAPA:38288 ! cranial mesenchyme
+relationship: starts_at TS:17 ! TS17
+
+[Term]
+id: EMAPA:38290
+name: early migrating mesenchyme
+namespace: anatomical_structure
+synonym: "EMM" RELATED []
+relationship: ends_at TS:23 ! TS23
+relationship: part_of EMAPA:38288 ! cranial mesenchyme
+relationship: starts_at TS:20 ! TS20
+
+[Term]
+id: EMAPA:38291
+name: cecum epithelium
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:16569 ! midgut epithelium
+relationship: part_of EMAPA:35197 ! cecum
+relationship: starts_at TS:19 ! TS19
+
+[Term]
+id: EMAPA:38292
+name: cecum mesenchyme
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:16256 ! midgut mesenchyme
+relationship: part_of EMAPA:35197 ! cecum
+relationship: starts_at TS:19 ! TS19
+
+[Term]
+id: EMAPA:38293
+name: nictitating membrane
+namespace: anatomical_structure
+synonym: "3rd eyelid" RELATED []
+synonym: "third eyelid" RELATED []
+is_a: EMAPA:17829 ! eyelid
+relationship: starts_at TS:23 ! TS23
+
+[Term]
+id: EMAPA:38294
+name: glia limitans
+namespace: anatomical_structure
+synonym: "glial limiting membrane" RELATED []
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:16470 ! central nervous system
+relationship: starts_at TS:21 ! TS21
+
+[Term]
+id: EMAPA:38295
+name: ganglionic eminence mantle zone
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:32665 ! ganglionic eminence
+relationship: starts_at TS:20 ! TS20
+
+[Term]
+id: EMAPA:38296
+name: ganglionic eminence marginal zone
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:32665 ! ganglionic eminence
+relationship: starts_at TS:20 ! TS20
+
+[Term]
+id: EMAPA:38297
+name: ganglionic eminence subventricular zone
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:32665 ! ganglionic eminence
+relationship: starts_at TS:20 ! TS20
+
+[Term]
+id: EMAPA:38298
+name: ganglionic eminence ventricular zone
+namespace: anatomical_structure
+relationship: ends_at TS:28 ! TS28
+relationship: part_of EMAPA:32665 ! ganglionic eminence
+relationship: starts_at TS:20 ! TS20
+
+[Term]
+id: EMAPA:38299
+name: caudal ganglionic eminence mantle zone
+namespace: anatomical_structure
+is_a: EMAPA:38295 ! ganglionic eminence mantle zone
+relationship: part_of EMAPA:37469 ! caudal ganglionic eminence
+
+[Term]
+id: EMAPA:38300
+name: caudal ganglionic eminence marginal zone
+namespace: anatomical_structure
+is_a: EMAPA:38296 ! ganglionic eminence marginal zone
+relationship: part_of EMAPA:37469 ! caudal ganglionic eminence
+
+[Term]
+id: EMAPA:38301
+name: caudal ganglionic eminence subventricular zone
+namespace: anatomical_structure
+is_a: EMAPA:38297 ! ganglionic eminence subventricular zone
+relationship: part_of EMAPA:37469 ! caudal ganglionic eminence
+
+[Term]
+id: EMAPA:38302
+name: caudal ganglionic eminence ventricular zone
+namespace: anatomical_structure
+is_a: EMAPA:38298 ! ganglionic eminence ventricular zone
+relationship: part_of EMAPA:37469 ! caudal ganglionic eminence
+
+[Term]
+id: EMAPA:38303
+name: lateral ganglionic eminence mantle zone
+namespace: anatomical_structure
+is_a: EMAPA:38295 ! ganglionic eminence mantle zone
+relationship: part_of EMAPA:37470 ! lateral ganglionic eminence
+
+[Term]
+id: EMAPA:38304
+name: lateral ganglionic eminence marginal zone
+namespace: anatomical_structure
+is_a: EMAPA:38296 ! ganglionic eminence marginal zone
+relationship: part_of EMAPA:37470 ! lateral ganglionic eminence
+
+[Term]
+id: EMAPA:38305
+name: lateral ganglionic eminence subventricular zone
+namespace: anatomical_structure
+is_a: EMAPA:38297 ! ganglionic eminence subventricular zone
+relationship: part_of EMAPA:37470 ! lateral ganglionic eminence
+
+[Term]
+id: EMAPA:38306
+name: lateral ganglionic eminence ventricular zone
+namespace: anatomical_structure
+is_a: EMAPA:38298 ! ganglionic eminence ventricular zone
+relationship: part_of EMAPA:37470 ! lateral ganglionic eminence
+
+[Term]
+id: EMAPA:38307
+name: medial ganglionic eminence mantle zone
+namespace: anatomical_structure
+is_a: EMAPA:38295 ! ganglionic eminence mantle zone
+relationship: part_of EMAPA:37471 ! medial ganglionic eminence
+
+[Term]
+id: EMAPA:38308
+name: medial ganglionic eminence marginal zone
+namespace: anatomical_structure
+is_a: EMAPA:38296 ! ganglionic eminence marginal zone
+relationship: part_of EMAPA:37471 ! medial ganglionic eminence
+
+[Term]
+id: EMAPA:38309
+name: medial ganglionic eminence subventricular zone
+namespace: anatomical_structure
+is_a: EMAPA:38297 ! ganglionic eminence subventricular zone
+relationship: part_of EMAPA:37471 ! medial ganglionic eminence
+
+[Term]
+id: EMAPA:38310
+name: medial ganglionic eminence ventricular zone
+namespace: anatomical_structure
+is_a: EMAPA:38298 ! ganglionic eminence ventricular zone
+relationship: part_of EMAPA:37471 ! medial ganglionic eminence
+
+[Term]
+id: EMAPA:38311
+name: inferior lacrimal canaliculus
+namespace: anatomical_structure
+is_a: EMAPA:37624 ! lacrimal canaliculus
+
+[Term]
+id: EMAPA:38312
+name: superior lacrimal canaliculus
+namespace: anatomical_structure
+is_a: EMAPA:37624 ! lacrimal canaliculus
+
+[Term]
+id: EMAPA:38313
+name: lacrimal punctum
+namespace: anatomical_structure
+is_a: EMAPA:19245 ! lacrimal drainage system
+relationship: starts_at TS:27 ! TS27
+
+[Term]
+id: EMAPA:38314
+name: gingiva mesenchyme
+namespace: anatomical_structure
+synonym: "gum mesenchyme" RELATED []
+is_a: EMAPA:32907 ! jaw mesenchyme
+relationship: part_of EMAPA:35945 ! gingiva
+relationship: starts_at TS:24 ! TS24
+
+[Term]
+id: EMAPA:38315
+name: pharyngo-tympanic tube gland
+namespace: anatomical_structure
+synonym: "auditory tube gland" RELATED []
+synonym: "Eustachian tube gland" RELATED []
+is_a: EMAPA:37970 ! submucosal gland
+relationship: part_of EMAPA:17601 ! pharyngo-tympanic tube
+
+[Term]
+id: EMAPA:38316
+name: hindbrain vascular element
+namespace: anatomical_structure
+is_a: EMAPA:35186 ! brain vascular element
+relationship: part_of EMAPA:16916 ! hindbrain
+
+[Term]
+id: EMAPA:38317
+name: telencephalon vascular element
+namespace: anatomical_structure
+is_a: EMAPA:35348 ! forebrain vascular element
+relationship: part_of EMAPA:16910 ! telencephalon
+
+[Term]
+id: EMAPA:38318
+name: diencephalon vascular element
+namespace: anatomical_structure
+is_a: EMAPA:35348 ! forebrain vascular element
+relationship: part_of EMAPA:16896 ! diencephalon
 
 [Term]
 id: TS:0
