@@ -71321,14 +71321,6 @@ name: TS28
 namespace: theiler_stage
 is_a: TS:0 ! Theiler stage
 
-[Term]
-id: Tmp_new_group
-name: Tmp new group
-
-[Term]
-id: group_term
-name: Group term
-
 [Typedef]
 id: attached_to
 name: attached_to
